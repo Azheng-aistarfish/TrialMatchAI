@@ -1,0 +1,2511 @@
+{
+  "patient_id": "patient67890",
+  "patient_file": "../example/phenopacket.json",
+  "trials_evaluated": 200,
+  "trials_assessed": 200,
+  "complete": true,
+  "matched_trial_count": 10,
+  "matched_trials": [
+    {
+      "matched": true,
+      "match_score": 0.9,
+      "reason": "患者患有冠状动脉疾病，与试验研究的冠心病、动脉粥样硬化等疾病高度相关。试验无明确入排标准，性别无限制，患者信息足以支持可能匹配。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00005136"
+    },
+    {
+      "matched": true,
+      "match_score": 0.9,
+      "reason": "患者患有冠心病和心肌梗死病史，符合试验针对的高危心肌梗死风险人群。患者年龄58岁（>45岁），有糖尿病史，既往心肌梗死史，满足入组标准中的多项条件。无明确排除标准冲突。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00013741"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者为 58 岁男性，有明确的心肌梗死病史，符合试验针对的心肌梗死后患者人群。年龄（30-69 岁）和性别（不限）均符合入组标准。疾病类型（冠状动脉疾病、心肌梗死）与试验高度相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000492"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者为58岁男性，有心肌梗死病史，符合试验针对的心肌梗死后患者群体。年龄（18-75岁）和性别（不限）均符合入组标准。疾病相关性强（冠心病、心肌梗死）。但需确认患者是否存在无症状室性早搏（ventricular premature depolarization），这是关键入组条件，目前信息未明确提及。",
+      "missing_information": [
+        "是否存在无症状室性早搏（ventricular premature depolarization）",
+        "心肌梗死发生时间是否在6天至2年之间"
+      ],
+      "conflicts": [],
+      "trial_id": "NCT00000526"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者患有冠状动脉疾病（Coronary artery disease），与试验关注的心血管疾病（Cardiovascular Diseases, Coronary Disease）高度相关。患者年龄 58 岁，符合 18-75 岁的年龄要求。试验入排标准显示无特定限制，性别无要求。患者有高血压相关风险因素（如糖尿病、高胆固醇），符合试验评估心血管风险因素的目标。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000546"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者为 58 岁男性，符合年龄（40-59）和性别要求。患有冠状动脉疾病，有冠脉搭桥手术史（至少 3 个月前），且 LDL 水平高（>190 mg/dL），符合高胆固醇血症入组条件。非吸烟者（已戒烟），符合非吸烟要求。疾病高度相关（冠状动脉粥样硬化）。",
+      "missing_information": [
+        "确认冠脉搭桥手术是否至少 3 个月前",
+        "确认入组时空腹胆固醇水平是否在 185-270 mg/dL 范围内（摘要中截断，需确认上限）",
+        "确认是否有进行性动脉粥样硬化的血管造影证据"
+      ],
+      "conflicts": [],
+      "trial_id": "NCT00000599"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者患有冠状动脉疾病（Coronary artery disease），符合试验入组标准第1条（Coronary artery disease with angina or inducible myocardial ischemia）。患者有心肌梗死病史，虽未明确提及心绞痛或缺血，但心肌梗死通常伴随缺血。试验涵盖多种心脏疾病，患者信息基本满足入组条件。",
+      "missing_information": [
+        "是否有心绞痛或可诱导的心肌缺血（通过非侵入性测试确定）"
+      ],
+      "conflicts": [],
+      "trial_id": "NCT00001313"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者患有冠状动脉疾病（Coronary artery disease），与试验目标疾病（Heart Disease）高度相关。试验旨在筛选心脏疾病患者参与其他研究，患者符合基本疾病特征。无明确排除标准冲突，但需确认患者当前未参与其他心脏科研究协议。",
+      "missing_information": [
+        "当前是否参与其他心脏科研究协议"
+      ],
+      "conflicts": [],
+      "trial_id": "NCT00001400"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者患有冠状动脉疾病（Coronary artery disease），与试验目标疾病（Cardiovascular Disease）高度相关。入排标准中明确包含冠状动脉疾病患者，且患者年龄（58 岁）在允许范围内（最大 99 岁），性别无限制。无明确排除标准冲突（非孕妇，有知情同意能力）。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001458"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者患有冠状动脉疾病（Coronary artery disease）和心肌梗死病史，与试验针对的'Heart Disease'高度相关。入排标准允许有心脏疾病症状的患者，且排除了不稳定心绞痛、近期（1 个月内）心肌梗死后的不稳定病程及 NYHA IV 级心衰。患者虽有心肌梗死史，但描述为'later bypass surgery'，暗示病情已稳定，未提及近期不稳定情况，故无明显冲突。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001460"
+    }
+  ],
+  "all_assessments": [
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，试验针对先天性肾上腺增生症，疾病完全不相关。此外，患者有心血管疾病史，属于试验排除标准。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为冠状动脉疾病，试验针对先天性肾上腺增生症",
+        "排除标准冲突：患者有心血管疾病史，试验排除心血管疾病患者",
+        "年龄不匹配：患者 58 岁，试验要求 14-35 岁"
+      ],
+      "trial_id": "NCT00000102"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对癌症（Cancer）患者或健康志愿者。患者无癌症诊断，不符合入组标准中“必须诊断为任何组织学类型的癌症”或作为健康对照（但患者有复杂心脏病史和多种合并症，不符合健康志愿者标准）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为冠状动脉疾病，试验要求癌症患者或健康志愿者",
+        "合并症冲突：患者有复杂心脏病史和多种合并症，可能不符合健康志愿者标准"
+      ],
+      "trial_id": "NCT00000105"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为男性，试验要求绝经后女性；患者年龄58岁符合范围，但性别和绝经状态是硬性排除标准。",
+      "missing_information": [],
+      "conflicts": [
+        "性别不符：患者为男性，试验要求女性",
+        "绝经状态不符：试验要求绝经后女性，患者为男性"
+      ],
+      "trial_id": "NCT00000108"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠心病，试验针对肥胖及耐力运动员，疾病不相关；且患者年龄58岁超过试验最大年龄限制（男性39岁），存在明显冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠心病，试验针对肥胖及耐力运动员",
+        "年龄冲突：患者58岁，试验要求男性最大39岁",
+        "健康状况冲突：试验要求健康志愿者，患者有多种合并症"
+      ],
+      "trial_id": "NCT00000110"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠心病、糖尿病等心血管疾病，而试验针对的是儿童近视（Myopia），疾病完全不相关。此外，患者年龄58岁，远超试验要求的6-12岁年龄范围。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为心血管疾病，试验针对近视",
+        "年龄冲突：患者58岁，试验要求6-12岁儿童"
+      ],
+      "trial_id": "NCT00000113"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，试验针对视网膜色素变性，疾病完全不相关。此外，患者年龄 58 岁超出试验要求的 18-49 岁范围。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者患有冠状动脉疾病，试验针对视网膜色素变性",
+        "年龄冲突：患者 58 岁，试验要求 18-49 岁"
+      ],
+      "trial_id": "NCT00000114"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对的是葡萄膜炎相关囊样黄斑水肿，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对葡萄膜炎相关囊样黄斑水肿"
+      ],
+      "trial_id": "NCT00000115"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对视神经炎，疾病完全不相关。此外，患者年龄58岁超过试验最大年龄限制50岁。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠状动脉疾病，试验针对视神经炎",
+        "年龄冲突：患者58岁，试验要求小于50岁"
+      ],
+      "trial_id": "NCT00000117"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对的是葡萄膜炎（Uveitis）和白内障手术，疾病完全不相关。此外，患者患有2型糖尿病，而试验排除标准明确包含糖尿病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠状动脉疾病，试验针对葡萄膜炎/白内障",
+        "排除标准冲突：患者患有2型糖尿病，试验排除糖尿病"
+      ],
+      "trial_id": "NCT00000119"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为58岁男性，患有冠心病、糖尿病等，而试验针对的是新生儿眼部感染预防（Chlamydia Infections Ophthalmia Neonatorum），疾病完全不相关。此外，试验要求受试者为1岁以下婴儿，患者年龄远超限制。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠心病，试验针对新生儿眼部感染",
+        "年龄冲突：患者58岁，试验最大年龄1岁",
+        "性别/人群冲突：试验针对新生儿，患者为成年男性"
+      ],
+      "trial_id": "NCT00000120"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（心脏病），而临床试验针对的是内斜视（眼部疾病），两者疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者患有冠状动脉疾病，试验针对内斜视"
+      ],
+      "trial_id": "NCT00000121"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠心病、糖尿病等心血管疾病，而试验针对的是近视和散光等眼科疾病，疾病完全不相关。此外，患者年龄58岁超出试验要求的20-35岁范围，且患者有复杂心脏病史和多种合并症，不符合试验要求的'身体健康'和'无眼部疾病'标准。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为心血管疾病，试验为眼科疾病",
+        "年龄不符：患者58岁，试验要求20-35岁",
+        "健康状况不符：患者有复杂心脏病史和多种合并症，试验要求身体健康",
+        "眼部疾病状态不符：试验要求无眼部疾病，患者信息未提及但疾病类型完全不匹配"
+      ],
+      "trial_id": "NCT00000123"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（心脏病），而试验针对的是脉络膜黑色素瘤（眼部癌症），疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者患有冠状动脉疾病，试验要求脉络膜黑色素瘤"
+      ],
+      "trial_id": "NCT00000124"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对的是眼高压和青光眼，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对眼高压/青光眼"
+      ],
+      "trial_id": "NCT00000125"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对缺血性视神经病变，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对缺血性视神经病变"
+      ],
+      "trial_id": "NCT00000126"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对的是缺血性视神经病变（Ischemic Optic Neuropathy），两者疾病类型明显不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对缺血性视神经病变"
+      ],
+      "trial_id": "NCT00000127"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（心脏病），而试验针对的是近视（Myopia）的眼科手术研究，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者患有冠状动脉疾病，试验针对近视"
+      ],
+      "trial_id": "NCT00000129"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为58岁男性，患有冠心病、2型糖尿病等，而试验针对的是早产儿视网膜病变（ROP），目标人群为出生体重<1251克且存活28天的早产婴儿。患者年龄、疾病类型与试验目标人群完全不符，存在根本性冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "患者年龄（58岁）远超试验最大年龄限制（1岁）",
+        "患者疾病（冠心病）与试验疾病（早产儿视网膜病变）完全不相关",
+        "患者为成人，试验对象为早产婴儿"
+      ],
+      "trial_id": "NCT00000133"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对角膜移植排斥反应，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对角膜移植排斥反应"
+      ],
+      "trial_id": "NCT00000137"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对的是开角型青光眼，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对开角型青光眼"
+      ],
+      "trial_id": "NCT00000144"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而临床试验针对的是黄斑变性、组织胞浆菌病或特发性脉络膜新生血管（Macular Degeneration Histoplasmosis），两者疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者患有冠状动脉疾病，试验针对眼部疾病（黄斑变性等）"
+      ],
+      "trial_id": "NCT00000150"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对糖尿病视网膜病变，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者主要诊断为冠状动脉疾病，试验针对糖尿病视网膜病变"
+      ],
+      "trial_id": "NCT00000151"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对的是年龄相关性黄斑变性（AMD），疾病完全不相关。此外，试验入排标准明确要求受试者无心肌梗死病史，而患者有多次心肌梗死史，存在明显冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠状动脉疾病，试验针对黄斑变性",
+        "入排标准冲突：试验要求无心肌梗死病史，患者有多次心肌梗死史"
+      ],
+      "trial_id": "NCT00000152"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有 2 型糖尿病，但试验针对的是糖尿病视网膜病变伴视盘新生血管（NVD），患者信息中未提及眼部并发症或视网膜病变情况，且主要诊断为冠心病，与试验目标疾病不直接相关。",
+      "missing_information": [
+        "眼部检查结果（是否有视盘新生血管 NVD）",
+        "眼底摄影评估结果",
+        "视网膜激光光凝治疗可行性评估"
+      ],
+      "conflicts": [
+        "患者主要诊断为冠心病，试验针对糖尿病视网膜病变",
+        "未提及患者是否有视盘新生血管（NVD）这一关键入组条件"
+      ],
+      "trial_id": "NCT00000153"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，而试验针对糖尿病视网膜病变、玻璃体出血或视网膜脱离。虽然患者有 2 型糖尿病，但无糖尿病视网膜病变相关眼部症状或诊断，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者无糖尿病视网膜病变、玻璃体出血或视网膜脱离相关诊断或症状"
+      ],
+      "trial_id": "NCT00000154"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而临床试验针对的是圆锥角膜（Keratoconus），两者疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对圆锥角膜"
+      ],
+      "trial_id": "NCT00000155"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为58岁男性，患有冠心病、2型糖尿病等，而试验针对的是出生体重低于1251克且胎龄小于31周的早产儿视网膜病变。疾病类型（成人心血管疾病 vs 新生儿眼科疾病）和患者年龄（58岁 vs 0岁）完全不符，存在根本性冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不相关：患者为成人冠心病，试验针对早产儿视网膜病变",
+        "年龄冲突：患者58岁，试验要求最大年龄0岁（新生儿）",
+        "患者群体完全不同：成人 vs 早产儿"
+      ],
+      "trial_id": "NCT00000156"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而临床试验针对的是脉络膜新生血管性黄斑变性（Choroidal Neovascularization Macular Degeneration）等眼部疾病。两者疾病完全不相关，患者不符合试验的基本入组条件。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对眼部脉络膜新生血管病变"
+      ],
+      "trial_id": "NCT00000158"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者年龄 58 岁超出试验最大年龄 56 岁限制；试验针对胰岛素依赖型糖尿病（IDDM），患者为 2 型糖尿病且使用二甲双胍管理，不符合入组标准；试验主要关注糖尿病视网膜病变，患者虽有糖尿病但主要诊断为冠心病，且无视网膜病变相关描述。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄超出范围 (58 > 56)",
+        "糖尿病类型不符 (2 型 vs 胰岛素依赖型)",
+        "主要疾病不匹配 (冠心病 vs 糖尿病视网膜病变)"
+      ],
+      "trial_id": "NCT00000159"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对糖尿病视网膜病变，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者主要诊断为冠状动脉疾病，试验针对糖尿病视网膜病变"
+      ],
+      "trial_id": "NCT00000160"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为男性，试验明确要求女性参与者；患者患有冠心病，但试验主要针对女性健康研究，且入排标准中明确排除有心血管疾病史的患者（针对WHS部分），或虽WACS部分包含心血管病史但仅限女性。",
+      "missing_information": [],
+      "conflicts": [
+        "性别不符：患者为男性，试验要求女性",
+        "疾病史冲突：WHS部分排除心血管疾病史患者，患者有明确冠心病及心梗史"
+      ],
+      "trial_id": "NCT00000161"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对年龄相关性黄斑变性，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对年龄相关性黄斑变性"
+      ],
+      "trial_id": "NCT00000167"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对阿尔茨海默病伴睡眠障碍，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为冠状动脉疾病，试验要求阿尔茨海默病"
+      ],
+      "trial_id": "NCT00000171"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠心病（Coronary artery disease），而试验针对的是阿尔茨海默病（Alzheimer Disease）及轻度认知障碍（MCI）。疾病类型完全不相关，且患者有心肌梗死病史，属于试验排除标准中的'History of myocardial infarction within the past year or unstable or severe cardiovascular disease'。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠心病，试验针对阿尔茨海默病/轻度认知障碍",
+        "排除标准冲突：患者有心肌梗死病史（multiple infarctions），试验排除标准规定'History of myocardial infarction within the past year or unstable or severe cardiovascular disease'"
+      ],
+      "trial_id": "NCT00000173"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠心病，试验针对阿尔茨海默病预防，疾病完全不相关。此外，患者为男性，试验要求女性；患者年龄58岁，试验要求65岁及以上。存在多重关键入排标准冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠心病，试验针对阿尔茨海默病",
+        "性别冲突：患者为男性，试验要求女性",
+        "年龄冲突：患者58岁，试验要求65岁及以上"
+      ],
+      "trial_id": "NCT00000176"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对的是阿尔茨海默病（Alzheimer Disease）及其激越症状。两者疾病完全不相关，存在根本性冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者患有冠状动脉疾病，试验针对阿尔茨海默病"
+      ],
+      "trial_id": "NCT00000179"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠心病，试验针对可卡因戒断症状，疾病完全不相关。此外，患者年龄58岁超出试验要求的21-45岁范围，且试验要求有近期可卡因使用史，患者无此信息。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠心病，试验针对可卡因戒断",
+        "年龄冲突：患者58岁，试验要求21-45岁",
+        "入组标准冲突：试验要求有近期可卡因使用史，患者无此信息"
+      ],
+      "trial_id": "NCT00000292"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而临床试验针对的是良性阵发性位置性眩晕（BPPV），两者疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对良性阵发性位置性眩晕（BPPV）"
+      ],
+      "trial_id": "NCT00000359"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对的是自身免疫性内耳疾病（听力损失），疾病完全不相关。此外，患者有复杂的心脏病史和多种合并症，明确违反试验排除标准中关于‘任何显著的心脏、肺、消化、血液或神经系统疾病’的规定。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠状动脉疾病，试验针对自身免疫性内耳疾病",
+        "排除标准冲突：患者有复杂心脏病史，违反‘任何显著的心脏...疾病’排除标准",
+        "排除标准冲突：患者有2型糖尿病，虽非脆性，但合并多种合并症可能影响评估",
+        "排除标准冲突：患者有肝功能异常（转氨酶升高），可能违反‘显著消化...疾病’排除标准"
+      ],
+      "trial_id": "NCT00000361"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对的是帕金森病或痴呆症患者的误吸性肺炎，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验要求帕金森病或痴呆症"
+      ],
+      "trial_id": "NCT00000362"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对双相情感障碍（Bipolar Disorder），疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者患有冠状动脉疾病，试验要求双相情感障碍"
+      ],
+      "trial_id": "NCT00000369"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对抑郁症复发患者，疾病完全不相关。此外，患者年龄 58 岁，低于试验最小年龄要求 60 岁。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者患有冠状动脉疾病，试验针对抑郁症",
+        "年龄不符：患者 58 岁，试验要求 60-80 岁"
+      ],
+      "trial_id": "NCT00000377"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，而试验针对的是艾滋病相关抑郁症，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为心血管疾病，试验为艾滋病相关抑郁症"
+      ],
+      "trial_id": "NCT00000390"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对的是关节炎（Arthritis）患者，疾病类型明显不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验要求关节炎患者"
+      ],
+      "trial_id": "NCT00000396"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为58岁男性，患有冠心病、2型糖尿病等，而试验针对8-13岁青春期女性，研究钙对骨量的影响。疾病（冠心病 vs 骨质疏松）、性别（男 vs 女）、年龄（58 vs 8-13）均完全不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "性别不符：患者为男性，试验要求女性",
+        "年龄不符：患者58岁，试验要求8-13岁",
+        "疾病不符：患者为冠心病，试验针对骨质疏松",
+        "健康状况不符：患者有多种合并症，试验要求正常健康"
+      ],
+      "trial_id": "NCT00000402"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为男性，试验要求女性；患者疾病为冠心病，试验针对骨关节炎，疾病不相关；患者有严重心血管病史，属于试验排除标准。",
+      "missing_information": [],
+      "conflicts": [
+        "性别不符：患者为男性，试验要求女性",
+        "疾病不符：患者为冠心病，试验针对骨关节炎",
+        "排除标准冲突：患者有严重心血管病史，试验排除显著心血管疾病"
+      ],
+      "trial_id": "NCT00000403"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，试验针对膝关节骨关节炎，疾病完全不相关。此外，患者年龄58岁，低于试验要求的60岁最小年龄。患者患有2型糖尿病，属于试验排除标准。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠状动脉疾病，试验针对膝关节骨关节炎",
+        "年龄不符：患者58岁，试验要求60-100岁",
+        "排除标准冲突：患者患有2型糖尿病，试验排除糖尿病"
+      ],
+      "trial_id": "NCT00000406"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而临床试验针对的是腰痛（Low Back Pain），疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对腰痛"
+      ],
+      "trial_id": "NCT00000408"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（心脏病），而试验针对的是腰椎滑脱伴椎管狭窄（脊柱疾病），疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者患有冠状动脉疾病，试验针对脊柱疾病（腰椎滑脱、椎管狭窄）"
+      ],
+      "trial_id": "NCT00000409"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（心脏病），而试验针对的是腰椎间盘突出症（脊柱疾病），两者疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者患有冠状动脉疾病，试验针对腰椎间盘突出症"
+      ],
+      "trial_id": "NCT00000410"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对的是腰椎管狭窄症（Spinal Stenosis）及下背痛。两者疾病完全不相关，患者无相关症状描述，不符合试验入组条件。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对腰椎管狭窄症",
+        "无相关症状：患者未提及下背痛、腰椎症状或影像学证据"
+      ],
+      "trial_id": "NCT00000411"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为58岁男性，患有冠心病，而试验针对9-13岁未初潮女孩，用于预防骨质疏松。疾病类型（冠心病 vs 骨质疏松）、性别（男 vs 女）、年龄（58岁 vs 9-13岁）均完全不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "性别不符：患者为男性，试验要求女性",
+        "年龄不符：患者58岁，试验要求9-13岁",
+        "疾病不符：患者为冠心病，试验针对骨质疏松预防",
+        "试验人群不符：试验针对未初潮女孩，患者为成年男性"
+      ],
+      "trial_id": "NCT00000413"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为男性，试验要求女性；患者疾病为冠心病，试验针对系统性红斑狼疮（SLE），疾病完全不相关；患者有糖尿病伴血管病变，属于排除标准。",
+      "missing_information": [],
+      "conflicts": [
+        "性别不符（患者为男性，试验要求女性）",
+        "疾病不符（患者为冠心病，试验针对系统性红斑狼疮）",
+        "排除标准冲突（患者有糖尿病伴血管病变）"
+      ],
+      "trial_id": "NCT00000419"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而临床试验针对的是膝关节骨关节炎（Knee Osteoarthritis），疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对膝关节骨关节炎"
+      ],
+      "trial_id": "NCT00000424"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对骨关节炎（Osteoarthritis），疾病类型完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对骨关节炎"
+      ],
+      "trial_id": "NCT00000425"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对骨质疏松症，疾病明显不相关。此外，患者有显著的心脏病史（多次心肌梗死、支架植入、搭桥手术），属于试验排除标准中的'Significant cardiac...disease'。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠状动脉疾病，试验针对骨质疏松症",
+        "排除标准冲突：患者有显著心脏疾病史，试验排除显著心脏疾病"
+      ],
+      "trial_id": "NCT00000427"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为男性，试验要求女性；患者年龄58岁，试验要求至少60岁；患者疾病为冠心病，试验针对骨质疏松；患者有心肌梗死史，试验排除1年内心肌梗死；患者有糖尿病，试验对糖尿病有特定限制；患者有肝酶升高，试验排除慢性肝病。",
+      "missing_information": [],
+      "conflicts": [
+        "性别不符：患者为男性，试验要求女性",
+        "年龄不符：患者58岁，试验要求至少60岁",
+        "疾病不符：患者为冠心病，试验针对骨质疏松",
+        "心肌梗死史：患者有心肌梗死史，试验排除1年内心肌梗死",
+        "糖尿病：患者有2型糖尿病，试验对糖尿病有特定限制",
+        "肝酶升高：患者有肝酶升高，试验排除慢性肝病"
+      ],
+      "trial_id": "NCT00000430"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等心血管疾病，而临床试验针对的是莱姆病（Lyme Disease）的预防教育项目，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者患有心血管疾病，试验针对莱姆病预防"
+      ],
+      "trial_id": "NCT00000432"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠心病、糖尿病等，与试验针对的酒精依赖和尼古丁依赖疾病不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者主要诊断为冠心病、2 型糖尿病等，试验针对酒精依赖和尼古丁依赖",
+        "入排标准冲突：患者无酒精依赖记录，试验要求必须满足酒精依赖和尼古丁依赖标准"
+      ],
+      "trial_id": "NCT00000437"
+    },
+    {
+      "matched": false,
+      "match_score": 0.2,
+      "reason": "患者患有冠状动脉疾病，与试验疾病相关。但试验要求患者为'normocholesterolemic'（正常胆固醇水平），而患者 LDL 水平 >190 mg/dL，存在明显冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "患者 LDL 水平 >190 mg/dL，不符合试验要求的 normocholesterolemic（正常胆固醇水平）"
+      ],
+      "trial_id": "NCT00000461"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "试验针对急性心肌梗死（15 分钟至 6 小时胸痛）的院前溶栓治疗，而患者为既往多次心梗病史，目前无急性发作描述，且试验状态为已完成，入组条件强调急性期症状，患者当前状态不符合急性期入组标准。",
+      "missing_information": [],
+      "conflicts": [
+        "患者为既往心梗病史，非急性发作期",
+        "试验针对急性心肌梗死溶栓治疗，患者目前无急性胸痛描述",
+        "试验状态为已完成，无法入组"
+      ],
+      "trial_id": "NCT00000468"
+    },
+    {
+      "matched": false,
+      "match_score": 0.2,
+      "reason": "患者患有冠状动脉疾病，但试验针对无症状颈动脉狭窄患者。患者信息未提及颈动脉狭窄或斑块，且 LDL 水平（>190 mg/dL）超出试验要求的第 60-90 百分位范围，存在明显入排标准冲突。",
+      "missing_information": [
+        "颈动脉超声检查结果",
+        "具体 LDL 百分位数据"
+      ],
+      "conflicts": [
+        "试验要求无症状颈动脉狭窄，患者未提及此诊断",
+        "患者 LDL >190 mg/dL，可能超出试验要求的第 60-90 百分位范围"
+      ],
+      "trial_id": "NCT00000469"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为男性，试验仅招募女性；患者有心血管疾病史（心肌梗死、冠脉疾病），试验要求无心血管疾病史；患者年龄58岁符合最小年龄45岁，但性别和既往病史与入排标准严重冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "性别不符：患者为男性，试验要求女性",
+        "既往病史不符：患者有心肌梗死和冠脉疾病史，试验要求无心血管疾病史"
+      ],
+      "trial_id": "NCT00000479"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者年龄 58 岁超出试验最大年龄 57 岁限制；且试验要求无冠心病史，患者已确诊冠心病并有心肌梗死史，存在明显入排标准冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄超出范围 (58 > 57)",
+        "已有冠心病史 (试验要求 Free from coronary heart disease)"
+      ],
+      "trial_id": "NCT00000487"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者为 58 岁男性，有明确的心肌梗死病史，符合试验针对的心肌梗死后患者人群。年龄（30-69 岁）和性别（不限）均符合入组标准。疾病类型（冠状动脉疾病、心肌梗死）与试验高度相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000492"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者年龄 58 岁，低于试验要求的 60 岁最小年龄；试验针对孤立性收缩期高血压，患者主要诊断为冠心病，虽有心血管病史但关键入排标准（年龄、高血压类型）不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄不满足（患者 58 岁，试验要求≥60 岁）",
+        "疾病类型不完全匹配（试验针对孤立性收缩期高血压，患者主要诊断为冠心病）"
+      ],
+      "trial_id": "NCT00000499"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者年龄 58 岁超出试验要求的 25-49 岁范围；患者患有冠心病、心肌梗死、2 型糖尿病等多种严重合并症，不符合试验“无重大疾病”的入组标准；试验针对高血压前期人群进行一级预防，而患者已有明确心血管疾病史，疾病阶段不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄超出范围 (58 岁 vs 25-49 岁)",
+        "存在重大疾病 (冠心病、心肌梗死、糖尿病等) 不符合“无重大疾病”标准",
+        "疾病阶段不匹配 (已有心血管疾病史 vs 高血压一级预防)"
+      ],
+      "trial_id": "NCT00000501"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有冠心病和心肌梗死病史，但试验针对的是心脏骤停（cardiac arrest）且需立即进行心肺复苏（CPR）的患者。患者目前处于稳定状态，无心脏骤停记录，不符合入组标准。",
+      "missing_information": [],
+      "conflicts": [
+        "患者当前状态不符合试验要求的心脏骤停及心肺复苏场景",
+        "试验针对急性心脏骤停事件，患者为慢性病史管理"
+      ],
+      "trial_id": "NCT00000502"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有冠状动脉疾病，试验针对肥胖症治疗，疾病不相关。此外，试验要求体重为理想体重的 130-180%，患者信息未提供体重数据，无法确认是否符合。",
+      "missing_information": [
+        "体重",
+        "BMI"
+      ],
+      "conflicts": [
+        "疾病类型不匹配：试验针对肥胖症，患者主要诊断为冠状动脉疾病"
+      ],
+      "trial_id": "NCT00000506"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有冠心病、心肌梗死、2 型糖尿病等，但试验主要针对轻度高血压（舒张压 90-100 mmHg）且要求肥胖（理想体重 110-150%）。患者信息未提供血压具体数值和体重情况，但病史复杂（多次心梗、搭桥手术）与试验针对的轻度高血压人群可能存在严重冲突，且试验已结束。",
+      "missing_information": [
+        "血压具体数值",
+        "体重或 BMI 数据"
+      ],
+      "conflicts": [
+        "患者有复杂心脏病史（多次心梗、搭桥手术），试验针对轻度高血压人群，病情严重程度可能不符",
+        "试验状态为 Completed，无法招募新患者"
+      ],
+      "trial_id": "NCT00000513"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者年龄 58 岁超出试验要求的 25-55 岁范围；试验针对肥胖高血压患者，患者虽有心血管病史但未明确提及肥胖和高血压，且试验要求未服用降压药，患者有复杂心脏史可能涉及用药；疾病虽同属心血管领域但具体入组条件（肥胖、高血压、特定血压范围、无降压药）与患者情况存在明显冲突。",
+      "missing_information": [
+        "体重/BMI",
+        "血压水平",
+        "是否服用降压药物"
+      ],
+      "conflicts": [
+        "年龄超出范围 (58 > 55)",
+        "试验要求未服用降压药，患者有复杂心脏史可能需用药",
+        "试验针对肥胖高血压，患者信息未明确符合"
+      ],
+      "trial_id": "NCT00000515"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对的是心律失常（Arrhythmia）、室性心动过速（Ventricular Tachycardia）、心室颤动（Ventricular Fibrillation）或心脏骤停复苏患者。患者虽有心肌梗死史，但未提及存在持续性室性心动过速、心室颤动或心脏骤停病史，与试验核心入组标准（documented ventricular tachycardia and those resuscitated from sudden death）明显不符。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为冠状动脉疾病，试验针对室性心律失常/心脏骤停",
+        "缺乏关键入组条件：未提及持续性室性心动过速、心室颤动或心脏骤停病史"
+      ],
+      "trial_id": "NCT00000518"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者年龄 58 岁超出试验要求的 25-49 岁范围，且试验针对超重人群，患者虽有高胆固醇但无明确体重信息，年龄冲突为硬性排除标准。",
+      "missing_information": [
+        "体重/BMI 信息"
+      ],
+      "conflicts": [
+        "年龄超出范围 (患者 58 岁 vs 试验 25-49 岁)"
+      ],
+      "trial_id": "NCT00000519"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为 58 岁男性，患有冠状动脉疾病，而试验针对的是川崎综合征（Kawasaki Syndrome）的儿童患者（1-17 岁）。疾病类型完全不同（成人冠心病 vs 儿童川崎病），且年龄严重不符。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄不符：患者 58 岁，试验要求 1-17 岁",
+        "疾病不符：患者为冠状动脉疾病/心肌梗死，试验针对川崎综合征",
+        "人群不符：试验针对儿童，患者为成人"
+      ],
+      "trial_id": "NCT00000520"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为 58 岁男性，而试验要求受试者为 10-13 岁儿童，年龄严重不符。此外，试验针对儿童血压研究，患者患有冠心病、心肌梗死等成人心血管疾病，疾病人群不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄不符：患者 58 岁，试验要求 10-13 岁",
+        "疾病人群不符：试验针对儿童高血压，患者为成人冠心病"
+      ],
+      "trial_id": "NCT00000521"
+    },
+    {
+      "matched": false,
+      "match_score": 0.2,
+      "reason": "患者患有冠心病、心肌梗死、2 型糖尿病等多种心血管疾病，但试验主要针对轻度高血压患者（舒张压 90-99 mm Hg）。患者信息中未提供血压数据，无法确认是否符合轻度高血压标准。此外，患者有复杂的心脏病史（多次心梗、支架、搭桥手术），可能不符合试验针对的“轻度”高血压人群。",
+      "missing_information": [
+        "血压数据（收缩压和舒张压）",
+        "当前是否接受降压药物治疗及具体方案",
+        "试验要求的特定血压测量记录"
+      ],
+      "conflicts": [
+        "患者有复杂心脏病史（多次心梗、支架、搭桥），可能超出试验针对的轻度高血压范围",
+        "患者 LDL >190 mg/dL，可能存在严重高胆固醇血症，需确认是否符合试验排除标准",
+        "患者有肝功能异常（转氨酶升高），需确认是否符合试验排除标准"
+      ],
+      "trial_id": "NCT00000522"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease）和心肌梗死，而试验针对的是心肌炎（Myocarditis），两者疾病类型明显不相关。此外，试验要求活检证实的心肌炎，患者信息中未提及此诊断。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为冠状动脉疾病/心肌梗死，试验要求心肌炎",
+        "缺乏活检证实的心肌炎诊断"
+      ],
+      "trial_id": "NCT00000524"
+    },
+    {
+      "matched": false,
+      "match_score": 0.2,
+      "reason": "患者患有冠状动脉疾病，试验针对高血压伴 ECG 异常患者，疾病相关性较弱。患者信息中未明确提及 ECG 异常及是否接受氢氯噻嗪治疗至少 6 个月，且试验要求舒张压<95 mm Hg，患者血压情况未知。",
+      "missing_information": [
+        "ECG 异常状态",
+        "是否接受氢氯噻嗪治疗至少 6 个月",
+        "舒张压数值"
+      ],
+      "conflicts": [
+        "试验主要针对高血压患者，患者主要诊断为冠状动脉疾病，疾病类型不完全匹配"
+      ],
+      "trial_id": "NCT00000525"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者为58岁男性，有心肌梗死病史，符合试验针对的心肌梗死后患者群体。年龄（18-75岁）和性别（不限）均符合入组标准。疾病相关性强（冠心病、心肌梗死）。但需确认患者是否存在无症状室性早搏（ventricular premature depolarization），这是关键入组条件，目前信息未明确提及。",
+      "missing_information": [
+        "是否存在无症状室性早搏（ventricular premature depolarization）",
+        "心肌梗死发生时间是否在6天至2年之间"
+      ],
+      "conflicts": [],
+      "trial_id": "NCT00000526"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者年龄 58 岁超出试验要求的 30-54 岁范围，且试验针对高血压预防，患者主要诊断为冠心病，疾病类型不完全匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄超出范围",
+        "疾病类型不完全匹配"
+      ],
+      "trial_id": "NCT00000528"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者疾病为冠状动脉疾病和心肌梗死，而试验针对的是心室颤动/心动过速导致的心脏骤停幸存者。患者信息中未提及有心律失常（VF/VT）或心脏骤停史，这是试验的核心入组条件。",
+      "missing_information": [
+        "是否有心室颤动 (VF) 或室性心动过速 (VT) 病史",
+        "是否有心脏骤停或晕厥史",
+        "左心室射血分数 (LVEF) 数值",
+        "收缩压数值"
+      ],
+      "conflicts": [
+        "患者主要诊断为冠状动脉疾病，试验针对心律失常导致的心脏骤停",
+        "患者信息中未显示有心律失常相关症状（如晕厥、近晕厥）"
+      ],
+      "trial_id": "NCT00000531"
+    },
+    {
+      "matched": false,
+      "match_score": 0.2,
+      "reason": "患者患有冠状动脉疾病（Coronary artery disease），而试验针对的是外周动脉疾病（Peripheral arterial disease）。虽然两者都属于动脉疾病，但试验明确入排标准为外周动脉疾病，患者信息中未提及外周动脉疾病相关症状或诊断，存在明显疾病不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为冠状动脉疾病，试验要求外周动脉疾病"
+      ],
+      "trial_id": "NCT00000539"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者患有冠状动脉疾病（Coronary artery disease），与试验关注的心血管疾病（Cardiovascular Diseases, Coronary Disease）高度相关。患者年龄 58 岁，符合 18-75 岁的年龄要求。试验入排标准显示无特定限制，性别无要求。患者有高血压相关风险因素（如糖尿病、高胆固醇），符合试验评估心血管风险因素的目标。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000546"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为58岁男性，患有冠心病、2型糖尿病等，而试验针对的是出生体重500-1250克、需要机械通气的早产儿，用于预防慢性肺病。患者年龄、疾病类型与试验目标人群完全不符。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄不符：患者58岁，试验要求最大年龄1岁",
+        "疾病不符：患者为冠心病，试验针对支气管肺发育不良/肺病",
+        "人群不符：患者为成人，试验针对早产儿"
+      ],
+      "trial_id": "NCT00000548"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为男性，而试验明确要求入组绝经后女性（Postmenopausal women），性别要求存在根本性冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "性别不符：患者为男性，试验要求女性"
+      ],
+      "trial_id": "NCT00000555"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对心房颤动，疾病不相关。此外，患者年龄 58 岁，低于试验最小年龄要求 65 岁。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠状动脉疾病，试验针对心房颤动",
+        "年龄冲突：患者 58 岁，试验要求最小年龄 65 岁"
+      ],
+      "trial_id": "NCT00000556"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为男性，而试验明确要求入组绝经后女性（Postmenopausal women），性别要求存在根本性冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "性别不符：患者为男性，试验要求女性"
+      ],
+      "trial_id": "NCT00000559"
+    },
+    {
+      "matched": false,
+      "match_score": 0.2,
+      "reason": "患者患有冠心病，与试验疾病相关，但试验主要针对心力衰竭（NYHA III-IV 级，射血分数≤0.35），患者信息未提及心衰状态及射血分数，且存在肝功能异常等潜在排除因素，关键入排标准信息缺失且存在潜在冲突。",
+      "missing_information": [
+        "心功能分级 (NYHA Class)",
+        "左室射血分数 (LVEF)",
+        "当前是否服用 ACEI、地高辛或利尿剂",
+        "肝功能异常的具体数值及原因"
+      ],
+      "conflicts": [
+        "患者未明确诊断为心力衰竭（试验要求 Class III/IV 心衰）",
+        "肝功能异常可能影响药物代谢（试验涉及β受体阻滞剂）"
+      ],
+      "trial_id": "NCT00000560"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对急性呼吸衰竭/肺部疾病，疾病类型明显不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为冠状动脉疾病，试验针对急性呼吸衰竭/肺部疾病"
+      ],
+      "trial_id": "NCT00000562"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对肺栓塞（Pulmonary Embolism），疾病类型明显不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对肺栓塞诊断"
+      ],
+      "trial_id": "NCT00000566"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为58岁男性，患有冠心病、糖尿病等，而试验针对的是体重小于2000克的早产儿，用于比较高频通气与常规机械通气的疗效。疾病类型（成人心血管疾病 vs 新生儿呼吸系统疾病）和患者年龄（58岁 vs 最大1岁）完全不符，存在根本性冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄不符：患者58岁，试验要求最大年龄1岁",
+        "疾病不符：患者为冠心病等成人疾病，试验针对早产儿支气管肺发育不良等",
+        "人群不符：患者为成人，试验对象为新生儿"
+      ],
+      "trial_id": "NCT00000567"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对的是肺部疾病（慢性阻塞性肺病），疾病类型明显不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对慢性阻塞性肺病"
+      ],
+      "trial_id": "NCT00000568"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为 58 岁男性，患有冠心病、糖尿病等，而试验针对的是 24-29 周胎龄、500-1400 克体重的早产儿，用于研究呼吸窘迫综合征。患者年龄、疾病类型与试验目标人群完全不符。",
+      "missing_information": [],
+      "conflicts": [
+        "患者年龄（58 岁）远超试验最大年龄（1 岁）",
+        "患者疾病（冠心病）与试验疾病（呼吸窘迫综合征）不相关",
+        "患者为成人，试验对象为早产儿"
+      ],
+      "trial_id": "NCT00000570"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对急性呼吸窘迫综合征（ARDS），疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对急性呼吸窘迫综合征"
+      ],
+      "trial_id": "NCT00000572"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对脓毒症/急性呼吸窘迫综合征，疾病明显不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为冠状动脉疾病，试验针对脓毒症/急性呼吸窘迫综合征"
+      ],
+      "trial_id": "NCT00000574"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为58岁男性，患有冠心病、2型糖尿病等，而试验针对5-12岁儿童哮喘患者，疾病类型（心血管 vs 呼吸系统）和年龄范围完全不符。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄不符：患者58岁，试验要求5-12岁",
+        "疾病不符：患者为冠心病，试验为哮喘",
+        "表型/症状不符：患者无哮喘相关症状"
+      ],
+      "trial_id": "NCT00000575"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为58岁男性，患有冠心病、2型糖尿病等，而试验针对的是出生体重<1251克、胎龄<33周的早产儿，用于预防支气管肺发育不良。患者年龄、疾病类型与试验目标人群完全不符。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄冲突：患者58岁，试验要求最大年龄1岁",
+        "疾病冲突：患者为冠心病，试验针对支气管肺发育不良/早产儿肺部疾病",
+        "人群冲突：患者为成人，试验针对早产婴儿"
+      ],
+      "trial_id": "NCT00000576"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等心血管疾病，而试验针对哮喘（Asthma），疾病类型完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对哮喘"
+      ],
+      "trial_id": "NCT00000577"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为58岁男性，患有冠心病、2型糖尿病等，而试验针对的是0-3岁婴儿，用于阻断乙肝母婴传播。疾病类型（冠心病 vs 乙肝）、年龄（58岁 vs 0-3岁）均完全不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄严重不符：患者58岁，试验要求0-3岁婴儿",
+        "疾病类型不符：患者为冠心病，试验针对乙肝母婴传播",
+        "性别与人群不符：试验针对母婴传播，患者为成年男性"
+      ],
+      "trial_id": "NCT00000580"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对血友病 A 及凝血因子 VIII 抑制剂，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为冠状动脉疾病，试验要求血友病 A"
+      ],
+      "trial_id": "NCT00000582"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（患者为冠心病，试验针对乙肝疫苗）；年龄冲突（患者58岁，试验要求≤36岁）；入排标准不符（试验要求无乙肝症状且血清学阴性，患者信息未提及乙肝状态但疾病本身不匹配）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者患有冠状动脉疾病，试验针对乙型肝炎",
+        "年龄冲突：患者58岁，试验要求最大年龄36岁",
+        "入排标准冲突：试验要求无乙肝症状且血清学阴性，患者未提供相关乙肝信息但基础疾病不匹配"
+      ],
+      "trial_id": "NCT00000583"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠心病，试验针对镰状细胞贫血儿童，疾病完全不相关且年龄严重不符（患者58岁，试验要求3个月至5岁）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为冠心病，试验为镰状细胞贫血",
+        "年龄严重不符：患者58岁，试验要求最大5岁",
+        "性别虽无限制但人群完全不同"
+      ],
+      "trial_id": "NCT00000585"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对镰状细胞贫血，疾病完全不相关。此外，患者年龄 58 岁超出试验最大年龄 50 岁的限制。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠状动脉疾病，试验针对镰状细胞贫血",
+        "年龄冲突：患者 58 岁，试验要求 18-50 岁"
+      ],
+      "trial_id": "NCT00000586"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对的是铁过载性贫血（如地中海贫血），疾病类型完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对铁过载性贫血/地中海贫血"
+      ],
+      "trial_id": "NCT00000588"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为58岁男性，患有冠心病、2型糖尿病等，而试验针对的是2-16岁镰状细胞贫血儿童，疾病类型和年龄均完全不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄不符：患者58岁，试验要求2-16岁",
+        "疾病不符：患者为冠心病，试验为镰状细胞贫血"
+      ],
+      "trial_id": "NCT00000592"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者LDL水平（>190 mg/dL）超出试验入组标准（男性125-189 mg/dL），存在明显冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "患者LDL水平（>190 mg/dL）超出试验入组标准（男性125-189 mg/dL）"
+      ],
+      "trial_id": "NCT00000598"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者为 58 岁男性，符合年龄（40-59）和性别要求。患有冠状动脉疾病，有冠脉搭桥手术史（至少 3 个月前），且 LDL 水平高（>190 mg/dL），符合高胆固醇血症入组条件。非吸烟者（已戒烟），符合非吸烟要求。疾病高度相关（冠状动脉粥样硬化）。",
+      "missing_information": [
+        "确认冠脉搭桥手术是否至少 3 个月前",
+        "确认入组时空腹胆固醇水平是否在 185-270 mg/dL 范围内（摘要中截断，需确认上限）",
+        "确认是否有进行性动脉粥样硬化的血管造影证据"
+      ],
+      "conflicts": [],
+      "trial_id": "NCT00000599"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为58岁男性，患有冠状动脉疾病，而试验针对5-18岁镰状细胞贫血儿童，疾病类型和年龄均完全不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄不符：患者58岁，试验要求5-18岁",
+        "疾病不符：患者为冠状动脉疾病，试验为镰状细胞贫血"
+      ],
+      "trial_id": "NCT00000602"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对的是肺气肿/慢性阻塞性肺疾病（Emphysema/COPD），疾病类型明显不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对肺气肿/慢性阻塞性肺疾病"
+      ],
+      "trial_id": "NCT00000606"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease）和心肌梗死，而试验针对的是严重充血性心力衰竭（Class IV NYHA congestive heart failure）。虽然患者有心脏病史，但试验明确要求患者当前因心力衰竭住院，且 NYHA 分级为 IV 级，伴有特定的充血性心力衰竭体征（如端坐呼吸、外周水肿等）和左室射血分数<35%。患者信息中未提及当前有心力衰竭住院、NYHA 分级或射血分数数据，且主要诊断为冠心病而非心力衰竭，存在明显疾病不匹配。",
+      "missing_information": [
+        "NYHA 分级",
+        "左室射血分数 (LVEF)",
+        "当前是否因心力衰竭住院",
+        "心力衰竭相关体征（如水肿、端坐呼吸等）"
+      ],
+      "conflicts": [
+        "患者主要诊断为冠状动脉疾病，试验针对严重充血性心力衰竭",
+        "试验要求 NYHA Class IV，患者信息未提供此分级",
+        "试验要求 LVEF <35%，患者信息未提供此数据",
+        "试验要求当前因 CHF 住院，患者信息未提及"
+      ],
+      "trial_id": "NCT00000619"
+    },
+    {
+      "matched": false,
+      "match_score": 0.2,
+      "reason": "患者患有 2 型糖尿病和冠心病，与试验疾病相关。但关键入排标准中 HbA1c 要求为 7.5%-9% 或 7.5%-11%，而患者 HbA1c 为 6.5%-7.2%，明显低于入组标准，存在冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "HbA1c 水平不符合入组标准（患者 6.5%-7.2% vs 试验要求 7.5%-11%）"
+      ],
+      "trial_id": "NCT00000620"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对的是肺气肿（Emphysema）和慢性阻塞性肺病（COPD）。疾病类型完全不相关，属于心血管系统疾病与呼吸系统疾病的根本性差异。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对肺气肿/慢性阻塞性肺病"
+      ],
+      "trial_id": "NCT00000621"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对无症状 HIV 感染者，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为冠状动脉疾病，试验要求 HIV 感染"
+      ],
+      "trial_id": "NCT00000633"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，与试验针对的 HIV 感染和潜伏性结核病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者无 HIV 感染或结核病相关病史，试验要求患者必须患有 HIV 感染和潜伏性结核感染"
+      ],
+      "trial_id": "NCT00000636"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、2 型糖尿病等，与试验针对的 HIV 感染和潜伏性结核病完全不相关。试验要求患者必须患有 HIV 感染且有阳性 PPD 皮肤测试史，患者信息中未提及 HIV 感染或结核相关病史，存在根本性不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者患有冠状动脉疾病，试验针对 HIV 感染和结核病",
+        "关键入组条件缺失：患者未提及 HIV 感染状态",
+        "关键入组条件缺失：患者未提及 PPD 皮肤测试结果"
+      ],
+      "trial_id": "NCT00000638"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，而试验针对的是 HIV 感染合并播散性鸟分枝杆菌感染，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者无 HIV 感染或 AIDS 诊断，试验要求 HIV 感染或 AIDS 诊断",
+        "疾病类型不匹配：患者无播散性鸟分枝杆菌感染，试验要求从血液中分离出鸟分枝杆菌"
+      ],
+      "trial_id": "NCT00000641"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为 58 岁男性，患有冠心病、2 型糖尿病等，而试验针对的是 HIV 感染的孕妇及其新生儿。疾病类型（冠心病 vs HIV）、性别（男性 vs 女性）、生理状态（非孕期 vs 孕期）均完全不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠心病，试验针对 HIV 感染",
+        "性别不符：患者为男性，试验针对女性孕妇",
+        "生理状态不符：患者非孕妇，试验要求第三孕期或新生儿",
+        "年龄限制：患者 58 岁，试验最大年龄 60 岁（虽符合但其他条件严重不符）"
+      ],
+      "trial_id": "NCT00000642"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，而试验针对的是艾滋病（HIV）合并鸟分枝杆菌复合群（MAC）感染。两者疾病完全不相关，患者无 HIV 感染证据，不符合入组标准。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为冠状动脉疾病，试验针对 HIV 合并 MAC 感染，疾病不相关",
+        "患者无 HIV 感染记录，试验要求 HIV 阳性",
+        "患者无 MAC 感染证据，试验要求血培养阳性"
+      ],
+      "trial_id": "NCT00000644"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对的是儿童症状性 HIV 感染（Children With Symptomatic HIV Infection）。疾病完全不相关，且患者年龄（58 岁）远超试验年龄限制（0.25-18 岁）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为冠状动脉疾病，试验针对 HIV 感染",
+        "年龄不匹配：患者 58 岁，试验要求 0.25-18 岁",
+        "性别/人群不匹配：试验针对儿童，患者为成年男性"
+      ],
+      "trial_id": "NCT00000653"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、2 型糖尿病等，与试验针对的 HIV 感染及疱疹病毒/乙肝病毒感染完全不相关。试验入排标准明确要求患者必须确诊 HIV 感染，而患者信息中无 HIV 相关诊断，且存在多项排除标准中的不稳定医疗状况（如严重心血管疾病史）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠状动脉疾病，试验针对 HIV 及疱疹病毒/乙肝病毒感染",
+        "入组标准冲突：试验要求确诊 HIV 感染，患者无此诊断",
+        "排除标准冲突：患者有复杂心脏病史及多次心梗，可能属于'任何不稳定的医疗状况包括严重心血管疾病'"
+      ],
+      "trial_id": "NCT00000654"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，而试验针对的是艾滋病（HIV 感染）合并巨细胞病毒视网膜炎（CMV Retinitis）。两者疾病完全不相关，患者不符合试验的基本入组条件（需确诊 AIDS 或 HIV 感染及 CMV 视网膜炎）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者无 HIV 感染或 AIDS 诊断",
+        "疾病不匹配：患者无巨细胞病毒视网膜炎（CMV Retinitis）",
+        "入排标准冲突：试验要求确诊 AIDS 或 HIV 感染，患者信息中未提及且病史为心血管疾病"
+      ],
+      "trial_id": "NCT00000665"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而临床试验针对的是 HIV 感染（HIV Infections）及 AIDS 相关疾病。两者疾病类型完全不相关，属于根本性不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者患有冠状动脉疾病，试验针对 HIV 感染/AIDS"
+      ],
+      "trial_id": "NCT00000672"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，而试验针对的是艾滋病（AIDS）合并巨细胞病毒视网膜炎（CMV Retinitis）患者。两者疾病完全不相关，患者不符合试验的基本入组条件（必须患有 AIDS 和 CMV 视网膜炎）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验要求艾滋病合并巨细胞病毒视网膜炎",
+        "关键入组条件缺失：患者信息中未提及 HIV 感染或 AIDS 诊断",
+        "关键入组条件缺失：患者信息中未提及 CMV 视网膜炎诊断"
+      ],
+      "trial_id": "NCT00000673"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，而临床试验针对的是 HIV 感染/AIDS 患者。疾病完全不相关，存在根本性冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为心血管疾病，试验针对 HIV/AIDS",
+        "试验要求患者有 HIV 抗体且确诊 AIDS 或 ARC，患者无此信息",
+        "试验要求患者曾接受至少 1 年 AZT 治疗，患者无此用药史"
+      ],
+      "trial_id": "NCT00000678"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而临床试验针对的是 HIV 感染（HIV Infections）及卡氏肺囊虫肺炎（PCP）患者。两者疾病完全不相关，存在根本性冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为冠状动脉疾病，试验针对 HIV 感染",
+        "试验要求患者 HIV 阳性且接受过齐多夫定（AZT）治疗至少 9 个月，患者信息中无 HIV 感染或相关治疗史"
+      ],
+      "trial_id": "NCT00000682"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对 HIV 感染，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验要求 HIV 感染"
+      ],
+      "trial_id": "NCT00000706"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，与试验针对的肺孢子菌肺炎（PCP）及 HIV 感染完全无关。试验要求患者必须确诊 HIV 感染且疑似亚临床 PCP 感染，患者无相关病史或症状，存在根本性疾病不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为冠状动脉疾病，试验针对 HIV 感染及肺孢子菌肺炎",
+        "试验要求确诊 HIV 感染，患者信息未提及 HIV 状态",
+        "试验要求疑似亚临床 PCP 感染，患者无相关症状或筛查结果"
+      ],
+      "trial_id": "NCT00000707"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，而临床试验针对的是艾滋病（HIV 感染）合并肺孢子菌肺炎（PCP）患者。疾病完全不相关，且患者无 HIV 感染或 PCP 诊断信息，存在根本性冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为心血管疾病，试验针对 HIV/PCP",
+        "患者无 HIV 感染或 PCP 诊断",
+        "试验要求患者对 TMP/SMX 或戊烷脒有严重不耐受，患者无相关用药史"
+      ],
+      "trial_id": "NCT00000714"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，而试验针对的是艾滋病相关的肺孢子菌肺炎（PCP）。两者疾病完全不相关，患者无 HIV 感染或 PCP 诊断信息，不符合试验入组条件。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为心血管疾病，试验针对 HIV 相关肺孢子菌肺炎",
+        "无 HIV 感染或 PCP 诊断证据",
+        "试验要求 PCP 确诊或高度疑似，患者无相关症状或诊断"
+      ],
+      "trial_id": "NCT00000715"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，与试验针对的艾滋病合并肺孢子菌肺炎（PCP）完全无关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者无 HIV 感染或 PCP 病史",
+        "试验要求 HIV 阳性且确诊 PCP，患者信息中未提及"
+      ],
+      "trial_id": "NCT00000717"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，而试验针对的是艾滋病相关肺孢子菌肺炎（PCP）。疾病完全不相关，且患者无 HIV 感染或 PCP 诊断信息。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为心血管疾病，试验针对肺孢子菌肺炎",
+        "试验要求确诊 PCP，患者无相关诊断",
+        "试验针对 HIV 感染相关疾病，患者无 HIV 感染信息"
+      ],
+      "trial_id": "NCT00000722"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，而试验针对的是艾滋病患者并发肺孢子菌肺炎（PCP）。疾病类型完全不相关，患者无 HIV 感染或 PCP 病史，不符合试验入组条件。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有冠状动脉疾病，试验针对艾滋病并发肺孢子菌肺炎",
+        "无 HIV 感染或 PCP 病史",
+        "试验要求患者对标准 PCP 治疗（如 TMP/SMX 或喷他脒）无效或不耐受，患者无相关治疗史"
+      ],
+      "trial_id": "NCT00000724"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，而试验针对的是艾滋病（AIDS）合并巨细胞病毒（CMV）视网膜炎患者。两者疾病完全不相关，患者不符合试验的核心入组条件（AIDS 诊断、CMV 视网膜炎）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为冠状动脉疾病，试验要求 AIDS 合并 CMV 视网膜炎",
+        "试验要求患者确诊 AIDS CDC Group IV.C，患者信息未提及 HIV 感染或 AIDS 诊断",
+        "试验要求确诊 CMV 视网膜炎，患者信息未提及眼部感染或相关症状"
+      ],
+      "trial_id": "NCT00000726"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，而试验针对的是艾滋病（HIV 感染）患者并发肺孢子菌肺炎（PCP）的二级预防。疾病类型完全不相关，患者无 HIV 感染或 PCP 病史，不符合试验入组条件。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠状动脉疾病，试验针对 HIV 感染及肺孢子菌肺炎",
+        "关键入组条件缺失：患者无 HIV 感染史，无 PCP 病史",
+        "试验药物相关：试验涉及 AZT、磺胺甲噁唑 - 甲氧苄啶等抗 HIV 及抗 PCP 药物，与患者当前治疗无关"
+      ],
+      "trial_id": "NCT00000727"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，与试验针对的艾滋病合并肺孢子菌肺炎（PCP）完全无关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者无 HIV 感染或 PCP 病史",
+        "试验针对 AIDS 患者，患者无相关免疫缺陷描述"
+      ],
+      "trial_id": "NCT00000730"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对 HIV 感染，疾病完全不相关。此外，患者年龄 58 岁超出试验最大年龄限制 50 岁。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠状动脉疾病，试验针对 HIV 感染",
+        "年龄冲突：患者 58 岁，试验要求最大年龄 50 岁"
+      ],
+      "trial_id": "NCT00000732"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对 HIV 感染，疾病完全不相关。此外，患者年龄 58 岁超出试验最大年龄限制 50 岁。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠状动脉疾病，试验针对 HIV 感染",
+        "年龄冲突：患者 58 岁，试验要求最大年龄 50 岁"
+      ],
+      "trial_id": "NCT00000734"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者为58岁男性，患有冠心病、2型糖尿病等，而试验针对的是0.08至12岁的儿童HIV感染患者，年龄和疾病类型均完全不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄不符：患者58岁，试验要求0.08-12岁",
+        "疾病不符：患者为冠心病，试验为HIV感染相关肺炎预防",
+        "性别虽无限制，但年龄和疾病是主要冲突点"
+      ],
+      "trial_id": "NCT00000739"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对 HIV 感染患者，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为冠状动脉疾病，试验要求 HIV 感染",
+        "入排标准冲突：试验要求 HIV 抗体阳性且 CD4 计数<500/mm3，患者无 HIV 相关信息"
+      ],
+      "trial_id": "NCT00000740"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病、心肌梗死、2 型糖尿病等，而试验针对 HIV 感染及肺孢子菌肺炎（PCP）预防，疾病完全不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者无 HIV 感染史，试验要求 HIV 感染",
+        "试验针对 PCP 预防，患者无相关指征"
+      ],
+      "trial_id": "NCT00000748"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有冠状动脉疾病和高胆固醇血症，但试验针对的是纯合子家族性高胆固醇血症（Homozygous Familial Hypercholesterolemia），这是一种罕见的遗传病。患者 LDL 水平>190 mg/dL，但试验要求 LDL>400 mg/dL 且胆固醇>500 mg/dL，且需有肌腱/皮肤黄瘤、角膜环等特定体征，患者信息未提及这些关键特征，且年龄 58 岁发病较晚，不符合该罕见病典型表现。",
+      "missing_information": [
+        "是否确诊为纯合子家族性高胆固醇血症",
+        "是否有肌腱或皮肤黄瘤",
+        "是否有角膜环",
+        "具体胆固醇和甘油三酯数值"
+      ],
+      "conflicts": [
+        "试验针对纯合子家族性高胆固醇血症，患者为普通冠状动脉疾病伴高胆固醇",
+        "试验要求 LDL>400 mg/dL，患者 LDL>190 mg/dL",
+        "试验要求胆固醇>500 mg/dL，患者未提供具体数值但可能不达标",
+        "患者 58 岁发病，试验描述该病通常在儿童或青年期发病"
+      ],
+      "trial_id": "NCT00001204"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者患有冠状动脉疾病（Coronary artery disease），符合试验入组标准第1条（Coronary artery disease with angina or inducible myocardial ischemia）。患者有心肌梗死病史，虽未明确提及心绞痛或缺血，但心肌梗死通常伴随缺血。试验涵盖多种心脏疾病，患者信息基本满足入组条件。",
+      "missing_information": [
+        "是否有心绞痛或可诱导的心肌缺血（通过非侵入性测试确定）"
+      ],
+      "conflicts": [],
+      "trial_id": "NCT00001313"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者患有冠状动脉疾病（Coronary artery disease），与试验目标疾病（Heart Disease）高度相关。试验旨在筛选心脏疾病患者参与其他研究，患者符合基本疾病特征。无明确排除标准冲突，但需确认患者当前未参与其他心脏科研究协议。",
+      "missing_information": [
+        "当前是否参与其他心脏科研究协议"
+      ],
+      "conflicts": [],
+      "trial_id": "NCT00001400"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有冠心病和心肌梗死病史，但试验针对的是充血性心力衰竭（CHF）患者。关键排除标准包括：1. 患者有糖尿病（试验排除糖尿病或空腹血糖≥120 mg/dl）；2. 患者有心肌梗死病史（试验排除过去 2 个月内心肌梗死，虽未明确时间但患者有多次梗死史）；3. 患者曾接受过搭桥手术（CABG），试验排除入组前 3 个月内 CABG。此外，试验要求左室射血分数≤40%，患者信息未提供此关键数据。",
+      "missing_information": [
+        "左室射血分数 (LVEF)",
+        "纽约心脏病协会 (NYHA) 分级",
+        "最近一次心肌梗死或 CABG 的具体时间",
+        "空腹血糖水平"
+      ],
+      "conflicts": [
+        "患者患有 2 型糖尿病，试验排除标准明确禁止糖尿病",
+        "患者有心肌梗死病史，试验排除过去 2 个月内心肌梗死",
+        "患者曾接受 CABG 手术，试验排除入组前 3 个月内 CABG",
+        "试验针对充血性心力衰竭，患者主要诊断为冠心病"
+      ],
+      "trial_id": "NCT00001402"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者患有冠状动脉疾病（Coronary artery disease），与试验目标疾病（Cardiovascular Disease）高度相关。入排标准中明确包含冠状动脉疾病患者，且患者年龄（58 岁）在允许范围内（最大 99 岁），性别无限制。无明确排除标准冲突（非孕妇，有知情同意能力）。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001458"
+    },
+    {
+      "matched": true,
+      "match_score": 0.85,
+      "reason": "患者患有冠状动脉疾病（Coronary artery disease）和心肌梗死病史，与试验针对的'Heart Disease'高度相关。入排标准允许有心脏疾病症状的患者，且排除了不稳定心绞痛、近期（1 个月内）心肌梗死后的不稳定病程及 NYHA IV 级心衰。患者虽有心肌梗死史，但描述为'later bypass surgery'，暗示病情已稳定，未提及近期不稳定情况，故无明显冲突。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001460"
+    },
+    {
+      "matched": false,
+      "match_score": 0.2,
+      "reason": "患者患有冠状动脉疾病，与试验目标疾病相关。但患者有近期心肌梗死史（multiple infarctions），而试验入排标准明确要求无近期不稳定型心绞痛或心肌梗死（less than 1 month）。虽然未明确说明时间，但描述中提到“requiring emergency stenting and later bypass surgery”，暗示可能为近期事件，存在潜在冲突。此外，患者有 elevated hepatic transaminase level，虽非直接排除标准，但可能影响 PET 扫描安全性。",
+      "missing_information": [
+        "心肌梗死发生的具体时间",
+        "肝功能异常的具体数值",
+        "当前是否有心绞痛症状"
+      ],
+      "conflicts": [
+        "近期心肌梗死史可能与入排标准冲突",
+        "肝功能异常可能影响检查安全性"
+      ],
+      "trial_id": "NCT00001528"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有冠心病、2 型糖尿病、高胆固醇血症，但试验明确排除有糖尿病史的患者（No history of diabetes），且排除同时患有高血压和高胆固醇血症的患者（Patients with coexistent hypertension and hypercholesterolemia are ineligible）。患者有高胆固醇血症，且描述中提到复杂心脏病史，虽未明确提及高血压，但糖尿病史是明确的排除标准。",
+      "missing_information": [
+        "血压具体数值",
+        "是否正在服用降压药"
+      ],
+      "conflicts": [
+        "患者有 2 型糖尿病史，试验排除标准明确禁止有糖尿病史的患者",
+        "患者有高胆固醇血症，若同时患有高血压则不符合入组条件（试验排除共病高血压和高胆固醇血症的患者）"
+      ],
+      "trial_id": "NCT00001622"
+    },
+    {
+      "matched": false,
+      "match_score": 0.2,
+      "reason": "患者有心肌梗死病史，但试验要求无近期心肌梗死（小于 1 个月），且患者有多次心梗史，可能不符合入组标准。此外，试验针对内皮功能障碍需诊断性心导管检查，患者信息未明确是否满足此条件。",
+      "missing_information": [
+        "是否近期（1 个月内）发生心肌梗死",
+        "是否需要进行诊断性心导管检查",
+        "左主干病变程度",
+        "肾功能（肌酐水平）",
+        "是否正在使用 ACE 抑制剂及能否停用"
+      ],
+      "conflicts": [
+        "患者有多次心肌梗死史，试验要求无近期心肌梗死（小于 1 个月），存在潜在冲突",
+        "患者有复杂心脏病史，可能不符合内皮功能障碍需心导管检查的特定要求"
+      ],
+      "trial_id": "NCT00001628"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者有冠状动脉疾病，与试验疾病相关。但患者有既往冠状动脉搭桥手术史（bypass surgery），而试验入排标准明确排除'No prior coronary bypass graft or coronary stent of the target vessel'。此外，患者有心肌梗死史，试验要求'Major clinical cardiovascular events within 30 days'，虽未明确时间，但患者有多次心梗史，可能存在近期事件风险。",
+      "missing_information": [
+        "最近一次心肌梗死或支架手术的具体时间",
+        "最近一次冠状动脉造影结果（50% 狭窄）",
+        "血清肌酐水平",
+        "SGPT/SGOT 具体数值",
+        "是否装有起搏器或金属植入物"
+      ],
+      "conflicts": [
+        "既往冠状动脉搭桥手术史（bypass surgery）与入排标准冲突",
+        "既往支架手术史（stenting）与入排标准冲突",
+        "多次心肌梗死史可能违反'无重大心血管事件'要求"
+      ],
+      "trial_id": "NCT00001633"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有2型糖尿病，而试验明确排除有糖尿病史的患者。此外，试验要求志愿者不能服用任何药物，但患者正在服用二甲双胍和他汀类药物（推测用于高胆固醇）。",
+      "missing_information": [],
+      "conflicts": [
+        "患者有2型糖尿病史，试验排除标准明确禁止",
+        "患者正在服用药物（二甲双胍、他汀类），试验要求不能服用任何药物"
+      ],
+      "trial_id": "NCT00001742"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者主要诊断为冠心病、2 型糖尿病，但试验主要针对需要肾移植、肾胰移植或胰岛细胞移植的终末期肾病患者。患者虽有糖尿病，但无肾衰竭或终末期肾病相关描述，疾病相关性低。",
+      "missing_information": [
+        "肾功能状态（如 eGFR、肌酐水平）",
+        "是否患有终末期肾病",
+        "是否有肾移植指征"
+      ],
+      "conflicts": [
+        "试验针对终末期肾病或需移植患者，患者信息未显示肾衰竭",
+        "试验主要关注肾/胰/胰岛移植，患者主要问题为心血管和代谢疾病"
+      ],
+      "trial_id": "NCT00001859"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease）和心肌梗死，而试验针对的是遗传性心肌病（Familial Hypertrophic Cardiomyopathy）。两者疾病类型明显不相关，不符合入组标准。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为冠状动脉疾病，试验要求遗传性心肌病"
+      ],
+      "trial_id": "NCT00001881"
+    },
+    {
+      "matched": false,
+      "match_score": 0.2,
+      "reason": "患者有冠心病病史，但存在明显排除标准冲突：患者有多次心肌梗死史，试验要求无近期心肌梗死（less than 1 month），虽然未明确说明最近一次心梗时间，但描述中提到'Patient experienced multiple infarctions'，且需要紧急支架和搭桥手术，存在近期心梗风险。此外，患者有轻度肝酶升高，虽非直接排除标准，但可能影响试验安全性评估。",
+      "missing_information": [
+        "最近一次心肌梗死的具体时间",
+        "当前血压水平",
+        "是否存在心室异位搏动",
+        "是否存在充血性心力衰竭",
+        "是否存在心房颤动",
+        "二维超声心动图窗口是否充分"
+      ],
+      "conflicts": [
+        "近期心肌梗死风险（less than 1 month）",
+        "可能存在充血性心力衰竭（需确认）",
+        "可能存在心室异位搏动（需确认）",
+        "可能存在心房颤动（需确认）",
+        "肝酶升高可能影响安全性评估"
+      ],
+      "trial_id": "NCT00001886"
+    },
+    {
+      "matched": false,
+      "match_score": 0.2,
+      "reason": "患者有心肌梗死病史，但试验要求无近期心肌梗死（4 周内），患者描述中提到'Patient experienced multiple infarctions'，未明确时间，但考虑到'complex cardiac history'和'later bypass surgery'，可能存在近期事件风险。此外，患者有 elevated hepatic transaminase level，虽非直接排除标准，但可能影响 MRI 或药物耐受性。最关键的是，试验针对的是进行诊断性心导管检查的患者，患者已接受过支架和搭桥手术，可能不再符合'undergoing diagnostic cardiac catheterization'的入组条件。",
+      "missing_information": [
+        "最近一次心肌梗死的具体时间",
+        "当前是否计划进行诊断性心导管检查",
+        "是否有左心室血栓",
+        "NYHA 心功能分级",
+        "是否有起搏器或除颤器植入"
+      ],
+      "conflicts": [
+        "患者有心肌梗死病史，试验要求无近期心肌梗死（<4 周），时间不明确",
+        "患者已接受支架和搭桥手术，可能不符合'undergoing diagnostic cardiac catheterization'的入组条件",
+        "患者有 elevated hepatic transaminase level，可能影响 MRI 或药物耐受性"
+      ],
+      "trial_id": "NCT00001895"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者疾病为冠心病，试验针对吞咽困难（Dysphagia）患者或健康志愿者。患者无吞咽困难相关症状描述，且试验入组标准明确排除有心脏问题（如心律失常、瓣膜脱垂等）的健康志愿者，而患者有复杂心脏病史（多次心梗、搭桥手术），不符合健康志愿者标准；同时患者无吞咽困难诊断，不符合患者组入组标准。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不相关：患者为冠心病，试验针对吞咽困难",
+        "入组标准冲突：患者有复杂心脏病史，不符合健康志愿者排除标准（心脏问题）",
+        "入组标准冲突：患者无吞咽困难症状，不符合患者组入组标准"
+      ],
+      "trial_id": "NCT00001936"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者主要疾病为冠状动脉疾病，而试验针对肝病患者。虽然患者有轻度肝酶升高，但试验排除标准明确排除有显著医疗疾病史可能干扰随访的患者，且患者有复杂心脏病史、糖尿病、高胆固醇血症等，属于排除标准中的'History of significant medical illnesses'。此外，患者ALT升高（Elevated hepatic transaminase level）可能违反排除标准ALT >35 (men)。",
+      "missing_information": [],
+      "conflicts": [
+        "患者有复杂心脏病史和多种合并症，属于排除标准中的'History of significant medical illnesses'",
+        "患者ALT升高，可能违反排除标准ALT >35 (men)",
+        "试验主要针对肝炎和肝病患者，患者主要诊断为冠状动脉疾病，疾病相关性低"
+      ],
+      "trial_id": "NCT00001971"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有 2 型糖尿病，但试验主要针对严重胰岛素抵抗综合征（如脂肪萎缩、胰岛素受体突变等），患者不符合严重胰岛素抵抗的入组标准（如空腹胰岛素>30、胰岛素用量>2 单位/kg/天等）。此外，患者正在服用二甲双胍，可能影响血糖代谢，且存在肝功能异常（转氨酶轻度升高），可能不符合健康对照组的排除标准。",
+      "missing_information": [
+        "空腹胰岛素水平",
+        "每日胰岛素用量",
+        "是否有脂肪萎缩或黑棘皮病等表型特征"
+      ],
+      "conflicts": [
+        "患者患有 2 型糖尿病，但试验主要针对严重胰岛素抵抗综合征，普通 2 型糖尿病可能不符合入组标准",
+        "患者正在服用二甲双胍，可能影响血糖代谢",
+        "患者有肝功能异常（转氨酶轻度升高），可能不符合健康对照组的排除标准"
+      ],
+      "trial_id": "NCT00001987"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有 2 型糖尿病，与试验目标人群部分相关，但试验主要针对美国印第安人（Minnesota American Indian community），患者种族信息缺失。此外，试验要求无 1 年内心肌梗死史，而患者有心肌梗死史（未明确时间，但描述为'complex cardiac history'且'later bypass surgery'，可能近期发生）。试验还要求无心绞痛、无严重高血压等，患者有冠心病史，可能存在冲突。",
+      "missing_information": [
+        "种族/民族信息",
+        "心肌梗死发生的具体时间",
+        "当前血压控制情况",
+        "尿微量白蛋白/肌酐比值",
+        "肾功能（肌酐清除率）",
+        "视网膜检查结果"
+      ],
+      "conflicts": [
+        "试验要求无 1 年内心肌梗死，患者有心肌梗死史（时间不明，但病史复杂）",
+        "试验针对美国印第安人，患者种族未提及",
+        "试验要求无需要 ACEI 治疗，患者可能因高血压/糖尿病需要",
+        "试验要求无不稳定心绞痛，患者有冠心病史"
+      ],
+      "trial_id": "NCT00004266"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者有心肌梗死病史，但试验要求近期心肌梗死（3-28 天），患者描述为既往多次心梗并进行了支架和搭桥手术，未明确当前是否处于试验要求的急性期窗口。此外，患者有既往 CABG 史，若目标血管已搭桥则不符合入组标准。",
+      "missing_information": [
+        "当前心肌梗死发生时间",
+        "是否处于 3-28 天急性期",
+        "梗死相关动脉是否已搭桥",
+        "左室射血分数 (EF)",
+        "TIMI 血流分级",
+        "是否存在临床再血管化指征"
+      ],
+      "conflicts": [
+        "既往 CABG 史可能排除（若 IRA 已搭桥）",
+        "未明确是否处于试验要求的急性心肌梗死时间窗（3-28 天）"
+      ],
+      "trial_id": "NCT00004562"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对的是颅内动脉狭窄导致的卒中预防（Stroke Cerebral Infarction Atherosclerosis Constriction, Pathologic）。虽然两者都涉及动脉粥样硬化，但试验明确要求患者有 TIA 或非严重卒中病史，且存在高程度颅内动脉狭窄（50-99%），患者信息中未提及卒中或 TIA 病史，也未提及颅内动脉狭窄情况。此外，患者有近期心肌梗死史（multiple infarctions），属于试验排除标准中的'3 个月内心肌梗死'。",
+      "missing_information": [
+        "是否有 TIA 或非严重卒中病史",
+        "是否有颅内动脉狭窄（50-99%）",
+        "最近一次心肌梗死的具体时间"
+      ],
+      "conflicts": [
+        "患者有心肌梗死病史，试验排除标准规定 3 个月内心肌梗死为排除条件",
+        "试验要求 TIA 或非严重卒中病史，患者信息中未提及",
+        "试验要求高程度颅内动脉狭窄，患者信息中未提及"
+      ],
+      "trial_id": "NCT00004728"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有冠状动脉疾病和心肌梗死，但试验主要针对颈动脉狭窄引起的中风或短暂性脑缺血发作（TIA）。患者信息中未提及颈动脉狭窄或相关神经系统症状，这是试验入组的关键条件。",
+      "missing_information": [
+        "颈动脉狭窄程度",
+        "是否有短暂性脑缺血发作（TIA）或中风病史"
+      ],
+      "conflicts": [
+        "试验要求患者有颈动脉狭窄（≥50% 或≥60% 取决于症状状态），患者信息中未提供此关键数据",
+        "试验针对的是脑血管疾病（颈动脉狭窄），而患者主要诊断为冠状动脉疾病"
+      ],
+      "trial_id": "NCT00004732"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者主要诊断为冠状动脉疾病和心肌梗死，但试验针对的是近期卒中（非致残性脑梗死）患者。入排标准明确要求患者必须在随机化前 120 天内发生过卒中，而患者信息中未提及卒中病史，仅提及心肌梗死。此外，患者有近期支架植入史（later bypass surgery 暗示近期干预），可能违反入排标准中关于 30 天内血管内治疗的规定。",
+      "missing_information": [
+        "是否有卒中病史",
+        "卒中发生时间",
+        "同型半胱氨酸水平",
+        "改良 Rankin 评分",
+        "近期具体手术时间"
+      ],
+      "conflicts": [
+        "疾病不匹配：试验针对卒中患者，患者主要诊断为冠心病/心肌梗死",
+        "可能违反入排标准：未提及卒中病史",
+        "可能违反排除标准：近期可能有血管内治疗（支架/搭桥）"
+      ],
+      "trial_id": "NCT00004734"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有冠状动脉疾病和高胆固醇血症，但试验针对的是纯合子家族性高胆固醇血症（LDL>500 mg/dL），患者LDL仅>190 mg/dL，且试验明确排除糖尿病患者，患者有2型糖尿病史。",
+      "missing_information": [],
+      "conflicts": [
+        "LDL水平不达标（患者>190 mg/dL，试验要求>500 mg/dL）",
+        "患者有2型糖尿病，试验排除标准明确禁止糖尿病",
+        "试验针对纯合子家族性高胆固醇血症，患者未提及该特定诊断"
+      ],
+      "trial_id": "NCT00004809"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有 2 型糖尿病，符合试验疾病要求。但试验针对墨西哥裔美国人（Hispanics/Mexican Americans），患者信息未提及种族/民族背景，存在关键人口学信息缺失。此外，试验要求有家庭成员参与，患者信息未提及。试验状态为已完成（Completed），通常不再招募。",
+      "missing_information": [
+        "种族/民族背景",
+        "是否有家庭成员愿意参与",
+        "患者居住地（是否在 Starr County, Texas）"
+      ],
+      "conflicts": [
+        "试验状态为 Completed，通常不再招募新患者",
+        "试验针对特定种族群体（墨西哥裔美国人），患者信息未确认符合"
+      ],
+      "trial_id": "NCT00004983"
+    },
+    {
+      "matched": true,
+      "match_score": 0.9,
+      "reason": "患者患有冠状动脉疾病，与试验研究的冠心病、动脉粥样硬化等疾病高度相关。试验无明确入排标准，性别无限制，患者信息足以支持可能匹配。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00005136"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease）和心肌梗死，而试验针对的是家族性肥厚型心肌病（Familial Hypertrophic Cardiomyopathy），两者疾病类型明显不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为冠状动脉疾病，试验针对肥厚型心肌病"
+      ],
+      "trial_id": "NCT00005251"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有冠心病、糖尿病和高胆固醇血症，但试验主要针对高血压的遗传学研究。患者信息中未明确提及高血压病史或血压数值，且试验要求入组者有高血压（收缩压≥140 或舒张压≥90）及至少一名患高血压的兄弟姐妹。患者虽有心血管病史，但缺乏高血压相关关键信息，且试验重点为高血压遗传学而非冠心病治疗，疾病相关性较弱。",
+      "missing_information": [
+        "血压数值",
+        "是否有高血压病史",
+        "是否有患高血压的兄弟姐妹"
+      ],
+      "conflicts": [
+        "试验主要针对高血压遗传学研究，患者主要诊断为冠心病",
+        "患者信息未明确显示符合高血压入组标准"
+      ],
+      "trial_id": "NCT00005267"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有高胆固醇血症，但试验针对家族性联合高脂血症的遗传学研究，要求参与者与家族性联合高脂血症患者相关。患者信息未提及家族史或遗传特征，且主要诊断为冠心病，与试验核心目标不完全匹配。",
+      "missing_information": [
+        "家族性联合高脂血症的家族史",
+        "遗传特征信息"
+      ],
+      "conflicts": [
+        "试验要求参与者与家族性联合高脂血症患者相关，患者信息未显示此关系"
+      ],
+      "trial_id": "NCT00005313"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "试验主要研究静脉血栓栓塞（DVT/PE）的发病率，而患者疾病为冠状动脉疾病、心肌梗死、糖尿病等，属于动脉系统疾病，与试验目标疾病（静脉血栓栓塞）明显不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为冠状动脉疾病/心肌梗死，试验针对静脉血栓栓塞（DVT/PE）"
+      ],
+      "trial_id": "NCT00005351"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "试验研究的是 1970-94 年老年人心力衰竭趋势，属于回顾性观察研究，无入排标准但时间范围与当前患者不符，且疾病重点为心力衰竭而非冠心病，患者虽有心血管病史但试验已结题且非干预性研究，不匹配。",
+      "missing_information": [],
+      "conflicts": [
+        "试验时间范围（1970-94）与当前患者就诊时间不符",
+        "试验疾病重点为心力衰竭，患者主要诊断为冠心病",
+        "试验状态为已完成，无法招募新患者"
+      ],
+      "trial_id": "NCT00005499"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "试验针对高血压性终末期肾病（H-ESRD）的高危非裔美国人人群，患者疾病为冠心病、2 型糖尿病等，无终末期肾病或高血压相关描述，且未提及种族信息，疾病不相关。",
+      "missing_information": [
+        "种族信息",
+        "肾功能状态",
+        "血压情况"
+      ],
+      "conflicts": [
+        "试验针对终末期肾病患者，患者无相关病史",
+        "试验针对非裔美国人高危人群，患者种族未提及"
+      ],
+      "trial_id": "NCT00005536"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者疾病为冠状动脉疾病（动脉系统），而试验针对静脉血栓栓塞（VTE，静脉系统），疾病类型明显不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为冠状动脉疾病，试验针对静脉血栓栓塞"
+      ],
+      "trial_id": "NCT00005543"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有2型糖尿病，而试验明确排除有糖尿病史的患者（No history of diabetes）。此外，患者有冠心病史，试验排除外周血管疾病等，且患者LDL>190mg/dL但试验要求胆固醇≥240mg/dL，且患者有肝酶轻度升高，试验要求无活动性肝病（ALT>1.5倍正常上限）。存在多项关键入排标准冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "患者有2型糖尿病史，试验排除有糖尿病史的患者",
+        "患者有冠心病史，试验排除外周血管疾病等",
+        "患者LDL>190mg/dL，试验要求血清胆固醇≥240mg/dL",
+        "患者有肝酶轻度升高，试验要求无活动性肝病（ALT>1.5倍正常上限）"
+      ],
+      "trial_id": "NCT00006071"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有 2 型糖尿病，与试验疾病相关，但试验明确要求参与者必须生活在特定的美洲原住民社区（Native American community）并由特定的印第安卫生服务诊所服务。患者信息中未提及种族或居住地，且患者有复杂的心脏病史（冠心病、心肌梗死、搭桥手术），这可能影响其参与生活方式干预的能力或安全性，存在潜在冲突。",
+      "missing_information": [
+        "种族/民族",
+        "居住地",
+        "是否由指定的印第安卫生服务诊所服务"
+      ],
+      "conflicts": [
+        "患者有复杂的心脏病史（多次心肌梗死、搭桥手术），可能影响参与生活方式干预的能力",
+        "试验针对特定美洲原住民社区，患者信息未显示符合此条件"
+      ],
+      "trial_id": "NCT00006159"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对的是肾血管性高血压（Renovascular Hypertension），疾病类型明显不相关。虽然患者有高血压相关风险因素（如糖尿病、高胆固醇），但试验主要招募健康志愿者或有肾血管性高血压临床怀疑的患者，患者信息中未提及肾血管性高血压相关症状或诊断。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为冠状动脉疾病，试验针对肾血管性高血压"
+      ],
+      "trial_id": "NCT00006173"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者主要诊断为冠状动脉疾病（Coronary artery disease），而试验针对的是肥胖症（Obesity）。虽然患者有糖尿病和高胆固醇血症，但试验的核心疾病目标不匹配。此外，患者信息中未提供BMI数据，无法确认是否符合BMI 25-40 kg/m2的入组标准。",
+      "missing_information": [
+        "BMI"
+      ],
+      "conflicts": [
+        "疾病不相关：患者主要诊断为冠状动脉疾病，试验针对肥胖症"
+      ],
+      "trial_id": "NCT00006193"
+    },
+    {
+      "matched": false,
+      "match_score": 0.2,
+      "reason": "患者有2型糖尿病和冠心病，符合试验主要疾病要求。但患者有既往搭桥手术史（bypass surgery），而试验排除标准明确禁止“Prior bypass surgery (CABG) or prior catheter-based intervention within the 12 months before study entry”。虽然未明确说明搭桥手术发生时间，但描述中提到“requiring emergency stenting and later bypass surgery”，暗示既往已接受过CABG，这与排除标准冲突。此外，患者有轻度肝酶升高（Elevated hepatic transaminase level），试验排除标准包含“Hepatic disease (ALT greater than 2 times the ULN)”，需确认是否超过2倍上限。",
+      "missing_information": [
+        "既往搭桥手术的具体时间",
+        "ALT具体数值是否超过2倍上限"
+      ],
+      "conflicts": [
+        "Prior bypass surgery (CABG) history conflicts with exclusion criteria",
+        "Elevated hepatic transaminase level may conflict with exclusion criteria if ALT > 2x ULN"
+      ],
+      "trial_id": "NCT00006305"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有 2 型糖尿病，但试验针对的是糖尿病足溃疡和周围神经病变患者，需要特定的足部问题（如复发性或不愈合溃疡、踝关节背屈受限）。患者信息中未提及足部溃疡、踝关节活动受限或周围神经病变，且患者有复杂的心脏病史和多次心肌梗死，可能不符合麻醉安全性要求。",
+      "missing_information": [
+        "足部溃疡病史",
+        "踝关节背屈活动度",
+        "周围神经病变情况",
+        "踝肱指数或趾压",
+        "Charcot 骨折史",
+        "中风史"
+      ],
+      "conflicts": [
+        "患者有复杂心脏病史和多次心肌梗死，可能属于麻醉高风险人群",
+        "未提及试验要求的足部溃疡或踝关节活动受限"
+      ],
+      "trial_id": "NCT00006426"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有 2 型糖尿病，与试验疾病相关。但试验入排标准明确要求'不使用药物（胰岛素或口服药）控制血糖'，而患者正在服用二甲双胍（metformin），存在明显冲突。此外，试验要求'超重但总体健康'，患者有复杂的心脏病史、多次心梗、搭桥手术及多种合并症，不符合'总体健康'要求。",
+      "missing_information": [],
+      "conflicts": [
+        "患者正在使用口服降糖药（二甲双胍），不符合'不使用药物控制血糖'的入组标准",
+        "患者有复杂心脏病史和多种合并症，不符合'总体健康'的入组标准"
+      ],
+      "trial_id": "NCT00006432"
+    },
+    {
+      "matched": false,
+      "match_score": 0.2,
+      "reason": "患者患有冠状动脉疾病和心肌梗死，但试验主要针对非缺血性心肌病（non-ischemic cardiomyopathy）患者，且要求有左心室功能障碍。虽然患者有心脏病史，但入排标准明确排除缺血性病因，而患者病史显示为缺血性心脏病（心肌梗死、支架、搭桥），存在明显冲突。",
+      "missing_information": [
+        "左心室射血分数（LVEF）",
+        "是否有心力衰竭（Class I-III）"
+      ],
+      "conflicts": [
+        "试验要求非缺血性心肌病，患者为缺血性心脏病（心肌梗死、支架、搭桥）",
+        "试验要求左心室功能障碍，患者信息未明确提及"
+      ],
+      "trial_id": "NCT00006501"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者主要诊断为冠状动脉疾病（Coronary artery disease）和心肌梗死，而试验针对的是脑卒中（Stroke）或短暂性脑缺血发作（TIA）。虽然患者有心血管病史，但试验明确招募的是有急性卒中或 TIA 症状的患者，患者信息中未提及任何卒中相关症状或诊断，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为冠状动脉疾病/心肌梗死，试验针对脑卒中/TIA"
+      ],
+      "trial_id": "NCT00009243"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对的是颈动脉狭窄（Carotid Stenosis）。虽然两者都属于动脉粥样硬化相关疾病，但试验明确要求入组患者需有颈动脉手术史或影像学显示颈动脉狭窄≥80%，对照组需颈动脉狭窄<15%。患者信息中未提及颈动脉狭窄情况，且主要诊断为冠心病，疾病部位不匹配。",
+      "missing_information": [
+        "颈动脉超声或CT血管造影结果",
+        "是否有颈动脉内膜剥脱术史"
+      ],
+      "conflicts": [
+        "试验针对颈动脉狭窄，患者主要诊断为冠状动脉疾病，疾病部位不同",
+        "患者信息未显示符合试验定义的病例组或对照组标准"
+      ],
+      "trial_id": "NCT00011258"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者主要诊断为冠状动脉疾病（Coronary artery disease）和心肌梗死，而试验针对的是慢性心力衰竭（Chronic Heart Failure）。虽然冠心病可能导致心衰，但患者描述中未明确提及慢性心力衰竭诊断或 NYHA 分级，疾病核心不匹配。",
+      "missing_information": [
+        "是否确诊慢性心力衰竭",
+        "NYHA 心功能分级"
+      ],
+      "conflicts": [
+        "主要疾病诊断不一致：患者为冠心病/心肌梗死，试验要求慢性心力衰竭"
+      ],
+      "trial_id": "NCT00012818"
+    },
+    {
+      "matched": true,
+      "match_score": 0.9,
+      "reason": "患者患有冠心病和心肌梗死病史，符合试验针对的高危心肌梗死风险人群。患者年龄58岁（>45岁），有糖尿病史，既往心肌梗死史，满足入组标准中的多项条件。无明确排除标准冲突。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00013741"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "试验主要针对儿童及青少年胰岛素抵抗和 2 型糖尿病的早期预防（目标人群为 5 岁以上，强调儿童期发病），而患者为 58 岁成年男性，且试验摘要明确提到'when they first appear in childhood'。此外，患者有严重心脏病史（多次心梗、搭桥手术），可能属于排除标准中的'congestive heart failure'或'critically ill'范畴。",
+      "missing_information": [],
+      "conflicts": [
+        "年龄与试验目标人群（儿童/青少年早期干预）不符",
+        "严重心脏病史可能违反排除标准（心衰/危重患者）",
+        "试验主要针对胰岛素抵抗早期表现，患者已确诊 2 型糖尿病多年"
+      ],
+      "trial_id": "NCT00015626"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有 2 型糖尿病，与试验关注的糖尿病相关，但试验主要研究糖尿病与听力损失/耳鸣的流行病学关系，而患者主要诊断为冠心病、心肌梗死等心血管疾病，未提及听力问题。试验虽未明确排除心血管疾病，但患者核心疾病与试验研究重点不匹配。",
+      "missing_information": [
+        "听力状况",
+        "耳鸣症状"
+      ],
+      "conflicts": [
+        "患者主要疾病为心血管疾病，试验关注糖尿病与听力损失的关系，疾病重点不匹配"
+      ],
+      "trial_id": "NCT00018486"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者疾病为冠状动脉疾病，而试验主要针对急性肾衰竭、肾脏疾病或健康志愿者。患者虽有多种合并症，但未提及肾功能异常或符合试验的入组类别（如正常肾功能、容量不足、高风险或急性肾衰竭）。",
+      "missing_information": [
+        "肾功能状态（肌酐水平、尿量等）",
+        "是否存在急性肾衰竭或慢性肾脏病"
+      ],
+      "conflicts": [
+        "患者主要诊断为冠状动脉疾病，与试验目标疾病（肾脏疾病/急性肾衰竭）不直接相关"
+      ],
+      "trial_id": "NCT00026702"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有 2 型糖尿病，符合试验的基本疾病要求。然而，试验主要针对糖尿病性黄斑水肿（Diabetic Macular Edema），而患者信息中未提及任何眼部疾病或黄斑水肿的诊断。此外，患者有轻度肝酶升高，试验排除标准中提到既往或当前肝脏疾病可能排除使用降脂药物，虽然患者情况可能不严重，但存在潜在冲突。最关键的是缺乏黄斑水肿这一核心入组条件。",
+      "missing_information": [
+        "是否有糖尿病性黄斑水肿的诊断",
+        "最佳矫正视力",
+        "眼底检查结果",
+        "是否有增殖性糖尿病视网膜病变及光凝治疗史"
+      ],
+      "conflicts": [
+        "患者信息未提及黄斑水肿，这是试验的核心入组标准",
+        "患者有轻度肝酶升高，需确认是否属于排除标准中的肝脏疾病"
+      ],
+      "trial_id": "NCT00027287"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者疾病为冠状动脉疾病（Coronary artery disease），而试验针对的是颈动脉闭塞导致的缺血性卒中或短暂性脑缺血发作（Stroke Ischemic Attack, Transient Cerebral Infarction）。虽然患者有心血管病史，但试验要求血管成像显示颈动脉闭塞，且近期有同侧颈动脉区域的 TIA 或卒中发作，患者信息中未提及此类脑血管事件，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为冠状动脉疾病，试验针对颈动脉闭塞相关卒中",
+        "未提及试验关键入组条件：颈动脉闭塞影像学证据、近期 TIA 或卒中发作"
+      ],
+      "trial_id": "NCT00029146"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者主要诊断为冠心病，而试验针对肥胖症患者。虽然患者有糖尿病和高胆固醇血症等合并症，但缺乏关键的BMI数据，且疾病类型不匹配。",
+      "missing_information": [
+        "BMI",
+        "体重变化历史"
+      ],
+      "conflicts": [
+        "疾病类型不匹配：试验针对肥胖症，患者主要诊断为冠心病"
+      ],
+      "trial_id": "NCT00029861"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者患有 2 型糖尿病，但试验主要针对肥胖且患有阻塞性睡眠呼吸暂停的 2 型糖尿病患者。患者信息中未提及肥胖或睡眠呼吸暂停相关症状，且主要疾病为冠心病，与试验核心目标（睡眠呼吸暂停）不直接相关。",
+      "missing_information": [
+        "体重/BMI",
+        "睡眠呼吸暂停诊断或症状",
+        "肥胖状态"
+      ],
+      "conflicts": [
+        "主要疾病为冠心病而非睡眠呼吸暂停综合征",
+        "未提及肥胖或睡眠呼吸暂停相关病史"
+      ],
+      "trial_id": "NCT00031239"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者主要诊断为冠状动脉疾病（Coronary artery disease）和心肌梗死病史，而试验针对的是充血性心力衰竭（Congestive Heart Failure）。虽然两者有关联，但试验明确要求患者患有中度至重度心力衰竭（NYHA II-IV 级），且射血分数需大于 40%。患者信息中未明确提及心力衰竭诊断及 NYHA 分级，且存在多项潜在排除标准冲突：1. 患者有轻度肝酶升高（Elevated hepatic transaminase level），试验排除标准第 4 条要求无临床重要的肝脏疾病或异常实验室发现；2. 患者有心肌梗死病史，试验排除标准第 11 条要求筛选前 6 个月内无急性心肌梗死（虽未明确时间，但需确认）；3. 试验要求患者为退伍军人（Inclusion 1），患者信息未提及。综上，疾病不完全匹配且存在明显排除标准冲突。",
+      "missing_information": [
+        "NYHA 分级",
+        "射血分数 (EF)",
+        "最近一次心肌梗死的具体时间",
+        "是否为退伍军人",
+        "肝酶升高的具体数值及临床意义"
+      ],
+      "conflicts": [
+        "疾病诊断不完全匹配（CAD vs CHF）",
+        "肝酶升高可能违反排除标准 4",
+        "退伍军人身份未确认",
+        "心肌梗死病史需确认是否在 6 个月内"
+      ],
+      "trial_id": "NCT00032643"
+    },
+    {
+      "trial_id": "NCT00038077",
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "API request failed after retries: JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+      "missing_information": [],
+      "conflicts": [
+        "api_error: JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+      ],
+      "api_error": true
+    },
+    {
+      "trial_id": "NCT00041938",
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "API request failed after retries: URLError: <urlopen error [Errno 111] Connection refused> (reason=ConnectionRefusedError: [Errno 111] Connection refused)",
+      "missing_information": [],
+      "conflicts": [
+        "api_error: URLError: <urlopen error [Errno 111] Connection refused> (reason=ConnectionRefusedError: [Errno 111] Connection refused)"
+      ],
+      "api_error": true
+    },
+    {
+      "matched": false,
+      "match_score": 0.2,
+      "reason": "患者有心肌梗死病史，但试验排除标准明确要求'近 2 个月内无心肌梗死'。患者描述中提到'Patient experienced multiple infarctions'，未明确时间，但考虑到需要紧急支架和搭桥手术，且试验要求'coronary angiography within 6 months'，若近期有 MI 则不符合。此外，患者有轻度肝酶升高（Elevated hepatic transaminase level），而试验入排标准要求'Normal liver function: ... transaminases within normal limits'，存在潜在冲突。",
+      "missing_information": [
+        "心肌梗死发生的具体时间",
+        "肝酶升高的具体数值",
+        "左心室射血分数 (LVEF)",
+        "心绞痛功能分级 (CCS)",
+        "是否有心力衰竭症状"
+      ],
+      "conflicts": [
+        "肝酶升高可能不符合'转氨酶正常'的入组标准",
+        "心肌梗死病史时间不明，若在近 2 个月内则不符合排除标准"
+      ],
+      "trial_id": "NCT00043628"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者有心肌梗死病史，但试验要求入组时 24 小时内有缺血性疼痛或心电图/酶学改变，且年龄需≥60 岁（患者 58 岁）。此外，患者有近期（未明确时间，但描述为 later bypass surgery）搭桥手术史，可能属于排除标准中的近期重大手术。",
+      "missing_information": [
+        "最近一次心肌梗死或心绞痛发作的具体时间",
+        "搭桥手术的具体时间",
+        "入组时心电图及心肌酶结果",
+        "当前是否正在接受抗凝治疗"
+      ],
+      "conflicts": [
+        "年龄 58 岁小于入组标准要求的 60 岁",
+        "搭桥手术史可能属于排除标准中的近期重大手术（<1 个月）",
+        "入组时是否满足急性冠脉综合征的急性发作标准（24 小时内缺血性疼痛等）不明确"
+      ],
+      "trial_id": "NCT00043784"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者年龄 58 岁，低于试验要求的 60 岁最小年龄；试验针对舒张性心力衰竭（DHF），患者主要诊断为冠心病和心肌梗死，未明确提及心力衰竭诊断；患者有心肌梗死史，可能涉及心肌缺血，与排除标准 15（不稳定或未控制的心肌缺血）存在潜在冲突。",
+      "missing_information": [
+        "是否确诊舒张性心力衰竭",
+        "左心室射血分数（LVEF）",
+        "心力衰竭临床评分",
+        "近期心血管药物调整情况",
+        "血压控制情况",
+        "肝功能具体数值（ALT/AST 是否>2.5 倍正常上限）"
+      ],
+      "conflicts": [
+        "年龄不符（患者 58 岁 < 试验要求 60 岁）",
+        "疾病诊断不完全匹配（患者为冠心病/心肌梗死，试验为舒张性心力衰竭）",
+        "潜在心肌缺血风险（排除标准 15）"
+      ],
+      "trial_id": "NCT00043836"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者疾病为冠状动脉疾病，但试验针对的是肝素诱导的血小板减少症（HIT）或肝素诱导的血小板减少伴血栓形成综合征（HITTS）患者。患者信息中未提及有 HIT/HITTS 病史或相关诊断，这是试验的核心入组标准。此外，患者有 elevated hepatic transaminase level，可能属于排除标准中提到的可能危及患者的医疗状况。",
+      "missing_information": [
+        "是否有肝素诱导的血小板减少症（HIT）或肝素诱导的血小板减少伴血栓形成综合征（HITTS）病史",
+        "血小板计数及变化趋势",
+        "是否有其他排除标准中的禁忌症（如活动性出血、肾功能不全等）"
+      ],
+      "conflicts": [
+        "疾病不匹配：试验针对 HIT/HITTS 患者，患者为普通冠状动脉疾病",
+        "潜在排除标准冲突：患者有肝功能异常（elevated hepatic transaminase level），可能属于排除标准中提到的可能危及患者的医疗状况"
+      ],
+      "trial_id": "NCT00043940"
+    },
+    {
+      "matched": false,
+      "match_score": 0.1,
+      "reason": "患者疾病为冠状动脉疾病，而试验针对孤立性收缩期高血压，疾病不相关。此外，患者有心肌梗死史（虽未明确时间，但描述为‘多次’且需紧急支架和搭桥，可能不符合入组前6个月内无急性心梗的要求），且存在肝功能异常（转氨酶轻度升高），可能违反排除标准（SGOT/SGPT > 2.0 倍正常上限）。",
+      "missing_information": [
+        "心肌梗死发生的具体时间",
+        "当前血压水平（收缩压/舒张压）",
+        "左心室肥厚（LVH）的超声心动图结果",
+        "肝功能检查的具体数值（SGOT/SGPT）"
+      ],
+      "conflicts": [
+        "疾病不相关：试验针对孤立性收缩期高血压，患者主要诊断为冠状动脉疾病",
+        "可能违反排除标准：急性心肌梗死史（需确认是否在6个月内）",
+        "可能违反排除标准：肝功能异常（转氨酶升高）"
+      ],
+      "trial_id": "NCT00045981"
+    }
+  ]
+}

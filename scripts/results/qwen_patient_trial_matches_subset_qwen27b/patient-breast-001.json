@@ -1,0 +1,2148 @@
+{
+  "patient_id": "patient-breast-001",
+  "patient_file": "../example/patient-breast-001.json",
+  "trials_evaluated": 200,
+  "trials_assessed": 200,
+  "complete": true,
+  "matched_trial_count": 1,
+  "matched_trials": [
+    {
+      "matched": true,
+      "match_score": 0.6,
+      "reason": "患者患有乳腺癌（癌症），符合试验对癌症患者的基本要求。但患者信息中缺少Karnofsky评分、预期生存期、是否怀孕/哺乳、是否有海鲜过敏史、近期是否接种过破伤风疫苗等关键入排标准信息，因此为可能匹配，需补充信息。",
+      "missing_information": [
+        "Karnofsky 功能状态评分",
+        "预期生存期",
+        "是否怀孕或哺乳",
+        "是否有海鲜过敏史",
+        "过去7年内是否接种过破伤风疫苗",
+        "是否有发热或急性感染",
+        "是否有神经系统症状史"
+      ],
+      "conflicts": [],
+      "trial_id": "NCT00000105"
+    }
+  ],
+  "all_assessments": [
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对先天性肾上腺皮质增生症。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者诊断为乳腺癌，试验要求先天性肾上腺皮质增生症",
+        "年龄不匹配：患者47岁，试验要求14-35岁"
+      ],
+      "trial_id": "NCT00000102"
+    },
+    {
+      "matched": true,
+      "match_score": 0.6,
+      "reason": "患者患有乳腺癌（癌症），符合试验对癌症患者的基本要求。但患者信息中缺少Karnofsky评分、预期生存期、是否怀孕/哺乳、是否有海鲜过敏史、近期是否接种过破伤风疫苗等关键入排标准信息，因此为可能匹配，需补充信息。",
+      "missing_information": [
+        "Karnofsky 功能状态评分",
+        "预期生存期",
+        "是否怀孕或哺乳",
+        "是否有海鲜过敏史",
+        "过去7年内是否接种过破伤风疫苗",
+        "是否有发热或急性感染",
+        "是否有神经系统症状史"
+      ],
+      "conflicts": [],
+      "trial_id": "NCT00000105"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心血管疾病风险因素。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对心血管疾病",
+        "年龄不匹配：患者47岁，试验要求50-65岁",
+        "健康状况不匹配：患者为转移性癌症，试验要求一般健康状况良好"
+      ],
+      "trial_id": "NCT00000108"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为转移性乳腺癌，试验针对肥胖及健康耐力运动员的肌肉脂质研究。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有乳腺癌，试验针对肥胖/健康志愿者",
+        "入排标准冲突：试验要求健康志愿者，患者为癌症患者"
+      ],
+      "trial_id": "NCT00000110"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对近视。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对近视",
+        "年龄不匹配：患者47岁，试验要求6-12岁"
+      ],
+      "trial_id": "NCT00000113"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对视网膜色素变性。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对视网膜色素变性"
+      ],
+      "trial_id": "NCT00000114"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对葡萄膜炎相关黄斑囊样水肿。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对眼部疾病"
+      ],
+      "trial_id": "NCT00000115"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对视神经炎。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对视神经炎"
+      ],
+      "trial_id": "NCT00000117"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对葡萄膜炎白内障手术。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验疾病为葡萄膜炎/白内障"
+      ],
+      "trial_id": "NCT00000119"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对新生儿眼炎预防。",
+      "missing_information": [],
+      "conflicts": [
+        "患者年龄47岁，试验最大年龄1岁",
+        "患者疾病为乳腺癌，试验疾病为新生儿眼炎"
+      ],
+      "trial_id": "NCT00000120"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对内斜视（眼科疾病）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对内斜视"
+      ],
+      "trial_id": "NCT00000121"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对近视和散光。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对近视和散光",
+        "年龄不匹配：患者47岁，试验要求20-35岁"
+      ],
+      "trial_id": "NCT00000123"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对脉络膜黑色素瘤。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验要求脉络膜黑色素瘤",
+        "患者有肝转移，试验要求无转移证据"
+      ],
+      "trial_id": "NCT00000124"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对眼压高/青光眼。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有乳腺癌，试验针对眼压高/青光眼",
+        "排除标准冲突：患者患有危及生命的疾病（转移性乳腺癌）"
+      ],
+      "trial_id": "NCT00000125"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对缺血性视神经病变。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对缺血性视神经病变",
+        "入排标准冲突：试验仅招募原IONDT受试者，不招募新患者",
+        "年龄冲突：患者47岁，试验要求最小年龄50岁"
+      ],
+      "trial_id": "NCT00000126"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对缺血性视神经病变。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对缺血性视神经病变",
+        "年龄不匹配：患者47岁，试验要求50岁及以上"
+      ],
+      "trial_id": "NCT00000127"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对近视（Myopia）的角膜手术研究。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有乳腺癌，试验针对近视"
+      ],
+      "trial_id": "NCT00000129"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对早产儿视网膜病变。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：乳腺癌 vs 早产儿视网膜病变",
+        "年龄冲突：患者47岁 vs 试验最大年龄1岁"
+      ],
+      "trial_id": "NCT00000133"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验为角膜移植排斥研究。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对角膜移植排斥"
+      ],
+      "trial_id": "NCT00000137"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对青光眼。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对青光眼"
+      ],
+      "trial_id": "NCT00000144"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对黄斑变性等眼部疾病。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验针对黄斑变性/脉络膜新生血管"
+      ],
+      "trial_id": "NCT00000150"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对糖尿病视网膜病变。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对糖尿病视网膜病变"
+      ],
+      "trial_id": "NCT00000151"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关（乳腺癌 vs 黄斑变性），且患者性别（女性）与试验要求（男性）冲突，患者有癌症病史与入排标准冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对黄斑变性",
+        "性别冲突：患者为女性，试验仅招募男性",
+        "病史冲突：患者有癌症病史，试验排除有癌症病史者"
+      ],
+      "trial_id": "NCT00000152"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有乳腺癌，而试验针对糖尿病视网膜病变。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验疾病为糖尿病视网膜病变"
+      ],
+      "trial_id": "NCT00000153"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有乳腺癌，而试验针对糖尿病视网膜病变。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对糖尿病视网膜病变"
+      ],
+      "trial_id": "NCT00000154"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对圆锥角膜。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有乳腺癌，试验要求患有圆锥角膜"
+      ],
+      "trial_id": "NCT00000155"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对早产儿视网膜病变。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：乳腺癌 vs 早产儿视网膜病变",
+        "年龄不匹配：患者47岁 vs 试验要求早产婴儿",
+        "试验状态为已完成"
+      ],
+      "trial_id": "NCT00000156"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有乳腺癌，而试验针对的是眼部疾病（脉络膜新生血管、黄斑变性等）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对眼部疾病"
+      ],
+      "trial_id": "NCT00000158"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对糖尿病视网膜病变。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对糖尿病视网膜病变"
+      ],
+      "trial_id": "NCT00000159"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对糖尿病视网膜病变。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对糖尿病视网膜病变"
+      ],
+      "trial_id": "NCT00000160"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有转移性乳腺癌，而试验针对的是眼部疾病（黄斑变性和白内障）。",
+      "missing_information": [],
+      "conflicts": [
+        "患者患有乳腺癌（转移性），而试验入排标准明确要求无癌症病史（除非黑色素瘤皮肤癌外）"
+      ],
+      "trial_id": "NCT00000161"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对年龄相关性黄斑变性。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对黄斑变性",
+        "年龄不匹配：患者47岁，试验要求至少50岁"
+      ],
+      "trial_id": "NCT00000167"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对阿尔茨海默病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者诊断为乳腺癌，试验要求阿尔茨海默病",
+        "年龄不匹配：患者47岁，试验要求55岁或以上"
+      ],
+      "trial_id": "NCT00000171"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对阿尔茨海默病/轻度认知障碍。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有乳腺癌，试验针对阿尔茨海默病/轻度认知障碍",
+        "年龄不符合：患者47岁，试验要求55-90岁",
+        "排除标准冲突：患者有转移性癌症病史，试验排除过去5年内有系统性癌症病史的患者"
+      ],
+      "trial_id": "NCT00000173"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关且存在明确排除标准冲突",
+      "missing_information": [],
+      "conflicts": [
+        "患者患有乳腺癌，试验排除标准明确排除乳腺癌病史",
+        "患者年龄47岁，试验要求65岁或以上",
+        "试验针对阿尔茨海默病，患者诊断为乳腺癌"
+      ],
+      "trial_id": "NCT00000176"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对阿尔茨海默病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验要求阿尔茨海默病",
+        "年龄冲突：患者47岁，试验要求最小年龄50岁"
+      ],
+      "trial_id": "NCT00000179"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对可卡因戒断症状。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对可卡因相关障碍",
+        "年龄冲突：患者47岁，试验要求21-45岁"
+      ],
+      "trial_id": "NCT00000292"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有转移性乳腺癌，而试验针对的是良性阵发性位置性眩晕（BPPV）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对眩晕"
+      ],
+      "trial_id": "NCT00000359"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有转移性乳腺癌，而试验针对的是自身免疫性内耳疾病（听力损失）。",
+      "missing_information": [],
+      "conflicts": [
+        "患者患有活动性恶性肿瘤（转移性乳腺癌），而试验排除标准明确排除'active malignancy'。",
+        "患者疾病（乳腺癌）与试验疾病（自身免疫性内耳疾病/听力损失）不匹配。"
+      ],
+      "trial_id": "NCT00000361"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对帕金森/痴呆患者的误吸性肺炎。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对帕金森病或痴呆",
+        "年龄不匹配：患者47岁，试验要求50-95岁"
+      ],
+      "trial_id": "NCT00000362"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对双相情感障碍。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求双相情感障碍I型"
+      ],
+      "trial_id": "NCT00000369"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对老年抑郁症复发。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对抑郁症",
+        "年龄不匹配：患者47岁，试验要求60-80岁"
+      ],
+      "trial_id": "NCT00000377"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有转移性乳腺癌，而试验针对的是艾滋病相关抑郁症。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对艾滋病相关抑郁症"
+      ],
+      "trial_id": "NCT00000390"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对关节炎。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求关节炎患者"
+      ],
+      "trial_id": "NCT00000396"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对骨质疏松预防；年龄严重不符：患者47岁，试验要求8-13岁；入排标准冲突：患者有恶性肿瘤及肝转移，属于排除标准中的慢性病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对骨质疏松",
+        "年龄不符：患者47岁，试验要求8-13岁",
+        "排除标准冲突：患者有恶性肿瘤及肝转移，属于慢性病排除项"
+      ],
+      "trial_id": "NCT00000402"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对骨关节炎。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有乳腺癌，试验针对骨关节炎"
+      ],
+      "trial_id": "NCT00000403"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对膝关节骨关节炎。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对膝关节骨关节炎",
+        "年龄不匹配：患者47岁，试验要求60-100岁"
+      ],
+      "trial_id": "NCT00000406"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有转移性乳腺癌，而试验针对的是非肿瘤性腰痛。",
+      "missing_information": [],
+      "conflicts": [
+        "患者患有肿瘤（乳腺癌肝转移），试验排除标准明确排除'Back pain or sciatica due to systemic disease (inflammatory rheumatic diseases, tumor, or other)'。"
+      ],
+      "trial_id": "NCT00000408"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对腰椎滑脱伴椎管狭窄。",
+      "missing_information": [],
+      "conflicts": [
+        "患者患有活动性恶性肿瘤（转移性乳腺癌），而试验排除标准明确要求排除活动性恶性肿瘤患者（除非治愈性治疗且无复发迹象至少5年）"
+      ],
+      "trial_id": "NCT00000409"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对腰椎间盘突出症。",
+      "missing_information": [],
+      "conflicts": [
+        "患者患有活动性恶性肿瘤（转移性乳腺癌），而试验排除标准明确要求排除活动性恶性肿瘤患者（除非治愈性治疗且无临床征象至少5年）"
+      ],
+      "trial_id": "NCT00000410"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对腰椎管狭窄。",
+      "missing_information": [],
+      "conflicts": [
+        "患者患有活动性恶性肿瘤（转移性乳腺癌），而试验排除标准明确要求排除活动性恶性肿瘤患者（除非治愈性治疗且无复发迹象至少5年）"
+      ],
+      "trial_id": "NCT00000411"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关，患者为乳腺癌，试验针对骨质疏松预防；年龄严重不符，患者47岁，试验要求9-13岁；排除标准明确排除癌症病史。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对骨质疏松",
+        "年龄不匹配：患者47岁，试验要求9-13岁",
+        "排除标准冲突：患者有癌症病史，试验排除标准明确排除癌症病史"
+      ],
+      "trial_id": "NCT00000413"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有乳腺癌，而试验排除标准明确包含'Gynecologic or breast cancer'，且试验针对的疾病为系统性红斑狼疮，与患者乳腺癌不符。",
+      "missing_information": [],
+      "conflicts": [
+        "患者患有乳腺癌，违反排除标准'Gynecologic or breast cancer'",
+        "患者疾病为乳腺癌，试验针对疾病为系统性红斑狼疮，疾病不相关"
+      ],
+      "trial_id": "NCT00000419"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对膝关节骨关节炎。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对膝关节骨关节炎"
+      ],
+      "trial_id": "NCT00000424"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对骨关节炎。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对骨关节炎",
+        "年龄不匹配：患者47岁，试验要求50-85岁"
+      ],
+      "trial_id": "NCT00000425"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关且存在明显入排标准冲突",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验针对骨质疏松症",
+        "患者为女性，试验要求男性",
+        "患者有恶性肿瘤（乳腺癌肝转移），试验排除标准包含恶性肿瘤"
+      ],
+      "trial_id": "NCT00000427"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有转移性乳腺癌，而试验排除标准明确规定除特定情况外，任何癌症病史均不符合入组条件。",
+      "missing_information": [],
+      "conflicts": [
+        "患者患有转移性乳腺癌，不符合试验排除标准中关于癌症病史的要求",
+        "患者年龄47岁，低于试验要求的60岁最小年龄"
+      ],
+      "trial_id": "NCT00000430"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验为莱姆病预防教育项目。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者患有乳腺癌，试验针对莱姆病",
+        "入排标准冲突：试验要求为前往楠塔基特岛的渡轮乘客，患者信息未显示符合此条件"
+      ],
+      "trial_id": "NCT00000432"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对酒精和尼古丁依赖。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对酒精和尼古丁依赖",
+        "患者有肝脏转移，可能影响肝功能，试验排除标准包含肝功能异常"
+      ],
+      "trial_id": "NCT00000437"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有转移性乳腺癌，而试验针对的是冠状动脉疾病/动脉粥样硬化。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对心血管疾病"
+      ],
+      "trial_id": "NCT00000461"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对心肌梗死。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对心血管疾病/心肌梗死"
+      ],
+      "trial_id": "NCT00000468"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对无症状颈动脉斑块/心血管疾病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对心血管疾病"
+      ],
+      "trial_id": "NCT00000469"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有转移性乳腺癌，而试验要求无癌症病史且针对健康女性进行一级预防，存在明显入排标准冲突。",
+      "missing_information": [],
+      "conflicts": [
+        "患者有癌症病史（乳腺癌），试验要求无癌症病史",
+        "患者为癌症治疗中，试验针对健康女性进行一级预防"
+      ],
+      "trial_id": "NCT00000479"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关，患者为乳腺癌，试验针对冠心病预防；性别冲突，患者为女性，试验要求男性。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对心血管疾病",
+        "性别冲突：患者为女性，试验要求男性"
+      ],
+      "trial_id": "NCT00000487"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心肌梗死及心血管疾病。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求有明确心肌梗死病史"
+      ],
+      "trial_id": "NCT00000492"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对老年收缩期高血压。",
+      "missing_information": [],
+      "conflicts": [
+        "患者年龄47岁，试验要求60岁以上",
+        "患者疾病为乳腺癌，试验针对高血压"
+      ],
+      "trial_id": "NCT00000499"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为转移性乳腺癌，试验针对高血压预防。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有乳腺癌，试验针对心血管疾病/高血压",
+        "入排标准冲突：患者有重大疾病（转移性癌症），试验要求无重大疾病"
+      ],
+      "trial_id": "NCT00000501"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对心脏骤停和心肺复苏。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对心脏骤停"
+      ],
+      "trial_id": "NCT00000502"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对肥胖症。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对肥胖症"
+      ],
+      "trial_id": "NCT00000506"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对高血压。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对心血管疾病/高血压"
+      ],
+      "trial_id": "NCT00000513"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对肥胖高血压患者。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对心血管疾病/高血压/肥胖"
+      ],
+      "trial_id": "NCT00000515"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心律失常。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对心律失常"
+      ],
+      "trial_id": "NCT00000518"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心血管疾病和肥胖。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对心血管疾病"
+      ],
+      "trial_id": "NCT00000519"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对川崎病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：乳腺癌 vs 川崎病",
+        "年龄不匹配：患者47岁，试验要求1-17岁"
+      ],
+      "trial_id": "NCT00000520"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对儿童高血压。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对心血管疾病/高血压",
+        "年龄不匹配：患者47岁，试验要求10-13岁儿童"
+      ],
+      "trial_id": "NCT00000521"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对高血压。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对高血压"
+      ],
+      "trial_id": "NCT00000522"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心肌炎。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验疾病为心肌炎"
+      ],
+      "trial_id": "NCT00000524"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关，患者为乳腺癌，试验针对心血管疾病；性别冲突，患者为女性，试验要求男性。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对心血管疾病",
+        "性别冲突：患者为女性，试验要求男性"
+      ],
+      "trial_id": "NCT00000525"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对心肌梗死后的心律失常。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对心血管疾病"
+      ],
+      "trial_id": "NCT00000526"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对高血压预防。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对心血管疾病/高血压"
+      ],
+      "trial_id": "NCT00000528"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对心律失常和心脏骤停。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对心律失常/心脏骤停"
+      ],
+      "trial_id": "NCT00000531"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对外周动脉疾病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对动脉闭塞性疾病"
+      ],
+      "trial_id": "NCT00000539"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心血管疾病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对心血管疾病"
+      ],
+      "trial_id": "NCT00000546"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对早产儿慢性肺疾病。",
+      "missing_information": [],
+      "conflicts": [
+        "患者年龄47岁，试验最大年龄1岁",
+        "患者疾病为乳腺癌，试验疾病为支气管肺发育不良",
+        "患者为成人，试验对象为早产婴儿"
+      ],
+      "trial_id": "NCT00000548"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心血管疾病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对心血管疾病"
+      ],
+      "trial_id": "NCT00000555"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对心房颤动。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对心房颤动",
+        "年龄不匹配：患者47岁，试验要求65-100岁"
+      ],
+      "trial_id": "NCT00000556"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对冠心病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对心血管疾病"
+      ],
+      "trial_id": "NCT00000559"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心力衰竭。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对心血管疾病（心力衰竭）"
+      ],
+      "trial_id": "NCT00000560"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对急性呼吸衰竭。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对急性呼吸衰竭"
+      ],
+      "trial_id": "NCT00000562"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对肺栓塞。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对肺栓塞"
+      ],
+      "trial_id": "NCT00000566"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌成人，试验针对早产儿呼吸系统疾病。",
+      "missing_information": [],
+      "conflicts": [
+        "患者年龄47岁，试验最大年龄1岁",
+        "患者疾病为乳腺癌，试验疾病为新生儿呼吸系统疾病",
+        "患者为成人女性，试验对象为早产婴儿"
+      ],
+      "trial_id": "NCT00000567"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对肺部疾病（COPD）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对肺部疾病"
+      ],
+      "trial_id": "NCT00000568"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对新生儿呼吸窘迫综合征。",
+      "missing_information": [],
+      "conflicts": [
+        "患者年龄47岁，试验要求最大年龄1.0岁",
+        "患者疾病为乳腺癌，试验疾病为新生儿呼吸窘迫综合征",
+        "患者为成人，试验对象为早产婴儿"
+      ],
+      "trial_id": "NCT00000570"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对急性呼吸窘迫综合征（ARDS）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对急性呼吸窘迫综合征"
+      ],
+      "trial_id": "NCT00000572"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为转移性乳腺癌，试验针对严重感染/脓毒症。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对脓毒症/严重感染"
+      ],
+      "trial_id": "NCT00000574"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对儿童哮喘。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对哮喘",
+        "年龄不匹配：患者47岁，试验要求5-12岁"
+      ],
+      "trial_id": "NCT00000575"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对早产儿支气管肺发育不良。",
+      "missing_information": [],
+      "conflicts": [
+        "患者年龄47岁，试验最大年龄1岁",
+        "患者疾病为乳腺癌，试验疾病为肺部疾病",
+        "患者为成人，试验对象为早产婴儿"
+      ],
+      "trial_id": "NCT00000576"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对哮喘。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验疾病为哮喘"
+      ],
+      "trial_id": "NCT00000577"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对乙型肝炎母婴传播。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：乳腺癌 vs 乙型肝炎",
+        "年龄冲突：患者47岁 vs 试验要求0-3岁婴儿",
+        "试验对象冲突：患者为成人 vs 试验针对婴儿"
+      ],
+      "trial_id": "NCT00000580"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对血友病A。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对血友病A",
+        "性别不匹配：患者为女性，试验要求男性"
+      ],
+      "trial_id": "NCT00000582"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关且性别年龄冲突",
+      "missing_information": [],
+      "conflicts": [
+        "患者为女性，试验要求男性",
+        "患者47岁，试验要求36岁及以下",
+        "患者患有乳腺癌，试验针对乙型肝炎"
+      ],
+      "trial_id": "NCT00000583"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对镰状细胞贫血。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对镰状细胞贫血",
+        "年龄冲突：患者47岁，试验最大年龄5岁"
+      ],
+      "trial_id": "NCT00000585"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对镰状细胞贫血。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对镰状细胞贫血"
+      ],
+      "trial_id": "NCT00000586"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对铁过载性贫血/地中海贫血。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对血液系统疾病（铁过载、地中海贫血等）"
+      ],
+      "trial_id": "NCT00000588"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对镰状细胞贫血。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对镰状细胞贫血",
+        "年龄不匹配：患者47岁，试验要求2-16岁"
+      ],
+      "trial_id": "NCT00000592"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心血管疾病和高胆固醇血症。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对心血管疾病"
+      ],
+      "trial_id": "NCT00000598"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关且性别冲突",
+      "missing_information": [],
+      "conflicts": [
+        "患者为女性，试验要求男性",
+        "患者诊断为乳腺癌，试验针对动脉粥样硬化等心血管疾病"
+      ],
+      "trial_id": "NCT00000599"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对镰状细胞贫血。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对镰状细胞贫血",
+        "年龄不匹配：患者47岁，试验要求5-18岁"
+      ],
+      "trial_id": "NCT00000602"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对肺气肿。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对肺气肿/慢性阻塞性肺病"
+      ],
+      "trial_id": "NCT00000606"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对充血性心力衰竭。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验针对充血性心力衰竭"
+      ],
+      "trial_id": "NCT00000619"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对2型糖尿病及心血管疾病。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求2型糖尿病"
+      ],
+      "trial_id": "NCT00000620"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对肺气肿。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对肺气肿"
+      ],
+      "trial_id": "NCT00000621"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有乳腺癌，而试验针对的是无症状HIV感染者。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求HIV血清阳性",
+        "患者无HIV感染相关信息，不符合入组标准"
+      ],
+      "trial_id": "NCT00000633"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对HIV合并潜伏性结核感染。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求HIV感染",
+        "患者无HIV感染信息，试验核心入组标准为HIV感染"
+      ],
+      "trial_id": "NCT00000636"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对HIV合并潜伏性结核感染。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求HIV感染",
+        "患者无HIV感染信息，试验入组标准明确要求HIV感染"
+      ],
+      "trial_id": "NCT00000638"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对HIV感染患者的鸟分枝杆菌感染。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求HIV感染或艾滋病诊断",
+        "患者无鸟分枝杆菌感染证据，试验要求血液分离出鸟分枝杆菌"
+      ],
+      "trial_id": "NCT00000641"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对HIV感染孕妇。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验针对HIV感染",
+        "患者为47岁女性，试验要求处于妊娠第三 trimester 或新生儿"
+      ],
+      "trial_id": "NCT00000642"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对艾滋病患者的鸟分枝杆菌复合群感染。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求HIV阳性且确诊MAC感染",
+        "患者无HIV感染相关信息，试验要求HIV阳性"
+      ],
+      "trial_id": "NCT00000644"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对儿童HIV感染。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对HIV感染",
+        "年龄冲突：患者47岁，试验要求0.25-18岁儿童",
+        "排除标准冲突：患者有活动性恶性肿瘤（乳腺癌肝转移），试验排除活动性恶性肿瘤"
+      ],
+      "trial_id": "NCT00000653"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对HIV感染及疱疹病毒感染。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求HIV感染",
+        "患者有肝脏转移瘤，试验排除不稳定肿瘤疾病"
+      ],
+      "trial_id": "NCT00000654"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对艾滋病患者的巨细胞病毒视网膜炎。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求疾病为艾滋病合并巨细胞病毒视网膜炎",
+        "患者无艾滋病或HIV感染相关描述，试验要求必须有AIDS或HIV感染诊断"
+      ],
+      "trial_id": "NCT00000665"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对HIV/AIDS。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验针对HIV感染/AIDS",
+        "患者无HIV/AIDS相关病史或治疗史"
+      ],
+      "trial_id": "NCT00000672"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对艾滋病患者的巨细胞病毒视网膜炎。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求疾病为艾滋病合并巨细胞病毒视网膜炎"
+      ],
+      "trial_id": "NCT00000673"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对HIV/AIDS。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对HIV感染",
+        "入排标准冲突：试验要求HIV抗体阳性，患者无此信息且疾病不符"
+      ],
+      "trial_id": "NCT00000678"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有乳腺癌，而试验针对HIV感染。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验针对HIV感染",
+        "患者无HIV感染史，试验要求HIV阳性",
+        "患者无AZT治疗史，试验要求AZT治疗至少9个月"
+      ],
+      "trial_id": "NCT00000682"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对HIV感染。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求HIV感染"
+      ],
+      "trial_id": "NCT00000706"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对HIV相关肺孢子菌肺炎。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求HIV感染",
+        "患者无HIV感染相关描述，试验入组标准明确要求HIV感染"
+      ],
+      "trial_id": "NCT00000707"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对艾滋病相关卡氏肺孢子虫肺炎。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求疾病为卡氏肺孢子虫肺炎（PCP）",
+        "患者无HIV感染信息，试验要求HIV血清阳性或高危人群"
+      ],
+      "trial_id": "NCT00000714"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对艾滋病相关卡氏肺孢子虫肺炎。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验针对艾滋病相关肺炎",
+        "患者无HIV感染或AIDS相关描述"
+      ],
+      "trial_id": "NCT00000715"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对艾滋病患者的卡氏肺孢子虫肺炎。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求疾病为卡氏肺孢子虫肺炎（PCP）且HIV阳性"
+      ],
+      "trial_id": "NCT00000717"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对艾滋病相关卡氏肺孢子虫肺炎。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验针对Pneumocystis Carinii肺炎",
+        "患者无HIV感染相关描述，试验针对AIDS相关疾病"
+      ],
+      "trial_id": "NCT00000722"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对艾滋病相关卡氏肺孢子虫肺炎。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对艾滋病相关肺炎"
+      ],
+      "trial_id": "NCT00000724"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对艾滋病患者的巨细胞病毒视网膜炎。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求疾病为艾滋病合并巨细胞病毒视网膜炎",
+        "患者无艾滋病或巨细胞病毒视网膜炎相关描述"
+      ],
+      "trial_id": "NCT00000726"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对艾滋病（AIDS）患者的卡氏肺孢子虫肺炎（PCP）预防。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求疾病为HIV感染/艾滋病",
+        "患者无HIV感染相关描述，试验针对AIDS患者",
+        "排除标准中明确排除除皮肤基底细胞癌、宫颈原位癌或黏膜皮肤卡波西肉瘤以外的肿瘤病史，患者有乳腺癌及肝转移"
+      ],
+      "trial_id": "NCT00000727"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对艾滋病患者的卡氏肺孢子虫肺炎。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对艾滋病相关肺炎",
+        "入排标准冲突：试验要求HIV阳性或高危人群，患者信息未提及HIV感染"
+      ],
+      "trial_id": "NCT00000730"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对HIV感染。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求HIV感染",
+        "患者无HIV感染相关病史或用药史"
+      ],
+      "trial_id": "NCT00000732"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对HIV感染。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求HIV感染",
+        "患者无HIV感染相关病史或用药史"
+      ],
+      "trial_id": "NCT00000734"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对儿童HIV感染及卡氏肺孢子虫肺炎预防。",
+      "missing_information": [],
+      "conflicts": [
+        "患者年龄47岁，超出试验最大年龄12岁",
+        "患者疾病为乳腺癌，试验针对HIV感染",
+        "患者无HIV感染证据"
+      ],
+      "trial_id": "NCT00000739"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对HIV感染者。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求HIV抗体阳性",
+        "患者无HIV感染相关描述，试验针对HIV感染者"
+      ],
+      "trial_id": "NCT00000740"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对HIV感染患者的PCP预防。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求HIV感染",
+        "患者无HIV感染相关信息"
+      ],
+      "trial_id": "NCT00000748"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有转移性乳腺癌，而试验针对的是纯合子家族性高胆固醇血症。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对高胆固醇血症"
+      ],
+      "trial_id": "NCT00001204"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心脏病。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验针对心脏病"
+      ],
+      "trial_id": "NCT00001313"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心脏病。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验疾病为心脏病"
+      ],
+      "trial_id": "NCT00001400"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对充血性心力衰竭。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验疾病为充血性心力衰竭",
+        "患者无心力衰竭相关症状或病史描述"
+      ],
+      "trial_id": "NCT00001402"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心血管疾病。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求心血管疾病"
+      ],
+      "trial_id": "NCT00001458"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心脏病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对心脏病"
+      ],
+      "trial_id": "NCT00001460"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对冠心病患者的心脏功能研究。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求为冠心病患者",
+        "试验针对心脏疾病，患者主要疾病为癌症"
+      ],
+      "trial_id": "NCT00001528"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为转移性乳腺癌，而试验针对高血压和高胆固醇患者。",
+      "missing_information": [],
+      "conflicts": [
+        "患者患有乳腺癌，试验针对高血压/高胆固醇人群",
+        "患者有肝转移，属于严重疾病，不符合'无严重并发疾病'的排除标准"
+      ],
+      "trial_id": "NCT00001622"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对心血管疾病（动脉粥样硬化、心力衰竭、高血压等）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对心血管疾病"
+      ],
+      "trial_id": "NCT00001628"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对冠状动脉疾病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者诊断为乳腺癌，试验针对冠状动脉疾病。"
+      ],
+      "trial_id": "NCT00001633"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为转移性乳腺癌，而试验针对高血压和高胆固醇患者。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对高血压/高胆固醇",
+        "患者正在接受全身治疗，试验要求志愿者不能服用任何药物"
+      ],
+      "trial_id": "NCT00001742"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关且存在明确排除标准冲突。患者患有转移性乳腺癌，而试验针对糖尿病肾衰竭患者，且排除标准明确排除已知恶性肿瘤（皮肤基底细胞癌除外）。",
+      "missing_information": [],
+      "conflicts": [
+        "患者患有转移性乳腺癌，试验排除标准明确排除已知恶性肿瘤（皮肤基底细胞癌除外）",
+        "患者疾病为乳腺癌，试验针对糖尿病肾衰竭，疾病不相关"
+      ],
+      "trial_id": "NCT00001859"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对遗传性心肌病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验要求为心肌病"
+      ],
+      "trial_id": "NCT00001881"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对冠心病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对冠心病"
+      ],
+      "trial_id": "NCT00001886"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心肌缺血。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对心肌缺血"
+      ],
+      "trial_id": "NCT00001895"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对吞咽困难。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对吞咽障碍"
+      ],
+      "trial_id": "NCT00001936"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌肝转移，试验针对原发性肝病（如肝炎），且排除标准明确排除癌症病史。",
+      "missing_information": [],
+      "conflicts": [
+        "患者有癌症病史（乳腺癌），违反健康志愿者排除标准第6条；患者为癌症转移性肝病，非试验针对的原发性肝病"
+      ],
+      "trial_id": "NCT00001971"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对胰岛素抵抗和糖尿病。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验针对糖尿病/胰岛素抵抗"
+      ],
+      "trial_id": "NCT00001987"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对2型糖尿病肾病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型冲突：患者为乳腺癌，试验针对糖尿病肾病",
+        "人群冲突：试验要求美国印第安人，患者信息未提及"
+      ],
+      "trial_id": "NCT00004266"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对心肌梗死。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对心血管疾病（心肌梗死）",
+        "排除标准冲突：患者患有癌症（乳腺癌），试验排除标准明确排除'严重疾病如癌症'"
+      ],
+      "trial_id": "NCT00004562"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对脑卒中预防。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对脑卒中/颅内狭窄"
+      ],
+      "trial_id": "NCT00004728"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对颈动脉狭窄。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验针对颈动脉狭窄/卒中预防"
+      ],
+      "trial_id": "NCT00004732"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对中风预防。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对中风/心肌梗死"
+      ],
+      "trial_id": "NCT00004734"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对家族性高胆固醇血症。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对家族性高胆固醇血症"
+      ],
+      "trial_id": "NCT00004809"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有乳腺癌，而试验针对的是2型糖尿病。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求为2型糖尿病"
+      ],
+      "trial_id": "NCT00004983"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心血管疾病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对心血管疾病"
+      ],
+      "trial_id": "NCT00005136"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对肥厚型心肌病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对心血管疾病",
+        "性别冲突：患者为女性，试验要求男性"
+      ],
+      "trial_id": "NCT00005251"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对高血压遗传学研究。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对高血压"
+      ],
+      "trial_id": "NCT00005267"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对家族性混合高脂血症。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对高脂血症"
+      ],
+      "trial_id": "NCT00005313"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关且性别冲突",
+      "missing_information": [],
+      "conflicts": [
+        "患者为女性，试验要求男性",
+        "患者疾病为乳腺癌，试验研究静脉血栓栓塞症"
+      ],
+      "trial_id": "NCT00005351"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验研究充血性心力衰竭。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对充血性心力衰竭"
+      ],
+      "trial_id": "NCT00005499"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对高血压终末期肾病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对高血压终末期肾病"
+      ],
+      "trial_id": "NCT00005536"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关且性别冲突",
+      "missing_information": [],
+      "conflicts": [
+        "患者为女性，试验要求男性",
+        "患者疾病为乳腺癌，试验研究静脉血栓栓塞症"
+      ],
+      "trial_id": "NCT00005543"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对高血压和高胆固醇。",
+      "missing_information": [],
+      "conflicts": [
+        "患者患有乳腺癌且肝转移，试验排除活动性肝病；患者疾病与试验目标疾病（高血压/高胆固醇）不符"
+      ],
+      "trial_id": "NCT00006071"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对糖尿病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者患有乳腺癌，试验要求患有糖尿病。"
+      ],
+      "trial_id": "NCT00006159"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为转移性乳腺癌，试验针对肾血管性高血压或健康志愿者。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对肾血管性高血压",
+        "入排标准冲突：试验要求健康志愿者或疑似肾血管性高血压患者，患者不符合"
+      ],
+      "trial_id": "NCT00006173"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对肥胖症。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者患有乳腺癌，试验针对肥胖症"
+      ],
+      "trial_id": "NCT00006193"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对2型糖尿病合并冠心病。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求2型糖尿病合并冠心病"
+      ],
+      "trial_id": "NCT00006305"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对糖尿病足溃疡。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求糖尿病病史",
+        "患者无糖尿病足溃疡相关症状"
+      ],
+      "trial_id": "NCT00006426"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有转移性乳腺癌，而试验针对的是2型糖尿病。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求疾病为2型糖尿病"
+      ],
+      "trial_id": "NCT00006432"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心脏疾病（左心室功能障碍、心室心律失常）。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求左心室功能障碍或非缺血性心肌病"
+      ],
+      "trial_id": "NCT00006501"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对脑血管疾病（中风）。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求为急性中风或短暂性脑缺血发作"
+      ],
+      "trial_id": "NCT00009243"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对颈动脉疾病。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验疾病为颈动脉狭窄"
+      ],
+      "trial_id": "NCT00011258"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对慢性心力衰竭。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验要求慢性心力衰竭诊断"
+      ],
+      "trial_id": "NCT00012818"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心肌梗死/冠心病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对心血管疾病"
+      ],
+      "trial_id": "NCT00013741"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对胰岛素抵抗和2型糖尿病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对胰岛素抵抗/糖尿病",
+        "患者有肝转移，试验排除标准包含肝功能障碍"
+      ],
+      "trial_id": "NCT00015626"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验研究糖尿病与听力损失的关系。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对糖尿病和听力损失"
+      ],
+      "trial_id": "NCT00018486"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对急性肾衰竭检测。",
+      "missing_information": [],
+      "conflicts": [
+        "患者疾病为乳腺癌，试验针对肾脏疾病"
+      ],
+      "trial_id": "NCT00026702"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有乳腺癌，而试验针对糖尿病性黄斑水肿。",
+      "missing_information": [],
+      "conflicts": [
+        "患者患有乳腺癌（恶性肿瘤），而试验排除标准明确要求'Current history of malignancy'（当前恶性肿瘤病史），除非是5年前已治愈的基底细胞癌或其他恶性肿瘤。",
+        "患者疾病为乳腺癌，试验要求疾病为糖尿病（Type 1 or 2 diabetes），患者信息中未提及患有糖尿病。"
+      ],
+      "trial_id": "NCT00027287"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对颈动脉闭塞和缺血性卒中。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对颈动脉闭塞/缺血性卒中"
+      ],
+      "trial_id": "NCT00029146"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为转移性乳腺癌，试验针对肥胖症减重。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对肥胖症"
+      ],
+      "trial_id": "NCT00029861"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对睡眠呼吸暂停、肥胖和2型糖尿病。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对睡眠呼吸暂停/糖尿病/肥胖"
+      ],
+      "trial_id": "NCT00031239"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对充血性心力衰竭。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对充血性心力衰竭"
+      ],
+      "trial_id": "NCT00032643"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心力衰竭。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对心力衰竭"
+      ],
+      "trial_id": "NCT00038077"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心力衰竭/心脏射血分数降低。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病类型不匹配：患者为乳腺癌，试验针对心脏疾病"
+      ],
+      "trial_id": "NCT00041938"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者患有转移性乳腺癌，而试验针对的是冠心病。",
+      "missing_information": [],
+      "conflicts": [
+        "患者患有已知活动性恶性肿瘤（转移性乳腺癌），而试验排除标准明确排除'Known active malignancy'。",
+        "试验针对的疾病是冠心病，患者疾病是乳腺癌，疾病不匹配。"
+      ],
+      "trial_id": "NCT00043628"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关：患者为乳腺癌，试验针对急性冠脉综合征。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对急性冠脉综合征",
+        "排除标准冲突：患者有肿瘤（乳腺癌），试验排除标准包含'tumor'"
+      ],
+      "trial_id": "NCT00043784"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对心力衰竭。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对心力衰竭",
+        "年龄不符合：患者47岁，试验要求≥60岁",
+        "排除标准冲突：患者有癌症，试验排除预期寿命<2年的癌症患者"
+      ],
+      "trial_id": "NCT00043836"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病完全不相关。患者为乳腺癌，试验针对肝素诱导的血小板减少症（HIT）患者进行经皮冠状动脉介入治疗（PCI）。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对HIT/HITTS患者",
+        "适应症不匹配：患者无PCI需求，试验要求需进行PCI"
+      ],
+      "trial_id": "NCT00043940"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关：患者为乳腺癌，试验针对高血压。",
+      "missing_information": [],
+      "conflicts": [
+        "疾病不匹配：患者为乳腺癌，试验针对高血压。",
+        "年龄不匹配：患者47岁，试验要求至少50岁。"
+      ],
+      "trial_id": "NCT00045981"
+    }
+  ]
+}

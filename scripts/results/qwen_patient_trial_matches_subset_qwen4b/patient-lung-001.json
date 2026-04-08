@@ -1,0 +1,1644 @@
+{
+  "patient_id": "patient-lung-001",
+  "patient_file": "../example/patient-lung-001.json",
+  "trials_evaluated": 200,
+  "trials_assessed": 200,
+  "complete": true,
+  "matched_trial_count": 2,
+  "matched_trials": [
+    {
+      "matched": true,
+      "match_score": 0.7,
+      "reason": "患者患有非小细胞肺癌，符合试验的癌症入组标准。但试验主要针对癌症患者且未接受治疗或已接受化疗/干细胞移植，而患者已接受系统治疗（因肝功能异常可能需调整治疗），需进一步确认是否符合入排标准。",
+      "missing_information": [
+        "患者是否已接受化疗或干细胞移植",
+        "患者当前是否处于免疫增强治疗"
+      ],
+      "conflicts": [],
+      "trial_id": "NCT00000105"
+    },
+    {
+      "matched": true,
+      "match_score": 0.6,
+      "reason": "患者有进行性呼吸症状，可能符合急性呼吸衰竭的评估，但试验针对的是可逆性急性呼吸衰竭，而患者有转移性肺癌和慢性症状，可能存在不匹配。",
+      "missing_information": [
+        "患者年龄65岁，试验最大年龄65岁，需确认是否包含65岁患者",
+        "患者有肝功能异常，试验未提及肝功能要求"
+      ],
+      "conflicts": [
+        "患者有转移性肺癌，试验针对急性呼吸衰竭，可能不适用"
+      ],
+      "trial_id": "NCT00000562"
+    }
+  ],
+  "all_assessments": [
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（非小细胞肺癌 vs 先天性肾上腺皮质增生症）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000102"
+    },
+    {
+      "matched": true,
+      "match_score": 0.7,
+      "reason": "患者患有非小细胞肺癌，符合试验的癌症入组标准。但试验主要针对癌症患者且未接受治疗或已接受化疗/干细胞移植，而患者已接受系统治疗（因肝功能异常可能需调整治疗），需进一步确认是否符合入排标准。",
+      "missing_information": [
+        "患者是否已接受化疗或干细胞移植",
+        "患者当前是否处于免疫增强治疗"
+      ],
+      "conflicts": [],
+      "trial_id": "NCT00000105"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对心血管疾病。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000108"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（患者为非小细胞肺癌，试验针对肥胖）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000110"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是近视。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000113"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是视网膜色素变性。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000114"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是视网膜水肿。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000115"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是视神经炎。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000117"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是葡萄膜炎和白内障手术。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000119"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是新生儿眼部感染的预防。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000120"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是斜视（esotropia），属于眼科疾病，两者无关联。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000121"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是近视散光。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000123"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是脉络膜肉瘤。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000124"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是眼压升高和青光眼。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000125"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是缺血性视神经炎。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000126"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是缺血性视神经炎。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000127"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（肺癌 vs 视力问题）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000129"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对早产儿视网膜病变。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000133"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是角膜移植排斥反应。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000137"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是开角型青光眼。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000144"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是年龄相关性黄斑变性、史氏病或特发性CNV。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000150"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是糖尿病视网膜病变。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000151"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（肺癌 vs 黄斑变性）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000152"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是糖尿病视网膜病变的新生血管。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000153"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是糖尿病视网膜病变及相关眼病。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000154"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是角膜变性病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000155"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对早产儿视网膜病变。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000156"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是视网膜病变（如黄斑变性、视网膜色素异常等），疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000158"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是糖尿病视网膜病变。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000159"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（肺癌 vs 糖尿病视网膜病变）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000160"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是年龄相关性黄斑变性及白内障。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000161"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是年龄相关性黄斑变性。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000167"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是阿尔茨海默病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000171"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是阿尔茨海默病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000173"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是阿尔茨海默病。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000176"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是阿尔茨海默病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000179"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是可卡因戒断症状。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000292"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是良性位置性眩晕（BPPV），疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000359"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是感音神经性听力损失。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000361"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是肺炎和误吸，不匹配。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000362"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对双相情感障碍。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000369"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（肺癌 vs 抑郁症）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000377"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（非小细胞肺癌 vs 抑郁症）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000390"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是关节炎患者。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000396"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是骨质疏松症，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000402"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是骨关节炎，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000403"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（非小细胞肺癌 vs 骨关节炎）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000406"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是腰痛。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000408"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是脊柱滑脱和脊柱狭窄，属于不同疾病领域。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000409"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是腰椎间盘突出症。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000410"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是脊柱狭窄，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000411"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（肺癌 vs 骨质疏松）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000413"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（非系统性红斑狼疮 vs 非小细胞肺癌）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000419"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是膝关节骨关节炎。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000424"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（肺癌 vs 骨关节炎）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000425"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（肺癌 vs 骨质疏松）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000427"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是骨质疏松症，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000430"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是莱姆病预防。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000432"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是酒精依赖和吸烟依赖。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000437"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对心血管疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000461"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是心血管疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000468"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心血管疾病如颈动脉狭窄，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000469"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心血管疾病和癌症的预防，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000479"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心血管疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000487"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心肌梗死患者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000492"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心血管疾病、高血压等，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000499"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心血管疾病、高血压等，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000501"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心脏骤停的复苏方法，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000502"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是肥胖和心血管疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000506"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是高血压，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000513"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心血管疾病、高血压和肥胖患者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000515"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心律失常，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000518"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对心血管疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000519"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是川崎综合征的冠状动脉瘤预防。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000520"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是儿童高血压。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000521"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是轻度高血压，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000522"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心肌炎，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000524"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对心血管疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000525"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心血管疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000526"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心血管疾病、高血压等，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000528"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是心律失常和心脏骤停后的患者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000531"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是动脉闭塞疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000539"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为非小细胞肺癌，与试验针对的心血管疾病无关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000546"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者为非小细胞肺癌，而试验针对的是早产儿慢性肺病。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000548"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心血管疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000555"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心房颤动，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000556"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心血管疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000559"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心血管疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000560"
+    },
+    {
+      "matched": true,
+      "match_score": 0.6,
+      "reason": "患者有进行性呼吸症状，可能符合急性呼吸衰竭的评估，但试验针对的是可逆性急性呼吸衰竭，而患者有转移性肺癌和慢性症状，可能存在不匹配。",
+      "missing_information": [
+        "患者年龄65岁，试验最大年龄65岁，需确认是否包含65岁患者",
+        "患者有肝功能异常，试验未提及肝功能要求"
+      ],
+      "conflicts": [
+        "患者有转移性肺癌，试验针对急性呼吸衰竭，可能不适用"
+      ],
+      "trial_id": "NCT00000562"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是肺栓塞。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000566"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是早产儿呼吸窘迫综合征等肺部疾病，无关联。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000567"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不匹配。患者患有非小细胞肺癌，而试验针对的是慢性阻塞性肺病（COPD）。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000568"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，临床试验针对的是新生儿呼吸窘迫综合征，而患者患有转移性非小细胞肺癌。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000570"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有转移性非小细胞肺癌，而试验针对的是急性呼吸窘迫综合征（ARDS），疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000572"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是脓毒症相关的急性呼吸窘迫综合征等疾病。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000574"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是哮喘患者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000575"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者为非小细胞肺癌，而试验针对的是早产儿呼吸衰竭预防支气管肺发育不良。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000576"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对哮喘。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000577"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是乙肝病毒母婴传播。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000580"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是血友病A患者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000582"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是乙型肝炎疫苗，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000583"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是镰状细胞贫血患者。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000585"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（非小细胞肺癌 vs 病毒性贫血）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000586"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是铁过载性贫血，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000588"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是镰状细胞贫血症患者。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000592"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对心血管疾病、高胆固醇等，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000598"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是动脉阻塞疾病和心血管疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000599"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（非小细胞肺癌 vs 病毒性贫血）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000602"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是肺气肿，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000606"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心力衰竭，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000619"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是2型糖尿病患者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000620"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不匹配，患者患有非小细胞肺癌，而试验针对的是肺气肿。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000621"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是HIV感染患者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000633"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是HIV感染和潜伏性结核病患者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000636"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是HIV感染和潜伏性结核病患者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000638"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是HIV患者中的结核分枝杆菌感染，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000641"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是HIV感染孕妇，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000642"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是艾滋病患者中的MAC感染，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000644"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（非小细胞肺癌 vs HIV感染）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000653"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是HIV感染者的疱疹病毒感染，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000654"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是艾滋病患者中的巨细胞病毒视网膜炎。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000665"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是HIV感染。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000672"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是艾滋病患者中的巨细胞病毒视网膜炎。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000673"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是HIV感染。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000678"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是HIV感染患者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000682"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关（非小细胞肺癌 vs HIV感染）",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000706"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是Pneumocystis pneumonia（肺孢子肺炎），疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000707"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是肺孢子菌肺炎（PCP）患者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000714"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是肺孢子菌肺炎（PCP），疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000715"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是艾滋病患者中的肺孢子肺炎，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000717"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是肺孢子菌肺炎（PCP），疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000722"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是肺孢子菌肺炎（PCP）在艾滋病患者中的治疗。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000724"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是艾滋病患者中的巨细胞病毒视网膜炎，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000726"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是艾滋病患者预防肺孢子菌肺炎复发，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000727"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是艾滋病患者中的肺孢子肺炎，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000730"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是HIV感染。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000732"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是HIV感染。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000734"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是HIV感染儿童的肺炎预防。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000739"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是HIV感染者的肺炎（Pneumocystis Carinii），疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000740"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是HIV感染者的PCP预防。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00000748"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是同源性家族高胆固醇血症，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001204"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心脏疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001313"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心脏疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001400"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是心力衰竭患者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001402"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对心血管疾病。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001458"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心脏疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001460"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是心脏疾病患者。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001528"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是高血压、高胆固醇和健康志愿者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001622"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是动脉粥样硬化、心力衰竭、高血压和心肌梗死等心血管疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001628"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对冠状动脉疾病。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001633"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是高血压和高胆固醇患者。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001742"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是糖尿病肾衰竭患者。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001859"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是遗传性心肌病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001881"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对冠状动脉疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001886"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是心肌缺血。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001895"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是吞咽障碍，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001936"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是肝病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001971"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是糖尿病和严重胰岛素抵抗，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00001987"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是糖尿病肾病。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00004266"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心血管疾病，如心肌梗死和心力衰竭，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00004562"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是脑梗死或脑血管狭窄患者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00004728"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是颈动脉狭窄和中风预防，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00004732"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是中风预防，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00004734"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是家族性高胆固醇血症，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00004809"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是2型糖尿病患者，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00004983"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对心血管疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00005136"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是肥厚型心肌病，属于不同疾病领域。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00005251"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对高血压及心血管疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00005267"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是家族性混合型高脂血症，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00005313"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，临床试验针对静脉血栓形成，而患者患有非小细胞肺癌",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00005351"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心力衰竭，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00005499"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是高血压终末期肾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00005536"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是静脉血栓形成，两者无直接关联。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00005543"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是高血压和高胆固醇，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00006071"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是糖尿病。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00006159"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是肾血管性高血压，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00006173"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是肥胖患者。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00006193"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是2型糖尿病和冠状动脉疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00006305"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是糖尿病足溃疡患者。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00006426"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是2型糖尿病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00006432"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心脏疾病，如心律失常和猝死，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00006501"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是脑血管疾病如中风或短暂性脑缺血发作，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00009243"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者疾病为非小细胞肺癌，与试验针对的颈动脉狭窄无关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00011258"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是慢性心力衰竭，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00012818"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是心肌梗死冠心病。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00013741"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是胰岛素抵抗和2型糖尿病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00015626"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验研究的是糖尿病患者的听力损失。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00018486"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而临床试验针对的是肾功能异常的检测，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00026702"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是糖尿病性黄斑水肿，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00027287"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是缺血性中风或短暂性脑缺血发作，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00029146"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是肥胖体重管理。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00029861"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "疾病不相关，患者患有非小细胞肺癌，而试验针对的是睡眠呼吸暂停和2型糖尿病患者。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00031239"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心力衰竭，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00032643"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心力衰竭，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00038077"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心脏疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00041938"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是冠状动脉疾病，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00043628"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是急性冠状动脉综合征，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00043784"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是心力衰竭，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00043836"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是肝素诱导的血小板减少症/血小板减少症综合征，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00043940"
+    },
+    {
+      "matched": false,
+      "match_score": 0.0,
+      "reason": "患者患有非小细胞肺癌，而试验针对的是高血压，疾病不相关。",
+      "missing_information": [],
+      "conflicts": [],
+      "trial_id": "NCT00045981"
+    }
+  ]
+}
