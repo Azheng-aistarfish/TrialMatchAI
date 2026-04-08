@@ -1,0 +1,78 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "female",
+            "Classification": "Not Met",
+            "Justification": "Patient is a male, explicitly stated in the description."
+        },
+        {
+            "Criterion": "aged 45 years or older",
+            "Classification": "Met",
+            "Justification": "Patient is 58 years old, meeting the age requirement for the Women's Health Study."
+        },
+        {
+            "Criterion": "postmenopausal or with no intention of becoming pregnant",
+            "Classification": "Irrelevant",
+            "Justification": "Criterion applies to female participants; patient is male, so irrelevant."
+        },
+        {
+            "Criterion": "no reported personal history of cardiovascular disease, cancer (other than non-melanoma skin cancer), gout, peptic ulcer, chronic renal or liver disease, or other serious illness precluding participation",
+            "Classification": "Violated",
+            "Justification": "Patient has a history of multiple myocardial infarctions, bypass surgery, and advanced coronary artery disease, which preclude participation."
+        },
+        {
+            "Criterion": "no reported history of serious side effects to the study treatments",
+            "Classification": "Unclear",
+            "Justification": "No information provided about prior adverse reactions to study treatments."
+        },
+        {
+            "Criterion": "not currently taking aspirin, aspirin containing medication, or NSAIDs more than 1 day per week",
+            "Classification": "Met",
+            "Justification": "Patient is not currently taking aspirin or NSAIDs, as stated in the description."
+        },
+        {
+            "Criterion": "not currently taking individual supplements of vitamin E or beta carotene more than 1 day per week",
+            "Classification": "Met",
+            "Justification": "No mention of vitamin E or beta carotene supplementation in the patient's profile."
+        },
+        {
+            "Criterion": "not currently taking anticoagulants or corticosteroids",
+            "Classification": "Met",
+            "Justification": "Patient is not on anticoagulants or corticosteroids, as stated in the description."
+        },
+        {
+            "Criterion": "female",
+            "Classification": "Not Met",
+            "Justification": "Patient is male, explicitly stated in the description."
+        },
+        {
+            "Criterion": "date of birth before January 1, 1955",
+            "Classification": "Unclear",
+            "Justification": "Patient's exact birth date is not provided, though age is 58, which would place birth year after 1955 if current year is 2023."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "no reported history of cardiovascular disease, cancer (other than non-melanoma skin cancer), gout, peptic ulcer, chronic renal or liver disease, or other serious illness precluding participation",
+            "Classification": "Violated",
+            "Justification": "Patient has a history of multiple myocardial infarctions, bypass surgery, and advanced coronary artery disease, which preclude participation."
+        },
+        {
+            "Criterion": "no history of cancer (except non-melanoma skin cancer) within the past 10 years",
+            "Classification": "Not Violated",
+            "Justification": "Patient has no history of cancer (other than non-melanoma skin cancer) within the past 10 years, as stated in the description."
+        },
+        {
+            "Criterion": "pregnancy physiologically impossible due to menopause (natural or surgical) or tubal ligation, or the participant does not intend to become pregnant in the future",
+            "Classification": "Irrelevant",
+            "Justification": "Criterion applies to female participants; patient is male, so irrelevant."
+        },
+        {
+            "Criterion": "no current use of a vitamin K-depleting anticoagulant agent (e.g., Coumadin)",
+            "Classification": "Not Violated",
+            "Justification": "Patient is not on anticoagulants, as stated in the description."
+        }
+    ],
+    "Recap": "Patient is male, which disqualifies him from all female-specific criteria. He has a history of cardiovascular disease, violating inclusion criteria for the Women's Health Study. Age for the Women's Antioxidant Cardiovascular Study is unclear due to missing birth date, but gender disqualifies him regardless.",
+    "Final Decision": "Ineligible"
+}

@@ -1,0 +1,43 @@
+To assess the patient's eligibility for the clinical trial, we will evaluate each inclusion and exclusion criterion based on the provided patient data.
+
+### Inclusion Criteria Evaluation
+
+1. **Criterion:** Aged >=18  
+   **Classification:** Met  
+   **Justification:** The patient is 47 years old, which satisfies the age requirement.
+
+2. **Criterion:** Presented to participating study site (ED, ICU, or inpatient unit) with or at risk of acute stroke, TIA, or other disturbances of cerebrovascular circulation  
+   **Classification:** Not Met  
+   **Justification:** The patient's data does not mention any presentation to a study site with or at risk of acute stroke, TIA, or cerebrovascular disturbances. The patient's condition is related to metastatic breast cancer, not cerebrovascular issues.
+
+### Exclusion Criteria Evaluation
+
+1. **Criterion:** Subjects with contraindication to MRI scanning will be excluded from any testing which involves the use of MRI. The contraindications include subjects with the following devices or conditions: - Central nervous system aneurysm clips - Implanted neural stimulator - Implanted cardiac pacemaker or defibrillator - Cochlear implant - Ocular foreign body (e.g. metal shavings) - Insulin pump - Metal shrapnel or bullet - Any implanted device that is incompatible with MRI Subjects with a condition precluding entry in the scanner (e.g. morbid obesity, Claustrophobia, etc.) will not be included in the MRI portion of this study.  
+   **Classification:** Not Violated  
+   **Justification:** There is no mention of any contraindications to MRI scanning in the patient's data, such as incompatible devices or conditions.
+
+2. **Criterion:** Pregnancy  
+   **Classification:** Not Violated  
+   **Justification:** The patient's data does not indicate pregnancy.
+
+### Recap
+- **Key Qualifying Factors:** The patient meets the age criterion.
+- **Key Disqualifying Factors:** The patient does not meet the criterion related to cerebrovascular disturbances.
+
+### Final Decision
+- **Ineligible:** The patient does not meet the inclusion criterion related to cerebrovascular disturbances, which is essential for participation in this study. 
+
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Aged >=18", "Classification": "Met", "Justification": "The patient is 47 years old, which satisfies the age requirement."},
+    {"Criterion": "Presented to participating study site (ED, ICU, or inpatient unit) with or at risk of acute stroke, TIA, or other disturbances of cerebrovascular circulation", "Classification": "Not Met", "Justification": "The patient's data does not mention any presentation to a study site with or at risk of acute stroke, TIA, or cerebrovascular disturbances. The patient's condition is related to metastatic breast cancer, not cerebrovascular issues."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Subjects with contraindication to MRI scanning will be excluded from any testing which involves the use of MRI. The contraindications include subjects with the following devices or conditions: - Central nervous system aneurysm clips - Implanted neural stimulator - Implanted cardiac pacemaker or defibrillator - Cochlear implant - Ocular foreign body (e.g. metal shavings) - Insulin pump - Metal shrapnel or bullet - Any implanted device that is incompatible with MRI Subjects with a condition precluding entry in the scanner (e.g. morbid obesity, Claustrophobia, etc.) will not be included in the MRI portion of this study.", "Classification": "Not Violated", "Justification": "There is no mention of any contraindications to MRI scanning in the patient's data, such as incompatible devices or conditions."},
+    {"Criterion": "Pregnancy", "Classification": "Not Violated", "Justification": "The patient's data does not indicate pregnancy."}
+  ],
+  "Recap": "The patient meets the age criterion but does not meet the criterion related to cerebrovascular disturbances.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,58 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "HIV seropositivity",
+            "Classification": "Unclear",
+            "Justification": "Patient's data does not specify HIV status. While the trial allows high-risk behavior without proof, the patient's description does not mention such behavior."
+        },
+        {
+            "Criterion": "Diagnosis of Pneumocystis carinii pneumonia (PCP)",
+            "Classification": "Not Met",
+            "Justification": "Patient has stage IV non-small cell lung cancer with liver metastases but no mention of PCP diagnosis."
+        },
+        {
+            "Criterion": "Serious intolerance to trimethoprim/sulfamethoxazole (TMP/SMX) therapy",
+            "Classification": "Unclear",
+            "Justification": "No data provided on prior TMP/SMX use, adverse reactions, or laboratory values (e.g., platelets, neutrophils, transaminases)."
+        },
+        {
+            "Criterion": "Serious intolerance to pentamidine therapy",
+            "Classification": "Unclear",
+            "Justification": "No data provided on prior pentamidine use or adverse reactions (e.g., platelets, creatinine, blood pressure)."
+        },
+        {
+            "Criterion": "Informed consent by patient or legal guardian",
+            "Classification": "Met",
+            "Justification": "Patient's data explicitly states 'Written informed consent has been obtained.'"
+        },
+        {
+            "Criterion": "Prior Medication: Required - Trimethoprim/sulfamethoxazole and pentamidine therapies",
+            "Classification": "Not Met",
+            "Justification": "Patient is currently on osimertinib for EGFR-mutated lung cancer; no mention of prior TMP/SMX or pentamidine use."
+        },
+        {
+            "Criterion": "History of high-risk behavior for HIV infection",
+            "Classification": "Irrelevant",
+            "Justification": "Patient's data does not mention high-risk behaviors (e.g., IV drug use, unprotected sex), and HIV status is unspecified."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "History of Type I hypersensitivity (urticaria, angioedema, anaphylaxis) to trimetrexate",
+            "Classification": "Not Violated",
+            "Justification": "No mention of hypersensitivity to trimetrexate or related drugs in patient data."
+        },
+        {
+            "Criterion": "Concurrent Medication: Excluded - Myelosuppressive or nephrotoxic agents (zidovudine, ganciclovir)",
+            "Classification": "Not Violated",
+            "Justification": "Patient is on osimertinib, which is not classified as myelosuppressive or nephrotoxic per exclusion criteria."
+        },
+        {
+            "Criterion": "Excluded: History of Type I hypersensitivity to trimetrexate",
+            "Classification": "Not Violated",
+            "Justification": "No data indicates hypersensitivity to trimetrexate."
+        }
+    ],
+    "Recap": "Patient lacks HIV seropositivity, PCP diagnosis, and required prior TMP/SMX/pentamidine therapy. Inclusion criteria for serious drug intolerance and high-risk HIV behavior are unclear or unmet. Exclusion criteria are not violated.",
+    "Final Decision": "Ineligible"
+}

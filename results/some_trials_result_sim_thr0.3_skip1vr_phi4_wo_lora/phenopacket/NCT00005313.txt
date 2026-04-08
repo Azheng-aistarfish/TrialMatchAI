@@ -1,0 +1,35 @@
+To assess the patient's eligibility for the clinical trial, we will evaluate the inclusion and exclusion criteria based on the provided patient data.
+
+### Inclusion Criteria Evaluation
+
+1. **Criterion:** All participants related to a patient with familial combined hyperlipidemia.
+   - **Classification:** Unclear
+   - **Justification:** The patient has a confirmed diagnosis of familial hypercholesterolemia due to an LDLR mutation, not familial combined hyperlipidemia. There is no explicit mention of familial combined hyperlipidemia in the patient's history or family history.
+
+### Exclusion Criteria Evaluation
+
+- There are no specific exclusion criteria provided in the input. Therefore, no evaluation is necessary for exclusion criteria.
+
+### Recap
+
+- **Key Qualifying Factor:** The patient has a documented genetic mutation consistent with familial hypercholesterolemia.
+- **Key Disqualifying Factor:** The patient's condition is familial hypercholesterolemia, not familial combined hyperlipidemia, which is required by the trial.
+
+### Final Decision
+
+- **Ineligible:** The patient does not meet the inclusion criterion of having familial combined hyperlipidemia, as their condition is familial hypercholesterolemia. There is no evidence to suggest they have or are related to a patient with familial combined hyperlipidemia.
+
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "All participants related to a patient with familial combined hyperlipidemia",
+      "Classification": "Unclear",
+      "Justification": "The patient has familial hypercholesterolemia, not familial combined hyperlipidemia, and there is no mention of familial combined hyperlipidemia in the patient's or family's history."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [],
+  "Recap": "The patient has familial hypercholesterolemia, not familial combined hyperlipidemia, which is required by the trial.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,17 @@
+<think> Alright, let's see if this patient can join the clinical trial. First, we need to check if they meet the age requirement. The trial is for people 60 or older, and this patient is 58. So, they're not quite there yet. That's a no-go on the age front.
+
+Next up, we need to look at their blood pressure. The trial is for those with isolated systolic hypertension. Hmm, the patient's history doesn't mention anything about their blood pressure. We don't have any numbers to work with, so we can't say for sure if they have isolated systolic hypertension. That's a bit of a mystery.
+
+Now, let's see if their diastolic pressure is normal. The trial requires a diastolic pressure of less than 90 mm Hg. Again, we don't have any specific numbers for this patient's diastolic pressure. Without that info, we can't really say if they meet this criterion. Another unclear situation.
+
+Okay, let's wrap this up. The patient doesn't meet the age requirement, and we don't have enough information about their blood pressure to make a call on the other criteria. So, it looks like they're not eligible for this trial. <think>
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Men and women, aged 60 or over.", "Classification": "Not Met", "Justification": "The patient is 58 years old, which does not meet the age requirement of 60 or over."},
+    {"Criterion": "Isolated systolic hypertension.", "Classification": "Unclear", "Justification": "The patient's history does not provide specific information about their systolic blood pressure, making it unclear if they have isolated systolic hypertension."},
+    {"Criterion": "Normal diastolic pressure of less than 90 mm Hg.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's diastolic blood pressure, so it is unclear if they meet this criterion."}
+  ],
+  "Exclusion_Criteria_Evaluation": [],
+  "Recap": "The patient does not meet the age requirement and lacks sufficient information on blood pressure to determine eligibility for the trial.",
+  "Final Decision": "Ineligible"
+}

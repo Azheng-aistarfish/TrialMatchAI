@@ -1,0 +1,45 @@
+To assess the patient's eligibility for the clinical trial, we will evaluate each inclusion and exclusion criterion based on the provided patient data.
+
+### Inclusion Criteria Evaluation
+
+1. **Criterion:** Patients must have Acute bipolar I illness and be experiencing a manic or depressed episode at the time of study entry.
+   - **Classification:** Not Met
+   - **Justification:** The patient's description does not mention any diagnosis of bipolar I illness or current manic or depressed episodes. There is no evidence in the provided data to support this criterion.
+
+2. **Criterion:** Required: Current treatment with lithium carbonate.
+   - **Classification:** Not Met
+   - **Justification:** The patient's medication list includes metformin for diabetes management, but there is no mention of lithium carbonate treatment. Therefore, this criterion is not met.
+
+### Exclusion Criteria Evaluation
+
+- There are no specific exclusion criteria provided in the input. Therefore, no evaluation is necessary for exclusion criteria.
+
+### Recap
+
+- **Key Disqualifying Factors:**
+  - The patient does not have a documented diagnosis of acute bipolar I illness or current manic or depressed episodes.
+  - The patient is not currently being treated with lithium carbonate.
+
+### Final Decision
+
+- **Ineligible:** The patient does not meet the necessary inclusion criteria for the clinical trial.
+
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Patients must have Acute bipolar I illness and be experiencing a manic or depressed episode at the time of study entry.",
+      "Classification": "Not Met",
+      "Justification": "The patient's description does not mention any diagnosis of bipolar I illness or current manic or depressed episodes."
+    },
+    {
+      "Criterion": "Required: Current treatment with lithium carbonate.",
+      "Classification": "Not Met",
+      "Justification": "The patient's medication list includes metformin for diabetes management, but there is no mention of lithium carbonate treatment."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [],
+  "Recap": "The patient does not have a documented diagnosis of acute bipolar I illness or current manic or depressed episodes, and is not currently being treated with lithium carbonate.",
+  "Final Decision": "Ineligible"
+}
+```

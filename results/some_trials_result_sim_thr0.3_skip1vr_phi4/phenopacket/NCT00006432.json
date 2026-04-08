@@ -1,0 +1,38 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Type 2 diabetes, not tightly controlled at present",
+            "Classification": "Met",
+            "Justification": "The patient's HbA1c levels are between 6.5% and 7.2%, indicating diabetes that is not tightly controlled."
+        },
+        {
+            "Criterion": "Not using medication (insulin or oral) to control blood sugar",
+            "Classification": "Not Met",
+            "Justification": "The patient is currently managed with metformin, an oral medication, which does not meet this criterion."
+        },
+        {
+            "Criterion": "Overweight, but generally healthy",
+            "Classification": "Unclear",
+            "Justification": "The patient's weight and overall health status are not provided in the data."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Severe cardiovascular issues",
+            "Classification": "Violated",
+            "Justification": "The patient has a history of severe myocardial infarctions and coronary artery disease, which are significant cardiovascular issues."
+        },
+        {
+            "Criterion": "Significant liver issues",
+            "Classification": "Not Violated",
+            "Justification": "The patient has mild elevation of hepatic transaminases, but no significant liver issues are mentioned."
+        },
+        {
+            "Criterion": "History of smoking",
+            "Classification": "Not Violated",
+            "Justification": "The patient quit smoking 13 years ago and has been smoke-free since then."
+        }
+    ],
+    "Recap": "The patient meets the diabetes control criterion but does not meet the medication criterion. The weight and health status are unclear. The patient's cardiovascular history is a significant disqualifying factor.",
+    "Final Decision": "Ineligible"
+}

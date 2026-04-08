@@ -1,0 +1,45 @@
+To assess the patient's eligibility for the clinical trial, we will evaluate each inclusion and exclusion criterion based on the provided patient data.
+
+### Inclusion Criteria Evaluation
+
+1. **Criterion:** Men and women, 18 years of age or older.
+   - **Classification:** Met
+   - **Justification:** The patient is a 58-year-old male, which satisfies the age and gender requirement.
+
+2. **Criterion:** With left ventricular failure.
+   - **Classification:** Met
+   - **Justification:** The patient has impaired left ventricular function as part of his coronary artery disease diagnosis.
+
+3. **Criterion:** Biopsy-documented myocarditis.
+   - **Classification:** Not Met
+   - **Justification:** The heart biopsy revealed ischemic cardiomyopathy, not myocarditis.
+
+### Exclusion Criteria Evaluation
+
+- There are no specific exclusion criteria provided in the clinical trial criteria. Therefore, we cannot evaluate any exclusion criteria.
+
+### Recap
+
+- **Key Qualifying Factors:**
+  - The patient meets the age and gender requirement.
+  - The patient has left ventricular failure.
+
+- **Key Disqualifying Factors:**
+  - The patient does not have biopsy-documented myocarditis, which is required for inclusion.
+
+### Final Decision
+
+- **Ineligible:** The patient does not meet the inclusion criterion of having biopsy-documented myocarditis, which is essential for eligibility in this clinical trial. 
+
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Men and women, 18 years of age or older", "Classification": "Met", "Justification": "The patient is a 58-year-old male, satisfying the age and gender requirement."},
+    {"Criterion": "With left ventricular failure", "Classification": "Met", "Justification": "The patient has impaired left ventricular function as part of his coronary artery disease diagnosis."},
+    {"Criterion": "Biopsy-documented myocarditis", "Classification": "Not Met", "Justification": "The heart biopsy revealed ischemic cardiomyopathy, not myocarditis."}
+  ],
+  "Exclusion_Criteria_Evaluation": [],
+  "Recap": "The patient meets the age and gender requirement and has left ventricular failure. However, the patient does not have biopsy-documented myocarditis, which is required for inclusion.",
+  "Final Decision": "Ineligible"
+}
+```

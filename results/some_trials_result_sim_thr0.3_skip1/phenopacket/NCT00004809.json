@@ -1,0 +1,43 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Homozygous familial hypercholesterolemia, i.e.: Low-density lipoprotein (LDL) cholesterol greater than 500 mg/dL",
+            "Classification": "Not Met",
+            "Justification": "The patient's LDL cholesterol level is 190 mg/dL, which is below the required 500 mg/dL."
+        },
+        {
+            "Criterion": "Autosomal dominant inheritance",
+            "Classification": "Not Met",
+            "Justification": "The patient has a heterozygous LDLR mutation, not the homozygous mutation required."
+        },
+        {
+            "Criterion": "Advanced coronary heart disease with relatively poor prognosis, i.e: Angina pectoris",
+            "Classification": "Met",
+            "Justification": "The patient has advanced coronary artery disease with multivessel involvement and impaired left ventricular function."
+        },
+        {
+            "Criterion": "Positive exercise tolerance test",
+            "Classification": "Unclear",
+            "Justification": "There is no information provided about the patient's exercise tolerance test results."
+        },
+        {
+            "Criterion": "Atherosclerotic disease in proximal aorta or coronary arteries by ultrasound or angiogram",
+            "Classification": "Unclear",
+            "Justification": "The patient's history suggests coronary artery disease, but specific imaging results are not provided."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Diabetes",
+            "Classification": "Violated",
+            "Justification": "The patient has Type 2 diabetes mellitus, which is an exclusion criterion."
+        },
+        {
+            "Criterion": "Prior/Concurrent Therapy: At least 2 weeks since the following: Drugs affecting cholesterol metabolism",
+            "Classification": "Violated",
+            "Justification": "The patient is currently on atorvastatin, which affects cholesterol metabolism."
+        }
+    ],
+    "Recap": "The patient does not meet the LDL cholesterol or genetic criteria for inclusion and violates the exclusion criteria for diabetes and prior therapy.",
+    "Final Decision": "Ineligible"
+}

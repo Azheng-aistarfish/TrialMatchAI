@@ -1,0 +1,41 @@
+<think> Alright, let's see if this patient can join the clinical trial. First, we need to check if he meets the age requirement. The trial is for people aged 21 to 45, but this guy is 58. That's way over the limit, so he doesn't meet this criterion. 
+
+Next, let's look at the smoking history. The trial needs people who've smoked cocaine at least twice a week for the past six months. But there's no mention of cocaine use in his history at all. So, he doesn't meet this criterion either. 
+
+Now, about his health. The trial requires participants to be in good health, which includes a normal ECG and blood pressure under 140/90 mmHg. But wait, he's got a history of severe heart issues, including myocardial infarctions and coronary artery disease. That's a big red flag for his health status. Plus, there's no info on his ECG or blood pressure, so we can't say he's in good health. 
+
+Let's see if he's using birth control. The trial requires it, but since he's a male, this criterion doesn't apply to him. So, it's irrelevant. 
+
+Now, onto the urine toxicology screen. The trial needs a positive result for cocaine metabolites. But again, there's no mention of cocaine use, so we can't say he's positive. 
+
+Moving on to the exclusion criteria. The trial excludes anyone with a DSM-IV Axis I disorder other than cocaine abuse or dependence. There's no mention of any such disorders in his history, so he doesn't violate this criterion. 
+
+What about a history of violence or legal issues? There's no mention of any such history, so he doesn't violate this criterion either. 
+
+Is he pregnant, lactating, or has he had a child in the past year? Obviously not, since he's a male. So, this criterion is irrelevant. 
+
+Let's check for HIV or hepatitis B. There's no mention of these in his history, so he doesn't violate this criterion. 
+
+Finally, does he have a history of seizures? There's no mention of seizures, so he doesn't violate this criterion. 
+
+So, to sum it up, this patient doesn't meet the age requirement, doesn't have a history of cocaine use, and has significant health issues. Plus, there's no evidence of cocaine metabolites in his urine. Based on all this, he's definitely not eligible for the trial. <think>
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "M/F ages 21-45", "Classification": "Not Met", "Justification": "The patient is 58 years old, which is outside the age range of 21-45."},
+    {"Criterion": "History of smoked cocaine use at least twice a week for the past six months", "Classification": "Not Met", "Justification": "There is no mention of cocaine use in the patient's history."},
+    {"Criterion": "In good health as evidenced by physical exam and complete blood count, chest X-ray and electrolyte and liver function tests, with a normal resting 12-lead electrocardiograph (ECG) and blood pressure of less than 140/90 mmHg", "Classification": "Not Met", "Justification": "The patient has a history of severe heart issues, including myocardial infarctions and coronary artery disease, which suggests he is not in good health. There is no information on his ECG or blood pressure."},
+    {"Criterion": "Using an acceptable method of birth control", "Classification": "Irrelevant", "Justification": "The criterion does not apply to the patient as he is male."},
+    {"Criterion": "Having a urine toxicology screen positive for cocaine metabolites", "Classification": "Not Met", "Justification": "There is no mention of cocaine use or a positive urine toxicology screen for cocaine metabolites in the patient's history."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Any DSM-IV Axis I disorder other than cocaine abuse or dependence, or dependence or daily use of psychoactive drugs other than nicotine or caffeine", "Classification": "Not Violated", "Justification": "There is no mention of any DSM-IV Axis I disorders in the patient's history."},
+    {"Criterion": "A history of violence and/or currently on probation, parole or awaiting trial", "Classification": "Not Violated", "Justification": "There is no mention of a history of violence or legal issues in the patient's history."},
+    {"Criterion": "Pregnant as determined by serum pregnancy screen, lactating or having delivered a child in the past 12 months", "Classification": "Irrelevant", "Justification": "The criterion does not apply to the patient as he is male."},
+    {"Criterion": "Seropositive tests for the human immunodeficiency virus (HIV) or hepatitis B", "Classification": "Not Violated", "Justification": "There is no mention of HIV or hepatitis B in the patient's history."},
+    {"Criterion": "History of seizure disorder", "Classification": "Not Violated", "Justification": "There is no mention of a seizure disorder in the patient's history."}
+  ],
+  "Recap": "The patient does not meet the age requirement, has no history of cocaine use, and has significant health issues. There is no evidence of cocaine metabolites in his urine.",
+  "Final Decision": "Ineligible"
+}
+```

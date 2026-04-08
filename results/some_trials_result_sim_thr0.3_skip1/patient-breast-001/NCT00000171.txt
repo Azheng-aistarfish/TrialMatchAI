@@ -1,0 +1,93 @@
+<think> Alright, let's see if this patient can join the clinical trial. First, we need to check if she meets the inclusion criteria. The trial requires a diagnosis of probable Alzheimer's disease. Hmm, the patient's profile doesn't mention Alzheimer's at all. So, that's a no-go right there. 
+
+Next, there's the MMSE score. The trial needs a score between 0 and 26. But wait, there's no MMSE score mentioned in the patient's details. So, we can't say for sure if she meets this criterion. 
+
+Now, let's look at the Hachinski Ischemia Scale. The trial wants a score of 4 or less. Again, no score is provided, so we can't determine if she meets this requirement. 
+
+The trial also needs evidence of disrupted sleep, documented by clinical history and wrist activity monitors. The patient's profile doesn't mention any sleep issues or actigraph data. So, this criterion is also unclear. 
+
+There's a requirement for a CT or MRI showing no more than one lacunar infarct in a non-strategic area. The patient had an MRI on February 18, 2026, but there's no mention of any infarcts. So, we can't say for sure if she meets this criterion either. 
+
+The trial needs a stable home situation with a responsible caregiver. The patient's profile doesn't mention anything about her living situation or caregiver, so this is unclear too. 
+
+The patient must be able to ingest oral medication and participate in evaluations. She's taking oral medication, so that part is met. 
+
+The trial requires six grades of education or work history to exclude mental retardation. The patient's profile doesn't mention her education or work history, so this is unclear. 
+
+The patient needs to be 55 or older. She's 47, so she doesn't meet this age requirement. 
+
+The trial requires a Hamilton Depression Rating Scale score of 15 or less. There's no mention of this score in the patient's profile, so it's unclear. 
+
+The patient must have stable medication for non-excluded conditions for 4 weeks prior to the screening visit. The patient is on fulvestrant and palbociclib, but there's no mention of stability, so this is unclear. 
+
+Now, let's check the exclusion criteria. The trial excludes patients with acute sleep disturbances. The patient's profile doesn't mention any sleep issues, so this is unclear. 
+
+The trial excludes patients with clinically significant movement disorders. There's no mention of any movement disorders in the patient's profile, so this is unclear. 
+
+The patient must have a mobile upper extremity to attach an actigraph. The profile doesn't mention any issues with her upper extremities, so this is unclear. 
+
+The trial excludes patients with severe agitation. The patient's profile doesn't mention any agitation, so this is unclear. 
+
+The trial excludes patients with pain syndromes affecting sleep. The patient's profile doesn't mention any pain syndromes, so this is unclear. 
+
+The trial excludes patients with unstable medical conditions. The patient has metastatic breast cancer, which is a serious condition, so this might be a problem. 
+
+The trial excludes patients using investigational or unapproved medications within 4 weeks of the screening visit. The patient is on fulvestrant and palbociclib, which are approved treatments, so this is not violated. 
+
+The patient must maintain caffeine abstinence after 2:00 pm. The profile doesn't mention caffeine use, so this is unclear. 
+
+The patient must comply with alcohol limits. The profile doesn't mention alcohol use, so this is unclear. 
+
+The trial excludes patients using melatonin within 2 weeks of the screening visit. The profile doesn't mention melatonin use, so this is unclear. 
+
+The trial excludes patients with clinically significant abnormal lab findings. The profile mentions elevated CA 15-3 levels, but it's unclear if this is significant. 
+
+The trial excludes patients residing in a facility without a consistent caregiver. The profile doesn't mention her living situation, so this is unclear. 
+
+The trial excludes patients with unreliable caregivers. The profile doesn't mention caregiver reliability, so this is unclear. 
+
+Finally, the trial excludes patients with autoimmune diseases. The profile doesn't mention any autoimmune diseases, so this is unclear. 
+
+So, overall, the patient doesn't meet the age requirement, and she has an unstable medical condition due to her metastatic breast cancer. These are significant disqualifiers. 
+
+In conclusion, the patient is ineligible for the clinical trial. <think>
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients must meet NINCDS-ADRDA criteria for probable Alzheimer's disease (AD).", "Classification": "Not Met", "Justification": "The patient's profile does not mention a diagnosis of Alzheimer's disease."},
+    {"Criterion": "A diagnosis of probable AD.", "Classification": "Not Met", "Justification": "The patient's profile does not mention a diagnosis of Alzheimer's disease."},
+    {"Criterion": "MMSE score 0-26.", "Classification": "Unclear", "Justification": "The patient's profile does not provide an MMSE score."},
+    {"Criterion": "Hachinski Ischemia Scale score less than or equal to 4.", "Classification": "Unclear", "Justification": "The patient's profile does not provide a Hachinski Ischemia Scale score."},
+    {"Criterion": "A 2-week history of two or more sleep disorder behaviors, occurring at least once weekly, as reported by the caregiver on the Sleep Disorder Inventory.", "Classification": "Unclear", "Justification": "The patient's profile does not mention any sleep disorder behaviors or caregiver reports."},
+    {"Criterion": "CT or MRI since the onset of memory problems showing no more than one lacunar infarct in a non-strategic area and no clinical events suggestive of stroke or other intracranial disease since the CT or MRI.", "Classification": "Unclear", "Justification": "The patient's profile mentions an MRI but does not provide details on lacunar infarcts or intracranial events."},
+    {"Criterion": "Physically acceptable for study as confirmed by medical history and exam, clinical laboratory results, and EKG.", "Classification": "Unclear", "Justification": "The patient's profile does not provide sufficient information on physical acceptability for the study."},
+    {"Criterion": "Actigraph evidence of a mean nocturnal sleep time of less than 7 hours per night (at least 5 nights of complete actigraph data must be collected over a single week).", "Classification": "Unclear", "Justification": "The patient's profile does not mention actigraph data or sleep time."},
+    {"Criterion": "Stable home situation with no planned move during the 13-week investigational period.", "Classification": "Unclear", "Justification": "The patient's profile does not mention her living situation or plans for moving."},
+    {"Criterion": "Residing with responsible spouse, family member, or professional caregiver who is present during the night and will agree to assume the role of the principal caregiver for the 13-week protocol, including arranging transport for the patient to and from the investigators' clinic, answering questions regarding the patient's condition, and assuming responsibility for medication and actigraph procedures.", "Classification": "Unclear", "Justification": "The patient's profile does not mention her living situation or caregiver details."},
+    {"Criterion": "Ability to ingest oral medication and participate in all scheduled evaluations.", "Classification": "Met", "Justification": "The patient is currently taking oral medication, palbociclib."},
+    {"Criterion": "Six grades of education or work history sufficient to exclude mental retardation.", "Classification": "Unclear", "Justification": "The patient's profile does not mention her education or work history."},
+    {"Criterion": "55 years of age or older.", "Classification": "Not Met", "Justification": "The patient is 47 years old."},
+    {"Criterion": "Hamilton Depression Rating Scale score of 15 or less.", "Classification": "Unclear", "Justification": "The patient's profile does not provide a Hamilton Depression Rating Scale score."},
+    {"Criterion": "Stable medication (dose and type) for non-excluded concurrent medical conditions for 4 weeks prior to the screening visit.", "Classification": "Unclear", "Justification": "The patient's profile does not mention the stability of her medication regimen."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Sleep disturbance is acute (within the last 2 weeks).", "Classification": "Unclear", "Justification": "The patient's profile does not mention any sleep disturbances."},
+    {"Criterion": "Sleep disturbance is associated with an acute illness with delirium.", "Classification": "Unclear", "Justification": "The patient's profile does not mention any sleep disturbances or delirium."},
+    {"Criterion": "Clinically significant movement disorder that would interfere with the actigraph readings.", "Classification": "Unclear", "Justification": "The patient's profile does not mention any movement disorders."},
+    {"Criterion": "Not having a mobile upper extremity to which to attach an actigraph.", "Classification": "Unclear", "Justification": "The patient's profile does not mention any issues with her upper extremities."},
+    {"Criterion": "Severe agitation.", "Classification": "Unclear", "Justification": "The patient's profile does not mention any agitation."},
+    {"Criterion": "Pain syndrome affecting sleep.", "Classification": "Unclear", "Justification": "The patient's profile does not mention any pain syndromes affecting sleep."},
+    {"Criterion": "Unstable medical condition.", "Classification": "Violated", "Justification": "The patient has metastatic breast cancer, which is a serious and unstable medical condition."},
+    {"Criterion": "Use of investigational or unapproved medications within 4 weeks of the screening visit.", "Classification": "Not Violated", "Justification": "The patient is on fulvestrant and palbociclib, which are approved treatments."},
+    {"Criterion": "Patient unwilling to maintain caffeine abstinence after 2:00 pm for the duration of the protocol.", "Classification": "Unclear", "Justification": "The patient's profile does not mention caffeine use."},
+    {"Criterion": "Patient unwilling to comply with the maximum limit of two alcoholic drinks per day, and only one alcoholic drink after 6:00 pm for the duration of the protocol.", "Classification": "Unclear", "Justification": "The patient's profile does not mention alcohol use."},
+    {"Criterion": "Use of melatonin within 2 weeks of screening visit.", "Classification": "Unclear", "Justification": "The patient's profile does not mention melatonin use."},
+    {"Criterion": "Clinically significant abnormal laboratory findings that have not been approved by the Project Director.", "Classification": "Unclear", "Justification": "The patient's profile mentions elevated CA 15-3 levels, but it's unclear if this is clinically significant."},
+    {"Criterion": "Residing in a facility without a consistent caregiver present during the night who can function as the primary informant.", "Classification": "Unclear", "Justification": "The patient's profile does not mention her living situation or caregiver details."},
+    {"Criterion": "Caregiver deemed too unreliable to supervise the wearing of the actigraph, to maintain the sleep diary, or to bring the patient to the scheduled visits.", "Classification": "Unclear", "Justification": "The patient's profile does not mention caregiver reliability."},
+    {"Criterion": "Autoimmune disease, such as rheumatoid arthritis and polymyalgia rheumatica.", "Classification": "Unclear", "Justification": "The patient's profile does not mention any autoimmune diseases."}
+  ],
+  "Recap": "The patient does not meet the age requirement and has an unstable medical condition due to metastatic breast cancer, which are significant disqualifiers.",
+  "Final Decision": "Ineligible"
+}
+```

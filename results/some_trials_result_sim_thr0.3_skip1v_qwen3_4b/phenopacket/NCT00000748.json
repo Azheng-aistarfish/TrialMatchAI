@@ -1,0 +1,53 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "HIV infection.",
+            "Classification": "Not Met",
+            "Justification": "Patient description does not mention HIV infection."
+        },
+        {
+            "Criterion": "CD4 count <= 200 cells/mm3 OR a history of prior PCP.",
+            "Classification": "Not Met",
+            "Justification": "No mention of CD4 count or PCP history in patient data."
+        },
+        {
+            "Criterion": "No active pneumocystosis.",
+            "Classification": "Met",
+            "Justification": "Patient data does not indicate active pneumocystosis."
+        },
+        {
+            "Criterion": "Patients or their guardians must sign informed consent.",
+            "Classification": "Met",
+            "Justification": "Written informed consent has been obtained."
+        },
+        {
+            "Criterion": "Pregnant patients are eligible at the clinician's discretion.",
+            "Classification": "Irrelevant",
+            "Justification": "Patient is male and not pregnant."
+        },
+        {
+            "Criterion": "Patients who do not meet required laboratory values may be eligible at the discretion of the clinician.",
+            "Classification": "Unclear",
+            "Justification": "Patient has elevated liver enzymes and high LDL, but no specific lab values are provided to confirm non-compliance."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Known treatment-limiting reaction to sulfonamides or trimethoprim.",
+            "Classification": "Not Violated",
+            "Justification": "No mention of sulfonamide/trimethoprim allergy or reaction in patient data."
+        },
+        {
+            "Criterion": "Other PCP prophylaxis or medication with anti-PCP activity.",
+            "Classification": "Not Violated",
+            "Justification": "Patient is not on PCP prophylaxis or anti-PCP medications."
+        },
+        {
+            "Criterion": "Co-existing conditions (specific symptoms/conditions not listed)",
+            "Classification": "Irrelevant",
+            "Justification": "Exclusion criteria only specify sulfonamide/trimethoprim and PCP-related exclusions; other conditions are not explicitly excluded."
+        }
+    ],
+    "Recap": "Patient meets 'no active pneumocystosis' and 'informed consent' criteria. Does not meet HIV infection, CD4 count, or PCP history criteria. Lab value compliance is unclear. No exclusions violated.",
+    "Final Decision": "Ineligible"
+}

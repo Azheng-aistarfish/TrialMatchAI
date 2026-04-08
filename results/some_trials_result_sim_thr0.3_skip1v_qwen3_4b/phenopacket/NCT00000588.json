@@ -1,0 +1,43 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Patients meeting any of the following health conditions and eligible for Chronic PIH Treatment",
+            "Classification": "Unclear",
+            "Justification": "Patient's medical history does not mention iron-loading anemias, chronic PIH therapy eligibility, or conditions requiring chelation. No explicit data on PIH-related conditions."
+        },
+        {
+            "Criterion": "Non-transfusion-dependent patients with iron-loading anemias",
+            "Classification": "Not Met",
+            "Justification": "Patient has no mention of anemia, iron-loading, or transfusion dependence."
+        },
+        {
+            "Criterion": "Transfusion-dependent patients who have previously been well-chelated with chronic subcutaneous or intravenous desferrioxamine",
+            "Classification": "Irrelevant",
+            "Justification": "Patient is not transfusion-dependent, so this criterion does not apply."
+        },
+        {
+            "Criterion": "Iron-loaded, transfusion-dependent patients",
+            "Classification": "Irrelevant",
+            "Justification": "Patient is not transfusion-dependent, so this criterion does not apply."
+        },
+        {
+            "Criterion": "Ages: 18-75 years old",
+            "Classification": "Met",
+            "Justification": "Patient is 58 years old, within the specified age range."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "People who are not eligible for chronic PIH therapy and not meet the medical conditions listed in the Inclusion criteria",
+            "Classification": "Violated",
+            "Justification": "Patient does not meet any inclusion criteria (no iron-loading anemia, no transfusion dependence, no chelation history) and is not eligible for chronic PIH therapy."
+        },
+        {
+            "Criterion": "Ages: 17 years old or younger or 76 years old or older",
+            "Classification": "Not Violated",
+            "Justification": "Patient is 58 years old, within the acceptable age range."
+        }
+    ],
+    "Recap": "Patient is 58 years old (meets age inclusion) but does not meet any of the specified inclusion criteria for chronic PIH therapy. Exclusion criteria are violated due to lack of eligibility for PIH therapy and non-compliance with inclusion criteria.",
+    "Final Decision": "Ineligible"
+}

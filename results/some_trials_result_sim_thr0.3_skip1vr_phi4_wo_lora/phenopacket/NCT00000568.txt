@@ -1,0 +1,40 @@
+To assess the patient's eligibility for the clinical trial, we will evaluate each inclusion and exclusion criterion based on the provided patient data.
+
+### Inclusion Criteria Evaluation
+
+1. **Criterion:** Men and women who were cigarette smokers.
+   - **Classification:** Met
+   - **Justification:** The patient has a documented 20-year history of smoking (20 pack-years), satisfying the criterion of being a former cigarette smoker.
+
+2. **Criterion:** Between the ages of 35 and 60.
+   - **Classification:** Met
+   - **Justification:** The patient is 58 years old, which falls within the specified age range of 35 to 60.
+
+### Exclusion Criteria Evaluation
+
+- There are no specific exclusion criteria provided in the input. Therefore, we cannot evaluate any exclusion criteria.
+
+### Recap
+
+- **Key Qualifying Factors:**
+  - The patient is a former cigarette smoker with a 20-year history.
+  - The patient is within the age range of 35 to 60.
+
+- **Key Disqualifying Factors:**
+  - None identified based on the provided criteria.
+
+### Final Decision
+
+- **Eligible:** The patient meets all the inclusion criteria and there are no exclusion criteria provided to assess. Therefore, the patient is eligible for the clinical trial.
+
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Men and women who were cigarette smokers", "Classification": "Met", "Justification": "The patient has a documented 20-year history of smoking (20 pack-years)."},
+    {"Criterion": "Between the ages of 35 and 60", "Classification": "Met", "Justification": "The patient is 58 years old, which is within the specified age range."}
+  ],
+  "Exclusion_Criteria_Evaluation": [],
+  "Recap": "The patient meets all inclusion criteria: former cigarette smoker and within the age range of 35 to 60. No exclusion criteria are provided.",
+  "Final Decision": "Eligible"
+}
+```

@@ -1,0 +1,38 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Type 2 diabetes",
+            "Classification": "Met",
+            "Justification": "The patient has Type 2 diabetes, as explicitly stated in the patient description."
+        },
+        {
+            "Criterion": "Not tightly controlled diabetes",
+            "Classification": "Met",
+            "Justification": "The patient's HbA1c levels are between 6.5% and 7.2%, indicating that the diabetes is not tightly controlled."
+        },
+        {
+            "Criterion": "Not using medication (insulin or oral) to control blood sugar",
+            "Classification": "Not Met",
+            "Justification": "The patient is currently taking metformin, which is an oral medication for blood sugar control."
+        },
+        {
+            "Criterion": "Overweight, but generally healthy",
+            "Classification": "Not Met",
+            "Justification": "The patient has a complex cardiac history, including multiple myocardial infarctions and bypass surgery, indicating he is not generally healthy."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Severe cardiac issues",
+            "Classification": "Violated",
+            "Justification": "The patient has Stage III coronary artery disease with multivessel involvement and impaired left ventricular function, which are severe cardiac issues."
+        },
+        {
+            "Criterion": "History of myocardial infarction",
+            "Classification": "Violated",
+            "Justification": "The patient has had multiple myocardial infarctions, as stated in the patient description."
+        }
+    ],
+    "Recap": "The patient does not meet the inclusion criteria for not using oral medication and being generally healthy. Additionally, the patient violates exclusion criteria due to severe cardiac issues and a history of myocardial infarction.",
+    "Final Decision": "Ineligible"
+}

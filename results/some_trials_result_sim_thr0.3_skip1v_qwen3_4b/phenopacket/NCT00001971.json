@@ -1,0 +1,88 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Age >=2 years",
+            "Classification": "Met",
+            "Justification": "Patient is 58 years old, satisfying the age requirement."
+        },
+        {
+            "Criterion": "Meets one of the following: Suspected or evidence of acute or chronic liver disease on evaluation by a referring licensed independent practitioner (LIP), OR at risk for acute or chronic liver disease",
+            "Classification": "Met",
+            "Justification": "Patient has mild elevation in liver enzymes suspected to be secondary to statin therapy or non-alcoholic fatty liver disease, meeting the first condition."
+        },
+        {
+            "Criterion": "Healthy Volunteers: Age >=18 years",
+            "Classification": "Irrelevant",
+            "Justification": "Patient is an affected participant, not a healthy volunteer, so this criterion does not apply."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "History of significant medical illnesses that might interfere with prolonged follow-up evaluation",
+            "Classification": "Violated",
+            "Justification": "Patient has a complex cardiac history, including multiple myocardial infarctions, bypass surgery, and ischemic cardiomyopathy, which could interfere with follow-up."
+        },
+        {
+            "Criterion": "Taking any regular medications or supplements (except regular multivitamins and/or oral contraceptives)",
+            "Classification": "Violated",
+            "Justification": "Patient is on atorvastatin and metformin, which are regular medications, violating this criterion."
+        },
+        {
+            "Criterion": "History of liver disease (except neonatal jaundice)",
+            "Classification": "Violated",
+            "Justification": "Patient has suspected liver disease (NASH or statin-induced) and is not a neonate, violating this criterion."
+        },
+        {
+            "Criterion": "History of severe illness, infection or major surgery in the past year",
+            "Classification": "Violated",
+            "Justification": "Patient has a history of multiple myocardial infarctions, bypass surgery, and ischemic cardiomyopathy, which are severe illnesses and major surgeries."
+        },
+        {
+            "Criterion": "History of cancer (except basal cell carcinoma resected >1 year prior)",
+            "Classification": "Not Violated",
+            "Justification": "No evidence of cancer in the patient's history."
+        },
+        {
+            "Criterion": "BMI <18 or BMI >25",
+            "Classification": "Unclear",
+            "Justification": "Patient's BMI is not provided in the data."
+        },
+        {
+            "Criterion": "Hemoglobin <11 (women) or hemoglobin <12 (men)",
+            "Classification": "Unclear",
+            "Justification": "Patient's hemoglobin levels are not provided in the data."
+        },
+        {
+            "Criterion": "ALT >35 (men) or ALT >25 (women)",
+            "Classification": "Unclear",
+            "Justification": "Patient's ALT levels are described as 'mildly elevated,' but the exact value is not specified."
+        },
+        {
+            "Criterion": "Alkaline Phosphatase >= 150",
+            "Classification": "Unclear",
+            "Justification": "Patient's alkaline phosphatase levels are not provided in the data."
+        },
+        {
+            "Criterion": "Bilirubin >2 g/dL",
+            "Classification": "Unclear",
+            "Justification": "Patient's bilirubin levels are not provided in the data."
+        },
+        {
+            "Criterion": "HIV positive, Anti-HCV positive, HBsAg positive or Anti-HBc positive",
+            "Classification": "Not Violated",
+            "Justification": "No evidence of these conditions in the patient's history."
+        },
+        {
+            "Criterion": "Pregnancy",
+            "Classification": "Not Violated",
+            "Justification": "Patient is male and not pregnant."
+        },
+        {
+            "Criterion": "Inability to provide informed consent",
+            "Classification": "Not Violated",
+            "Justification": "Written informed consent has been obtained."
+        }
+    ],
+    "Recap": "Patient meets inclusion criteria for affected participants (age, liver disease suspicion). However, multiple exclusion criteria are violated, including chronic heart disease, regular medication use, and history of liver disease. BMI, hemoglobin, and liver enzyme levels are unclear.",
+    "Final Decision": "Ineligible"
+}
