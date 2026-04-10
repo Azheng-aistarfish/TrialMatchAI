@@ -1,0 +1,53 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Patients must discontinue all hypertensive therapy two weeks prior to entering this study.",
+            "Classification": "Met",
+            "Justification": "The patient's medical history does not mention current use of hypertensive medications, implying no therapy to discontinue."
+        },
+        {
+            "Criterion": "Patient with a serum cholesterol value of 240 mg/dl or greater.",
+            "Classification": "Unclear",
+            "Justification": "LDL cholesterol is noted as over 190 mg/dL, but total serum cholesterol is not explicitly provided."
+        },
+        {
+            "Criterion": "Patients must discontinue all lipid-lowering agents 1 month prior to entering this study.",
+            "Classification": "Violated",
+            "Justification": "The patient is currently on atorvastatin, a lipid-lowering agent, and there is no indication of prior discontinuation."
+        },
+        {
+            "Criterion": "No patients with evidence of active liver disease (e.g. ALT greater than 1.5 times the upper limit of normal).",
+            "Classification": "Unclear",
+            "Justification": "Mild hepatic transaminase elevation is noted, but specific ALT values are not provided to confirm or refute the threshold."
+        },
+        {
+            "Criterion": "No history of diabetes, peripheral vascular disease, coagulopathy, or any other disease predisposing to vasculitis or Raynaud's phenomenon.",
+            "Classification": "Violated",
+            "Justification": "The patient has a documented history of Type 2 diabetes mellitus."
+        },
+        {
+            "Criterion": "No women with childbearing potential unless they use an effective contraceptive method.",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is male, making this criterion inapplicable."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "No patients with evidence of active liver disease (e.g. ALT greater than 1.5 times the upper limit of normal).",
+            "Classification": "Unclear",
+            "Justification": "Mild hepatic transaminase elevation is noted, but specific ALT values are not provided to confirm or refute the threshold."
+        },
+        {
+            "Criterion": "No history of diabetes, peripheral vascular disease, coagulopathy, or any other disease predisposing to vasculitis or Raynaud's phenomenon.",
+            "Classification": "Violated",
+            "Justification": "The patient has a documented history of Type 2 diabetes mellitus."
+        },
+        {
+            "Criterion": "No women with childbearing potential unless they use an effective contraceptive method.",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is male, making this criterion inapplicable."
+        }
+    ],
+    "Recap": "The patient has a history of Type 2 diabetes (violates exclusion criteria) and is currently on lipid-lowering agents (violates inclusion criteria). Liver function data is insufficient to confirm exclusion criteria.",
+    "Final Decision": "Ineligible"
+}

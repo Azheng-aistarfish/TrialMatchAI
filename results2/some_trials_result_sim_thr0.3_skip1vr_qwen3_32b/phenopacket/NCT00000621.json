@@ -1,0 +1,48 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Men and women > 45 years",
+            "Classification": "Met",
+            "Justification": "Patient is 58 years old, which satisfies the age requirement."
+        },
+        {
+            "Criterion": "Women of child-bearing potential must agree to use two forms of contraception or abstinence, and undergo monthly pregnancy testing",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is male, so this criterion does not apply."
+        },
+        {
+            "Criterion": "No inhaled nicotine for >= 6 months and cotinine < 20 ng/mL",
+            "Classification": "Unclear",
+            "Justification": "The patient quit smoking at age 45 (13 years prior to current age of 58), but there is no data on current inhaled nicotine use or cotinine levels."
+        },
+        {
+            "Criterion": "Best FEV1 >= 25% of predicted and <= 80% of predicted on initial screening, using Hankinson's predicted values",
+            "Classification": "Unclear",
+            "Justification": "No FEV1 data is provided in the patient's description."
+        },
+        {
+            "Criterion": "DLCO <= 80% predicted on initial screening, using Crapo's predicted values (corrected for hemoglobin)",
+            "Classification": "Unclear",
+            "Justification": "No DLCO data is provided in the patient's description."
+        },
+        {
+            "Criterion": "Spiral CT scan evidence of emphysema: visual impression of at least 10% emphysema on a fixed section of the total lung, and at least 10% of the lung with < -910 HU",
+            "Classification": "Unclear",
+            "Justification": "No CT scan results or emphysema data is provided in the patient's description."
+        },
+        {
+            "Criterion": "PCO2 < 45 mm Hg, and willingness to undergo bronchoscopy if FEV1 >= 30% of predicted",
+            "Classification": "Unclear",
+            "Justification": "No PCO2 data is provided in the patient's description."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "N/A",
+            "Classification": "Irrelevant",
+            "Justification": "No exclusion criteria were provided in the input for evaluation."
+        }
+    ],
+    "Recap": "The patient meets the age requirement but lacks data on FEV1, DLCO, CT scan evidence of emphysema, PCO2, and nicotine/cotinine status. No exclusion criteria were provided for assessment.",
+    "Final Decision": "Likely Ineligible (leaning toward exclusion) due to missing data on critical inclusion criteria."
+}

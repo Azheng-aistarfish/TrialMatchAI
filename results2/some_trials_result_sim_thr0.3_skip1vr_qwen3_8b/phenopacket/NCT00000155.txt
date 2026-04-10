@@ -1,0 +1,28 @@
+<think>
+Okay, let's tackle this. The user wants me to assess the patient's eligibility for a clinical trial based on the given criteria. First, I need to go through each inclusion and exclusion criterion one by one.
+
+Starting with the inclusion criteria. The first one is age at least 12. The patient is 58, so that's met. Next, they need an irregular cornea determined by certain methods. But looking at the patient's description, there's no mention of keratoconus or any corneal issues. The patient has a history of cardiovascular issues, diabetes, etc., but nothing about the cornea. So this criterion is unclear because there's no data on corneal irregularity.
+
+Third inclusion criterion: Vogt's striae, Fleischer's ring, or corneal scarring characteristic of keratoconus in at least one eye. Again, the patient's description doesn't mention any of these. So this is also unclear. The fourth inclusion is planning to stay in the area for at least 3 years. The patient's description doesn't mention anything about their plans to stay, so this is unclear as well.
+
+Now the exclusion criteria. First, bilateral corneal transplants. The patient has no mention of corneal transplants, so not violated. Second, bilateral nonkeratoconic eye disease. The patient's description doesn't mention any eye diseases like cataracts, macular disease, etc. So this is not violated. However, the patient's history includes a heart biopsy and other cardiovascular issues, but nothing about eye diseases. So these exclusion criteria are not violated. 
+
+Wait, but the patient's description doesn't mention any eye conditions. So for the inclusion criteria related to keratoconus, since there's no mention, those are unclear. The exclusion criteria about eye diseases aren't violated because there's no evidence of them. 
+
+So the final decision would be ineligible because the patient doesn't meet the inclusion criteria related to keratoconus. The key factors are the absence of keratoconus signs and the unclear stay duration. But since the main inclusion criteria (keratoconus) aren't met, the patient is ineligible.
+</think>
+
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "at least 12 years old", "Classification": "Met", "Justification": "Patient is 58 years old, which satisfies the age requirement"},
+    {"Criterion": "had an irregular cornea as determined by keratometry, retinoscopy, or direct ophthalmoscopy in at least one eye", "Classification": "Unclear", "Justification": "No mention of corneal irregularity assessment or findings in patient history"},
+    {"Criterion": "had Vogt's striae, Fleischer's ring, or corneal scarring characteristic of keratoconus in at least one eye", "Classification": "Unclear", "Justification": "No mention of keratoconus-specific corneal findings in patient history"},
+    {"Criterion": "planned to stay in the area for at least 3 years", "Classification": "Unclear", "Justification": "No information about patient's residency plans"}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "had bilateral corneal transplants", "Classification": "Not Violated", "Justification": "No evidence of corneal transplants in patient history"},
+    {"Criterion": "had bilateral nonkeratoconic eye disease (cataract, intraocular lenses, macular disease, or optic nerve disease other than glaucoma)", "Classification": "Not Violated", "Justification": "No mention of nonkeratoconic eye diseases in patient history"}
+  ],
+  "Recap": "Patient does not meet keratoconus-related inclusion criteria and lacks information on corneal findings and residency plans. No exclusion criteria violations identified.",
+  "Final Decision": "Ineligible"
+}

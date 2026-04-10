@@ -1,0 +1,48 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "male physicians",
+            "Classification": "Unclear",
+            "Justification": "Patient is male, but there is no explicit information confirming the patient is a physician."
+        },
+        {
+            "Criterion": "aged 40 to 84 years in 1982",
+            "Classification": "Met",
+            "Justification": "Patient is 58 years old, which falls within the age range of 40 to 84 years."
+        },
+        {
+            "Criterion": "no history of myocardial infarction",
+            "Classification": "Not Met",
+            "Justification": "Patient has a documented history of recurrent severe myocardial infarctions beginning at age 55."
+        },
+        {
+            "Criterion": "no history of cancer, kidney disease, renal disease, or any other contraindication to the use of aspirin or beta-carotene, including regular use of corticosteroids",
+            "Classification": "Not Met",
+            "Justification": "Patient has no history of cancer, kidney disease, or renal disease, but the presence of a history of myocardial infarction is a contraindication to aspirin and beta-carotene, which is explicitly excluded."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "history of myocardial infarction",
+            "Classification": "Violated",
+            "Justification": "Patient has a documented history of recurrent severe myocardial infarctions beginning at age 55."
+        },
+        {
+            "Criterion": "history of cancer",
+            "Classification": "Not Violated",
+            "Justification": "Patient has no history of cancer."
+        },
+        {
+            "Criterion": "history of kidney disease or renal disease",
+            "Classification": "Not Violated",
+            "Justification": "Patient has no history of kidney disease or renal disease."
+        },
+        {
+            "Criterion": "contraindication to the use of aspirin or beta-carotene, including regular use of corticosteroids",
+            "Classification": "Not Violated",
+            "Justification": "Patient has no regular use of corticosteroids, and no other contraindications to aspirin or beta-carotene are explicitly mentioned."
+        }
+    ],
+    "Recap": "Patient is male and within the age range but has a history of myocardial infarction, which violates the exclusion criteria and disqualifies him from inclusion.",
+    "Final Decision": "Ineligible"
+}

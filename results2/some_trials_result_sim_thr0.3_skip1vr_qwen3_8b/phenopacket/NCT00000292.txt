@@ -1,0 +1,45 @@
+<think>
+Okay, let's tackle this. The user wants me to assess a patient's eligibility for a clinical trial based on the given criteria. First, I need to go through each inclusion and exclusion criterion one by one.
+
+Starting with the Inclusion Criteria. The first one is about age 21-45. The patient is 58, so that's definitely not met. Next, history of smoked cocaine use at least twice a week for six months, including 0.5g in 24hr on one occasion. The patient has a 20-year smoking history but quit at 45. The description mentions smoking but not cocaine use. So this criterion isn't met. 
+
+Then, being in good health with specific tests. The patient has a history of myocardial infarctions, stents, bypass, diabetes, hypercholesterolemia, and elevated liver enzymes. These might affect their health status. The ECG and blood pressure aren't mentioned, but given their medical history, they might not meet the "good health" requirement. So this is unclear or not met? Wait, the patient's data doesn't explicitly state the results of the physical exam, blood tests, ECG, etc. So maybe "Unclear" here because the data isn't provided. 
+
+Using an acceptable method of birth control. The patient is male, so this is irrelevant. 
+
+Urine toxicology positive for cocaine metabolites. The patient doesn't have a history of cocaine use, so this is not met. 
+
+Now Exclusion Criteria. Any DSM-IV Axis I disorder other than cocaine abuse/dependence. The patient has diabetes and cardiovascular issues, which are not Axis I disorders. Wait, DSM-IV Axis I includes mental disorders, but the patient's conditions are medical, not mental. So maybe this exclusion criterion isn't violated. But the patient has a history of myocardial infarctions and other conditions, but the exclusion is about Axis I disorders. So maybe this is irrelevant. 
+
+Dependence on psychoactive drugs other than nicotine/caffeine. The patient uses metformin, which isn't a psychoactive drug. So not violated. 
+
+History of violence or on probation. The patient's description doesn't mention this, so irrelevant. 
+
+Pregnant, lactating, or delivered in past 12 months. The patient is male, so irrelevant. 
+
+HIV or hepatitis B. The patient's data doesn't mention these, so unclear. 
+
+History of seizure disorder. The patient doesn't have that, so not violated. 
+
+So putting it all together. The patient is over 45, no cocaine use, health issues, so inclusion criteria are mostly not met. Exclusion criteria: some are irrelevant, others unclear. The final decision would be ineligible because the inclusion criteria are not met.
+</think>
+
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "M/F ages 21-45", "Classification": "Not Met", "Justification": "Patient is 58 years old, exceeding the age limit of 21-45"},
+    {"Criterion": "History of smoked cocaine use at least twice a week for the past six months, including 0.5 g of cocaine in a 24hr period on at least one occasion", "Classification": "Not Met", "Justification": "Patient has a 20-year history of smoking but no documented cocaine use"},
+    {"Criterion": "In good health as evidenced by physical exam and complete blood count, chest X-ray and electrolyte and liver function tests, with a normal resting 12-lead electrocardiograph (ECG) and blood pressure of less than 140/90 mmHg", "Classification": "Unclear", "Justification": "Patient has documented cardiovascular disease, diabetes, hypercholesterolemia, and elevated liver enzymes, but no explicit results for required tests"},
+    {"Criterion": "Using an acceptable method of birth control", "Classification": "Irrelevant", "Justification": "Patient is male and does not require birth control"},
+    {"Criterion": "Having a urine toxicology screen positive for cocaine metabolites", "Classification": "Not Met", "Justification": "No evidence of cocaine use in patient history"}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Any DSM-IV Axis I disorder other than cocaine abuse or dependence", "Classification": "Not Violated", "Justification": "Patient has no documented Axis I mental disorders"},
+    {"Criterion": "Dependence or daily use of psychoactive drugs other than nicotine or caffeine", "Classification": "Not Violated", "Justification": "Patient uses metformin (non-psychoactive) and has no documented drug dependence"},
+    {"Criterion": "A history of violence and/or currently on probation, parole or awaiting trial", "Classification": "Irrelevant", "Justification": "No relevant history documented"},
+    {"Criterion": "Pregnant as determined by serum pregnancy screen, lactating or having delivered a child in the past 12 months", "Classification": "Irrelevant", "Justification": "Patient is male"},
+    {"Criterion": "Seropositive tests for the human immunodeficiency virus (HIV) or hepatitis B", "Classification": "Unclear", "Justification": "No HIV or hepatitis B test results provided"},
+    {"Criterion": "History of seizure disorder", "Classification": "Not Violated", "Justification": "No seizure disorder documented"}
+  ],
+  "Recap": "Patient exceeds age limit, lacks cocaine use history, has significant comorbidities, and lacks required toxicology confirmation. Exclusion criteria not violated but some remain unclear.",
+  "Final Decision": "Ineligible"
+}

@@ -1,0 +1,118 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Homozygous familial hypercholesterolemia, i.e.: Low-density lipoprotein (LDL) cholesterol greater than 500 mg/dL",
+            "Classification": "Not Met",
+            "Justification": "Patient's LDL cholesterol is 190 mg/dL, not exceeding 500 mg/dL"
+        },
+        {
+            "Criterion": "Autosomal dominant inheritance",
+            "Classification": "Unclear",
+            "Justification": "Family history of sudden cardiac death is noted, but genetic testing confirms heterozygous LDLR mutation, not homozygous"
+        },
+        {
+            "Criterion": "Early-onset tendon and tuberous xanthomas",
+            "Classification": "Unclear",
+            "Justification": "No explicit mention of tendon/xanthoma manifestations in patient history"
+        },
+        {
+            "Criterion": "LDL receptor negative, i.e.: Receptor binding in cultured fibroblasts no more than 20% of normal OR Genotype with 2 previously described, disease-causing alleles",
+            "Classification": "Not Met",
+            "Justification": "Genetic test shows heterozygous LDLR c.1444G>A mutation, not homozygous disease-causing alleles"
+        },
+        {
+            "Criterion": "Advanced coronary heart disease with relatively poor prognosis, i.e: Angina pectoris",
+            "Classification": "Met",
+            "Justification": "Patient has history of recurrent MI, CABG, and impaired left ventricular function"
+        },
+        {
+            "Criterion": "History of myocardial infarction",
+            "Classification": "Met",
+            "Justification": "Documented history of recurrent severe myocardial infarctions"
+        },
+        {
+            "Criterion": "Positive exercise tolerance test",
+            "Classification": "Unclear",
+            "Justification": "No information provided about exercise tolerance test results"
+        },
+        {
+            "Criterion": "Atherosclerotic disease in proximal aorta or coronary arteries by ultrasound or angiogram",
+            "Classification": "Met",
+            "Justification": "Diagnosed with Stage III coronary artery disease with multivessel involvement"
+        },
+        {
+            "Criterion": "None of the following: Unstable angina pectoris",
+            "Classification": "Not Met",
+            "Justification": "Patient has history of stable MI and CABG, not unstable angina"
+        },
+        {
+            "Criterion": "Left ventricular ejection fraction less than 30%",
+            "Classification": "Unclear",
+            "Justification": "Impaired left ventricular function is noted but ejection fraction value unspecified"
+        },
+        {
+            "Criterion": "Decompensated congestive heart failure",
+            "Classification": "Not Met",
+            "Justification": "No mention of decompensated heart failure"
+        },
+        {
+            "Criterion": "Untreated ventricular tachycardia",
+            "Classification": "Not Met",
+            "Justification": "No evidence of ventricular tachycardia or treatment status"
+        },
+        {
+            "Criterion": "Moderate to severe aortic stenosis",
+            "Classification": "Not Met",
+            "Justification": "No mention of aortic stenosis"
+        },
+        {
+            "Criterion": "Other dyslipidemia",
+            "Classification": "Not Met",
+            "Justification": "Patient has familial hypercholesterolemia, not other dyslipidemia"
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Unstable angina pectoris",
+            "Classification": "Not Violated",
+            "Justification": "Patient has history of stable MI and CABG"
+        },
+        {
+            "Criterion": "Left ventricular ejection fraction less than 30%",
+            "Classification": "Unclear",
+            "Justification": "Impaired left ventricular function is noted but ejection fraction value unspecified"
+        },
+        {
+            "Criterion": "Decompensated congestive heart failure",
+            "Classification": "Not Violated",
+            "Justification": "No evidence of decompensated heart failure"
+        },
+        {
+            "Criterion": "Untreated ventricular tachycardia",
+            "Classification": "Not Violated",
+            "Justification": "No evidence of ventricular tachycardia"
+        },
+        {
+            "Criterion": "Moderate to severe aortic stenosis",
+            "Classification": "Not Violated",
+            "Justification": "No mention of aortic stenosis"
+        },
+        {
+            "Criterion": "Other dyslipidemia",
+            "Classification": "Not Violated",
+            "Justification": "Patient has familial hypercholesterolemia, not other dyslipidemia"
+        },
+        {
+            "Criterion": "At least 2 weeks since the following: Drugs affecting cholesterol metabolism",
+            "Classification": "Unclear",
+            "Justification": "Patient is on metformin (not a cholesterol drug) but history of statin therapy with elevated transaminases is noted without timeline"
+        },
+        {
+            "Criterion": "Plasma exchange LDL apheresis",
+            "Classification": "Not Violated",
+            "Justification": "No evidence of plasma exchange or LDL apheresis"
+        }
+    ],
+    "Recap": "Patient has diabetes mellitus type 2 (exclusion violation) and meets some inclusion criteria (advanced coronary disease, MI history) but fails others (LDL >500 mg/dL, homozygous FH).",
+    "Final Decision": "Ineligible"
+}

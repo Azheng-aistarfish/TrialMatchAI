@@ -1,0 +1,113 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Recent MI (3-28 days)",
+            "Classification": "Unclear",
+            "Justification": "Patient's most recent MI date is not specified, and the timeline since the last MI is unknown."
+        },
+        {
+            "Criterion": "MI defined by at least 2 of 3 criteria",
+            "Classification": "Unclear",
+            "Justification": "No specific MI criteria or current MI status is provided for evaluation."
+        },
+        {
+            "Criterion": "TIMI flow 0 or 1 in infarct related artery",
+            "Classification": "Unclear",
+            "Justification": "TIMI flow status is not documented in the patient's profile."
+        },
+        {
+            "Criterion": "Meets criteria for high risk: EF <50% or site of occlusion is proximal...",
+            "Classification": "Met",
+            "Justification": "Patient has impaired left ventricular function (ischemic cardiomyopathy) consistent with EF <50%."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Age <18 y",
+            "Classification": "Not Violated",
+            "Justification": "Patient is 58 years old, which is above the exclusion threshold."
+        },
+        {
+            "Criterion": "Clinical indication for revascularization",
+            "Classification": "Violated",
+            "Justification": "Patient has a history of emergency stenting and CABG, indicating clinical indication for revascularization."
+        },
+        {
+            "Criterion": "Serious illness that limits 3-year survival",
+            "Classification": "Unclear",
+            "Justification": "Patient has chronic conditions (diabetes, hypercholesterolemia) but no explicit statement about 3-year survival limitation."
+        },
+        {
+            "Criterion": "Severe renal disease",
+            "Classification": "Not Violated",
+            "Justification": "No mention of serum creatinine >3.0 mg/dL or severe renal impairment."
+        },
+        {
+            "Criterion": "Severe valvular disease",
+            "Classification": "Not Violated",
+            "Justification": "No documentation of severe valvular disease."
+        },
+        {
+            "Criterion": "History of anaphylaxis to radiographic contrast",
+            "Classification": "Not Violated",
+            "Justification": "No history of anaphylaxis to contrast is noted."
+        },
+        {
+            "Criterion": "Infarct artery too small...",
+            "Classification": "Unclear",
+            "Justification": "No information about reference segment diameter or anatomical suitability for PCI."
+        },
+        {
+            "Criterion": "Chronic occlusion of IRA",
+            "Classification": "Not Violated",
+            "Justification": "No evidence of chronic occlusion in the patient's history."
+        },
+        {
+            "Criterion": "NYHA classes III-IV CHF",
+            "Classification": "Unclear",
+            "Justification": "Current NYHA class is not specified in the patient profile."
+        },
+        {
+            "Criterion": "Cardiogenic shock or sustained hypotension",
+            "Classification": "Not Violated",
+            "Justification": "No mention of systolic BP <90 mm Hg or cardiac index <2.2 L/min/m²."
+        },
+        {
+            "Criterion": "LV aneurysm in same location as index MI",
+            "Classification": "Not Violated",
+            "Justification": "No mention of LV aneurysm in the same location."
+        },
+        {
+            "Criterion": "Inability to cooperate with the protocol",
+            "Classification": "Not Violated",
+            "Justification": "Informed consent has been obtained."
+        },
+        {
+            "Criterion": "Patient refusal or inability to give informed consent",
+            "Classification": "Not Violated",
+            "Justification": "Informed consent has been obtained."
+        },
+        {
+            "Criterion": "Refusal of patient's physician to allow patient to participate",
+            "Classification": "Not Violated",
+            "Justification": "No mention of physician refusal."
+        },
+        {
+            "Criterion": "Pregnancy",
+            "Classification": "Irrelevant",
+            "Justification": "Patient is male and not pregnant."
+        },
+        {
+            "Criterion": "Contraindication to anticoagulation during PCI or to routine antiplatelet therapy",
+            "Classification": "Not Violated",
+            "Justification": "No mention of anticoagulation contraindications."
+        },
+        {
+            "Criterion": "Qualifying IRA that has been grafted previously",
+            "Classification": "Violated",
+            "Justification": "Patient has a history of CABG, indicating the IRA was previously grafted, which is excluded under this criterion."
+        }
+    ],
+    "Recap": "Patient has a history of MI and CABG, meets high-risk criteria (EF <50%), but violates exclusion criteria for clinical revascularization and IRA grafting. Other exclusions are unclear or not applicable.",
+    "Final Decision": "Ineligible"
+}

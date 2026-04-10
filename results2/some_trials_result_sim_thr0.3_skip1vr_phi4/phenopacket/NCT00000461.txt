@@ -1,0 +1,25 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Men and women, normocholesterolemic, with 30 percent or greater narrowing of a coronary artery lumen as revealed by angiography.",
+      "Classification": "Not Met",
+      "Justification": "The patient has hypercholesterolemia with LDL levels exceeding 190 mg/dL, which contradicts the normocholesterolemic requirement."
+    },
+    {
+      "Criterion": "Men and women with angiographically-documented coronary heart disease.",
+      "Classification": "Met",
+      "Justification": "The patient has documented coronary artery disease with multivessel involvement, meeting the criterion for angiographically-documented coronary heart disease."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Patients with severe hypercholesterolemia.",
+      "Classification": "Violated",
+      "Justification": "The patient's LDL levels exceed 190 mg/dL, indicating severe hypercholesterolemia, which violates this exclusion criterion."
+    }
+  ],
+  "Recap": "The patient meets the inclusion criterion for having angiographically-documented coronary heart disease but does not meet the normocholesterolemic requirement due to severe hypercholesterolemia. The exclusion criterion for severe hypercholesterolemia is violated.",
+  "Final Decision": "Ineligible"
+}
+```

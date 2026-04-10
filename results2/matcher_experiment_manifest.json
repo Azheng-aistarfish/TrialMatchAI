@@ -1,0 +1,570 @@
+{
+  "patients_dir": "/home/ocean/azheng/TrialMatchAI/example_raw",
+  "results_root": "/home/ocean/azheng/TrialMatchAI-exp/results2",
+  "output_prefix": "some_trials_result_sim_thr0.3",
+  "trials_json_folder": "/data/ocean/TrialMatchAI/data/processed_trials.200",
+  "prefill_files": [
+    "keywords.json",
+    "nct_ids.txt",
+    "first_level_scores.json",
+    "top_trials.txt"
+  ],
+  "experiments": [
+    {
+      "name": "baseline",
+      "output_dir": "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3",
+      "status": "ok",
+      "copied_files": [],
+      "prefill_files": [],
+      "missing_resume_files": [],
+      "completed_patients": [],
+      "missing_patients": [
+        "phenopacket"
+      ],
+      "command": [
+        "/home/ocean/azheng/TrialMatchAI/.venv/bin/python",
+        "-m",
+        "Matcher.main",
+        "--patients-dir",
+        "../example_raw",
+        "--output-dir",
+        "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3",
+        "--es-index-trials",
+        "clinical_trials_200",
+        "--es-index-trials-eligibility",
+        "trials_eligibility_200",
+        "--tensor-parallel-size",
+        "1",
+        "--vector-score-threshold",
+        "0.3",
+        "--trials-json-folder",
+        "/home/ocean/azheng/TrialMatchAI/data/processed_trials.200",
+        "--max-trials-rag",
+        "1000"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "skip1",
+      "output_dir": "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1",
+      "status": "skipped_complete",
+      "copied_files": [],
+      "prefill_files": [
+        "keywords.json"
+      ],
+      "missing_resume_files": [],
+      "completed_patients": [
+        "phenopacket"
+      ],
+      "missing_patients": [],
+      "command": [
+        "/home/ocean/azheng/TrialMatchAI/.venv/bin/python",
+        "-m",
+        "Matcher.main",
+        "--patients-dir",
+        "../example_raw",
+        "--output-dir",
+        "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1",
+        "--es-index-trials",
+        "clinical_trials_200",
+        "--es-index-trials-eligibility",
+        "trials_eligibility_200",
+        "--tensor-parallel-size",
+        "1",
+        "--vector-score-threshold",
+        "0.3",
+        "--trials-json-folder",
+        "/home/ocean/azheng/TrialMatchAI/data/processed_trials.200",
+        "--max-trials-rag",
+        "1000",
+        "--skip-first-level"
+      ]
+    },
+    {
+      "name": "skip1v_phi4",
+      "output_dir": "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1v_phi4",
+      "status": "skipped_complete",
+      "copied_files": [],
+      "prefill_files": [
+        "keywords.json"
+      ],
+      "missing_resume_files": [],
+      "completed_patients": [
+        "phenopacket"
+      ],
+      "missing_patients": [],
+      "command": [
+        "/home/ocean/azheng/TrialMatchAI/.venv/bin/python",
+        "-m",
+        "Matcher.main",
+        "--patients-dir",
+        "../example_raw",
+        "--output-dir",
+        "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1v_phi4",
+        "--es-index-trials",
+        "clinical_trials_200",
+        "--es-index-trials-eligibility",
+        "trials_eligibility_200",
+        "--tensor-parallel-size",
+        "1",
+        "--vector-score-threshold",
+        "0.3",
+        "--trials-json-folder",
+        "/home/ocean/azheng/TrialMatchAI/data/processed_trials.200",
+        "--max-trials-rag",
+        "1000",
+        "--skip-first-level",
+        "--second-level-search-mode",
+        "all_rerank"
+      ]
+    },
+    {
+      "name": "skip1v_phi4_wo_lora",
+      "output_dir": "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1v_phi4_wo_lora",
+      "status": "skipped_complete",
+      "copied_files": [],
+      "prefill_files": [
+        "keywords.json"
+      ],
+      "missing_resume_files": [],
+      "completed_patients": [
+        "phenopacket"
+      ],
+      "missing_patients": [],
+      "command": [
+        "/home/ocean/azheng/TrialMatchAI/.venv/bin/python",
+        "-m",
+        "Matcher.main",
+        "--patients-dir",
+        "../example_raw",
+        "--output-dir",
+        "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1v_phi4_wo_lora",
+        "--es-index-trials",
+        "clinical_trials_200",
+        "--es-index-trials-eligibility",
+        "trials_eligibility_200",
+        "--tensor-parallel-size",
+        "1",
+        "--vector-score-threshold",
+        "0.3",
+        "--trials-json-folder",
+        "/home/ocean/azheng/TrialMatchAI/data/processed_trials.200",
+        "--max-trials-rag",
+        "1000",
+        "--skip-first-level",
+        "--second-level-search-mode",
+        "all_rerank",
+        "--cot-adapter-path",
+        ""
+      ]
+    },
+    {
+      "name": "skip1vr_phi4",
+      "output_dir": "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1vr_phi4",
+      "status": "skipped_complete",
+      "copied_files": [],
+      "prefill_files": [
+        "keywords.json",
+        "top_trials.txt"
+      ],
+      "missing_resume_files": [],
+      "completed_patients": [
+        "phenopacket"
+      ],
+      "missing_patients": [],
+      "command": [
+        "/home/ocean/azheng/TrialMatchAI/.venv/bin/python",
+        "-m",
+        "Matcher.main",
+        "--patients-dir",
+        "../example_raw",
+        "--output-dir",
+        "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1vr_phi4",
+        "--es-index-trials",
+        "clinical_trials_200",
+        "--es-index-trials-eligibility",
+        "trials_eligibility_200",
+        "--tensor-parallel-size",
+        "1",
+        "--vector-score-threshold",
+        "0.3",
+        "--trials-json-folder",
+        "/home/ocean/azheng/TrialMatchAI/data/processed_trials.200",
+        "--max-trials-rag",
+        "1000",
+        "--resume-from-second-level"
+      ]
+    },
+    {
+      "name": "skip1vr_phi4_wo_lora",
+      "output_dir": "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1vr_phi4_wo_lora",
+      "status": "skipped_complete",
+      "copied_files": [],
+      "prefill_files": [
+        "keywords.json",
+        "top_trials.txt"
+      ],
+      "missing_resume_files": [],
+      "completed_patients": [
+        "phenopacket"
+      ],
+      "missing_patients": [],
+      "command": [
+        "/home/ocean/azheng/TrialMatchAI/.venv/bin/python",
+        "-m",
+        "Matcher.main",
+        "--patients-dir",
+        "../example_raw",
+        "--output-dir",
+        "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1vr_phi4_wo_lora",
+        "--es-index-trials",
+        "clinical_trials_200",
+        "--es-index-trials-eligibility",
+        "trials_eligibility_200",
+        "--tensor-parallel-size",
+        "1",
+        "--vector-score-threshold",
+        "0.3",
+        "--trials-json-folder",
+        "/home/ocean/azheng/TrialMatchAI/data/processed_trials.200",
+        "--max-trials-rag",
+        "1000",
+        "--resume-from-second-level",
+        "--cot-adapter-path",
+        ""
+      ]
+    },
+    {
+      "name": "skip1v_qwen3_4b",
+      "output_dir": "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1v_qwen3_4b",
+      "status": "skipped_complete",
+      "copied_files": [],
+      "prefill_files": [
+        "keywords.json"
+      ],
+      "missing_resume_files": [],
+      "completed_patients": [
+        "phenopacket"
+      ],
+      "missing_patients": [],
+      "command": [
+        "/home/ocean/azheng/TrialMatchAI/.venv/bin/python",
+        "-m",
+        "Matcher.main",
+        "--patients-dir",
+        "../example_raw",
+        "--output-dir",
+        "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1v_qwen3_4b",
+        "--es-index-trials",
+        "clinical_trials_200",
+        "--es-index-trials-eligibility",
+        "trials_eligibility_200",
+        "--tensor-parallel-size",
+        "1",
+        "--vector-score-threshold",
+        "0.3",
+        "--trials-json-folder",
+        "/home/ocean/azheng/TrialMatchAI/data/processed_trials.200",
+        "--max-trials-rag",
+        "1000",
+        "--skip-first-level",
+        "--second-level-search-mode",
+        "all_rerank",
+        "--base-model",
+        "/data/ocean/model/Qwen/Qwen3-4B/",
+        "--cot-adapter-path",
+        ""
+      ]
+    },
+    {
+      "name": "skip1v_qwen3_8b",
+      "output_dir": "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1v_qwen3_8b",
+      "status": "skipped_complete",
+      "copied_files": [],
+      "prefill_files": [
+        "keywords.json"
+      ],
+      "missing_resume_files": [],
+      "completed_patients": [
+        "phenopacket"
+      ],
+      "missing_patients": [],
+      "command": [
+        "/home/ocean/azheng/TrialMatchAI/.venv/bin/python",
+        "-m",
+        "Matcher.main",
+        "--patients-dir",
+        "../example_raw",
+        "--output-dir",
+        "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1v_qwen3_8b",
+        "--es-index-trials",
+        "clinical_trials_200",
+        "--es-index-trials-eligibility",
+        "trials_eligibility_200",
+        "--tensor-parallel-size",
+        "1",
+        "--vector-score-threshold",
+        "0.3",
+        "--trials-json-folder",
+        "/home/ocean/azheng/TrialMatchAI/data/processed_trials.200",
+        "--max-trials-rag",
+        "1000",
+        "--skip-first-level",
+        "--second-level-search-mode",
+        "all_rerank",
+        "--base-model",
+        "/data/ocean/model/Qwen/Qwen3-8B/",
+        "--cot-adapter-path",
+        ""
+      ]
+    },
+    {
+      "name": "skip1v_qwen3_14b",
+      "output_dir": "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1v_qwen3_14b",
+      "status": "skipped_complete",
+      "copied_files": [],
+      "prefill_files": [
+        "keywords.json"
+      ],
+      "missing_resume_files": [],
+      "completed_patients": [
+        "phenopacket"
+      ],
+      "missing_patients": [],
+      "command": [
+        "/home/ocean/azheng/TrialMatchAI/.venv/bin/python",
+        "-m",
+        "Matcher.main",
+        "--patients-dir",
+        "../example_raw",
+        "--output-dir",
+        "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1v_qwen3_14b",
+        "--es-index-trials",
+        "clinical_trials_200",
+        "--es-index-trials-eligibility",
+        "trials_eligibility_200",
+        "--tensor-parallel-size",
+        "1",
+        "--vector-score-threshold",
+        "0.3",
+        "--trials-json-folder",
+        "/home/ocean/azheng/TrialMatchAI/data/processed_trials.200",
+        "--max-trials-rag",
+        "1000",
+        "--skip-first-level",
+        "--second-level-search-mode",
+        "all_rerank",
+        "--base-model",
+        "/data/ocean/model/qwen3-14b/",
+        "--cot-adapter-path",
+        ""
+      ]
+    },
+    {
+      "name": "skip1v_qwen3_32b",
+      "output_dir": "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1v_qwen3_32b",
+      "status": "skipped_complete",
+      "copied_files": [],
+      "prefill_files": [
+        "keywords.json"
+      ],
+      "missing_resume_files": [],
+      "completed_patients": [
+        "phenopacket"
+      ],
+      "missing_patients": [],
+      "command": [
+        "/home/ocean/azheng/TrialMatchAI/.venv/bin/python",
+        "-m",
+        "Matcher.main",
+        "--patients-dir",
+        "../example_raw",
+        "--output-dir",
+        "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1v_qwen3_32b",
+        "--es-index-trials",
+        "clinical_trials_200",
+        "--es-index-trials-eligibility",
+        "trials_eligibility_200",
+        "--tensor-parallel-size",
+        "1",
+        "--vector-score-threshold",
+        "0.3",
+        "--trials-json-folder",
+        "/home/ocean/azheng/TrialMatchAI/data/processed_trials.200",
+        "--max-trials-rag",
+        "1000",
+        "--skip-first-level",
+        "--second-level-search-mode",
+        "all_rerank",
+        "--base-model",
+        "/data/ocean/model/Qwen/Qwen3-32B/",
+        "--cot-adapter-path",
+        ""
+      ]
+    },
+    {
+      "name": "skip1vr_qwen3_4b",
+      "output_dir": "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1vr_qwen3_4b",
+      "status": "skipped_complete",
+      "copied_files": [],
+      "prefill_files": [
+        "keywords.json",
+        "top_trials.txt"
+      ],
+      "missing_resume_files": [],
+      "completed_patients": [
+        "phenopacket"
+      ],
+      "missing_patients": [],
+      "command": [
+        "/home/ocean/azheng/TrialMatchAI/.venv/bin/python",
+        "-m",
+        "Matcher.main",
+        "--patients-dir",
+        "../example_raw",
+        "--output-dir",
+        "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1vr_qwen3_4b",
+        "--es-index-trials",
+        "clinical_trials_200",
+        "--es-index-trials-eligibility",
+        "trials_eligibility_200",
+        "--tensor-parallel-size",
+        "1",
+        "--vector-score-threshold",
+        "0.3",
+        "--trials-json-folder",
+        "/home/ocean/azheng/TrialMatchAI/data/processed_trials.200",
+        "--max-trials-rag",
+        "1000",
+        "--resume-from-second-level",
+        "--base-model",
+        "/data/ocean/model/Qwen/Qwen3-4B/",
+        "--cot-adapter-path",
+        ""
+      ]
+    },
+    {
+      "name": "skip1vr_qwen3_8b",
+      "output_dir": "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1vr_qwen3_8b",
+      "status": "skipped_complete",
+      "copied_files": [],
+      "prefill_files": [
+        "keywords.json",
+        "top_trials.txt"
+      ],
+      "missing_resume_files": [],
+      "completed_patients": [
+        "phenopacket"
+      ],
+      "missing_patients": [],
+      "command": [
+        "/home/ocean/azheng/TrialMatchAI/.venv/bin/python",
+        "-m",
+        "Matcher.main",
+        "--patients-dir",
+        "../example_raw",
+        "--output-dir",
+        "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1vr_qwen3_8b",
+        "--es-index-trials",
+        "clinical_trials_200",
+        "--es-index-trials-eligibility",
+        "trials_eligibility_200",
+        "--tensor-parallel-size",
+        "1",
+        "--vector-score-threshold",
+        "0.3",
+        "--trials-json-folder",
+        "/home/ocean/azheng/TrialMatchAI/data/processed_trials.200",
+        "--max-trials-rag",
+        "1000",
+        "--resume-from-second-level",
+        "--base-model",
+        "/data/ocean/model/Qwen/Qwen3-8B/",
+        "--cot-adapter-path",
+        ""
+      ]
+    },
+    {
+      "name": "skip1vr_qwen3_14b",
+      "output_dir": "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1vr_qwen3_14b",
+      "status": "skipped_complete",
+      "copied_files": [],
+      "prefill_files": [
+        "keywords.json",
+        "top_trials.txt"
+      ],
+      "missing_resume_files": [],
+      "completed_patients": [
+        "phenopacket"
+      ],
+      "missing_patients": [],
+      "command": [
+        "/home/ocean/azheng/TrialMatchAI/.venv/bin/python",
+        "-m",
+        "Matcher.main",
+        "--patients-dir",
+        "../example_raw",
+        "--output-dir",
+        "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1vr_qwen3_14b",
+        "--es-index-trials",
+        "clinical_trials_200",
+        "--es-index-trials-eligibility",
+        "trials_eligibility_200",
+        "--tensor-parallel-size",
+        "1",
+        "--vector-score-threshold",
+        "0.3",
+        "--trials-json-folder",
+        "/home/ocean/azheng/TrialMatchAI/data/processed_trials.200",
+        "--max-trials-rag",
+        "1000",
+        "--resume-from-second-level",
+        "--base-model",
+        "/data/ocean/model/qwen3-14b/",
+        "--cot-adapter-path",
+        ""
+      ]
+    },
+    {
+      "name": "skip1vr_qwen3_32b",
+      "output_dir": "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1vr_qwen3_32b",
+      "status": "skipped_complete",
+      "copied_files": [],
+      "prefill_files": [
+        "keywords.json",
+        "top_trials.txt"
+      ],
+      "missing_resume_files": [],
+      "completed_patients": [
+        "phenopacket"
+      ],
+      "missing_patients": [],
+      "command": [
+        "/home/ocean/azheng/TrialMatchAI/.venv/bin/python",
+        "-m",
+        "Matcher.main",
+        "--patients-dir",
+        "../example_raw",
+        "--output-dir",
+        "/home/ocean/azheng/TrialMatchAI-exp/results2/some_trials_result_sim_thr0.3_skip1vr_qwen3_32b",
+        "--es-index-trials",
+        "clinical_trials_200",
+        "--es-index-trials-eligibility",
+        "trials_eligibility_200",
+        "--tensor-parallel-size",
+        "1",
+        "--vector-score-threshold",
+        "0.3",
+        "--trials-json-folder",
+        "/home/ocean/azheng/TrialMatchAI/data/processed_trials.200",
+        "--max-trials-rag",
+        "1000",
+        "--resume-from-second-level",
+        "--base-model",
+        "/data/ocean/model/Qwen/Qwen3-32B/",
+        "--cot-adapter-path",
+        ""
+      ]
+    }
+  ]
+}

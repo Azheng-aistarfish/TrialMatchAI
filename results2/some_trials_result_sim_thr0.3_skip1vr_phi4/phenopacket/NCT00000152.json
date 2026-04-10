@@ -1,0 +1,58 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "The patient must be a male physician.",
+            "Classification": "Unclear",
+            "Justification": "The patient's occupation is not specified in the provided data."
+        },
+        {
+            "Criterion": "The patient must be aged 40 to 84 years in 1982.",
+            "Classification": "Met",
+            "Justification": "The patient is 58 years old, which would place him within the age range of 40 to 84 years in 1982."
+        },
+        {
+            "Criterion": "The patient must have no history of myocardial infarction.",
+            "Classification": "Not Met",
+            "Justification": "The patient has a documented history of recurrent severe myocardial infarctions beginning at age 55."
+        },
+        {
+            "Criterion": "The patient must have no history of cancer.",
+            "Classification": "Met",
+            "Justification": "There is no mention of a history of cancer in the patient's profile."
+        },
+        {
+            "Criterion": "The patient must have no history of kidney disease or renal disease.",
+            "Classification": "Met",
+            "Justification": "There is no mention of kidney or renal disease in the patient's profile."
+        },
+        {
+            "Criterion": "The patient must have no contraindications to the use of aspirin or beta-carotene.",
+            "Classification": "Unclear",
+            "Justification": "The patient's data does not provide information on contraindications to aspirin or beta-carotene."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "The patient must not have a history of myocardial infarction.",
+            "Classification": "Violated",
+            "Justification": "The patient has a documented history of recurrent severe myocardial infarctions."
+        },
+        {
+            "Criterion": "The patient must not have a history of cancer.",
+            "Classification": "Not Violated",
+            "Justification": "There is no mention of a history of cancer in the patient's profile."
+        },
+        {
+            "Criterion": "The patient must not have a history of kidney disease or renal disease.",
+            "Classification": "Not Violated",
+            "Justification": "There is no mention of kidney or renal disease in the patient's profile."
+        },
+        {
+            "Criterion": "The patient must not have any contraindications to the use of aspirin or beta-carotene.",
+            "Classification": "Unclear",
+            "Justification": "The patient's data does not provide information on contraindications to aspirin or beta-carotene."
+        }
+    ],
+    "Recap": "The patient meets the age criterion but has a history of myocardial infarction, which violates the exclusion criteria. The patient's occupation and potential contraindications to aspirin or beta-carotene are unclear.",
+    "Final Decision": "Ineligible"
+}

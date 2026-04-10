@@ -1,0 +1,82 @@
+<think>
+Okay, let's start by going through each inclusion and exclusion criterion one by one based on the patient's data.
+
+First, the inclusion criteria: the patient must be male or female aged 21-45. The patient here is 58 years old, which is way above 45. So that's a clear "Not Met" for age. Next, history of smoked cocaine use at least twice a week for six months, including 0.5g in 24 hours. The patient's description doesn't mention any cocaine use. He has a history of smoking but it's specified as 20 pack-years and he quit at 45. No cocaine use is noted, so that's "Not Met" or maybe "Unclear" if there's no info. Wait, the patient description doesn't say anything about cocaine use. So that's "Unclear" because there's no data. But wait, the inclusion requires a positive urine toxicology screen for cocaine. The patient's data doesn't mention that either. So for the cocaine use and urine screen, both are "Unclear" because there's no info provided. 
+
+Then, being in good health with physical exam, CBC, chest X-ray, electrolytes, liver function tests, normal ECG, and BP <140/90. The patient has a history of MI, CABG, diabetes, hypercholesterolemia, elevated liver enzymes, and impaired LV function. His BP isn't mentioned, but his health status is definitely not good. So the "in good health" criterion is "Not Met". 
+
+Using an acceptable method of birth control. The patient is male, so this might be "Irrelevant" since birth control isn't applicable. 
+
+So for inclusion criteria, age is Not Met, cocaine use is Not Met (since he's not in the age range and no cocaine use mentioned), health status Not Met, birth control Irrelevant, and urine toxicology Unclear. Wait, but the urine toxicology is part of the inclusion. Since there's no data on that, it's Unclear. 
+
+Now exclusion criteria: Any DSM-IV Axis I disorder other than cocaine abuse/dependence, or dependence on other psychoactive drugs. The patient's description doesn't mention any mental disorders, so maybe "Not Violated" unless there's something else. But the patient has a history of smoking, but that's nicotine, which is allowed. No mention of other drugs, so "Not Violated".
+
+History of violence or on probation, parole, etc. No info on that, so "Unclear".
+
+Pregnant, lactating, or delivered in past 12 months. The patient is male, so "Irrelevant".
+
+HIV or hepatitis B seropositive. No info given, so "Unclear".
+
+History of seizure disorder. No mention of that, so "Not Violated".
+
+Putting it all together, the patient is over 45, no cocaine use, not in good health, so most inclusion criteria are Not Met or Unclear. Exclusion criteria mostly Not Violated or Unclear. The final decision would be Ineligible because age and health status don't meet inclusion.
+</think>
+
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "M/F ages 21-45",
+      "Classification": "Not Met",
+      "Justification": "Patient is 58 years old, which exceeds the maximum age of 45."
+    },
+    {
+      "Criterion": "History of smoked cocaine use at least twice a week for the past six months, including 0.5 g of cocaine in a 24hr period on at least one occasion",
+      "Classification": "Not Met",
+      "Justification": "No history of cocaine use is documented in the patient's profile."
+    },
+    {
+      "Criterion": "In good health as evidenced by physical exam and complete blood count, chest X-ray and electrolyte and liver function tests, with a normal resting 12-lead electrocardiograph (ECG) and blood pressure of less than 140/90 mmHg",
+      "Classification": "Not Met",
+      "Justification": "Patient has a history of myocardial infarctions, coronary artery disease, diabetes mellitus, hypercholesterolemia, and elevated hepatic transaminases, indicating poor health."
+    },
+    {
+      "Criterion": "Using an acceptable method of birth control",
+      "Classification": "Irrelevant",
+      "Justification": "The criterion applies to reproductive health, which is irrelevant for a male patient."
+    },
+    {
+      "Criterion": "Having a urine toxicology screen positive for cocaine metabolites",
+      "Classification": "Unclear",
+      "Justification": "No information is provided regarding the patient's urine toxicology screen results."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Any DSM-IV Axis I disorder other than cocaine abuse or dependence, or dependence or daily use of psychoactive drugs other than nicotine or caffeine",
+      "Classification": "Not Violated",
+      "Justification": "No DSM-IV Axis I disorders or dependence on psychoactive drugs other than nicotine are documented."
+    },
+    {
+      "Criterion": "A history of violence and/or currently on probation, parole or awaiting trial",
+      "Classification": "Unclear",
+      "Justification": "No information is provided regarding the patient's history of violence or legal status."
+    },
+    {
+      "Criterion": "Pregnant as determined by serum pregnancy screen, lactating or having delivered a child in the past 12 months",
+      "Classification": "Irrelevant",
+      "Justification": "The criterion applies to reproductive status, which is irrelevant for a male patient."
+    },
+    {
+      "Criterion": "Seropositive tests for the human immunodeficiency virus (HIV) or hepatitis B",
+      "Classification": "Unclear",
+      "Justification": "No information is provided regarding the patient's HIV or hepatitis B serostatus."
+    },
+    {
+      "Criterion": "History of seizure disorder",
+      "Classification": "Not Violated",
+      "Justification": "No history of seizure disorder is documented in the patient's profile."
+    }
+  ],
+  "Recap": "Patient is over the age limit, lacks documented cocaine use, and has significant comorbidities. Exclusion criteria are not violated, but key inclusion criteria are unmet.",
+  "Final Decision": "Ineligible"
+}

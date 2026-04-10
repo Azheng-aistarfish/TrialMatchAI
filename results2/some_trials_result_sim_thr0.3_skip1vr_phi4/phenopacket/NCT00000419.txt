@@ -1,0 +1,29 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Female", "Classification": "Not Met", "Justification": "The patient is a 58-year-old male, which does not meet the criterion of being female."},
+    {"Criterion": "Unequivocal diagnosis of SLE", "Classification": "Not Met", "Justification": "There is no mention of a diagnosis of Systemic Lupus Erythematosus (SLE) in the patient's profile."},
+    {"Criterion": "Inactive disease or stable on 0.5 mg/kg/day or less of prednisone", "Classification": "Irrelevant", "Justification": "The patient does not have a diagnosis of SLE, making this criterion irrelevant."},
+    {"Criterion": "Chemical evidence of menopause or have stopped periods for at least 6 months", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Blood pressure >145/95 on three occasions", "Classification": "Unclear", "Justification": "There is no information provided about the patient's blood pressure readings."},
+    {"Criterion": "Deep vein, arterial thrombosis or pulmonary embolus", "Classification": "Not Violated", "Justification": "There is no mention of any thrombotic events in the patient's history."},
+    {"Criterion": "GPL >40; MPL >40; APL >50; dRVVT >37 sec", "Classification": "Irrelevant", "Justification": "These criteria are specific to SLE, which the patient does not have."},
+    {"Criterion": "APL antibody syndrome ever", "Classification": "Irrelevant", "Justification": "The patient does not have SLE, making this criterion irrelevant."},
+    {"Criterion": "Gynecologic or breast cancer", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Hepatic dysfunction or liver tumors", "Classification": "Not Violated", "Justification": "The patient has mild elevation of hepatic transaminases, but there is no mention of liver tumors or significant hepatic dysfunction."},
+    {"Criterion": "Diabetes mellitus (NOT due to steroids) with vascular disease", "Classification": "Violated", "Justification": "The patient has diabetes mellitus type 2 and coronary artery disease, which is a form of vascular disease."},
+    {"Criterion": "Congenital hyperlipidemia", "Classification": "Violated", "Justification": "The patient has a confirmed genetic mutation consistent with familial hypercholesterolemia, a form of congenital hyperlipidemia."},
+    {"Criterion": "Complicated migraine", "Classification": "Not Violated", "Justification": "There is no mention of migraines in the patient's history."},
+    {"Criterion": "Severe disease activity (SLEDAI >12)", "Classification": "Irrelevant", "Justification": "The patient does not have SLE, making this criterion irrelevant."},
+    {"Criterion": "Increase in SLEDAI >2 points in 3 months", "Classification": "Irrelevant", "Justification": "The patient does not have SLE, making this criterion irrelevant."},
+    {"Criterion": "Unexplained vaginal bleeding", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Use of estrogen (HRT or OCP) for >1 month at any time after SLE diagnosis", "Classification": "Irrelevant", "Justification": "The patient does not have SLE, and there is no mention of estrogen use."},
+    {"Criterion": "FSH <40", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Premenopausal myocardial infarction", "Classification": "Violated", "Justification": "The patient has a history of recurrent severe myocardial infarctions, which are postmenopausal given his age and gender."}
+  ],
+  "Recap": "The patient is ineligible for the clinical trial due to not meeting the inclusion criteria of being female and having a diagnosis of SLE. Additionally, the patient violates exclusion criteria related to diabetes mellitus with vascular disease, congenital hyperlipidemia, and premenopausal myocardial infarction.",
+  "Final Decision": "Ineligible"
+}
+```

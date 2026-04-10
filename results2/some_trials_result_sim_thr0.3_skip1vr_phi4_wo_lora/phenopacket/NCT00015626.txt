@@ -1,0 +1,45 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Obese patients (wt > 95th percentile for age, for adults increased BMI > 27) greater than 5 years of age",
+      "Classification": "Unclear",
+      "Justification": "The patient's BMI is not provided, so it is unclear if the patient meets the obesity criterion."
+    },
+    {
+      "Criterion": "And/or presence of complications of insulin resistance such as acanthosis nigricans, dyslipidemia, elevated blood pressure, hyperandrogenism",
+      "Classification": "Met",
+      "Justification": "The patient has hypercholesterolemia with LDL levels exceeding 190 mg/dL, which is a complication of insulin resistance."
+    },
+    {
+      "Criterion": "Siblings and parents of patients with insulin resistance. Siblings and parents will be included only in the case of documented insulin resistance in the index subject. Insulin resistance will be documented by OGTT and/or IVGTT.",
+      "Classification": "Irrelevant",
+      "Justification": "The patient is the index subject, not a sibling or parent, so this criterion does not apply."
+    },
+    {
+      "Criterion": "Family history of type II diabetes",
+      "Classification": "Unclear",
+      "Justification": "There is no mention of a family history of type II diabetes in the provided data."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Critically ill patients, patients with congestive heart failure, renal or liver insufficiency",
+      "Classification": "Violated",
+      "Justification": "The patient has a history of severe myocardial infarctions, coronary artery disease, and impaired left ventricular function, indicating critical illness."
+    },
+    {
+      "Criterion": "Inability to give consent",
+      "Classification": "Not Violated",
+      "Justification": "Written informed consent has been obtained from the patient."
+    },
+    {
+      "Criterion": "History of poor compliance with physician's recommendations",
+      "Classification": "Unclear",
+      "Justification": "There is no information provided about the patient's compliance with physician's recommendations."
+    }
+  ],
+  "Recap": "The patient meets one inclusion criterion (presence of dyslipidemia) but violates one exclusion criterion (critically ill due to severe myocardial infarctions and coronary artery disease). Other inclusion criteria are unclear or irrelevant, and one exclusion criterion is unclear.",
+  "Final Decision": "Ineligible"
+}
+```

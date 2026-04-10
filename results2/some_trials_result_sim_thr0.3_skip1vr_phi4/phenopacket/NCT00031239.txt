@@ -1,0 +1,20 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "The patient must be obese.", "Classification": "Unclear", "Justification": "The patient's weight or BMI is not provided in the data, making it impossible to determine obesity status."},
+    {"Criterion": "The patient must have diabetes.", "Classification": "Met", "Justification": "The patient has a documented history of diabetes mellitus type 2, managed with metformin."},
+    {"Criterion": "The patient must have obstructive sleep apnea.", "Classification": "Unclear", "Justification": "There is no mention of obstructive sleep apnea in the patient's medical history."},
+    {"Criterion": "The patient must be 50% women.", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "The patient must be 40% minorities.", "Classification": "Irrelevant", "Justification": "The patient's ethnic background is not provided, making this criterion inapplicable."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "The patient must not have a history of severe myocardial infarctions.", "Classification": "Violated", "Justification": "The patient has a documented history of recurrent severe myocardial infarctions beginning at age 55."},
+    {"Criterion": "The patient must not have a history of coronary artery bypass grafting.", "Classification": "Violated", "Justification": "The patient underwent coronary artery bypass grafting at age 55."},
+    {"Criterion": "The patient must not have a history of emergency stenting.", "Classification": "Violated", "Justification": "The patient required emergency stenting at age 55."},
+    {"Criterion": "The patient must not have a history of smoking.", "Classification": "Violated", "Justification": "The patient has a 20-year history of smoking, although he quit at age 45."},
+    {"Criterion": "The patient must not have a history of familial hypercholesterolemia.", "Classification": "Violated", "Justification": "Genetic testing confirmed a heterozygous LDLR c.1444G>A mutation, consistent with familial hypercholesterolemia."}
+  ],
+  "Recap": "The patient meets the diabetes criterion but is unclear on obesity and obstructive sleep apnea. The patient violates several exclusion criteria, including severe myocardial infarctions, coronary artery bypass grafting, emergency stenting, smoking history, and familial hypercholesterolemia.",
+  "Final Decision": "Ineligible"
+}
+```

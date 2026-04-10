@@ -1,0 +1,68 @@
+<think>
+Okay, let's start by carefully reading the clinical trial criteria and the patient's description. The goal is to assess eligibility for each group (B, N, H) based on the inclusion and exclusion criteria.
+
+First, the inclusion criteria for each group:
+
+Group B requires evidence of large hemorrhages from subfoveal neovascular AMD lesions, visual acuity between 20/100 to light perception, hemorrhage area larger than CNV on fluorescein angiography, CNV area ≤9 MPS disc areas, and ability to return for 4 years. 
+
+Group N needs new CNV (no prior laser) due to AMD, visual acuity 20/100 to 20/800, subfoveal CNV ≤9 MPS, and 4-year follow-up ability.
+
+Group H requires CNV due to OHS or idiopathic, visual acuity 20/50 to 20/800, subfoveal CNV (new or recurrent) <9 MPS, and 4-year follow-up.
+
+Exclusion criteria include other ocular diseases affecting vision, submacular surgery, subfoveal laser photocoagulation, recent intraocular surgery, or previous investigational therapy for CNV.
+
+Now, the patient's description doesn't mention any eye conditions like AMD, OHS, or CNV. There's no data on visual acuity, fluorescein angiography results, or hemorrhage size. The patient's medical history is focused on cardiac issues, diabetes, and hypercholesterolemia. Since there's no information about ocular health, CNV, or AMD, the inclusion criteria for all groups are not met. 
+
+For exclusion criteria, the patient's history doesn't mention any ocular diseases, surgeries, or investigational therapies. However, since there's no data on these, the exclusion criteria are also not applicable. 
+
+Therefore, all inclusion criteria are "Not Met" or "Irrelevant" because the necessary ocular data is missing. Exclusion criteria are "Irrelevant" as there's no evidence of the excluded conditions. The patient's eligibility can't be confirmed due to lack of relevant ocular information.
+</think>
+
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Patients with evidence of large hemorrhages from subfoveal neovascular AMD lesions, visual acuity (SST protocol) of 20/100 to light perception, with the area of hemorrhage larger than the area of fluorescein angiographically visible CNV, with any visible CNV less than or equal to 9 MPS disc areas, and ability to return for 4 years of follow-up may be eligible for the Group B (Blood) protocol.",
+      "Classification": "Not Met",
+      "Justification": "The patient's description does not mention subfoveal neovascular AMD lesions, hemorrhage size relative to CNV, visual acuity (SST protocol), or fluorescein angiographic findings. No evidence of AMD or CNV is provided."
+    },
+    {
+      "Criterion": "Patients with new CNV (no prior laser) due to AMD, visual acuity (SST protocol) of 20/100 to 20/800, fluorescein angiographic evidence of subfoveal CNV lesion which is less than or equal to 9 MPS disc areas, and ability to return for 4 years of follow-up may be eligible for the Group N (New CNV) protocol.",
+      "Classification": "Not Met",
+      "Justification": "The patient's description does not mention CNV, AMD, visual acuity (SST protocol), fluorescein angiographic findings, or prior laser treatment. No evidence of AMD or CNV is provided."
+    },
+    {
+      "Criterion": "Patients with evidence of CNV due to OHS or idiopathic cause, visual acuity (SST protocol) 20/50 to 20/800, fluorescein angiographic evidence of subfoveal CNV lesion (new or recurrent) which is < 9 MPS disc areas, and ability to return for 4 years of follow-up may be eligible for inclusion in the Group H (Histoplasmosis/Idiopathic CNV) protocol.",
+      "Classification": "Not Met",
+      "Justification": "The patient's description does not mention CNV, OHS, idiopathic causes, visual acuity (SST protocol), fluorescein angiographic findings, or lesion size. No evidence of CNV or related conditions is provided."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Other ocular diseases compromising vision",
+      "Classification": "Irrelevant",
+      "Justification": "The patient's description does not mention any ocular diseases or vision-related conditions."
+    },
+    {
+      "Criterion": "History of submacular surgery in the study eye",
+      "Classification": "Irrelevant",
+      "Justification": "The patient's description does not mention submacular surgery or ocular procedures."
+    },
+    {
+      "Criterion": "History of subfoveal laser photocoagulation that extends under the foveal avascular zone",
+      "Classification": "Irrelevant",
+      "Justification": "The patient's description does not mention subfoveal laser photocoagulation or related treatments."
+    },
+    {
+      "Criterion": "Recent intraocular surgery",
+      "Classification": "Irrelevant",
+      "Justification": "The patient's description does not mention intraocular surgery."
+    },
+    {
+      "Criterion": "Previous investigational therapy for CNV",
+      "Classification": "Irrelevant",
+      "Justification": "The patient's description does not mention investigational therapies for CNV."
+    }
+  ],
+  "Recap": "The patient lacks evidence of AMD, CNV, OHS, or relevant ocular findings required for inclusion in any group. No exclusion criteria are explicitly violated, but eligibility cannot be confirmed due to missing ocular data.",
+  "Final Decision": "Ineligible"
+}

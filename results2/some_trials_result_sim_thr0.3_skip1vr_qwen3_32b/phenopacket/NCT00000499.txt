@@ -1,0 +1,20 @@
+<think>
+Okay, let's start by looking at the inclusion criteria for the clinical trial. The first criterion is that the patient must be aged 60 or over. The patient in question is 58 years old. So, that's not met. Next, they need to have isolated systolic hypertension. The patient's description doesn't mention anything about their blood pressure readings, specifically systolic or diastolic. So that's unclear. The third inclusion criterion is a normal diastolic pressure of less than 90 mm Hg. Again, there's no data provided on the patient's diastolic pressure, so this is also unclear.
+
+Now, moving on to the exclusion criteria. The problem here is that the user didn't provide any specific exclusion criteria. The original input only listed inclusion criteria. So, for the exclusion criteria assessment, I need to check if there are any mentioned. Since there are none, each exclusion criterion would be irrelevant. But since there are no exclusion criteria given, the evaluation for exclusion would be irrelevant for all.
+
+For the recap, the main points are the patient's age not meeting the 60+ requirement and the blood pressure criteria being unclear. The final decision would be ineligible because the age criterion isn't met, and the other inclusion criteria can't be confirmed.
+</think>
+
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Men and women, aged 60 or over", "Classification": "Not Met", "Justification": "The patient is 58 years old, which is below the required age of 60."},
+    {"Criterion": "Isolated systolic hypertension", "Classification": "Unclear", "Justification": "The patient's blood pressure data is not explicitly provided in the description."},
+    {"Criterion": "Normal diastolic pressure of less than 90 mm Hg", "Classification": "Unclear", "Justification": "The patient's diastolic pressure is not mentioned in the provided information."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "N/A", "Classification": "Irrelevant", "Justification": "No exclusion criteria were provided in the clinical trial description."}
+  ],
+  "Recap": "The patient is ineligible due to not meeting the age requirement (58 years vs. required 60+). Blood pressure criteria cannot be verified due to missing data.",
+  "Final Decision": "Ineligible"
+}

@@ -1,0 +1,33 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Men with LDL-cholesterol of 125-189 mg/dL",
+            "Classification": "Not Met",
+            "Justification": "The patient's LDL-cholesterol levels exceed 190 mg/dL, which is outside the specified range of 125-189 mg/dL."
+        },
+        {
+            "Criterion": "Men with HDL-cholesterol below or equal to 44 mg/dL",
+            "Classification": "Unclear",
+            "Justification": "The patient's HDL-cholesterol level is not provided in the data, making it impossible to determine if this criterion is met."
+        },
+        {
+            "Criterion": "Postmenopausal women, age 45 to 64, with LDL-cholesterol of 125 to 209 mg/dL",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is a male, so this criterion does not apply."
+        },
+        {
+            "Criterion": "Postmenopausal women, age 45 to 64, with HDL-cholesterol below or equal to 59 mg/dL",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is a male, so this criterion does not apply."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Patients with LDL-cholesterol levels exceeding 190 mg/dL",
+            "Classification": "Violated",
+            "Justification": "The patient's LDL-cholesterol levels are documented to exceed 190 mg/dL, which violates this exclusion criterion."
+        }
+    ],
+    "Recap": "The patient is a 58-year-old male with LDL-cholesterol levels exceeding 190 mg/dL, which disqualifies him from the trial. The HDL-cholesterol level is unknown, and the trial's criteria for men do not apply to postmenopausal women.",
+    "Final Decision": "Ineligible"
+}

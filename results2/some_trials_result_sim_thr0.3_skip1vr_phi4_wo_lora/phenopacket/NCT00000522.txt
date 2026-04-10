@@ -1,0 +1,50 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Men and women, ages 45 to 69",
+      "Classification": "Met",
+      "Justification": "The patient is a 58-year-old male, which falls within the specified age range of 45 to 69."
+    },
+    {
+      "Criterion": "with mild hypertension (diastolic blood pressure of 90-99 mm Hg at two of three visits for untreated individuals. Patients who received drug therapy must have had a DBP less than 95 mm Hg two to four weeks after drug.",
+      "Classification": "Unclear",
+      "Justification": "The patient's diastolic blood pressure readings are not provided in the data, making it impossible to determine if the criterion is met."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Severe myocardial infarctions",
+      "Classification": "Violated",
+      "Justification": "The patient has a documented history of recurrent severe myocardial infarctions, which is a violation of this exclusion criterion."
+    },
+    {
+      "Criterion": "Diabetes mellitus type 2",
+      "Classification": "Violated",
+      "Justification": "The patient has diabetes mellitus type 2, which is explicitly mentioned as an exclusion criterion."
+    },
+    {
+      "Criterion": "Hypercholesterolemia with LDL levels exceeding 190 mg/dL",
+      "Classification": "Violated",
+      "Justification": "The patient has hypercholesterolemia with LDL levels exceeding 190 mg/dL, which violates this exclusion criterion."
+    },
+    {
+      "Criterion": "Impaired liver function",
+      "Classification": "Unclear",
+      "Justification": "The patient has a mild elevation of hepatic transaminases, but it is unclear if this constitutes impaired liver function as per the trial's definition."
+    },
+    {
+      "Criterion": "History of coronary artery disease",
+      "Classification": "Violated",
+      "Justification": "The patient has a history of coronary artery disease, which is an exclusion criterion."
+    },
+    {
+      "Criterion": "Genetic mutations associated with familial hypercholesterolemia",
+      "Classification": "Violated",
+      "Justification": "The patient has a confirmed heterozygous LDLR c.1444G>A mutation, consistent with familial hypercholesterolemia."
+    }
+  ],
+  "Recap": "The patient meets the age and gender inclusion criteria but has multiple exclusion criteria violations, including severe myocardial infarctions, diabetes mellitus type 2, hypercholesterolemia, coronary artery disease, and a genetic mutation associated with familial hypercholesterolemia.",
+  "Final Decision": "Ineligible"
+}
+```

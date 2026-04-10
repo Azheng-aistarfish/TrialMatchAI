@@ -1,0 +1,55 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Adult patients with greater than 50% stenosis in at least one major coronary artery.",
+      "Classification": "Met",
+      "Justification": "The patient has a documented history of coronary artery disease with multivessel involvement, indicating greater than 50% stenosis."
+    },
+    {
+      "Criterion": "No significant valvular heart disease.",
+      "Classification": "Not Met",
+      "Justification": "The patient's data does not mention valvular heart disease, but the absence of information leads to classification as 'Not Met' due to lack of explicit confirmation."
+    },
+    {
+      "Criterion": "No congenital heart disease.",
+      "Classification": "Not Met",
+      "Justification": "The patient's history does not mention congenital heart disease, but the absence of information leads to classification as 'Not Met' due to lack of explicit confirmation."
+    },
+    {
+      "Criterion": "No myocardial disease unrelated to co-existing coronary artery disease.",
+      "Classification": "Violated",
+      "Justification": "The patient has ischemic cardiomyopathy, which is related to coronary artery disease, but the criterion specifies 'unrelated' myocardial disease, which is not applicable here."
+    },
+    {
+      "Criterion": "No severe angina where withdrawal of therapy would be dangerous.",
+      "Classification": "Unclear",
+      "Justification": "There is no explicit information about the current status of angina or the safety of withdrawing therapy."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "No recent unstable angina or myocardial infarction (less than 1 month).",
+      "Classification": "Not Violated",
+      "Justification": "The patient's last myocardial infarction was at age 55, which is more than 1 month ago."
+    },
+    {
+      "Criterion": "Not pregnant or breast feeding.",
+      "Classification": "Not Violated",
+      "Justification": "The patient is male, so this criterion is not applicable."
+    },
+    {
+      "Criterion": "No history of ventricular tachycardia or malignant arrhythmias.",
+      "Classification": "Not Violated",
+      "Justification": "There is no mention of ventricular tachycardia or malignant arrhythmias in the patient's history."
+    },
+    {
+      "Criterion": "No history of active bronchospastic disease.",
+      "Classification": "Not Violated",
+      "Justification": "There is no mention of bronchospastic disease in the patient's history."
+    }
+  ],
+  "Recap": "The patient meets the inclusion criterion for coronary artery stenosis but does not explicitly meet criteria regarding valvular and congenital heart disease. The exclusion criteria for recent myocardial infarction, pregnancy, arrhythmias, and bronchospastic disease are not violated.",
+  "Final Decision": "Ineligible"
+}
+```

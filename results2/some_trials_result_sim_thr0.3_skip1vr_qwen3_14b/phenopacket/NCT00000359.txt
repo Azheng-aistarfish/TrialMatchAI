@@ -1,0 +1,58 @@
+<think>
+Okay, let's start by going through each inclusion and exclusion criterion one by one based on the patient's data.
+
+First, the inclusion criteria. The first one is age: at least 21. The patient is 58, so that's definitely met. Next, diagnosis of unilateral posterior semicircular canal BPPV. The patient's description doesn't mention anything about BPPV or any related diagnosis. So that's unclear because there's no info provided. Third, functional to normal range of motion of neck and back. The patient has a history of coronary issues, diabetes, etc., but nothing about neck or back mobility. So again, unclear.
+
+Now the exclusion criteria. First, history of prior ear surgery or BPPV treatment. The patient's history includes heart issues, surgeries related to that, but no mention of ear surgery or BPPV treatment. So not violated. Next, orthopedic or connective tissue disorder impairing neck/trunk motion. The patient has coronary disease, diabetes, but no mention of orthopedic issues. So not violated. Third, significant neurological disorder or spinal cord damage. No info on that, so unclear. Fourth, on vestibular suppressant meds. The patient is on metformin for diabetes, no mention of vestibular meds. Not violated. Lastly, Meniere's disease or acoustic neuromas. No mention of those either, so not violated.
+
+So the key points are that the patient's age is met, but BPPV diagnosis is missing, making inclusion criteria unclear. Exclusion criteria aren't violated, but some are unclear. Since the BPPV diagnosis is missing, the patient can't be confirmed for inclusion, leading to likely ineligible.
+</think>
+
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Are at least 21 years old.",
+      "Classification": "Met",
+      "Justification": "The patient is 58 years old."
+    },
+    {
+      "Criterion": "Have a diagnosis of unilateral posterior semicircular canal BPPV according to established clinical test criteria.",
+      "Classification": "Unclear",
+      "Justification": "The patient's medical history does not mention a diagnosis of BPPV or related vestibular conditions."
+    },
+    {
+      "Criterion": "Have functional to normal range of motion of the neck and the back.",
+      "Classification": "Unclear",
+      "Justification": "The patient's medical history does not specify neck or back range of motion status."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Have a history of prior ear surgery or prior treatment for BPPV.",
+      "Classification": "Not Violated",
+      "Justification": "The patient's medical history does not mention ear surgery or BPPV treatment."
+    },
+    {
+      "Criterion": "Have an orthopedic or connective tissue disorder that impairs functional neck or trunk range of motion.",
+      "Classification": "Not Violated",
+      "Justification": "The patient's medical history does not mention orthopedic or connective tissue disorders affecting neck/trunk motion."
+    },
+    {
+      "Criterion": "Have a significant neurological disorder or spinal cord damage.",
+      "Classification": "Unclear",
+      "Justification": "The patient's medical history does not specify neurological or spinal cord conditions."
+    },
+    {
+      "Criterion": "Are on vestibular suppressant medications.",
+      "Classification": "Not Violated",
+      "Justification": "The patient is prescribed metformin for diabetes, not vestibular suppressants."
+    },
+    {
+      "Criterion": "Have Meniere's disease or acoustic neuromas.",
+      "Classification": "Not Violated",
+      "Justification": "The patient's medical history does not mention Meniere's disease or acoustic neuromas."
+    }
+  ],
+  "Recap": "The patient meets the age criterion but lacks documentation of BPPV diagnosis and range-of-motion status. No exclusion criteria are violated, but some are unverified due to missing data.",
+  "Final Decision": "Ineligible"
+}

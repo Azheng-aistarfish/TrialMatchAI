@@ -1,0 +1,78 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Homozygous familial hypercholesterolemia, i.e.: Low-density lipoprotein (LDL) cholesterol greater than 500 mg/dL",
+            "Classification": "Not Met",
+            "Justification": "Patient has heterozygous LDLR c.1444G>A mutation and LDL levels exceeding 190 mg/dL, not 500 mg/dL."
+        },
+        {
+            "Criterion": "Autosomal dominant inheritance",
+            "Classification": "Met",
+            "Justification": "Familial hypercholesterolemia is inherited in an autosomal dominant pattern, consistent with the patient's heterozygous mutation."
+        },
+        {
+            "Criterion": "Early-onset tendon and tuberous xanthomas",
+            "Classification": "Unclear",
+            "Justification": "No mention of xanthomas in the patient's history."
+        },
+        {
+            "Criterion": "LDL receptor negative, i.e.: Receptor binding in cultured fibroblasts no more than 20% of normal OR Genotype with 2 previously described, disease-causing alleles",
+            "Classification": "Not Met",
+            "Justification": "Patient has a heterozygous LDLR mutation, not two disease-causing alleles."
+        },
+        {
+            "Criterion": "Advanced coronary heart disease with relatively poor prognosis, i.e: Angina pectoris History of myocardial infarction Positive exercise tolerance test Atherosclerotic disease in proximal aorta or coronary arteries by ultrasound or angiogram",
+            "Classification": "Met",
+            "Justification": "Patient has recurrent severe myocardial infarctions, coronary artery bypass grafting, and Stage III coronary artery disease with impaired left ventricular function."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Unstable angina pectoris",
+            "Classification": "Not Violated",
+            "Justification": "No mention of unstable angina in the patient's history."
+        },
+        {
+            "Criterion": "Left ventricular ejection fraction less than 30%",
+            "Classification": "Unclear",
+            "Justification": "Patient has impaired left ventricular function, but exact ejection fraction is not specified."
+        },
+        {
+            "Criterion": "Decompensated congestive heart failure",
+            "Classification": "Not Violated",
+            "Justification": "No mention of decompensated heart failure."
+        },
+        {
+            "Criterion": "Untreated ventricular tachycardia",
+            "Classification": "Not Violated",
+            "Justification": "No mention of untreated ventricular tachycardia."
+        },
+        {
+            "Criterion": "Moderate to severe aortic stenosis",
+            "Classification": "Not Violated",
+            "Justification": "No mention of aortic stenosis."
+        },
+        {
+            "Criterion": "Other dyslipidemia",
+            "Classification": "Not Violated",
+            "Justification": "Patient has familial hypercholesterolemia, not other dyslipidemia."
+        },
+        {
+            "Criterion": "Obstructive hepatobiliary disease",
+            "Classification": "Not Violated",
+            "Justification": "Mild elevation of hepatic transaminases is present, but no obstructive hepatobiliary disease is mentioned."
+        },
+        {
+            "Criterion": "At least 2 weeks since the following: Drugs affecting cholesterol metabolism",
+            "Classification": "Unclear",
+            "Justification": "Patient's current use of cholesterol-lowering medications (e.g., statins) is not explicitly stated."
+        },
+        {
+            "Criterion": "No diabetes",
+            "Classification": "Violated",
+            "Justification": "Patient has type 2 diabetes mellitus diagnosed at age 48."
+        }
+    ],
+    "Recap": "Patient has advanced coronary heart disease (met inclusion criterion) but does not meet homozygous FH requirements (not met) and has diabetes (violates exclusion criterion).",
+    "Final Decision": "Ineligible"
+}

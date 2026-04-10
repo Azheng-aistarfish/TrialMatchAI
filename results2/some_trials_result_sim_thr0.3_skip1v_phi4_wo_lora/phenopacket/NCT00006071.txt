@@ -1,0 +1,40 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Patients must discontinue all hypertensive therapy two weeks prior to entering this study.",
+      "Classification": "Unclear",
+      "Justification": "The patient's profile does not mention any hypertensive therapy, so it is unclear if this criterion is applicable or if the patient has discontinued any such therapy."
+    },
+    {
+      "Criterion": "Patient with a serum cholesterol value of 240 mg/dl or greater.",
+      "Classification": "Met",
+      "Justification": "The patient's LDL cholesterol levels are reported to be over 190 mg/dL, but the specific total cholesterol level is not provided. However, given the context of familial hypercholesterolemia and elevated LDL, it is reasonable to infer that the total cholesterol is likely 240 mg/dL or greater."
+    },
+    {
+      "Criterion": "Patients must discontinue all lipid-lowering agents 1 month prior to entering this study.",
+      "Classification": "Violated",
+      "Justification": "The patient is currently being treated with atorvastatin, a lipid-lowering agent, indicating that this criterion is violated."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "No patients with evidence of active liver disease (e.g. ALT greater than 1.5 times the upper limit of normal).",
+      "Classification": "Unclear",
+      "Justification": "The patient has a mild elevation in hepatic transaminase levels, but specific ALT values or the upper limit of normal are not provided, making it unclear if this criterion is violated."
+    },
+    {
+      "Criterion": "No history of diabetes, peripheral vascular disease, coagulopathy, or any other disease predisposing to vasculitis or Raynaud's phenomenon.",
+      "Classification": "Violated",
+      "Justification": "The patient has a history of Type 2 diabetes mellitus, which violates this exclusion criterion."
+    },
+    {
+      "Criterion": "No women with childbearing potential unless they use an effective contraceptive method.",
+      "Classification": "Irrelevant",
+      "Justification": "The patient is a 58-year-old male, making this criterion irrelevant."
+    }
+  ],
+  "Recap": "The patient meets the cholesterol criterion but violates the lipid-lowering agent and diabetes exclusion criteria. The status of hypertensive therapy and liver disease is unclear.",
+  "Final Decision": "Ineligible"
+}
+```

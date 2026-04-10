@@ -1,0 +1,53 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Patients at high-risk for an acute myocardial infarction, including any 2 of these risk factors: males age > 45; females age >55; family history of premature coronary heart disease (CHD); current cigarette smoker; hypertension; or elevated total cholesterol with low HDL and/or high LDL.",
+            "Classification": "Met",
+            "Justification": "Patient is a male >45 years old, has a family history of premature CHD (paternal father died of sudden cardiac death), and has elevated LDL (190 mg/dL) with familial hypercholesterolemia confirmed by genetic testing."
+        },
+        {
+            "Criterion": "OR have: Active angina (chest pain due to coronary heart disease)",
+            "Classification": "Not Met",
+            "Justification": "Patient does not have active angina; history of myocardial infarction and coronary artery disease are documented, but active angina is not mentioned."
+        },
+        {
+            "Criterion": "OR have: History of coronary heart disease according to the treating physician",
+            "Classification": "Met",
+            "Justification": "Patient has a documented history of coronary artery disease classified as Stage III with multivessel involvement."
+        },
+        {
+            "Criterion": "OR have: Past history of myocardial infarction documented by electrocardiogram or arteriography",
+            "Classification": "Met",
+            "Justification": "Patient has a documented history of recurrent severe myocardial infarctions beginning at age 55."
+        },
+        {
+            "Criterion": "OR have: Diabetes Mellitus",
+            "Classification": "Met",
+            "Justification": "Patient has a documented history of diabetes mellitus type 2."
+        },
+        {
+            "Criterion": "OR have: Renal dialysis",
+            "Classification": "Irrelevant",
+            "Justification": "Patient does not have renal dialysis."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Hospitalization within previous 4 weeks",
+            "Classification": "Unclear",
+            "Justification": "Patient's history of myocardial infarction and hospitalizations (stenting, bypass surgery) is documented, but no specific timeline is provided to confirm or deny hospitalization within the last 4 weeks."
+        },
+        {
+            "Criterion": "Persons living in a home with previously enrolled patients",
+            "Classification": "Irrelevant",
+            "Justification": "No information is provided about the patient's living situation or household members."
+        },
+        {
+            "Criterion": "Patients disoriented to person, place, or time at onset of study",
+            "Classification": "Irrelevant",
+            "Justification": "No evidence of disorientation is mentioned in the patient's description."
+        }
+    ],
+    "Recap": "Patient meets multiple inclusion criteria (male >45, family history of CHD, elevated LDL, history of myocardial infarction, and diabetes mellitus). Exclusion criteria are unclear (hospitalization in past 4 weeks) or irrelevant.",
+    "Final Decision": "Likely Eligible (leaning toward inclusion)"
+}

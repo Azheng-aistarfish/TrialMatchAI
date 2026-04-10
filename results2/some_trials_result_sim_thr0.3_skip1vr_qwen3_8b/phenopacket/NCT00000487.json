@@ -1,0 +1,28 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Men, ages 35-57.",
+            "Classification": "Not Met",
+            "Justification": "Patient is 58 years old, exceeding the upper age limit of 57."
+        },
+        {
+            "Criterion": "One or more of three risk factors--hypertension, hypercholesterolemia, and cigarette smoking.",
+            "Classification": "Met",
+            "Justification": "Patient has hypercholesterolemia (LDL >190 mg/dL) and a history of cigarette smoking (20 pack-years, quit at age 45)."
+        },
+        {
+            "Criterion": "Free from coronary heart disease.",
+            "Classification": "Not Met",
+            "Justification": "Patient has a documented history of recurrent myocardial infarctions, emergency stenting, and coronary artery bypass grafting, confirming coronary heart disease."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Has coronary heart disease.",
+            "Classification": "Violated",
+            "Justification": "Patient has a documented history of myocardial infarctions, stenting, and coronary artery bypass grafting, indicating coronary heart disease."
+        }
+    ],
+    "Recap": "Patient is ineligible due to age exceeding the upper limit (58 vs. 57), presence of coronary heart disease (violating exclusion criteria), and failure to meet the 'free from coronary heart disease' inclusion criterion.",
+    "Final Decision": "Ineligible"
+}

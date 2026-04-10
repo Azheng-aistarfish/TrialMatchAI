@@ -1,0 +1,18 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Postmenopausal and preferably on hormone replacement therapy", "Classification": "Irrelevant", "Justification": "The criterion is gender-specific and does not apply to a male patient."},
+    {"Criterion": "In good general health", "Classification": "Not Met", "Justification": "The patient has a history of severe myocardial infarctions, coronary artery disease, and impaired left ventricular function, indicating compromised health."},
+    {"Criterion": "Have a body mass index (BMI, weight in kg/height in m2) of between 25 and 40", "Classification": "Unclear", "Justification": "The patient's BMI is not provided in the data, making it impossible to assess this criterion."},
+    {"Criterion": "Exercise less than 20 min/day two days a week", "Classification": "Unclear", "Justification": "There is no information on the patient's exercise habits, so this criterion cannot be evaluated."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Postmenopausal and preferably on hormone replacement therapy", "Classification": "Irrelevant", "Justification": "The criterion is gender-specific and does not apply to a male patient."},
+    {"Criterion": "In good general health", "Classification": "Violated", "Justification": "The patient's health is compromised due to severe myocardial infarctions and coronary artery disease."},
+    {"Criterion": "Have a body mass index (BMI, weight in kg/height in m2) of between 25 and 40", "Classification": "Unclear", "Justification": "The patient's BMI is not provided, so this criterion cannot be assessed."},
+    {"Criterion": "Exercise less than 20 min/day two days a week", "Classification": "Unclear", "Justification": "There is no information on the patient's exercise habits, so this criterion cannot be evaluated."}
+  ],
+  "Recap": "The patient is a 58-year-old male with significant cardiovascular issues, including severe myocardial infarctions and coronary artery disease, which disqualify him from being considered in good general health. The gender-specific criterion of being postmenopausal is irrelevant. The patient's BMI and exercise habits are not provided, leaving those criteria unclear.",
+  "Final Decision": "Ineligible"
+}
+```

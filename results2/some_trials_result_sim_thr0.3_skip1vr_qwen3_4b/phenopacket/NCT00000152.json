@@ -1,0 +1,43 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "no history of myocardial infarction",
+            "Classification": "Not Met",
+            "Justification": "Patient has a documented history of recurrent severe myocardial infarctions beginning at age 55."
+        },
+        {
+            "Criterion": "no history of cancer",
+            "Classification": "Met",
+            "Justification": "Patient's data does not mention a history of cancer."
+        },
+        {
+            "Criterion": "no history of kidney disease",
+            "Classification": "Met",
+            "Justification": "Patient's data does not mention kidney disease."
+        },
+        {
+            "Criterion": "no contraindications to the use of aspirin or beta-carotene",
+            "Classification": "Unclear",
+            "Justification": "Patient's data does not specify current use of aspirin or beta-carotene or contraindications related to these agents."
+        },
+        {
+            "Criterion": "no regular use of corticosteroids",
+            "Classification": "Unclear",
+            "Justification": "Patient's data does not specify current use of corticosteroids."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "history of myocardial infarction",
+            "Classification": "Violated",
+            "Justification": "Patient has a documented history of recurrent severe myocardial infarctions beginning at age 55."
+        },
+        {
+            "Criterion": "regular use of corticosteroids",
+            "Classification": "Unclear",
+            "Justification": "Patient's data does not specify current use of corticosteroids."
+        }
+    ],
+    "Recap": "Patient has a history of myocardial infarction, which violates inclusion criteria. Other criteria are met or unclear.",
+    "Final Decision": "Ineligible"
+}

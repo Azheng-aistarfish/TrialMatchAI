@@ -1,0 +1,18 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Men and women, ages 25 to 49.", "Classification": "Not Met", "Justification": "The patient is 58 years old, which is outside the specified age range of 25 to 49."},
+    {"Criterion": "Diastolic blood pressure between 78 and 89 mm Hg.", "Classification": "Unclear", "Justification": "The patient's diastolic blood pressure is not provided in the data."},
+    {"Criterion": "Free of major disease.", "Classification": "Not Met", "Justification": "The patient has a history of severe myocardial infarctions, coronary artery disease, and diabetes mellitus type 2, which are considered major diseases."},
+    {"Criterion": "Not on a special diet or antihypertensive medication at entry.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's diet or use of antihypertensive medications."},
+    {"Criterion": "Some mild to moderately obese subjects.", "Classification": "Irrelevant", "Justification": "The patient's weight or obesity status is not mentioned, making this criterion irrelevant to the assessment."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Men and women, ages 25 to 49.", "Classification": "Violated", "Justification": "The patient is 58 years old, which violates the age criterion of 25 to 49."},
+    {"Criterion": "Free of major disease.", "Classification": "Violated", "Justification": "The patient has multiple major diseases, including severe myocardial infarctions and coronary artery disease, violating this criterion."},
+    {"Criterion": "Not on a special diet or antihypertensive medication at entry.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's diet or use of antihypertensive medications, making it unclear if this criterion is violated."}
+  ],
+  "Recap": "The patient is ineligible for the clinical trial due to age and major disease criteria violations. The patient's age of 58 exceeds the trial's age limit of 25 to 49. Additionally, the patient has a history of severe myocardial infarctions and coronary artery disease, which are considered major diseases and disqualify them from the trial.",
+  "Final Decision": "Ineligible"
+}
+```

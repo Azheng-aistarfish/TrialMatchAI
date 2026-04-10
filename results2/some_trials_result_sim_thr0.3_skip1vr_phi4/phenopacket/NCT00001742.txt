@@ -1,0 +1,20 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients (men and nonpregnant women) with systemic hypertension", "Classification": "Unclear", "Justification": "The patient's data does not explicitly mention systemic hypertension, so it cannot be confirmed or denied."},
+    {"Criterion": "Patients with hypercholesterolemia", "Classification": "Met", "Justification": "The patient has hypercholesterolemia, with LDL levels exceeding 190 mg/dL and a confirmed LDLR mutation consistent with familial hypercholesterolemia."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient with aspirin allergies", "Classification": "Not Violated", "Justification": "There is no mention of aspirin allergies in the patient's data."},
+    {"Criterion": "Those with a platelet count less than 50,000", "Classification": "Not Violated", "Justification": "The patient's data does not provide information on platelet count, so it cannot be confirmed or denied."},
+    {"Criterion": "Volunteers cannot be in any kind of medication while participating in this study", "Classification": "Violated", "Justification": "The patient is currently on metformin for diabetes management, which violates this criterion."},
+    {"Criterion": "No history of diabetes", "Classification": "Violated", "Justification": "The patient has a documented history of type 2 diabetes mellitus, which violates this criterion."},
+    {"Criterion": "No history of peripheral vascular disease", "Classification": "Unclear", "Justification": "The patient's data does not explicitly mention peripheral vascular disease, so it cannot be confirmed or denied."},
+    {"Criterion": "No history of coagulopathy", "Classification": "Not Violated", "Justification": "There is no mention of coagulopathy in the patient's data."},
+    {"Criterion": "No history of vasculitis", "Classification": "Not Violated", "Justification": "There is no mention of vasculitis in the patient's data."},
+    {"Criterion": "Must be capable of rendering informed consent for all procedures", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Recap": "The patient meets the inclusion criterion of having hypercholesterolemia but does not meet the exclusion criteria due to being on medication (metformin) and having a history of diabetes. Other exclusion criteria are either not violated or unclear due to lack of information.",
+  "Final Decision": "Ineligible"
+}
+```

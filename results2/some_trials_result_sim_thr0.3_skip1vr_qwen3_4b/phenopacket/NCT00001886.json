@@ -1,0 +1,113 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Patients older than 18 years of age",
+            "Classification": "Met",
+            "Justification": "Patient is 58 years old, explicitly stated."
+        },
+        {
+            "Criterion": "Known or suspected coronary artery disease",
+            "Classification": "Met",
+            "Justification": "Patient has documented history of myocardial infarctions and coronary artery bypass grafting."
+        },
+        {
+            "Criterion": "Agree to undergo stress echocardiography",
+            "Classification": "Met",
+            "Justification": "Written informed consent has been obtained."
+        },
+        {
+            "Criterion": "Have undergone or will undergo coronary angiography within 3 months of the stress echocardiogram",
+            "Classification": "Unclear",
+            "Justification": "Timing of stress echocardiogram relative to coronary angiography is not specified in patient data."
+        },
+        {
+            "Criterion": "No pre-menopausal patients who are lactating, are pregnant or potentially pregnant",
+            "Classification": "Irrelevant",
+            "Justification": "Patient is male, so this criterion does not apply."
+        },
+        {
+            "Criterion": "No unstable angina",
+            "Classification": "Unclear",
+            "Justification": "Patient's history of myocardial infarctions is not classified as unstable angina; data insufficient."
+        },
+        {
+            "Criterion": "No recent myocardial infarction (less than 1 month)",
+            "Classification": "Met",
+            "Justification": "Patient's MI occurred 3 years prior, well beyond 1 month."
+        },
+        {
+            "Criterion": "No ventricular ectopy during baseline conditions",
+            "Classification": "Unclear",
+            "Justification": "No data provided on baseline ventricular ectopy."
+        },
+        {
+            "Criterion": "No congestive heart failure",
+            "Classification": "Violated",
+            "Justification": "Patient has ischemic cardiomyopathy, a form of congestive heart failure."
+        },
+        {
+            "Criterion": "No significant hypertension (systolic blood pressure greater than 170 mmHg) or hypotension (systolic blood pressure less than 100 mmHg)",
+            "Classification": "Unclear",
+            "Justification": "Blood pressure measurements are not provided in patient data."
+        },
+        {
+            "Criterion": "No sinus tachycardia greater than 100 beats/min",
+            "Classification": "Unclear",
+            "Justification": "No data provided on sinus tachycardia."
+        },
+        {
+            "Criterion": "No other acute medical illness",
+            "Classification": "Met",
+            "Justification": "Patient's conditions are chronic and not acute."
+        },
+        {
+            "Criterion": "No atrial fibrillation, or inadequate two-dimensional echocardiographic windows",
+            "Classification": "Met",
+            "Justification": "No mention of atrial fibrillation or echo window issues in patient data."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "No pre-menopausal patients who are lactating, are pregnant or potentially pregnant as judged by history, physical examination, ultrasound or urine pregnancy test",
+            "Classification": "Irrelevant",
+            "Justification": "Patient is male, so this criterion does not apply."
+        },
+        {
+            "Criterion": "No unstable angina",
+            "Classification": "Not Violated",
+            "Justification": "Patient's history of myocardial infarctions is not classified as unstable angina; data insufficient."
+        },
+        {
+            "Criterion": "No recent myocardial infarction (less than 1 month)",
+            "Classification": "Not Violated",
+            "Justification": "Patient's MI occurred 3 years prior, well beyond 1 month."
+        },
+        {
+            "Criterion": "No ventricular ectopy during baseline conditions",
+            "Classification": "Unclear",
+            "Justification": "No data provided on baseline ventricular ectopy."
+        },
+        {
+            "Criterion": "No congestive heart failure",
+            "Classification": "Violated",
+            "Justification": "Patient has ischemic cardiomyopathy, a form of congestive heart failure."
+        },
+        {
+            "Criterion": "No significant hypertension (systolic blood pressure greater than 170 mmHg) or hypotension (systolic blood pressure less than 100 mmHg)",
+            "Classification": "Unclear",
+            "Justification": "Blood pressure measurements are not provided in patient data."
+        },
+        {
+            "Criterion": "No sinus tachycardia greater than 100 beats/min",
+            "Classification": "Unclear",
+            "Justification": "No data provided on sinus tachycardia."
+        },
+        {
+            "Criterion": "No other acute medical illness",
+            "Classification": "Not Violated",
+            "Justification": "Patient's conditions are chronic and not acute."
+        }
+    ],
+    "Recap": "Patient is 58 years old with documented coronary artery disease and ischemic cardiomyopathy (congestive heart failure), but has no recent MI (3 years prior), no pregnancy, and no acute medical illness. However, the patient has ischemic cardiomyopathy, which violates the exclusion criterion for congestive heart failure.",
+    "Final Decision": "Ineligible"
+}

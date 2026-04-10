@@ -1,0 +1,128 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Left ventricular ejection fraction by radionuclide angiography of less than or equal to 40%",
+            "Classification": "Unclear",
+            "Justification": "Patient's description mentions 'impaired left ventricular function' but does not specify exact ejection fraction value."
+        },
+        {
+            "Criterion": "New York Heart Association class II, III or IV symptoms on standard heart failure medications which may include digoxin, diuretics and angiotensin converting enzyme inhibitors for at least one month prior to enrollment",
+            "Classification": "Unclear",
+            "Justification": "Patient's NYHA class is not explicitly documented in the description."
+        },
+        {
+            "Criterion": "Ischemic cardiomyopathy if enzymes document an MI or 70% or greater stenosis in one major vessel",
+            "Classification": "Met",
+            "Justification": "Patient has documented history of MI, coronary artery bypass grafting, and ischemic cardiomyopathy confirmed by heart biopsy."
+        },
+        {
+            "Criterion": "Dilated cardiomyopathy-if no coronary disease",
+            "Classification": "Irrelevant",
+            "Justification": "Patient has established coronary artery disease, making this criterion inapplicable."
+        },
+        {
+            "Criterion": "No pregnant or lactating women",
+            "Classification": "Irrelevant",
+            "Justification": "Patient is male, so this criterion does not apply."
+        },
+        {
+            "Criterion": "No women of child-bearing age not on proven birth control",
+            "Classification": "Irrelevant",
+            "Justification": "Patient is male, so this criterion does not apply."
+        },
+        {
+            "Criterion": "No severe hepatic or renal disease",
+            "Classification": "Not Violated",
+            "Justification": "Patient has mild elevation of hepatic transaminases, which is not classified as severe."
+        },
+        {
+            "Criterion": "No diabetes mellitus or fasting glucose greater than or equal to 120 mg/dl",
+            "Classification": "Not Met",
+            "Justification": "Patient has a documented history of type 2 diabetes mellitus."
+        },
+        {
+            "Criterion": "No primary valvular heart disease",
+            "Classification": "Not Violated",
+            "Justification": "No mention of valvular heart disease in patient description."
+        },
+        {
+            "Criterion": "No PTCA or CABG within 3 months of enrollment",
+            "Classification": "Not Violated",
+            "Justification": "Patient underwent CABG at age 55, and current age is 58 (3+ years prior)."
+        },
+        {
+            "Criterion": "No history of myocardial infarction or unstable angina within past 2 months",
+            "Classification": "Not Violated",
+            "Justification": "Patient's MI occurred at age 55, which is more than 2 months prior."
+        },
+        {
+            "Criterion": "No resting heart rate less than 60 bpm",
+            "Classification": "Unclear",
+            "Justification": "Patient's resting heart rate is not explicitly documented."
+        },
+        {
+            "Criterion": "No A-V block greater than 1 degree block without pacemaker",
+            "Classification": "Irrelevant",
+            "Justification": "No mention of AV block or pacemaker in patient description."
+        },
+        {
+            "Criterion": "No severe ETOH abuse within 6 months of enrollment",
+            "Classification": "Not Violated",
+            "Justification": "No documentation of severe ETOH abuse in patient history."
+        },
+        {
+            "Criterion": "No severe bronchospasm",
+            "Classification": "Irrelevant",
+            "Justification": "No mention of bronchospasm in patient description."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "No diabetes mellitus or fasting glucose greater than or equal to 120 mg/dl",
+            "Classification": "Violated",
+            "Justification": "Patient has a documented history of type 2 diabetes mellitus."
+        },
+        {
+            "Criterion": "No severe hepatic or renal disease",
+            "Classification": "Not Violated",
+            "Justification": "Patient has mild hepatic transaminase elevation, not severe."
+        },
+        {
+            "Criterion": "No history of myocardial infarction or unstable angina within past 2 months",
+            "Classification": "Not Violated",
+            "Justification": "Patient's MI occurred more than 2 months prior."
+        },
+        {
+            "Criterion": "No PTCA or CABG within 3 months of enrollment",
+            "Classification": "Not Violated",
+            "Justification": "Patient's CABG was performed over 3 years prior."
+        },
+        {
+            "Criterion": "No severe ETOH abuse within 6 months of enrollment",
+            "Classification": "Not Violated",
+            "Justification": "No documentation of severe ETOH abuse."
+        },
+        {
+            "Criterion": "No primary valvular heart disease",
+            "Classification": "Not Violated",
+            "Justification": "No mention of valvular disease."
+        },
+        {
+            "Criterion": "No resting heart rate less than 60 bpm",
+            "Classification": "Unclear",
+            "Justification": "Resting heart rate not explicitly documented."
+        },
+        {
+            "Criterion": "No A-V block greater than 1 degree block without pacemaker",
+            "Classification": "Irrelevant",
+            "Justification": "No mention of AV block or pacemaker."
+        },
+        {
+            "Criterion": "No severe bronchospasm",
+            "Classification": "Irrelevant",
+            "Justification": "No mention of bronchospasm."
+        }
+    ],
+    "Recap": "Patient has type 2 diabetes (violates exclusion criterion) and unclear left ventricular ejection fraction (inclusion criterion). Other criteria are either met, not violated, or irrelevant.",
+    "Final Decision": "Ineligible"
+}

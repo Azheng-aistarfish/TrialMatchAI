@@ -1,0 +1,58 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Men and women eligible for the SRT had diabetes for 1 to 15 years",
+            "Classification": "Met",
+            "Justification": "Patient has type 2 diabetes diagnosed at age 48 (10 years duration at age 58, within 1-15 years range)"
+        },
+        {
+            "Criterion": "Between ages 18 and 56 at time of enrollment",
+            "Classification": "Not Met",
+            "Justification": "Patient is 58 years old, exceeding the 56-year upper age limit"
+        },
+        {
+            "Criterion": "Began taking insulin before 41st birthday",
+            "Classification": "Not Met",
+            "Justification": "Patient is currently managed with metformin, not insulin therapy"
+        },
+        {
+            "Criterion": "Hemoglobin A1c value within diabetic range",
+            "Classification": "Met",
+            "Justification": "HbA1c levels 6.5-7.2% (diabetic range)"
+        },
+        {
+            "Criterion": "No evidence of or only very mild retinopathy (≤5 microaneurysms per eye)",
+            "Classification": "Unclear",
+            "Justification": "No retinal examination data provided in patient description"
+        },
+        {
+            "Criterion": "Women were postmenopausal, sterile, or had an IUD in place",
+            "Classification": "Irrelevant",
+            "Justification": "Patient is male, criterion does not apply"
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Age >56 at enrollment",
+            "Classification": "Violated",
+            "Justification": "Patient is 58 years old, exceeding the 56-year age limit"
+        },
+        {
+            "Criterion": "Insulin use after 41st birthday",
+            "Classification": "Not Violated",
+            "Justification": "Patient is not on insulin therapy, criterion does not apply"
+        },
+        {
+            "Criterion": "Severe retinopathy (>5 microaneurysms per eye)",
+            "Classification": "Unclear",
+            "Justification": "No retinal examination data provided in patient description"
+        },
+        {
+            "Criterion": "Pregnancy risk in women",
+            "Classification": "Irrelevant",
+            "Justification": "Patient is male, criterion does not apply"
+        }
+    ],
+    "Recap": "Patient meets diabetes duration and HbA1c criteria but exceeds age limit (58 vs. 56) and is not on insulin. Retinal status is unknown.",
+    "Final Decision": "Ineligible"
+}

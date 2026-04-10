@@ -1,0 +1,73 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Patients over 18 years",
+            "Classification": "Met",
+            "Justification": "Patient is 58 years old, meeting the age requirement."
+        },
+        {
+            "Criterion": "Endothelial dysfunction requiring diagnostic cardiac catheterization",
+            "Classification": "Met",
+            "Justification": "Patient has a history of myocardial infarctions and coronary artery bypass grafting, necessitating catheterization."
+        },
+        {
+            "Criterion": "Normal volunteers or patients undergoing catheterization who have normal coronary arteries without risk factors for atherosclerosis will be used as controls",
+            "Classification": "Irrelevant",
+            "Justification": "Patient has significant coronary artery disease and is not a control subject."
+        },
+        {
+            "Criterion": "No unstable angina",
+            "Classification": "Met",
+            "Justification": "Patient's history does not mention unstable angina; stable angina is implied by prior MI management."
+        },
+        {
+            "Criterion": "No significant left main disease (greater than 50% stenosis)",
+            "Classification": "Violated",
+            "Justification": "Patient has multivessel involvement with impaired left ventricular function, indicating significant left main disease."
+        },
+        {
+            "Criterion": "No recent myocardial infarction (less than 1 month)",
+            "Classification": "Not Violated",
+            "Justification": "Patient's MI history began at age 55, and current time is age 58, implying more than 1 month has passed."
+        },
+        {
+            "Criterion": "No pregnancy, lactation",
+            "Classification": "Irrelevant",
+            "Justification": "Patient is male and not pregnant or lactating."
+        },
+        {
+            "Criterion": "No allergy to losartan",
+            "Classification": "Unclear",
+            "Justification": "No information provided about losartan allergy."
+        },
+        {
+            "Criterion": "No renal failure (creatinine greater than 2.5 mg/dl)",
+            "Classification": "Unclear",
+            "Justification": "Creatinine level not specified in patient data."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "No significant left main disease (greater than 50% stenosis)",
+            "Classification": "Violated",
+            "Justification": "Patient has multivessel disease with impaired left ventricular function, indicating significant left main disease."
+        },
+        {
+            "Criterion": "No recent myocardial infarction (less than 1 month)",
+            "Classification": "Not Violated",
+            "Justification": "Patient's MI history is more than 1 month prior to current time."
+        },
+        {
+            "Criterion": "No allergy to losartan",
+            "Classification": "Unclear",
+            "Justification": "No information provided about losartan allergy."
+        },
+        {
+            "Criterion": "No renal failure (creatinine greater than 2.5 mg/dl)",
+            "Classification": "Unclear",
+            "Justification": "Creatinine level not specified in patient data."
+        }
+    ],
+    "Recap": "Patient is 58 years old with multivessel coronary artery disease, significant left main disease, and a history of myocardial infarctions. No pregnancy/lactation, no recent MI, but allergy to losartan and renal function are unclear.",
+    "Final Decision": "Ineligible"
+}

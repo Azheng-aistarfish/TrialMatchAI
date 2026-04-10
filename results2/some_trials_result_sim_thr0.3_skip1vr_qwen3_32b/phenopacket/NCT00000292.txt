@@ -1,0 +1,77 @@
+<think>
+Okay, let's start by looking at the inclusion criteria for the clinical trial. The first inclusion criterion is age 21-45. The patient is 58, so that's way over 45. That's a clear "Not Met" because the age is outside the range.
+
+Next, the patient needs a history of smoked cocaine use at least twice a week for six months, including 0.5g in 24 hours once. The patient's description doesn't mention any cocaine use. There's no info on drug use history, so this is "Unclear" because the data isn't provided.
+
+In good health as per physical exams and tests. The patient has multiple health issues: MI, diabetes, hypercholesterolemia, elevated liver enzymes, and impaired LV function. So this is "Not Met" because they're not in good health.
+
+Using an acceptable birth control method. The patient is male and 58, so this is "Irrelevant" as it doesn't apply.
+
+Urine toxicology positive for cocaine. No info on urine tests, so "Unclear".
+
+Now the exclusion criteria. Any DSM-IV Axis I disorder other than cocaine abuse. The patient's description doesn't mention any mental disorders, so "Not Violated".
+
+History of violence or on probation. No info on that, so "Unclear".
+
+Pregnant, lactating, or delivered in past 12 months. The patient is male, so "Irrelevant".
+
+HIV or hepatitis B positive. No info on seropositivity, so "Unclear".
+
+History of seizure disorder. No mention of seizures, so "Not Violated".
+
+Putting it all together, the main issues are age and health status. Since the patient is over 45 and has multiple health problems, they don't meet the inclusion criteria. The exclusion criteria don't seem to be violated based on given data. So the final decision is Ineligible.
+</think>
+
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "M/F ages 21-45 with a history of smoked cocaine use at least twice a week for the past six months, including 0.5 g of cocaine in a 24hr period on at least one occasion.",
+      "Classification": "Not Met",
+      "Justification": "The patient is 58 years old, exceeding the upper age limit of 45 specified in the inclusion criteria."
+    },
+    {
+      "Criterion": "In good health as evidenced by physical exam and complete blood count, chest X-ray and electrolyte and liver function tests, with a normal resting 12-lead electrocardiograph (ECG) and blood pressure of less than 140/90 mmHg.",
+      "Classification": "Not Met",
+      "Justification": "The patient has documented history of recurrent myocardial infarctions, diabetes mellitus type 2, hypercholesterolemia, and mild elevation of hepatic transaminases, indicating poor health status."
+    },
+    {
+      "Criterion": "Using an acceptable method of birth control.",
+      "Classification": "Irrelevant",
+      "Justification": "The patient is male and 58 years old; this criterion does not apply to the patient's context."
+    },
+    {
+      "Criterion": "Having a urine toxicology screen positive for cocaine metabolites.",
+      "Classification": "Unclear",
+      "Justification": "The patient description does not provide information about urine toxicology results or cocaine use history."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Any DSM-IV Axis I disorder other than cocaine abuse or dependence, or dependence or daily use of psychoactive drugs other than nicotine or caffeine.",
+      "Classification": "Not Violated",
+      "Justification": "The patient description does not mention any DSM-IV Axis I disorders or psychoactive drug dependence."
+    },
+    {
+      "Criterion": "A history of violence and/or currently on probation, parole or awaiting trial.",
+      "Classification": "Unclear",
+      "Justification": "The patient description does not provide information about history of violence or legal status."
+    },
+    {
+      "Criterion": "Pregnant as determined by serum pregnancy screen, lactating or having delivered a child in the past 12 months.",
+      "Classification": "Irrelevant",
+      "Justification": "The patient is male and 58 years old; this criterion does not apply to the patient's context."
+    },
+    {
+      "Criterion": "Seropositive tests for the human immunodeficiency virus (HIV) or hepatitis B.",
+      "Classification": "Unclear",
+      "Justification": "The patient description does not provide information about HIV or hepatitis B seropositivity."
+    },
+    {
+      "Criterion": "History of seizure disorder.",
+      "Classification": "Not Violated",
+      "Justification": "The patient description does not mention a history of seizure disorder."
+    }
+  ],
+  "Recap": "Key disqualifying factors include age exceeding 45 and poor health status due to multiple comorbidities. No evidence of cocaine use or positive toxicology screen. No confirmed violations of exclusion criteria.",
+  "Final Decision": "Ineligible"
+}

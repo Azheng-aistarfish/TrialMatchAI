@@ -1,0 +1,73 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Left ventricular ejection fraction by radionuclide angiography of less than or equal to 40%.",
+            "Classification": "Unclear",
+            "Justification": "Patient's history of ischemic cardiomyopathy is noted, but specific LVEF value is not explicitly provided."
+        },
+        {
+            "Criterion": "New York Heart Association class II, III or IV symptoms on standard heart failure medications",
+            "Classification": "Unclear",
+            "Justification": "Symptom class is not explicitly documented in the patient profile."
+        },
+        {
+            "Criterion": "Ischemic cardiomyopathy if enzymes document an MI or 70% or greater stenosis in one major vessel",
+            "Classification": "Met",
+            "Justification": "Patient has a documented history of myocardial infarction and coronary artery bypass grafting, confirming ischemic cardiomyopathy."
+        },
+        {
+            "Criterion": "Dilated cardiomyopathy-if no coronary disease",
+            "Classification": "Irrelevant",
+            "Justification": "Patient has ischemic cardiomyopathy, not dilated cardiomyopathy, making this criterion inapplicable."
+        },
+        {
+            "Criterion": "No pregnant or lactating women",
+            "Classification": "Irrelevant",
+            "Justification": "Patient is male, so this criterion does not apply."
+        },
+        {
+            "Criterion": "No women of child-bearing age not on proven birth control",
+            "Classification": "Irrelevant",
+            "Justification": "Patient is male, so this criterion does not apply."
+        },
+        {
+            "Criterion": "No severe hepatic or renal disease",
+            "Classification": "Unclear",
+            "Justification": "Mild elevation of hepatic transaminases is noted, but severity is not explicitly defined."
+        },
+        {
+            "Criterion": "No diabetes mellitus or fasting glucose greater than or equal to 120 mg/dl",
+            "Classification": "Violated",
+            "Justification": "Patient has type 2 diabetes mellitus with HbA1c levels between 6.5% and 7.2%."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "No PTCA or CABG within 3 months of enrollment",
+            "Classification": "Not Violated",
+            "Justification": "Patient had CABG 6 months prior to enrollment, satisfying the 3-month exclusion period."
+        },
+        {
+            "Criterion": "No history of myocardial infarction or unstable angina within past 2 months",
+            "Classification": "Violated",
+            "Justification": "Patient has a history of myocardial infarction at age 55, which is within 3 months of enrollment at age 58."
+        },
+        {
+            "Criterion": "No resting heart rate less than 60 bpm",
+            "Classification": "Unclear",
+            "Justification": "Resting heart rate is not explicitly documented in the patient profile."
+        },
+        {
+            "Criterion": "No A-V block greater than 1 degree block without pacemaker",
+            "Classification": "Not Violated",
+            "Justification": "No mention of AV block or pacemaker in the patient profile."
+        },
+        {
+            "Criterion": "No severe ETOH abuse within 6 months of enrollment",
+            "Classification": "Not Violated",
+            "Justification": "No mention of alcohol abuse in the patient profile."
+        }
+    ],
+    "Recap": "Patient has type 2 diabetes (violates 'no diabetes' criterion) and a history of myocardial infarction within 3 months (violates 'no recent MI' criterion). LVEF and NYHA class are unclear, but ischemic cardiomyopathy is met.",
+    "Final Decision": "Ineligible"
+}

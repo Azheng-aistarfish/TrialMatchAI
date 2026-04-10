@@ -1,0 +1,19 @@
+<think>
+Okay, let's start by looking at the inclusion criteria. The trial requires men and women aged 30 to 69 with a documented myocardial infarction. The patient is a 58-year-old male, so age is within the range. He has a documented history of recurrent severe myocardial infarctions starting at 55. That definitely meets the myocardial infarction requirement. So both inclusion criteria are met.
+
+Now for the exclusion criteria. The problem is there are no explicit exclusion criteria listed in the input. The user only provided inclusion criteria. Wait, the input under "Eligibility Criteria" only mentions the inclusion parts. So there are no exclusion criteria to assess here. Therefore, the exclusion criteria evaluation would be irrelevant because there are none provided. 
+
+The recap should mention that the patient meets both age and MI criteria. Since there are no exclusions, the final decision is eligible.
+</think>
+
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Men and women, ages 30 to 69", "Classification": "Met", "Justification": "The patient is a 58-year-old male, which falls within the specified age range of 30 to 69 years."},
+    {"Criterion": "Documented myocardial infarction", "Classification": "Met", "Justification": "The patient has a documented history of recurrent severe myocardial infarctions beginning at age 55, confirmed by emergency stenting and coronary artery bypass grafting."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "N/A", "Classification": "Irrelevant", "Justification": "No exclusion criteria were provided in the clinical trial description."}
+  ],
+  "Recap": "The patient meets both inclusion criteria (age 58 and documented myocardial infarction). No exclusion criteria were provided.",
+  "Final Decision": "Eligible"
+}

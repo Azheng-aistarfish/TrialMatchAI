@@ -1,0 +1,48 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Male physicians",
+            "Classification": "Met",
+            "Justification": "The patient is a male, which satisfies the criterion of being a male physician."
+        },
+        {
+            "Criterion": "Aged 40 to 84 years in 1982",
+            "Classification": "Met",
+            "Justification": "The patient is 58 years old, which would have made him between 40 and 84 years old in 1982."
+        },
+        {
+            "Criterion": "No history of myocardial infarction",
+            "Classification": "Not Met",
+            "Justification": "The patient has a documented history of recurrent severe myocardial infarctions."
+        },
+        {
+            "Criterion": "No history of cancer",
+            "Classification": "Not Met",
+            "Justification": "The patient's data does not mention a history of cancer, but the criterion is not met due to the myocardial infarction history."
+        },
+        {
+            "Criterion": "No history of kidney disease or renal disease",
+            "Classification": "Not Met",
+            "Justification": "The patient's data does not mention kidney or renal disease, but the criterion is not met due to the myocardial infarction history."
+        },
+        {
+            "Criterion": "No contraindication to the use of aspirin or beta-carotene",
+            "Classification": "Not Met",
+            "Justification": "The patient's history of myocardial infarction and coronary artery disease may present contraindications."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "History of myocardial infarction",
+            "Classification": "Violated",
+            "Justification": "The patient has a documented history of recurrent severe myocardial infarctions."
+        },
+        {
+            "Criterion": "Regular use of corticosteroids",
+            "Classification": "Not Violated",
+            "Justification": "There is no mention of corticosteroid use in the patient's data."
+        }
+    ],
+    "Recap": "The patient meets the gender and age criteria but has a history of myocardial infarction, which violates the inclusion criteria and is an exclusion criterion.",
+    "Final Decision": "Ineligible"
+}

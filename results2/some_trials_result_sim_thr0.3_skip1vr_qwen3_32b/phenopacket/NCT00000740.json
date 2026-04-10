@@ -1,0 +1,83 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "HIV antibody positive",
+            "Classification": "Unclear",
+            "Justification": "Patient description does not mention HIV status or antibody testing results."
+        },
+        {
+            "Criterion": "CD4 cell counts less than 500/mm3",
+            "Classification": "Unclear",
+            "Justification": "No CD4 count data provided in the patient profile."
+        },
+        {
+            "Criterion": "Adequate general health",
+            "Classification": "Unclear",
+            "Justification": "Patient has significant comorbidities (e.g., coronary artery disease, diabetes, impaired ventricular function) but no explicit assessment of general health."
+        },
+        {
+            "Criterion": "No significant deterioration in performance status within the past month",
+            "Classification": "Unclear",
+            "Justification": "No information on recent performance status or functional capacity is provided."
+        },
+        {
+            "Criterion": "Prior treatment with a stable regimen of antiretroviral medication for at least 4 weeks prior to study",
+            "Classification": "Irrelevant",
+            "Justification": "No evidence of antiretroviral therapy in the patient's medical history, as HIV status is unconfirmed."
+        },
+        {
+            "Criterion": "Stable regimen of antiretroviral medication for at least 4 weeks prior to study entry",
+            "Classification": "Irrelevant",
+            "Justification": "No antiretroviral therapy is documented in the patient's history."
+        },
+        {
+            "Criterion": "Aerosolized pentamidine for PCP prophylaxis (allowed)",
+            "Classification": "Irrelevant",
+            "Justification": "No mention of PCP prophylaxis or aerosolized pentamidine use in the patient's profile."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Intercurrent infection",
+            "Classification": "Not Violated",
+            "Justification": "No evidence of active infection in the patient's description."
+        },
+        {
+            "Criterion": "Clinically significant abnormality on EKG",
+            "Classification": "Unclear",
+            "Justification": "No EKG findings are explicitly reported in the patient's history."
+        },
+        {
+            "Criterion": "Known hypersensitivity to quinolines",
+            "Classification": "Not Violated",
+            "Justification": "No mention of quinoline hypersensitivity in the patient's profile."
+        },
+        {
+            "Criterion": "Known hemoglobin M abnormality",
+            "Classification": "Not Violated",
+            "Justification": "No evidence of hemoglobin M abnormality in the patient's description."
+        },
+        {
+            "Criterion": "Known NADH methemoglobin reductase deficiency",
+            "Classification": "Not Violated",
+            "Justification": "No mention of this deficiency in the patient's profile."
+        },
+        {
+            "Criterion": "Positive test for G6PD deficiency",
+            "Classification": "Not Violated",
+            "Justification": "No G6PD deficiency testing or results are documented."
+        },
+        {
+            "Criterion": "Fever",
+            "Classification": "Not Violated",
+            "Justification": "No fever is reported in the patient's current status."
+        },
+        {
+            "Criterion": "Other systemic medication (other than AZT, ddC, ddI, methadone, acyclovir, and NSAIDs) within 3 days prior to study entry",
+            "Classification": "Violated",
+            "Justification": "The patient is currently on metformin, which is not listed as an allowed medication in the exclusion criteria."
+        }
+    ],
+    "Recap": "The patient's HIV status and CD4 count are unknown, and no antiretroviral therapy is documented, failing key inclusion criteria. The use of metformin violates the exclusion criterion regarding prohibited systemic medications.",
+    "Final Decision": "Ineligible"
+}

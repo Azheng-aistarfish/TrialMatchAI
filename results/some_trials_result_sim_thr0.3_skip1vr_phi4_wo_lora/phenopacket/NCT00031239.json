@@ -1,0 +1,53 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Obese",
+            "Classification": "Unclear",
+            "Justification": "The patient's body mass index (BMI) or weight status is not provided in the data."
+        },
+        {
+            "Criterion": "Diabetic",
+            "Classification": "Met",
+            "Justification": "The patient has a documented history of diabetes mellitus type 2, managed with metformin."
+        },
+        {
+            "Criterion": "Obstructive sleep apnea",
+            "Classification": "Unclear",
+            "Justification": "There is no information provided about the presence or absence of obstructive sleep apnea."
+        },
+        {
+            "Criterion": "50% women",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is male, so this criterion does not apply."
+        },
+        {
+            "Criterion": "40% minorities",
+            "Classification": "Irrelevant",
+            "Justification": "The patient's minority status is not provided, and the criterion is a demographic target, not an individual requirement."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Severe myocardial infarctions",
+            "Classification": "Violated",
+            "Justification": "The patient has a documented history of recurrent severe myocardial infarctions."
+        },
+        {
+            "Criterion": "Emergency stenting",
+            "Classification": "Violated",
+            "Justification": "The patient required emergency stenting for myocardial infarctions."
+        },
+        {
+            "Criterion": "Coronary artery bypass grafting",
+            "Classification": "Violated",
+            "Justification": "The patient underwent coronary artery bypass grafting."
+        },
+        {
+            "Criterion": "Impaired liver function",
+            "Classification": "Unclear",
+            "Justification": "The patient has mild elevation of hepatic transaminases, but it is unclear if this constitutes impaired liver function."
+        }
+    ],
+    "Recap": "The patient meets the diabetic criterion but has unclear status regarding obesity and obstructive sleep apnea. The patient violates exclusion criteria related to severe myocardial infarctions, emergency stenting, and coronary artery bypass grafting.",
+    "Final Decision": "Ineligible"
+}

@@ -1,0 +1,93 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Homozygous familial hypercholesterolemia, i.e.: Low-density lipoprotein (LDL) cholesterol greater than 500 mg/dL",
+            "Classification": "Not Met",
+            "Justification": "Patient has LDL cholesterol >190 mg/dL but <500 mg/dL and a heterozygous LDLR mutation, not homozygous."
+        },
+        {
+            "Criterion": "Autosomal dominant inheritance",
+            "Classification": "Irrelevant",
+            "Justification": "The trial requires homozygous FH, and the patient has heterozygous FH, which is autosomal dominant but does not meet the homozygous inclusion criterion."
+        },
+        {
+            "Criterion": "Early-onset tendon and tuberous xanthomas",
+            "Classification": "Unclear",
+            "Justification": "No mention of xanthomas in the patient's description."
+        },
+        {
+            "Criterion": "LDL receptor negative, i.e.: Receptor binding in cultured fibroblasts no more than 20% of normal OR Genotype with 2 previously described, disease-causing alleles",
+            "Classification": "Not Met",
+            "Justification": "Patient has a heterozygous LDLR mutation, not two disease-causing alleles."
+        },
+        {
+            "Criterion": "Genotype with 2 previously described, disease-causing alleles",
+            "Classification": "Not Met",
+            "Justification": "Patient has a heterozygous LDLR mutation, not two disease-causing alleles."
+        },
+        {
+            "Criterion": "Advanced coronary heart disease with relatively poor prognosis, i.e: Angina pectoris History of myocardial infarction Positive exercise tolerance test Atherosclerotic disease in proximal aorta or coronary arteries by ultrasound or angiogram",
+            "Classification": "Met",
+            "Justification": "Patient has multiple myocardial infarctions, multivessel coronary artery disease, and impaired left ventricular function."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Unstable angina pectoris",
+            "Classification": "Not Violated",
+            "Justification": "No mention of unstable angina in the patient's description."
+        },
+        {
+            "Criterion": "Left ventricular ejection fraction less than 30%",
+            "Classification": "Unclear",
+            "Justification": "Patient has impaired left ventricular function, but exact ejection fraction is not specified."
+        },
+        {
+            "Criterion": "Decompensated congestive heart failure",
+            "Classification": "Not Violated",
+            "Justification": "No mention of decompensated congestive heart failure."
+        },
+        {
+            "Criterion": "Untreated ventricular tachycardia",
+            "Classification": "Not Violated",
+            "Justification": "No mention of untreated ventricular tachycardia."
+        },
+        {
+            "Criterion": "Moderate to severe aortic stenosis",
+            "Classification": "Not Violated",
+            "Justification": "No mention of moderate to severe aortic stenosis."
+        },
+        {
+            "Criterion": "Other dyslipidemia",
+            "Classification": "Not Violated",
+            "Justification": "Patient has familial hypercholesterolemia, which is not classified as 'other dyslipidemia' in the exclusion criteria."
+        },
+        {
+            "Criterion": "Obstructive hepatobiliary disease",
+            "Classification": "Not Violated",
+            "Justification": "Patient has mild hepatic transaminase elevation, possibly due to statin therapy or non-alcoholic fatty liver disease, but no obstructive hepatobiliary disease is mentioned."
+        },
+        {
+            "Criterion": "At least 2 weeks since the following: Drugs affecting cholesterol metabolism Plasma exchange LDL apheresis",
+            "Classification": "Violated",
+            "Justification": "Patient is currently being treated with atorvastatin, a drug affecting cholesterol metabolism, and no information is provided about a 2-week washout period."
+        },
+        {
+            "Criterion": "Age: Any age",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is 58 years old, and the trial allows any age."
+        },
+        {
+            "Criterion": "Renal: No azotemia No significant proteinuria",
+            "Classification": "Not Violated",
+            "Justification": "No mention of azotemia or significant proteinuria."
+        },
+        {
+            "Criterion": "Other: No hypothyroidism No diabetes",
+            "Classification": "Violated",
+            "Justification": "Patient has Type 2 diabetes mellitus."
+        }
+    ],
+    "Recap": "Patient does not meet the homozygous FH inclusion criterion, has advanced coronary disease, but is excluded due to concurrent statin use and diabetes.",
+    "Final Decision": "Ineligible"
+}
