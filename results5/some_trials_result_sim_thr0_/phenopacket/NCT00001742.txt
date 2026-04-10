@@ -1,0 +1,20 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients (men and nonpregnant women) with systemic hypertension", "Classification": "Unclear", "Justification": "The patient's profile does not mention systemic hypertension, so it cannot be confirmed or denied."},
+    {"Criterion": "Patients with hypercholesterolemia", "Classification": "Met", "Justification": "The patient has elevated LDL cholesterol levels over 190 mg/dL and a confirmed heterozygous LDLR mutation, indicating hypercholesterolemia."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient with aspirin allergies", "Classification": "Not Violated", "Justification": "There is no mention of aspirin allergies in the patient's profile."},
+    {"Criterion": "Those with a platelet count less than 50,000", "Classification": "Not Violated", "Justification": "The patient's platelet count is not mentioned, so it cannot be confirmed or denied."},
+    {"Criterion": "Volunteers cannot be in any kind of medication while participating in this study", "Classification": "Violated", "Justification": "The patient is currently on atorvastatin and metformin, which violates this criterion."},
+    {"Criterion": "No history of diabetes", "Classification": "Violated", "Justification": "The patient has Type 2 diabetes mellitus, which violates this criterion."},
+    {"Criterion": "No history of peripheral vascular disease", "Classification": "Violated", "Justification": "The patient has Stage III coronary artery disease, which is a form of peripheral vascular disease."},
+    {"Criterion": "No history of coagulopathy", "Classification": "Not Violated", "Justification": "There is no mention of coagulopathy in the patient's profile."},
+    {"Criterion": "No history of vasculitis", "Classification": "Not Violated", "Justification": "There is no mention of vasculitis in the patient's profile."},
+    {"Criterion": "Must be capable of rendering informed consent for all procedures", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Recap": "The patient meets the inclusion criterion for hypercholesterolemia but violates several exclusion criteria, including being on medication, having diabetes, and having peripheral vascular disease.",
+  "Final Decision": "Ineligible"
+}
+```

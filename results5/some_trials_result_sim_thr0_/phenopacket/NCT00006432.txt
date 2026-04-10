@@ -1,0 +1,30 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Type 2 diabetes, not tightly controlled at present",
+      "Classification": "Met",
+      "Justification": "The patient has Type 2 diabetes and maintains HbA1c levels between 6.5% and 7.2%, which indicates that his diabetes is not tightly controlled."
+    },
+    {
+      "Criterion": "Not using medication (insulin or oral) to control blood sugar",
+      "Classification": "Violated",
+      "Justification": "The patient is currently using metformin, an oral medication, to manage his blood sugar levels."
+    },
+    {
+      "Criterion": "Overweight, but generally healthy",
+      "Classification": "Unclear",
+      "Justification": "The patient's weight status is not explicitly mentioned in the provided data, making it unclear whether he is overweight."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Not using medication (insulin or oral) to control blood sugar",
+      "Classification": "Violated",
+      "Justification": "The patient is on metformin, which is an oral medication for blood sugar control, thus violating this criterion."
+    }
+  ],
+  "Recap": "The patient meets the inclusion criterion of having Type 2 diabetes that is not tightly controlled. However, he violates the inclusion criterion of not using medication to control blood sugar, as he is on metformin. The patient's weight status is unclear, and there is no specific exclusion criterion provided beyond the medication use.",
+  "Final Decision": "Ineligible"
+}
+```

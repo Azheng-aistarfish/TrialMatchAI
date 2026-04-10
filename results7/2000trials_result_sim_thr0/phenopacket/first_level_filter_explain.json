@@ -1,0 +1,3472 @@
+{
+    "index": "clinical_trials_2",
+    "patient_age_raw": 58,
+    "patient_sex": "all",
+    "overall_status_filter": "All",
+    "vector_score_threshold": 0.0,
+    "max_trials_first_level": 2000,
+    "counts": {
+        "docs_in_index": 2081,
+        "passed_eligibility_filters": 1809,
+        "retrieved_first_level": 1809,
+        "failed_eligibility_filters": 272,
+        "passed_filters_but_not_in_topk": 0
+    },
+    "filter_flags": {
+        "age_filter_enabled": true,
+        "patient_age_used_in_filter": 58,
+        "status_filter_enabled": false,
+        "preselected_enabled": false
+    },
+    "note": "passed_filters_but_not_in_topk: 已通过年龄/性别/状态等 filter，但未进入一级 hybrid/bm25 返回的前 max_trials_first_level 条（排序/截断）。",
+    "failed_eligibility_filters_truncated": false,
+    "failed_eligibility_filters_omitted": 0,
+    "failed_eligibility_filters": [
+        {
+            "nct_id": "NCT00000102",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=35 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000110",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=49 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000113",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=12 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000114",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=49 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000117",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000120",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000123",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=35 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000133",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000159",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=56 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000176",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000292",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000377",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000402",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=13 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000406",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000413",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=13 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000430",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000487",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=57 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000499",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000501",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=49 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000515",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000519",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=49 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000520",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=17 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000521",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=13 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000528",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=54 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000548",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000556",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000567",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000570",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000575",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=12 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000576",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000580",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=3 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000583",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=36 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000585",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=5 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000586",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000592",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=16 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000602",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000653",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000732",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000734",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000739",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=12 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000773",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=12 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000811",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1.5 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000855",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.01 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000873",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.05 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000879",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.01 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000961",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.25 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00000963",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001100",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.08 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001109",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001126",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=17 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001127",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001177",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001259",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001303",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001305",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=16 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001306",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=39 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001322",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001343",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=14 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001454",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=43 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001481",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001521",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001574",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001623",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001656",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001723",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=17 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001873",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001921",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001927",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001950",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=3 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001951",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=32 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00001969",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002182",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002219",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=16 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002288",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002317",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=12 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002502",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002528",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002590",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=20 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002653",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002718",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=49 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002744",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=9 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002762",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002803",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002804",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002827",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00002875",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=22 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003056",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003093",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=20 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003094",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003116",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003190",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003217",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003234",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003335",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=54 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003468",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=17 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003476",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003593",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003859",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=16 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003868",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003909",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003937",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=30 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003941",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00003966",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004010",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004068",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004274",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=12 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004275",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=14 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004330",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004335",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=35 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004357",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004392",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004401",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004402",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=10 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004410",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.05 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004414",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.08 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004418",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=8 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004438",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=35 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004465",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004466",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=17 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004485",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=16 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004487",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004572",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004637",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004669",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004696",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004729",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=10 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004751",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004763",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=40 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004776",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=30 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004785",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.04 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004793",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004825",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004833",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=17 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004838",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=6 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00004984",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005009",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005011",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005015",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005101",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=54 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005105",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005112",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=12 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005113",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=20 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005117",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=40 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005133",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005475",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=22 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005567",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.04 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005576",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005596",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005622",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005654",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=40 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005665",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=25 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005669",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=12 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005754",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005765",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005773",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.04 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005776",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.04 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005777",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.03 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005797",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005823",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005866",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005889",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.02 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005891",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=54 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005892",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=54 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005940",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005945",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=9 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00005988",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=40 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006024",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006054",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=35 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006055",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006056",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006078",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006128",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=12 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006132",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.08 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006135",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.08 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006146",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=49 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006158",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006160",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=17 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006174",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=8 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006180",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006270",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=35 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006272",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.33 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006306",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006335",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=17 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006400",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1.5 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006401",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006445",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006451",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006455",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00006516",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.08 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00007189",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=70 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00007501",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00007670",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00008424",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00008736",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.08 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00008814",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.33 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00008853",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00009529",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=11 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00009633",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=2.17 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00009698",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00010439",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=14 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00010465",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=5 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00010933",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=20 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00011102",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=44 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00011700",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00013416",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00014950",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00015587",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=14 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00015613",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=40 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00016497",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=3.92 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00016653",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=9 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00017589",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00018109",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=10 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00018447",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00020111",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00020527",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=17 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00021541",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=25 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00022451",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00022737",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00023101",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=34 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00023998",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=30 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00024102",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00025038",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00025428",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00025597",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00025610",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00025623",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00025649",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00025870",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00026312",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=30 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00027300",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00027417",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=2 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00027872",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00027937",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=56 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00028795",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00029159",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=14 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00029198",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.62 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00029211",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=11 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00029380",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=14 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00029510",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00030108",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00030160",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=44 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00030394",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00030966",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00032656",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=19 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00033189",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=11 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00033813",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=10 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00034736",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=16 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00035139",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=16 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00035854",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=17 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00037557",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=5 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00038350",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00038857",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00039117",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00039858",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=16 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00040339",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00040378",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00040872",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00042042",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=19 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00042159",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00042172",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00042211",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00042705",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=11 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00042991",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00043134",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00043277",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.5 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00043836",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00043992",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00044239",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=12 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00044252",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00044369",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=55 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00044473",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=5 < 用于 filter 的患者年龄 58"
+            ]
+        },
+        {
+            "nct_id": "NCT00044876",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=50 < 用于 filter 的患者年龄 58"
+            ]
+        }
+    ],
+    "passed_filters_but_not_in_topk_truncated": false,
+    "passed_filters_but_not_in_topk_omitted": 0,
+    "passed_filters_but_not_in_topk": [],
+    "retrieved_nct_ids_in_order": [
+        "NCT00000105",
+        "NCT00000108",
+        "NCT00000115",
+        "NCT00000119",
+        "NCT00000121",
+        "NCT00000124",
+        "NCT00000125",
+        "NCT00000126",
+        "NCT00000127",
+        "NCT00000129",
+        "NCT00000137",
+        "NCT00000144",
+        "NCT00000150",
+        "NCT00000151",
+        "NCT00000152",
+        "NCT00000153",
+        "NCT00000154",
+        "NCT00000155",
+        "NCT00000156",
+        "NCT00000158",
+        "NCT00000160",
+        "NCT00000161",
+        "NCT00000167",
+        "NCT00000171",
+        "NCT00000173",
+        "NCT00000179",
+        "NCT00000359",
+        "NCT00000361",
+        "NCT00000362",
+        "NCT00000369",
+        "NCT00000390",
+        "NCT00000396",
+        "NCT00000403",
+        "NCT00000408",
+        "NCT00000409",
+        "NCT00000410",
+        "NCT00000411",
+        "NCT00000419",
+        "NCT00000424",
+        "NCT00000425",
+        "NCT00000427",
+        "NCT00000432",
+        "NCT00000437",
+        "NCT00000461",
+        "NCT00000468",
+        "NCT00000469",
+        "NCT00000479",
+        "NCT00000492",
+        "NCT00000502",
+        "NCT00000506",
+        "NCT00000513",
+        "NCT00000518",
+        "NCT00000522",
+        "NCT00000524",
+        "NCT00000525",
+        "NCT00000526",
+        "NCT00000531",
+        "NCT00000539",
+        "NCT00000546",
+        "NCT00000555",
+        "NCT00000559",
+        "NCT00000560",
+        "NCT00000562",
+        "NCT00000566",
+        "NCT00000568",
+        "NCT00000572",
+        "NCT00000574",
+        "NCT00000577",
+        "NCT00000582",
+        "NCT00000588",
+        "NCT00000598",
+        "NCT00000599",
+        "NCT00000606",
+        "NCT00000619",
+        "NCT00000620",
+        "NCT00000621",
+        "NCT00000633",
+        "NCT00000636",
+        "NCT00000638",
+        "NCT00000641",
+        "NCT00000642",
+        "NCT00000644",
+        "NCT00000654",
+        "NCT00000665",
+        "NCT00000672",
+        "NCT00000673",
+        "NCT00000678",
+        "NCT00000682",
+        "NCT00000706",
+        "NCT00000707",
+        "NCT00000714",
+        "NCT00000715",
+        "NCT00000717",
+        "NCT00000722",
+        "NCT00000724",
+        "NCT00000726",
+        "NCT00000727",
+        "NCT00000730",
+        "NCT00000740",
+        "NCT00000748",
+        "NCT00000749",
+        "NCT00000755",
+        "NCT00000768",
+        "NCT00000769",
+        "NCT00000776",
+        "NCT00000778",
+        "NCT00000785",
+        "NCT00000790",
+        "NCT00000794",
+        "NCT00000796",
+        "NCT00000801",
+        "NCT00000802",
+        "NCT00000816",
+        "NCT00000832",
+        "NCT00000854",
+        "NCT00000860",
+        "NCT00000862",
+        "NCT00000863",
+        "NCT00000910",
+        "NCT00000932",
+        "NCT00000937",
+        "NCT00000938",
+        "NCT00000941",
+        "NCT00000955",
+        "NCT00000959",
+        "NCT00000964",
+        "NCT00000970",
+        "NCT00000975",
+        "NCT00000980",
+        "NCT00000981",
+        "NCT00000987",
+        "NCT00000998",
+        "NCT00001001",
+        "NCT00001013",
+        "NCT00001014",
+        "NCT00001015",
+        "NCT00001025",
+        "NCT00001028",
+        "NCT00001030",
+        "NCT00001033",
+        "NCT00001038",
+        "NCT00001077",
+        "NCT00001081",
+        "NCT00001092",
+        "NCT00001101",
+        "NCT00001103",
+        "NCT00001115",
+        "NCT00001119",
+        "NCT00001128",
+        "NCT00001143",
+        "NCT00001144",
+        "NCT00001145",
+        "NCT00001148",
+        "NCT00001149",
+        "NCT00001152",
+        "NCT00001153",
+        "NCT00001155",
+        "NCT00001156",
+        "NCT00001159",
+        "NCT00001160",
+        "NCT00001161",
+        "NCT00001165",
+        "NCT00001166",
+        "NCT00001167",
+        "NCT00001173",
+        "NCT00001180",
+        "NCT00001181",
+        "NCT00001184",
+        "NCT00001188",
+        "NCT00001189",
+        "NCT00001190",
+        "NCT00001193",
+        "NCT00001196",
+        "NCT00001197",
+        "NCT00001202",
+        "NCT00001203",
+        "NCT00001204",
+        "NCT00001205",
+        "NCT00001208",
+        "NCT00001215",
+        "NCT00001216",
+        "NCT00001220",
+        "NCT00001221",
+        "NCT00001224",
+        "NCT00001225",
+        "NCT00001228",
+        "NCT00001230",
+        "NCT00001237",
+        "NCT00001241",
+        "NCT00001242",
+        "NCT00001246",
+        "NCT00001249",
+        "NCT00001250",
+        "NCT00001252",
+        "NCT00001253",
+        "NCT00001254",
+        "NCT00001256",
+        "NCT00001261",
+        "NCT00001262",
+        "NCT00001265",
+        "NCT00001266",
+        "NCT00001267",
+        "NCT00001269",
+        "NCT00001270",
+        "NCT00001276",
+        "NCT00001277",
+        "NCT00001278",
+        "NCT00001280",
+        "NCT00001282",
+        "NCT00001284",
+        "NCT00001287",
+        "NCT00001288",
+        "NCT00001291",
+        "NCT00001292",
+        "NCT00001296",
+        "NCT00001301",
+        "NCT00001302",
+        "NCT00001304",
+        "NCT00001307",
+        "NCT00001308",
+        "NCT00001313",
+        "NCT00001314",
+        "NCT00001318",
+        "NCT00001323",
+        "NCT00001325",
+        "NCT00001332",
+        "NCT00001335",
+        "NCT00001337",
+        "NCT00001338",
+        "NCT00001339",
+        "NCT00001341",
+        "NCT00001342",
+        "NCT00001344",
+        "NCT00001347",
+        "NCT00001349",
+        "NCT00001350",
+        "NCT00001356",
+        "NCT00001359",
+        "NCT00001364",
+        "NCT00001365",
+        "NCT00001366",
+        "NCT00001367",
+        "NCT00001368",
+        "NCT00001371",
+        "NCT00001378",
+        "NCT00001379",
+        "NCT00001381",
+        "NCT00001383",
+        "NCT00001384",
+        "NCT00001386",
+        "NCT00001393",
+        "NCT00001394",
+        "NCT00001398",
+        "NCT00001399",
+        "NCT00001400",
+        "NCT00001402",
+        "NCT00001403",
+        "NCT00001405",
+        "NCT00001407",
+        "NCT00001408",
+        "NCT00001412",
+        "NCT00001413",
+        "NCT00001415",
+        "NCT00001417",
+        "NCT00001420",
+        "NCT00001421",
+        "NCT00001431",
+        "NCT00001436",
+        "NCT00001437",
+        "NCT00001442",
+        "NCT00001444",
+        "NCT00001445",
+        "NCT00001446",
+        "NCT00001452",
+        "NCT00001453",
+        "NCT00001455",
+        "NCT00001456",
+        "NCT00001457",
+        "NCT00001458",
+        "NCT00001460",
+        "NCT00001462",
+        "NCT00001466",
+        "NCT00001469",
+        "NCT00001471",
+        "NCT00001473",
+        "NCT00001476",
+        "NCT00001478",
+        "NCT00001480",
+        "NCT00001482",
+        "NCT00001483",
+        "NCT00001487",
+        "NCT00001489",
+        "NCT00001493",
+        "NCT00001496",
+        "NCT00001498",
+        "NCT00001502",
+        "NCT00001505",
+        "NCT00001520",
+        "NCT00001522",
+        "NCT00001523",
+        "NCT00001524",
+        "NCT00001527",
+        "NCT00001528",
+        "NCT00001529",
+        "NCT00001530",
+        "NCT00001532",
+        "NCT00001533",
+        "NCT00001534",
+        "NCT00001536",
+        "NCT00001538",
+        "NCT00001539",
+        "NCT00001541",
+        "NCT00001542",
+        "NCT00001543",
+        "NCT00001544",
+        "NCT00001546",
+        "NCT00001549",
+        "NCT00001550",
+        "NCT00001551",
+        "NCT00001552",
+        "NCT00001553",
+        "NCT00001554",
+        "NCT00001560",
+        "NCT00001561",
+        "NCT00001565",
+        "NCT00001568",
+        "NCT00001573",
+        "NCT00001579",
+        "NCT00001586",
+        "NCT00001589",
+        "NCT00001596",
+        "NCT00001598",
+        "NCT00001599",
+        "NCT00001600",
+        "NCT00001605",
+        "NCT00001606",
+        "NCT00001610",
+        "NCT00001611",
+        "NCT00001615",
+        "NCT00001621",
+        "NCT00001622",
+        "NCT00001625",
+        "NCT00001628",
+        "NCT00001629",
+        "NCT00001631",
+        "NCT00001633",
+        "NCT00001637",
+        "NCT00001638",
+        "NCT00001639",
+        "NCT00001640",
+        "NCT00001641",
+        "NCT00001643",
+        "NCT00001645",
+        "NCT00001646",
+        "NCT00001649",
+        "NCT00001657",
+        "NCT00001658",
+        "NCT00001659",
+        "NCT00001661",
+        "NCT00001662",
+        "NCT00001663",
+        "NCT00001664",
+        "NCT00001665",
+        "NCT00001666",
+        "NCT00001668",
+        "NCT00001669",
+        "NCT00001672",
+        "NCT00001676",
+        "NCT00001685",
+        "NCT00001688",
+        "NCT00001693",
+        "NCT00001696",
+        "NCT00001699",
+        "NCT00001713",
+        "NCT00001716",
+        "NCT00001718",
+        "NCT00001719",
+        "NCT00001720",
+        "NCT00001721",
+        "NCT00001722",
+        "NCT00001724",
+        "NCT00001725",
+        "NCT00001728",
+        "NCT00001729",
+        "NCT00001730",
+        "NCT00001731",
+        "NCT00001735",
+        "NCT00001737",
+        "NCT00001742",
+        "NCT00001748",
+        "NCT00001750",
+        "NCT00001752",
+        "NCT00001754",
+        "NCT00001756",
+        "NCT00001759",
+        "NCT00001760",
+        "NCT00001761",
+        "NCT00001763",
+        "NCT00001764",
+        "NCT00001765",
+        "NCT00001770",
+        "NCT00001774",
+        "NCT00001776",
+        "NCT00001777",
+        "NCT00001780",
+        "NCT00001781",
+        "NCT00001783",
+        "NCT00001784",
+        "NCT00001789",
+        "NCT00001790",
+        "NCT00001814",
+        "NCT00001830",
+        "NCT00001836",
+        "NCT00001839",
+        "NCT00001840",
+        "NCT00001845",
+        "NCT00001848",
+        "NCT00001849",
+        "NCT00001851",
+        "NCT00001852",
+        "NCT00001853",
+        "NCT00001854",
+        "NCT00001859",
+        "NCT00001860",
+        "NCT00001861",
+        "NCT00001862",
+        "NCT00001864",
+        "NCT00001865",
+        "NCT00001866",
+        "NCT00001870",
+        "NCT00001871",
+        "NCT00001876",
+        "NCT00001877",
+        "NCT00001878",
+        "NCT00001881",
+        "NCT00001884",
+        "NCT00001885",
+        "NCT00001886",
+        "NCT00001887",
+        "NCT00001888",
+        "NCT00001889",
+        "NCT00001890",
+        "NCT00001891",
+        "NCT00001893",
+        "NCT00001894",
+        "NCT00001895",
+        "NCT00001899",
+        "NCT00001901",
+        "NCT00001903",
+        "NCT00001905",
+        "NCT00001906",
+        "NCT00001908",
+        "NCT00001909",
+        "NCT00001910",
+        "NCT00001911",
+        "NCT00001912",
+        "NCT00001915",
+        "NCT00001916",
+        "NCT00001918",
+        "NCT00001922",
+        "NCT00001923",
+        "NCT00001925",
+        "NCT00001926",
+        "NCT00001928",
+        "NCT00001929",
+        "NCT00001930",
+        "NCT00001931",
+        "NCT00001932",
+        "NCT00001933",
+        "NCT00001934",
+        "NCT00001936",
+        "NCT00001940",
+        "NCT00001946",
+        "NCT00001952",
+        "NCT00001953",
+        "NCT00001954",
+        "NCT00001955",
+        "NCT00001957",
+        "NCT00001960",
+        "NCT00001961",
+        "NCT00001963",
+        "NCT00001965",
+        "NCT00001966",
+        "NCT00001968",
+        "NCT00001971",
+        "NCT00001972",
+        "NCT00001973",
+        "NCT00001975",
+        "NCT00001976",
+        "NCT00001977",
+        "NCT00001981",
+        "NCT00001982",
+        "NCT00001985",
+        "NCT00001986",
+        "NCT00001987",
+        "NCT00001990",
+        "NCT00001991",
+        "NCT00002006",
+        "NCT00002007",
+        "NCT00002025",
+        "NCT00002032",
+        "NCT00002047",
+        "NCT00002055",
+        "NCT00002056",
+        "NCT00002062",
+        "NCT00002063",
+        "NCT00002068",
+        "NCT00002082",
+        "NCT00002085",
+        "NCT00002088",
+        "NCT00002101",
+        "NCT00002102",
+        "NCT00002103",
+        "NCT00002104",
+        "NCT00002116",
+        "NCT00002120",
+        "NCT00002121",
+        "NCT00002136",
+        "NCT00002137",
+        "NCT00002138",
+        "NCT00002140",
+        "NCT00002144",
+        "NCT00002177",
+        "NCT00002181",
+        "NCT00002191",
+        "NCT00002248",
+        "NCT00002252",
+        "NCT00002253",
+        "NCT00002258",
+        "NCT00002273",
+        "NCT00002274",
+        "NCT00002275",
+        "NCT00002292",
+        "NCT00002297",
+        "NCT00002331",
+        "NCT00002340",
+        "NCT00002342",
+        "NCT00002343",
+        "NCT00002404",
+        "NCT00002408",
+        "NCT00002414",
+        "NCT00002426",
+        "NCT00002434",
+        "NCT00002444",
+        "NCT00002459",
+        "NCT00002466",
+        "NCT00002471",
+        "NCT00002478",
+        "NCT00002490",
+        "NCT00002492",
+        "NCT00002493",
+        "NCT00002495",
+        "NCT00002496",
+        "NCT00002511",
+        "NCT00002514",
+        "NCT00002523",
+        "NCT00002529",
+        "NCT00002536",
+        "NCT00002537",
+        "NCT00002542",
+        "NCT00002548",
+        "NCT00002550",
+        "NCT00002555",
+        "NCT00002562",
+        "NCT00002564",
+        "NCT00002569",
+        "NCT00002575",
+        "NCT00002580",
+        "NCT00002581",
+        "NCT00002593",
+        "NCT00002598",
+        "NCT00002602",
+        "NCT00002608",
+        "NCT00002615",
+        "NCT00002616",
+        "NCT00002619",
+        "NCT00002620",
+        "NCT00002622",
+        "NCT00002623",
+        "NCT00002628",
+        "NCT00002630",
+        "NCT00002633",
+        "NCT00002639",
+        "NCT00002641",
+        "NCT00002646",
+        "NCT00002651",
+        "NCT00002654",
+        "NCT00002659",
+        "NCT00002663",
+        "NCT00002665",
+        "NCT00002670",
+        "NCT00002676",
+        "NCT00002680",
+        "NCT00002681",
+        "NCT00002682",
+        "NCT00002687",
+        "NCT00002689",
+        "NCT00002701",
+        "NCT00002706",
+        "NCT00002708",
+        "NCT00002711",
+        "NCT00002725",
+        "NCT00002735",
+        "NCT00002742",
+        "NCT00002746",
+        "NCT00002749",
+        "NCT00002755",
+        "NCT00002759",
+        "NCT00002761",
+        "NCT00002764",
+        "NCT00002766",
+        "NCT00002771",
+        "NCT00002772",
+        "NCT00002774",
+        "NCT00002777",
+        "NCT00002783",
+        "NCT00002784",
+        "NCT00002791",
+        "NCT00002800",
+        "NCT00002806",
+        "NCT00002809",
+        "NCT00002810",
+        "NCT00002813",
+        "NCT00002814",
+        "NCT00002835",
+        "NCT00002839",
+        "NCT00002849",
+        "NCT00002850",
+        "NCT00002864",
+        "NCT00002869",
+        "NCT00002872",
+        "NCT00002873",
+        "NCT00002878",
+        "NCT00002879",
+        "NCT00002882",
+        "NCT00002890",
+        "NCT00002897",
+        "NCT00002908",
+        "NCT00002916",
+        "NCT00002917",
+        "NCT00002919",
+        "NCT00002920",
+        "NCT00002930",
+        "NCT00002934",
+        "NCT00002946",
+        "NCT00002967",
+        "NCT00002968",
+        "NCT00002971",
+        "NCT00002974",
+        "NCT00002985",
+        "NCT00002990",
+        "NCT00002996",
+        "NCT00002999",
+        "NCT00003000",
+        "NCT00003002",
+        "NCT00003012",
+        "NCT00003013",
+        "NCT00003017",
+        "NCT00003018",
+        "NCT00003022",
+        "NCT00003023",
+        "NCT00003025",
+        "NCT00003031",
+        "NCT00003039",
+        "NCT00003041",
+        "NCT00003049",
+        "NCT00003052",
+        "NCT00003055",
+        "NCT00003057",
+        "NCT00003058",
+        "NCT00003065",
+        "NCT00003067",
+        "NCT00003072",
+        "NCT00003075",
+        "NCT00003078",
+        "NCT00003082",
+        "NCT00003088",
+        "NCT00003098",
+        "NCT00003099",
+        "NCT00003105",
+        "NCT00003115",
+        "NCT00003117",
+        "NCT00003118",
+        "NCT00003124",
+        "NCT00003125",
+        "NCT00003126",
+        "NCT00003128",
+        "NCT00003129",
+        "NCT00003132",
+        "NCT00003133",
+        "NCT00003137",
+        "NCT00003139",
+        "NCT00003145",
+        "NCT00003153",
+        "NCT00003157",
+        "NCT00003162",
+        "NCT00003172",
+        "NCT00003176",
+        "NCT00003199",
+        "NCT00003209",
+        "NCT00003210",
+        "NCT00003213",
+        "NCT00003232",
+        "NCT00003237",
+        "NCT00003253",
+        "NCT00003257",
+        "NCT00003266",
+        "NCT00003267",
+        "NCT00003276",
+        "NCT00003279",
+        "NCT00003280",
+        "NCT00003292",
+        "NCT00003296",
+        "NCT00003298",
+        "NCT00003315",
+        "NCT00003322",
+        "NCT00003325",
+        "NCT00003328",
+        "NCT00003331",
+        "NCT00003337",
+        "NCT00003338",
+        "NCT00003342",
+        "NCT00003346",
+        "NCT00003353",
+        "NCT00003364",
+        "NCT00003368",
+        "NCT00003369",
+        "NCT00003372",
+        "NCT00003375",
+        "NCT00003376",
+        "NCT00003377",
+        "NCT00003379",
+        "NCT00003381",
+        "NCT00003384",
+        "NCT00003387",
+        "NCT00003388",
+        "NCT00003391",
+        "NCT00003396",
+        "NCT00003409",
+        "NCT00003410",
+        "NCT00003416",
+        "NCT00003418",
+        "NCT00003434",
+        "NCT00003440",
+        "NCT00003443",
+        "NCT00003445",
+        "NCT00003449",
+        "NCT00003453",
+        "NCT00003463",
+        "NCT00003465",
+        "NCT00003466",
+        "NCT00003470",
+        "NCT00003471",
+        "NCT00003489",
+        "NCT00003494",
+        "NCT00003509",
+        "NCT00003511",
+        "NCT00003519",
+        "NCT00003520",
+        "NCT00003524",
+        "NCT00003537",
+        "NCT00003539",
+        "NCT00003549",
+        "NCT00003557",
+        "NCT00003562",
+        "NCT00003564",
+        "NCT00003565",
+        "NCT00003568",
+        "NCT00003571",
+        "NCT00003576",
+        "NCT00003590",
+        "NCT00003591",
+        "NCT00003595",
+        "NCT00003596",
+        "NCT00003598",
+        "NCT00003612",
+        "NCT00003615",
+        "NCT00003621",
+        "NCT00003623",
+        "NCT00003640",
+        "NCT00003642",
+        "NCT00003645",
+        "NCT00003654",
+        "NCT00003658",
+        "NCT00003659",
+        "NCT00003667",
+        "NCT00003669",
+        "NCT00003674",
+        "NCT00003675",
+        "NCT00003677",
+        "NCT00003684",
+        "NCT00003685",
+        "NCT00003686",
+        "NCT00003694",
+        "NCT00003700",
+        "NCT00003701",
+        "NCT00003702",
+        "NCT00003703",
+        "NCT00003714",
+        "NCT00003719",
+        "NCT00003740",
+        "NCT00003742",
+        "NCT00003754",
+        "NCT00003759",
+        "NCT00003760",
+        "NCT00003761",
+        "NCT00003771",
+        "NCT00003775",
+        "NCT00003778",
+        "NCT00003779",
+        "NCT00003780",
+        "NCT00003781",
+        "NCT00003782",
+        "NCT00003784",
+        "NCT00003797",
+        "NCT00003798",
+        "NCT00003805",
+        "NCT00003809",
+        "NCT00003814",
+        "NCT00003816",
+        "NCT00003817",
+        "NCT00003820",
+        "NCT00003824",
+        "NCT00003825",
+        "NCT00003829",
+        "NCT00003830",
+        "NCT00003831",
+        "NCT00003838",
+        "NCT00003842",
+        "NCT00003851",
+        "NCT00003853",
+        "NCT00003856",
+        "NCT00003857",
+        "NCT00003862",
+        "NCT00003863",
+        "NCT00003875",
+        "NCT00003876",
+        "NCT00003877",
+        "NCT00003881",
+        "NCT00003887",
+        "NCT00003896",
+        "NCT00003899",
+        "NCT00003906",
+        "NCT00003908",
+        "NCT00003923",
+        "NCT00003930",
+        "NCT00003934",
+        "NCT00003936",
+        "NCT00003938",
+        "NCT00003945",
+        "NCT00003953",
+        "NCT00003954",
+        "NCT00003957",
+        "NCT00003970",
+        "NCT00003977",
+        "NCT00003984",
+        "NCT00003985",
+        "NCT00003992",
+        "NCT00003995",
+        "NCT00004013",
+        "NCT00004017",
+        "NCT00004028",
+        "NCT00004033",
+        "NCT00004041",
+        "NCT00004048",
+        "NCT00004050",
+        "NCT00004054",
+        "NCT00004062",
+        "NCT00004063",
+        "NCT00004067",
+        "NCT00004074",
+        "NCT00004080",
+        "NCT00004088",
+        "NCT00004089",
+        "NCT00004091",
+        "NCT00004094",
+        "NCT00004099",
+        "NCT00004113",
+        "NCT00004122",
+        "NCT00004125",
+        "NCT00004128",
+        "NCT00004139",
+        "NCT00004143",
+        "NCT00004146",
+        "NCT00004148",
+        "NCT00004154",
+        "NCT00004157",
+        "NCT00004161",
+        "NCT00004163",
+        "NCT00004164",
+        "NCT00004165",
+        "NCT00004177",
+        "NCT00004192",
+        "NCT00004194",
+        "NCT00004197",
+        "NCT00004202",
+        "NCT00004203",
+        "NCT00004204",
+        "NCT00004205",
+        "NCT00004211",
+        "NCT00004216",
+        "NCT00004218",
+        "NCT00004219",
+        "NCT00004223",
+        "NCT00004226",
+        "NCT00004227",
+        "NCT00004232",
+        "NCT00004235",
+        "NCT00004236",
+        "NCT00004245",
+        "NCT00004246",
+        "NCT00004248",
+        "NCT00004250",
+        "NCT00004254",
+        "NCT00004259",
+        "NCT00004260",
+        "NCT00004266",
+        "NCT00004268",
+        "NCT00004276",
+        "NCT00004287",
+        "NCT00004296",
+        "NCT00004297",
+        "NCT00004313",
+        "NCT00004317",
+        "NCT00004326",
+        "NCT00004332",
+        "NCT00004334",
+        "NCT00004338",
+        "NCT00004339",
+        "NCT00004341",
+        "NCT00004343",
+        "NCT00004351",
+        "NCT00004359",
+        "NCT00004364",
+        "NCT00004365",
+        "NCT00004381",
+        "NCT00004387",
+        "NCT00004399",
+        "NCT00004403",
+        "NCT00004404",
+        "NCT00004407",
+        "NCT00004408",
+        "NCT00004416",
+        "NCT00004428",
+        "NCT00004429",
+        "NCT00004431",
+        "NCT00004441",
+        "NCT00004444",
+        "NCT00004451",
+        "NCT00004467",
+        "NCT00004475",
+        "NCT00004478",
+        "NCT00004480",
+        "NCT00004492",
+        "NCT00004493",
+        "NCT00004494",
+        "NCT00004496",
+        "NCT00004497",
+        "NCT00004533",
+        "NCT00004553",
+        "NCT00004554",
+        "NCT00004557",
+        "NCT00004562",
+        "NCT00004563",
+        "NCT00004566",
+        "NCT00004567",
+        "NCT00004571",
+        "NCT00004576",
+        "NCT00004635",
+        "NCT00004645",
+        "NCT00004648",
+        "NCT00004649",
+        "NCT00004654",
+        "NCT00004670",
+        "NCT00004682",
+        "NCT00004685",
+        "NCT00004686",
+        "NCT00004689",
+        "NCT00004694",
+        "NCT00004727",
+        "NCT00004728",
+        "NCT00004731",
+        "NCT00004732",
+        "NCT00004733",
+        "NCT00004734",
+        "NCT00004736",
+        "NCT00004738",
+        "NCT00004740",
+        "NCT00004748",
+        "NCT00004755",
+        "NCT00004760",
+        "NCT00004762",
+        "NCT00004769",
+        "NCT00004770",
+        "NCT00004771",
+        "NCT00004784",
+        "NCT00004787",
+        "NCT00004788",
+        "NCT00004796",
+        "NCT00004797",
+        "NCT00004805",
+        "NCT00004806",
+        "NCT00004808",
+        "NCT00004809",
+        "NCT00004810",
+        "NCT00004812",
+        "NCT00004817",
+        "NCT00004826",
+        "NCT00004829",
+        "NCT00004842",
+        "NCT00004843",
+        "NCT00004844",
+        "NCT00004848",
+        "NCT00004850",
+        "NCT00004851",
+        "NCT00004856",
+        "NCT00004857",
+        "NCT00004862",
+        "NCT00004865",
+        "NCT00004866",
+        "NCT00004868",
+        "NCT00004883",
+        "NCT00004888",
+        "NCT00004890",
+        "NCT00004895",
+        "NCT00004896",
+        "NCT00004899",
+        "NCT00004900",
+        "NCT00004901",
+        "NCT00004911",
+        "NCT00004912",
+        "NCT00004925",
+        "NCT00004928",
+        "NCT00004929",
+        "NCT00004937",
+        "NCT00004982",
+        "NCT00004983",
+        "NCT00004991",
+        "NCT00004992",
+        "NCT00005001",
+        "NCT00005003",
+        "NCT00005004",
+        "NCT00005005",
+        "NCT00005007",
+        "NCT00005013",
+        "NCT00005016",
+        "NCT00005033",
+        "NCT00005035",
+        "NCT00005039",
+        "NCT00005047",
+        "NCT00005053",
+        "NCT00005066",
+        "NCT00005070",
+        "NCT00005072",
+        "NCT00005075",
+        "NCT00005079",
+        "NCT00005081",
+        "NCT00005086",
+        "NCT00005090",
+        "NCT00005100",
+        "NCT00005102",
+        "NCT00005103",
+        "NCT00005108",
+        "NCT00005111",
+        "NCT00005123",
+        "NCT00005127",
+        "NCT00005129",
+        "NCT00005134",
+        "NCT00005136",
+        "NCT00005141",
+        "NCT00005176",
+        "NCT00005189",
+        "NCT00005190",
+        "NCT00005199",
+        "NCT00005200",
+        "NCT00005202",
+        "NCT00005203",
+        "NCT00005210",
+        "NCT00005230",
+        "NCT00005243",
+        "NCT00005246",
+        "NCT00005251",
+        "NCT00005254",
+        "NCT00005267",
+        "NCT00005271",
+        "NCT00005288",
+        "NCT00005289",
+        "NCT00005293",
+        "NCT00005299",
+        "NCT00005313",
+        "NCT00005317",
+        "NCT00005322",
+        "NCT00005338",
+        "NCT00005345",
+        "NCT00005348",
+        "NCT00005351",
+        "NCT00005357",
+        "NCT00005361",
+        "NCT00005372",
+        "NCT00005373",
+        "NCT00005381",
+        "NCT00005402",
+        "NCT00005436",
+        "NCT00005470",
+        "NCT00005479",
+        "NCT00005485",
+        "NCT00005499",
+        "NCT00005536",
+        "NCT00005541",
+        "NCT00005543",
+        "NCT00005547",
+        "NCT00005559",
+        "NCT00005564",
+        "NCT00005570",
+        "NCT00005571",
+        "NCT00005572",
+        "NCT00005574",
+        "NCT00005575",
+        "NCT00005579",
+        "NCT00005589",
+        "NCT00005595",
+        "NCT00005599",
+        "NCT00005607",
+        "NCT00005610",
+        "NCT00005624",
+        "NCT00005625",
+        "NCT00005628",
+        "NCT00005629",
+        "NCT00005630",
+        "NCT00005631",
+        "NCT00005632",
+        "NCT00005635",
+        "NCT00005636",
+        "NCT00005637",
+        "NCT00005640",
+        "NCT00005647",
+        "NCT00005652",
+        "NCT00005655",
+        "NCT00005657",
+        "NCT00005660",
+        "NCT00005663",
+        "NCT00005664",
+        "NCT00005666",
+        "NCT00005674",
+        "NCT00005730",
+        "NCT00005736",
+        "NCT00005739",
+        "NCT00005757",
+        "NCT00005760",
+        "NCT00005761",
+        "NCT00005766",
+        "NCT00005768",
+        "NCT00005771",
+        "NCT00005772",
+        "NCT00005774",
+        "NCT00005775",
+        "NCT00005778",
+        "NCT00005781",
+        "NCT00005782",
+        "NCT00005783",
+        "NCT00005784",
+        "NCT00005785",
+        "NCT00005786",
+        "NCT00005788",
+        "NCT00005791",
+        "NCT00005793",
+        "NCT00005796",
+        "NCT00005799",
+        "NCT00005800",
+        "NCT00005802",
+        "NCT00005805",
+        "NCT00005808",
+        "NCT00005810",
+        "NCT00005812",
+        "NCT00005814",
+        "NCT00005826",
+        "NCT00005829",
+        "NCT00005831",
+        "NCT00005832",
+        "NCT00005834",
+        "NCT00005837",
+        "NCT00005842",
+        "NCT00005847",
+        "NCT00005848",
+        "NCT00005849",
+        "NCT00005850",
+        "NCT00005856",
+        "NCT00005862",
+        "NCT00005863",
+        "NCT00005869",
+        "NCT00005871",
+        "NCT00005874",
+        "NCT00005880",
+        "NCT00005883",
+        "NCT00005888",
+        "NCT00005893",
+        "NCT00005902",
+        "NCT00005903",
+        "NCT00005905",
+        "NCT00005907",
+        "NCT00005910",
+        "NCT00005917",
+        "NCT00005919",
+        "NCT00005921",
+        "NCT00005924",
+        "NCT00005925",
+        "NCT00005926",
+        "NCT00005927",
+        "NCT00005933",
+        "NCT00005937",
+        "NCT00005938",
+        "NCT00005941",
+        "NCT00005947",
+        "NCT00005949",
+        "NCT00005950",
+        "NCT00005951",
+        "NCT00005957",
+        "NCT00005958",
+        "NCT00005965",
+        "NCT00005969",
+        "NCT00005970",
+        "NCT00005974",
+        "NCT00005975",
+        "NCT00005985",
+        "NCT00005991",
+        "NCT00005997",
+        "NCT00005999",
+        "NCT00006002",
+        "NCT00006014",
+        "NCT00006021",
+        "NCT00006026",
+        "NCT00006032",
+        "NCT00006034",
+        "NCT00006038",
+        "NCT00006040",
+        "NCT00006042",
+        "NCT00006044",
+        "NCT00006051",
+        "NCT00006058",
+        "NCT00006059",
+        "NCT00006062",
+        "NCT00006068",
+        "NCT00006070",
+        "NCT00006071",
+        "NCT00006072",
+        "NCT00006077",
+        "NCT00006079",
+        "NCT00006080",
+        "NCT00006081",
+        "NCT00006083",
+        "NCT00006087",
+        "NCT00006088",
+        "NCT00006089",
+        "NCT00006091",
+        "NCT00006096",
+        "NCT00006097",
+        "NCT00006101",
+        "NCT00006103",
+        "NCT00006104",
+        "NCT00006105",
+        "NCT00006110",
+        "NCT00006111",
+        "NCT00006112",
+        "NCT00006118",
+        "NCT00006124",
+        "NCT00006131",
+        "NCT00006137",
+        "NCT00006148",
+        "NCT00006150",
+        "NCT00006155",
+        "NCT00006156",
+        "NCT00006157",
+        "NCT00006159",
+        "NCT00006164",
+        "NCT00006168",
+        "NCT00006170",
+        "NCT00006173",
+        "NCT00006175",
+        "NCT00006184",
+        "NCT00006188",
+        "NCT00006193",
+        "NCT00006196",
+        "NCT00006198",
+        "NCT00006202",
+        "NCT00006213",
+        "NCT00006214",
+        "NCT00006224",
+        "NCT00006226",
+        "NCT00006228",
+        "NCT00006239",
+        "NCT00006240",
+        "NCT00006242",
+        "NCT00006251",
+        "NCT00006252",
+        "NCT00006259",
+        "NCT00006263",
+        "NCT00006269",
+        "NCT00006271",
+        "NCT00006278",
+        "NCT00006279",
+        "NCT00006289",
+        "NCT00006292",
+        "NCT00006295",
+        "NCT00006299",
+        "NCT00006305",
+        "NCT00006312",
+        "NCT00006318",
+        "NCT00006319",
+        "NCT00006323",
+        "NCT00006329",
+        "NCT00006331",
+        "NCT00006333",
+        "NCT00006334",
+        "NCT00006336",
+        "NCT00006337",
+        "NCT00006341",
+        "NCT00006342",
+        "NCT00006343",
+        "NCT00006345",
+        "NCT00006348",
+        "NCT00006351",
+        "NCT00006352",
+        "NCT00006355",
+        "NCT00006360",
+        "NCT00006363",
+        "NCT00006376",
+        "NCT00006379",
+        "NCT00006381",
+        "NCT00006386",
+        "NCT00006388",
+        "NCT00006395",
+        "NCT00006398",
+        "NCT00006411",
+        "NCT00006413",
+        "NCT00006414",
+        "NCT00006417",
+        "NCT00006421",
+        "NCT00006422",
+        "NCT00006424",
+        "NCT00006425",
+        "NCT00006426",
+        "NCT00006428",
+        "NCT00006429",
+        "NCT00006430",
+        "NCT00006432",
+        "NCT00006435",
+        "NCT00006436",
+        "NCT00006438",
+        "NCT00006444",
+        "NCT00006447",
+        "NCT00006450",
+        "NCT00006460",
+        "NCT00006472",
+        "NCT00006474",
+        "NCT00006476",
+        "NCT00006478",
+        "NCT00006481",
+        "NCT00006482",
+        "NCT00006488",
+        "NCT00006501",
+        "NCT00006505",
+        "NCT00006518",
+        "NCT00006656",
+        "NCT00006669",
+        "NCT00006695",
+        "NCT00006721",
+        "NCT00006890",
+        "NCT00006916",
+        "NCT00007020",
+        "NCT00007150",
+        "NCT00007163",
+        "NCT00007280",
+        "NCT00007319",
+        "NCT00007345",
+        "NCT00007475",
+        "NCT00007800",
+        "NCT00007904",
+        "NCT00007982",
+        "NCT00007995",
+        "NCT00008112",
+        "NCT00008164",
+        "NCT00008177",
+        "NCT00008216",
+        "NCT00008229",
+        "NCT00008307",
+        "NCT00008463",
+        "NCT00008476",
+        "NCT00008515",
+        "NCT00008697",
+        "NCT00008749",
+        "NCT00008827",
+        "NCT00009035",
+        "NCT00009048",
+        "NCT00009204",
+        "NCT00009243",
+        "NCT00009542",
+        "NCT00009555",
+        "NCT00009568",
+        "NCT00009581",
+        "NCT00009620",
+        "NCT00009646",
+        "NCT00009659",
+        "NCT00009672",
+        "NCT00009763",
+        "NCT00009789",
+        "NCT00009841",
+        "NCT00009945",
+        "NCT00009958",
+        "NCT00009984",
+        "NCT00009997",
+        "NCT00010192",
+        "NCT00010387",
+        "NCT00010517",
+        "NCT00010686",
+        "NCT00010712",
+        "NCT00010764",
+        "NCT00010816",
+        "NCT00010946",
+        "NCT00011063",
+        "NCT00011258",
+        "NCT00011323",
+        "NCT00011336",
+        "NCT00011570",
+        "NCT00011648",
+        "NCT00011752",
+        "NCT00011765",
+        "NCT00011960",
+        "NCT00011973",
+        "NCT00012259",
+        "NCT00012350",
+        "NCT00012376",
+        "NCT00012558",
+        "NCT00012818",
+        "NCT00012857",
+        "NCT00013026",
+        "NCT00013156",
+        "NCT00013286",
+        "NCT00013377",
+        "NCT00013390",
+        "NCT00013468",
+        "NCT00013546",
+        "NCT00013559",
+        "NCT00013650",
+        "NCT00013689",
+        "NCT00013741",
+        "NCT00013793",
+        "NCT00013832",
+        "NCT00013845",
+        "NCT00013923",
+        "NCT00014235",
+        "NCT00014430",
+        "NCT00014469",
+        "NCT00014495",
+        "NCT00014508",
+        "NCT00014612",
+        "NCT00014638",
+        "NCT00014794",
+        "NCT00014976",
+        "NCT00015431",
+        "NCT00015470",
+        "NCT00015626",
+        "NCT00015782",
+        "NCT00015795",
+        "NCT00015834",
+        "NCT00015925",
+        "NCT00015938",
+        "NCT00016081",
+        "NCT00016094",
+        "NCT00016107",
+        "NCT00016159",
+        "NCT00016367",
+        "NCT00016419",
+        "NCT00016432",
+        "NCT00016471",
+        "NCT00016627",
+        "NCT00016679",
+        "NCT00016848",
+        "NCT00016952",
+        "NCT00017329",
+        "NCT00017342",
+        "NCT00017394",
+        "NCT00017472",
+        "NCT00017550",
+        "NCT00017810",
+        "NCT00017862",
+        "NCT00017914",
+        "NCT00017927",
+        "NCT00017940",
+        "NCT00017979",
+        "NCT00018070",
+        "NCT00018174",
+        "NCT00018408",
+        "NCT00018486",
+        "NCT00018525",
+        "NCT00018564",
+        "NCT00018889",
+        "NCT00019084",
+        "NCT00019110",
+        "NCT00019331",
+        "NCT00019383",
+        "NCT00019643",
+        "NCT00019812",
+        "NCT00019825",
+        "NCT00019994",
+        "NCT00020267",
+        "NCT00020397",
+        "NCT00020605",
+        "NCT00020618",
+        "NCT00020670",
+        "NCT00020709",
+        "NCT00020735",
+        "NCT00020761",
+        "NCT00020865",
+        "NCT00020943",
+        "NCT00021151",
+        "NCT00021255",
+        "NCT00021320",
+        "NCT00021359",
+        "NCT00021372",
+        "NCT00021476",
+        "NCT00021528",
+        "NCT00021567",
+        "NCT00021580",
+        "NCT00021645",
+        "NCT00021671",
+        "NCT00021723",
+        "NCT00021749",
+        "NCT00021827",
+        "NCT00021866",
+        "NCT00021918",
+        "NCT00022048",
+        "NCT00022581",
+        "NCT00022607",
+        "NCT00022672",
+        "NCT00022841",
+        "NCT00022945",
+        "NCT00023010",
+        "NCT00023036",
+        "NCT00023049",
+        "NCT00023062",
+        "NCT00023192",
+        "NCT00023205",
+        "NCT00023296",
+        "NCT00023374",
+        "NCT00023439",
+        "NCT00023452",
+        "NCT00023491",
+        "NCT00023569",
+        "NCT00023764",
+        "NCT00024115",
+        "NCT00024154",
+        "NCT00024440",
+        "NCT00024479",
+        "NCT00024570",
+        "NCT00024791",
+        "NCT00024908",
+        "NCT00024986",
+        "NCT00024999",
+        "NCT00025402",
+        "NCT00025532",
+        "NCT00025662",
+        "NCT00025701",
+        "NCT00025805",
+        "NCT00025883",
+        "NCT00025909",
+        "NCT00025935",
+        "NCT00026052",
+        "NCT00026065",
+        "NCT00026104",
+        "NCT00026286",
+        "NCT00026468",
+        "NCT00026533",
+        "NCT00026598",
+        "NCT00026637",
+        "NCT00026702",
+        "NCT00026728",
+        "NCT00026741",
+        "NCT00026793",
+        "NCT00026832",
+        "NCT00026923",
+        "NCT00026962",
+        "NCT00027027",
+        "NCT00027170",
+        "NCT00027209",
+        "NCT00027235",
+        "NCT00027274",
+        "NCT00027287",
+        "NCT00027391",
+        "NCT00027560",
+        "NCT00027586",
+        "NCT00027638",
+        "NCT00027768",
+        "NCT00027794",
+        "NCT00028028",
+        "NCT00028080",
+        "NCT00028158",
+        "NCT00028184",
+        "NCT00028210",
+        "NCT00028275",
+        "NCT00028340",
+        "NCT00028379",
+        "NCT00028496",
+        "NCT00028535",
+        "NCT00028756",
+        "NCT00028847",
+        "NCT00028886",
+        "NCT00028938",
+        "NCT00029003",
+        "NCT00029107",
+        "NCT00029120",
+        "NCT00029146",
+        "NCT00029315",
+        "NCT00029666",
+        "NCT00029731",
+        "NCT00029770",
+        "NCT00029809",
+        "NCT00029822",
+        "NCT00029861",
+        "NCT00029939",
+        "NCT00029952",
+        "NCT00030004",
+        "NCT00030134",
+        "NCT00030199",
+        "NCT00030212",
+        "NCT00030238",
+        "NCT00030277",
+        "NCT00030290",
+        "NCT00030355",
+        "NCT00030498",
+        "NCT00030550",
+        "NCT00030589",
+        "NCT00030602",
+        "NCT00030797",
+        "NCT00030940",
+        "NCT00031005",
+        "NCT00031096",
+        "NCT00031239",
+        "NCT00031278",
+        "NCT00031369",
+        "NCT00031655",
+        "NCT00031681",
+        "NCT00031720",
+        "NCT00031837",
+        "NCT00032006",
+        "NCT00032019",
+        "NCT00032097",
+        "NCT00032240",
+        "NCT00032331",
+        "NCT00032383",
+        "NCT00032448",
+        "NCT00032461",
+        "NCT00032513",
+        "NCT00032643",
+        "NCT00032682",
+        "NCT00032877",
+        "NCT00032890",
+        "NCT00033137",
+        "NCT00033280",
+        "NCT00033332",
+        "NCT00033371",
+        "NCT00033462",
+        "NCT00033514",
+        "NCT00033553",
+        "NCT00033774",
+        "NCT00033891",
+        "NCT00034021",
+        "NCT00034060",
+        "NCT00034242",
+        "NCT00034281",
+        "NCT00034346",
+        "NCT00034424",
+        "NCT00034437",
+        "NCT00034450",
+        "NCT00034762",
+        "NCT00034788",
+        "NCT00034905",
+        "NCT00035269",
+        "NCT00035373",
+        "NCT00035386",
+        "NCT00035451",
+        "NCT00035477",
+        "NCT00035633",
+        "NCT00035789",
+        "NCT00035815",
+        "NCT00035828",
+        "NCT00035971",
+        "NCT00036309",
+        "NCT00036335",
+        "NCT00036491",
+        "NCT00036595",
+        "NCT00036608",
+        "NCT00036647",
+        "NCT00036738",
+        "NCT00036764",
+        "NCT00036790",
+        "NCT00037050",
+        "NCT00037154",
+        "NCT00037388",
+        "NCT00037479",
+        "NCT00037817",
+        "NCT00037843",
+        "NCT00037921",
+        "NCT00037973",
+        "NCT00038051",
+        "NCT00038064",
+        "NCT00038077",
+        "NCT00038090",
+        "NCT00038116",
+        "NCT00038142",
+        "NCT00038233",
+        "NCT00038272",
+        "NCT00038402",
+        "NCT00038415",
+        "NCT00038623",
+        "NCT00038792",
+        "NCT00039130",
+        "NCT00039182",
+        "NCT00039312",
+        "NCT00039338",
+        "NCT00039364",
+        "NCT00039377",
+        "NCT00039416",
+        "NCT00039546",
+        "NCT00039676",
+        "NCT00039702",
+        "NCT00039832",
+        "NCT00039962",
+        "NCT00040027",
+        "NCT00040053",
+        "NCT00040105",
+        "NCT00040131",
+        "NCT00040196",
+        "NCT00040248",
+        "NCT00040287",
+        "NCT00040326",
+        "NCT00040352",
+        "NCT00040443",
+        "NCT00040456",
+        "NCT00040495",
+        "NCT00040560",
+        "NCT00040690",
+        "NCT00040742",
+        "NCT00040755",
+        "NCT00040794",
+        "NCT00040846",
+        "NCT00040885",
+        "NCT00040937",
+        "NCT00041067",
+        "NCT00041106",
+        "NCT00041119",
+        "NCT00041509",
+        "NCT00041587",
+        "NCT00041600",
+        "NCT00041665",
+        "NCT00041899",
+        "NCT00041938",
+        "NCT00041977",
+        "NCT00042120",
+        "NCT00042276",
+        "NCT00042549",
+        "NCT00042562",
+        "NCT00042575",
+        "NCT00042588",
+        "NCT00042770",
+        "NCT00042809",
+        "NCT00042822",
+        "NCT00042835",
+        "NCT00042848",
+        "NCT00042952",
+        "NCT00043186",
+        "NCT00043303",
+        "NCT00043316",
+        "NCT00043394",
+        "NCT00043628",
+        "NCT00043654",
+        "NCT00043680",
+        "NCT00043719",
+        "NCT00043784",
+        "NCT00043849",
+        "NCT00043927",
+        "NCT00043940",
+        "NCT00044057",
+        "NCT00044122",
+        "NCT00044174",
+        "NCT00044187",
+        "NCT00044226",
+        "NCT00044304",
+        "NCT00044629",
+        "NCT00044733",
+        "NCT00044798",
+        "NCT00044811",
+        "NCT00044824",
+        "NCT00044863",
+        "NCT00044954",
+        "NCT00045006",
+        "NCT00045032",
+        "NCT00045136",
+        "NCT00045201",
+        "NCT00045305",
+        "NCT00045396",
+        "NCT00045435",
+        "NCT00045708",
+        "NCT00045760",
+        "NCT00045812",
+        "NCT00045838",
+        "NCT00045877",
+        "NCT00045942",
+        "NCT00045955",
+        "NCT00045981"
+    ]
+}

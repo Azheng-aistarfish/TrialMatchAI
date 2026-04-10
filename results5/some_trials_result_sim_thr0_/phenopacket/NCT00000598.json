@@ -1,0 +1,48 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Men with LDL-cholesterol of 125-189 mg/dL",
+            "Classification": "Not Met",
+            "Justification": "The patient's LDL cholesterol level is over 190 mg/dL, which exceeds the specified range of 125-189 mg/dL."
+        },
+        {
+            "Criterion": "Men with HDL-cholesterol below or equal to 44 mg/dL",
+            "Classification": "Unclear",
+            "Justification": "The patient's HDL cholesterol level is not provided in the data, making it impossible to determine if this criterion is met."
+        },
+        {
+            "Criterion": "Postmenopausal women, age 45 to 64, with LDL-cholesterol of 125 to 209 mg/dL",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is a 58-year-old male, so this criterion does not apply to him."
+        },
+        {
+            "Criterion": "Postmenopausal women, age 45 to 64, with HDL-cholesterol below or equal to 59 mg/dL",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is a 58-year-old male, so this criterion does not apply to him."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Men with LDL-cholesterol over 189 mg/dL",
+            "Classification": "Violated",
+            "Justification": "The patient's LDL cholesterol level is over 190 mg/dL, which exceeds the specified limit of 189 mg/dL."
+        },
+        {
+            "Criterion": "Men with HDL-cholesterol above 44 mg/dL",
+            "Classification": "Unclear",
+            "Justification": "The patient's HDL cholesterol level is not provided in the data, making it impossible to determine if this criterion is violated."
+        },
+        {
+            "Criterion": "Postmenopausal women, age 45 to 64, with LDL-cholesterol over 209 mg/dL",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is a 58-year-old male, so this criterion does not apply to him."
+        },
+        {
+            "Criterion": "Postmenopausal women, age 45 to 64, with HDL-cholesterol above 59 mg/dL",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is a 58-year-old male, so this criterion does not apply to him."
+        }
+    ],
+    "Recap": "The patient is a 58-year-old male with LDL cholesterol levels exceeding the specified range for inclusion. The HDL cholesterol level is not provided, leaving one criterion unclear. The patient's gender and age make the criteria for postmenopausal women irrelevant.",
+    "Final Decision": "Ineligible"
+}
