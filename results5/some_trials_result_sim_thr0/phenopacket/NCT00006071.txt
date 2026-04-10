@@ -1,0 +1,40 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Patients must discontinue all hypertensive therapy two weeks prior to entering this study.",
+      "Classification": "Unclear",
+      "Justification": "The patient's profile does not mention any hypertensive therapy, so it is unclear if this criterion is met or not."
+    },
+    {
+      "Criterion": "Patient with a serum cholesterol value of 240 mg/dl or greater.",
+      "Classification": "Met",
+      "Justification": "The patient's LDL cholesterol levels are reported to be over 190 mg/dL, which is below the criterion threshold of 240 mg/dL. However, the criterion is about total cholesterol, and since the patient's total cholesterol is not specified, this criterion is unclear."
+    },
+    {
+      "Criterion": "Patients must discontinue all lipid-lowering agents 1 month prior to entering this study.",
+      "Classification": "Violated",
+      "Justification": "The patient is currently on atorvastatin, a lipid-lowering agent, which means this criterion is violated."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "No patients with evidence of active liver disease (e.g. ALT greater than 1.5 times the upper limit of normal).",
+      "Classification": "Unclear",
+      "Justification": "The patient has a mild elevation in hepatic transaminase levels, but specific ALT values or comparison to the upper limit of normal are not provided, making it unclear if this criterion is violated."
+    },
+    {
+      "Criterion": "No history of diabetes, peripheral vascular disease, coagulopathy, or any other disease predisposing to vasculitis or Raynaud's phenomenon.",
+      "Classification": "Violated",
+      "Justification": "The patient has a history of Type 2 diabetes mellitus, which violates this exclusion criterion."
+    },
+    {
+      "Criterion": "No women with childbearing potential unless they use an effective contraceptive method.",
+      "Classification": "Irrelevant",
+      "Justification": "The patient is male, so this criterion does not apply."
+    }
+  ],
+  "Recap": "The patient's eligibility is primarily affected by the violation of the exclusion criterion related to diabetes and the lipid-lowering agent atorvastatin. The cholesterol criterion is unclear due to insufficient data on total cholesterol levels.",
+  "Final Decision": "Ineligible"
+}
+```
