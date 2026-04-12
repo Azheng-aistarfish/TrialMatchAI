@@ -1,0 +1,20 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient with non operable and / or metastatic non-small cell lung cancer documented histologically.", "Classification": "Not Met", "Justification": "The patient has metastatic breast cancer, not non-small cell lung cancer."},
+    {"Criterion": "Pathological diagnosis of NSCLC carrying an EGFR activating mutation associated with sensitivity to the tyrosine kinase inhibitors (TKI) (exons 18, 19 and 21).", "Classification": "Not Met", "Justification": "The patient has breast cancer with a PIK3CA mutation, not NSCLC with an EGFR mutation."},
+    {"Criterion": "Sufficient tissue sample quantity and quality for translational research.", "Classification": "Unclear", "Justification": "There is no information provided about the quantity or quality of tissue samples available for translational research."},
+    {"Criterion": "Naïve TKI-treated EGFR patient who can receive first-line treatment with Osimertinib or second-line after chemotherapy.", "Classification": "Not Met", "Justification": "The patient is not a TKI-treated EGFR patient; she is being treated for breast cancer with fulvestrant and palbociclib."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Any patient with an exon 20 EGFR mutation.", "Classification": "Irrelevant", "Justification": "The patient does not have an EGFR mutation; she has a PIK3CA mutation."},
+    {"Criterion": "Any disease or pathology that recommend not to perform blood samples collection.", "Classification": "Irrelevant", "Justification": "There is no indication that the patient's condition prevents blood sample collection."},
+    {"Criterion": "Any psychological, family, geographical or social condition that could potentially, according to the investigator's judgment, prevent the collection of informed consent or interfere with compliance with the study protocol.", "Classification": "Irrelevant", "Justification": "The patient has provided written informed consent, and there is no information suggesting any conditions that would interfere with compliance."},
+    {"Criterion": "Patient with a resistance mutation of EGFR.", "Classification": "Irrelevant", "Justification": "The patient does not have an EGFR mutation, so this criterion does not apply."},
+    {"Criterion": "Patient under State Medical Assistance.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's insurance or financial assistance status."},
+    {"Criterion": "Patient deprived of liberty on administrative or judicial decision, or patient under guardianship, curatorship or safeguard of justice.", "Classification": "Irrelevant", "Justification": "There is no information suggesting the patient is deprived of liberty or under any form of guardianship or curatorship."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria as she has metastatic breast cancer, not non-small cell lung cancer, and does not have an EGFR mutation. The exclusion criteria are mostly irrelevant to her condition, with some criteria remaining unclear due to lack of information.",
+  "Final Decision": "Ineligible"
+}
+```

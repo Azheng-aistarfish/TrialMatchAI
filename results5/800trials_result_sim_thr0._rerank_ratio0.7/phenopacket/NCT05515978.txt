@@ -1,0 +1,22 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Provision to sign and date the consent form in MHC or otherwise via Epic.", "Classification": "Met", "Justification": "The patient has provided written informed consent, which satisfies this criterion."},
+    {"Criterion": "Subjects must have an MHC Account to participate in the study.", "Classification": "Unclear", "Justification": "There is no information provided about the patient having an MHC Account."},
+    {"Criterion": "Be a male aged ≥18 years of age on day of signing the informed consent.", "Classification": "Met", "Justification": "The patient is a 58-year-old male, meeting the age and gender requirement."},
+    {"Criterion": "Impaired glucose tolerance and/or overweight, and appropriate to receive metformin, meeting at least one of the following in the last year: - HbA1c of 5.7 - 6.4 % - BMI≥25 kg/m2", "Classification": "Not Met", "Justification": "The patient's HbA1c levels are between 6.5% and 7.2%, which do not meet the specified range of 5.7% to 6.4%."},
+    {"Criterion": "Have a prostate cancer diagnosis.", "Classification": "Not Met", "Justification": "There is no mention of a prostate cancer diagnosis in the patient's profile."},
+    {"Criterion": "Have a clinical relationship with a participating provider at a UCHealth facility.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's relationship with a UCHealth provider."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "On therapy for diabetes including any of the following alone or in combination medications (diet controlled or managed diabetes is allowed - e.g. diagnosis of Diabetes, but without an active prescription for anti-glycemic medication): 1. Metformin", "Classification": "Violated", "Justification": "The patient is currently taking metformin, which violates this exclusion criterion."},
+    {"Criterion": "Contraindication for metformin use which include any of the following which are exclusionary (in Epic will use most recent lab values): 1. Estimated glomerular filtration rate (eGFR) of < 50 ml/minute (calculated according to the formula utilized within Epic).", "Classification": "Unclear", "Justification": "There is no information provided about the patient's eGFR levels."},
+    {"Criterion": "Non-English-speaking patient until Spanish language consent form and relevant materials can be made available.", "Classification": "Not Violated", "Justification": "There is no indication that the patient is non-English speaking."},
+    {"Criterion": "Taking any medication with a known class D or higher drug interaction with metformin, including: 1. Cimetidine", "Classification": "Not Violated", "Justification": "The patient is not taking cimetidine or any other listed medications with a class D or higher interaction with metformin."},
+    {"Criterion": "The use of any carbonic anhydrase inhibitors since they are a risk factor for lactic acidosis, including: 1. Topiramate", "Classification": "Not Violated", "Justification": "The patient is not taking any carbonic anhydrase inhibitors."},
+    {"Criterion": "Any treating investigator concern, related to tolerance, safety, adherence or for any other reason", "Classification": "Unclear", "Justification": "There is no information provided about any concerns from treating investigators."}
+  ],
+  "Recap": "The patient meets the age and consent criteria but does not meet the HbA1c range or prostate cancer diagnosis requirements. The patient is currently on metformin, which violates an exclusion criterion. There is insufficient information regarding the patient's MHC account, eGFR levels, and relationship with a UCHealth provider.",
+  "Final Decision": "Ineligible"
+}
+```

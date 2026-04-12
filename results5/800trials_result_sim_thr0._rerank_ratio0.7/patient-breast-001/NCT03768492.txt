@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient has histologically-confirmed carcinoma of breast (all subtypes are permitted)", "Classification": "Met", "Justification": "The patient has a confirmed diagnosis of invasive ductal carcinoma of the breast, which is a subtype of breast carcinoma."},
+    {"Criterion": "Patient has undergone mastectomy with tissue expander-based reconstruction and require post-mastectomy radiation therapy (PMRT)", "Classification": "Unclear", "Justification": "There is no information provided about whether the patient has undergone mastectomy or requires PMRT."},
+    {"Criterion": "Stage DCIS (0) -III breast cancer, excluding any patients with inflammatory breast cancer at presentation", "Classification": "Not Met", "Justification": "The patient's cancer is classified as Stage IV, which does not meet the criteria of Stage DCIS (0) or Stage III."},
+    {"Criterion": "Patient will receive irradiation of the chest wall", "Classification": "Unclear", "Justification": "There is no information provided about whether the patient will receive irradiation of the chest wall."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient with skin changes or inflammatory carcinoma at presentation", "Classification": "Not Violated", "Justification": "There is no mention of skin changes or inflammatory carcinoma at presentation in the patient's data."},
+    {"Criterion": "Patient has (cT4b-d) - unhealed wound in the radiation field", "Classification": "Not Violated", "Justification": "There is no information provided about the presence of an unhealed wound in the radiation field."},
+    {"Criterion": "Patient has allergy to Caffeine", "Classification": "Not Violated", "Justification": "There is no mention of a caffeine allergy in the patient's data."},
+    {"Criterion": "Patient has systemic lupus erythematosus or scleroderma that increases the risk of radiation dermatitis development", "Classification": "Not Violated", "Justification": "There is no mention of systemic lupus erythematosus or scleroderma in the patient's data."},
+    {"Criterion": "Patient will receive concurrent chemotherapy with radiation", "Classification": "Not Violated", "Justification": "The patient is currently receiving fulvestrant and palbociclib, which are not classified as concurrent chemotherapy with radiation."},
+    {"Criterion": "Planned accelerated or hypofractionated fractionation", "Classification": "Unclear", "Justification": "There is no information provided about the planned fractionation schedule for radiation therapy."},
+    {"Criterion": "Previous radiation to the ipsilateral breast or chest wall or thoracic region", "Classification": "Unclear", "Justification": "There is no information provided about previous radiation to the ipsilateral breast, chest wall, or thoracic region."},
+    {"Criterion": "Anyone who will require bolus use during radiation", "Classification": "Unclear", "Justification": "There is no information provided about the use of bolus during radiation therapy."},
+    {"Criterion": "All pre-menopausal women will require a urine qualitative pregnancy test to exclude pregnancy", "Classification": "Irrelevant", "Justification": "The patient is 47 years old, which is typically post-menopausal, making this criterion irrelevant."}
+  ],
+  "Recap": "The patient meets the inclusion criterion of having a histologically-confirmed carcinoma of the breast. However, the patient does not meet the inclusion criteria related to the stage of cancer and the requirement for PMRT. The exclusion criteria are mostly not violated, with some remaining unclear due to lack of information.",
+  "Final Decision": "Ineligible"
+}
+```

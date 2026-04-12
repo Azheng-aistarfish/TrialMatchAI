@@ -1,0 +1,28 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients with age between 18 and 70 years.", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Breast cancer, lymphoma, bone tumor or Gynecologic tumor patients.", "Classification": "Not Met", "Justification": "The patient is diagnosed with COVID-19, not any of the specified cancers."},
+    {"Criterion": "With multi-cycle chemotherapy.", "Classification": "Not Met", "Justification": "There is no mention of the patient undergoing chemotherapy in the provided data."},
+    {"Criterion": "With III/IV degree neutropenia after the last cycle of chemotherapy and plans to use the same regimen in the subsequent cycles.FN risk of the chemotherapy regimens is ≥20%，or 10%≤FN risk<20% and has high risk factors associated with FN.", "Classification": "Not Met", "Justification": "The patient has not undergone chemotherapy, so this criterion is not applicable."},
+    {"Criterion": "KPS score≥ 70.", "Classification": "Unclear", "Justification": "The patient's KPS score is not provided in the data."},
+    {"Criterion": "Expected to survive more than 3 months.", "Classification": "Unclear", "Justification": "There is no information on the patient's prognosis or expected survival duration."},
+    {"Criterion": "No hematologic system disease and ANC≥1.5×10E9/L, PKT≥80×10E9/L, Hb≥ 75g/L, WBC≥3×10E9/L, and no bleeding tendency.", "Classification": "Unclear", "Justification": "The patient's hematologic parameters are not provided in the data."},
+    {"Criterion": "Written informed consent are acquired.", "Classification": "Met", "Justification": "The data confirms that written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "With infection or systemic antibiotic therapy 72h before chemotherapy.", "Classification": "Irrelevant", "Justification": "The patient has not undergone chemotherapy, so this criterion does not apply."},
+    {"Criterion": "With any abnormal hematopoietic function.", "Classification": "Unclear", "Justification": "There is no information on the patient's hematopoietic function in the data."},
+    {"Criterion": "Received transplantation within 3 months.", "Classification": "Not Violated", "Justification": "There is no mention of the patient having received a transplantation in the data."},
+    {"Criterion": "Suffered from other malignant tumor or brain metastases.", "Classification": "Not Violated", "Justification": "The patient is diagnosed with COVID-19, not a malignant tumor or brain metastases."},
+    {"Criterion": "TBIL, ALT,AST > 2.5×ULN; if it were caused by liver metastases, TBIL, ALT,AST >5×ULN.", "Classification": "Unclear", "Justification": "The patient's liver function test results are not provided in the data."},
+    {"Criterion": "Cr >1.5 ×ULN.", "Classification": "Unclear", "Justification": "The patient's creatinine levels are not provided in the data."},
+    {"Criterion": "Sensitive to the product or other genetically engineered biological products from Escherichia coli strains.", "Classification": "Irrelevant", "Justification": "There is no information on the patient's sensitivity to these products in the data."},
+    {"Criterion": "Mental or nervous system disorders.", "Classification": "Not Violated", "Justification": "There is no mention of mental or nervous system disorders in the patient's data."},
+    {"Criterion": "Refused to accept contraceptive measures.", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Other situations that investigators consider as contra-indication for this study.", "Classification": "Unclear", "Justification": "There is no information on other potential contra-indications in the data."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria related to cancer diagnosis, chemotherapy, and specific health parameters due to lack of information. However, they have provided written informed consent. Exclusion criteria related to transplantation, malignant tumors, and mental disorders are not violated, but other criteria remain unclear due to missing data.",
+  "Final Decision": "Ineligible"
+}
+```

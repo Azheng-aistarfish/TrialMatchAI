@@ -1,0 +1,26 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologically or cytologically confirmed diagnosis of non-squamous non-small cell lung cancer (NSCLC).", "Classification": "Unclear", "Justification": "The patient's description does not mention any diagnosis of lung cancer, making it unclear if this criterion is met."},
+    {"Criterion": "Non-operable / non-irradiable stage III or stage IV.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's cancer stage, so it is unclear if this criterion is met."},
+    {"Criterion": "Patient must be eligible to receive 3 or 4 cycles of induction treatment combination with pembrolizumab plus platinum (cisplatin or carboplatin) and pemetrexed.", "Classification": "Unclear", "Justification": "The patient's eligibility for this specific treatment regimen is not mentioned, making it unclear if this criterion is met."},
+    {"Criterion": "In the presence of an EGFR mutation, an ALK or ROS1 rearrangement the patient must have received at least one specific targeted therapy line.", "Classification": "Irrelevant", "Justification": "There is no mention of EGFR, ALK, or ROS1 mutations in the patient's description, making this criterion irrelevant."},
+    {"Criterion": "Age ≥ 18 years old.", "Classification": "Met", "Justification": "The patient is 58 years old, which meets the age criterion."},
+    {"Criterion": "Performance status 0 or 1.", "Classification": "Unclear", "Justification": "The patient's performance status is not provided, making it unclear if this criterion is met."},
+    {"Criterion": "Signed informed consent.", "Classification": "Met", "Justification": "The patient has provided written informed consent, meeting this criterion."},
+    {"Criterion": "Patient affiliated to a social security system or beneficiary of the same.", "Classification": "Unclear", "Justification": "There is no information about the patient's affiliation with a social security system, making it unclear if this criterion is met."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Mixed small-cell, squamous-cell carcinoma.", "Classification": "Irrelevant", "Justification": "There is no mention of small-cell or squamous-cell carcinoma in the patient's description, making this criterion irrelevant."},
+    {"Criterion": "Mental or psychological illness that does not allow the patient to give informed consent.", "Classification": "Not Violated", "Justification": "The patient has provided informed consent, indicating no mental or psychological illness preventing consent."},
+    {"Criterion": "Pregnant or breastfeeding women.", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."},
+    {"Criterion": "History of HIV or chronic hepatitis B or C.", "Classification": "Not Violated", "Justification": "There is no mention of HIV or chronic hepatitis B or C in the patient's description, so this criterion is not violated."},
+    {"Criterion": "Active or uncontrolled infection.", "Classification": "Unclear", "Justification": "There is no information about active or uncontrolled infections, making it unclear if this criterion is violated."},
+    {"Criterion": "History of one or more of the following cardiovascular disorders in the previous 6 months: - Coronary artery bypass or peripheral arterial bypass, cardiac angioplasty or stent.", "Classification": "Violated", "Justification": "The patient has a history of myocardial infarctions requiring stenting and bypass surgery, violating this criterion."},
+    {"Criterion": "Congestive heart failure class III or IV as defined by the NYHA.", "Classification": "Unclear", "Justification": "The patient's NYHA classification is not provided, making it unclear if this criterion is violated."},
+    {"Criterion": "Concomitant treatment with another experimental treatment or participation in another clinical trial.", "Classification": "Not Violated", "Justification": "There is no mention of participation in another clinical trial or experimental treatment, so this criterion is not violated."}
+  ],
+  "Recap": "The patient meets the age and informed consent criteria but has unclear information regarding cancer diagnosis, treatment eligibility, performance status, and social security affiliation. The patient violates the cardiovascular disorder exclusion criterion due to recent stenting and bypass surgery.",
+  "Final Decision": "Ineligible"
+}
+```

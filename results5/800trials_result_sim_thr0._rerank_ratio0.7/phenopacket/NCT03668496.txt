@@ -1,0 +1,38 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Subjects with histopathological diagnosis of squamous non-small cell lung cancer (SqNSCLC) and clinical stage IV", "Classification": "Unclear", "Justification": "The patient's description does not mention any diagnosis of lung cancer, let alone SqNSCLC or stage IV."},
+    {"Criterion": "has not received prior systemic treatment for metastatic NSCLC", "Classification": "Irrelevant", "Justification": "The patient does not have a diagnosis of NSCLC, making this criterion irrelevant."},
+    {"Criterion": "Has a performance status of 0 or 1 on the Eastern Cooperative Oncology Group (ECOG) Performance Status", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided in the description."},
+    {"Criterion": "Has archived Tumor tissue samples", "Classification": "Irrelevant", "Justification": "The patient does not have a diagnosis of lung cancer, so this criterion is irrelevant."},
+    {"Criterion": "Subject must have a measurable target lesion based on RECIST v1.1", "Classification": "Irrelevant", "Justification": "The patient does not have a diagnosis of lung cancer, making this criterion irrelevant."},
+    {"Criterion": "Has adequate organ function", "Classification": "Unclear", "Justification": "While the patient has mild hepatic transaminase elevation, there is no comprehensive assessment of organ function provided."},
+    {"Criterion": "Women of childbearing age must undergo a serological pregnancy test within 7 days before the first dose with negative results", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Female subjects of reproductive age and male subjects whose spouse is a woman of reproductive age must agree to effective contraception within 180 days after the study period and the last dose of the study drug", "Classification": "Irrelevant", "Justification": "The patient is male, and there is no mention of a spouse, making this criterion irrelevant."},
+    {"Criterion": "Subjects should be voluntarily participate in clinical studies and informed consent should be signed", "Classification": "Met", "Justification": "The patient has provided written informed consent, meeting this criterion."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "active brain metastases and meningeal metastasis", "Classification": "Not Violated", "Justification": "There is no mention of brain or meningeal metastases in the patient's description."},
+    {"Criterion": "uncontrollable tumor-related pain", "Classification": "Not Violated", "Justification": "The patient does not have a diagnosis of lung cancer, so this criterion is not applicable."},
+    {"Criterion": "massive pleural effusion, peritoneal effusion or pericardial effusion which cannot be controlled by repeated drainage", "Classification": "Not Violated", "Justification": "There is no mention of any effusions in the patient's description."},
+    {"Criterion": "radiotherapy to lung that is >30 Gy within 24 weeks before the first dose", "Classification": "Not Violated", "Justification": "The patient does not have a diagnosis of lung cancer, so this criterion is not applicable."},
+    {"Criterion": "imaging (CT or MRI) showed that the tumor invading the large vessels", "Classification": "Not Violated", "Justification": "The patient does not have a diagnosis of lung cancer, making this criterion irrelevant."},
+    {"Criterion": "Known EGFR/ALK mutation", "Classification": "Not Violated", "Justification": "The patient's genetic testing revealed an LDLR mutation, not EGFR/ALK, so this criterion is not violated."},
+    {"Criterion": "subjects with any known or suspected autoimmune diseases", "Classification": "Not Violated", "Justification": "There is no mention of autoimmune diseases in the patient's description."},
+    {"Criterion": "subjects with known or suspected interstitial pneumonia", "Classification": "Not Violated", "Justification": "There is no mention of interstitial pneumonia in the patient's description."},
+    {"Criterion": "Subjects with severe cardiovascular and cerebrovascular diseases", "Classification": "Violated", "Justification": "The patient has a complex cardiac history, including multiple myocardial infarctions, coronary artery disease, and impaired left ventricular function, indicating severe cardiovascular disease."},
+    {"Criterion": "arteriovenous thrombosis events, such as deep vein thrombosis and pulmonary embolism, occurred within 3 months", "Classification": "Not Violated", "Justification": "There is no mention of recent thrombosis events in the patient's description."},
+    {"Criterion": "female subjects who are pregnant or lactation or who plan to be pregnant during the study period", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "positive HIV test", "Classification": "Not Violated", "Justification": "There is no mention of an HIV test in the patient's description."},
+    {"Criterion": "active hepatitis B", "Classification": "Not Violated", "Justification": "There is no mention of hepatitis B in the patient's description."},
+    {"Criterion": "evidence of active TB infection within 1 year before first dose", "Classification": "Not Violated", "Justification": "There is no mention of tuberculosis in the patient's description."},
+    {"Criterion": "severe infection occurred within 4 weeks before the first dose", "Classification": "Not Violated", "Justification": "There is no mention of a recent severe infection in the patient's description."},
+    {"Criterion": "patients with clinically significant bleeding symptoms or with obvious bleeding tendency in the first month", "Classification": "Not Violated", "Justification": "There is no mention of bleeding symptoms in the patient's description."},
+    {"Criterion": "subjects who is on systemic immunogenic agents", "Classification": "Not Violated", "Justification": "The patient is not on systemic immunogenic agents, as per the description."},
+    {"Criterion": "a history of severe allergic reactions to other monoclonal antibodies/fusion proteins", "Classification": "Not Violated", "Justification": "There is no mention of a history of severe allergic reactions in the patient's description."},
+    {"Criterion": "History of severe allergic reactions to carboplatin or paclitaxel or their preventive drugs", "Classification": "Not Violated", "Justification": "There is no mention of a history of severe allergic reactions to these drugs in the patient's description."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for a diagnosis of SqNSCLC or stage IV lung cancer, making most inclusion criteria irrelevant. However, the patient has provided informed consent. The patient's severe cardiovascular disease violates the exclusion criteria, disqualifying them from the trial.",
+  "Final Decision": "Ineligible"
+}
+```

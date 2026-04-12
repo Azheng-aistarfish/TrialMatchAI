@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Clinical stage T3-4N+M0", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, not gastric cancer or Siewert II/III esophagogastric junction carcinoma, which are the specified conditions for this criterion."},
+    {"Criterion": "Gastric cancer or Siewert II/III esophagogastric junction carcinoma", "Classification": "Not Met", "Justification": "The patient has lung cancer, not gastric or esophagogastric junction carcinoma, as required by this criterion."},
+    {"Criterion": "Pathologically confirmed adenocarcinoma", "Classification": "Met", "Justification": "The patient's diagnosis of lung adenocarcinoma is confirmed by a CT-guided biopsy."},
+    {"Criterion": "18-75 years old, male or female", "Classification": "Met", "Justification": "The patient is 53 years old, which falls within the specified age range."},
+    {"Criterion": "Karnofsky score >= 70", "Classification": "Unclear", "Justification": "There is no information provided about the patient's Karnofsky score."},
+    {"Criterion": "White blood cell count >= 4 x 109 / L", "Classification": "Unclear", "Justification": "The patient's white blood cell count is not provided in the data."},
+    {"Criterion": "Platelet count >= 100 x109/L", "Classification": "Unclear", "Justification": "The patient's platelet count is not provided in the data."},
+    {"Criterion": "Serum creatinine =< 1 x upper limit of normal", "Classification": "Unclear", "Justification": "The patient's serum creatinine level is not provided in the data."},
+    {"Criterion": "Total bilirubin =< 1 x upper limit of normal", "Classification": "Unclear", "Justification": "The patient's total bilirubin level is not provided in the data."},
+    {"Criterion": "Alanine aminotransferase and aspartate aminotransferase =< 2.5 x upper limit of normal", "Classification": "Unclear", "Justification": "The patient's liver enzyme levels are not provided in the data."},
+    {"Criterion": "Alkaline phosphatase =< 5 x upper limit of normal", "Classification": "Unclear", "Justification": "The patient's alkaline phosphatase level is not provided in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Any chemotherapy or radiotherapy history before enrollment", "Classification": "Not Violated", "Justification": "The patient is currently undergoing treatment with osimertinib, but there is no mention of prior chemotherapy or radiotherapy."},
+    {"Criterion": "Siewert I EGJ cancer", "Classification": "Irrelevant", "Justification": "The patient has lung cancer, not esophagogastric junction cancer, making this criterion irrelevant to her case."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria related to the type of cancer and clinical stage. However, she meets the age and pathologically confirmed adenocarcinoma criteria. There is insufficient data to assess several other inclusion criteria. The exclusion criteria are not violated based on the provided information.",
+  "Final Decision": "Ineligible"
+}
+```

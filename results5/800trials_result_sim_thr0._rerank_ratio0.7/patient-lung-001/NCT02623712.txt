@@ -1,0 +1,15 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "aged ≥35 years", "Classification": "Met", "Justification": "The patient is 53 years old, which satisfies the age requirement of being 35 years or older."},
+    {"Criterion": "at least one nodule measuring ≤15 mm in average diameter on chest CT", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, which implies the presence of larger nodules or tumors, not small nodules ≤15 mm in diameter."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Pregnant Women", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's pregnancy status, making this criterion irrelevant."},
+    {"Criterion": "Age <35 years", "Classification": "Not Violated", "Justification": "The patient is 53 years old, which does not violate the age criterion of being under 35 years."},
+    {"Criterion": "Known diagnosis of cancer (except non-melanoma skin cancer) within 5 years", "Classification": "Violated", "Justification": "The patient has a known diagnosis of metastatic non-small cell lung cancer, which violates the exclusion criterion of having a cancer diagnosis within 5 years, except for non-melanoma skin cancer."}
+  ],
+  "Recap": "The patient meets the age requirement but does not meet the nodule size criterion for inclusion. The patient violates the exclusion criterion due to a known diagnosis of cancer within 5 years.",
+  "Final Decision": "Ineligible"
+}
+```

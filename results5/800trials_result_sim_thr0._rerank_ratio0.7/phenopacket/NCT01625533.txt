@@ -1,0 +1,19 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age >18 years old", "Classification": "Met", "Justification": "The patient is 58 years old, which satisfies the age requirement."},
+    {"Criterion": "A clinical indication for diagnostic coronary angiography to evaluate possible CAD", "Classification": "Met", "Justification": "The patient has Stage III coronary artery disease with multivessel involvement, indicating a clinical need for diagnostic coronary angiography."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Pregnancy", "Classification": "Irrelevant", "Justification": "The patient is male, so pregnancy is not applicable."},
+    {"Criterion": "Known allergy to iodinated contrast", "Classification": "Not Violated", "Justification": "There is no mention of an allergy to iodinated contrast in the patient's profile."},
+    {"Criterion": "Renal insufficiency (>1.5mg/dL)", "Classification": "Not Violated", "Justification": "There is no information provided about renal function or creatinine levels, so this cannot be assessed."},
+    {"Criterion": "Cardiogenic shock", "Classification": "Not Violated", "Justification": "The patient's condition does not mention cardiogenic shock."},
+    {"Criterion": "Acute myocardial infarction within one week", "Classification": "Not Violated", "Justification": "The patient's history of myocardial infarctions does not indicate a recent event within the past week."},
+    {"Criterion": "Prior coronary artery bypass graft treatment", "Classification": "Violated", "Justification": "The patient has undergone coronary artery bypass surgery, which disqualifies him based on this criterion."},
+    {"Criterion": "Prior percutaneous coronary intervention treatment", "Classification": "Violated", "Justification": "The patient has had emergency stenting, which is a form of percutaneous coronary intervention, disqualifying him based on this criterion."}
+  ],
+  "Recap": "The patient meets the age and clinical indication criteria for the trial. However, he is disqualified due to prior coronary artery bypass graft and percutaneous coronary intervention treatments.",
+  "Final Decision": "Ineligible"
+}
+```

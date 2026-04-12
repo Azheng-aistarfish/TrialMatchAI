@@ -1,0 +1,45 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "ASA physical status 1-3",
+      "Classification": "Unclear",
+      "Justification": "The patient's ASA physical status is not provided in the data."
+    },
+    {
+      "Criterion": "Lung lesion between 1 and 5 cm",
+      "Classification": "Unclear",
+      "Justification": "There is no information about the presence or size of a lung lesion in the patient's data."
+    },
+    {
+      "Criterion": "Imaging-based disease free lymph nodes (N0)",
+      "Classification": "Not Met",
+      "Justification": "The patient's TNM classification is N1, indicating lymph node involvement."
+    },
+    {
+      "Criterion": "Patient is deemed a candidate for definitive lung tissue resection by a thoracic surgeon",
+      "Classification": "Unclear",
+      "Justification": "There is no information about a thoracic surgeon's assessment regarding lung tissue resection."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Pregnancy",
+      "Classification": "Not Violated",
+      "Justification": "The patient's pregnancy status is not mentioned, but there is no indication of pregnancy in the data."
+    },
+    {
+      "Criterion": "Inability to consent",
+      "Classification": "Not Violated",
+      "Justification": "Written informed consent has been obtained from the patient or their legal representative."
+    },
+    {
+      "Criterion": "Known or suspected allergy to 99mTc-nanocolloid or ICG",
+      "Classification": "Not Violated",
+      "Justification": "There is no mention of any allergies to 99mTc-nanocolloid or ICG in the patient's data."
+    }
+  ],
+  "Recap": "The patient does not meet the inclusion criterion of having disease-free lymph nodes (N0) as she is classified as N1. Other inclusion criteria remain unclear due to missing data. None of the exclusion criteria are violated based on the available information.",
+  "Final Decision": "Ineligible"
+}
+```

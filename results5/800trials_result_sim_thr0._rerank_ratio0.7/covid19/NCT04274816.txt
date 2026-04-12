@@ -1,0 +1,22 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age ≥ 18 years", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Clinical stage I/II melanoma patients, planned to undergo a sentinel lymph node biopsy (SNB)", "Classification": "Unclear", "Justification": "There is no information about the patient's melanoma stage or plans for a sentinel lymph node biopsy."},
+    {"Criterion": "ECOG performance status 0 or 1", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not mentioned in the data."},
+    {"Criterion": "White blood count (WBC) ≥ 3 x10^9/L", "Classification": "Unclear", "Justification": "The patient's white blood count is not provided in the data."},
+    {"Criterion": "Platelet count ≥ 100 x10^9/L", "Classification": "Unclear", "Justification": "The patient's platelet count is not provided in the data."},
+    {"Criterion": "Hemoglobin ≥ 6.5 mmol/L", "Classification": "Unclear", "Justification": "The patient's hemoglobin level is not provided in the data."},
+    {"Criterion": "Serum creatinine ≤ 2.5 x ULN", "Classification": "Violated", "Justification": "The patient has Stage 3 chronic kidney disease, which likely indicates elevated serum creatinine levels beyond the upper limit of normal."},
+    {"Criterion": "Total serum bilirubin, AST, ALT and LDH ≤ 2x ULN", "Classification": "Unclear", "Justification": "The patient's levels of serum bilirubin, AST, ALT, and LDH are not provided in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Non-oncology vaccine therapy used for prevention of infectious diseases (up-to) 4 weeks prior and/or 8 weeks after any dose of tremelimumab", "Classification": "Not Violated", "Justification": "There is no information about the patient receiving non-oncology vaccine therapy."},
+    {"Criterion": "Prior treatment with a CD137 agonist or CTLA-4 inhibitor or agonist", "Classification": "Not Violated", "Justification": "There is no information about the patient receiving treatment with a CD137 agonist or CTLA-4 inhibitor or agonist."},
+    {"Criterion": "Uncontrolled infectious disease including negative testing for HIV, HBV, HCV", "Classification": "Violated", "Justification": "The patient is currently experiencing COVID-19, which is an uncontrolled infectious disease."},
+    {"Criterion": "Autoimmune disease", "Classification": "Unclear", "Justification": "There is no information about the patient having an autoimmune disease."}
+  ],
+  "Recap": "The patient's eligibility is unclear for several inclusion criteria due to missing data. However, the patient violates the exclusion criterion of having an uncontrolled infectious disease (COVID-19) and likely violates the serum creatinine criterion due to Stage 3 chronic kidney disease.",
+  "Final Decision": "Ineligible"
+}
+```

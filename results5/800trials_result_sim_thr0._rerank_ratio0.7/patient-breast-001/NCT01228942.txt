@@ -1,0 +1,16 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "age greater than 18", "Classification": "Met", "Justification": "The patient is 47 years old, which is greater than 18."},
+    {"Criterion": "diagnosis of recurrent, persistent, refractory ovarian, fallopian or primary peritoneal cancer", "Classification": "Not Met", "Justification": "The patient has metastatic breast cancer, not ovarian, fallopian, or primary peritoneal cancer."},
+    {"Criterion": "tumor tissue, ascites or pleural fluid available for biopsy", "Classification": "Unclear", "Justification": "There is no information provided about the availability of tumor tissue, ascites, or pleural fluid for biopsy."},
+    {"Criterion": "life expectancy greater than 6 months", "Classification": "Unclear", "Justification": "There is no information provided about the patient's life expectancy."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "patients with borderline or low malignant histologies", "Classification": "Not Violated", "Justification": "The patient's breast cancer is classified as Stage IV with a TNM classification of T3, N1, M1, indicating a high-grade malignancy, not borderline or low malignant."},
+    {"Criterion": "patients with a history of other malignancies within last 5 years", "Classification": "Not Violated", "Justification": "The patient has a history of breast cancer, but there is no mention of any other malignancies within the last 5 years."}
+  ],
+  "Recap": "The patient meets the age criterion and does not violate the exclusion criteria related to malignancy type or history. However, she does not meet the cancer type criterion and lacks information on biopsy material availability and life expectancy.",
+  "Final Decision": "Ineligible"
+}
+```

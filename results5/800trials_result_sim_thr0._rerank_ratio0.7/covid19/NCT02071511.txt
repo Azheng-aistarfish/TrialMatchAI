@@ -1,0 +1,26 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age ≥ 18 years", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Ischemic cardiomyopathy", "Classification": "Unclear", "Justification": "The type of cardiomyopathy is not specified in the patient's data."},
+    {"Criterion": "NYHA II-III", "Classification": "Unclear", "Justification": "The patient's NYHA classification is not mentioned in the data."},
+    {"Criterion": "Recurrent ventricular tachycardia, ICD interventions (shock or ATP)", "Classification": "Unclear", "Justification": "There is no information on ventricular tachycardia or ICD interventions in the patient's data."},
+    {"Criterion": "Obtained written informed consent", "Classification": "Met", "Justification": "The patient has obtained written informed consent as stated in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Age <18 years", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Previous VT ablation", "Classification": "Unclear", "Justification": "There is no information on previous VT ablation in the patient's data."},
+    {"Criterion": "NYHA IV", "Classification": "Unclear", "Justification": "The patient's NYHA classification is not mentioned in the data."},
+    {"Criterion": "Cardiopulmonary decompensation within the last 4 weeks", "Classification": "Violated", "Justification": "The patient is experiencing acute respiratory failure, indicating cardiopulmonary decompensation."},
+    {"Criterion": "Pregnant women or women of childbearing potential without a negative pregnancy test within 48 hours prior to treatment", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."},
+    {"Criterion": "History of hemorrhagic diathesis or other coagulopathies", "Classification": "Unclear", "Justification": "There is no information on coagulopathies in the patient's data."},
+    {"Criterion": "Contraindication for oral anticoagulation", "Classification": "Unclear", "Justification": "There is no information on contraindications for oral anticoagulation in the patient's data."},
+    {"Criterion": "Hyper- or hypothyroidism", "Classification": "Unclear", "Justification": "There is no information on thyroid function in the patient's data."},
+    {"Criterion": "Drug or chronic alcohol abuse", "Classification": "Unclear", "Justification": "There is no information on drug or alcohol abuse in the patient's data."},
+    {"Criterion": "Has any condition that would make participation not be in the best interest of the subject", "Classification": "Unclear", "Justification": "There is no information on conditions that would make participation not in the patient's best interest."},
+    {"Criterion": "Incompliance", "Classification": "Unclear", "Justification": "There is no information on the patient's compliance in the data."}
+  ],
+  "Recap": "The patient has obtained written informed consent, which is a positive factor for eligibility. However, the patient is experiencing acute respiratory failure, which violates the exclusion criterion of cardiopulmonary decompensation within the last 4 weeks. Other criteria remain unclear due to insufficient data.",
+  "Final Decision": "Ineligible"
+}
+```

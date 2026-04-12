@@ -1,0 +1,30 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Diagnosis of CD19+ B-ALL or NHL undergoing related allogeneic HSCT, with no evidence of disease post-HSCT (Group A) OR minimal residual disease (MRD) at time of HSCT OR relapse post-HSCT (Group B).", "Classification": "Unclear", "Justification": "The patient's diagnosis and disease status post-HSCT are not provided in the data."},
+    {"Criterion": "Age ≤ 75 years old.", "Classification": "Unclear", "Justification": "The patient's age is not specified in the provided data."},
+    {"Criterion": "Patients with life expectancy ≥ 12 weeks.", "Classification": "Unclear", "Justification": "There is no information on the patient's life expectancy in the data."},
+    {"Criterion": "Patients with a Karnofsky/Lansky score ≥ 60.", "Classification": "Unclear", "Justification": "The patient's Karnofsky/Lansky score is not mentioned in the data."},
+    {"Criterion": "Related Donor approved for stem cell transplant.", "Classification": "Unclear", "Justification": "The status of a related donor for the patient is not provided in the data."},
+    {"Criterion": "Patient or parent/guardian capable of providing informed consent.", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."},
+    {"Criterion": "Patients with bilirubin less than or equal to 2x upper limit of normal.", "Classification": "Unclear", "Justification": "The patient's bilirubin levels are not mentioned in the data."},
+    {"Criterion": "AST less than or equal to 3x upper limit of normal.", "Classification": "Unclear", "Justification": "The patient's AST levels are not provided in the data."},
+    {"Criterion": "Creatinine ≤2x upper limit of normal for age.", "Classification": "Unclear", "Justification": "The patient's creatinine levels are not specified in the data."},
+    {"Criterion": "Hemoglobin >7.0 (can be a transfused value).", "Classification": "Unclear", "Justification": "The patient's hemoglobin levels are not mentioned in the data."},
+    {"Criterion": "Pulse oximetry of >90% on room air.", "Classification": "Unclear", "Justification": "The patient's pulse oximetry levels are not provided in the data."},
+    {"Criterion": "Sexually active patients must be willing to utilize one of the more effective birth control methods for 6 months after the CTL infusion. The male partner should use a condom.", "Classification": "Irrelevant", "Justification": "The patient's sexual activity status is not mentioned, and it is unclear if this criterion applies."},
+    {"Criterion": "Available stem cell donor-derived CD19-CAR transduced multi-virus-specific cytotoxic T lymphocytes with 15% expression of CD19-CAR determined by flow-cytometry and <10% cytotoxicity against patient or donor-derived (or other family member-derived) PHA blasts.", "Classification": "Unclear", "Justification": "There is no information on the availability of the required stem cell donor-derived cells in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Severe intercurrent infection: Patients with a concurrent bacterial infection must be receiving definitive therapy and have no signs of progressing infection for 72 hours prior to enrollment. For fungal infections patients must be receiving definitive systemic antifungal therapy and have no signs of progressing infection for 1 week prior to enrollment. Progressing infection is defined as hemodynamic instability attributable to sepsis or new symptoms, worsening physical signs or radiographic findings attributable to infection. Persisting fever without other signs or symptoms will not be interpreted as progressing infection.", "Classification": "Not Violated", "Justification": "There is no mention of any current infections or related symptoms in the patient's data."},
+    {"Criterion": "Evidence of graft versus host disease >grade II.", "Classification": "Not Violated", "Justification": "There is no information provided about the presence or severity of graft versus host disease in the patient's data."},
+    {"Criterion": "Pregnant or lactating.", "Classification": "Irrelevant", "Justification": "The patient's pregnancy or lactation status is not mentioned, and it is unclear if this criterion applies."},
+    {"Criterion": "History of hypersensitivity reactions to murine protein-containing products.", "Classification": "Not Violated", "Justification": "There is no mention of any hypersensitivity reactions in the patient's data."},
+    {"Criterion": "Currently taking corticosteroids for therapy of GVHD at a dose of >0.5mg/kg prednisone equivalent.", "Classification": "Not Violated", "Justification": "There is no information on the patient's use of corticosteroids in the data."},
+    {"Criterion": "CNS abnormalities: Presence of CNS-3 disease defined as detectable cerebrospinal blast cells in a sample of CSF with ≥ 5 WBCs per mm3; History or presence of any CNS disorder such as a seizure disorder, cerebrovascular ischemia/hemorrhage, dementia, cerebellar disease, or any autoimmune disease with CNS involvement.", "Classification": "Violated", "Justification": "The patient has cerebellar vermis hypoplasia, which is a CNS abnormality, thus violating this criterion."},
+    {"Criterion": "Patients who have received donor lymphocyte infusion (DLI) within 28 days.", "Classification": "Not Violated", "Justification": "There is no mention of the patient having received a donor lymphocyte infusion in the data."}
+  ],
+  "Recap": "The patient meets the informed consent criterion but has unclear status on several inclusion criteria due to missing data. The patient violates the exclusion criterion related to CNS abnormalities due to cerebellar vermis hypoplasia.",
+  "Final Decision": "Ineligible"
+}
+```

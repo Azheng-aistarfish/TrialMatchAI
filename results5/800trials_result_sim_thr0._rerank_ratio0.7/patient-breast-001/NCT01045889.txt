@@ -1,0 +1,33 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "HIV positivity", "Classification": "Unclear", "Justification": "The patient's HIV status is not mentioned in the provided data."},
+    {"Criterion": "Large cell histology (DLBCL, Immunoblastic, Plasmablastic, Anaplastic lymphoma)", "Classification": "Not Met", "Justification": "The patient has invasive ductal carcinoma of the breast, not any of the specified large cell lymphomas."},
+    {"Criterion": "Age 18-60 years", "Classification": "Met", "Justification": "The patient is 47 years old, which falls within the specified age range."},
+    {"Criterion": "Age-adjusted IPI 2-3", "Classification": "Unclear", "Justification": "The patient's International Prognostic Index (IPI) score is not provided in the data."},
+    {"Criterion": "Ann Arbor stage I B-IV", "Classification": "Met", "Justification": "The patient's breast cancer is classified as Stage IV, which is within the specified range."},
+    {"Criterion": "Written informed consent", "Classification": "Met", "Justification": "The patient has provided written informed consent as stated in the description."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Burkitt lymphoma", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not Burkitt lymphoma."},
+    {"Criterion": "Lymphoblastic lymphoma", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not lymphoblastic lymphoma."},
+    {"Criterion": "Primary effusion lymphoma", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not primary effusion lymphoma."},
+    {"Criterion": "Age-adjusted IPI 0-1", "Classification": "Irrelevant", "Justification": "The patient's IPI score is not provided, so this criterion cannot be assessed."},
+    {"Criterion": "Performance Status (WHO) >2 (if not related to lymphoma)", "Classification": "Unclear", "Justification": "The patient's WHO performance status is not mentioned in the data."},
+    {"Criterion": "Inadequate cardiac function (V.E.F. < 50%) or clinically evident cardiac disease", "Classification": "Unclear", "Justification": "There is no information on the patient's cardiac function or any cardiac disease."},
+    {"Criterion": "Inadequate pulmonary function (DLCO < 50% and/or O2 < 96%)", "Classification": "Unclear", "Justification": "The patient's pulmonary function is not mentioned in the data."},
+    {"Criterion": "Inadequate renal function (creatinine > 2 mg/dl)", "Classification": "Unclear", "Justification": "The patient's renal function is not mentioned in the data."},
+    {"Criterion": "Inadequate liver function (AST/ALT > 3 ULN and/or PT < 70%, if not related to lymphoma)", "Classification": "Unclear", "Justification": "The patient's liver function is not mentioned in the data."},
+    {"Criterion": "Inadequate marrow function (neutrophils < 1500/cmm; platelets < 100.000/cmm, if not related to lymphoma)", "Classification": "Unclear", "Justification": "The patient's marrow function is not mentioned in the data."},
+    {"Criterion": "Virologic failure to HAART (including at least one NRTI, one NNRTI and two PI) and/or CD4 count < 50/cmm", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not HIV, so this criterion does not apply."},
+    {"Criterion": "CNS or meningeal lymphoma", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not CNS or meningeal lymphoma."},
+    {"Criterion": "Active opportunistic infections", "Classification": "Unclear", "Justification": "There is no information on whether the patient has any active opportunistic infections."},
+    {"Criterion": "Pregnancy", "Classification": "Unclear", "Justification": "The patient's pregnancy status is not mentioned in the data."},
+    {"Criterion": "Other evolutive malignancy (except of localized non-melanoma skin cancer and in situ portio carcinoma)", "Classification": "Not Met", "Justification": "The patient has metastatic breast cancer, which is an evolutive malignancy."},
+    {"Criterion": "Any other condition that contraindicates this treatment program at discretion of physician", "Classification": "Unclear", "Justification": "There is no information on any other conditions that might contraindicate the treatment program."},
+    {"Criterion": "HBsAg positivity with active viral replication (HBV-DNA positivity)", "Classification": "Unclear", "Justification": "The patient's HBsAg status and viral replication are not mentioned in the data."}
+  ],
+  "Recap": "The patient meets the age and stage criteria and has provided informed consent. However, she does not meet the histology criterion and has an evolutive malignancy, which disqualifies her. Other criteria remain unclear due to missing data.",
+  "Final Decision": "Ineligible"
+}
+```

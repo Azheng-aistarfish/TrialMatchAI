@@ -1,0 +1,30 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Adult patients (> 18 years old) with diagnosis of idiopathic peripheral neuropathy",
+      "Classification": "Unclear",
+      "Justification": "The patient's age is not specified, and there is no mention of idiopathic peripheral neuropathy in the provided data."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Patients with alternative established diagnosis of heart disease (ischemic heart disease, primary valvular heart disease, cardiomyopathies, pericardial disease)",
+      "Classification": "Violated",
+      "Justification": "The patient has a diagnosed condition of cardiomyopathy, which is a type of heart disease."
+    },
+    {
+      "Criterion": "Patients with end stage renal disease undergoing dialysis",
+      "Classification": "Not Violated",
+      "Justification": "The patient has Stage 3 chronic kidney disease, not end stage renal disease, and there is no mention of dialysis."
+    },
+    {
+      "Criterion": "Patients with other medical conditions recognized to impair the 1-year prognosis of patients",
+      "Classification": "Violated",
+      "Justification": "The patient has multiple severe conditions, including COVID-19 with acute respiratory failure, which are likely to impair the 1-year prognosis."
+    }
+  ],
+  "Recap": "The patient is disqualified from the clinical trial due to the presence of cardiomyopathy and other severe medical conditions that impair the 1-year prognosis.",
+  "Final Decision": "Ineligible"
+}
+```

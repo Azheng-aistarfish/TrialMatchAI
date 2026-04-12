@@ -1,0 +1,41 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Male patients 18 years or older", "Classification": "Met", "Justification": "The patient is a 58-year-old male, which satisfies the age and gender requirement."},
+    {"Criterion": "Histologically documented prostate adenocarcinoma with progressive systemic disease despite castrate levels of testosterone", "Classification": "Unclear", "Justification": "There is no information provided about prostate adenocarcinoma or castrate levels of testosterone in the patient's data."},
+    {"Criterion": "Must have received prior Docetaxel treatment with evidence of disease progression", "Classification": "Unclear", "Justification": "The patient's history does not mention prior Docetaxel treatment or evidence of disease progression."},
+    {"Criterion": "Must have at least one of the four FDA approved therapies", "Classification": "Unclear", "Justification": "The patient's data does not specify if they have received any of the four FDA approved therapies for prostate cancer."},
+    {"Criterion": "Eastern Cooperative Oncology Group (ECOG) performance status 0-1", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided in the data."},
+    {"Criterion": "At least one measurable site of disease", "Classification": "Unclear", "Justification": "There is no information about measurable disease sites in the patient's data."},
+    {"Criterion": "Able to swallow and retain oral medication", "Classification": "Met", "Justification": "The patient is currently on oral medications (atorvastatin and metformin), indicating the ability to swallow and retain oral medication."},
+    {"Criterion": "Must have a castrate level of testosterone", "Classification": "Unclear", "Justification": "The patient's testosterone levels are not mentioned in the data."},
+    {"Criterion": "Discontinuation of all anti-androgen, anti-neoplastic or investigational treatment =/> 4 weeks", "Classification": "Unclear", "Justification": "There is no information about the patient's recent treatment history with anti-androgen, anti-neoplastic, or investigational treatments."},
+    {"Criterion": "Must have documented progressive disease to the previous line of therapy", "Classification": "Unclear", "Justification": "The patient's data does not provide information on disease progression or previous therapy lines."},
+    {"Criterion": "Absolute Neutrophil Count (ANC) ≥ 1.5 x 10^9/L", "Classification": "Unclear", "Justification": "The patient's ANC is not provided in the data."},
+    {"Criterion": "Hemoglobin (Hgb) ≥ 9 g/dL", "Classification": "Unclear", "Justification": "The patient's hemoglobin levels are not mentioned in the data."},
+    {"Criterion": "Platelets ≥ 80 x 10^9/L", "Classification": "Unclear", "Justification": "The patient's platelet count is not provided in the data."},
+    {"Criterion": "Serum total bilirubin ≤ 1.5 x upper limit of normal (ULN)", "Classification": "Unclear", "Justification": "The patient's serum total bilirubin levels are not mentioned in the data."},
+    {"Criterion": "Aspartate Aminotransferase (AST) and Alanine Transaminase (ALT) ≤ 2.5 x ULN or ≤ 5 x ULN if liver metastases are present", "Classification": "Unclear", "Justification": "The patient's AST and ALT levels are not provided, and there is no mention of liver metastases."},
+    {"Criterion": "Plasma creatine phosphokinase (CK) < 1.5 x ULN", "Classification": "Unclear", "Justification": "The patient's plasma CK levels are not mentioned in the data."},
+    {"Criterion": "Serum creatinine ≤ 1.5 x ULN or 24-hour clearance ≥ 50ml/min", "Classification": "Unclear", "Justification": "The patient's serum creatinine levels or clearance are not provided in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Asymptomatic or minimally symptomatic patients with docetaxel naïve metastatic castration resistant prostate cancer", "Classification": "Irrelevant", "Justification": "The patient's prostate cancer status is not mentioned, making this criterion irrelevant."},
+    {"Criterion": "Patients who have had major surgery within 4 weeks of initiation of study medication", "Classification": "Not Violated", "Justification": "There is no mention of recent major surgery in the patient's data."},
+    {"Criterion": "Patients with concurrent uncontrolled medical conditions", "Classification": "Violated", "Justification": "The patient has multiple uncontrolled medical conditions, including complex cardiac history and elevated LDL cholesterol levels."},
+    {"Criterion": "Patients unable to take oral drugs or with lack of physical integrity of the upper gastrointestinal tract", "Classification": "Not Violated", "Justification": "The patient is currently on oral medications, indicating no issues with taking oral drugs."},
+    {"Criterion": "Patients who have previously been treated with systemic LDE225 or with other Hh pathway inhibitors", "Classification": "Irrelevant", "Justification": "There is no mention of treatment with LDE225 or Hh pathway inhibitors in the patient's data."},
+    {"Criterion": "Patients who have active uncontrolled or symptomatic central nervous system (CNS) metastases", "Classification": "Irrelevant", "Justification": "There is no mention of CNS metastases in the patient's data."},
+    {"Criterion": "History of hypersensitivity to LDE225 or to drugs of similar chemical classes", "Classification": "Irrelevant", "Justification": "There is no mention of hypersensitivity to LDE225 or similar drugs in the patient's data."},
+    {"Criterion": "Patients who have neuromuscular disorders or are on concomitant treatment with drugs that are recognized to cause rhabdomyolysis", "Classification": "Not Violated", "Justification": "The patient is on atorvastatin, but there is no mention of neuromuscular disorders or other drugs causing rhabdomyolysis."},
+    {"Criterion": "Patients who are planning on embarking on a new strenuous exercise regimen after initiation of study treatment", "Classification": "Irrelevant", "Justification": "There is no mention of a new strenuous exercise regimen in the patient's data."},
+    {"Criterion": "Patients who have taken part in an experimental drug study within 4 weeks or 5 half-lives, whichever is longer, of initiating treatment with LDE225", "Classification": "Irrelevant", "Justification": "There is no mention of participation in an experimental drug study in the patient's data."},
+    {"Criterion": "Patients who are receiving other anti-neoplastic therapy besides Docetaxel concurrently or within 2 weeks of starting treatment with LDE225", "Classification": "Irrelevant", "Justification": "There is no mention of receiving other anti-neoplastic therapy in the patient's data."},
+    {"Criterion": "Patients who are receiving treatment with medications known to be moderate and strong inhibitors or inducers of Cytochrome P450 3A4/5 (CYP3A4/5) or drugs metabolized by Cytochrome P450 2B6 (CYP2B6) or Cytochrome P450 2C9 (CYP2C9) that have narrow therapeutic index", "Classification": "Violated", "Justification": "The patient is on atorvastatin, which is a moderate inhibitor of CYP3A4/5."},
+    {"Criterion": "Patients who require the use of warfarin (substrate of CYP2C9) cannot be enrolled as LDE225 is a competitive inhibitor of CYP2C9 based on in-vitro data", "Classification": "Not Violated", "Justification": "The patient is not on warfarin, so this criterion is not violated."},
+    {"Criterion": "Impaired cardiac function or clinically significant heart disease", "Classification": "Violated", "Justification": "The patient has a complex cardiac history, including multiple myocardial infarctions and impaired left ventricular function, which indicates significant heart disease."}
+  ],
+  "Recap": "The patient meets the age and gender requirement and is able to take oral medication. However, there is insufficient information on prostate cancer status, prior treatments, and specific lab values. The patient has multiple uncontrolled medical conditions, including significant heart disease, and is on atorvastatin, which is a moderate inhibitor of CYP3A4/5, violating relevant exclusion criteria.",
+  "Final Decision": "Ineligible"
+}
+```

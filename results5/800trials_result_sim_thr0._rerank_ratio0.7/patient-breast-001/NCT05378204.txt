@@ -1,0 +1,34 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Women (or men) aged ≥ 18 years with histologically proven breast cancer", "Classification": "Met", "Justification": "The patient is a 47-year-old female with a confirmed diagnosis of invasive ductal carcinoma of the breast."},
+    {"Criterion": "Metastatic relapse or locally advanced breast cancer", "Classification": "Met", "Justification": "The patient has metastatic breast cancer with liver lesions, classified as Stage IV."},
+    {"Criterion": "No-HER2 overexpression or amplification", "Classification": "Met", "Justification": "The patient's cancer is HER2-negative, meeting this criterion."},
+    {"Criterion": "Triple-negative or hormone receptor positive breast cancer", "Classification": "Met", "Justification": "The patient's cancer is hormone receptor-positive, which satisfies this criterion."},
+    {"Criterion": "Patients with metastases that can be biopsied except bone metastases", "Classification": "Met", "Justification": "The patient has liver metastases, which are biopsiable, and there is no mention of bone metastases."},
+    {"Criterion": "ECOG Performance Status ≤ 2", "Classification": "Unclear", "Justification": "The patient's ECOG Performance Status is not provided in the data."},
+    {"Criterion": "Patients must have measurable or evaluable disease according to RECIST v1.1", "Classification": "Unclear", "Justification": "There is no information on whether the patient's disease is measurable or evaluable according to RECIST v1.1."},
+    {"Criterion": "Patient with deleterious germline BRCA 1 and/or 2 mutation, eligible for PARP inhibitor therapy", "Classification": "Unclear", "Justification": "There is no information on the presence of a BRCA mutation in the patient's data."},
+    {"Criterion": "Any number of prior lines therapy are allowed", "Classification": "Met", "Justification": "The patient has been treated with endocrine therapy, which is a prior line of therapy."},
+    {"Criterion": "Current treatment with PARP inhibitor not yet started", "Classification": "Met", "Justification": "The patient is currently on fulvestrant and palbociclib, not a PARP inhibitor."},
+    {"Criterion": "Women should be post-menopaused or willing to accept the use of an effective contraceptive regimen during the treatment period by PARP inhibitor", "Classification": "Unclear", "Justification": "The patient's menopausal status or willingness to use contraceptives is not mentioned."},
+    {"Criterion": "Patient able to participate and willing to give informed consent prior performance of any study-related procedures and to comply with the study protocol", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient."},
+    {"Criterion": "Patient affiliated to a Social Health Insurance in France", "Classification": "Unclear", "Justification": "There is no information on the patient's insurance status in France."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Abnormal coagulation contraindicating biopsy", "Classification": "Not Violated", "Justification": "There is no mention of abnormal coagulation in the patient's data."},
+    {"Criterion": "Bone metastases when this is the only site of biopsiable disease", "Classification": "Not Violated", "Justification": "The patient has liver metastases, not bone metastases."},
+    {"Criterion": "Patients with all target in a previously irradiated region, except if clear progression has been observed prior to study in at least one of them", "Classification": "Not Violated", "Justification": "There is no mention of irradiated regions in the patient's data."},
+    {"Criterion": "Patients with known additional malignancy that is progressing or requires active treatment", "Classification": "Not Violated", "Justification": "There is no mention of additional malignancies in the patient's data."},
+    {"Criterion": "Patients with known untreated CNS metastases and/or carcinomatous meningitis", "Classification": "Not Violated", "Justification": "There is no mention of CNS metastases or carcinomatous meningitis in the patient's data."},
+    {"Criterion": "Patients with a known history of Human Immunodeficiency Virus (HIV)", "Classification": "Not Violated", "Justification": "There is no mention of HIV in the patient's data."},
+    {"Criterion": "Patients with known active Hepatitis B or C", "Classification": "Not Violated", "Justification": "There is no mention of Hepatitis B or C in the patient's data."},
+    {"Criterion": "Patients should not be on any other anti-cancer therapy", "Classification": "Violated", "Justification": "The patient is currently receiving fulvestrant and palbociclib, which are anti-cancer therapies."},
+    {"Criterion": "Patient pregnant, or breast-feeding", "Classification": "Not Violated", "Justification": "There is no mention of pregnancy or breastfeeding in the patient's data."},
+    {"Criterion": "Any psychological, familial, geographic or social situation, according to the judgment of investigator, potentially preventing the provision of informed consent or compliance to study procedure", "Classification": "Not Violated", "Justification": "There is no mention of such situations in the patient's data."},
+    {"Criterion": "Patient who has forfeited his/her freedom by administrative or legal award or who is under legal protection", "Classification": "Not Violated", "Justification": "There is no mention of legal protection or forfeiture of freedom in the patient's data."}
+  ],
+  "Recap": "The patient meets most of the inclusion criteria, including age, cancer type, and metastatic status. However, the patient is currently on anti-cancer therapy, which violates an exclusion criterion. Other criteria such as ECOG status, BRCA mutation, and insurance status remain unclear due to lack of data.",
+  "Final Decision": "Ineligible"
+}
+```

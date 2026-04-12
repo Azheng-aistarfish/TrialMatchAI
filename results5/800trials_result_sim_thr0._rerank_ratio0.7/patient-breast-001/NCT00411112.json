@@ -1,0 +1,33 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "adult",
+            "Classification": "Met",
+            "Justification": "The patient is 47 years old, which qualifies as an adult."
+        },
+        {
+            "Criterion": "colon cancer",
+            "Classification": "Not Met",
+            "Justification": "The patient has metastatic breast cancer, not colon cancer."
+        },
+        {
+            "Criterion": "open surgery",
+            "Classification": "Unclear",
+            "Justification": "There is no information provided about whether the patient has undergone open surgery."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "emergency surgery",
+            "Classification": "Not Violated",
+            "Justification": "There is no mention of the patient having undergone emergency surgery."
+        },
+        {
+            "Criterion": "metastases",
+            "Classification": "Violated",
+            "Justification": "The patient has metastatic breast cancer, which violates this criterion."
+        }
+    ],
+    "Recap": "The patient is an adult, which meets one inclusion criterion. However, she does not have colon cancer, and it is unclear if she has had open surgery. The patient has metastatic breast cancer, which violates the exclusion criterion for metastases.",
+    "Final Decision": "Ineligible"
+}

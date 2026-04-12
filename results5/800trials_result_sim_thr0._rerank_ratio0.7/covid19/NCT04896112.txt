@@ -1,0 +1,32 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age: 18 years old or older, male or female.", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Patients must have histologically or cytologically confirmed tumors of the following types.", "Classification": "Unclear", "Justification": "The patient's tumor type is not specified in the data."},
+    {"Criterion": "Symptomatic splenomegaly.", "Classification": "Unclear", "Justification": "There is no information about splenomegaly in the patient's data."},
+    {"Criterion": "Not undergone splenectomy or splenic radiation therapy within 6 months prior to screening.", "Classification": "Unclear", "Justification": "The patient's history of splenectomy or splenic radiation therapy is not mentioned."},
+    {"Criterion": "Platelet count ≥ 100 × 10e9/L within 14 days before study drug administration.", "Classification": "Unclear", "Justification": "The patient's platelet count is not provided in the data."},
+    {"Criterion": "Absolute neutrophil count (ANC) ≥ 1.5 × 10e9/L within 14 days before study drug administration.", "Classification": "Unclear", "Justification": "The patient's ANC is not provided in the data."},
+    {"Criterion": "Women of childbearing potential negative pregnancy test at screening.", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Allergic to any component of LNK01002.", "Classification": "Unclear", "Justification": "There is no information about allergies to LNK01002 in the patient's data."},
+    {"Criterion": "Serum total bilirubin greater than 1.5 times the upper limit of the normal (ULN) reference range, except patients diagnosed as Gilbert's disease.", "Classification": "Unclear", "Justification": "The patient's serum total bilirubin levels are not provided in the data."},
+    {"Criterion": "ALT or AST higher than 3 times the ULN reference range without hepatic involvement by leukemia, which are excluded if higher than 5 times the ULN.", "Classification": "Unclear", "Justification": "The patient's ALT or AST levels are not provided in the data."},
+    {"Criterion": "Glomerular filtration rate or estimated creatinine clearance < 50 mL/min according to the Cockcroft-Gault formula.", "Classification": "Violated", "Justification": "The patient has Stage 3 chronic kidney disease, which likely indicates a GFR < 50 mL/min."},
+    {"Criterion": "Serum amylase or lipase levels higher than the ULN and considered clinically significant.", "Classification": "Unclear", "Justification": "The patient's serum amylase or lipase levels are not provided in the data."},
+    {"Criterion": "International normalized ratio (INR) or partial activated prothrombin time (aPTT) above 1.5 times the ULN reference range.", "Classification": "Unclear", "Justification": "The patient's INR or aPTT levels are not provided in the data."},
+    {"Criterion": "Known history of clinically significant liver disease, including viral or other hepatitis.", "Classification": "Unclear", "Justification": "There is no information about liver disease in the patient's data."},
+    {"Criterion": "Known human immunodeficiency virus (HIV) infection.", "Classification": "Unclear", "Justification": "There is no information about HIV infection in the patient's data."},
+    {"Criterion": "Clinically significant cardiovascular diseases, including acute myocardial infarction, unstable angina, coronary artery bypass surgery within 6 months before enrollment, congestive heart failure with New York Heart Association (NYHA) classification of III or above, left ventricular ejection fraction (LVEF) < 50%, or uncontrolled hypertension, cardiac arrhythmia.", "Classification": "Violated", "Justification": "The patient has cardiomyopathy, which is a significant cardiovascular condition."},
+    {"Criterion": "Patients with history or presence of clinically relevant non-malignant CNS disease requiring treatment.", "Classification": "Unclear", "Justification": "There is no information about CNS disease in the patient's data."},
+    {"Criterion": "Patients who have received systemic antineoplastic therapy or radiotherapy within 2 weeks prior to start of study treatment.", "Classification": "Unclear", "Justification": "There is no information about recent antineoplastic therapy or radiotherapy in the patient's data."},
+    {"Criterion": "Patients who have received hematopoietic stem cell transplantation (HSCT) within 60 days prior to the start of study treatment, or are receiving immunosuppressive therapy after HSCT at screening, or have graft-versus-host disease (GVHD) requiring ongoing treatment.", "Classification": "Unclear", "Justification": "There is no information about HSCT or related treatments in the patient's data."},
+    {"Criterion": "Received anti-tumor Chinese herbal medicine treatment within 1 week before the start of study treatment.", "Classification": "Unclear", "Justification": "There is no information about recent Chinese herbal medicine treatment in the patient's data."},
+    {"Criterion": "Received CYP3A strong inhibitors or strong inducers less than one week or 5 half-lives (whichever is longer) prior to the start of study treatment.", "Classification": "Unclear", "Justification": "There is no information about recent CYP3A inhibitors or inducers in the patient's data."},
+    {"Criterion": "Uncontrolled, active infections requiring intravenous antibiotic treatment.", "Classification": "Unclear", "Justification": "There is no information about uncontrolled infections requiring IV antibiotics in the patient's data."}
+  ],
+  "Recap": "The patient's eligibility is unclear due to missing information on age, tumor type, and several lab values. However, the patient is likely ineligible due to Stage 3 chronic kidney disease and cardiomyopathy, which violate the exclusion criteria.",
+  "Final Decision": "Ineligible"
+}
+```

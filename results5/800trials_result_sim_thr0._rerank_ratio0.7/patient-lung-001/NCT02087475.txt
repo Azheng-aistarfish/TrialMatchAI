@@ -1,0 +1,22 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age:18-80", "Classification": "Met", "Justification": "The patient is 53 years old, which falls within the specified age range of 18 to 80."},
+    {"Criterion": "ECOG score: 0 or 1", "Classification": "Unclear", "Justification": "The patient's ECOG score is not provided in the data, making it impossible to determine if this criterion is met."},
+    {"Criterion": "Histological confirmed of Colorectal Adenocarcinoma", "Classification": "Not Met", "Justification": "The patient has been diagnosed with lung adenocarcinoma, not colorectal adenocarcinoma, as required by the criterion."},
+    {"Criterion": "History of exposure to oxaliplatin", "Classification": "Not Met", "Justification": "There is no mention of the patient having a history of exposure to oxaliplatin in the provided data."},
+    {"Criterion": "With local recurrent or metastatic focus", "Classification": "Met", "Justification": "The patient has metastatic lung cancer, which satisfies the criterion of having a metastatic focus."},
+    {"Criterion": "Tumor resectable confirmed by at least 3 hepatobiliary surgeons", "Classification": "Unclear", "Justification": "There is no information provided about the resectability of the tumor or confirmation by hepatobiliary surgeons."},
+    {"Criterion": "Informed consent acquired", "Classification": "Met", "Justification": "The patient has provided written informed consent, meeting this criterion."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "History of Exposure to Irinotecan", "Classification": "Not Violated", "Justification": "There is no mention of the patient having a history of exposure to irinotecan in the provided data."},
+    {"Criterion": "Received surgery in recently 4 weeks or did not recover from surgery", "Classification": "Not Violated", "Justification": "There is no information indicating that the patient has undergone surgery recently or has not recovered from surgery."},
+    {"Criterion": "Other history of cancer in recent 5 years", "Classification": "Not Violated", "Justification": "The patient's cancer diagnosis is not specified as being within the last 5 years, and there is no mention of other cancers in that timeframe."},
+    {"Criterion": "Fluorouracil allergy or dihydropyrimidine dehydrogenase defect", "Classification": "Not Violated", "Justification": "There is no mention of a fluorouracil allergy or dihydropyrimidine dehydrogenase defect in the patient's data."},
+    {"Criterion": "Women with potential pregnancy", "Classification": "Not Violated", "Justification": "There is no information suggesting that the patient is pregnant or has the potential for pregnancy."}
+  ],
+  "Recap": "The patient meets the age and informed consent criteria, and has a metastatic focus. However, she does not meet the histological type criterion for colorectal adenocarcinoma, nor is there evidence of exposure to oxaliplatin. The ECOG score and tumor resectability are unclear. None of the exclusion criteria are violated.",
+  "Final Decision": "Ineligible"
+}
+```

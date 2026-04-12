@@ -1,0 +1,25 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Castration resistant metastatic prostate cancer (bony or visceral metastases)", "Classification": "Unclear", "Justification": "The patient's description does not mention prostate cancer or its metastatic status."},
+    {"Criterion": "Gleason sum > 6", "Classification": "Unclear", "Justification": "There is no information provided about the patient's Gleason score."},
+    {"Criterion": "PSA > 10 ng/ml", "Classification": "Unclear", "Justification": "The patient's PSA levels are not mentioned in the provided data."},
+    {"Criterion": "ECOG < 3", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not specified."},
+    {"Criterion": "Prior orchidectomy or LHRH antagonist/agonist treatment", "Classification": "Unclear", "Justification": "There is no mention of any prior prostate cancer treatments in the patient's history."},
+    {"Criterion": "Must give informed consent", "Classification": "Met", "Justification": "The patient has provided written informed consent."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Synchronous active cancer (skin cancer excluded)", "Classification": "Not Violated", "Justification": "There is no mention of any active cancer other than cardiac issues in the patient's history."},
+    {"Criterion": "Prior chemotherapy", "Classification": "Not Violated", "Justification": "The patient's history does not indicate any prior chemotherapy treatment."},
+    {"Criterion": "History of oxalate renal stones", "Classification": "Not Violated", "Justification": "There is no mention of oxalate renal stones in the patient's medical history."},
+    {"Criterion": "Glucose-6-phosphate dehydrogenase deficiency", "Classification": "Not Violated", "Justification": "The patient's history does not mention G6PD deficiency."},
+    {"Criterion": "Impaired renal function (creatinine > 200micromoles/L)", "Classification": "Not Violated", "Justification": "The patient's renal function is not discussed, so it cannot be determined if this criterion is violated."},
+    {"Criterion": "Haemochromatosis", "Classification": "Not Violated", "Justification": "There is no mention of haemochromatosis in the patient's medical history."},
+    {"Criterion": "Cardiac disease (NYHA > 2, CSS > 2, recent AMI (less than 6 months))", "Classification": "Violated", "Justification": "The patient has a complex cardiac history, including recent myocardial infarctions and bypass surgery, indicating significant cardiac disease."},
+    {"Criterion": "Recent major surgery (less than 4 weeks before inclusion and more than 2 days of admittance time)", "Classification": "Unclear", "Justification": "The timing of the patient's recent bypass surgery is not specified in relation to the trial inclusion date."},
+    {"Criterion": "Prior intended curative treatment of prostate cancer", "Classification": "Irrelevant", "Justification": "There is no mention of prostate cancer treatment in the patient's history, making this criterion irrelevant."}
+  ],
+  "Recap": "The patient's eligibility is primarily hindered by significant cardiac disease, which violates the exclusion criteria. Other inclusion criteria remain unclear due to insufficient data on prostate cancer status and related treatments.",
+  "Final Decision": "Ineligible"
+}
+```

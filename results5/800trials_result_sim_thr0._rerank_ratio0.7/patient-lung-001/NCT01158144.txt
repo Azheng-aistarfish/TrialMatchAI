@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologically proven non-small cell lung cancer (squamous cell carcinoma, adenocarcinoma, large cell carcinoma and etc)", "Classification": "Met", "Justification": "The patient has been diagnosed with adenocarcinoma, a type of non-small cell lung cancer, confirmed by a CT-guided biopsy."},
+    {"Criterion": "Presence of measurable disease by RECIST", "Classification": "Unclear", "Justification": "The patient's description does not provide specific information on whether the disease is measurable by RECIST criteria."},
+    {"Criterion": "Stage IIIA or IIIB, non-resectable", "Classification": "Unclear", "Justification": "The patient's cancer is described as metastatic, but the specific stage (IIIA or IIIB) is not mentioned."},
+    {"Criterion": "ECOG performance status 0-1", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided in the description."},
+    {"Criterion": "No prior chemotherapy, radiation therapy to chest, immunotherapy, or biologic therapy", "Classification": "Violated", "Justification": "The patient is currently undergoing treatment with osimertinib, which is a form of biologic therapy."},
+    {"Criterion": "Patients must sign an informed consent indicating that they are aware of the investigational nature of the study in keeping with the policy of the hospital", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Carcinoid tumor, small cell carcinoma of lung", "Classification": "Not Violated", "Justification": "The patient has adenocarcinoma, not a carcinoid tumor or small cell carcinoma."},
+    {"Criterion": "Patients with any distant metastasis", "Classification": "Violated", "Justification": "The patient is described as having metastatic non-small cell lung cancer."},
+    {"Criterion": "History of another malignancy except cured basal cell carcinoma of skin and cured carcinoma in-situ of uterine cervix", "Classification": "Not Violated", "Justification": "The patient's family history of breast cancer does not indicate a personal history of malignancy."},
+    {"Criterion": "Any other morbidity or situation with contraindication for radiotherapy (e.g. active infection, myocardial infarction preceding 6 months, symptomatic heart disease including unstable angina, congestive heart failure or uncontrolled arrhythmias, immunosuppressive treatment)", "Classification": "Not Violated", "Justification": "There is no mention of any contraindications for radiotherapy in the patient's description."},
+    {"Criterion": "Pregnant or lactating women, women who has not taken test of pregnancy (within 7 days before the first administration) and pregnant women", "Classification": "Not Violated", "Justification": "There is no information suggesting the patient is pregnant or lactating, and no mention of a pregnancy test requirement."},
+    {"Criterion": "Women and men of childbearing potential who have no willing of employing adequate contraception", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's willingness to use contraception."},
+    {"Criterion": "Tumor EGFR wild", "Classification": "Violated", "Justification": "The patient's genetic testing revealed an actionable EGFR exon 19 deletion, indicating the tumor is not EGFR wild type."}
+  ],
+  "Recap": "The patient meets the inclusion criteria for having histologically proven non-small cell lung cancer and has provided informed consent. However, the patient is currently undergoing treatment with osimertinib, violating the criterion of no prior biologic therapy. Additionally, the patient's cancer is metastatic, violating the exclusion criterion of no distant metastasis. The EGFR mutation status also violates the exclusion criterion of having a wild-type EGFR tumor.",
+  "Final Decision": "Ineligible"
+}
+```

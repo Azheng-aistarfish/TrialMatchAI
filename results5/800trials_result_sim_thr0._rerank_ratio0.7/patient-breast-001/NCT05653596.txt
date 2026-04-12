@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Being treated with chemotherapy for breast cancer", "Classification": "Not Met", "Justification": "The patient is currently receiving fulvestrant and palbociclib, not chemotherapy."},
+    {"Criterion": "Having affirmative responses to three questions about cognitive problems and their impact on daily performance", "Classification": "Unclear", "Justification": "There is no information provided about the patient's responses to cognitive problem questions."},
+    {"Criterion": "Having FACT-Cog scores of 58 or less", "Classification": "Unclear", "Justification": "The patient's FACT-Cog score is not provided in the data."},
+    {"Criterion": "Having Mini-Cog scores of 3 and higher", "Classification": "Unclear", "Justification": "The patient's Mini-Cog score is not provided in the data."},
+    {"Criterion": "Having the ability to read, understand or respond to questionnaires and cognitive assessment", "Classification": "Met", "Justification": "The patient has provided written informed consent, indicating the ability to understand and respond."},
+    {"Criterion": "Being willing to participate and able to provide written informed consent", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Having metastatic breast cancer", "Classification": "Violated", "Justification": "The patient has metastatic breast cancer, as indicated by liver lesions and Stage IV classification."},
+    {"Criterion": "Having Patient Health Questionnaire-2 score of 3 and higher", "Classification": "Unclear", "Justification": "The patient's PHQ-2 score is not provided in the data."},
+    {"Criterion": "Being diagnosed with neurological disorders such as dementia, multiple sclerosis, or traumatic brain injury", "Classification": "Not Violated", "Justification": "There is no mention of neurological disorders in the patient's data."},
+    {"Criterion": "Having epilepsy or seizure", "Classification": "Not Violated", "Justification": "There is no mention of epilepsy or seizures in the patient's data."},
+    {"Criterion": "Having 'quite a bit' or 'extremely' severe level of nausea and vomiting", "Classification": "Not Violated", "Justification": "The patient experiences mild fatigue, not severe nausea or vomiting."},
+    {"Criterion": "Having visual or hearing impairments", "Classification": "Not Violated", "Justification": "There is no mention of visual or hearing impairments in the patient's data."},
+    {"Criterion": "Having other problems that prevent them from wearing the VR headset", "Classification": "Not Violated", "Justification": "There is no mention of any problems preventing the use of a VR headset in the patient's data."}
+  ],
+  "Recap": "The patient is ineligible for the clinical trial due to having metastatic breast cancer, which violates an exclusion criterion. Additionally, the patient is not currently undergoing chemotherapy, which is a required inclusion criterion.",
+  "Final Decision": "Ineligible"
+}
+```

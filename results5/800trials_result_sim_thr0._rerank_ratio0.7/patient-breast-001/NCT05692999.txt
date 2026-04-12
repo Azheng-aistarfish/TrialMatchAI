@@ -1,0 +1,25 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologically or cytologically confirmed diagnosis of non-squamous non-small cell lung cancer (NSCLC).", "Classification": "Not Met", "Justification": "The patient has metastatic hormone receptor-positive, HER2-negative breast cancer, not NSCLC."},
+    {"Criterion": "Non-operable / non-irradiable stage III or stage IV.", "Classification": "Irrelevant", "Justification": "The patient's cancer is breast cancer, not lung cancer, making this criterion irrelevant."},
+    {"Criterion": "Patient must be eligible to receive 3 or 4 cycles of induction treatment combination with pembrolizumab plus platinum (cisplatin or carboplatin) and pemetrexed.", "Classification": "Irrelevant", "Justification": "The patient's treatment regimen does not include pembrolizumab, platinum, or pemetrexed, making this criterion irrelevant."},
+    {"Criterion": "In the presence of an EGFR mutation, an ALK or ROS1 rearrangement the patient must have received at least one specific targeted therapy line.", "Classification": "Irrelevant", "Justification": "The patient's cancer is breast cancer, not lung cancer, and the mutation identified is PIK3CA, not EGFR, ALK, or ROS1."},
+    {"Criterion": "Age ≥ 18 years old.", "Classification": "Met", "Justification": "The patient is 47 years old, which meets the age requirement."},
+    {"Criterion": "Performance status 0 or 1.", "Classification": "Unclear", "Justification": "The patient's performance status is not explicitly stated in the provided data."},
+    {"Criterion": "Signed informed consent.", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."},
+    {"Criterion": "Patient affiliated to a social security system or beneficiary of the same.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's affiliation to a social security system."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Mixed small-cell, squamous-cell carcinoma.", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not lung cancer, making this criterion irrelevant."},
+    {"Criterion": "Mental or psychological illness that does not allow the patient to give informed consent.", "Classification": "Not Violated", "Justification": "The patient has provided written informed consent, indicating no such mental or psychological illness."},
+    {"Criterion": "Pregnant or breastfeeding women.", "Classification": "Not Violated", "Justification": "There is no information suggesting the patient is pregnant or breastfeeding."},
+    {"Criterion": "History of HIV or chronic hepatitis B or C.", "Classification": "Not Violated", "Justification": "There is no mention of HIV or chronic hepatitis B or C in the patient's history."},
+    {"Criterion": "Active or uncontrolled infection.", "Classification": "Not Violated", "Justification": "There is no mention of active or uncontrolled infection in the patient's history."},
+    {"Criterion": "History of one or more of the following cardiovascular disorders in the previous 6 months.", "Classification": "Not Violated", "Justification": "There is no mention of cardiovascular disorders in the patient's history."},
+    {"Criterion": "Concomitant treatment with another experimental treatment or participation in another clinical trial.", "Classification": "Not Violated", "Justification": "The patient is receiving standard treatments for breast cancer, not experimental treatments or participation in another clinical trial."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for the clinical trial as they have breast cancer, not NSCLC. The exclusion criteria are not violated, but the trial is irrelevant to the patient's condition.",
+  "Final Decision": "Ineligible"
+}
+```

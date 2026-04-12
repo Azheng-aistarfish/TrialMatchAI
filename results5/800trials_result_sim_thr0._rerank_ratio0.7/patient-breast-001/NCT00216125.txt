@@ -1,0 +1,24 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologic or cytologic evidence of NSCLC", "Classification": "Not Met", "Justification": "The patient has a diagnosis of metastatic breast cancer, not NSCLC."},
+    {"Criterion": "Unresectable Stage IIIA (N2) OR Stage IIIB NSCLC", "Classification": "Not Met", "Justification": "The patient's cancer is breast cancer, not NSCLC, and is classified as Stage IV."},
+    {"Criterion": "Unresectable Stage IIIA will be defined by the following criteria", "Classification": "Irrelevant", "Justification": "The patient does not have NSCLC, so this criterion does not apply."},
+    {"Criterion": "Stage IIIb patients must have N3 or T4 status", "Classification": "Irrelevant", "Justification": "The patient does not have NSCLC, so this criterion does not apply."},
+    {"Criterion": "All patients must have measurable or evaluable disease documented by CT, MRI, X-ray or physical exam within 28 days prior to study treatment", "Classification": "Unclear", "Justification": "The patient's most recent imaging was an MRI on February 18, 2026, but the date of the study treatment is not provided."},
+    {"Criterion": "Negative pregnancy test", "Classification": "Irrelevant", "Justification": "The patient is a 47-year-old female, and pregnancy is not relevant to her context."},
+    {"Criterion": "Eligibility for Consolidation Therapy", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not NSCLC, so this criterion does not apply."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "No prior chemotherapy or radiotherapy for lung cancer", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not lung cancer, so this criterion does not apply."},
+    {"Criterion": "No unintended weight loss > 5% body weight in the preceding 3 months prior to study treatment", "Classification": "Unclear", "Justification": "There is no information provided about the patient's weight loss in the past 3 months."},
+    {"Criterion": "No symptomatic peripheral neuropathy prior to entry onto the study", "Classification": "Not Violated", "Justification": "The patient experiences mild cancer-related fatigue, but there is no mention of peripheral neuropathy."},
+    {"Criterion": "No prior malignancy except for adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer, or other cancer for which the patient has been disease-free for 5 years", "Classification": "Violated", "Justification": "The patient has a history of breast cancer, which is a prior malignancy not covered by the exceptions."},
+    {"Criterion": "No history of allergic reactions to drugs utilizing the vehicle polysorbate 80 (docetaxel) and polysorbate 80 + polyethylene glycol (etoposide)", "Classification": "Irrelevant", "Justification": "The patient's current treatment does not involve these drugs, so this criterion does not apply."},
+    {"Criterion": "If the patient has hearing loss at pre-study, performance of an audiogram is recommended (not mandatory) to document baseline hearing status in the event of possible further hearing loss due to cisplatin administration", "Classification": "Irrelevant", "Justification": "The patient is not receiving cisplatin, so this criterion does not apply."},
+    {"Criterion": "No current breastfeeding", "Classification": "Irrelevant", "Justification": "There is no information provided about breastfeeding, but it is unlikely to be relevant for a 47-year-old woman with metastatic breast cancer."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for NSCLC and has a prior malignancy of breast cancer, which violates the exclusion criteria. The patient's eligibility for the trial is not supported by the provided data.",
+  "Final Decision": "Ineligible"
+}
+```

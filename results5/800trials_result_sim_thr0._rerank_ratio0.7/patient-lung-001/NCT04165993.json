@@ -1,0 +1,73 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Male or female subject >= 18 years",
+            "Classification": "Met",
+            "Justification": "The patient is a 53-year-old female, which satisfies the age and gender requirement."
+        },
+        {
+            "Criterion": "Histologically/cytologically confirmed, locally advanced unresectable or metastatic breast cancer",
+            "Classification": "Not Met",
+            "Justification": "The patient has metastatic non-small cell lung cancer, not breast cancer."
+        },
+        {
+            "Criterion": "ECOG score 0 or 1",
+            "Classification": "Unclear",
+            "Justification": "The patient's ECOG score is not provided in the data."
+        },
+        {
+            "Criterion": "Life expectancy >3 months",
+            "Classification": "Unclear",
+            "Justification": "There is no information on the patient's life expectancy in the provided data."
+        },
+        {
+            "Criterion": "According to the definition of RECIST1.1, the patient has at least one measurable lesion",
+            "Classification": "Unclear",
+            "Justification": "The data does not specify if the patient has measurable lesions according to RECIST1.1."
+        },
+        {
+            "Criterion": "Adequate organ function prior to start treatment with KN026",
+            "Classification": "Unclear",
+            "Justification": "The patient's organ function status is not detailed in the data."
+        },
+        {
+            "Criterion": "Able to understand, voluntarily participate and willing to sign the ICF",
+            "Classification": "Met",
+            "Justification": "Written informed consent has been obtained, indicating the patient's ability and willingness to participate."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Accepted any other anti-tumor drug therapies within 4 weeks before fist dose",
+            "Classification": "Violated",
+            "Justification": "The patient is currently undergoing treatment with osimertinib, which is an anti-tumor therapy."
+        },
+        {
+            "Criterion": "Accepted radiotherapy within 4 weeks before enrollment",
+            "Classification": "Not Violated",
+            "Justification": "There is no mention of recent radiotherapy in the patient's data."
+        },
+        {
+            "Criterion": "Subjects are eligible with clinically controlled and stable neurologic function >= 4 weeks, which is no evidence of CNS disease progression; Subjects with spinal cord compression and cancerous meningitis are not eligible",
+            "Classification": "Irrelevant",
+            "Justification": "The patient's neurological status is not mentioned, making this criterion irrelevant to the current context."
+        },
+        {
+            "Criterion": "Pregnant or nursing females；or intend pregnancy within this study period or within 6 monthes after the end of this study",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is a 53-year-old female, making pregnancy highly unlikely and irrelevant."
+        },
+        {
+            "Criterion": "History of immunodeficiency, including HIV positive or other acquired, congenital immunodeficiency disease, or a history of organ transplantation",
+            "Classification": "Not Violated",
+            "Justification": "There is no mention of immunodeficiency or organ transplantation in the patient's history."
+        },
+        {
+            "Criterion": "Cavity effusion (pleural effusion, ascites, pericardial effusion, etc.) are not well controlled, and need locally treatment or repeated drainage",
+            "Classification": "Unclear",
+            "Justification": "The patient's data does not specify the presence or control of cavity effusions."
+        }
+    ],
+    "Recap": "The patient meets the age and consent criteria but does not have breast cancer, which is a critical inclusion criterion. She is currently on osimertinib, violating the exclusion criterion regarding recent anti-tumor therapy. Other criteria remain unclear due to insufficient data.",
+    "Final Decision": "Ineligible"
+}

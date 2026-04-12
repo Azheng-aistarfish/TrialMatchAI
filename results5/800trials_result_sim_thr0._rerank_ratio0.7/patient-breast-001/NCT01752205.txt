@@ -1,0 +1,27 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologically confirmed squamous cell carcinoma of esophagus or Esophagogastric Junction", "Classification": "Not Met", "Justification": "The patient has metastatic hormone receptor-positive, HER2-negative breast cancer, not squamous cell carcinoma of the esophagus or esophagogastric junction."},
+    {"Criterion": "Age >= 18", "Classification": "Met", "Justification": "The patient is 47 years old, which satisfies the age criterion."},
+    {"Criterion": "ECOG PS 0-2", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided in the data."},
+    {"Criterion": "Ineligibility for surgery", "Classification": "Unclear", "Justification": "There is no information on the patient's eligibility for surgery."},
+    {"Criterion": "No prior palliative therapy", "Classification": "Unclear", "Justification": "The patient's history of palliative therapy is not mentioned."},
+    {"Criterion": "At least one bidimensionally measurable disease as defined by RECIST ver 1.1", "Classification": "Unclear", "Justification": "There is no specific information on the bidimensional measurement of the disease."},
+    {"Criterion": "Adequate organ function for treatment", "Classification": "Unclear", "Justification": "The patient's organ function details, such as ANC, platelets, creatinine clearance, bilirubin, AST, ALT, ECG, QTc interval, and LVEF, are not provided."},
+    {"Criterion": "The patient has provided signed informed consent and is amenable to compliance with protocol schedules and testing", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Previous treatment with small molecule EGFR tyrosine kinase inhibitors", "Classification": "Not Violated", "Justification": "There is no mention of the patient receiving EGFR tyrosine kinase inhibitors."},
+    {"Criterion": "Any major operation within 4 weeks of baseline disease assessment", "Classification": "Not Violated", "Justification": "There is no information about any recent major operations."},
+    {"Criterion": "Any clinically significant gastrointestinal abnormalities which may impair intake or absorption of the study drug", "Classification": "Not Violated", "Justification": "There is no mention of gastrointestinal abnormalities in the patient's data."},
+    {"Criterion": "CNS metastasis with continuous corticosteroid use within 4 weeks of baseline disease assessment", "Classification": "Not Violated", "Justification": "There is no mention of CNS metastasis or corticosteroid use."},
+    {"Criterion": "Patients with known interstitial lung disease", "Classification": "Not Violated", "Justification": "There is no mention of interstitial lung disease in the patient's data."},
+    {"Criterion": "Patients with uncontrolled or significant cardiovascular disease", "Classification": "Not Violated", "Justification": "There is no mention of cardiovascular disease in the patient's data."},
+    {"Criterion": "Previous or concurrent malignancy except for basal or squamous cell skin cancer and/or in situ carcinoma of the cervix, or other solid tumors treated curatively and without evidence of recurrence for at least 5 years prior to study entry", "Classification": "Violated", "Justification": "The patient has metastatic breast cancer, which is a concurrent malignancy not meeting the exception criteria."},
+    {"Criterion": "Pregnant or breast-feeding women", "Classification": "Not Violated", "Justification": "There is no mention of pregnancy or breastfeeding in the patient's data."},
+    {"Criterion": "Other severe acute or chronic medical condition or laboratory abnormality that may increase the risk associated with trial participation or investigational product administration or may interfere with the interpretation of trial results and, in the judgment of the investigator, would make the patient inappropriate for entry into this trial", "Classification": "Unclear", "Justification": "There is no specific information on other severe medical conditions or laboratory abnormalities that would disqualify the patient."}
+  ],
+  "Recap": "The patient does not meet the primary inclusion criterion of having squamous cell carcinoma of the esophagus or esophagogastric junction. The patient's age and informed consent are in compliance. However, the patient has a concurrent malignancy (metastatic breast cancer), which violates the exclusion criteria.",
+  "Final Decision": "Ineligible"
+}
+```

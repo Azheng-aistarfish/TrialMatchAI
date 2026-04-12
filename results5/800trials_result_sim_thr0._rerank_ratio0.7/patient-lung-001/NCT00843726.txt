@@ -1,0 +1,20 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologically confirmed non-small cell lung cancer", "Classification": "Met", "Justification": "The patient has been diagnosed with non-small cell lung cancer, specifically adenocarcinoma, confirmed by a CT-guided biopsy."},
+    {"Criterion": "T1-T2, N0 disease measuring ≤ 5 cm (T3 tumor based on chest wall involvement is Excluded)", "Classification": "Not Met", "Justification": "The patient has metastatic disease, which is beyond T1-T2, N0 stage and involves more than 5 cm."},
+    {"Criterion": "Surgically resectable primary disease, however patient evaluated by thoracic oncologist and deemed medically inoperable OR patient refuses surgical resection", "Classification": "Irrelevant", "Justification": "The patient's disease is metastatic, making surgical resection irrelevant."},
+    {"Criterion": "Age >= 18", "Classification": "Met", "Justification": "The patient is 53 years old, which meets the age criterion."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Prior thoracic radiation therapy", "Classification": "Not Violated", "Justification": "There is no mention of prior thoracic radiation therapy in the patient's history."},
+    {"Criterion": "T2 or T3 tumor greater than 5 cm or T3 tumor based on chest wall involvement", "Classification": "Violated", "Justification": "The patient has metastatic disease, which exceeds the size and stage limitations specified."},
+    {"Criterion": "Node positive or metastatic disease", "Classification": "Violated", "Justification": "The patient has metastatic disease, which is explicitly stated in the description."},
+    {"Criterion": "Tumor location within the zone of the proximal bronchial tree", "Classification": "Not Violated", "Justification": "The tumor is located in the right upper lobe, which is not within the defined proximal bronchial tree zone."},
+    {"Criterion": "No other conditions deemed by the PI or associates to make the patient ineligible for protocol investigations, procedures, and high-dose external beam radiotherapy (e.g., unable to lie still and breathe reproducibly)", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ability to lie still or breathe reproducibly."},
+    {"Criterion": "Pregnant or unwilling to use adequate contraception", "Classification": "Not Violated", "Justification": "There is no mention of pregnancy or contraception issues in the patient's description."}
+  ],
+  "Recap": "The patient meets the inclusion criteria for having histologically confirmed non-small cell lung cancer and being over 18 years old. However, she does not meet the criteria for T1-T2, N0 disease and is not considered for surgical resection due to metastatic disease. The patient violates exclusion criteria due to having metastatic disease and a tumor size greater than 5 cm. The patient's ability to lie still and breathe reproducibly is unclear.",
+  "Final Decision": "Ineligible"
+}
+```

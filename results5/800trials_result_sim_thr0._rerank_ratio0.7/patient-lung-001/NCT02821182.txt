@@ -1,0 +1,34 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Before patient registration, written informed consent must be given according to ICH/GCP, and national/local regulations.", "Classification": "Met", "Justification": "The patient has provided written informed consent as stated in the patient description."},
+    {"Criterion": "Histologically confirmed diagnosis of melanoma", "Classification": "Not Met", "Justification": "The patient has a diagnosis of metastatic non-small cell lung cancer, not melanoma."},
+    {"Criterion": "At least 3 extracranial measurable metastatic lesions per RECIST v1.1. All radiology studies must be performed within 28 days prior to registration", "Classification": "Unclear", "Justification": "There is no information provided about the number or timing of metastatic lesions."},
+    {"Criterion": "First line anti-PD1 treatment", "Classification": "Not Met", "Justification": "The patient is currently on osimertinib, not an anti-PD1 treatment."},
+    {"Criterion": "Karnofsky Performance status > 60", "Classification": "Unclear", "Justification": "The patient's Karnofsky Performance status is not mentioned in the provided data."},
+    {"Criterion": "Age 18 years or older", "Classification": "Met", "Justification": "The patient is 53 years old, which meets the age criterion."},
+    {"Criterion": "Female participants of childbearing potential must be willing to use 2 methods of birth control or be surgically sterile, or abstain from heterosexual activity for the course of the study through 120 days after the last dose of study treatment", "Classification": "Unclear", "Justification": "There is no information provided about the patient's willingness or plans regarding birth control or sexual activity."},
+    {"Criterion": "Female participants who are breastfeeding or plan to breastfeed should be instructed to discontinue nursing during treatment", "Classification": "Irrelevant", "Justification": "There is no mention of the patient breastfeeding or planning to breastfeed."},
+    {"Criterion": "Male participants must agree to use an adequate method of contraception starting with the first dose of study therapy through 120 days after the last dose of study treatment", "Classification": "Irrelevant", "Justification": "The patient is female, so this criterion does not apply."},
+    {"Criterion": "Demonstrate adequate organ function defined as the following: - AST and ALT ≤2.5 X ULN or ≤5 X ULN with liver metastases - Serum total bilirubin ≤1.5 X ULN or direct bilirubin ≤ULN for patient with total bilirubin level >1.5 ULN - Serum creatinine ≤1.5 X ULN - Absolute neutrophil count >1,000 /mcL - Platelets >75,000 /mcL - Hemoglobin >9 g/dL or > 5.6 mmol/L", "Classification": "Unclear", "Justification": "The patient's organ function data is incomplete; only mild elevations in hepatic transaminase levels are mentioned, but specific values are not provided."},
+    {"Criterion": "No history of active autoimmune disease requiring systemic treatment within the past 3 months or documented history of clinically severe autoimmune disease, or syndrome that requires systemic steroids or immunosuppressive agents", "Classification": "Met", "Justification": "There is no mention of any autoimmune disease in the patient's history."},
+    {"Criterion": "Prior malignancy: Subjects who have had another malignancy should be disease-free for 5 years, or should have a history of completely resected non-melanomatous skin carcinoma or successfully treated in situ carcinoma", "Classification": "Unclear", "Justification": "There is no information provided about any prior malignancies."},
+    {"Criterion": "No evidence of interstitial lung disease", "Classification": "Unclear", "Justification": "There is no information provided about the presence or absence of interstitial lung disease."},
+    {"Criterion": "No uncontrolled central nervous metastases and/or carcinomatous meningitis", "Classification": "Unclear", "Justification": "There is no information provided about central nervous system involvement."},
+    {"Criterion": "No prior radiotherapy interfering with SBRT", "Classification": "Unclear", "Justification": "There is no information provided about prior radiotherapy treatments."},
+    {"Criterion": "No concomitant therapy with IL-2, interferon, other immunotherapy regimens, chemotherapy, immunosuppressive agent or chronic use of systemic corticosteroids", "Classification": "Met", "Justification": "The patient is on osimertinib, which is not listed as an excluded therapy."},
+    {"Criterion": "No active infection requiring systemic therapy", "Classification": "Unclear", "Justification": "There is no information provided about any active infections."},
+    {"Criterion": "No known history of human immunodeficiency virus (HIV)", "Classification": "Unclear", "Justification": "There is no information provided about HIV status."},
+    {"Criterion": "No known active Hepatitis B or Hepatitis C", "Classification": "Unclear", "Justification": "There is no information provided about Hepatitis B or C status."},
+    {"Criterion": "Did not receive a live vaccine within 30 days prior to start of study treatment", "Classification": "Unclear", "Justification": "There is no information provided about recent vaccinations."},
+    {"Criterion": "No mental condition rendering the patient unable to understand the nature, scope and possible consequences of the study", "Classification": "Met", "Justification": "The patient has provided informed consent, indicating understanding of the study."},
+    {"Criterion": "Patient not unlikely to comply with the protocol; i.e. uncooperative attitude, inability to return for follow-up visits, and unlikely to complete the study", "Classification": "Unclear", "Justification": "There is no information provided about the patient's likelihood to comply with the study protocol."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologically confirmed diagnosis of melanoma", "Classification": "Violated", "Justification": "The patient has a diagnosis of metastatic non-small cell lung cancer, not melanoma."},
+    {"Criterion": "First line anti-PD1 treatment", "Classification": "Violated", "Justification": "The patient is currently on osimertinib, not an anti-PD1 treatment."}
+  ],
+  "Recap": "The patient meets the age criterion and has provided informed consent. However, she does not meet the histological diagnosis of melanoma and is not on an anti-PD1 treatment, which are critical inclusion criteria. Additionally, there is insufficient information to assess several other criteria.",
+  "Final Decision": "Ineligible"
+}
+```

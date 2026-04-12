@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age more than 18 years", "Classification": "Met", "Justification": "The patient is 53 years old, which is more than 18 years."},
+    {"Criterion": "Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided in the data."},
+    {"Criterion": "Pathologically confirmed diagnosis of mucosal melanoma", "Classification": "Not Met", "Justification": "The patient has a diagnosis of metastatic non-small cell lung cancer, not mucosal melanoma."},
+    {"Criterion": "Completely resected primary tumor", "Classification": "Not Met", "Justification": "The patient has metastatic lung cancer, indicating the primary tumor was not completely resected."},
+    {"Criterion": "No prior systemic adjuvant therapy or regional radiotherapy", "Classification": "Unclear", "Justification": "There is no information provided about prior systemic adjuvant therapy or regional radiotherapy."},
+    {"Criterion": "No evidence of distant metastatic disease", "Classification": "Not Met", "Justification": "The patient has metastatic lung cancer, which is evidence of distant metastatic disease."},
+    {"Criterion": "Normal bone marrow function; and adequate liver and renal function", "Classification": "Unclear", "Justification": "The patient's bone marrow function and specific liver and renal function tests are not provided in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Cutaneous melanoma or ocular melanoma or melanoma of unknown primary site", "Classification": "Not Violated", "Justification": "The patient has lung cancer, not melanoma."},
+    {"Criterion": "Incomplete resection or primary tumor unable to be resected", "Classification": "Violated", "Justification": "The patient has metastatic lung cancer, indicating the primary tumor was not completely resected."},
+    {"Criterion": "A second cancer diagnosis", "Classification": "Not Violated", "Justification": "There is no mention of a second cancer diagnosis in the patient's history."},
+    {"Criterion": "Definite medical history of cirrhoses of the liver or autoimmune diseases", "Classification": "Not Violated", "Justification": "There is no mention of cirrhosis or autoimmune diseases in the patient's history."},
+    {"Criterion": "Severe depression", "Classification": "Not Violated", "Justification": "There is no mention of severe depression in the patient's history."},
+    {"Criterion": "Pregnant or lactating female", "Classification": "Not Violated", "Justification": "There is no mention of pregnancy or lactation in the patient's history."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for age, ECOG performance status, diagnosis of mucosal melanoma, resection of the primary tumor, and absence of distant metastatic disease. The exclusion criteria for incomplete resection are violated. The patient's eligibility is primarily hindered by the diagnosis of metastatic lung cancer and the lack of a mucosal melanoma diagnosis.",
+  "Final Decision": "Ineligible"
+}
+```

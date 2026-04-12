@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients diagnosed by pathology with nasopharyngeal carcinoma", "Classification": "Not Met", "Justification": "The patient's data does not mention a diagnosis of nasopharyngeal carcinoma."},
+    {"Criterion": "ECOG PS: 0-2", "Classification": "Unclear", "Justification": "The patient's ECOG Performance Status is not provided in the data."},
+    {"Criterion": "Gender is not limited, Age between 18 years old and 70 years old", "Classification": "Met", "Justification": "The patient is male, and while the exact age is not provided, there is no indication that the patient is outside the 18-70 age range."},
+    {"Criterion": "Clear consciousness, no mental illness or cognition impairment", "Classification": "Unclear", "Justification": "There is no information provided about the patient's mental status or cognitive function."},
+    {"Criterion": "The expected survival time is more than 12 months", "Classification": "Unclear", "Justification": "The patient's expected survival time is not mentioned in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients with other severe diseases affecting the quality of life or the treatment process", "Classification": "Violated", "Justification": "The patient has multiple severe conditions, including Stage 3 chronic kidney disease, obesity, diabetes mellitus, and cardiomyopathy, which could affect the quality of life or treatment process."},
+    {"Criterion": "Unwilling to actively cooperate with investigators", "Classification": "Not Violated", "Justification": "The patient has provided written informed consent, indicating willingness to participate."},
+    {"Criterion": "Patients with previous oral diseases", "Classification": "Irrelevant", "Justification": "There is no mention of oral diseases in the patient's data."},
+    {"Criterion": "Patients who have received head and neck surgery and radiotherapy", "Classification": "Irrelevant", "Justification": "There is no information about head and neck surgery or radiotherapy in the patient's data."},
+    {"Criterion": "A history of psychotropic substance abuse or a mental disorder", "Classification": "Irrelevant", "Justification": "There is no mention of psychotropic substance abuse or mental disorders in the patient's data."},
+    {"Criterion": "Participated in clinical trials of other anti-tumor drugs within 4 weeks before enrollment", "Classification": "Irrelevant", "Justification": "There is no information about participation in other clinical trials in the patient's data."},
+    {"Criterion": "Women who are pregnant or in lactation", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Other situations that may affect the results of the clinical study", "Classification": "Unclear", "Justification": "There is no specific information provided about other situations that might affect the study results."}
+  ],
+  "Recap": "The patient does not meet the inclusion criterion of having nasopharyngeal carcinoma. The patient's ECOG status, mental status, and expected survival time are unclear. The patient violates the exclusion criterion due to severe diseases that could affect the quality of life or treatment process. The patient is willing to participate, as indicated by the informed consent.",
+  "Final Decision": "Ineligible"
+}
+```

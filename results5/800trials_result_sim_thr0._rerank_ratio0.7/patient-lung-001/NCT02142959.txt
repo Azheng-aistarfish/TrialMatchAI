@@ -1,0 +1,26 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Adult female patients (18 to 75 years of age, inclusive)", "Classification": "Met", "Justification": "The patient is a 53-year-old female, which falls within the specified age range of 18 to 75 years."},
+    {"Criterion": "Patients diagnosed with ductal carcinoma in situ or non-inflammatory breast adenocarcinoma who have been referred for post-operative radiotherapy and have had no prior radiation treatment to that breast", "Classification": "Not Met", "Justification": "The patient is diagnosed with metastatic non-small cell lung cancer, not breast cancer, and there is no mention of a referral for post-operative radiotherapy for breast cancer."},
+    {"Criterion": "Patients planning to undergo 3D conformal radiation therapy to the whole breast (as part of breast-conservation therapy / lumpectomy) or chest wall (as part of post-mastectomy irradiation), with or without treatment of regional lymph nodes", "Classification": "Not Met", "Justification": "The patient is undergoing treatment for lung cancer, not breast cancer, and there is no mention of planning for 3D conformal radiation therapy for the breast or chest wall."},
+    {"Criterion": "Patients who received breast-conservation therapy / lumpectomy must be receiving ≥ 107% of the total radiation dose (calculated from the total radiation dose including boost) to any portion of the breast, based on radiation inhomogeneity, and/or have a breast volume ≥ 1200 cc", "Classification": "Irrelevant", "Justification": "The patient has not undergone breast-conservation therapy or lumpectomy, as her cancer is lung cancer, not breast cancer."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients with Stage T4 or Stage IV breast cancer", "Classification": "Irrelevant", "Justification": "The patient has metastatic lung cancer, not breast cancer, so this criterion does not apply."},
+    {"Criterion": "Patients with prior radiation therapy to the breast treated in this study", "Classification": "Irrelevant", "Justification": "The patient has not received radiation therapy for breast cancer, as her cancer is lung cancer."},
+    {"Criterion": "Patients with type V or VI skin according to the Fitzpatrick scale", "Classification": "Unclear", "Justification": "There is no information provided about the patient's skin type according to the Fitzpatrick scale."},
+    {"Criterion": "Patients with bilateral breast cancer", "Classification": "Irrelevant", "Justification": "The patient has lung cancer, not breast cancer, so this criterion does not apply."},
+    {"Criterion": "Patients receiving partial breast irradiation therapy", "Classification": "Irrelevant", "Justification": "The patient is not receiving any breast irradiation therapy, as her cancer is lung cancer."},
+    {"Criterion": "Patients with uncontrolled diabetes (HbA1c > 11.0%, historical values within 6 months of screening are acceptable)", "Classification": "Unclear", "Justification": "There is no information provided about the patient's diabetes status or HbA1c levels."},
+    {"Criterion": "Patients with collagen vascular disease or vasculitis", "Classification": "Unclear", "Justification": "There is no information provided about the patient having collagen vascular disease or vasculitis."},
+    {"Criterion": "Patients with concurrent active malignancy other than adequately treated basal cell carcinoma of the skin or carcinoma in situ of the cervix", "Classification": "Violated", "Justification": "The patient has metastatic non-small cell lung cancer, which is an active malignancy other than the exceptions listed."},
+    {"Criterion": "Patients with active bacterial, fungal or viral skin infections", "Classification": "Unclear", "Justification": "There is no information provided about the patient having any active skin infections."},
+    {"Criterion": "Patients with known active hepatitis B or hepatitis C infection", "Classification": "Unclear", "Justification": "There is no information provided about the patient having hepatitis B or hepatitis C infection."},
+    {"Criterion": "Patients who intend to use any other topical cream, lotion or preparation applied to the radiation treatment area", "Classification": "Unclear", "Justification": "There is no information provided about the patient's use of topical creams, lotions, or preparations."},
+    {"Criterion": "Patients receiving concomitant chemotherapy during the course of the planned radiation treatment regimen", "Classification": "Unclear", "Justification": "The patient is receiving osimertinib for lung cancer, but there is no mention of concomitant chemotherapy during a planned radiation treatment regimen for breast cancer."}
+  ],
+  "Recap": "The patient is a 53-year-old female with metastatic non-small cell lung cancer, not breast cancer. She does not meet the inclusion criteria related to breast cancer diagnosis and treatment. She violates the exclusion criterion of having a concurrent active malignancy other than the specified exceptions.",
+  "Final Decision": "Ineligible"
+}
+```

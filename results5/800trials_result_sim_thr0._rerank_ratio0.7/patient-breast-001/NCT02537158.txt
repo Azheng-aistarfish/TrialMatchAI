@@ -1,0 +1,26 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "18-75 years of age", "Classification": "Met", "Justification": "The patient is 47 years old, which falls within the specified age range of 18-75 years."},
+    {"Criterion": "The liver tumor has been radically resected", "Classification": "Not Met", "Justification": "The patient's liver lesions are described as metastatic disease, with no mention of radical resection."},
+    {"Criterion": "Postoperative pathology proved to be hepatocellular carcinoma with negative margin and microvascular invasion", "Classification": "Not Met", "Justification": "The pathology confirmed metastatic breast carcinoma, not hepatocellular carcinoma."},
+    {"Criterion": "Imaging evaluations(CT/MRI) were performed at 1 month after the resection and no area of enhancement was seen", "Classification": "Irrelevant", "Justification": "The patient has not undergone liver tumor resection, making this criterion irrelevant."},
+    {"Criterion": "Child-Pugh A", "Classification": "Unclear", "Justification": "There is no information provided about the patient's liver function or Child-Pugh classification."},
+    {"Criterion": "Eastern Cooperative Oncology Group(ECOG) body condition score (PS) 0-1", "Classification": "Unclear", "Justification": "The patient's ECOG score is not mentioned in the provided data."},
+    {"Criterion": "Then patients understand and voluntarily signed a written informed consent", "Classification": "Met", "Justification": "The patient has obtained written informed consent, as stated in the description."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Recurrent HCC", "Classification": "Irrelevant", "Justification": "The patient has metastatic breast cancer, not hepatocellular carcinoma, making this criterion irrelevant."},
+    {"Criterion": "Pathology-proved multifocal HCC or HCC with satellite nodules", "Classification": "Irrelevant", "Justification": "The patient's pathology is for metastatic breast carcinoma, not HCC."},
+    {"Criterion": "Tumor thrombus in portal vein or inferior vena cava trunk", "Classification": "Irrelevant", "Justification": "There is no mention of tumor thrombus in the patient's description."},
+    {"Criterion": "Patients with extrahepatic metastasis found by radiologic or pathologic examination", "Classification": "Violated", "Justification": "The patient has metastatic breast cancer, indicating extrahepatic metastasis."},
+    {"Criterion": "Severe dysfunction of the heart, kidney, or other organs. The patients cannot tolerate TACE or sorafenib after general assessment of the situation", "Classification": "Unclear", "Justification": "There is no information provided about the patient's organ function or tolerance to TACE or sorafenib."},
+    {"Criterion": "Enrolled in other clinical study at the same time", "Classification": "Unclear", "Justification": "There is no information about the patient's enrollment in other clinical studies."},
+    {"Criterion": "Previously treated with other antitumor treatments except the resection", "Classification": "Violated", "Justification": "The patient has been treated with endocrine therapy for breast cancer, which is an antitumor treatment."},
+    {"Criterion": "The researchers believe that the patient does not fit this study", "Classification": "Irrelevant", "Justification": "There is no mention of the researchers' opinion on the patient's suitability for the study."},
+    {"Criterion": "Pregnant or lactating women", "Classification": "Irrelevant", "Justification": "There is no information about the patient's pregnancy or lactation status."}
+  ],
+  "Recap": "The patient is ineligible for the clinical trial due to the presence of extrahepatic metastasis and previous antitumor treatment. Additionally, the patient's liver tumor has not been radically resected, and the pathology does not match hepatocellular carcinoma.",
+  "Final Decision": "Ineligible"
+}
+```

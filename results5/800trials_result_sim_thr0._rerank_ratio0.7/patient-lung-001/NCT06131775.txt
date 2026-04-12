@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient older than 18 years", "Classification": "Met", "Justification": "The patient is 53 years old, which is older than 18."},
+    {"Criterion": "Patient who gave its written informed consent to participate to the study", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."},
+    {"Criterion": "Patient with histologically confirmed diagnosis of any type of malignancy (solid tumors)", "Classification": "Met", "Justification": "The patient has a confirmed diagnosis of metastatic non-small cell lung cancer, which is a solid tumor."},
+    {"Criterion": "Patient with a minimum of 6 months life expectation at inclusion", "Classification": "Unclear", "Justification": "There is no information provided about the patient's life expectancy."},
+    {"Criterion": "Patient covered by a medical insurance", "Classification": "Unclear", "Justification": "There is no information provided about the patient's medical insurance status."},
+    {"Criterion": "Patient with metastatic disease or unresectable locally advanced malignancy (solid tumors) who is naive of immune checkpoint inhibitors (ICI)-based immunotherapy and is due to initiate an ICI immunotherapy alone or in combination with any other systemic anticancer treatment.", "Classification": "Not Met", "Justification": "The patient is currently undergoing treatment with osimertinib, indicating she is not naive to systemic anticancer treatment."},
+    {"Criterion": "Patient with a diagnosed malignancy amenable to surgery with curative intent who is naive of any anticancer treatment", "Classification": "Not Met", "Justification": "The patient is not naive to any anticancer treatment as she is currently on osimertinib."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient with secondary malignancy unless this malignancy is cured with no evidence of recurrence for at least 5 years.", "Classification": "Not Violated", "Justification": "There is no mention of a secondary malignancy in the patient's history."},
+    {"Criterion": "Pregnant or breastfeeding woman or expecting to conceive", "Classification": "Not Violated", "Justification": "There is no information provided about the patient's pregnancy or breastfeeding status."},
+    {"Criterion": "Patient who is deprived of liberty due to judicial or administrative decision", "Classification": "Not Violated", "Justification": "There is no information provided about the patient being deprived of liberty."},
+    {"Criterion": "Patient with known psychiatric disorders that would interfere with cooperation with the requirements of the trial", "Classification": "Not Violated", "Justification": "There is no information provided about any psychiatric disorders."},
+    {"Criterion": "Patient admitted in a social or sanitary institution for an objective other than the one of this trial", "Classification": "Not Violated", "Justification": "There is no information provided about the patient being admitted to any institution."},
+    {"Criterion": "Adult patient under legal protection", "Classification": "Not Violated", "Justification": "There is no information provided about the patient being under legal protection."}
+  ],
+  "Recap": "The patient meets the age, consent, and malignancy criteria but is not naive to systemic anticancer treatment, which is a requirement for cohort 1. There is insufficient information about life expectancy and insurance coverage. No exclusion criteria are violated.",
+  "Final Decision": "Ineligible"
+}
+```

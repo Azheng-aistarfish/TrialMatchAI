@@ -1,0 +1,35 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Signage of a written informed consent", "Classification": "Met", "Justification": "The patient's profile explicitly states that written informed consent has been obtained."},
+    {"Criterion": "Age above 18 years", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "HCC unsuitable for resection", "Classification": "Unclear", "Justification": "There is no information regarding the suitability of HCC for resection in the patient's data."},
+    {"Criterion": "Child-Pugh A or B cirrhosis", "Classification": "Unclear", "Justification": "The patient's Child-Pugh score is not mentioned in the data."},
+    {"Criterion": "Eastern Cooperative Oncology Group performance score 0 or 1", "Classification": "Unclear", "Justification": "The patient's ECOG performance score is not provided in the data."},
+    {"Criterion": "No previous treatment with liver resection, ablation, chemotherapy, radiotherapy or transarterial embolization (with or without chemotherapy)", "Classification": "Unclear", "Justification": "There is no information about previous treatments for liver conditions in the patient's data."},
+    {"Criterion": "HCC diagnosed by typical enhancement patterns on cross sectional imaging or histology", "Classification": "Unclear", "Justification": "The patient's diagnosis method for HCC is not specified in the data."},
+    {"Criterion": "No extra-hepatic involvement on non-enhanced CT thorax and triphasic contrast enhanced CT abdomen", "Classification": "Unclear", "Justification": "There is no information about extra-hepatic involvement in the patient's data."},
+    {"Criterion": "No invasion of portal vein or hepatic vein", "Classification": "Unclear", "Justification": "The patient's data does not mention portal or hepatic vein invasion."},
+    {"Criterion": "Massive expansive tumor morphology with measurable lesion on CT", "Classification": "Unclear", "Justification": "The patient's tumor morphology is not described in the data."},
+    {"Criterion": "Total tumor mass < 50% liver volume", "Classification": "Unclear", "Justification": "The patient's total tumor mass relative to liver volume is not provided."},
+    {"Criterion": "Size of any individual tumor >10cm in largest dimension", "Classification": "Unclear", "Justification": "The size of any individual tumor is not mentioned in the patient's data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "History of acute tumor rupture presenting with hemo-peritoneum", "Classification": "Not Violated", "Justification": "There is no mention of acute tumor rupture or hemo-peritoneum in the patient's data."},
+    {"Criterion": "Biliary obstruction not amenable to percutaneous or endoscopic drainage", "Classification": "Not Violated", "Justification": "The patient's data does not mention biliary obstruction."},
+    {"Criterion": "Child-Pugh C cirrhosis", "Classification": "Not Violated", "Justification": "The patient's Child-Pugh score is not provided, but there is no indication of Child-Pugh C cirrhosis."},
+    {"Criterion": "History of hepatic encephalopathy", "Classification": "Not Violated", "Justification": "There is no mention of hepatic encephalopathy in the patient's data."},
+    {"Criterion": "Intractable ascites not controllable by medical therapy", "Classification": "Not Violated", "Justification": "The patient's data does not mention ascites or its management."},
+    {"Criterion": "History of variceal bleeding within last 3 months", "Classification": "Not Violated", "Justification": "There is no mention of variceal bleeding in the patient's data."},
+    {"Criterion": "Serum total bilirubin level > 50 umol/L", "Classification": "Unclear", "Justification": "The patient's serum total bilirubin level is not provided."},
+    {"Criterion": "Serum albumin level < 25g/L", "Classification": "Unclear", "Justification": "The patient's serum albumin level is not provided."},
+    {"Criterion": "INR > 1.7", "Classification": "Unclear", "Justification": "The patient's INR level is not provided."},
+    {"Criterion": "Serum creatinine level > 150 mmol/L", "Classification": "Violated", "Justification": "The patient has Stage 3 chronic kidney disease, which suggests elevated serum creatinine levels."},
+    {"Criterion": "Infiltrative tumor morphology or diffuse tumor morphology", "Classification": "Unclear", "Justification": "The patient's tumor morphology is not described in the data."},
+    {"Criterion": "Arterio-portal venous shunt affecting >1 hepatic segment on CT", "Classification": "Unclear", "Justification": "The patient's data does not mention arterio-portal venous shunts."},
+    {"Criterion": "Arterial-hepatic venous shunt with hepatic vein opacified in arterial phase on CT", "Classification": "Unclear", "Justification": "The patient's data does not mention arterial-hepatic venous shunts."}
+  ],
+  "Recap": "The patient meets the informed consent criterion but lacks sufficient data for most other inclusion and exclusion criteria. The patient's chronic kidney disease suggests a violation of the serum creatinine criterion.",
+  "Final Decision": "Ineligible"
+}
+```

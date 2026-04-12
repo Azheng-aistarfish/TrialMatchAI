@@ -1,0 +1,133 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Histologically determined adenocarcinoma is required.",
+            "Classification": "Unclear",
+            "Justification": "The patient's data does not specify the histological type of cancer."
+        },
+        {
+            "Criterion": "All other histologies are excluded.",
+            "Classification": "Irrelevant",
+            "Justification": "This criterion is contingent on the first criterion, which is unclear."
+        },
+        {
+            "Criterion": "Tissue for diagnosis must be obtained by transrectal ultrasound biopsy.",
+            "Classification": "Unclear",
+            "Justification": "There is no information on how the tissue for diagnosis was obtained."
+        },
+        {
+            "Criterion": "Gleason scoring classification of the biopsy specimen is required and must be greater than or equal to 7.",
+            "Classification": "Unclear",
+            "Justification": "The patient's data does not provide a Gleason score."
+        },
+        {
+            "Criterion": "2002 AJCC clinical cancer stage as determined by either urologist or radiation oncologist must be T1c - T2b, N0, M0.",
+            "Classification": "Unclear",
+            "Justification": "The patient's data does not specify the AJCC clinical cancer stage."
+        },
+        {
+            "Criterion": "N0 stage may be assigned following either negative imaging or negative pathologic assessment.",
+            "Classification": "Irrelevant",
+            "Justification": "This criterion is contingent on the AJCC stage, which is unclear."
+        },
+        {
+            "Criterion": "Prostate volume as assessed by TRUS must be less than 60 cc.",
+            "Classification": "Unclear",
+            "Justification": "The patient's data does not provide prostate volume information."
+        },
+        {
+            "Criterion": "PSA must be less than 20 ng/ml.",
+            "Classification": "Unclear",
+            "Justification": "The patient's data does not provide PSA levels."
+        },
+        {
+            "Criterion": "Age ≥ 18",
+            "Classification": "Met",
+            "Justification": "The patient is a male, implying he is at least 18 years old."
+        },
+        {
+            "Criterion": "IPSS voiding symptoms score must be less than 18",
+            "Classification": "Unclear",
+            "Justification": "The patient's data does not provide an IPSS score."
+        },
+        {
+            "Criterion": "Study consent form must be signed by the patient.",
+            "Classification": "Met",
+            "Justification": "Written informed consent has been obtained from the patient or their legal representative."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Gleason score of 8 - 10",
+            "Classification": "Not Violated",
+            "Justification": "The patient's data does not provide a Gleason score, so it cannot be determined if this criterion is violated."
+        },
+        {
+            "Criterion": "Clinical stage T3 - T4",
+            "Classification": "Not Violated",
+            "Justification": "The patient's data does not specify the AJCC clinical cancer stage, so it cannot be determined if this criterion is violated."
+        },
+        {
+            "Criterion": "Age ≤ 18",
+            "Classification": "Not Violated",
+            "Justification": "The patient is a male, implying he is at least 18 years old."
+        },
+        {
+            "Criterion": "Any evidence of nodal (N1) or distant (M1) disease",
+            "Classification": "Not Violated",
+            "Justification": "The patient's data does not provide information on nodal or distant disease."
+        },
+        {
+            "Criterion": "Prostate volume as assessed by TRUS > 60 cc",
+            "Classification": "Not Violated",
+            "Justification": "The patient's data does not provide prostate volume information, so it cannot be determined if this criterion is violated."
+        },
+        {
+            "Criterion": "PSA > 20 ng/ml",
+            "Classification": "Not Violated",
+            "Justification": "The patient's data does not provide PSA levels, so it cannot be determined if this criterion is violated."
+        },
+        {
+            "Criterion": "IPSS voiding symptoms score > 18",
+            "Classification": "Not Violated",
+            "Justification": "The patient's data does not provide an IPSS score, so it cannot be determined if this criterion is violated."
+        },
+        {
+            "Criterion": "Prior TURP",
+            "Classification": "Not Violated",
+            "Justification": "The patient's data does not mention a prior TURP procedure."
+        },
+        {
+            "Criterion": "Prior pelvic radiotherapy or chemotherapy",
+            "Classification": "Not Violated",
+            "Justification": "The patient's data does not mention prior pelvic radiotherapy or chemotherapy."
+        },
+        {
+            "Criterion": "Prior prostatectomy",
+            "Classification": "Not Violated",
+            "Justification": "The patient's data does not mention a prior prostatectomy."
+        },
+        {
+            "Criterion": "Prior cancer other than basal cell or squamous cell skin carcinoma unless free of disease for > 5 years",
+            "Classification": "Not Violated",
+            "Justification": "The patient's data does not mention any prior cancers other than basal cell or squamous cell skin carcinoma."
+        },
+        {
+            "Criterion": "Current medical or psychiatric illness that may interfere with treatment completion and followup",
+            "Classification": "Violated",
+            "Justification": "The patient has multiple current medical conditions, including COVID-19, chronic kidney disease, obesity, diabetes mellitus, and cardiomyopathy, which may interfere with treatment completion and follow-up."
+        },
+        {
+            "Criterion": "Hip prosthesis",
+            "Classification": "Not Violated",
+            "Justification": "The patient's data does not mention a hip prosthesis."
+        },
+        {
+            "Criterion": "Unable or unwilling to give informed consent",
+            "Classification": "Not Violated",
+            "Justification": "Written informed consent has been obtained from the patient or their legal representative."
+        }
+    ],
+    "Recap": "The patient meets the age and consent criteria but lacks sufficient data to determine eligibility based on cancer type, Gleason score, AJCC stage, prostate volume, PSA levels, and IPSS score. The patient's current medical conditions, including COVID-19 and chronic kidney disease, violate the exclusion criteria related to medical illnesses that may interfere with treatment.",
+    "Final Decision": "Ineligible"
+}

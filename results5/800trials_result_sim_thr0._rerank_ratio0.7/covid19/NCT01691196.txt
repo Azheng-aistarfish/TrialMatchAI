@@ -1,0 +1,30 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "> 18 years",
+      "Classification": "Unclear",
+      "Justification": "The patient's age is not provided in the data."
+    },
+    {
+      "Criterion": "peritoneal dialysis (PD) > 6 months",
+      "Classification": "Unclear",
+      "Justification": "There is no information about the patient undergoing peritoneal dialysis."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "infectious episode within 4 weeks",
+      "Classification": "Violated",
+      "Justification": "The patient was diagnosed with COVID-19 on March 17, 2020, which is an infectious episode within the last 4 weeks."
+    },
+    {
+      "Criterion": "using immunosuppressive drugs",
+      "Classification": "Unclear",
+      "Justification": "The patient is receiving hydroxychloroquine and tocilizumab, but it is unclear if these are considered immunosuppressive drugs in this context."
+    }
+  ],
+  "Recap": "The patient has an infectious episode within the last 4 weeks, which violates an exclusion criterion. The patient's age and peritoneal dialysis status are unclear, and it is uncertain if the patient is using immunosuppressive drugs.",
+  "Final Decision": "Ineligible"
+}
+```

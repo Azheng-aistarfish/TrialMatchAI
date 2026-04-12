@@ -1,0 +1,33 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologically confirmed CD20 positive DLBCL", "Classification": "Not Met", "Justification": "The patient has metastatic hormone receptor-positive, HER2-negative breast cancer, not CD20 positive DLBCL."},
+    {"Criterion": "Age ≥ 65 years", "Classification": "Not Met", "Justification": "The patient is 47 years old, which is below the required age of 65."},
+    {"Criterion": "Ann Arbor stage II, III and IV", "Classification": "Irrelevant", "Justification": "The patient's cancer is breast cancer, not lymphoma, so this criterion does not apply."},
+    {"Criterion": "No prior chemotherapy or radiotherapy for DLBCL", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not DLBCL, so this criterion does not apply."},
+    {"Criterion": "Performance status (ECOG) ≤ 2", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ECOG performance status."},
+    {"Criterion": "At least one or more bidimensionally measurable lesion(s)", "Classification": "Irrelevant", "Justification": "The criterion is specific to DLBCL, not applicable to breast cancer."},
+    {"Criterion": "Cardiac ejection fraction ≥ 50 %", "Classification": "Unclear", "Justification": "There is no information provided about the patient's cardiac ejection fraction."},
+    {"Criterion": "Adequate renal function: serum creatinine level < 2 mg/dL", "Classification": "Unclear", "Justification": "There is no information provided about the patient's serum creatinine level."},
+    {"Criterion": "Adequate liver functions: Transaminase (AST/ALT) < 3 X upper normal value", "Classification": "Unclear", "Justification": "There is no information provided about the patient's liver function tests."},
+    {"Criterion": "Adequate BM functions: hemoglobin ≥ 9 g/dL", "Classification": "Unclear", "Justification": "There is no information provided about the patient's bone marrow function or blood counts."},
+    {"Criterion": "Life expectancy more than 6 months", "Classification": "Unclear", "Justification": "There is no information provided about the patient's life expectancy."},
+    {"Criterion": "A negative serum or urine pregnancy test prior to treatment", "Classification": "Irrelevant", "Justification": "The patient is not indicated to be of childbearing potential or pregnant, and this criterion is specific to DLBCL trials."},
+    {"Criterion": "Informed consent", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Other subtypes NHL than DLCBL", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not NHL, so this criterion does not apply."},
+    {"Criterion": "Patients who transformed follicular lymphoma or other indolent lymphoma", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not lymphoma, so this criterion does not apply."},
+    {"Criterion": "Primary Central Nervous System (CNS) DLBCL", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not DLBCL, so this criterion does not apply."},
+    {"Criterion": "CNS involvement by lymphoma or any evidence of spinal cord compression", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not lymphoma, so this criterion does not apply."},
+    {"Criterion": "Patients with a known history of HIV seropositivity or HCV (+)", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's HIV or HCV status, and this criterion is specific to DLBCL trials."},
+    {"Criterion": "Any other malignancies within the past 5 years except curatively treated non-melanoma skin cancer or in situ carcinoma of cervix uteri", "Classification": "Not Violated", "Justification": "The patient has breast cancer, which is not within the past 5 years, as it was diagnosed at age 45 and she is now 47."},
+    {"Criterion": "Pregnant or lactating women, women of childbearing potential not employing adequate contraception", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's pregnancy status or contraception use, and this criterion is specific to DLBCL trials."},
+    {"Criterion": "Other serious illness or medical conditions", "Classification": "Unclear", "Justification": "There is no information provided about the patient's cardiac, neurological, or psychiatric conditions, or active infections."},
+    {"Criterion": "Known hypersensitivity to any of the study drugs or its ingredients", "Classification": "Unclear", "Justification": "There is no information provided about the patient's hypersensitivity to study drugs or their ingredients."},
+    {"Criterion": "Concomitant administration of any other experimental drug under investigation, or concomitant chemotherapy, hormonal therapy, or immunotherapy", "Classification": "Violated", "Justification": "The patient is currently receiving fulvestrant and palbociclib, which are hormonal therapies."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for the clinical trial as she has breast cancer, not DLBCL, and is below the age requirement. Additionally, she is currently on hormonal therapy, which violates the exclusion criteria.",
+  "Final Decision": "Ineligible"
+}
+```

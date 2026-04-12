@@ -1,0 +1,34 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age over 18 years", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Histologically or cytologically confirmed squamous cell cancer of the anal region (anal canal or anal margin or distal rectum)", "Classification": "Unclear", "Justification": "There is no information about the patient having squamous cell cancer of the anal region."},
+    {"Criterion": "Stage T2 (≥4 cm)", "Classification": "Unclear", "Justification": "The patient's cancer stage is not mentioned in the data."},
+    {"Criterion": "T4 N0-3 M0 or any T N2-3 M0", "Classification": "Unclear", "Justification": "The patient's cancer stage is not mentioned in the data."},
+    {"Criterion": "ECOG performance status 0-1", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided."},
+    {"Criterion": "Hb > 100 g/L", "Classification": "Unclear", "Justification": "The patient's hemoglobin level is not provided."},
+    {"Criterion": "ANC > 1.5 x 10 9/L", "Classification": "Unclear", "Justification": "The patient's absolute neutrophil count is not provided."},
+    {"Criterion": "Platelets ≥ 100 x 10 9/L", "Classification": "Unclear", "Justification": "The patient's platelet count is not provided."},
+    {"Criterion": "Creatinine < 1.5 x ULN", "Classification": "Violated", "Justification": "The patient has Stage 3 chronic kidney disease, which likely indicates elevated creatinine levels."},
+    {"Criterion": "Bilirubin < 1.5 x ULN", "Classification": "Unclear", "Justification": "The patient's bilirubin level is not provided."},
+    {"Criterion": "ALAT < 3.0 x ULN", "Classification": "Unclear", "Justification": "The patient's ALAT level is not provided."},
+    {"Criterion": "Competent to comprehend, sign and date an approved informed consent form", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Previous pelvic irradiation", "Classification": "Unclear", "Justification": "There is no information about previous pelvic irradiation."},
+    {"Criterion": "Previous chemotherapy for anal cancer", "Classification": "Unclear", "Justification": "There is no information about previous chemotherapy for anal cancer."},
+    {"Criterion": "Previous malignancy within the last 5 years, except curatively treated non-melanoma skin cancer or carcinoma in situ of the cervix uteri", "Classification": "Unclear", "Justification": "There is no information about previous malignancies."},
+    {"Criterion": "Pregnant or nursing females or patients of child-bearing potential not using adequate methods of birth control", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Patients with active infections or any other serious underlying medical condition, which would impair the ability of the patients to receive the protocol treatment", "Classification": "Violated", "Justification": "The patient has COVID-19 and is experiencing acute respiratory failure, which are active infections and serious conditions."},
+    {"Criterion": "Known hypersensitivity to any of the components of the treatment", "Classification": "Unclear", "Justification": "There is no information about hypersensitivity to treatment components."},
+    {"Criterion": "Clinically significant cardiovascular disease, e.g. cardiac failure (<12 months before treatment start), unstable angina, congestive heart failure, arrythmia requiring medication, or uncontrolled hypertension", "Classification": "Unclear", "Justification": "The patient has cardiomyopathy, but it is not specified if it is clinically significant or recent."},
+    {"Criterion": "Known positive test for hepatitis C virus, chronic active hepatitis B infection", "Classification": "Unclear", "Justification": "There is no information about hepatitis C or B infection."},
+    {"Criterion": "Known HIV infection", "Classification": "Unclear", "Justification": "There is no information about HIV infection."},
+    {"Criterion": "Any other condition or therapy which in the investigator´s opinion may pose a risk to the patient or interfere with the study objectives", "Classification": "Unclear", "Justification": "The patient's conditions may pose risks, but this is subjective and not explicitly stated."},
+    {"Criterion": "Any investigational agent within 30 days before enrolment", "Classification": "Unclear", "Justification": "There is no information about investigational agents within 30 days."},
+    {"Criterion": "Surgery (excluding diagnostic biopsy or central venous catheter placement) and/or radiotherapy within 28 days prior to inclusion in the study", "Classification": "Unclear", "Justification": "There is no information about recent surgery or radiotherapy."}
+  ],
+  "Recap": "The patient's eligibility is unclear due to missing information on age, cancer diagnosis, and specific medical metrics. However, the patient's chronic kidney disease and active COVID-19 infection are significant disqualifying factors.",
+  "Final Decision": "Ineligible"
+}
+```

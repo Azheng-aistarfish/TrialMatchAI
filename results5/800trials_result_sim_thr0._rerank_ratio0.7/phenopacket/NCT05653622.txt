@@ -1,0 +1,18 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Unfit patient without indication to the STUPP protocol : Cohort 1 : Non-operable patients and ≥ 18 years old or ≤ 70 years old and Karnofsky Index (KI) ≥ 50% on inclusion AND Result of a biopsy available", "Classification": "Unclear", "Justification": "The patient's age and the availability of a biopsy are known, but there is no information on the Karnofsky Index or operability status."},
+    {"Criterion": "Cohort 2 : Patients > 70 years old and Balducci score I or II and KI ≥ 60% on inclusion AND Partial resection (defined on the remnographic criteria of postoperative MRI) OR biopsy result available", "Classification": "Irrelevant", "Justification": "The patient is 58 years old, so this criterion does not apply."},
+    {"Criterion": "Histologically proven glioblastoma", "Classification": "Unclear", "Justification": "There is no information provided about the presence or absence of glioblastoma."},
+    {"Criterion": "Increased metabolism of amino acids in PET FDOPA allowing contouring the Biological Target Volume (BTV)", "Classification": "Unclear", "Justification": "There is no information provided about PET FDOPA results or amino acid metabolism."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients with an indication for irradiation according to the STUPP protocol (fit patient)", "Classification": "Unclear", "Justification": "There is no information provided about the patient's fitness for the STUPP protocol or indication for irradiation."},
+    {"Criterion": "Patient with a contraindication to MRI or PET", "Classification": "Not Violated", "Justification": "There is no information suggesting a contraindication to MRI or PET."},
+    {"Criterion": "Limit of the provisional target volume or Planning target volume (PTV), second PTV < 2 cm from the chiasm and the optic nerves", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's PTV or its proximity to the chiasm and optic nerves."},
+    {"Criterion": "Absence of uptake of FDopa", "Classification": "Unclear", "Justification": "There is no information provided about FDopa uptake."}
+  ],
+  "Recap": "The patient's age and biopsy availability are known, but there is insufficient information on the Karnofsky Index, operability, presence of glioblastoma, and PET FDOPA results. The exclusion criteria related to MRI/PET contraindications and PTV proximity are not applicable based on the provided data.",
+  "Final Decision": "Likely Ineligible (leaning toward exclusion)"
+}
+```

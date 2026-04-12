@@ -1,0 +1,21 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Those aged 18-65", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Those with ASA scores I-II-III", "Classification": "Unclear", "Justification": "The patient's ASA score is not mentioned in the data."},
+    {"Criterion": "Those with a body mass index (BMI) between 18-35", "Classification": "Unclear", "Justification": "The patient's BMI is not provided in the data."},
+    {"Criterion": "Patients who will undergo modified radical mastectomy", "Classification": "Irrelevant", "Justification": "The patient's surgical plan is not mentioned, and the condition does not suggest a need for this surgery."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Those under the age of 18 and over the age of 65", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Those with ASA score IV and above", "Classification": "Unclear", "Justification": "The patient's ASA score is not mentioned in the data."},
+    {"Criterion": "Those with a history of allergy to the drugs to be blocked", "Classification": "Irrelevant", "Justification": "There is no mention of drug allergies in the patient's data."},
+    {"Criterion": "Those with a history of bleeding diathesis", "Classification": "Irrelevant", "Justification": "There is no mention of bleeding disorders in the patient's data."},
+    {"Criterion": "Patients with infection in the area to be blocked", "Classification": "Irrelevant", "Justification": "There is no mention of infections in the patient's data."},
+    {"Criterion": "Those with a BMI below 18 and above 35", "Classification": "Unclear", "Justification": "The patient's BMI is not provided in the data."},
+    {"Criterion": "Patients who underwent surgery under emergency conditions", "Classification": "Irrelevant", "Justification": "There is no mention of emergency surgery in the patient's data."}
+  ],
+  "Recap": "The patient's age, ASA score, and BMI are not provided, making it unclear if they meet the inclusion criteria. The exclusion criteria are mostly irrelevant due to lack of specific information on allergies, bleeding disorders, infections, and emergency surgeries.",
+  "Final Decision": "Likely Ineligible (leaning toward exclusion)"
+}
+```

@@ -1,0 +1,22 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age:18-80", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "ECOG score: 0 or 1", "Classification": "Unclear", "Justification": "The patient's ECOG score is not mentioned in the data."},
+    {"Criterion": "Histological confirmed of Colorectal Adenocarcinoma", "Classification": "Unclear", "Justification": "There is no information about the patient's histological diagnosis in the data."},
+    {"Criterion": "History of exposure to oxaliplatin", "Classification": "Unclear", "Justification": "The patient's history of exposure to oxaliplatin is not mentioned in the data."},
+    {"Criterion": "With local recurrent or metastatic focus", "Classification": "Unclear", "Justification": "The patient's cancer status regarding recurrence or metastasis is not provided in the data."},
+    {"Criterion": "Tumor resectable confirmed by at least 3 hepatobiliary surgeons", "Classification": "Unclear", "Justification": "There is no information about the resectability of the tumor or confirmation by surgeons in the data."},
+    {"Criterion": "Informed consent acquired", "Classification": "Met", "Justification": "The data explicitly states that written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "History of Exposure to Irinotecan", "Classification": "Not Violated", "Justification": "There is no mention of the patient's exposure to Irinotecan in the data."},
+    {"Criterion": "Received surgery in recently 4 weeks or did not recover from surgery", "Classification": "Not Violated", "Justification": "The patient's recent surgical history is not mentioned, and there is no indication of recent surgery or recovery issues in the data."},
+    {"Criterion": "Other history of cancer in recent 5 years", "Classification": "Unclear", "Justification": "The patient's history of other cancers in the past 5 years is not provided in the data."},
+    {"Criterion": "Fluorouracil allergy or dihydropyrimidine dehydrogenase defect", "Classification": "Not Violated", "Justification": "There is no mention of a Fluorouracil allergy or dihydropyrimidine dehydrogenase defect in the data."},
+    {"Criterion": "Women with potential pregnancy", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant to the patient's context."}
+  ],
+  "Recap": "The patient's eligibility for the clinical trial is uncertain due to missing information on age, ECOG score, cancer diagnosis, exposure to oxaliplatin, cancer status, and tumor resectability. However, informed consent has been obtained, and there is no evidence of exclusion criteria violations.",
+  "Final Decision": "Likely Ineligible (leaning toward exclusion)"
+}
+```

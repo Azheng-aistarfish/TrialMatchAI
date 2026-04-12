@@ -1,0 +1,40 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Laboratory confirmed SARS-CoV-2 using currently available laboratory testing techniques (e.g.,RT-PCR, Immunoglobulin M (IgM) /IgG) or clinical history compatible with a COVID-19 like illness(fever, cough, shortness of breath).",
+      "Classification": "Met",
+      "Justification": "The patient has been diagnosed with COVID-19, and symptoms such as fever, dyspnea, and myalgia are present, which are compatible with a COVID-19 like illness."
+    },
+    {
+      "Criterion": "Negative participants with no known prior COVID-19 diagnosis or COVID vaccine",
+      "Classification": "Not Met",
+      "Justification": "The patient has a known prior COVID-19 diagnosis, which contradicts this criterion."
+    },
+    {
+      "Criterion": "At least 7 years of age",
+      "Classification": "Unclear",
+      "Justification": "The patient's age is not provided in the data, making it impossible to verify this criterion."
+    },
+    {
+      "Criterion": "Participants are eligible to provide semen and breast milk samples if they are 18 years of age or older",
+      "Classification": "Irrelevant",
+      "Justification": "The criterion is irrelevant as the patient is male and cannot provide breast milk samples."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Age <7",
+      "Classification": "Unclear",
+      "Justification": "The patient's age is not provided, so it cannot be determined if this criterion is violated."
+    },
+    {
+      "Criterion": "Intercurrent conditions that in the opinion of the investigator would confound the findings of the study.",
+      "Classification": "Unclear",
+      "Justification": "The patient has multiple intercurrent conditions such as chronic kidney disease, obesity, diabetes mellitus, and cardiomyopathy, but it is unclear if these would confound the study findings without the investigator's opinion."
+    }
+  ],
+  "Recap": "The patient meets the inclusion criterion of having a COVID-19 diagnosis and compatible symptoms. However, they do not meet the criterion of having no prior COVID-19 diagnosis. The patient's age is unknown, making it unclear if they meet the age-related criteria. The patient's intercurrent conditions could potentially confound the study, but this is unclear without further information.",
+  "Final Decision": "Ineligible"
+}
+```

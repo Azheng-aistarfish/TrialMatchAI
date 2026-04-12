@@ -1,0 +1,35 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Consecutive patients with parotid tumour diagnosed on other imaging modalities (such as ultrasonography or computed tomography), with or without cytological diagnosis from fine needle aspiration, will be recruited from the ear, nose and throat specialty clinic.",
+      "Classification": "Unclear",
+      "Justification": "The patient's data does not mention a diagnosis of a parotid tumour or any imaging modalities such as ultrasonography or computed tomography. Therefore, it is unclear if this criterion is met."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Patients who are contraindicated to magnetic resonance imaging (such as due to underlying MRI incompatible metallic implants)",
+      "Classification": "Not Violated",
+      "Justification": "The patient has a Left Ventricular Assist Device, but there is no information indicating it is MRI incompatible. Therefore, this criterion is not violated based on the provided data."
+    },
+    {
+      "Criterion": "Patient who are contraindicated to MRI contrast agents (such as advanced renal failure or previous severe allergic reaction)",
+      "Classification": "Violated",
+      "Justification": "The patient has Stage 3 chronic kidney disease, which may contraindicate the use of MRI contrast agents. This criterion is violated."
+    },
+    {
+      "Criterion": "Patients who cannot cooperate for MRI scanning.",
+      "Classification": "Unclear",
+      "Justification": "There is no information provided about the patient's ability to cooperate for MRI scanning. Therefore, it is unclear if this criterion is violated."
+    },
+    {
+      "Criterion": "Patients show are unable to provide informed consent.",
+      "Classification": "Not Violated",
+      "Justification": "Written informed consent has been obtained from the patient or their legal representative, so this criterion is not violated."
+    }
+  ],
+  "Recap": "The patient's eligibility is unclear due to the lack of information on a parotid tumour diagnosis. However, the patient is likely ineligible due to the violation of the MRI contrast agent contraindication criterion.",
+  "Final Decision": "Ineligible"
+}
+```

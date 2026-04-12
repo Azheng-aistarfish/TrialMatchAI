@@ -1,0 +1,40 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Understand and voluntarily sign an informed consent document prior to conducting any study related assessments or procedures.", "Classification": "Met", "Justification": "The patient has provided written informed consent."},
+    {"Criterion": "Histologically proven invasive adenocarcinoma of breast.", "Classification": "Not Met", "Justification": "The patient has adenocarcinoma of the lung, not the breast."},
+    {"Criterion": "Must have marker clip indicating location of target tumor in breast.", "Classification": "Not Met", "Justification": "The patient's cancer is in the lung, not the breast, so this criterion is not applicable."},
+    {"Criterion": "Unifocal tumor less than or equal to 2 cm based on contrast-enhanced prone-breast MRI.", "Classification": "Not Met", "Justification": "The patient's tumor is in the lung, not the breast, so this criterion is not applicable."},
+    {"Criterion": "Must be clinically and radiographically node negative (N0) to participate on this protocol.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's lymph node status."},
+    {"Criterion": "Appropriate candidate for breast-conserving surgery based on multi-disciplinary assessment.", "Classification": "Not Met", "Justification": "The patient's cancer is in the lung, not the breast, so this criterion is not applicable."},
+    {"Criterion": "Females age ≥ 50 years.", "Classification": "Met", "Justification": "The patient is 53 years old."},
+    {"Criterion": "Able to tolerate prone body positioning during radiation therapy.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ability to tolerate prone positioning."},
+    {"Criterion": "No prior ipsilateral-breast or thoracic radiotherapy.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's history of radiotherapy."},
+    {"Criterion": "As defined on MRI, target lesion must be at least 10 mm distance from skin (defined as volume encompassing first 3 mm from breast surface).", "Classification": "Not Met", "Justification": "The patient's cancer is in the lung, not the breast, so this criterion is not applicable."},
+    {"Criterion": "Must be estrogen receptor (ER) positive.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ER status."},
+    {"Criterion": "Must be negative for Her-2 amplification.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's Her-2 status."},
+    {"Criterion": "No implanted hardware or other material that would prohibit appropriate treatment planning or treatment delivery in the investigator's opinion.", "Classification": "Unclear", "Justification": "There is no information provided about the presence of any implanted hardware."},
+    {"Criterion": "No history of an invasive malignancy (other than this breast cancer, or non-metastatic basal or squamous skin cancers) in the last 5 years.", "Classification": "Not Met", "Justification": "The patient has a history of lung cancer, which is an invasive malignancy."},
+    {"Criterion": "Must not have received nor be planned for neoadjuvant chemotherapy prior to SABR or surgery.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's chemotherapy history or plans."},
+    {"Criterion": "ECOG performance status less than 2.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ECOG performance status."},
+    {"Criterion": "Females of childbearing potential must have a negative urine pregnancy test prior to simulation and within seven days of SABR start.", "Classification": "Irrelevant", "Justification": "The patient is 53 years old, which is beyond typical childbearing age."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Have invasive lobular carcinoma.", "Classification": "Irrelevant", "Justification": "The patient's cancer is in the lung, not the breast."},
+    {"Criterion": "Have a Tumor > 2 cm as measured on prone contrast-enhanced breast MRI.", "Classification": "Irrelevant", "Justification": "The patient's cancer is in the lung, not the breast."},
+    {"Criterion": "Have presence of histologically proven lymph node disease.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's lymph node status."},
+    {"Criterion": "Are not a candidate for breast conserving surgery.", "Classification": "Irrelevant", "Justification": "The patient's cancer is in the lung, not the breast."},
+    {"Criterion": "Have had prior ipsilateral-breast or thoracic radiotherapy.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's history of radiotherapy."},
+    {"Criterion": "History of scleroderma or lupus erythematosus with either cutaneous manifestation or requiring active treatment.", "Classification": "Not Violated", "Justification": "There is no information provided about the patient having scleroderma or lupus erythematosus."},
+    {"Criterion": "An MRI defined target tumor that is within 10 mm of skin (defined as volume encompassing first 3 mm from skin surface).", "Classification": "Irrelevant", "Justification": "The patient's cancer is in the lung, not the breast."},
+    {"Criterion": "Have amplification of Her-2 (Either 3+ by semi-quantitative immunostain or positive by Fluorescent in-situ hybridization (FISH)).", "Classification": "Unclear", "Justification": "There is no information provided about the patient's Her-2 status."},
+    {"Criterion": "Have implanted hardware or other material that would prohibit appropriate treatment planning or treatment delivery in the investigator's opinion.", "Classification": "Unclear", "Justification": "There is no information provided about the presence of any implanted hardware."},
+    {"Criterion": "History of an invasive malignancy (other than this breast cancer, or non-metastatic basal or squamous skin cancers) in the last 5 years.", "Classification": "Violated", "Justification": "The patient has a history of lung cancer, which is an invasive malignancy."},
+    {"Criterion": "Have received or plan to receive neoadjuvant chemotherapy either before radiotherapy or before surgery.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's chemotherapy history or plans."},
+    {"Criterion": "A known carrier of BRCA1 or BRCA2 gene mutation.", "Classification": "Not Violated", "Justification": "There is no information provided about the patient being a carrier of BRCA1 or BRCA2 gene mutations."},
+    {"Criterion": "Pregnant or unwilling to undergo pregnancy screening.", "Classification": "Not Violated", "Justification": "The patient is 53 years old, which is beyond typical childbearing age."}
+  ],
+  "Recap": "The patient is ineligible for the clinical trial due to having a history of lung cancer, which violates the exclusion criteria. Additionally, the patient's cancer is not breast cancer, which is a requirement for the trial.",
+  "Final Decision": "Ineligible"
+}
+```

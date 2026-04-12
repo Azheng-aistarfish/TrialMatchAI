@@ -1,0 +1,29 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Part 1 Documented diagnosis of ovarian cancer, endometrial cancer, colorectal cancer, gastric cancer, gastroesophageal junction cancer, triple negative breast cancer, non-small cell lung cancer, or cholangiocarcinoma", "Classification": "Not Met", "Justification": "The patient is a 58-year-old male with a cardiac history, and there is no mention of any cancer diagnosis in the provided data."},
+    {"Criterion": "Part 2 Ovarian Cancer or Endometrial Cancer", "Classification": "Not Met", "Justification": "The patient is male, and the criterion specifically applies to female patients with ovarian or endometrial cancer."},
+    {"Criterion": "No other meaningful life-prolonging therapy option available", "Classification": "Unclear", "Justification": "There is no information provided about the availability of other life-prolonging therapies for the patient."},
+    {"Criterion": "Must provide archival tumor tissue or a newly obtained tumor biopsy specimen prior to the first dose of ELU001 for folate receptor alpha (FRα) expression analysis", "Classification": "Irrelevant", "Justification": "The patient does not have a cancer diagnosis, so this criterion does not apply."},
+    {"Criterion": "Adequate organ function", "Classification": "Unclear", "Justification": "While there is mention of mild elevation in hepatic transaminase levels, there is no comprehensive assessment of overall organ function provided."},
+    {"Criterion": "Measurable disease, or in the absence of measurable disease, non-measurable disease as per Response evaluation criteria in solid tumors (RECIST) v1.1", "Classification": "Irrelevant", "Justification": "The patient does not have a cancer diagnosis, so this criterion does not apply."},
+    {"Criterion": "Part 1: Eastern Cooperative Oncology Group (ECOG) performance status of 0, 1 or 2; Part 2: ECOG performance status of 0 or 1", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ECOG performance status."},
+    {"Criterion": "Recovered from previous surgeries", "Classification": "Met", "Justification": "The patient has undergone bypass surgery and is currently managing his condition, indicating recovery from the surgery."},
+    {"Criterion": "Agree to highly effective contraception, not to get pregnant, or for men, not father a child during study participation", "Classification": "Met", "Justification": "The patient is male, and the criterion applies to men agreeing not to father a child during the study, which is assumed to be met as there is no information suggesting otherwise."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Clinically significant eye disorders", "Classification": "Not Violated", "Justification": "There is no mention of any eye disorders in the patient's data."},
+    {"Criterion": "Taken any treatments that use the protein folate receptor alpha or FRα to work", "Classification": "Not Violated", "Justification": "The patient's current medications include atorvastatin and metformin, neither of which are treatments that use folate receptor alpha."},
+    {"Criterion": "Taken any other experimental treatments", "Classification": "Not Violated", "Justification": "There is no mention of the patient having taken any experimental treatments."},
+    {"Criterion": "History of significant cardiac issues or other cancers within 3 years", "Classification": "Violated", "Justification": "The patient has a complex cardiac history, including multiple myocardial infarctions and coronary artery disease, which are significant cardiac issues."},
+    {"Criterion": "Significant anemia, significant neutropenia, or significant thrombocytopenia", "Classification": "Not Violated", "Justification": "There is no mention of anemia, neutropenia, or thrombocytopenia in the patient's data."},
+    {"Criterion": "Detectable viral load for HIV (human immunodeficiency virus), hepatitis B or C", "Classification": "Not Violated", "Justification": "There is no mention of any viral infections in the patient's data."},
+    {"Criterion": "If you are pregnant", "Classification": "Not Violated", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Part 1: Cannot have active autoimmune diseases such as rheumatoid arthritis, SLE, ulcerative colitis, Crohn's Disease, MS, ankylosing spondylitis, thyroiditis that require treatments that suppress your immune system", "Classification": "Not Violated", "Justification": "There is no mention of any autoimmune diseases in the patient's data."},
+    {"Criterion": "Part 1: if your cancer has spread to your brain", "Classification": "Not Violated", "Justification": "The patient does not have a cancer diagnosis, so this criterion does not apply."},
+    {"Criterion": "Part 2: You can have cancer that has spread to your brain but there are exceptions", "Classification": "Irrelevant", "Justification": "The patient does not have a cancer diagnosis, so this criterion does not apply."}
+  ],
+  "Recap": "The patient does not meet the key inclusion criteria due to the absence of a cancer diagnosis. Additionally, the patient's significant cardiac history violates the exclusion criteria related to significant cardiac issues.",
+  "Final Decision": "Ineligible"
+}
+```

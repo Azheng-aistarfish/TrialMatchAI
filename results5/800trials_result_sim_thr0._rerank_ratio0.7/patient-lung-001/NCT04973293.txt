@@ -1,0 +1,30 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologically or cytologically confirmed, previously untreated and surgically resectable non-small cell lung cancer (stage II-IIIA, patients with squamous cell carcinoma or EGFR mutation should not be included)", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, which is not stage II-IIIA, and she has an EGFR mutation, both of which disqualify her from this criterion."},
+    {"Criterion": "Eastern Cooperative Oncology Group (ECOG) performance status 0-1", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided in the data."},
+    {"Criterion": "Satisfactory preoperative laboratory testing and adequate pulmonary function for surgery", "Classification": "Unclear", "Justification": "There is no information on preoperative laboratory testing or pulmonary function in the patient's data."},
+    {"Criterion": "Patients approve and sign the informed consent", "Classification": "Met", "Justification": "The patient has obtained written informed consent, satisfying this criterion."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Pancoast tumor, squamous cell carcinoma, large-cell carcinoma and sarcomatoid carcinoma", "Classification": "Not Violated", "Justification": "The patient has adenocarcinoma, not any of the excluded histological types."},
+    {"Criterion": "Patients with active autoimmune disease or history of autoimmune disease", "Classification": "Not Violated", "Justification": "There is no mention of autoimmune disease in the patient's history."},
+    {"Criterion": "Patients who have a condition requiring systemic treatment with either prednisone or other immunosuppressive medications", "Classification": "Not Violated", "Justification": "The patient is not on prednisone or other immunosuppressive medications."},
+    {"Criterion": "Patients with a history of symptomatic interstitial lung disease", "Classification": "Not Violated", "Justification": "There is no history of interstitial lung disease mentioned."},
+    {"Criterion": "History of allergy to study drug components", "Classification": "Not Violated", "Justification": "No allergies to study drug components are reported."},
+    {"Criterion": "Women must not be pregnant or breast-feeding", "Classification": "Not Violated", "Justification": "There is no information suggesting the patient is pregnant or breast-feeding."},
+    {"Criterion": "Men with female partners that are not willing to use contraception", "Classification": "Irrelevant", "Justification": "The patient is female, so this criterion does not apply."},
+    {"Criterion": "Patients who have received prior chemotherapy, anti-angiogenesis therapy and immunotherapy for this malignancy or for any other past malignancy", "Classification": "Violated", "Justification": "The patient is currently undergoing treatment with osimertinib, which is a form of chemotherapy for her lung cancer."},
+    {"Criterion": "Patients who have received prior treatment for non-small cell lung cancer", "Classification": "Violated", "Justification": "The patient is currently receiving treatment for non-small cell lung cancer, indicating prior treatment."},
+    {"Criterion": "Any mental or psychological condition which would not permit the patient to complete the study or understand the patient information", "Classification": "Not Violated", "Justification": "There is no mention of any mental or psychological condition in the patient's data."},
+    {"Criterion": "Patients who have major hemoptysis within the past 4 weeks, tumor has invasion or is close to great vessels", "Classification": "Not Violated", "Justification": "There is no mention of major hemoptysis or tumor invasion in the patient's data."},
+    {"Criterion": "Patients with high risk of major bleeding", "Classification": "Not Violated", "Justification": "There is no information suggesting a high risk of major bleeding."},
+    {"Criterion": "Patients who have arterial thrombotic events, esophageal varices, peptic ulcers, wounds or bone fractures", "Classification": "Not Violated", "Justification": "There is no mention of these conditions in the patient's data."},
+    {"Criterion": "Patients who have prior malignancies", "Classification": "Not Violated", "Justification": "There is no mention of prior malignancies in the patient's history."},
+    {"Criterion": "HIV, HBV, HCV infection or active pulmonary tuberculosis", "Classification": "Not Violated", "Justification": "There is no mention of these infections in the patient's data."},
+    {"Criterion": "Underlying medical conditions that, in the Investigator's opinion, will make the administration of study drug hazardous or obscure the interpretation of toxicity or adverse events", "Classification": "Unclear", "Justification": "There is insufficient information to determine if any underlying medical conditions would affect the study drug administration."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria due to having metastatic non-small cell lung cancer and an EGFR mutation. She also violates exclusion criteria related to prior treatment for non-small cell lung cancer.",
+  "Final Decision": "Ineligible"
+}
+```

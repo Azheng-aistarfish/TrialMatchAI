@@ -1,0 +1,26 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Signed, informed consent", "Classification": "Met", "Justification": "The patient has provided written informed consent, as explicitly stated in the patient description."},
+    {"Criterion": "Histologically confirmed non-metastatic operable primary invasive HR-positive breast cancer subjected to diagnostic core biopsy", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, not breast cancer, as stated in the patient description."},
+    {"Criterion": "Menopausal status", "Classification": "Unclear", "Justification": "The patient's menopausal status is not mentioned in the provided data."},
+    {"Criterion": "HR-positive/HER2-negative eBC defined as - ER>1% on immunohistochemistry (IHC) staining - HER2 score equal to 0, 1+, 2+ (if FISH neg) on IHC staining", "Classification": "Not Met", "Justification": "The patient has lung cancer, not breast cancer, so this criterion is not applicable."},
+    {"Criterion": "Available paraffin-embedded tumor block (FFPE) taken at diagnostic biopsy for Ki67 determination (IHC)", "Classification": "Not Met", "Justification": "The patient has lung cancer, not breast cancer, so this criterion is not applicable."},
+    {"Criterion": "Adequate bone marrow, hepatic and renal function including the following: 1. Hb ≥ 9.0 g/dL, absolute neutrophil count ≥ 1.5 x 109/L, platelets ≥100 x 109/L 2. Total bilirubin ≤ 1.5 x upper normal limit, excluding cases where elevated bilirubin can be attributed to Gilberts Syndrome 3. AST (SGOT), ALT (SGPT) ≤ 2.5 x upper normal limit (or 5x UNL in the presence of liver metastases) 4. Creatinine ≤ 1.5 x upper normal limit", "Classification": "Unclear", "Justification": "The patient's bone marrow, hepatic, and renal function data are not provided in the patient description."},
+    {"Criterion": "Age ≥ 18 years", "Classification": "Met", "Justification": "The patient is 53 years old, which meets the age criterion."},
+    {"Criterion": "Performance status (PS) ≤ 1 (ECOG scale)", "Classification": "Unclear", "Justification": "The patient's performance status is not mentioned in the provided data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Presence of metastatic disease", "Classification": "Violated", "Justification": "The patient has metastatic non-small cell lung cancer, as stated in the patient description."},
+    {"Criterion": "Pre-menopausal status", "Classification": "Unclear", "Justification": "The patient's menopausal status is not mentioned in the provided data."},
+    {"Criterion": "Previous investigational treatment for any condition within 4 weeks of randomization date", "Classification": "Not Violated", "Justification": "There is no mention of investigational treatment within 4 weeks of randomization in the patient description."},
+    {"Criterion": "Treatment including radiation therapy, chemotherapy, biotherapy and/or hormonal therapy for the currently diagnosed breast cancer prior to study entry", "Classification": "Not Violated", "Justification": "The patient is undergoing treatment for lung cancer, not breast cancer, as stated in the patient description."},
+    {"Criterion": "Co-existing active infection or serious concurrent illness", "Classification": "Not Violated", "Justification": "There is no mention of active infection or serious concurrent illness in the patient description."},
+    {"Criterion": "Any medical or other condition that in the Investigator's opinion renders the patient unsuitable for this study due to unacceptable risk", "Classification": "Unclear", "Justification": "The patient's suitability for the study is not explicitly addressed in the provided data."},
+    {"Criterion": "Psychiatric disorders or altered mental status precluding understanding of the informed consent process and/or completion of the necessary studies", "Classification": "Not Violated", "Justification": "There is no mention of psychiatric disorders or altered mental status in the patient description."},
+    {"Criterion": "Gastrointestinal disorders that may interfere with absorption of the study drug", "Classification": "Not Violated", "Justification": "There is no mention of gastrointestinal disorders in the patient description."}
+  ],
+  "Recap": "The patient meets the age criterion and has provided informed consent. However, she has metastatic lung cancer, which violates the exclusion criterion for metastatic disease. The patient's menopausal status, performance status, and bone marrow, hepatic, and renal function are unclear due to missing data.",
+  "Final Decision": "Ineligible"
+}
+```

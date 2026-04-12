@@ -1,0 +1,21 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient newly treated with oxaliplatin", "Classification": "Not Met", "Justification": "The patient is currently being treated with osimertinib, not oxaliplatin."},
+    {"Criterion": "Patient suffering from any type of cancer treated with oxaliplatin", "Classification": "Not Met", "Justification": "The patient's cancer is being treated with osimertinib, not oxaliplatin."},
+    {"Criterion": "Man or Woman over 18", "Classification": "Met", "Justification": "The patient is a 53-year-old female, which satisfies the age and gender criterion."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient with brain or leptomeningeal metastases", "Classification": "Not Violated", "Justification": "There is no mention of brain or leptomeningeal metastases in the patient's description."},
+    {"Criterion": "Patient previously treated with cisplatin", "Classification": "Not Violated", "Justification": "The patient's treatment history does not include cisplatin."},
+    {"Criterion": "Patient addicted to alcohol", "Classification": "Not Violated", "Justification": "There is no information provided about alcohol addiction."},
+    {"Criterion": "Diabetic patient with peripheral neurological disorders", "Classification": "Not Violated", "Justification": "The patient's description does not mention diabetes or peripheral neurological disorders."},
+    {"Criterion": "Patient receiving calcium or magnesium salts intravenously", "Classification": "Not Violated", "Justification": "There is no mention of the patient receiving calcium or magnesium salts intravenously."},
+    {"Criterion": "Patient suffering from peripheral neuropathy", "Classification": "Not Violated", "Justification": "Peripheral neuropathy is not mentioned in the patient's description."},
+    {"Criterion": "Patient suffering from psychiatric disorders", "Classification": "Not Violated", "Justification": "There is no mention of psychiatric disorders in the patient's description."},
+    {"Criterion": "Patient treated with at least one of the following drug: venlafaxine, carbamazepine, gabapentin, pregabalin, clomipramine, amitriptyline, imipramine, duloxetine", "Classification": "Not Violated", "Justification": "The patient is not reported to be taking any of these medications."}
+  ],
+  "Recap": "The patient is a 53-year-old female with metastatic non-small cell lung cancer, treated with osimertinib. She meets the age and gender inclusion criteria but does not meet the treatment-related criteria. None of the exclusion criteria are violated based on the provided information.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,32 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "irrespective of sex", "Classification": "Met", "Justification": "The patient is male, which satisfies the criterion of being irrespective of sex."},
+    {"Criterion": "aged between 45 and 79 years", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "with office-measured seated BP 120-139 mm Hg systolic and below 90 mm Hg diastolic", "Classification": "Unclear", "Justification": "Blood pressure measurements are not provided in the patient data."},
+    {"Criterion": "diagnosed of type 2 diabetes mellitus (T2DM), currently on diabetic therapy", "Classification": "Unclear", "Justification": "The patient is diagnosed with diabetes mellitus, but it is not specified as type 2, nor is there information on current diabetic therapy."},
+    {"Criterion": "informed consent provided and long-term follow-up possible", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "poor control of blood glucose, HbA1c > 10.0%", "Classification": "Unclear", "Justification": "There is no information on the patient's HbA1c levels."},
+    {"Criterion": "administration of any antihypertensive medications within 1 month", "Classification": "Unclear", "Justification": "There is no information on the administration of antihypertensive medications."},
+    {"Criterion": "a history of hypoglycemic coma / seizure", "Classification": "Not Violated", "Justification": "There is no mention of a history of hypoglycemic coma or seizure in the patient data."},
+    {"Criterion": "confirmed diagnosis of type 1 diabetes mellitus", "Classification": "Not Violated", "Justification": "The patient is diagnosed with diabetes mellitus, but it is not specified as type 1."},
+    {"Criterion": "alanine-aminotransferase (ALT) or aspartate-aminotransferase (AST) over three times the upper limit of normal", "Classification": "Unclear", "Justification": "There is no information on ALT or AST levels."},
+    {"Criterion": "estimated glomerular filtration rate < 45 ml/min/1.73m2", "Classification": "Violated", "Justification": "The patient has Stage 3 chronic kidney disease, which typically indicates an eGFR between 30-59 ml/min/1.73m2, likely below 45 ml/min/1.73m2."},
+    {"Criterion": "a history of congestive heart failure with left ventricular ejection fraction < 40%", "Classification": "Unclear", "Justification": "The patient has cardiomyopathy, but there is no specific information on ejection fraction or congestive heart failure."},
+    {"Criterion": "coronary artery disease requiring RAS blockers for secondary prevention", "Classification": "Not Violated", "Justification": "There is no mention of coronary artery disease or the use of RAS blockers in the patient data."},
+    {"Criterion": "acute on-set of stroke within 6 months prior to randomization", "Classification": "Not Violated", "Justification": "There is no mention of a recent stroke in the patient data."},
+    {"Criterion": "a ratio of urinary albumin (in mg/L) to urinary creatinine (in g/L) (ACR) ≥ 300 mg/g", "Classification": "Unclear", "Justification": "There is no information on the patient's ACR levels."},
+    {"Criterion": "known contraindications for the active study medications", "Classification": "Unclear", "Justification": "There is no information on contraindications for the study medications."},
+    {"Criterion": "a history of psychological or mental disorder", "Classification": "Not Violated", "Justification": "There is no mention of a psychological or mental disorder in the patient data."},
+    {"Criterion": "pregnancy or currently planning to have babies or lactation", "Classification": "Not Violated", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "severe diseases such as severe heart diseases", "Classification": "Unclear", "Justification": "The patient has cardiomyopathy, but it is not specified as severe heart disease."},
+    {"Criterion": "an expected residual life span less than 3 years", "Classification": "Unclear", "Justification": "There is no information on the patient's expected residual life span."},
+    {"Criterion": "a malignancy that clinical investigators consider as unsuitable to participate", "Classification": "Not Violated", "Justification": "There is no mention of malignancy in the patient data."},
+    {"Criterion": "currently participating in another clinical trial", "Classification": "Not Violated", "Justification": "There is no mention of participation in another clinical trial in the patient data."}
+  ],
+  "Recap": "The patient meets the sex criterion and has provided informed consent. However, the patient's age, blood pressure, type of diabetes, and diabetic therapy are unclear. The patient's eGFR is likely below 45 ml/min/1.73m2 due to Stage 3 chronic kidney disease, violating an exclusion criterion. Other exclusion criteria remain unclear due to insufficient data.",
+  "Final Decision": "Ineligible"
+}
+```

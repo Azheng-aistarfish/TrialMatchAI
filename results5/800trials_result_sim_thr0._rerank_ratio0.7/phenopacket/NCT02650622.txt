@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Subjects aged 1-2 days", "Classification": "Not Met", "Justification": "The patient is 58 years old, which does not meet the age requirement of 1-2 days."},
+    {"Criterion": "Subjects with gestational age 37-42 weeks", "Classification": "Irrelevant", "Justification": "The patient is an adult, so gestational age is not applicable."},
+    {"Criterion": "Subjects with stable clinical status (admitted to normal newborn nursery)", "Classification": "Irrelevant", "Justification": "The patient is an adult, so this criterion does not apply."},
+    {"Criterion": "Subjects aged 0-18 years", "Classification": "Not Met", "Justification": "The patient is 58 years old, which is outside the age range of 0-18 years."},
+    {"Criterion": "Subjects (no age limit) with ANY phenotype as below: - Confirmed metabolic or genetic diseases - Suspected metabolic or genetic diseases - Episodic metabolic decompensation (e.g. hypoglycemia, hyperammonemia, metabolic acidosis) - Developmental regression - Major congenital malformation - Other unexplained symptoms of potential genetic origin", "Classification": "Met", "Justification": "The patient has a confirmed genetic disease, familial hypercholesterolemia, due to a heterozygous LDLR mutation."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Subjects with gestational age <37 weeks or >42 weeks", "Classification": "Irrelevant", "Justification": "The patient is an adult, so gestational age is not applicable."},
+    {"Criterion": "Subjects with overt signs of metabolic dysfunction, distress or genetic diseases including hypoglycemia, hyperglycemia, sepsis/shock, hypoxemia, or major congenital malformation", "Classification": "Not Violated", "Justification": "The patient does not have overt signs of metabolic dysfunction or distress as described in the exclusion criteria."},
+    {"Criterion": "Subjects with mothers whose pregnancies were complicated by gestational diabetes, gestational hyperglycemia, gestational hypertension, preeclampsia, or any other major disorders", "Classification": "Irrelevant", "Justification": "The patient is an adult, so this criterion does not apply."},
+    {"Criterion": "Subjects with confirmed metabolic or genetic diseases", "Classification": "Violated", "Justification": "The patient has a confirmed genetic disease, familial hypercholesterolemia."},
+    {"Criterion": "Subjects with suspected metabolic or genetic diseases", "Classification": "Not Violated", "Justification": "The patient's genetic disease is confirmed, not merely suspected."},
+    {"Criterion": "Subjects with episodic metabolic decompensation (e.g. hypoglycemia, hyperammonemia, metabolic acidosis)", "Classification": "Not Violated", "Justification": "There is no evidence of episodic metabolic decompensation in the patient's profile."},
+    {"Criterion": "Subjects with developmental regression", "Classification": "Not Violated", "Justification": "There is no indication of developmental regression in the patient's profile."},
+    {"Criterion": "Subjects with major congenital malformation", "Classification": "Not Violated", "Justification": "There is no mention of major congenital malformations in the patient's profile."}
+  ],
+  "Recap": "The patient is 58 years old and has a confirmed genetic disease, familial hypercholesterolemia, which meets the inclusion criteria for Cohort 3 but violates the exclusion criteria for Cohort 2. The patient does not meet the age requirements for Cohorts 1 and 2.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,26 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Biopsy proven HER2 negative metastatic breast cancer (dose escalation portion and MTD expansion portion) or advanced solid tumor (dose escalation portion).", "Classification": "Irrelevant", "Justification": "The patient is a male, and the criterion specifically pertains to breast cancer, which is not applicable."},
+    {"Criterion": "ASS deficiency (defined as <50% ASS expression) demonstrated on tissue specimen by Immunohistochemistry (IHC). Cytology and fine need aspirate specimens are not acceptable for ASS testing.", "Classification": "Unclear", "Justification": "There is no information provided about ASS expression or testing in the patient's data."},
+    {"Criterion": "Unresectable disease or subject refused surgery.", "Classification": "Irrelevant", "Justification": "The patient's condition is cardiac-related, not cancer-related, making this criterion irrelevant."},
+    {"Criterion": "Measurable disease as assessed by RECIST 1.1 criteria (Appendix A).", "Classification": "Irrelevant", "Justification": "The patient's condition is cardiac-related, not cancer-related, making this criterion irrelevant."},
+    {"Criterion": "Failed available therapy known to confer clinical benefit but no more than 4 prior lines of chemotherapy for metastatic disease.", "Classification": "Irrelevant", "Justification": "The patient has not undergone chemotherapy for cancer, as his condition is cardiac-related."},
+    {"Criterion": "Time to treatment failure from doxorubicin containing regimen ≥ 12 months if previously treated with doxorubicin.", "Classification": "Irrelevant", "Justification": "The patient has not been treated with doxorubicin, as his condition is cardiac-related."},
+    {"Criterion": "Age ≥ 18 years.", "Classification": "Met", "Justification": "The patient is 58 years old, which satisfies the age criterion."},
+    {"Criterion": "ECOG performance status of 0 - 2.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ECOG performance status in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Serious infection requiring treatment with systemically administered antibiotics at the time of study entrance, or an infection requiring systemic antibiotic therapy within 7 days prior to the first dose of study treatment.", "Classification": "Not Violated", "Justification": "There is no mention of any infection in the patient's data."},
+    {"Criterion": "Prior epirubicin exposure of > 600 mg/m2.", "Classification": "Not Violated", "Justification": "The patient has not been treated with epirubicin, as his condition is cardiac-related."},
+    {"Criterion": "Pregnancy or lactation.", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."},
+    {"Criterion": "Expected non-compliance.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's compliance in the data."},
+    {"Criterion": "Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure (New York Heart Association Class III or IV), cardiac arrhythmia, or psychiatric illness, social situations that would limit compliance with study requirements.", "Classification": "Violated", "Justification": "The patient has Stage III coronary artery disease with multivessel involvement and impaired left ventricular function, which may be considered an uncontrolled intercurrent illness."},
+    {"Criterion": "Subjects who have had any anticancer treatment prior to entering the study and have not recovered to baseline (except alopecia) or ≤ Grade 1 AEs, or deemed irreversible from the effects of prior cancer therapy. AEs > Grade 1 that are not considered a safety risk by the Sponsor and Investigator may be allowed upon agreement with both.", "Classification": "Irrelevant", "Justification": "The patient has not undergone cancer treatment, as his condition is cardiac-related."},
+    {"Criterion": "Subjects with history of another primary cancer, including co-existent second malignancy, with the exception of: a) curatively resected non-melanoma skin cancer; b) curatively treated cervical carcinoma in situ; or c) other primary solid tumor with no known active disease present in the opinion of the Investigator will not affect subject outcome in the setting of breast cancer diagnosis.", "Classification": "Irrelevant", "Justification": "The patient has no history of cancer, as his condition is cardiac-related."},
+    {"Criterion": "Subjects who had been treated with ADI-PEG 20 previously.", "Classification": "Not Violated", "Justification": "There is no mention of ADI-PEG 20 treatment in the patient's data."}
+  ],
+  "Recap": "The patient is a 58-year-old male with a cardiac condition, not cancer-related, making most inclusion and exclusion criteria irrelevant. The patient meets the age criterion but has an uncontrolled intercurrent illness due to his cardiac condition, which violates an exclusion criterion.",
+  "Final Decision": "Ineligible"
+}
+```

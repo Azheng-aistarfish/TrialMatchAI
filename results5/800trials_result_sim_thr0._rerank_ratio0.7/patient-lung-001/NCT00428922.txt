@@ -1,0 +1,20 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologically confirmed breast cancer with evidence of metastatic disease", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, not breast cancer."},
+    {"Criterion": "HER2 3+ or FISH (fluorescent in situ hybridization)+", "Classification": "Irrelevant", "Justification": "The patient's cancer is lung adenocarcinoma, not breast cancer, so HER2 status is not applicable."},
+    {"Criterion": "Age ≥ 18 years", "Classification": "Met", "Justification": "The patient is 53 years old, which satisfies the age criterion."},
+    {"Criterion": "No prior trastuzumab, except as given in the adjuvant or neoadjuvant setting", "Classification": "Irrelevant", "Justification": "The patient has lung cancer, not breast cancer, so trastuzumab use is not applicable."},
+    {"Criterion": "No prior chemotherapy in the metastatic setting", "Classification": "Irrelevant", "Justification": "The patient is currently undergoing treatment with osimertinib, not chemotherapy, for metastatic lung cancer, so this criterion is not applicable."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "CNS (central nervous system) metastases", "Classification": "Not Violated", "Justification": "There is no mention of CNS metastases in the patient's description."},
+    {"Criterion": "Prior radiation therapy within the last 4 weeks", "Classification": "Not Violated", "Justification": "There is no information provided about recent radiation therapy."},
+    {"Criterion": "Pregnant (positive pregnancy test) or lactating women", "Classification": "Not Violated", "Justification": "The patient's pregnancy or lactation status is not mentioned, but there is no indication of either."},
+    {"Criterion": "Major surgical procedure, open biopsy, non-healing wounds, or significant traumatic injury within 28 days prior to starting study or anticipation of need for major surgical procedure during the study", "Classification": "Not Violated", "Justification": "There is no mention of recent major surgery or anticipated need for such procedures."},
+    {"Criterion": "Minor surgical procedures such as fine needle aspirations or core biopsies within 7 days prior to start of study", "Classification": "Not Violated", "Justification": "The patient had a CT-guided biopsy, but there is no indication it occurred within the last 7 days."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for breast cancer, as she has metastatic lung cancer. The age criterion is met, but other inclusion criteria are irrelevant due to the type of cancer. None of the exclusion criteria are violated based on the provided information.",
+  "Final Decision": "Ineligible"
+}
+```

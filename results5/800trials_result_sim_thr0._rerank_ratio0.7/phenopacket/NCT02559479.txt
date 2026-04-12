@@ -1,0 +1,25 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age: 18-70 years old.", "Classification": "Met", "Justification": "The patient is 58 years old, which falls within the specified age range of 18-70 years."},
+    {"Criterion": "Body mass index between 27.5 - 40.", "Classification": "Unclear", "Justification": "The patient's BMI is not provided in the data, making it impossible to determine if this criterion is met."},
+    {"Criterion": "Steady weight (± 4 kg) in the last 2 months.", "Classification": "Unclear", "Justification": "There is no information about the patient's weight stability over the past 2 months."},
+    {"Criterion": "Glycated hemoglobin between 6 - 7%.", "Classification": "Met", "Justification": "The patient's HbA1c levels are between 6.5% and 7.2%, which falls within the required range of 6 - 7%."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Anti-diabetic drugs (oral or subcutaneous) in the last 2 months.", "Classification": "Violated", "Justification": "The patient is currently taking metformin, an oral anti-diabetic drug."},
+    {"Criterion": "Lipid-lowering drugs in the last 2 months.", "Classification": "Violated", "Justification": "The patient is on atorvastatin, a lipid-lowering drug."},
+    {"Criterion": "Gouty arthritis in the last 2 years or uric acid > 735 mg/dl.", "Classification": "Not Violated", "Justification": "There is no mention of gouty arthritis or uric acid levels in the patient's data."},
+    {"Criterion": "Presence of uncontrolled endocrinological pathology (including hypothyroidism).", "Classification": "Not Violated", "Justification": "The patient's diabetes is managed with metformin, and there is no mention of uncontrolled endocrinological conditions."},
+    {"Criterion": "Hepatic chronic disease (glomerular filtration rate < 45 ml/min).", "Classification": "Not Violated", "Justification": "There is no information on the patient's glomerular filtration rate, but the mild elevation in hepatic transaminase levels is noted as possibly related to statin therapy or non-alcoholic fatty liver disease, not chronic liver disease."},
+    {"Criterion": "Renal, inflammatory or tumoral diseases.", "Classification": "Not Violated", "Justification": "There is no mention of renal, inflammatory, or tumoral diseases in the patient's data."},
+    {"Criterion": "Drugs which could interfere in glucose or lipid metabolism such as androgens, corticosteroids (except for those with topic administration) and estrogen replacement therapy.", "Classification": "Not Violated", "Justification": "The patient is not reported to be taking any drugs that interfere with glucose or lipid metabolism, aside from metformin and atorvastatin, which are not listed as interfering drugs in this context."},
+    {"Criterion": "Intake of functional foods with plant sterols in the past 6 weeks.", "Classification": "Not Violated", "Justification": "There is no mention of the patient consuming functional foods with plant sterols."},
+    {"Criterion": "High alcohol intake (> 30 g per day).", "Classification": "Not Violated", "Justification": "There is no information provided about the patient's alcohol intake."},
+    {"Criterion": "Any serious disease which involves less than 1 year life expectancy or, in investigators judgment, limit the follow-up of an homogeneous diet throughout the study.", "Classification": "Not Violated", "Justification": "The patient's cardiac history is serious, but there is no indication that it limits life expectancy to less than 1 year or affects the ability to follow a diet."},
+    {"Criterion": "Pregnancy or intention of pregnancy during the study.", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."}
+  ],
+  "Recap": "The patient meets the age and glycated hemoglobin inclusion criteria. However, the patient's BMI and weight stability are unclear due to missing data. The patient violates the exclusion criteria related to the use of anti-diabetic and lipid-lowering drugs. Other exclusion criteria are not violated or are irrelevant.",
+  "Final Decision": "Ineligible"
+}
+```

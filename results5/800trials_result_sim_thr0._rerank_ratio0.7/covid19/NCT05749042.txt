@@ -1,0 +1,30 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Volunteer to participate in clinical research; fully understand and know the research and sign informed consent.", "Classification": "Met", "Justification": "The patient has provided written informed consent, indicating understanding and agreement to participate."},
+    {"Criterion": "Age ≥18 years, and ≤75 years, either sex.", "Classification": "Unclear", "Justification": "The patient's age is not specified in the provided data."},
+    {"Criterion": "Eastern Collaborative Oncology Group Performance status (ECOG PS) 0, 1, or 2.", "Classification": "Unclear", "Justification": "The patient's ECOG PS is not provided in the data."},
+    {"Criterion": "Patients with oral squamous cell carcinoma (including gingival cancer, tongue cancer, lip cancer, buccal cancer, oral cancer, etc) diagnosed by histopathology (according to the 8th edition of AJCC).", "Classification": "Not Met", "Justification": "The patient is diagnosed with COVID-19, not oral squamous cell carcinoma."},
+    {"Criterion": "Initial diagnosis patients unable to perform surgery.", "Classification": "Irrelevant", "Justification": "The patient's condition is COVID-19, not related to oral squamous cell carcinoma or surgery."},
+    {"Criterion": "Have at least one measurable lesion as defined by RECIST 1.1.", "Classification": "Irrelevant", "Justification": "The patient's condition is COVID-19, not related to measurable lesions in oral squamous cell carcinoma."},
+    {"Criterion": "Normal hepatic function: total bilirubin≤1.5×normal upper limit (ULN); Alanine aminotransferase and Aspartate aminotransferase levels ≤2.5×ULN or ≤5×ULN if liver metastasis is present.", "Classification": "Unclear", "Justification": "Liver function test results are not provided in the patient data."},
+    {"Criterion": "Normal renal function: Creatinine ≤1.5×ULN or calculated creatinine clearance ≥45 mL/min (using Cockcroft/Gault formula to calculate).", "Classification": "Not Met", "Justification": "The patient has Stage 3 chronic kidney disease, indicating impaired renal function."},
+    {"Criterion": "Normal hematological function: absolute neutrophil count ≥1.5×109/L, platelet count ≥70×109/L, hemoglobin≥80g/L [no blood transfusion or erythropoietin (EPO) within 7 days].", "Classification": "Unclear", "Justification": "Hematological function test results are not provided in the patient data."},
+    {"Criterion": "Has a life expectancy of at ≥3 months.", "Classification": "Unclear", "Justification": "Life expectancy information is not provided in the patient data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "ECOG PS >2.", "Classification": "Unclear", "Justification": "The patient's ECOG PS is not provided in the data."},
+    {"Criterion": "Patients who received radiotherapy, chemotherapy, monoclonal antibody and oral EGFR-TKI therapy within three months.", "Classification": "Not Violated", "Justification": "There is no mention of recent radiotherapy, chemotherapy, monoclonal antibody, or oral EGFR-TKI therapy in the patient data."},
+    {"Criterion": "Patients who are receiving any other investigational agents within 30 days prior to entering the study.", "Classification": "Not Violated", "Justification": "There is no mention of the patient receiving investigational agents in the data."},
+    {"Criterion": "The tumor has metastasized to the brain and/or pia mater.", "Classification": "Irrelevant", "Justification": "The patient's condition is COVID-19, not related to tumor metastasis."},
+    {"Criterion": "History of other malignancies (except for cured cervical carcinoma in situ or skin basal cell carcinoma and other malignancies that have been cured for more than 5 years).", "Classification": "Not Violated", "Justification": "There is no mention of a history of malignancies in the patient data."},
+    {"Criterion": "Accompanied by other serious diseases, including but not limited to: Uncontrollable congestive heart failure (NYHA grade Ⅲ or Ⅳ), unstable angina, poorly controlled arrhythmia, uncontrolled moderate or above hypertension (SBP > 160mmhg or DBP > 100mmhg); Severe active infection; Uncontrollable diabetes (refers to the high fluctuation of blood glucose, the impact on patients' life and the frequent occurrence of hypotension despite the standard insulin treatment and frequent blood glucose monitoring); Mental illness affecting informed consent and/or program compliance.", "Classification": "Violated", "Justification": "The patient has acute respiratory failure and is receiving oxygen therapy, indicating a severe active infection."},
+    {"Criterion": "Those who are allergic to the drug or its components used in the program.", "Classification": "Irrelevant", "Justification": "There is no mention of drug allergies in the patient data."},
+    {"Criterion": "Pregnancy (confirmed by hCG test in blood or urine) or lactating women, or childbearing age subjects are unwilling or unable to take effective contraceptive measures (applicable to both male and female subjects) until at least 6 months after the last trial treatment.", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."},
+    {"Criterion": "Those who are not considered suitable for the study by the researchers.", "Classification": "Irrelevant", "Justification": "This is a subjective criterion and cannot be assessed with the provided data."},
+    {"Criterion": "Unwilling to participate in this study or unable to sign informed consent.", "Classification": "Not Violated", "Justification": "The patient has provided written informed consent, indicating willingness to participate."}
+  ],
+  "Recap": "The patient meets the informed consent criterion but does not meet the specific condition of oral squamous cell carcinoma. The patient's renal function is impaired, and they have a severe active infection, which violates exclusion criteria. Age and ECOG PS are unclear due to missing data.",
+  "Final Decision": "Ineligible"
+}
+```

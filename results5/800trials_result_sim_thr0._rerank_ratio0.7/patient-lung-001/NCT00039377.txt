@@ -1,0 +1,18 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Unequivocal histologic diagnosis of ALL", "Classification": "Not Met", "Justification": "The patient has been diagnosed with metastatic non-small cell lung cancer, not ALL."},
+    {"Criterion": "Detection of the t(9;22)(q34;q11) or 3-way variant by metaphase cytogenetics or BCR-ABL positive by molecular analysis (RT-PCR or fluorescence in situ hybridization [FISH])", "Classification": "Not Met", "Justification": "The patient's genetic testing revealed an EGFR exon 19 deletion, not the Philadelphia chromosome or BCR-ABL positivity."},
+    {"Criterion": "Prior Therapy: Complete or partial remission following one course of induction chemotherapy with an intensive 4 or 5 drug regimen (with or without imatinib mesylate) on a CALGB or SWOG ALL protocol for previously untreated ALL patients", "Classification": "Irrelevant", "Justification": "The patient has not been treated for ALL, so this criterion does not apply."},
+    {"Criterion": "Complete or partial remission following one course of therapy on any standard induction regimen (with or without imatinib mesylate) without prior enrollment on a cooperative group frontline protocol; in these instances, documentation of Philadelphia chromosome (Ph)+ positivity may occur outside a CALGB or SWOG laboratory", "Classification": "Irrelevant", "Justification": "The patient has not undergone treatment for ALL, making this criterion irrelevant."},
+    {"Criterion": "No more than six weeks of prior imatinib mesylate during induction therapy before study enrollment", "Classification": "Irrelevant", "Justification": "The patient has not been treated with imatinib mesylate for ALL, so this criterion does not apply."},
+    {"Criterion": "Non-pregnant and non-nursing; treatment under this protocol would expose an unborn child to significant risks; women and men of reproductive potential should agree to use an effective means of birth control and contraception should continue for three months after the last dose of imatinib mesylate (Gleevec) to allow complete clearance of drug and its principle metabolites from the body; in women of childbearing potential, a pregnancy test will be required at study entry", "Classification": "Irrelevant", "Justification": "The patient's condition and treatment do not involve imatinib mesylate, making this criterion irrelevant."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Unequivocal histologic diagnosis of ALL", "Classification": "Violated", "Justification": "The patient has been diagnosed with metastatic non-small cell lung cancer, not ALL."},
+    {"Criterion": "Detection of the t(9;22)(q34;q11) or 3-way variant by metaphase cytogenetics or BCR-ABL positive by molecular analysis (RT-PCR or fluorescence in situ hybridization [FISH])", "Classification": "Violated", "Justification": "The patient's genetic testing revealed an EGFR exon 19 deletion, not the Philadelphia chromosome or BCR-ABL positivity."}
+  ],
+  "Recap": "The patient is diagnosed with metastatic non-small cell lung cancer, not ALL, and does not have the Philadelphia chromosome or BCR-ABL positivity. Therefore, the inclusion criteria are not met, and the exclusion criteria are violated.",
+  "Final Decision": "Ineligible"
+}
+```

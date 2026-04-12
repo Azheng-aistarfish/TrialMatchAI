@@ -1,0 +1,60 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "3 days or less with clinical COVID-19 symptoms (fever, cough, sour throat, headache, body ache, anosmia, diarrhoea, vomiting).",
+      "Classification": "Met",
+      "Justification": "The patient's symptoms, including fever, diarrhea, and dyspnea, began on March 17, 2020, and continued through March 20, 2020, which is within the 3-day window."
+    },
+    {
+      "Criterion": "sign inform consent.",
+      "Classification": "Met",
+      "Justification": "The patient has provided written informed consent, as explicitly stated in the patient description."
+    },
+    {
+      "Criterion": ">50% risk developing a severe clinical presentation of COVID-19 according to risk calculator.",
+      "Classification": "Unclear",
+      "Justification": "The patient's risk percentage for developing a severe clinical presentation of COVID-19 is not provided in the patient data."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "COVID-19 negative test.",
+      "Classification": "Not Violated",
+      "Justification": "The patient has been diagnosed with COVID-19, so this criterion does not apply."
+    },
+    {
+      "Criterion": "known pregnancy.",
+      "Classification": "Irrelevant",
+      "Justification": "The patient is male, making this criterion irrelevant."
+    },
+    {
+      "Criterion": "chronic use of steroid medication.",
+      "Classification": "Unclear",
+      "Justification": "There is no information provided about the patient's use of steroid medication."
+    },
+    {
+      "Criterion": "deep vein thrombosis in the last 6 months.",
+      "Classification": "Unclear",
+      "Justification": "There is no information provided about the patient having deep vein thrombosis."
+    },
+    {
+      "Criterion": "extended anticoagulation in the last 3 months.",
+      "Classification": "Unclear",
+      "Justification": "There is no information provided about the patient's use of anticoagulation therapy."
+    },
+    {
+      "Criterion": "known allergy to sulodexide.",
+      "Classification": "Irrelevant",
+      "Justification": "There is no information provided about the patient having an allergy to sulodexide."
+    },
+    {
+      "Criterion": "severe symptoms that warrant hospital care at initial screening.",
+      "Classification": "Violated",
+      "Justification": "The patient is experiencing acute respiratory failure, which is a severe symptom warranting hospital care."
+    }
+  ],
+  "Recap": "The patient meets the inclusion criteria of having symptoms within 3 days and providing informed consent. However, the risk of severe COVID-19 presentation is unclear. The patient violates the exclusion criterion of having severe symptoms requiring hospital care.",
+  "Final Decision": "Ineligible"
+}
+```

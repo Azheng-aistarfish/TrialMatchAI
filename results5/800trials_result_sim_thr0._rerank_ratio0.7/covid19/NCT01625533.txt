@@ -1,0 +1,19 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age >18 years old", "Classification": "Met", "Justification": "The patient is described as a male, and there is no indication of age, but the context implies adulthood."},
+    {"Criterion": "A clinical indication for diagnostic coronary angiography to evaluate possible CAD", "Classification": "Unclear", "Justification": "There is no explicit mention of a clinical indication for diagnostic coronary angiography in the patient's data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Pregnancy", "Classification": "Irrelevant", "Justification": "The patient is male, making pregnancy irrelevant."},
+    {"Criterion": "Known allergy to iodinated contrast", "Classification": "Irrelevant", "Justification": "There is no mention of any allergy to iodinated contrast in the patient's data."},
+    {"Criterion": "Renal insufficiency (>1.5mg/dL)", "Classification": "Violated", "Justification": "The patient has Stage 3 chronic kidney disease, which indicates renal insufficiency."},
+    {"Criterion": "Cardiogenic shock", "Classification": "Not Violated", "Justification": "There is no mention of cardiogenic shock in the patient's data."},
+    {"Criterion": "Acute myocardial infarction within one week", "Classification": "Not Violated", "Justification": "There is no mention of an acute myocardial infarction in the patient's data."},
+    {"Criterion": "Prior coronary artery bypass graft treatment", "Classification": "Not Violated", "Justification": "There is no mention of prior coronary artery bypass graft treatment in the patient's data."},
+    {"Criterion": "Prior percutaneous coronary intervention treatment", "Classification": "Not Violated", "Justification": "There is no mention of prior percutaneous coronary intervention treatment in the patient's data."}
+  ],
+  "Recap": "The patient meets the age criterion but lacks explicit indication for coronary angiography. The patient violates the renal insufficiency exclusion criterion due to Stage 3 chronic kidney disease.",
+  "Final Decision": "Ineligible"
+}
+```

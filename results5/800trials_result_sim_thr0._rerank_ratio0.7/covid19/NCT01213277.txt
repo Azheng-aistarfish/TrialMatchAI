@@ -1,0 +1,19 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient with diabetes", "Classification": "Met", "Justification": "The patient has been diagnosed with diabetes mellitus, satisfying this criterion."},
+    {"Criterion": "Patients who test their sugar levels at least 3 times daily", "Classification": "Unclear", "Justification": "There is no information provided about the frequency of the patient's blood sugar testing."},
+    {"Criterion": "Recorded diary of sugar levels for the past month", "Classification": "Unclear", "Justification": "The patient's profile does not mention a recorded diary of sugar levels for the past month."},
+    {"Criterion": "Willingness to have blood drawn", "Classification": "Met", "Justification": "Written informed consent has been obtained, indicating willingness to participate in procedures like blood draws."},
+    {"Criterion": "Willingness to allow their blood sugar diary to be photocopied", "Classification": "Unclear", "Justification": "There is no information provided about the patient's willingness to allow their blood sugar diary to be photocopied."},
+    {"Criterion": "Estimated average glucose as derived from A1c is ≥ 4 mmol from measured glucose from self-monitoring blood glucose testing", "Classification": "Unclear", "Justification": "There is no information provided about the patient's A1c levels or self-monitoring blood glucose testing results."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient with medical conditions that may affect their study participation or results will be excluded.", "Classification": "Violated", "Justification": "The patient has multiple medical conditions, including COVID-19, acute respiratory failure, Stage 3 chronic kidney disease, obesity, and cardiomyopathy, which may affect study participation or results."},
+    {"Criterion": "Patients who are anemic", "Classification": "Unclear", "Justification": "There is no information provided about the patient's anemia status."},
+    {"Criterion": "Renal insufficient with a serum creatinine level > 200 μmol/L", "Classification": "Unclear", "Justification": "The patient has Stage 3 chronic kidney disease, but there is no specific information about serum creatinine levels."}
+  ],
+  "Recap": "The patient meets the inclusion criterion of having diabetes and willingness to have blood drawn. However, there is insufficient information about the frequency of blood sugar testing, the existence of a blood sugar diary, and the patient's A1c levels. The patient violates the exclusion criterion due to multiple medical conditions that may affect study participation or results. There is also unclear information regarding anemia and specific renal function metrics.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,18 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "25-70 years of age", "Classification": "Met", "Justification": "The patient is 58 years old, which falls within the specified age range of 25-70 years."},
+    {"Criterion": "ASA I-II", "Classification": "Unclear", "Justification": "The patient's ASA classification is not provided in the data, making it impossible to determine if this criterion is met."},
+    {"Criterion": "Undergoing elective breast cancer surgery", "Classification": "Not Met", "Justification": "The patient is undergoing cardiac-related procedures, not breast cancer surgery, as indicated by the history of myocardial infarctions and bypass surgery."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "obesity (body mass index >35 kg/m2)", "Classification": "Unclear", "Justification": "The patient's BMI is not provided, so it cannot be determined if this criterion is violated."},
+    {"Criterion": "infection of the skin at the site of needle puncture area", "Classification": "Irrelevant", "Justification": "There is no mention of a needle puncture or skin infection in the patient's description, making this criterion irrelevant."},
+    {"Criterion": "patients with known allergies to any of the study drugs", "Classification": "Not Violated", "Justification": "There is no information indicating that the patient has allergies to any study drugs."},
+    {"Criterion": "coagulopathy", "Classification": "Unclear", "Justification": "The patient's coagulation status is not mentioned, so it cannot be determined if this criterion is violated."},
+    {"Criterion": "recent use of analgesic drugs", "Classification": "Unclear", "Justification": "There is no information provided about the recent use of analgesic drugs by the patient."}
+  ],
+  "Recap": "The patient meets the age criterion but does not meet the surgery type criterion. The ASA classification and several exclusion criteria remain unclear due to missing data.",
+  "Final Decision": "Ineligible"
+}
+```

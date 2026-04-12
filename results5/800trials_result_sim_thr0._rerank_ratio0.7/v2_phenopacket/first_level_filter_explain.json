@@ -1,0 +1,4386 @@
+{
+    "index": "clinical_trials.800",
+    "patient_age_raw": 14,
+    "patient_sex": "all",
+    "overall_status_filter": "All",
+    "vector_score_threshold": 0.0,
+    "max_trials_first_level": 800,
+    "counts": {
+        "docs_in_index": 800,
+        "passed_eligibility_filters": 89,
+        "retrieved_first_level": 89,
+        "failed_eligibility_filters": 711,
+        "passed_filters_but_not_in_topk": 0
+    },
+    "filter_flags": {
+        "age_filter_enabled": true,
+        "patient_age_used_in_filter": 14,
+        "status_filter_enabled": false,
+        "preselected_enabled": false
+    },
+    "note": "passed_filters_but_not_in_topk: 已通过年龄/性别/状态等 filter，但未进入一级 hybrid/bm25 返回的前 max_trials_first_level 条（排序/截断）。",
+    "failed_eligibility_filters_truncated": false,
+    "failed_eligibility_filters_omitted": 0,
+    "failed_eligibility_filters": [
+        {
+            "nct_id": "NCT00000123",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00002735",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00004562",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00006044",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00039377",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=15 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00042835",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00075439",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00078195",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00088699",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00103155",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=21 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00107536",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00108420",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00109265",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00124033",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00132327",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00147290",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00154479",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00160446",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00175006",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00182481",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00199355",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=30 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00200655",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00216125",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00219284",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=30 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00257309",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=75 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00282191",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00320424",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00323609",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=21 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00336648",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00367588",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00402727",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00408499",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00411112",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00426413",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=19 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00428922",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00444236",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00484705",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00498537",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00502983",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00514020",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00523666",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=55 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00533650",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00589368",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=21 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00617760",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1.5 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00619957",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=30 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00621218",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00634517",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=11 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00645112",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=6 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00652379",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00669669",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00680901",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00683917",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00689169",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00701259",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00728533",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00732732",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=2 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00734955",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00737971",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00752765",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00787189",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00822094",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00830323",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00833794",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00839306",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00843726",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00850408",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=19 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00860067",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00867828",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00873782",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=21 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00880477",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.15 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00886327",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00893789",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00966381",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=23 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00966459",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00968747",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT00979160",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01005979",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01012739",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01014312",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01022476",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01033019",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01034670",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01045889",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01046487",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01047111",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01048983",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01056406",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01074437",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.75 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01077193",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01080352",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01081301",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01086956",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01100424",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01103024",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01110447",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01113333",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01142466",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01145456",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01151046",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01158144",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01167530",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01168050",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01169038",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01170052",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01174017",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01186939",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01195766",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01202851",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01213277",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=25 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01214655",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01216163",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=16 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01227889",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01228942",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01231594",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01249430",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01264432",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01268735",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01270321",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01270841",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=21 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01274143",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=30 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01278888",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01307618",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01308294",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01315483",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=21 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01317212",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01331525",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01333423",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01334801",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=21 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01335009",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01335074",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01337401",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=16 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01349556",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01362296",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01375569",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01376414",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01383902",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01401647",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01403896",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01415011",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01437956",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01439581",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01444534",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01444547",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01447589",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01448850",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=45 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01468623",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01468675",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01476644",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01486550",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01491165",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01496534",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01499160",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01510002",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01519076",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01520870",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01522976",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01526889",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01539291",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01547494",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01570231",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=80 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01570868",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01573416",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01583205",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01585415",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01599832",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01600807",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01603576",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01606631",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01618851",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01621217",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01624025",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01624051",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01625533",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01630226",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01644253",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01646684",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01655992",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01663675",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01674140",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01676194",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01684072",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=12 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01686958",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01691196",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01700439",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01710501",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01711970",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01714102",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=30 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01721343",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01724086",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01746836",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01747772",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01749527",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01752205",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01753479",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01769820",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01787591",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01788189",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01792817",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01798251",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01800799",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01801644",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01812070",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01827618",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01842165",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01849744",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01865305",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01874873",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01887067",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01909791",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01918631",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01921504",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01927757",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01948843",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01957020",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=30 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01959867",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01962610",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01963429",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01963715",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01968434",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=5 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01976416",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=3.92 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT01986348",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02004925",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02006927",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02007798",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=35 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02009787",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02016248",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02023359",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02027077",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=25 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02046538",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02056756",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02060487",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02060552",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02066285",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02066493",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02069041",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02071511",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02087475",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02093143",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02094053",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=15 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02117557",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02119858",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02125513",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02142959",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02169908",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02174887",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02176304",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02182622",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02202382",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=25 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02206308",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02211443",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02227251",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02232152",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02253524",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02266433",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02269826",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02269891",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02270216",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02278510",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02284139",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02303730",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02312102",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02315768",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02316340",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02321696",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02339948",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02340949",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02341170",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02361541",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02382107",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02392676",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02395601",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02406170",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02437318",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02444819",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=19 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02444936",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02451124",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02461719",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02461836",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02465528",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02472964",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02473536",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02473848",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02474095",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02476409",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02487992",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02495233",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02495454",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02507804",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02511665",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02513784",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02514915",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02522611",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02523924",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02535650",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02537158",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02553174",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=21 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02559479",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02561663",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02563561",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02565641",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02570165",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02576626",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02577172",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02582996",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02592447",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02611908",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02623712",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=35 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02629848",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02629874",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02635074",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02638831",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02647021",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02665390",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02679066",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02681302",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02682589",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02682862",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02683382",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=25 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02689505",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02691338",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02703571",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02705937",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02716051",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02731989",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=13 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02749513",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02753140",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02756962",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02757326",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02760225",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02772588",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02789657",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02795429",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02800473",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02808416",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02811900",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02821182",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02827838",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02841800",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02847767",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02852824",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02853188",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02863055",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02873793",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02892058",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=45 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02892188",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02900352",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=21 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02905916",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02916199",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=19 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02930915",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02936817",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02937740",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02985528",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=16 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02987296",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02989012",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02989701",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02990221",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT02997787",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=35 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03017716",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03022110",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03025932",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03028701",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03034070",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03034915",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03038477",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03043872",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03047239",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=22 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03060057",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03074942",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03081897",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03083613",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03086642",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03104543",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03135769",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03135925",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03137693",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03139487",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03167593",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03173638",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03179306",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03181815",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=15 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03183531",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.08 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03184090",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03190551",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03207126",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03215030",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03234855",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03243955",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03252899",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03255720",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03264352",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=45 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03267433",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03272334",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03289819",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03291379",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03292289",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03315039",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03331341",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03334617",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03351725",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03361709",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03368976",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03370913",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03380793",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03388021",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03394014",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=45 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03403387",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03427346",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03427684",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03435302",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03439397",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=10 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03444870",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03468933",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03480958",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=25 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03493932",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03516500",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03528954",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=5 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03534557",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03537001",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03545945",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03558191",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03564821",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03570138",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=45 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03570905",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03574207",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=19 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03586661",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03595813",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03596593",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03601533",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03606590",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03612596",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=55 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03617614",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03639181",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03639246",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03662841",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=19 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03668496",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03670719",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03716596",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03718650",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03719131",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03726658",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03728036",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03745794",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03754361",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03766776",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03768492",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03770299",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03788499",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03794388",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03796052",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03798457",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03822234",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03824990",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.08 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03841565",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03853902",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03856229",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03864562",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03867045",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03867331",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03872206",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03875300",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=16 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03877601",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03893981",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=45 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03913312",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03925909",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=30 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03939962",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03940378",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03941925",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=3 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03977077",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT03996408",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04000477",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=25 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04002089",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04004507",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04005365",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04007432",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=70 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04013841",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04025307",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04027946",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04034641",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04040166",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=30 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04040699",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04061733",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04077073",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=21 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04087018",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04088786",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04098783",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04104893",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04109378",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04109937",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04113863",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04115761",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04115826",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04141995",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=19 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04147884",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04150640",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04157491",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04159870",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04159896",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04165993",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04173338",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04174950",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04175158",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04175912",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04182893",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04183777",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=12 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04189614",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04202640",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04209946",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.56 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04222335",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04225286",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.63 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04241848",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04260360",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04267900",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04268017",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04274816",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04295642",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=45 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04297657",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04305028",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04306900",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04318561",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04323605",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04336982",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04338763",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04339829",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04346225",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04358445",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04360252",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04368195",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04373031",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04383938",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04396912",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=17 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04397016",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04408638",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04415853",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04417608",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04422184",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04423055",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04428463",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04429191",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04434443",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04440865",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04453501",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04464811",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04469556",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04481256",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04483830",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04484636",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04490993",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04522323",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04543253",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04553510",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04569422",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04573231",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04582487",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04588064",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04591028",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04596085",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04602117",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04623580",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04624633",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04629209",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04635488",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04642287",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04644835",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04659616",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04672928",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04674293",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04682158",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04696770",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04707001",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04708067",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04725188",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04729725",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04730765",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04743505",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04756362",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04756778",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04770272",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04776889",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04778384",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04795128",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04801797",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04803994",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04804592",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04810936",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04812756",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04847544",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04852081",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04853589",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04861220",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04887025",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04891653",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04892966",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=40 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04896112",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04898543",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04940221",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=55 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04951947",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04964284",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04973293",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04985734",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT04995523",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05001282",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05002140",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05025098",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05035407",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05035914",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05038813",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05043090",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05048498",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05084027",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05114915",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05131776",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05170828",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05243797",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05283577",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=16 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05296109",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05299411",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05322330",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05336721",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05361720",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05362539",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05378204",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05382390",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05384691",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05397457",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=20 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05416775",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05422521",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05433701",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05435248",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05440760",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05441254",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05441761",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05443165",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05481658",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05493683",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05499715",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05502666",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05513703",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05515978",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05544084",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=25 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05546372",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05549973",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05555199",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05557708",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05582499",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05584449",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05597683",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=19 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05605509",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05622357",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05624918",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05626322",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05629845",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05633160",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05653596",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=19 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05653622",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05655078",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05666700",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05675813",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05683041",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05683704",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05692999",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05717140",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05720338",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05741294",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05746195",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05749042",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05761951",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05768347",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05774678",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05792735",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05793710",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05810532",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=3 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05841563",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05859373",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05917431",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05923177",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05968144",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=55 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05969184",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05972460",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT05996432",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06022770",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06050980",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06084481",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06088888",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06101758",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06105801",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06114940",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06131775",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06133426",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06142344",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06152367",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06166888",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06173219",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06223568",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06236360",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06237413",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06244992",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06249048",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06297525",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06328699",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06363773",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06373471",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=70 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06376344",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=25 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06391918",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06406556",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06407037",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06430372",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06439979",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=7 < 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06452160",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06454578",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NCT06458517",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        },
+        {
+            "nct_id": "NL64722.031.18",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=18 > 用于 filter 的患者年龄 14"
+            ]
+        }
+    ],
+    "passed_filters_but_not_in_topk_truncated": false,
+    "passed_filters_but_not_in_topk_omitted": 0,
+    "passed_filters_but_not_in_topk": [],
+    "retrieved_nct_ids_in_order": [
+        "NCT00001371",
+        "NCT00004364",
+        "NCT00005837",
+        "NCT00057694",
+        "NCT00294463",
+        "NCT00368004",
+        "NCT00524888",
+        "NCT00581126",
+        "NCT00651768",
+        "NCT00706433",
+        "NCT00860574",
+        "NCT00966498",
+        "NCT01010672",
+        "NCT01074645",
+        "NCT01156818",
+        "NCT01158248",
+        "NCT01465841",
+        "NCT01509183",
+        "NCT01531439",
+        "NCT01573286",
+        "NCT01700673",
+        "NCT01712646",
+        "NCT01803113",
+        "NCT02000180",
+        "NCT02153034",
+        "NCT02165995",
+        "NCT02216552",
+        "NCT02251665",
+        "NCT02408523",
+        "NCT02434575",
+        "NCT02438865",
+        "NCT02484638",
+        "NCT02530281",
+        "NCT02530294",
+        "NCT02579720",
+        "NCT02583763",
+        "NCT02613078",
+        "NCT02616614",
+        "NCT02628808",
+        "NCT02646384",
+        "NCT02650622",
+        "NCT02712138",
+        "NCT02722772",
+        "NCT02790827",
+        "NCT02792491",
+        "NCT02807883",
+        "NCT02837367",
+        "NCT03027739",
+        "NCT03216031",
+        "NCT03333863",
+        "NCT03557879",
+        "NCT03666052",
+        "NCT03703271",
+        "NCT03768310",
+        "NCT03792633",
+        "NCT03889483",
+        "NCT03895281",
+        "NCT03900299",
+        "NCT03903614",
+        "NCT03945552",
+        "NCT03969459",
+        "NCT03988764",
+        "NCT04012658",
+        "NCT04017728",
+        "NCT04133662",
+        "NCT04201002",
+        "NCT04226989",
+        "NCT04267913",
+        "NCT04286451",
+        "NCT04415983",
+        "NCT04448145",
+        "NCT04518709",
+        "NCT04664478",
+        "NCT04669145",
+        "NCT04691089",
+        "NCT04758000",
+        "NCT04771910",
+        "NCT04872478",
+        "NCT05305131",
+        "NCT05348187",
+        "NCT05475938",
+        "NCT05562193",
+        "NCT05700799",
+        "NCT05747157",
+        "NCT05749211",
+        "NCT05830084",
+        "NCT05844683",
+        "NCT06320301",
+        "NCT06357377"
+    ]
+}

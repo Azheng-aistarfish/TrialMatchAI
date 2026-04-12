@@ -1,0 +1,29 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Written informed consent and HIPAA authorization for release of personal health information.", "Classification": "Met", "Justification": "The patient has provided written informed consent, as explicitly stated in the patient description."},
+    {"Criterion": "Age ≥ 18 years at the time of consent.", "Classification": "Met", "Justification": "The patient is 58 years old, which satisfies the age requirement."},
+    {"Criterion": "Karnofsky Performance Status of ≥ 70%.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's Karnofsky Performance Status."},
+    {"Criterion": "Advanced/metastatic solid tumor for which treatment with gemcitabine plus carboplatin or gemcitabine plus cisplatin would otherwise be warranted.", "Classification": "Irrelevant", "Justification": "The patient's description does not mention any solid tumor or cancer diagnosis."},
+    {"Criterion": "Prior treatment with chemotherapy is permitted. Patients must not have received more than three prior chemotherapeutic regimens.", "Classification": "Irrelevant", "Justification": "The patient's description does not mention any prior chemotherapy treatment."},
+    {"Criterion": "Adequate organ function as determined by the following laboratory values: - Hemoglobin (Hgb) ≥ 9 g/dL - Platelets ≥ 100 x 109/L - Absolute neutrophil count (ANC) ≥ 1.5 x 109/L - Creatinine of ≤ 1.5 OR Calculated creatinine clearance of ≥ 60 cc/min for the cisplatin cohort. Calculated creatinine clearance of ≥ 30 cc/min for the carboplatin cohort. - Bilirubin ≤ 1.5 x ULN - Aspartate aminotransferase (AST, SGOT) ≤ 1.5 ULN - Alanine Aminotransferase (ALT, SGPT) < 1.5 ULN - INR ≤ 1.5 and a PTT within normal limits - LVEF assessed by 2-D echocardiogram (ECHO) > 50% or lower limit of normal or multiple gated acquisition scan (MUGA) > 45% or lower limit of normal", "Classification": "Unclear", "Justification": "The patient's description does not provide specific laboratory values or LVEF assessment results needed to evaluate this criterion."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Prior treatment with more than three prior chemotherapy regimens.", "Classification": "Irrelevant", "Justification": "The patient's description does not mention any prior chemotherapy treatment."},
+    {"Criterion": "Has had major surgery within 30 days of starting the study treatment.", "Classification": "Irrelevant", "Justification": "There is no information about the timing of any recent major surgery in relation to the study treatment."},
+    {"Criterion": "Have active CNS metastases.", "Classification": "Irrelevant", "Justification": "The patient's description does not mention any CNS metastases or cancer diagnosis."},
+    {"Criterion": "No treatment with any investigational agent within 30 days prior to being registered for protocol therapy.", "Classification": "Irrelevant", "Justification": "The patient's description does not mention any investigational agent treatment."},
+    {"Criterion": "Prior cancer treatment must be completed at least 30 days prior to being registered for protocol therapy and the subject must have recovered from the acute toxic effects of the regimen.", "Classification": "Irrelevant", "Justification": "The patient's description does not mention any prior cancer treatment."},
+    {"Criterion": "Prior radiation therapy must be completed at least 30 days prior to being registered for protocol therapy.", "Classification": "Irrelevant", "Justification": "The patient's description does not mention any prior radiation therapy."},
+    {"Criterion": "Pregnant or breastfeeding.", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Clinically significant infections as judged by the treating investigator.", "Classification": "Irrelevant", "Justification": "The patient's description does not mention any clinically significant infections."},
+    {"Criterion": "Impaired cardiac function or clinically significant cardiac diseases.", "Classification": "Violated", "Justification": "The patient has a complex cardiac history, including multiple myocardial infarctions, impaired left ventricular function, and ischemic cardiomyopathy, indicating impaired cardiac function."},
+    {"Criterion": "Impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of dovitinib (e.g. ulcerative diseases, uncontrolled nausea, vomiting, diarrhea, malabsorption syndrome, or small bowel resection).", "Classification": "Irrelevant", "Justification": "The patient's description does not mention any GI function impairment or disease."},
+    {"Criterion": "Patients who are currently receiving anticoagulation treatment with therapeutic doses of warfarin.", "Classification": "Irrelevant", "Justification": "The patient's description does not mention any anticoagulation treatment with warfarin."},
+    {"Criterion": "Women of child-bearing potential, who are biologically able to conceive, not employing two forms of highly effective contraception.", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Fertile males not willing to use contraception.", "Classification": "Irrelevant", "Justification": "The patient's description does not mention any issues related to contraception or fertility."}
+  ],
+  "Recap": "The patient meets the age and consent criteria but has unclear information regarding Karnofsky Performance Status and organ function. The patient's cardiac history violates the exclusion criterion for impaired cardiac function.",
+  "Final Decision": "Ineligible"
+}
+```

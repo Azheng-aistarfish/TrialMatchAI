@@ -1,0 +1,17 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "At least 18 years", "Classification": "Met", "Justification": "The patient is 53 years old, which satisfies the age requirement."},
+    {"Criterion": "Neoplasia bronchopulmonary (SCLC and NSCLC) newly diagnosed", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, which is not newly diagnosed."},
+    {"Criterion": "Patient potentially eligible for curative treatment, but no treatment started", "Classification": "Not Met", "Justification": "The patient is currently undergoing treatment with osimertinib, indicating treatment has already started."},
+    {"Criterion": "Patients for whom a PET scan and MRI are planned", "Classification": "Unclear", "Justification": "There is no information provided about planned PET scan or MRI for the patient."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "claustrophobia", "Classification": "Irrelevant", "Justification": "There is no mention of claustrophobia in the patient's description."},
+    {"Criterion": "Implantable Medical Device - not compatible pacemaker type or heart valve, metal splinters eye", "Classification": "Irrelevant", "Justification": "There is no mention of any implantable medical devices in the patient's description."},
+    {"Criterion": "Pregnant or lactating women", "Classification": "Irrelevant", "Justification": "The patient is a 53-year-old female, and there is no mention of pregnancy or lactation in the description."}
+  ],
+  "Recap": "The patient meets the age criterion but does not meet the criteria for newly diagnosed lung cancer or eligibility for curative treatment without prior treatment. The status of planned PET scan or MRI is unclear. No exclusion criteria are applicable.",
+  "Final Decision": "Ineligible"
+}
+```

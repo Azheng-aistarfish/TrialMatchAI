@@ -1,0 +1,40 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Female aged 50-75, patient at a participating FQHC.",
+      "Classification": "Irrelevant",
+      "Justification": "The patient is male, so this criterion does not apply."
+    },
+    {
+      "Criterion": "Male aged 50-75, patient at a participating FQHC.",
+      "Classification": "Unclear",
+      "Justification": "The patient's age is 58, which fits the age range, but there is no information about whether he is at a participating FQHC."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Having completed a fecal occult blood test (FOBT) or a fecal immunochemical test (FIT) in the past year.",
+      "Classification": "Unclear",
+      "Justification": "There is no information provided about whether the patient has completed an FOBT or FIT in the past year."
+    },
+    {
+      "Criterion": "Having completed a sigmoidoscopy in the last 5 years.",
+      "Classification": "Unclear",
+      "Justification": "There is no information provided about whether the patient has completed a sigmoidoscopy in the last 5 years."
+    },
+    {
+      "Criterion": "Having completed a colonoscopy in the last 10 years.",
+      "Classification": "Unclear",
+      "Justification": "There is no information provided about whether the patient has completed a colonoscopy in the last 10 years."
+    },
+    {
+      "Criterion": "Prior history of colorectal cancer.",
+      "Classification": "Not Violated",
+      "Justification": "There is no mention of a history of colorectal cancer in the patient's profile."
+    }
+  ],
+  "Recap": "The patient is a 58-year-old male, which fits the age range for inclusion. However, it is unclear if he is at a participating FQHC. There is insufficient information to determine if he has completed any of the specified tests or procedures that would exclude him. There is no history of colorectal cancer.",
+  "Final Decision": "Likely Eligible (leaning toward inclusion)"
+}
+```

@@ -1,0 +1,39 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Aged from 18 to 65 years.", "Classification": "Met", "Justification": "The patient is 47 years old, which falls within the specified age range of 18 to 65 years."},
+    {"Criterion": "Patient with pathologically proven, high grade B-cell Lymphoma CD 20 positive (WHO classification) : - Diffuse large B cell lymphoma.", "Classification": "Not Met", "Justification": "The patient has metastatic hormone receptor-positive, HER2-negative breast cancer, not B-cell lymphoma."},
+    {"Criterion": "Adverse prognostic factors IPI>1", "Classification": "Irrelevant", "Justification": "The patient's condition is breast cancer, not lymphoma, so this criterion does not apply."},
+    {"Criterion": "In Complete Remission, or partial response to first line treatment.", "Classification": "Irrelevant", "Justification": "The patient's cancer type is breast cancer, not lymphoma, making this criterion irrelevant."},
+    {"Criterion": "Previously treated with chemotherapy regimen containing rituximab: R CHOP or R ACVBP", "Classification": "Not Met", "Justification": "The patient has been treated with endocrine therapy, not a chemotherapy regimen containing rituximab."},
+    {"Criterion": "Chemo-sensitive disease", "Classification": "Irrelevant", "Justification": "The patient's treatment history involves endocrine therapy, not chemotherapy, making this criterion irrelevant."},
+    {"Criterion": "PET Scan prior transplant", "Classification": "Irrelevant", "Justification": "The patient has not undergone a transplant, so this criterion does not apply."},
+    {"Criterion": "Eligible for autologous stem cell transplantation", "Classification": "Irrelevant", "Justification": "The patient's condition is breast cancer, not lymphoma, so this criterion is irrelevant."},
+    {"Criterion": "With a minimum life expectancy of 3 months.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's life expectancy."},
+    {"Criterion": "Negative HIV, HBV and HCV serologies (in the last 4 weeks except after vaccination).", "Classification": "Unclear", "Justification": "There is no information provided about the patient's HIV, HBV, or HCV serologies."},
+    {"Criterion": "Having previously signed a written informed consent.", "Classification": "Met", "Justification": "The patient has obtained written informed consent, as stated in the description."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Histological transformation in diffuse large B cell lymphoma, any type of low grade lymphoma", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not lymphoma, so this criterion does not apply."},
+    {"Criterion": "More than one line of treatment. Prior transplantation.", "Classification": "Not Violated", "Justification": "The patient has been treated with endocrine therapy, which is not specified as multiple lines of treatment or transplantation."},
+    {"Criterion": "Prior exposure to Zevalin", "Classification": "Not Violated", "Justification": "There is no mention of the patient being exposed to Zevalin."},
+    {"Criterion": "Central nervous system or meningeal involvement by lymphoma.", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not lymphoma, so this criterion does not apply."},
+    {"Criterion": "Contraindication to any drug contained in the chemotherapy regimen.", "Classification": "Irrelevant", "Justification": "The patient is not on a chemotherapy regimen, so this criterion does not apply."},
+    {"Criterion": "Any serious active disease or co-morbid medical condition (according to the investigator's decision and information provided in the IDB).", "Classification": "Unclear", "Justification": "There is no information provided about any serious active disease or co-morbid medical condition."},
+    {"Criterion": "Poor renal function (creatinin level up to 2.5 maximum normal level) unless these abnormalities are related to the lymphoma.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's renal function."},
+    {"Criterion": "Poor hepatic function (total bilirubin level up to 30 micro mol/l, transaminases up to 2.5 maximum normal level) unless these abnormalities are related to the lymphoma.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's hepatic function."},
+    {"Criterion": "Poor bone marrow reserve as defined by neutrophils less than 1.5 G/l or platelets less than 100 G/l", "Classification": "Unclear", "Justification": "There is no information provided about the patient's bone marrow reserve."},
+    {"Criterion": "Large bone marrow irradiation more than 40percent.", "Classification": "Not Violated", "Justification": "There is no mention of the patient having undergone bone marrow irradiation."},
+    {"Criterion": "Bone marrow infiltration", "Classification": "Not Violated", "Justification": "There is no mention of bone marrow infiltration in the patient's description."},
+    {"Criterion": "Lack of sufficient autologous hematopoietic stem cells for transplantation.", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not lymphoma, so this criterion does not apply."},
+    {"Criterion": "Prior treatment with murine antibodies", "Classification": "Not Violated", "Justification": "There is no mention of the patient being treated with murine antibodies."},
+    {"Criterion": "Known hypersensibility to murine antibodies or proteins", "Classification": "Not Violated", "Justification": "There is no mention of hypersensitivity to murine antibodies or proteins."},
+    {"Criterion": "Any history of cancer during the last 5 years, with the exception of non-melanoma skin tumors or stage 0 (in situ) cervical carcinoma.", "Classification": "Violated", "Justification": "The patient has a history of breast cancer diagnosed within the last 5 years."},
+    {"Criterion": "Treatment with any investigational drug within 30 days before planned first cycle of chemotherapy and during the study.", "Classification": "Not Violated", "Justification": "There is no mention of the patient being treated with investigational drugs."},
+    {"Criterion": "Adult patient unable to give informed consent because of intellectual impairment.", "Classification": "Not Violated", "Justification": "The patient has provided written informed consent, indicating no intellectual impairment."},
+    {"Criterion": "Pregnant or lactating women.", "Classification": "Not Violated", "Justification": "There is no mention of the patient being pregnant or lactating."}
+  ],
+  "Recap": "The patient is ineligible for the clinical trial due to having a different type of cancer (breast cancer) than the one specified in the inclusion criteria (B-cell lymphoma). Additionally, the patient has a history of cancer within the last 5 years, which violates an exclusion criterion.",
+  "Final Decision": "Ineligible"
+}
+```

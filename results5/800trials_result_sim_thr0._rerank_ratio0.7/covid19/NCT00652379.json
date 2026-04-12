@@ -1,0 +1,48 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Age > 18",
+            "Classification": "Met",
+            "Justification": "The patient's age is not explicitly stated, but the presence of a Left Ventricular Assist Device and other medical conditions suggests he is likely an adult."
+        },
+        {
+            "Criterion": "Diagnosed with acromegaly",
+            "Classification": "Not Met",
+            "Justification": "The patient is diagnosed with COVID-19, obesity, chronic kidney disease, diabetes mellitus, and cardiomyopathy, but there is no mention of acromegaly."
+        },
+        {
+            "Criterion": "Safe anticonceptive for fertile women",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is male, making this criterion irrelevant."
+        },
+        {
+            "Criterion": "Well controlled on somatostatin analog (a serum IGF-I within normal range a nadir GH < 0.5 µg/l.)",
+            "Classification": "Unclear",
+            "Justification": "There is no information provided about the patient's treatment with somatostatin analogs or their IGF-I and GH levels."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Pregnancy",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is male, making this criterion irrelevant."
+        },
+        {
+            "Criterion": "Liver disease",
+            "Classification": "Not Violated",
+            "Justification": "There is no mention of liver disease in the patient's profile."
+        },
+        {
+            "Criterion": "Diabetes mellitus type I",
+            "Classification": "Unclear",
+            "Justification": "The patient has diabetes mellitus, but the type is not specified."
+        },
+        {
+            "Criterion": "Magnetic or electronic implants",
+            "Classification": "Violated",
+            "Justification": "The patient has a Left Ventricular Assist Device, which is an electronic implant."
+        }
+    ],
+    "Recap": "The patient does not meet the inclusion criterion of being diagnosed with acromegaly and has an electronic implant, which violates an exclusion criterion. The patient's age is likely over 18, but there is no information on somatostatin analog treatment or diabetes type. The patient is male, making the anticonceptive criterion irrelevant.",
+    "Final Decision": "Ineligible"
+}

@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients diagnosed with cancer that have received anti-cancer treatment", "Classification": "Not Met", "Justification": "The patient's data does not mention a cancer diagnosis or any anti-cancer treatment."},
+    {"Criterion": "16 years of age or older", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Life expectancy ≥ 6 months", "Classification": "Unclear", "Justification": "There is no information on the patient's life expectancy in the provided data."},
+    {"Criterion": "Complaints of one or more of the following symptoms: memory impairment/attention deficit, fatigue, insomnia, depression, or anxiety over the past 7 days", "Classification": "Not Met", "Justification": "The patient's symptoms do not include memory impairment, attention deficit, fatigue, insomnia, depression, or anxiety."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Presence of metastasis", "Classification": "Irrelevant", "Justification": "The patient does not have a cancer diagnosis, so metastasis is not applicable."},
+    {"Criterion": "Severe needle phobia", "Classification": "Irrelevant", "Justification": "There is no information on the patient's needle phobia in the data."},
+    {"Criterion": "Severe psychiatric or medical disorders which would affect cognitive assessments", "Classification": "Unclear", "Justification": "The patient's data does not provide information on psychiatric or medical disorders affecting cognitive assessments."},
+    {"Criterion": "Known bleeding disorder (e.g. hemophilia, Von Willebrand's disease, thrombocytopenia)", "Classification": "Irrelevant", "Justification": "There is no mention of a bleeding disorder in the patient's data."},
+    {"Criterion": "Has pacemaker or other electronic metal implants", "Classification": "Violated", "Justification": "The patient has a Left Ventricular Assist Device, which is an electronic metal implant."},
+    {"Criterion": "Epilepsy", "Classification": "Irrelevant", "Justification": "There is no mention of epilepsy in the patient's data."},
+    {"Criterion": "Already receiving acupuncture therapy or received acupuncture treatment in the past 3 months", "Classification": "Irrelevant", "Justification": "There is no information on acupuncture treatment in the patient's data."},
+    {"Criterion": "Breastfeeding, pregnant or are planning get pregnant during the study period", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Has any contraindications to fMRI including metal fragments/implants in the body, severe claustrophobia, and non-removable metal orthodontic braces, metallic retainers and oral wires", "Classification": "Violated", "Justification": "The patient has a Left Ventricular Assist Device, which is a metal implant and a contraindication for fMRI."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for cancer diagnosis or symptoms. The presence of a Left Ventricular Assist Device violates exclusion criteria related to metal implants.",
+  "Final Decision": "Ineligible"
+}
+```

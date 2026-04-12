@@ -1,0 +1,35 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Clinical and phenotypic verification of B cell CLL or SLL and measurable disease.", "Classification": "Not Met", "Justification": "The patient is diagnosed with metastatic non-small cell lung cancer, not B cell CLL or SLL."},
+    {"Criterion": "Prior therapy: Patients must have been receiving single agent ibrutinib therapy at the time of disease progression.", "Classification": "Not Met", "Justification": "The patient is currently treated with osimertinib, not ibrutinib."},
+    {"Criterion": "Progressive disease on current single agent ibrutinib therapy (but not within the first 2 months of initiating ibrutinib therapy).", "Classification": "Not Met", "Justification": "The patient is not on ibrutinib therapy, thus this criterion is not applicable."},
+    {"Criterion": "ECOG performance status of 0-2.", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided in the data."},
+    {"Criterion": "Adequate hematologic function.", "Classification": "Unclear", "Justification": "There is no information on the patient's hematologic function in the provided data."},
+    {"Criterion": "Adequate renal function.", "Classification": "Unclear", "Justification": "The patient's renal function is not mentioned in the data."},
+    {"Criterion": "Adequate hepatic function.", "Classification": "Unclear", "Justification": "While there are mild elevations in hepatic transaminase levels, it is unclear if this affects hepatic function adequacy for the trial."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Known CNS lymphoma or leukemia.", "Classification": "Not Violated", "Justification": "The patient has lung cancer, not CNS lymphoma or leukemia."},
+    {"Criterion": "History of Richter's or prolymphocytic transformation.", "Classification": "Not Violated", "Justification": "The patient's history does not include Richter's or prolymphocytic transformation."},
+    {"Criterion": "Primary ibrutinib resistance, defined by progressive disease within the first 2 months of first initiating ibrutinib therapy.", "Classification": "Irrelevant", "Justification": "The patient is not on ibrutinib therapy, so this criterion does not apply."},
+    {"Criterion": "Uncontrolled autoimmune hemolytic anemia (AIHA) or idiopathic thrombocytopenia purpura (ITP).", "Classification": "Not Violated", "Justification": "There is no mention of AIHA or ITP in the patient's history."},
+    {"Criterion": "CLL therapy, with the exception of ibrutinib within the following timeframes.", "Classification": "Irrelevant", "Justification": "The patient is not receiving CLL therapy, so this criterion does not apply."},
+    {"Criterion": "History of major surgery within 4 weeks prior to first dose on this study.", "Classification": "Not Violated", "Justification": "There is no mention of recent major surgery in the patient's history."},
+    {"Criterion": "History of prior malignancy, with the exception of adequately treated non-melanoma skin cancer, malignancies treated with curative intent and with no evidence of active disease for more than 3 years, or adequately treated cervical carcinoma in situ without current evidence of disease.", "Classification": "Violated", "Justification": "The patient has a current diagnosis of metastatic non-small cell lung cancer, which is an active malignancy."},
+    {"Criterion": "Currently active clinically significant cardiovascular disease or history of myocardial infarction within 6 months of first dose.", "Classification": "Not Violated", "Justification": "There is no mention of cardiovascular disease or myocardial infarction in the patient's history."},
+    {"Criterion": "Serologic status and/or PCR testing reflecting active hepatitis B or C infection.", "Classification": "Not Violated", "Justification": "There is no mention of hepatitis B or C infection in the patient's history."},
+    {"Criterion": "Known history of infection with human immunodeficiency virus (HIV).", "Classification": "Not Violated", "Justification": "There is no mention of HIV infection in the patient's history."},
+    {"Criterion": "Unable to swallow capsules or disease significantly affecting gastrointestinal function.", "Classification": "Not Violated", "Justification": "There is no mention of swallowing difficulties or significant gastrointestinal issues in the patient's history."},
+    {"Criterion": "History of stroke or intracranial hemorrhage within 6 months of first dose.", "Classification": "Not Violated", "Justification": "There is no mention of stroke or intracranial hemorrhage in the patient's history."},
+    {"Criterion": "Requires anticoagulation with warfarin or other Vitamin K antagonists.", "Classification": "Not Violated", "Justification": "There is no mention of anticoagulation therapy in the patient's history."},
+    {"Criterion": "Requires treatment with a strong CYP 3A inhibitor.", "Classification": "Not Violated", "Justification": "The patient is on osimertinib, not a strong CYP 3A inhibitor."},
+    {"Criterion": "Pregnant or breast-feeding women.", "Classification": "Not Violated", "Justification": "There is no mention of pregnancy or breastfeeding in the patient's history."},
+    {"Criterion": "Women of child-bearing age must obtain a pregnancy test and pregnant or breast feeding females.", "Classification": "Not Violated", "Justification": "There is no mention of pregnancy or breastfeeding, and the patient is not specified as being of child-bearing age."},
+    {"Criterion": "Patients who are currently receiving another investigational therapy.", "Classification": "Not Violated", "Justification": "The patient is on osimertinib, which is not described as an investigational therapy."},
+    {"Criterion": "Current infection requiring parenteral antibiotics.", "Classification": "Not Violated", "Justification": "There is no mention of a current infection requiring parenteral antibiotics in the patient's history."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria due to having metastatic non-small cell lung cancer instead of B cell CLL or SLL, and not being on ibrutinib therapy. The exclusion criterion of having an active malignancy is violated due to the current lung cancer diagnosis.",
+  "Final Decision": "Ineligible"
+}
+```

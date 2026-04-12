@@ -1,0 +1,29 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Recommendation from treating oncologist to receive a cisplatin based chemotherapy regimen, specifically either cisplatin/vinorelbine or cisplatin/gemcitabine", "Classification": "Unclear", "Justification": "The patient's profile does not mention any recommendation from an oncologist for a cisplatin-based chemotherapy regimen."},
+    {"Criterion": "> or = 18 years of age", "Classification": "Met", "Justification": "The patient is 47 years old, which satisfies the age criterion."},
+    {"Criterion": "Histologically proven diagnosis of non-small cell lung cancer, Stage IIIB or IV", "Classification": "Not Met", "Justification": "The patient has metastatic hormone receptor-positive, HER2-negative breast cancer, not non-small cell lung cancer."},
+    {"Criterion": "Adequate renal function: creatinine < 1.5 mg/dL or < 132 µmol/L and creatinine clearance of > 45 mL/min using the Cockcroft-Gault formula", "Classification": "Unclear", "Justification": "The patient's renal function data is not provided in the profile."},
+    {"Criterion": "Adequate hepatic function: bilirubin < 1.5 mg/dL or < 25 µmol/L and AST and ALT < 2 times upper limit of normal, unless there is evidence of liver metastases, in which case < 5 times upper limit of normal", "Classification": "Unclear", "Justification": "The patient's liver function test results are not provided in the profile."},
+    {"Criterion": "Adequate hematological function: absolute neutrophil count (ANC) > 1.5 x 109/L and platelets > 100 x 109/L and hemoglobin > 100 g/L", "Classification": "Unclear", "Justification": "The patient's hematological function data is not provided in the profile."},
+    {"Criterion": "Eastern Cooperative Oncology Group (ECOG) performance status of 0 - 2", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not mentioned in the profile."},
+    {"Criterion": "Negative serum pregnancy test for women of childbearing potential. Women and men of childbearing potential must use effective contraception defined as the simultaneous use of two reliable methods unless abstinence is the chosen method", "Classification": "Unclear", "Justification": "The patient's pregnancy status or contraceptive use is not mentioned in the profile."},
+    {"Criterion": "Life expectancy of > 4 months in the opinion of the treating oncologist", "Classification": "Unclear", "Justification": "The patient's life expectancy is not provided in the profile."},
+    {"Criterion": "Prior radiotherapy is allowed (unless > 25% of bone marrow stores) if this radiation was > 4 weeks before study entry and patient has fully recovered from toxicity of this treatment", "Classification": "Irrelevant", "Justification": "The patient's history of radiotherapy is not mentioned, and it is not relevant to her current cancer type."},
+    {"Criterion": "Willingness to comply with the study protocol", "Classification": "Met", "Justification": "Written informed consent has been obtained, indicating willingness to comply with the study protocol."},
+    {"Criterion": "Ability to give written informed consent with the understanding that it may be withdrawn at any time without prejudice", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Pregnant or lactating women", "Classification": "Unclear", "Justification": "The patient's pregnancy or lactation status is not mentioned in the profile."},
+    {"Criterion": "Brain metastases (a CT or MRI is not required to rule out brain metastases unless there is clinical suspicion)", "Classification": "Not Violated", "Justification": "There is no mention of brain metastases in the patient's profile."},
+    {"Criterion": "Previous or concurrent malignancies, excluding curatively treated in situ carcinoma of the cervix, in situ ductal breast cancer, non-melanoma skin cancer or low grade bladder cancer", "Classification": "Violated", "Justification": "The patient has metastatic breast cancer, which is a concurrent malignancy not excluded by the criteria."},
+    {"Criterion": "Patients who have had major surgery within three weeks of enrollment without a full recovery", "Classification": "Not Violated", "Justification": "There is no mention of recent major surgery in the patient's profile."},
+    {"Criterion": "Prior treatment with any anticancer therapy", "Classification": "Violated", "Justification": "The patient has been previously treated with endocrine therapy for her breast cancer."},
+    {"Criterion": "Patients who have tested positive for HIV", "Classification": "Not Violated", "Justification": "There is no mention of HIV status in the patient's profile."},
+    {"Criterion": "Any significant medical or psychiatric condition that, in the opinion of the investigator, will exclude the patient from the study for compliance or safety reasons", "Classification": "Unclear", "Justification": "The patient's medical or psychiatric conditions are not detailed in the profile."}
+  ],
+  "Recap": "The patient is ineligible for the clinical trial due to having a different type of cancer (breast cancer instead of non-small cell lung cancer) and having a concurrent malignancy (metastatic breast cancer). Additionally, the patient has a history of prior anticancer therapy, which violates the exclusion criteria.",
+  "Final Decision": "Ineligible"
+}
+```

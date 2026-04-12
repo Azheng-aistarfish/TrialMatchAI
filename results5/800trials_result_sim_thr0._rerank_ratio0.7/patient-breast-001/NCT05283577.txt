@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients diagnosed with cancer that have received anti-cancer treatment", "Classification": "Met", "Justification": "The patient has been diagnosed with metastatic breast cancer and has received endocrine therapy, which is an anti-cancer treatment."},
+    {"Criterion": "16 years of age or older", "Classification": "Met", "Justification": "The patient is 47 years old, which is above the age requirement of 16 years."},
+    {"Criterion": "Life expectancy ≥ 6 months", "Classification": "Unclear", "Justification": "There is no information provided about the patient's life expectancy in the data."},
+    {"Criterion": "Complaints of one or more of the following symptoms: memory impairment/attention deficit, fatigue, insomnia, depression, or anxiety over the past 7 days", "Classification": "Met", "Justification": "The patient experiences mild, ongoing cancer-related fatigue, which is one of the specified symptoms."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Presence of metastasis", "Classification": "Violated", "Justification": "The patient has liver lesions consistent with metastatic disease, indicating the presence of metastasis."},
+    {"Criterion": "Severe needle phobia", "Classification": "Not Violated", "Justification": "There is no information provided about the patient having a severe needle phobia."},
+    {"Criterion": "Severe psychiatric or medical disorders which would affect cognitive assessments", "Classification": "Not Violated", "Justification": "There is no information provided about the patient having severe psychiatric or medical disorders."},
+    {"Criterion": "Known bleeding disorder (e.g. hemophilia, Von Willebrand's disease, thrombocytopenia)", "Classification": "Not Violated", "Justification": "There is no information provided about the patient having a known bleeding disorder."},
+    {"Criterion": "Has pacemaker or other electronic metal implants", "Classification": "Not Violated", "Justification": "There is no information provided about the patient having a pacemaker or other electronic metal implants."},
+    {"Criterion": "Epilepsy", "Classification": "Not Violated", "Justification": "There is no information provided about the patient having epilepsy."},
+    {"Criterion": "Already receiving acupuncture therapy or received acupuncture treatment in the past 3 months", "Classification": "Not Violated", "Justification": "There is no information provided about the patient receiving acupuncture therapy."},
+    {"Criterion": "Breastfeeding, pregnant or are planning get pregnant during the study period", "Classification": "Not Violated", "Justification": "There is no information provided about the patient being pregnant, breastfeeding, or planning to get pregnant."},
+    {"Criterion": "Has any contraindications to fMRI including metal fragments/implants in the body, severe claustrophobia, and non-removable metal orthodontic braces, metallic retainers and oral wires", "Classification": "Not Violated", "Justification": "There is no information provided about the patient having contraindications to fMRI."}
+  ],
+  "Recap": "The patient meets the inclusion criteria of having a cancer diagnosis and receiving anti-cancer treatment, being over 16 years old, and experiencing fatigue. However, the presence of metastasis violates an exclusion criterion, making her ineligible for the trial.",
+  "Final Decision": "Ineligible"
+}
+```

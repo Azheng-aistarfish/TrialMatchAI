@@ -1,0 +1,35 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Current or former smoker",
+      "Classification": "Met",
+      "Justification": "The patient is a former smoker, having quit smoking at age 45."
+    },
+    {
+      "Criterion": "Greater than or equal to 30 pack years smoking",
+      "Classification": "Not Met",
+      "Justification": "The patient has a 20 pack-year history, which is less than the required 30 pack years."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Prior CT in last year",
+      "Classification": "Unclear",
+      "Justification": "There is no information provided about any CT scans in the last year."
+    },
+    {
+      "Criterion": "Quit smoking greater than 15 years ago",
+      "Classification": "Violated",
+      "Justification": "The patient quit smoking at age 45, which is more than 15 years ago, as he is currently 58."
+    },
+    {
+      "Criterion": "Current diagnosis of lung cancer",
+      "Classification": "Not Violated",
+      "Justification": "There is no mention of a current diagnosis of lung cancer in the patient's profile."
+    }
+  ],
+  "Recap": "The patient meets the inclusion criterion of being a former smoker but does not meet the pack-year requirement. He violates the exclusion criterion of quitting smoking more than 15 years ago. There is insufficient information to determine if he had a CT scan in the last year, and he does not have a current diagnosis of lung cancer.",
+  "Final Decision": "Ineligible"
+}
+```

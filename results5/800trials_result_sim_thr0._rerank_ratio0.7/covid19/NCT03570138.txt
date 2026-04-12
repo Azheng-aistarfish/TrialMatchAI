@@ -1,0 +1,24 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Type 2 diabetes (diagnosis based on the World Health Organization criteria)", "Classification": "Unclear", "Justification": "The patient has diabetes mellitus, but the type is not specified in the provided data."},
+    {"Criterion": "Treatment with insulin therapy (continuous subcutaneous insulin Infusion or more than 1 daily injection)", "Classification": "Unclear", "Justification": "There is no information on the patient's insulin therapy regimen in the provided data."},
+    {"Criterion": "Resting heart beat ≥ 60bpm", "Classification": "Unclear", "Justification": "The patient's resting heart rate is not provided in the data."},
+    {"Criterion": "High risk of hypoglycemia defined as: - Estimated glomerular filtration rate 15-59 ml/min/1.73 m² (according to CKD-EPI formula)", "Classification": "Met", "Justification": "The patient has Stage 3 chronic kidney disease, which typically corresponds to an eGFR of 15-59 ml/min/1.73 m²."},
+    {"Criterion": "Or history of stable proliferative diabetic retinopathy", "Classification": "Unclear", "Justification": "There is no information on the patient's history of diabetic retinopathy in the provided data."},
+    {"Criterion": "Or body mass index ≤ 30 kg/m²", "Classification": "Unclear", "Justification": "The patient's BMI is not provided in the data."},
+    {"Criterion": "Or history of severe hypoglycemia in the previous 6 months", "Classification": "Unclear", "Justification": "There is no information on the patient's history of hypoglycemia in the provided data."},
+    {"Criterion": "Or history of non-severe ≤70mg/dL hypoglycemia in the previous 4 weeks", "Classification": "Unclear", "Justification": "There is no information on the patient's history of hypoglycemia in the provided data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Type 1 diabetes mellitus or diabetes due to other cause", "Classification": "Unclear", "Justification": "The type of diabetes is not specified in the provided data."},
+    {"Criterion": "History of atrial fibrillation", "Classification": "Not Violated", "Justification": "There is no information on the patient's history of atrial fibrillation in the provided data."},
+    {"Criterion": "Pacemaker", "Classification": "Not Violated", "Justification": "The patient has a Left Ventricular Assist Device, not a pacemaker."},
+    {"Criterion": "Estimated glomerular filtration rate <15 ml/min/1.73 m² (according to CKD-EPI formula)", "Classification": "Not Violated", "Justification": "The patient has Stage 3 chronic kidney disease, which corresponds to an eGFR of 15-59 ml/min/1.73 m², not below 15."},
+    {"Criterion": "Currently using a flash continuous Glucose Monitoring device", "Classification": "Not Violated", "Justification": "There is no information on the patient using a flash continuous Glucose Monitoring device in the provided data."},
+    {"Criterion": "In the investigator's opinion, acute or chronic medical condition considered as unsuitable for inclusion in the study", "Classification": "Unclear", "Justification": "The patient's acute respiratory failure and other conditions are noted, but it is unclear if these are deemed unsuitable by the investigator."}
+  ],
+  "Recap": "The patient meets the high risk of hypoglycemia criterion due to Stage 3 chronic kidney disease. However, the type of diabetes, insulin therapy, and other inclusion criteria remain unclear. No exclusion criteria are explicitly violated based on the provided data.",
+  "Final Decision": "Likely Eligible (leaning toward inclusion)"
+}
+```

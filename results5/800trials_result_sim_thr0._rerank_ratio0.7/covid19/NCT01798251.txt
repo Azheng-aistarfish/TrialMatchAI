@@ -1,0 +1,31 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Ages Eligible for Study: 65 Years or older", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Genders Eligible for Study: Both", "Classification": "Met", "Justification": "The patient is male, which is included in the eligible genders."},
+    {"Criterion": "The Eastern Cooperative Oncology Group (ECOG) status ≤ 2", "Classification": "Unclear", "Justification": "The patient's ECOG status is not mentioned in the data."},
+    {"Criterion": "Histologically confirmed gastric adenocarcinoma(including LAUREN type)", "Classification": "Unclear", "Justification": "There is no information about the patient's gastric adenocarcinoma diagnosis in the data."},
+    {"Criterion": "Measurable disease(according to the Response Evaluation Criteria in Solid Tumors (RECIST) criteria 1.1)", "Classification": "Unclear", "Justification": "The patient's disease measurability according to RECIST criteria is not provided."},
+    {"Criterion": "chemotherapy naive after recurrence or metastasis. Previous neo-adjuvant or adjuvant treatment for gastric cancer, if applicable, more than 6 months", "Classification": "Unclear", "Justification": "There is no information about the patient's chemotherapy history or treatment timeline."},
+    {"Criterion": "Hb > 90g/L, neutrophil count > or = 1.5*10^9/L, platelet > or = 100*10^9/L, alanine transaminase (ALT) and aspartate aminotransferase (AST) < or = 2.5 times upper limit of nominal (ULN), alkaline phosphatase (ALP) < or = 2.5 times ULN, total bilirubin (TBIL) < 1.5 times ULN, serum albumin level > or = 30g/L, serum creatinine < 1 times ULN", "Classification": "Unclear", "Justification": "The patient's lab values are not provided in the data."},
+    {"Criterion": "No serious concomitant diseases which could lead to death within 5 years", "Classification": "Violated", "Justification": "The patient has Stage 3 chronic kidney disease, which is a serious condition that could lead to death within 5 years."},
+    {"Criterion": "At least 5 years from the last Biological/Immunotherapy/Hormone treatment for Malignancy excluding gastric cancer", "Classification": "Unclear", "Justification": "There is no information about the patient's history of biological, immunotherapy, or hormone treatment for malignancy."},
+    {"Criterion": "Able to accept oral medication", "Classification": "Unclear", "Justification": "The patient's ability to accept oral medication is not mentioned in the data."},
+    {"Criterion": "Compliance with protocol", "Classification": "Unclear", "Justification": "There is no information about the patient's compliance with the protocol in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Had received cytotoxic chemotherapy, radiotherapy or immunotherapy for this gastric cancer, excluding Corticosteroids", "Classification": "Unclear", "Justification": "There is no information about the patient's history of cytotoxic chemotherapy, radiotherapy, or immunotherapy for gastric cancer."},
+    {"Criterion": "Other previous malignancy within 5 year, except curative skin cancer or carcinoma in situ of uterine cervix", "Classification": "Unclear", "Justification": "There is no information about the patient's history of other malignancies."},
+    {"Criterion": "Uncontrolled epilepsy, central nervous system disorders, or a history of mental disorders", "Classification": "Not Violated", "Justification": "There is no information about the patient having uncontrolled epilepsy, CNS disorders, or a history of mental disorders."},
+    {"Criterion": "clinically significant(i.e. active)cardiac disease e.g. symptomatic coronary artery disease, New York Heart Association (NYHA) II or more serious congestive heart failure or severe requiring medication intervention arrhythmia, or history of myocardial infarction within the last 12 months", "Classification": "Unclear", "Justification": "The patient has cardiomyopathy, but it is not specified if it is clinically significant or active."},
+    {"Criterion": "Upper gastrointestinal obstruction or physiological dysfunction or suffering from malabsorption syndrome, which could affect the absorption of capecitabine", "Classification": "Not Violated", "Justification": "There is no information about the patient having upper gastrointestinal obstruction or malabsorption syndrome."},
+    {"Criterion": "Organ transplantation requires immunosuppressive treatment", "Classification": "Not Violated", "Justification": "There is no information about the patient having undergone organ transplantation."},
+    {"Criterion": "Severe uncontrolled recurrent infections, or Other serious uncontrolled concomitant diseases", "Classification": "Unclear", "Justification": "The patient has COVID-19, but it is not specified if it is severe or uncontrolled."},
+    {"Criterion": "Moderate or severe renal impairment(creatinine clearance (CCr) = or < 50 ml/min), or serum creatinine > ULN", "Classification": "Violated", "Justification": "The patient has Stage 3 chronic kidney disease, which indicates moderate renal impairment."},
+    {"Criterion": "Known enzyme deficiency of dihydropyrimidine dehydrogenase(DPD)", "Classification": "Not Violated", "Justification": "There is no information about the patient having a DPD enzyme deficiency."},
+    {"Criterion": "Allergy to Oxaliplatin or any study medication ingredients", "Classification": "Not Violated", "Justification": "There is no information about the patient having an allergy to Oxaliplatin or study medication ingredients."}
+  ],
+  "Recap": "The patient is male, which meets the gender criterion. However, the patient's age, ECOG status, gastric adenocarcinoma diagnosis, disease measurability, chemotherapy history, lab values, and ability to accept oral medication are unclear. The patient has Stage 3 chronic kidney disease, which violates the exclusion criterion for renal impairment and the inclusion criterion for serious concomitant diseases. The patient's history of other malignancies, cardiac disease, and severe infections is unclear.",
+  "Final Decision": "Ineligible"
+}
+```

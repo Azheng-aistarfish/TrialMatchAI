@@ -1,0 +1,20 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Male or female between the ages of 18 and 30", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Unable or unwilling to give written informed consent", "Classification": "Not Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."},
+    {"Criterion": "No history of cardiac, pulmonary, liver or renal disease", "Classification": "Violated", "Justification": "The patient has a ventricular septal defect, a congenital heart defect, which is a cardiac condition."},
+    {"Criterion": "Normal CBC, creatinine, liver enzymes, bilirubin, INR and PTT", "Classification": "Unclear", "Justification": "There is no information provided about the patient's CBC, creatinine, liver enzymes, bilirubin, INR, or PTT levels."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Allergy to G or to E.coli-derived agents", "Classification": "Irrelevant", "Justification": "There is no mention of allergies in the patient's data."},
+    {"Criterion": "Allergy to 'caine' type anesthetics", "Classification": "Irrelevant", "Justification": "There is no mention of allergies in the patient's data."},
+    {"Criterion": "Pregnancy or breast feeding", "Classification": "Irrelevant", "Justification": "The patient's gender is not specified, and there is no mention of pregnancy or breastfeeding."},
+    {"Criterion": "BMI greater than 25 to avoid difficulty with the number of bone marrows performed", "Classification": "Unclear", "Justification": "The patient's BMI is not provided in the data."},
+    {"Criterion": "Skin conditions, autoimmune disease, sickle cell disease or splenomegaly to avoid rare side effects of G-CSF", "Classification": "Irrelevant", "Justification": "There is no mention of skin conditions, autoimmune disease, sickle cell disease, or splenomegaly in the patient's data."},
+    {"Criterion": "Any subject, who in the opinion of the investigator, should not participate in this study", "Classification": "Unclear", "Justification": "There is no information provided about the investigator's opinion on the patient's participation."}
+  ],
+  "Recap": "The patient has a cardiac condition (ventricular septal defect) which violates the inclusion criteria. The patient's age, normal lab results, and BMI are unclear due to missing data. The patient has provided informed consent, meeting one inclusion criterion. No exclusion criteria are clearly violated based on the provided data.",
+  "Final Decision": "Ineligible"
+}
+```

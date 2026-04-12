@@ -1,0 +1,26 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Signed, informed consent", "Classification": "Met", "Justification": "The patient has obtained written informed consent, as explicitly stated in the patient description."},
+    {"Criterion": "Histologically confirmed non-metastatic operable primary invasive HR-positive breast cancer subjected to diagnostic core biopsy", "Classification": "Irrelevant", "Justification": "The patient is male, and the criterion is specific to breast cancer, which is not applicable."},
+    {"Criterion": "Menopausal status", "Classification": "Irrelevant", "Justification": "The criterion is specific to menopausal status, which is not applicable to a male patient."},
+    {"Criterion": "HR-positive/HER2-negative eBC defined as - ER>1% on immunohistochemistry (IHC) staining - HER2 score equal to 0, 1+, 2+ (if FISH neg) on IHC staining", "Classification": "Irrelevant", "Justification": "The criterion is specific to breast cancer, which is not applicable to a male patient."},
+    {"Criterion": "Available paraffin-embedded tumor block (FFPE) taken at diagnostic biopsy for Ki67 determination (IHC)", "Classification": "Irrelevant", "Justification": "The criterion is specific to breast cancer, which is not applicable to a male patient."},
+    {"Criterion": "Adequate bone marrow, hepatic and renal function including the following: 1. Hb ≥ 9.0 g/dL, absolute neutrophil count ≥ 1.5 x 109/L, platelets ≥100 x 109/L 2. Total bilirubin ≤ 1.5 x upper normal limit, excluding cases where elevated bilirubin can be attributed to Gilberts Syndrome 3. AST (SGOT), ALT (SGPT) ≤ 2.5 x upper normal limit (or 5x UNL in the presence of liver metastases) 4. Creatinine ≤ 1.5 x upper normal limit", "Classification": "Unclear", "Justification": "The patient's renal function is compromised due to Stage 3 chronic kidney disease, but specific lab values for Hb, neutrophil count, platelets, bilirubin, AST, ALT, and creatinine are not provided."},
+    {"Criterion": "Age ≥ 18 years", "Classification": "Met", "Justification": "The patient's age is not specified, but the criterion is generally applicable to adults, and no information suggests otherwise."},
+    {"Criterion": "Performance status (PS) ≤ 1 (ECOG scale)", "Classification": "Unclear", "Justification": "The patient's performance status is not provided, making it impossible to determine compliance with this criterion."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Presence of metastatic disease", "Classification": "Not Violated", "Justification": "There is no information provided about metastatic disease, so it cannot be assumed to be present."},
+    {"Criterion": "Pre-menopausal status", "Classification": "Irrelevant", "Justification": "The criterion is specific to menopausal status, which is not applicable to a male patient."},
+    {"Criterion": "Previous investigational treatment for any condition within 4 weeks of randomization date", "Classification": "Not Violated", "Justification": "There is no information provided about previous investigational treatments, so it cannot be assumed to have occurred."},
+    {"Criterion": "Treatment including radiation therapy, chemotherapy, biotherapy and/or hormonal therapy for the currently diagnosed breast cancer prior to study entry", "Classification": "Irrelevant", "Justification": "The criterion is specific to breast cancer, which is not applicable to a male patient."},
+    {"Criterion": "Co-existing active infection or serious concurrent illness", "Classification": "Violated", "Justification": "The patient is diagnosed with COVID-19 and has several other serious conditions, including Stage 3 chronic kidney disease and cardiomyopathy, which are considered serious concurrent illnesses."},
+    {"Criterion": "Any medical or other condition that in the Investigator's opinion renders the patient unsuitable for this study due to unacceptable risk", "Classification": "Unclear", "Justification": "The patient's serious conditions could be deemed unsuitable by an investigator, but this is subjective and not explicitly stated."},
+    {"Criterion": "Psychiatric disorders or altered mental status precluding understanding of the informed consent process and/or completion of the necessary studies", "Classification": "Not Violated", "Justification": "There is no information provided about psychiatric disorders or altered mental status, so it cannot be assumed to be present."},
+    {"Criterion": "Gastrointestinal disorders that may interfere with absorption of the study drug", "Classification": "Not Violated", "Justification": "There is no information provided about gastrointestinal disorders, so it cannot be assumed to be present."}
+  ],
+  "Recap": "The patient meets the inclusion criteria for signed informed consent and age, but the criteria related to breast cancer are irrelevant. The patient's renal function is unclear due to missing lab values, and performance status is not provided. The patient violates the exclusion criterion for co-existing active infection or serious concurrent illness due to COVID-19 and other serious conditions.",
+  "Final Decision": "Ineligible"
+}
+```

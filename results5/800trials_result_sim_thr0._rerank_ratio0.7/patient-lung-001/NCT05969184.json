@@ -1,0 +1,83 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Sign the informed consent form and agree to comply with the requirements of the research protocol",
+            "Classification": "Met",
+            "Justification": "The patient has provided written informed consent, satisfying this criterion."
+        },
+        {
+            "Criterion": "Recurrent or metastatic breast cancer confirmed by histology or cytology that cannot be operated, and has not received systematic treatment for recurrent or metastatic breast cancer",
+            "Classification": "Not Met",
+            "Justification": "The patient has metastatic non-small cell lung cancer, not breast cancer, thus this criterion is not applicable."
+        },
+        {
+            "Criterion": "Estrogen receptor ER is positive (positive staining of ≥ 1% of tumor cell nucleus is positive) and HER2 is positive (immunohistochemistry is 3+, and/or 2+, and ISH is positive)",
+            "Classification": "Not Met",
+            "Justification": "The patient's cancer is lung adenocarcinoma, not breast cancer, so this criterion is not applicable."
+        },
+        {
+            "Criterion": "Age ≥ 18 years old",
+            "Classification": "Met",
+            "Justification": "The patient is 53 years old, which meets the age requirement."
+        },
+        {
+            "Criterion": "ECOG physical status score is 0-1",
+            "Classification": "Unclear",
+            "Justification": "The patient's ECOG score is not provided in the data."
+        },
+        {
+            "Criterion": "Life expectancy ≥ 3 months",
+            "Classification": "Unclear",
+            "Justification": "There is no information on the patient's life expectancy in the provided data."
+        },
+        {
+            "Criterion": "Be in a postmenopausal state",
+            "Classification": "Unclear",
+            "Justification": "The patient's menopausal status is not mentioned in the data."
+        },
+        {
+            "Criterion": "Suffer from one of the following diseases defined in RECIST 1.1, and the target lesion is not suitable for surgical treatment; The target lesion has not received radiotherapy or relapses in the radiotherapy field: - At least one measurable lesion as the target lesion confirmed by CT or MRI - Non measurable disease with only bone metastasis (osteogenic disease, osteolytic disease or osteolytic osteogenic mixture)",
+            "Classification": "Not Met",
+            "Justification": "The patient has lung cancer, not breast cancer, so this criterion is not applicable."
+        },
+        {
+            "Criterion": "Appropriate hematopoietic function, liver function and kidney function",
+            "Classification": "Unclear",
+            "Justification": "There is no detailed information on the patient's hematopoietic, liver, or kidney function in the data."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Visceral crisis, severe organ dysfunction accompanied by clinical symptoms and signs, and the clinician judges that it is necessary to receive chemotherapy based treatment as soon as possible to obtain disease relief, including but not limited to the following situations: liver metastasis accompanied by a rapid increase of more than 1.5 times of bilirubin or more than 3 times of transaminase; Or pulmonary metastasis with dyspnea at rest; Carcinomatous lymphangitis; Bone marrow metastasis was accompanied by severe decrease of hematopoietic function; As well as asthma, inflammatory breast cancer, etc.",
+            "Classification": "Not Violated",
+            "Justification": "The patient has mild elevations in hepatic transaminase levels, but there is no indication of severe organ dysfunction or the need for immediate chemotherapy-based treatment."
+        },
+        {
+            "Criterion": "The subject has cancerous meningitis or has untreated central nervous system metastasis; Those who have received systematic and radical brain metastasis treatment (radiotherapy or surgery) in the past, and have been stable for at least 1 month as confirmed by imaging, and have stopped systemic hormone treatment (dose>10mg/day prednisone or other effective hormones) for more than 2 weeks, and have no clinical symptoms can be included.",
+            "Classification": "Not Violated",
+            "Justification": "There is no mention of central nervous system metastasis or related treatments in the patient's data."
+        },
+        {
+            "Criterion": "Over 2 kind of Systematic treatment for metastatic breast cancer, including chemotherapy, endocrine therapy and biological targeting therapy, has been used previously.",
+            "Classification": "Irrelevant",
+            "Justification": "The patient has lung cancer, not breast cancer, so this criterion does not apply."
+        },
+        {
+            "Criterion": "Have received any treatment of CDK4 and CDK6 inhibitors (or participated in any clinical trial of CDK4 and CDK6 inhibitors that have not been exposed).",
+            "Classification": "Not Violated",
+            "Justification": "There is no information indicating that the patient has received CDK4 and CDK6 inhibitors."
+        },
+        {
+            "Criterion": "Have received radiotherapy within 28 days before enrollment. It is allowed to receive radiotherapy for relieving metastatic bone pain before enrollment, but the irradiated medullary bone shall not exceed 30% of the total amount.",
+            "Classification": "Not Violated",
+            "Justification": "There is no mention of recent radiotherapy in the patient's data."
+        },
+        {
+            "Criterion": "Patients with uncontrolled lung disease, severe infection, active digestive tract ulcer requiring treatment, coagulation disorders, severe uncontrolled diabetes, connective tissue disease or bone marrow function depression and other diseases cannot tolerate the study drug treatment.",
+            "Classification": "Unclear",
+            "Justification": "The patient has lung cancer with symptoms like severe chronic cough and exertional dyspnea, but there is no detailed information on whether these conditions are uncontrolled or if they would affect tolerance to the study drug."
+        }
+    ],
+    "Recap": "The patient meets the age criterion and has provided informed consent. However, she does not meet the primary inclusion criterion of having metastatic breast cancer. The exclusion criteria are mostly not violated or irrelevant due to the nature of her lung cancer. Unclear criteria include ECOG score, life expectancy, menopausal status, and detailed organ function assessments.",
+    "Final Decision": "Ineligible"
+}

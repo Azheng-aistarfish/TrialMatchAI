@@ -1,0 +1,22 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age at least 18 years or local age of consent", "Classification": "Met", "Justification": "The patient is 58 years old, which is well above the age of 18."},
+    {"Criterion": "Non-traumatic out-of-hospital cardiac arrest treated by Resuscitation Outcomes Consortium (ROC) emergency medical services (EMS) with advanced life support capability", "Classification": "Unclear", "Justification": "There is no information provided about the patient's cardiac arrest or the type of EMS involved."},
+    {"Criterion": "VF or pulseless VT presenting as the initial arrest arrhythmia or results from conversion of another arrhythmia (such as transient asystole or pulseless electrical activity)", "Classification": "Unclear", "Justification": "The patient's initial arrest arrhythmia is not specified in the provided data."},
+    {"Criterion": "Incessant or recurrent VF/VT after receipt of ≥ 1 shocks", "Classification": "Unclear", "Justification": "There is no information on whether the patient experienced VF/VT after receiving shocks."},
+    {"Criterion": "Established vascular access", "Classification": "Unclear", "Justification": "The patient's vascular access status is not mentioned in the provided data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Asystole or pulseless electrical activity (PEA) as the initial arrest rhythm who never transition to VF or pulseless VT", "Classification": "Unclear", "Justification": "The initial arrest rhythm is not specified, so it is unclear if this criterion is violated."},
+    {"Criterion": "Written advance directive to not attempt resuscitation (DNAR)", "Classification": "Not Violated", "Justification": "The patient has provided written informed consent, indicating no DNAR directive."},
+    {"Criterion": "Blunt, penetrating, or burn-related injury", "Classification": "Not Violated", "Justification": "There is no mention of any such injuries in the patient's history."},
+    {"Criterion": "Exsanguination", "Classification": "Not Violated", "Justification": "There is no information suggesting the patient has experienced exsanguination."},
+    {"Criterion": "Protected populations (prisoners, pregnancy, children under local age of consent)", "Classification": "Not Violated", "Justification": "The patient is 58 years old and not described as a prisoner or pregnant, so this criterion is not violated."},
+    {"Criterion": "Treated exclusively by non-ROC EMS agency/provider, or by basic life support-only capable ROC EMS providers", "Classification": "Unclear", "Justification": "There is no information on the type of EMS that treated the patient."},
+    {"Criterion": "Prior receipt of open label lidocaine or amiodarone during resuscitation", "Classification": "Not Violated", "Justification": "There is no mention of the patient receiving lidocaine or amiodarone during resuscitation."}
+  ],
+  "Recap": "The patient meets the age criterion and has not violated any exclusion criteria related to DNAR, injuries, or protected populations. However, there is insufficient information to determine eligibility based on the cardiac arrest details and EMS involvement.",
+  "Final Decision": "Likely Ineligible (leaning toward exclusion)"
+}
+```

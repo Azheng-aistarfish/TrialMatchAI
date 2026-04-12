@@ -1,0 +1,20 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age between 20-80 y/o", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "BW: 40-90 kilograms", "Classification": "Unclear", "Justification": "The patient's body weight is not mentioned in the data."},
+    {"Criterion": "ASA class I-III", "Classification": "Unclear", "Justification": "The patient's ASA classification is not specified in the data."},
+    {"Criterion": "No pre-existing neuropathy", "Classification": "Met", "Justification": "There is no mention of pre-existing neuropathy in the patient's description."},
+    {"Criterion": "Scheduled for upper limb surgery", "Classification": "Unclear", "Justification": "The patient's surgical schedule is not detailed in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Pre-existing neuropathy (ex: polyneuropathy)", "Classification": "Not Violated", "Justification": "The patient's description does not indicate any pre-existing neuropathy."},
+    {"Criterion": "History of allergy to xylocaine、ropivacaine、epinephrine", "Classification": "Unclear", "Justification": "There is no information about allergies to these substances in the patient's data."},
+    {"Criterion": "Emergent surgery", "Classification": "Unclear", "Justification": "The urgency of the patient's surgery is not specified in the data."},
+    {"Criterion": "Coagulopathy", "Classification": "Unclear", "Justification": "The patient's coagulation status is not mentioned in the data."},
+    {"Criterion": "Patient who can not express themselves", "Classification": "Unclear", "Justification": "The patient's ability to express themselves is not detailed in the data."}
+  ],
+  "Recap": "The patient's eligibility for the clinical trial is uncertain due to missing information on age, body weight, ASA classification, and surgical schedule. There is no evidence of pre-existing neuropathy, but other exclusion criteria remain unclear due to lack of data.",
+  "Final Decision": "Likely Ineligible (leaning toward exclusion)"
+}
+```

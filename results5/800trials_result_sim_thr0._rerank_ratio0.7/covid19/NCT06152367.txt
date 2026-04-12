@@ -1,0 +1,26 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients with histologically confirmed melanoma of the skin: Breslow, Clark, histological type. Location of the primary, clinical, or pathological regional status.", "Classification": "Unclear", "Justification": "The patient's data does not mention any diagnosis of melanoma, so it is unclear if this criterion is met."},
+    {"Criterion": "Complete staging demonstrating the presence of distant metastases, either visceral or in soft tissues or bone tissue: Brain, Lung, Abdomen, and Pelvis CT and bone scintigraphy.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's staging or presence of distant metastases."},
+    {"Criterion": "Objectively measurable disease by clinical or radiological means", "Classification": "Unclear", "Justification": "The patient's data does not specify any objectively measurable disease related to the trial's focus."},
+    {"Criterion": "Karnofsky's Performance Status is more significant than 70%", "Classification": "Unclear", "Justification": "The patient's Karnofsky Performance Status is not provided in the data."},
+    {"Criterion": "Life expectancy greater than three months", "Classification": "Unclear", "Justification": "There is no information on the patient's life expectancy in the provided data."},
+    {"Criterion": "Patients over 18 years old", "Classification": "Met", "Justification": "The patient is described as a male, which implies he is over 18 years old."},
+    {"Criterion": "Informed consent from the patient to participate in the protocol", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Age greater than or equal to 65 years", "Classification": "Unclear", "Justification": "The patient's age is not specified in the data."},
+    {"Criterion": "Ongoing active infections, including viral immunodeficiency", "Classification": "Violated", "Justification": "The patient has been diagnosed with COVID-19, which is an active infection."},
+    {"Criterion": "Previous chemotherapy within less than two months", "Classification": "Not Violated", "Justification": "There is no mention of recent chemotherapy in the patient's data."},
+    {"Criterion": "Concomitant malignant tumors (e.g., Chronic Lymphocytic Leukemia, etc.)", "Classification": "Not Violated", "Justification": "The patient's data does not mention any concomitant malignant tumors."},
+    {"Criterion": "Uncontrolled concomitant diseases (Hypertension, unstable Diabetes mellitus, renal diseases requiring dialysis)", "Classification": "Violated", "Justification": "The patient has Stage 3 chronic kidney disease, which may be considered uncontrolled."},
+    {"Criterion": "Situations or conditions requiring urgent surgical intervention, such as intestinal obstruction due to metastasis", "Classification": "Not Violated", "Justification": "There is no mention of conditions requiring urgent surgical intervention in the patient's data."},
+    {"Criterion": "Pregnancy or lactation", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Concurrent participation in other therapeutic research protocols", "Classification": "Unclear", "Justification": "There is no information on the patient's participation in other research protocols."},
+    {"Criterion": "Any condition that compromises the objectives of this study", "Classification": "Unclear", "Justification": "There is no specific information on conditions that might compromise the study's objectives."}
+  ],
+  "Recap": "The patient meets the age and informed consent criteria but has an active COVID-19 infection and uncontrolled chronic kidney disease, which are disqualifying factors. Other criteria remain unclear due to insufficient data.",
+  "Final Decision": "Ineligible"
+}
+```

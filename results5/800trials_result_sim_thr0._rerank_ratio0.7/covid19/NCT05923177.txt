@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Subject is > 18 years of age", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Availability of results from HER2 status previously determined on material from the primary tumor and metastatic LN, either a. HER2-positive, defined as a DAKO HercepTest™ score of 3+ or FISH positive or b. HER2-negative, defined as a DAKO HercepTest™ score of 0 or 1+; or else if 2+ then FISH negative", "Classification": "Irrelevant", "Justification": "The patient is male, and the criterion is specific to breast cancer, which is not applicable."},
+    {"Criterion": "Hematological, liver and renal function test results within the following limits: - White blood cell count: > 2.0 x 109/L - Hemoglobin: > 80 g/L - Platelets: > 50.0 x 109/L - ALT, ALP, AST: =< 5.0 times Upper Limit of Normal - Bilirubin =< 2.0 times Upper Limit of Normal - Serum creatinine: Within Normal Limits", "Classification": "Unclear", "Justification": "The patient's specific hematological, liver, and renal function test results are not provided."},
+    {"Criterion": "A negative pregnancy test for all patients of childbearing potential. Sexually active women of childbearing potential participating in the study must use a medically acceptable form of contraception for at least 30 days after study termination", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Subject is capable to undergo the diagnostic investigations to be performed in the study", "Classification": "Unclear", "Justification": "There is no information on the patient's ability to undergo diagnostic investigations."},
+    {"Criterion": "Informed consent", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Any system therapy (chemo-/targeted therapy)", "Classification": "Unclear", "Justification": "There is no information on whether the patient has received any system therapy."},
+    {"Criterion": "Second, non-breast malignancy", "Classification": "Not Violated", "Justification": "The patient is male, and the criterion is specific to breast cancer, which is not applicable."},
+    {"Criterion": "Active current autoimmune disease or history of autoimmune disease", "Classification": "Not Violated", "Justification": "There is no information indicating the presence of an autoimmune disease."},
+    {"Criterion": "Active infection or history of severe infection within the previous 3 months (if clinically relevant at screening)", "Classification": "Violated", "Justification": "The patient has been diagnosed with COVID-19, which is an active infection."},
+    {"Criterion": "Known HIV positive or chronically active hepatitis B or C", "Classification": "Not Violated", "Justification": "There is no information indicating the patient is HIV positive or has active hepatitis B or C."},
+    {"Criterion": "Administration of other investigational medicinal product within 30 days of screening", "Classification": "Unclear", "Justification": "There is no information on whether the patient has received any investigational medicinal products."},
+    {"Criterion": "Ongoing toxicity > grade 2 from previous standard or investigational therapies, according to US National Cancer Institute's", "Classification": "Not Violated", "Justification": "There is no information indicating the patient has ongoing toxicity from previous therapies."}
+  ],
+  "Recap": "The patient is male, and several inclusion criteria are irrelevant due to the gender-specific nature of the trial. The patient's age and specific test results are unclear, and there is no information on the ability to undergo diagnostic investigations. The patient has an active infection (COVID-19), which violates an exclusion criterion. Informed consent is met.",
+  "Final Decision": "Ineligible"
+}
+```

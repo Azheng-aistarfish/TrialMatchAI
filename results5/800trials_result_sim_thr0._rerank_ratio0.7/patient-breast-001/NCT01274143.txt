@@ -1,0 +1,60 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Have at least one first-degree relative diagnosed with colorectal cancer (CRC) between the ages of 40-59, or one first-degree relative diagnosed with colorectal cancer at age 40 or older and an additional first-degree or second-degree relative diagnosed with colorectal cancer at age 40 or older.",
+      "Classification": "Not Met",
+      "Justification": "The patient's maternal aunt had breast cancer, not colorectal cancer, and is not a first-degree relative."
+    },
+    {
+      "Criterion": "If relative was diagnosed over age 50, participant must be 40-74 years old.",
+      "Classification": "Irrelevant",
+      "Justification": "The patient does not have a first-degree relative diagnosed with colorectal cancer, making this criterion irrelevant."
+    },
+    {
+      "Criterion": "If relative was diagnosed at age 40-49, participant cannot be more than ten years younger than relative at first diagnosis (e.g., dx at 48, participant must be 38-74 years old).",
+      "Classification": "Irrelevant",
+      "Justification": "The patient does not have a first-degree relative diagnosed with colorectal cancer, making this criterion irrelevant."
+    },
+    {
+      "Criterion": "Colorectal cancer cases of relatives recruited through the cancer registries of California, Colorado, Idaho, New Mexico, or Utah; Rocky Mountain Cancer Genetics Coalition sites of National Cancer Genetics Network in Colorado, New Mexico, or Utah; or Intermountain Health Care.",
+      "Classification": "Irrelevant",
+      "Justification": "The patient does not have a first-degree relative diagnosed with colorectal cancer, making this criterion irrelevant."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Previous cancer diagnosis of any kind (except for non-melanoma skin cancers).",
+      "Classification": "Violated",
+      "Justification": "The patient has a history of breast cancer, which is a type of cancer excluded by this criterion."
+    },
+    {
+      "Criterion": "Has had a colonoscopy within the past five years.",
+      "Classification": "Unclear",
+      "Justification": "There is no information provided about whether the patient has had a colonoscopy in the past five years."
+    },
+    {
+      "Criterion": "Meets clinical criteria for Lynch syndrome or other polyposis syndromes.",
+      "Classification": "Unclear",
+      "Justification": "There is no information provided about whether the patient meets the clinical criteria for Lynch syndrome or other polyposis syndromes."
+    },
+    {
+      "Criterion": "Has had prior involvement in colorectal cancer-related clinical, behavioral or epidemiologic cancer familial research.",
+      "Classification": "Unclear",
+      "Justification": "There is no information provided about the patient's involvement in colorectal cancer-related research."
+    },
+    {
+      "Criterion": "Mentally incompetent, incarcerated, hearing or visually impaired.",
+      "Classification": "Not Violated",
+      "Justification": "There is no information provided that suggests the patient is mentally incompetent, incarcerated, or has hearing or visual impairments."
+    },
+    {
+      "Criterion": "Unable to read and speak English fluently.",
+      "Classification": "Not Violated",
+      "Justification": "The patient has provided written informed consent, indicating fluency in English."
+    }
+  ],
+  "Recap": "The patient does not meet the inclusion criteria due to the lack of a first-degree relative with colorectal cancer. The exclusion criteria are violated due to a previous breast cancer diagnosis, and there is insufficient information to assess other exclusion criteria.",
+  "Final Decision": "Ineligible"
+}
+```

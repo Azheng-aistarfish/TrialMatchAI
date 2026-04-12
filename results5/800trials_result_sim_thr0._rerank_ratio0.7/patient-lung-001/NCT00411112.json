@@ -1,0 +1,33 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "adult",
+            "Classification": "Met",
+            "Justification": "The patient is 53 years old, which qualifies as an adult."
+        },
+        {
+            "Criterion": "colon cancer",
+            "Classification": "Not Met",
+            "Justification": "The patient has been diagnosed with non-small cell lung cancer, not colon cancer."
+        },
+        {
+            "Criterion": "open surgery",
+            "Classification": "Unclear",
+            "Justification": "There is no information provided about whether the patient has undergone open surgery."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "emergency surgery",
+            "Classification": "Not Violated",
+            "Justification": "There is no mention of the patient having undergone emergency surgery."
+        },
+        {
+            "Criterion": "metastases",
+            "Classification": "Violated",
+            "Justification": "The patient has metastatic non-small cell lung cancer, indicating the presence of metastases."
+        }
+    ],
+    "Recap": "The patient meets the age criterion but does not have colon cancer, and it is unclear if she has had open surgery. She does not have emergency surgery but does have metastases, which disqualifies her.",
+    "Final Decision": "Ineligible"
+}

@@ -1,0 +1,28 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "18 years of age at least", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Diagnosis of diabetes mellitus (type 1 or type 2)", "Classification": "Met", "Justification": "The patient has been diagnosed with diabetes mellitus, as explicitly stated in the data."},
+    {"Criterion": "Diabetic macular edema clinically observable associated with diabetic retinopathy", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's ocular conditions, making this criterion irrelevant."},
+    {"Criterion": "BCVA score between 20 letters (20/400 ETDRS) and 70 letters (20/40 ETDRS) in the study eye", "Classification": "Irrelevant", "Justification": "No data is provided regarding the patient's visual acuity, making this criterion irrelevant."},
+    {"Criterion": "Retinal thickness > 275um by OCT", "Classification": "Irrelevant", "Justification": "There is no information on the patient's retinal thickness, making this criterion irrelevant."},
+    {"Criterion": "One eye per patient will be chosen for the study", "Classification": "Irrelevant", "Justification": "No information is provided about the patient's eyes, making this criterion irrelevant."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Uncontrolled systemic disease", "Classification": "Violated", "Justification": "The patient has multiple uncontrolled conditions, including COVID-19, acute respiratory failure, and Stage 3 chronic kidney disease, indicating uncontrolled systemic disease."},
+    {"Criterion": "Initiation of medical therapy for diabetes or a change from oral hypoglycemic agents to insulin therapy within 4 months prior to the qualification visit", "Classification": "Not Violated", "Justification": "There is no information provided about recent changes in diabetes treatment, so this criterion is not violated."},
+    {"Criterion": "Renal failure requiring hemodialysis or peritoneal dialysis within 6 months prior to the qualification visit", "Classification": "Not Violated", "Justification": "The patient has Stage 3 chronic kidney disease, but there is no mention of hemodialysis or peritoneal dialysis, so this criterion is not violated."},
+    {"Criterion": "Any ocular condition in the study eye that in the opinion of the investigator would prevent a 2 lines improvement of visual acuity", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's ocular conditions, making this criterion irrelevant."},
+    {"Criterion": "Presence of branch retinal vein occlusion, central retinal vein occlusion, uveitis, pseudophakic cystoid edema or any other condition in the study eye which could be contributing to macular edema", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's ocular conditions, making this criterion irrelevant."},
+    {"Criterion": "Presence of an epiretinal membrane in the study eye", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's ocular conditions, making this criterion irrelevant."},
+    {"Criterion": "History of IOP elevation in response to steroid treatment in either eye", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's intraocular pressure or response to steroids, making this criterion irrelevant."},
+    {"Criterion": "History of glaucoma or optic nerve head change consistent with glaucoma damage", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's glaucoma history, making this criterion irrelevant."},
+    {"Criterion": "Ocular hypertension requiring more than 1 anti-glaucoma medication to maintain IOP < 11mmhg at qualification visit", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's ocular hypertension or medication use, making this criterion irrelevant."},
+    {"Criterion": "Presence of anterior chamber intraocular lens in the study eye", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's intraocular lens, making this criterion irrelevant."},
+    {"Criterion": "Active optic disc or retinal neovascularization in the study eye at qualification visit", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's ocular conditions, making this criterion irrelevant."},
+    {"Criterion": "Active or history of choroidal neovascularization in the study eye", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's ocular conditions, making this criterion irrelevant."}
+  ],
+  "Recap": "The patient meets the inclusion criterion for having diabetes mellitus. However, the patient violates the exclusion criterion for uncontrolled systemic disease due to multiple uncontrolled conditions, including COVID-19 and acute respiratory failure.",
+  "Final Decision": "Ineligible"
+}
+```

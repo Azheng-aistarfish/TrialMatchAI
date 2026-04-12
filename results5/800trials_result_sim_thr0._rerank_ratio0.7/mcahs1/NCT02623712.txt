@@ -1,0 +1,15 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "aged ≥35 years", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "at least one nodule measuring ≤15 mm in average diameter on chest CT", "Classification": "Unclear", "Justification": "There is no information about the presence or size of lung nodules in the patient's data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Pregnant Women", "Classification": "Irrelevant", "Justification": "The patient is not identified as female, so pregnancy is not applicable."},
+    {"Criterion": "Age <35 years", "Classification": "Unclear", "Justification": "The patient's age is not provided, so it cannot be determined if they are under 35."},
+    {"Criterion": "Known diagnosis of cancer (except non-melanoma skin cancer) within 5 years", "Classification": "Not Violated", "Justification": "There is no mention of a cancer diagnosis in the patient's data."}
+  ],
+  "Recap": "The patient's age and the presence or size of lung nodules are not specified, making it unclear if they meet the inclusion criteria. There is no evidence of a cancer diagnosis, so the exclusion criteria related to cancer are not violated. Pregnancy is irrelevant due to the lack of gender information.",
+  "Final Decision": "Likely Ineligible (leaning toward exclusion)"
+}
+```

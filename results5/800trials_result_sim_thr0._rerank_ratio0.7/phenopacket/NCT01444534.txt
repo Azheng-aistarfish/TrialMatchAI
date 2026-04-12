@@ -1,0 +1,15 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "diabetes type 1", "Classification": "Not Met", "Justification": "The patient has Type 2 diabetes mellitus, not Type 1."},
+    {"Criterion": ">18 years old", "Classification": "Met", "Justification": "The patient is 58 years old, which is greater than 18."},
+    {"Criterion": "patient having a smartphone, who are familiar with its use", "Classification": "Unclear", "Justification": "There is no information provided about the patient's smartphone usage or familiarity with it."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "previous or actual use of a diabetes application", "Classification": "Unclear", "Justification": "There is no information provided about the patient's use of a diabetes application."},
+    {"Criterion": "pregnant", "Classification": "Irrelevant", "Justification": "The patient is male, so pregnancy is not applicable."}
+  ],
+  "Recap": "The patient does not meet the inclusion criterion of having Type 1 diabetes, which is a critical requirement for eligibility. The patient's age criterion is met, but there is insufficient information regarding smartphone usage and diabetes application use. The exclusion criterion of pregnancy is irrelevant due to the patient's gender.",
+  "Final Decision": "Ineligible"
+}
+```

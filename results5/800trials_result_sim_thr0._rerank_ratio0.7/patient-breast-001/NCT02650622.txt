@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Subjects aged 1-2 days", "Classification": "Not Met", "Justification": "The patient is 47 years old, which does not meet the age requirement of 1-2 days."},
+    {"Criterion": "Subjects with gestational age 37-42 weeks", "Classification": "Irrelevant", "Justification": "The patient is an adult, so gestational age is not applicable."},
+    {"Criterion": "Subjects with stable clinical status (admitted to normal newborn nursery)", "Classification": "Irrelevant", "Justification": "The patient is an adult, so this criterion does not apply."},
+    {"Criterion": "Subjects aged 0-18 years", "Classification": "Not Met", "Justification": "The patient is 47 years old, which is outside the age range of 0-18 years."},
+    {"Criterion": "Subjects (no age limit) with ANY phenotype as below: - Confirmed metabolic or genetic diseases - Suspected metabolic or genetic diseases - Episodic metabolic decompensation (e.g. hypoglycemia, hyperammonemia, metabolic acidosis) - Developmental regression - Major congenital malformation - Other unexplained symptoms of potential genetic origin", "Classification": "Not Met", "Justification": "The patient has metastatic breast cancer, which does not match any of the specified phenotypes for Cohort 3."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Subjects with gestational age <37 weeks or >42 weeks", "Classification": "Irrelevant", "Justification": "The patient is an adult, so gestational age is not applicable."},
+    {"Criterion": "Subjects with overt signs of metabolic dysfunction, distress or genetic diseases including hypoglycemia, hyperglycemia, sepsis/shock, hypoxemia, or major congenital malformation", "Classification": "Irrelevant", "Justification": "The patient's condition is metastatic breast cancer, not metabolic dysfunction or genetic diseases."},
+    {"Criterion": "Subjects with mothers whose pregnancies were complicated by gestational diabetes, gestational hyperglycemia, gestational hypertension, preeclampsia, or any other major disorders", "Classification": "Irrelevant", "Justification": "The patient is an adult, so this criterion does not apply."},
+    {"Criterion": "Subjects with confirmed metabolic or genetic diseases", "Classification": "Not Violated", "Justification": "The patient has metastatic breast cancer, not a metabolic or genetic disease."},
+    {"Criterion": "Subjects with suspected metabolic or genetic diseases", "Classification": "Not Violated", "Justification": "The patient has metastatic breast cancer, not a suspected metabolic or genetic disease."},
+    {"Criterion": "Subjects with episodic metabolic decompensation (e.g. hypoglycemia, hyperammonemia, metabolic acidosis)", "Classification": "Not Violated", "Justification": "The patient's condition is metastatic breast cancer, not episodic metabolic decompensation."},
+    {"Criterion": "Subjects with developmental regression", "Classification": "Not Violated", "Justification": "The patient has metastatic breast cancer, not developmental regression."},
+    {"Criterion": "Subjects with major congenital malformation", "Classification": "Not Violated", "Justification": "The patient has metastatic breast cancer, not a congenital malformation."}
+  ],
+  "Recap": "The patient is 47 years old with metastatic breast cancer, which does not meet the age or condition criteria for any of the cohorts. All inclusion criteria are not met, and all exclusion criteria are not violated.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,34 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Unresectable non-small cell lung cancer, stage IIIA/B, or stage IV for which the primary tumor is symptomatic (cough, dyspnea, pain) without extra-thoracic lesions rapidly evolving for which patients should receive radiotherapy at curative dose", "Classification": "Irrelevant", "Justification": "The patient's profile does not mention any lung cancer diagnosis, making this criterion irrelevant."},
+    {"Criterion": "Measurable lesion, documented histologically, potentially accessible during fiberoptic bronchoscopy", "Classification": "Irrelevant", "Justification": "There is no mention of lung cancer or any related lesions in the patient's profile, rendering this criterion irrelevant."},
+    {"Criterion": "Age > 18 years, WHO 0-1", "Classification": "Met", "Justification": "The patient is 58 years old, which satisfies the age criterion. There is no information on WHO performance status, but age alone is met."},
+    {"Criterion": "Neutrophil count > 1500 /mm3, Hemoglobin > 9 g/dL, Platelet count > 100,000/mm3", "Classification": "Unclear", "Justification": "The patient's profile does not provide specific blood count values, making it unclear if this criterion is met."},
+    {"Criterion": "Bilirubin < 1.5 mg/dL, Transaminases < 3 N, albumin >30 g / L, PT > 70%", "Classification": "Unclear", "Justification": "The patient's profile mentions mild elevation in hepatic transaminase levels but does not provide specific values for bilirubin, albumin, or PT, making it unclear if this criterion is met."},
+    {"Criterion": "Creatinine < 120 μM/L", "Classification": "Unclear", "Justification": "The patient's profile does not provide a creatinine level, making it unclear if this criterion is met."},
+    {"Criterion": "Patient information and informed consent form signed", "Classification": "Met", "Justification": "The patient's profile explicitly states that written informed consent has been obtained."},
+    {"Criterion": "No previous treatment for lung cancer (surgery, radiotherapy, chemotherapy)", "Classification": "Irrelevant", "Justification": "The patient's profile does not mention any lung cancer treatment, making this criterion irrelevant."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients previously treated with RAD001 (everolimus) or any other mTOR inhibitor", "Classification": "Not Violated", "Justification": "The patient's profile does not mention any treatment with RAD001 or mTOR inhibitors."},
+    {"Criterion": "Stage IV for which the primary tumor is not symptomatic with extra-thoracic lesions rapidly evolving requiring systemic treatment", "Classification": "Irrelevant", "Justification": "The patient's profile does not mention any lung cancer diagnosis, making this criterion irrelevant."},
+    {"Criterion": "Previous radiotherapy", "Classification": "Not Violated", "Justification": "The patient's profile does not mention any previous radiotherapy treatment."},
+    {"Criterion": "Venous or arterial thrombosis, pulmonary embolism during the previous six months", "Classification": "Not Violated", "Justification": "The patient's profile does not mention any thrombosis or pulmonary embolism events."},
+    {"Criterion": "Concomitant treatment with phenytoin, phenobarbital or any other antiepileptic agent, history of epilepsy", "Classification": "Not Violated", "Justification": "The patient's profile does not mention any antiepileptic treatment or history of epilepsy."},
+    {"Criterion": "Concomitant treatment with medicinal products that inhibit, induce or are substrates for CYP3A4", "Classification": "Violated", "Justification": "The patient is on atorvastatin, which is a substrate for CYP3A4, violating this criterion."},
+    {"Criterion": "Concomitant therapy with agents otherwise used in the treatment of cancer", "Classification": "Not Violated", "Justification": "The patient's profile does not mention any cancer treatment agents."},
+    {"Criterion": "Chronic treatment with corticosteroids or another immunosuppressant", "Classification": "Not Violated", "Justification": "The patient's profile does not mention any corticosteroid or immunosuppressant treatment."},
+    {"Criterion": "Patients with an active bleeding diathesis or taking an oral vitamin K antagonist (except low-dose Coumadin (warfarin sodium))", "Classification": "Not Violated", "Justification": "The patient's profile does not mention any bleeding diathesis or vitamin K antagonist use."},
+    {"Criterion": "Other concurrent severe and/or uncontrolled disease which could compromise participation in the study", "Classification": "Unclear", "Justification": "The patient has multiple cardiac issues and diabetes, but it is unclear if these are considered severe or uncontrolled enough to compromise study participation."},
+    {"Criterion": "Impairment of gastrointestinal function or gastrointestinal disease that may significantly alter the absorption of RAD001 (EVEROLIMUS)", "Classification": "Not Violated", "Justification": "The patient's profile does not mention any gastrointestinal issues that would affect drug absorption."},
+    {"Criterion": "HIV seropositivity", "Classification": "Not Violated", "Justification": "The patient's profile does not mention HIV seropositivity."},
+    {"Criterion": "Patients with a virological test positive to hepatitis B (HBs positive)", "Classification": "Not Violated", "Justification": "The patient's profile does not mention hepatitis B positivity."},
+    {"Criterion": "Previous cancer (except basal cell skin cancer or cervical carcinoma in situ) during the 3 years prior to entering the trial", "Classification": "Not Violated", "Justification": "The patient's profile does not mention any previous cancer diagnosis."},
+    {"Criterion": "Important pulmonary fibrosis on X-ray", "Classification": "Not Violated", "Justification": "The patient's profile does not mention pulmonary fibrosis."},
+    {"Criterion": "Women who are or could become pregnant or who are currently breastfeeding", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."}
+  ],
+  "Recap": "The patient meets the age and informed consent criteria but has unclear blood count and liver function data. The patient violates the exclusion criterion related to CYP3A4 substrates due to atorvastatin use. Other exclusion criteria are not violated or are irrelevant.",
+  "Final Decision": "Ineligible"
+}
+```

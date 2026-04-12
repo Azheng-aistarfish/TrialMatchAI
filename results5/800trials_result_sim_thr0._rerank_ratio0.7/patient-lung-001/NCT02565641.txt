@@ -1,0 +1,25 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Adult participants 18 to 75 years of age",
+      "Classification": "Met",
+      "Justification": "The patient is 53 years old, which falls within the specified age range of 18 to 75 years."
+    },
+    {
+      "Criterion": "Locally advanced or metastatic pancreatic cancer",
+      "Classification": "Not Met",
+      "Justification": "The patient has metastatic non-small cell lung cancer, not pancreatic cancer, which does not meet this criterion."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Prior chemotherapy for pancreatic cancer",
+      "Classification": "Not Violated",
+      "Justification": "The patient's medical history does not mention any prior chemotherapy for pancreatic cancer, only treatment for lung cancer."
+    }
+  ],
+  "Recap": "The patient meets the age criterion but does not have pancreatic cancer, which is required for inclusion. There is no evidence of prior chemotherapy for pancreatic cancer, so the exclusion criterion is not violated.",
+  "Final Decision": "Ineligible"
+}
+```

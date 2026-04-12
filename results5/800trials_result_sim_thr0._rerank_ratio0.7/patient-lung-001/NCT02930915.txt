@@ -1,0 +1,25 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Have a Head-and-neck cancer",
+      "Classification": "Not Met",
+      "Justification": "The patient has metastatic non-small cell lung cancer, not head-and-neck cancer."
+    },
+    {
+      "Criterion": "Receiving radiotherapy treatments (CT images)",
+      "Classification": "Unclear",
+      "Justification": "The patient's current treatment is osimertinib, and there is no mention of radiotherapy in the provided data."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Children (age less than 18)",
+      "Classification": "Not Violated",
+      "Justification": "The patient is 53 years old, which is well above the age of 18."
+    }
+  ],
+  "Recap": "The patient does not meet the inclusion criterion of having head-and-neck cancer and it is unclear if she is receiving radiotherapy. She does not violate the exclusion criterion of being under 18.",
+  "Final Decision": "Ineligible"
+}
+```

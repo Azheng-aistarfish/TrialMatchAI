@@ -1,0 +1,25 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histopathological proof of rectal adenocarcinoma.", "Classification": "Not Met", "Justification": "The patient has adenocarcinoma of the lung, not rectal adenocarcinoma."},
+    {"Criterion": "Tumors located within 15 cm and not less than 4 cm from anal verge.", "Classification": "Irrelevant", "Justification": "The patient's cancer is in the lung, not the rectum, making this criterion irrelevant."},
+    {"Criterion": "Age: ≥ 18 years.", "Classification": "Met", "Justification": "The patient is 53 years old, which satisfies the age criterion."},
+    {"Criterion": "Locally advanced resectable rectal cancer (cT3/4 N0- Any T N+ve).", "Classification": "Irrelevant", "Justification": "The patient's cancer is lung cancer, not rectal cancer, making this criterion irrelevant."},
+    {"Criterion": "ECOG Performance Status: 0-2.", "Classification": "Unclear", "Justification": "The patient's ECOG Performance Status is not provided in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Non-epithelial rectal malignancy such as sarcoma or lymphoma.", "Classification": "Irrelevant", "Justification": "The patient's cancer is lung adenocarcinoma, not a rectal malignancy."},
+    {"Criterion": "Unresectable tumors in which surgery will never be possible even if substantial tumor downsizing is seen.", "Classification": "Irrelevant", "Justification": "The patient's cancer is lung cancer, not rectal cancer, making this criterion irrelevant."},
+    {"Criterion": "Recurrent rectal cancer.", "Classification": "Irrelevant", "Justification": "The patient's cancer is lung cancer, not rectal cancer, making this criterion irrelevant."},
+    {"Criterion": "Previous history of malignancy within the last 5 years.", "Classification": "Violated", "Justification": "The patient has a history of lung cancer, which is a malignancy within the last 5 years."},
+    {"Criterion": "Previous pelvic irradiation.", "Classification": "Irrelevant", "Justification": "There is no mention of pelvic irradiation in the patient's history."},
+    {"Criterion": "Psychiatric or addictive disorder that would preclude study therapy.", "Classification": "Irrelevant", "Justification": "There is no mention of psychiatric or addictive disorders in the patient's history."},
+    {"Criterion": "Concurrent uncontrolled medical conditions.", "Classification": "Unclear", "Justification": "The patient's medical conditions are not fully detailed, so it's unclear if there are uncontrolled conditions."},
+    {"Criterion": "Pregnancy or breast feeding.", "Classification": "Irrelevant", "Justification": "There is no mention of pregnancy or breastfeeding in the patient's history."},
+    {"Criterion": "Any contraindication to surgery.", "Classification": "Irrelevant", "Justification": "The patient's cancer is lung cancer, not rectal cancer, making this criterion irrelevant."},
+    {"Criterion": "Extensive peripheral neuropathy.", "Classification": "Irrelevant", "Justification": "There is no mention of peripheral neuropathy in the patient's history."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for rectal adenocarcinoma and has a history of malignancy within the last 5 years, which violates an exclusion criterion. The patient's age criterion is met, but the ECOG Performance Status is unclear. The patient's cancer is lung adenocarcinoma, making most criteria irrelevant.",
+  "Final Decision": "Ineligible"
+}
+```

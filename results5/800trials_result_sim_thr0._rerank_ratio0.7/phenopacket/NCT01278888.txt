@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Eligible for surgery for lung cancer.", "Classification": "Unclear", "Justification": "The patient's description does not mention lung cancer or any related surgery, so it's unclear if this criterion is met."},
+    {"Criterion": "Elective surgery (surgery planned > 2 days).", "Classification": "Unclear", "Justification": "There is no information about any planned surgery, elective or otherwise, in the patient's description."},
+    {"Criterion": "Accepts randomization.", "Classification": "Met", "Justification": "The patient has provided written informed consent, which implies acceptance of randomization."},
+    {"Criterion": "Age 18 or above.", "Classification": "Met", "Justification": "The patient is 58 years old, which satisfies the age criterion."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Previous thoracic surgery.", "Classification": "Violated", "Justification": "The patient has a history of bypass surgery, which is a type of thoracic surgery."},
+    {"Criterion": "Planned segment resection or pneumonectomy.", "Classification": "Irrelevant", "Justification": "There is no mention of any planned segment resection or pneumonectomy in the patient's description."},
+    {"Criterion": "Any type of chronic pain, requiring daily use of analgetics.", "Classification": "Not Violated", "Justification": "There is no information provided about chronic pain or the use of analgetics in the patient's description."},
+    {"Criterion": "Pregnant.", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Breastfeeding.", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "T3, T4 tumors or cerebral tumors.", "Classification": "Irrelevant", "Justification": "There is no mention of T3, T4 tumors or cerebral tumors in the patient's description."},
+    {"Criterion": "Contraindications to NSAID.", "Classification": "Unclear", "Justification": "There is no information provided about contraindications to NSAIDs in the patient's description."},
+    {"Criterion": "Chemo- and/or radiotherapy in connection to present admission.", "Classification": "Not Violated", "Justification": "There is no mention of chemo- or radiotherapy in the patient's description."},
+    {"Criterion": "Major surgery planned in connection to this admission.", "Classification": "Unclear", "Justification": "There is no information about any major surgery planned in connection to the patient's current admission."}
+  ],
+  "Recap": "The patient meets the age criterion and has accepted randomization. However, the patient has a history of thoracic surgery, which violates an exclusion criterion. The eligibility for lung cancer surgery and elective surgery is unclear due to lack of information.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,24 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "18 years < age < 80 years", "Classification": "Met", "Justification": "The patient is 47 years old, which falls within the specified age range of 18 to 80 years."},
+    {"Criterion": "Tumor located in rectosigmoid (defined as 10- to 30-cm from the anal verge)", "Classification": "Not Met", "Justification": "The patient has metastatic breast cancer, not rectosigmoid carcinoma, so this criterion is not applicable."},
+    {"Criterion": "Pathological rectosigmoid carcinoma", "Classification": "Not Met", "Justification": "The patient has breast cancer, not rectosigmoid carcinoma, so this criterion is not applicable."},
+    {"Criterion": "Preoperative T stage ranging from T1 to T4a according to the 7th Edition of AJCC Cancer Staging Manual", "Classification": "Not Met", "Justification": "The patient's breast cancer is classified as T3, which is outside the specified range of T1 to T4a for rectosigmoid carcinoma."},
+    {"Criterion": "Tumor size of 5 cm or less", "Classification": "Not Met", "Justification": "The patient's breast cancer is classified as T3, indicating a tumor size greater than 5 cm, and this criterion is not applicable to breast cancer."},
+    {"Criterion": "ECOG score is 0-1", "Classification": "Unclear", "Justification": "The patient's ECOG score is not provided in the data."},
+    {"Criterion": "ASA score is I-III", "Classification": "Unclear", "Justification": "The patient's ASA score is not provided in the data."},
+    {"Criterion": "Informed consent", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Body mass index (BMI) >30 kg/m2", "Classification": "Unclear", "Justification": "The patient's BMI is not provided in the data."},
+    {"Criterion": "Pregnant woman or lactating woman", "Classification": "Unclear", "Justification": "The patient's pregnancy or lactation status is not provided in the data."},
+    {"Criterion": "Severe mental disease", "Classification": "Unclear", "Justification": "The patient's mental health status is not provided in the data."},
+    {"Criterion": "Previous abdominal surgery", "Classification": "Unclear", "Justification": "The patient's history of abdominal surgery is not provided in the data."},
+    {"Criterion": "Emergency operation due to complication (bleeding, perforation or obstruction) caused by colorectal cancer", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not colorectal cancer, so this criterion is not applicable."},
+    {"Criterion": "Requirement of simultaneous surgery for other disease", "Classification": "Unclear", "Justification": "The patient's need for simultaneous surgery for other diseases is not provided in the data."}
+  ],
+  "Recap": "The patient meets the age and informed consent criteria but does not meet the tumor location, pathological type, or T stage criteria for rectosigmoid carcinoma. Several exclusion criteria remain unclear due to missing data.",
+  "Final Decision": "Ineligible"
+}
+```

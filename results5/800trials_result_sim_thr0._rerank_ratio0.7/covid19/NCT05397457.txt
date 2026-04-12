@@ -1,0 +1,26 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age: 20 to 75 years", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Informed Consent as documented by signature", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."},
+    {"Criterion": "Able to read and converse in Chinese", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ability to read and converse in Chinese."},
+    {"Criterion": "Female", "Classification": "Not Met", "Justification": "The patient is identified as male."},
+    {"Criterion": "Diagnosis of breast cancer", "Classification": "Not Met", "Justification": "The patient is diagnosed with COVID-19, not breast cancer."},
+    {"Criterion": "They completed chemotherapy no more than 2 weeks", "Classification": "Unclear", "Justification": "There is no information about the patient's chemotherapy history."},
+    {"Criterion": "Treatment with neoadjuvant (preoperative) or adjuvant (postoperative) chemotherapy: anthracycline and taxane containing (paclitaxel or docetaxel) chemotherapy regimen", "Classification": "Unclear", "Justification": "There is no information about the patient's chemotherapy regimen."},
+    {"Criterion": "Life expectancy was at least 6 months", "Classification": "Unclear", "Justification": "There is no information provided about the patient's life expectancy."},
+    {"Criterion": "Diagnosed with CIA grade 2 according to Common Terminology Criteria for Adverse Events (CTCAE)", "Classification": "Unclear", "Justification": "There is no information about the patient's CIA grade according to CTCAE."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "scalp tumor or melanoma", "Classification": "Not Violated", "Justification": "There is no mention of a scalp tumor or melanoma in the patient's data."},
+    {"Criterion": "having any serious mental illness or history, or taking psychotropic drugs", "Classification": "Not Violated", "Justification": "There is no information about any serious mental illness or history, or the use of psychotropic drugs."},
+    {"Criterion": "a medical history of dermatosis", "Classification": "Not Violated", "Justification": "There is no mention of dermatosis in the patient's medical history."},
+    {"Criterion": "severe liver and kidney damage", "Classification": "Violated", "Justification": "The patient has Stage 3 chronic kidney disease, which indicates severe kidney damage."},
+    {"Criterion": "Pregnancy", "Classification": "Irrelevant", "Justification": "The patient is male, so pregnancy is not applicable."},
+    {"Criterion": "Take any of the following medications for 6 months prior to initiation of the study: topical minoxidil, and spironolactone, and topical calcitriol", "Classification": "Not Violated", "Justification": "There is no information about the patient taking these medications for 6 months prior to the study."},
+    {"Criterion": "Receiving scalp cooling during chemotherapy", "Classification": "Not Violated", "Justification": "There is no information about the patient receiving scalp cooling during chemotherapy."}
+  ],
+  "Recap": "The patient is male, which disqualifies him based on the gender criterion. He has Stage 3 chronic kidney disease, which violates the exclusion criterion for severe kidney damage. There is insufficient information to assess other inclusion and exclusion criteria.",
+  "Final Decision": "Ineligible"
+}
+```

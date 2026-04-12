@@ -1,0 +1,17 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "At least 18 years", "Classification": "Met", "Justification": "The patient is 47 years old, which satisfies the age requirement."},
+    {"Criterion": "Neoplasia bronchopulmonary (SCLC and NSCLC) newly diagnosed", "Classification": "Not Met", "Justification": "The patient has metastatic hormone receptor-positive, HER2-negative breast cancer, not a newly diagnosed bronchopulmonary neoplasia."},
+    {"Criterion": "Patient potentially eligible for curative treatment, but no treatment started", "Classification": "Not Met", "Justification": "The patient is currently receiving fulvestrant and palbociclib, indicating ongoing treatment."},
+    {"Criterion": "Patients for whom a PET scan and MRI are planned", "Classification": "Unclear", "Justification": "An MRI was performed, but there is no information about a planned PET scan."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "claustrophobia", "Classification": "Irrelevant", "Justification": "There is no mention of claustrophobia in the patient's profile."},
+    {"Criterion": "Implantable Medical Device - not compatible pacemaker type or heart valve, metal splinters eye", "Classification": "Irrelevant", "Justification": "There is no mention of any implantable medical devices in the patient's profile."},
+    {"Criterion": "Pregnant or lactating women", "Classification": "Irrelevant", "Justification": "The patient's pregnancy or lactation status is not mentioned, but given her age and cancer treatment, it is unlikely to be relevant."}
+  ],
+  "Recap": "The patient meets the age criterion but does not meet the criteria for a newly diagnosed bronchopulmonary neoplasia or eligibility for curative treatment without prior treatment. The status of a planned PET scan is unclear. No exclusion criteria are relevant based on the provided information.",
+  "Final Decision": "Ineligible"
+}
+```

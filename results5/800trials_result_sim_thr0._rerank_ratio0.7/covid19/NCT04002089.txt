@@ -1,0 +1,27 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Healthy adult male or female volunteers ages 18 or older", "Classification": "Met", "Justification": "The patient is a male, and there is no information suggesting he is under 18."},
+    {"Criterion": "American Society of Anesthesiologists (ASA) physical status 1, 2, or 3", "Classification": "Unclear", "Justification": "The patient's ASA status is not provided in the data."},
+    {"Criterion": "Able to provide informed consent, adhere to the study schedule, and complete all study assessments", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."},
+    {"Criterion": "Body Mass Index ≥18 and ≤40 kg/m2", "Classification": "Unclear", "Justification": "BMI is not provided in the patient data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Allergy, hypersensitivity, intolerance, or contraindication to any of the study medications for which an alternative is not named in the protocol", "Classification": "Not Violated", "Justification": "No information about allergies or contraindications to study medications is provided."},
+    {"Criterion": "Documented history of long-term diabetes or severe peripheral vascular disease", "Classification": "Violated", "Justification": "The patient has a diagnosed condition of diabetes mellitus."},
+    {"Criterion": "Renal (serum creatinine level >2mg/dL [176.8 μmol/L]) or hepatic dysfunction (serum alanine or aspartame transferase > 3 times the upper limit of normal)", "Classification": "Unclear", "Justification": "The patient has Stage 3 chronic kidney disease, but specific serum creatinine levels are not provided."},
+    {"Criterion": "Concurrent painful physical condition that may require analgesic treatment in the post dosing period for pain and which, in the investigator's opinion may confound the post dosing assessments", "Classification": "Unclear", "Justification": "The patient has multiple symptoms, but it is unclear if they require analgesic treatment that would confound assessments."},
+    {"Criterion": "History of, suspected, or known addiction to or abuse of illicit drug(s), prescription medicine(s), or alcohol within the past 2 years", "Classification": "Not Violated", "Justification": "No information about addiction or abuse is provided."},
+    {"Criterion": "Administration of an investigational drug within 30 days or 5 elimination half-lives of such investigational drug, whichever is longer, prior to study drug administration, or planned administration of another investigational product or procedure during the subject's participation in this study", "Classification": "Not Violated", "Justification": "No information about recent investigational drug administration is provided."},
+    {"Criterion": "Previous participation in an EXPAREL study", "Classification": "Not Violated", "Justification": "No information about previous participation in an EXPAREL study is provided."},
+    {"Criterion": "Uncontrolled anxiety, schizophrenia, or other psychiatric disorder that, in the opinion of the investigator, could interfere with study assessments or compliance", "Classification": "Not Violated", "Justification": "No information about psychiatric disorders is provided."},
+    {"Criterion": "Currently pregnant, nursing, or planning to become pregnant during the study", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Clinically significant medical disease that, in the opinion of the investigator, would make participation in a clinical study inappropriate. This includes any psychiatric or other conditions that would constitute a contraindication to participation in the study", "Classification": "Unclear", "Justification": "The patient has several medical conditions, but it is unclear if they are deemed clinically significant by the investigator."},
+    {"Criterion": "Currently on neuroleptic agent [e.g., gabapentin, pregabalin (Lyrica), duloxetine (Cymbalta) etc.]", "Classification": "Not Violated", "Justification": "No information about the use of neuroleptic agents is provided."},
+    {"Criterion": "Inadequate sensory function on the foot (monofilament test)", "Classification": "Unclear", "Justification": "No information about sensory function on the foot is provided."},
+    {"Criterion": "Chronic opioid use in the last 30 days (≥30 morphine equivalents/ day)", "Classification": "Not Violated", "Justification": "No information about opioid use is provided."}
+  ],
+  "Recap": "The patient meets the age and consent criteria but has a documented history of diabetes, which violates an exclusion criterion. The patient's ASA status and BMI are unclear, and there is insufficient information to assess renal function and other exclusion criteria.",
+  "Final Decision": "Ineligible"
+}
+```

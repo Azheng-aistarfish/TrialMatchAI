@@ -1,0 +1,31 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Adult patients with a locally advanced or metastatic solid tumor that has progressed or was non-responsive to prior therapy", "Classification": "Unclear", "Justification": "The patient's profile does not mention any solid tumor or its progression status."},
+    {"Criterion": "For the dose expansion phase: Patients with hepatocellular carcinoma: no more than 2 prior systemic regimens for metastatic disease. Patients with breast cancer: no more than 2 prior cytotoxic regimens for metastatic disease (single-agent hormone therapy or hormone-based doublets do not count).", "Classification": "Irrelevant", "Justification": "The patient's profile does not indicate a diagnosis of hepatocellular carcinoma or breast cancer."},
+    {"Criterion": "Measurable disease as determined by response evaluation criteria in solid tumors (RECIST) v1.1.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's disease being measurable by RECIST criteria."},
+    {"Criterion": "At least 18 years of age.", "Classification": "Unclear", "Justification": "The patient's age is not specified in the provided data."},
+    {"Criterion": "Eastern Cooperative Oncology Group (ECOG) performance status score of 0 - 1.", "Classification": "Unclear", "Justification": "The patient's ECOG performance status score is not provided."},
+    {"Criterion": "For patients with HCC: Child-Pugh Class A", "Classification": "Irrelevant", "Justification": "The patient does not have hepatocellular carcinoma, making this criterion irrelevant."},
+    {"Criterion": "Available archived tumor tissue sample or a lesion that can be safely biopsied if the archived sample is not available.", "Classification": "Irrelevant", "Justification": "The patient does not have a solid tumor, so this criterion does not apply."},
+    {"Criterion": "Adequate renal, liver and bone marrow function.", "Classification": "Unclear", "Justification": "The patient has Stage 3 chronic kidney disease, but there is no information on liver or bone marrow function."},
+    {"Criterion": "Ability to swallow VGCV tablets.", "Classification": "Unclear", "Justification": "There is no information on the patient's ability to swallow tablets."},
+    {"Criterion": "Willingness of men and women of child-bearing potential (WCBP) to observe conventional and highly effective birth control for the duration of treatment and for 12 months following the last dose of study treatment. Patients who are pregnant or lactating are excluded.", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Investigational agent or anticancer therapy within 28 days or 5 elimination half-lives prior to Cycle 1 Day 1.", "Classification": "Unclear", "Justification": "There is no information on recent investigational agent or anticancer therapy use."},
+    {"Criterion": "Prior receipt of talimogene laherparepvec (TVEC) or any other oncolytic virus; prior receipt of a live vaccine within 28 days prior to Cycle 1 Day 1.", "Classification": "Unclear", "Justification": "There is no information on prior receipt of TVEC, other oncolytic viruses, or live vaccines."},
+    {"Criterion": "Any unresolved toxicities from prior therapy greater than CTCAE Grade 1 at the time of enrollment (alopecia and other nonacute toxicities are not exclusionary)", "Classification": "Unclear", "Justification": "There is no information on unresolved toxicities from prior therapy."},
+    {"Criterion": "Washout from prior major surgery and radiotherapy (less than 28 days)", "Classification": "Unclear", "Justification": "There is no information on recent major surgery or radiotherapy."},
+    {"Criterion": "Symptomatic primary central nervous system (CNS) tumor or metastases; symptomatic leptomeningeal carcinomatosis; untreated spinal cord compression.", "Classification": "Not Violated", "Justification": "The patient does not have a CNS tumor or related symptoms."},
+    {"Criterion": "Active uncontrolled systemic bacterial, viral, or fungal infection, which in the opinion of the Investigator makes it undesirable for the patient to participate in the trial", "Classification": "Violated", "Justification": "The patient is diagnosed with COVID-19, which is an active viral infection."},
+    {"Criterion": "Clinically significant active malabsorption syndrome or other conditions such as refractory nausea and vomiting, external biliary shunt, or significant bowel resection likely to affect gastrointestinal absorption of valganciclovir", "Classification": "Not Violated", "Justification": "There is no information on malabsorption syndrome or related conditions."},
+    {"Criterion": "Known contraindications to the ganciclovir class", "Classification": "Not Violated", "Justification": "There is no information on contraindications to ganciclovir."},
+    {"Criterion": "For patients with hepatocellular carcinoma, patients with active hepatitis B are excluded; patients with evidence of prior exposure who have a negative hepatitis surface antigen (HbsAg) and who do not require antiviral therapy are allowed. Patients with hepatitis C are allowed but may not be on antiviral therapy during study participation and for two weeks prior to Cycle 1 Day 1.", "Classification": "Irrelevant", "Justification": "The patient does not have hepatocellular carcinoma, making this criterion irrelevant."},
+    {"Criterion": "Known HIV positivity", "Classification": "Not Violated", "Justification": "There is no information on HIV positivity."},
+    {"Criterion": "Current treatment with systemic steroids at or above 10 mg/day of prednisone (or its equivalent). Inhalational and topical steroids are acceptable", "Classification": "Not Violated", "Justification": "There is no information on current systemic steroid treatment."}
+  ],
+  "Recap": "The patient is ineligible for the clinical trial due to an active viral infection (COVID-19). Other criteria are either unclear or irrelevant based on the provided data.",
+  "Final Decision": "Ineligible"
+}
+```

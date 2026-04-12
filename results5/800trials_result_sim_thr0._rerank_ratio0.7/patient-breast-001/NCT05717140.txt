@@ -1,0 +1,43 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age >= 18 years", "Classification": "Met", "Justification": "The patient is 47 years old, which satisfies the age requirement."},
+    {"Criterion": "Measurable disease by RECIST v1.1", "Classification": "Unclear", "Justification": "There is no specific mention of RECIST v1.1 criteria being met in the patient's data."},
+    {"Criterion": "Confirmed diagnosis of unresectable stage IV metastatic melanoma involving the lungs", "Classification": "Not Met", "Justification": "The patient has metastatic breast cancer, not melanoma, and there is no mention of lung involvement."},
+    {"Criterion": "Hemoglobin >= 8.0 g/dL", "Classification": "Unclear", "Justification": "The patient's hemoglobin level is not provided in the data."},
+    {"Criterion": "Absolute neutrophil count (ANC) >= 1500/mm^3", "Classification": "Unclear", "Justification": "The patient's ANC is not provided in the data."},
+    {"Criterion": "Platelet count >= 75,000/mm^3", "Classification": "Unclear", "Justification": "The patient's platelet count is not provided in the data."},
+    {"Criterion": "Total bilirubin =< 1.5 x ULN", "Classification": "Unclear", "Justification": "The patient's total bilirubin level is not provided in the data."},
+    {"Criterion": "ALT and AST =< 3.0 x ULN", "Classification": "Unclear", "Justification": "The patient's ALT and AST levels are not provided in the data."},
+    {"Criterion": "Serum creatinine =< 2.0 x ULN", "Classification": "Unclear", "Justification": "The patient's serum creatinine level is not provided in the data."},
+    {"Criterion": "Calculated creatinine clearance >= 40 ml/min", "Classification": "Unclear", "Justification": "The patient's creatinine clearance is not provided in the data."},
+    {"Criterion": "Pulse oximetry at rest > 90% without use of supplemental oxygen", "Classification": "Unclear", "Justification": "The patient's pulse oximetry level is not provided in the data."},
+    {"Criterion": "ECOG performance status (PS) 0 or 1", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided in the data."},
+    {"Criterion": "Negative pregnancy test done =< 7 days prior to registration", "Classification": "Irrelevant", "Justification": "The patient is female, but there is no mention of pregnancy or childbearing potential in the data."},
+    {"Criterion": "Persons able to become pregnant must use adequate contraception", "Classification": "Irrelevant", "Justification": "There is no mention of pregnancy or childbearing potential in the data."},
+    {"Criterion": "Provide written informed consent", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient."},
+    {"Criterion": "Willingness to provide mandatory blood specimens for correlative research", "Classification": "Unclear", "Justification": "The patient's willingness to provide blood specimens is not mentioned in the data."},
+    {"Criterion": "Willing to return to enrolling institution for follow-up", "Classification": "Unclear", "Justification": "The patient's willingness to return for follow-up is not mentioned in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Active pulmonary disease requiring ongoing medication", "Classification": "Not Violated", "Justification": "There is no mention of active pulmonary disease in the patient's data."},
+    {"Criterion": "Metastatic uveal melanoma", "Classification": "Not Violated", "Justification": "The patient has metastatic breast cancer, not uveal melanoma."},
+    {"Criterion": "Pregnant persons", "Classification": "Irrelevant", "Justification": "There is no mention of pregnancy in the patient's data."},
+    {"Criterion": "Nursing persons", "Classification": "Irrelevant", "Justification": "There is no mention of nursing in the patient's data."},
+    {"Criterion": "Persons of childbearing potential who are unwilling to employ adequate contraception", "Classification": "Irrelevant", "Justification": "There is no mention of pregnancy or childbearing potential in the data."},
+    {"Criterion": "Persons expecting to conceive or father children during the study or within 180 days after the last treatment", "Classification": "Irrelevant", "Justification": "There is no mention of pregnancy or childbearing potential in the data."},
+    {"Criterion": "Active CNS metastases not previously treated", "Classification": "Not Violated", "Justification": "There is no mention of CNS metastases in the patient's data."},
+    {"Criterion": "Prior allogeneic hematopoietic stem cell transplantation (HSCT) or solid organ transplantation", "Classification": "Not Violated", "Justification": "There is no mention of prior HSCT or solid organ transplantation in the patient's data."},
+    {"Criterion": "Co-morbid systemic illnesses or other severe concurrent disease", "Classification": "Unclear", "Justification": "There is no mention of co-morbid systemic illnesses in the patient's data."},
+    {"Criterion": "Immunocompromised patients and patients known to be HIV positive and currently receiving antiretroviral therapy", "Classification": "Not Violated", "Justification": "There is no mention of HIV or immunocompromised status in the patient's data."},
+    {"Criterion": "Active autoimmune disease requiring current systemic treatment with immunosuppressive or immune modulatory agents", "Classification": "Not Violated", "Justification": "There is no mention of active autoimmune disease in the patient's data."},
+    {"Criterion": "Known uncontrolled intercurrent illness", "Classification": "Unclear", "Justification": "There is no mention of uncontrolled intercurrent illness in the patient's data."},
+    {"Criterion": "Receiving any other investigational agent which would be considered as a treatment for the primary neoplasm", "Classification": "Not Violated", "Justification": "The patient is receiving fulvestrant and palbociclib, which are not investigational agents for melanoma."},
+    {"Criterion": "History of severe hypersensitivity reactions to sargramostim or monoclonal antibodies", "Classification": "Not Violated", "Justification": "There is no mention of hypersensitivity reactions in the patient's data."},
+    {"Criterion": "Prior history of grade 4 immune related adverse event (irAE) with prior immune checkpoint inhibitor (ICI) therapy", "Classification": "Not Violated", "Justification": "There is no mention of prior ICI therapy or irAEs in the patient's data."},
+    {"Criterion": "Failure to recover from adverse events related to any of the following therapies prior to registration", "Classification": "Not Violated", "Justification": "There is no mention of failure to recover from adverse events in the patient's data."}
+  ],
+  "Recap": "The patient meets the age and informed consent criteria but does not meet the disease type and stage criteria. Many other criteria are unclear due to missing data.",
+  "Final Decision": "Ineligible"
+}
+```

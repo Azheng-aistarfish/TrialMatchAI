@@ -1,0 +1,30 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Man or woman older than 18 years",
+      "Classification": "Unclear",
+      "Justification": "The patient's age is not provided in the data."
+    },
+    {
+      "Criterion": "Down syndrome (clinical diagnosis, eventually confirmed by blood karyotype)",
+      "Classification": "Not Met",
+      "Justification": "There is no mention of Down syndrome in the patient's diagnosis."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "children",
+      "Classification": "Irrelevant",
+      "Justification": "The patient is described as a male, implying adulthood, thus this criterion does not apply."
+    },
+    {
+      "Criterion": "pregnancy",
+      "Classification": "Irrelevant",
+      "Justification": "The patient is male, so pregnancy is not applicable."
+    }
+  ],
+  "Recap": "The patient's age is unclear, and there is no indication of Down syndrome. The exclusion criteria for children and pregnancy are irrelevant due to the patient's gender.",
+  "Final Decision": "Ineligible"
+}
+```

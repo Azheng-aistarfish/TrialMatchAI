@@ -1,0 +1,26 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Written informed consent.", "Classification": "Met", "Justification": "The patient has provided written informed consent, as explicitly stated in the patient description."},
+    {"Criterion": "Patients of either gender, aged ≥ 18 years.", "Classification": "Met", "Justification": "The patient is a 53-year-old female, which satisfies the age and gender criteria."},
+    {"Criterion": "Histologically confirmed diagnosis of Metastatic, well-differentiated neuroendocrine tumor.", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, specifically adenocarcinoma, not a neuroendocrine tumor."},
+    {"Criterion": "A diagnostic computed tomography (CT) or magnetic resonance imaging (MRI) of the tumor region within the previous 6 months prior to dosing day is available.", "Classification": "Unclear", "Justification": "The patient description mentions a CT scan of the chest but does not specify if it was within the last 6 months."},
+    {"Criterion": "At least 1 measurable lesion based on RECIST v1.1.", "Classification": "Unclear", "Justification": "There is no information provided about measurable lesions based on RECIST v1.1."},
+    {"Criterion": "Blood test results as follows (White blood cell: ≥ 3*10^9/L, Hemoglobin: ≥ 8.0 g/dL, Platelets: ≥ 50x10^9/L, Alanine aminotransferase / Aspartate aminotransferase / Alkaline phosphatase: ≤ 5 times upper limit of normal (ULN), Bilirubin: ≤ 3 times ULN).", "Classification": "Unclear", "Justification": "The patient description mentions mild elevations in hepatic transaminase levels but does not provide specific values for all required blood tests."},
+    {"Criterion": "Serum creatinine: within normal limits or < 120 μmol/L for patients aged 60 years or older.", "Classification": "Irrelevant", "Justification": "The patient is 53 years old, so the specific criterion for patients aged 60 or older does not apply."},
+    {"Criterion": "Calculated Glomerular filtration rate (GFR) ≥ 45 mL/min.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's GFR in the description."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Known hypersensitivity to Gallium-68, to NODAGA, to DOTA, to LM3, to TATE or to any of the excipients of Gallium-68 DOTA-LM3, Gallium-68 NODAGA-LM3 or Gallium-68 DOTATATE.", "Classification": "Not Violated", "Justification": "There is no information provided about any known hypersensitivity to these substances."},
+    {"Criterion": "Presence of active infection at screening or history of serious infection within the previous 6 weeks.", "Classification": "Not Violated", "Justification": "There is no mention of any active infection or recent serious infection in the patient description."},
+    {"Criterion": "Therapeutic use of any somatostatin analog, including long-acting Sandostatin (within 28 days) and short-acting Sandostatin (within 2 days) prior to study imaging.", "Classification": "Not Violated", "Justification": "The patient is currently undergoing treatment with osimertinib, not a somatostatin analog."},
+    {"Criterion": "Any neuroendocrine tumor-specific treatment between antagonist and agonist scans.", "Classification": "Irrelevant", "Justification": "The patient does not have a neuroendocrine tumor, so this criterion does not apply."},
+    {"Criterion": "Prior or planned administration of a radiopharmaceutical within 8 half-lives of the radionuclide used on such radiopharmaceutical including at any time during the current study.", "Classification": "Not Violated", "Justification": "There is no information provided about the administration of any radiopharmaceuticals."},
+    {"Criterion": "Pregnant or breast-feeding women.", "Classification": "Not Violated", "Justification": "There is no information provided about the patient being pregnant or breast-feeding."},
+    {"Criterion": "Current history of any malignancy other than neuroendocrine tumor; patients with a secondary tumor in remission of > 5 years can be included.", "Classification": "Violated", "Justification": "The patient has metastatic non-small cell lung cancer, which is a malignancy other than a neuroendocrine tumor."},
+    {"Criterion": "Any mental condition rendering the patient unable to understand the nature, scope and possible consequences of the study, and/or evidence of an uncooperative attitude.", "Classification": "Not Violated", "Justification": "There is no information provided about any mental condition or uncooperative attitude in the patient description."}
+  ],
+  "Recap": "The patient meets the age and consent criteria but does not have a neuroendocrine tumor, which is a key inclusion criterion. Additionally, the patient has a malignancy other than a neuroendocrine tumor, violating an exclusion criterion.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,48 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Unfit patient without indication to the STUPP protocol : Cohort 1 : Non-operable patients and ≥ 18 years old or ≤ 70 years old and Karnofsky Index (KI) ≥ 50% on inclusion AND Result of a biopsy available",
+            "Classification": "Irrelevant",
+            "Justification": "The patient has metastatic breast cancer, not glioblastoma, making this criterion irrelevant to her condition."
+        },
+        {
+            "Criterion": "Unfit patient without indication to the STUPP protocol : Cohort 2 : Patients > 70 years old and Balducci score I or II and KI ≥ 60% on inclusion AND Partial resection (defined on the remnographic criteria of postoperative MRI) OR biopsy result available",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is 47 years old, not over 70, and has breast cancer, not glioblastoma, making this criterion irrelevant."
+        },
+        {
+            "Criterion": "Histologically proven glioblastoma",
+            "Classification": "Not Met",
+            "Justification": "The patient has metastatic breast cancer, not glioblastoma, as confirmed by biopsy results."
+        },
+        {
+            "Criterion": "Increased metabolism of amino acids in PET FDOPA allowing contouring the Biological Target Volume (BTV)",
+            "Classification": "Irrelevant",
+            "Justification": "This criterion is specific to glioblastoma and PET FDOPA imaging, which is not applicable to the patient's breast cancer diagnosis."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Patients with an indication for irradiation according to the STUPP protocol (fit patient)",
+            "Classification": "Irrelevant",
+            "Justification": "The STUPP protocol is specific to glioblastoma, not breast cancer, making this criterion irrelevant."
+        },
+        {
+            "Criterion": "Patient with a contraindication to MRI or PET",
+            "Classification": "Not Violated",
+            "Justification": "There is no information suggesting a contraindication to MRI or PET for the patient."
+        },
+        {
+            "Criterion": "Limit of the provisional target volume or Planning target volume (PTV), second PTV < 2 cm from the chiasm and the optic nerves",
+            "Classification": "Irrelevant",
+            "Justification": "This criterion is specific to glioblastoma treatment, not applicable to breast cancer."
+        },
+        {
+            "Criterion": "Absence of uptake of FDopa",
+            "Classification": "Irrelevant",
+            "Justification": "This criterion is specific to glioblastoma and PET FDOPA imaging, which is not applicable to the patient's breast cancer diagnosis."
+        }
+    ],
+    "Recap": "The patient has metastatic breast cancer, not glioblastoma, making all glioblastoma-specific inclusion and exclusion criteria irrelevant. The patient does not meet the histologically proven glioblastoma criterion.",
+    "Final Decision": "Ineligible"
+}

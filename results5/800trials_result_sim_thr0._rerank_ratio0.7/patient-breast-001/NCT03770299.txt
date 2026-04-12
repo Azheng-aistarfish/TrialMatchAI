@@ -1,0 +1,22 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Suspected or histologically confirmed Stage IIA to IIIB NSCLC with disease that is considered resectable", "Classification": "Not Met", "Justification": "The patient has metastatic breast cancer, not NSCLC, and is not in the specified stage range."},
+    {"Criterion": "Must be deemed eligible for complete resection and must agree to undergo standard of care surgery for complete resection of NSCLC", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not NSCLC, making this criterion irrelevant."},
+    {"Criterion": "Treatment naive (no previous systemic treatment)", "Classification": "Not Met", "Justification": "The patient has been previously treated with endocrine therapy for breast cancer, indicating prior systemic treatment."},
+    {"Criterion": "Must have undergone complete surgical resection of their Stage IIA to IIIB NSCLC", "Classification": "Not Met", "Justification": "The patient has metastatic breast cancer, not NSCLC, and has not undergone surgery for NSCLC."},
+    {"Criterion": "Must have adequately recovered from surgery at the time of randomization", "Classification": "Irrelevant", "Justification": "The patient has not undergone surgery for NSCLC, making this criterion irrelevant."},
+    {"Criterion": "Minimal residual disease (MRD) positive results as detected by ctDNA", "Classification": "Irrelevant", "Justification": "The patient has metastatic breast cancer, not NSCLC, making this criterion irrelevant."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Participants with known EGFR mutations which are sensitive to available targeted inhibitor therapy (Prior to treatment randomization in select sites)", "Classification": "Irrelevant", "Justification": "The patient has a PIK3CA mutation, not an EGFR mutation, making this criterion irrelevant."},
+    {"Criterion": "Active, known or suspected autoimmune disease", "Classification": "Not Violated", "Justification": "There is no mention of autoimmune disease in the patient's profile."},
+    {"Criterion": "Participants with a condition requiring systemic treatment with either corticosteroids (> 10 mg daily prednisone equivalent) or other immunosuppressive medications within 14 days of randomization", "Classification": "Not Violated", "Justification": "The patient is not on corticosteroids or immunosuppressive medications as per the provided data."},
+    {"Criterion": "Must continue to meet Exclusion Criteria prior to Surgery", "Classification": "Irrelevant", "Justification": "The patient has not undergone surgery for NSCLC, making this criterion irrelevant."},
+    {"Criterion": "Must have no evidence of metastatic disease after surgery", "Classification": "Irrelevant", "Justification": "The patient has not undergone surgery for NSCLC, making this criterion irrelevant."},
+    {"Criterion": "Received a live/attenuated vaccine within 30 days of first treatment", "Classification": "Unclear", "Justification": "There is no information provided about recent vaccinations in the patient's profile."}
+  ],
+  "Recap": "The patient has metastatic breast cancer, not NSCLC, and has undergone prior systemic treatment, disqualifying her from the trial based on the inclusion criteria. The exclusion criteria are mostly irrelevant due to the nature of her cancer.",
+  "Final Decision": "Ineligible"
+}
+```

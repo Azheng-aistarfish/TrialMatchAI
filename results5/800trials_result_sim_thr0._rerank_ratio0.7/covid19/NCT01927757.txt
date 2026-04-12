@@ -1,0 +1,22 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Able to provide informed consent", "Classification": "Met", "Justification": "The patient has obtained written informed consent, as explicitly stated in the patient description."},
+    {"Criterion": "Diagnosed with moderate to severe rheumatoid arthritis for at least 6 months", "Classification": "Unclear", "Justification": "There is no information provided about the patient's diagnosis of rheumatoid arthritis or its duration."},
+    {"Criterion": "Active RA with at least 3 swollen and tender joints", "Classification": "Unclear", "Justification": "The patient's description does not mention any swollen or tender joints, nor does it confirm a diagnosis of RA."},
+    {"Criterion": "Failure to respond to a combination treatment of adalimumab and methotrexate", "Classification": "Unclear", "Justification": "There is no information about the patient's treatment history with adalimumab and methotrexate, or their response to such treatment."},
+    {"Criterion": "Negative for hepatitis B and C", "Classification": "Unclear", "Justification": "The patient's description does not include any information regarding hepatitis B or C status."},
+    {"Criterion": "Negative serum and urine pregnancy tests before starting study", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."},
+    {"Criterion": "Currently taking (stable dose) 15 mg methotrexate weekly for at least 8 weeks/has been taking methotrexate for at least 12 weeks total", "Classification": "Unclear", "Justification": "There is no information provided about the patient's methotrexate usage or dosage."},
+    {"Criterion": "Lower dose of 10 mg per week is permitted with documented intolerability", "Classification": "Irrelevant", "Justification": "This criterion is contingent on methotrexate usage, which is unclear, making it irrelevant."},
+    {"Criterion": "Normal chest X-ray within 3 months", "Classification": "Unclear", "Justification": "The patient's description does not mention any recent chest X-ray results."},
+    {"Criterion": "Negative testing for tuberculosis (TB)", "Classification": "Unclear", "Justification": "There is no information provided about the patient's TB testing status."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Class IV RA (wheel-chair or bed-bound)", "Classification": "Irrelevant", "Justification": "There is no information about the patient's RA status or mobility, making this criterion irrelevant."},
+    {"Criterion": "Significant concurrent medical conditions, including: (uncontrolled type 1 diabetes, poorly controlled type 2 diabetes, symptomatic heart failure, myocardial infarction in past year, history of unstable angina within past year, uncontrolled hypertension, severe chronic pulmonary disease, major chronic inflammatory or connective tissue disease other than RA, Multiple sclerosis, active malignancy, or history of cancer, alcoholic hepatitis or history of alcoholic liver disease)", "Classification": "Violated", "Justification": "The patient has cardiomyopathy and is receiving oxygen therapy, which may indicate symptomatic heart failure, thus violating this exclusion criterion."}
+  ],
+  "Recap": "The patient meets the informed consent criterion but lacks information on RA diagnosis, treatment history, and other health conditions. The presence of cardiomyopathy and oxygen therapy suggests a violation of the exclusion criterion related to significant concurrent medical conditions.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,25 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "patient over the age of 18", "Classification": "Met", "Justification": "The patient is 53 years old, which is over 18."},
+    {"Criterion": "primary or recurrent HCC that is not suitable for surgery", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, not HCC."},
+    {"Criterion": "HCCs with a longest diameter of ≤3cm and ≤2 lesions", "Classification": "Not Met", "Justification": "The patient does not have HCC, so this criterion is not applicable."},
+    {"Criterion": "no evidence of intrahepatic or extrahepatic residual disease except for target lesions", "Classification": "Irrelevant", "Justification": "The patient has lung cancer, not HCC, making this criterion irrelevant."},
+    {"Criterion": "Child-Pugh class A or B hepatic function", "Classification": "Irrelevant", "Justification": "The patient's liver function is not specified, and the focus is on lung cancer, not HCC."},
+    {"Criterion": "no macroscopic vascular invasion or extrahepatic metastasis", "Classification": "Irrelevant", "Justification": "The patient's cancer type is lung cancer, not HCC, so this criterion is irrelevant."},
+    {"Criterion": "written informed consent", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Eastern Cooperative Oncology Group performance status score 3 or 4", "Classification": "Unclear", "Justification": "The patient's performance status score is not provided."},
+    {"Criterion": "uncontrolled ascites, variceal bleeding, or hepatic encephalopathy", "Classification": "Irrelevant", "Justification": "The patient has lung cancer, not liver-related conditions, making this criterion irrelevant."},
+    {"Criterion": "previous history of liver transplantation", "Classification": "Irrelevant", "Justification": "The patient has lung cancer, not liver-related conditions, making this criterion irrelevant."},
+    {"Criterion": "an active gastric or duodenal ulcer within 3 months before screening", "Classification": "Irrelevant", "Justification": "There is no mention of gastric or duodenal ulcers in the patient's history."},
+    {"Criterion": "pregnant woman", "Classification": "Irrelevant", "Justification": "The patient is a 53-year-old female, and pregnancy is not mentioned or relevant."},
+    {"Criterion": "uncontrolled other malignancies except for HCC within 2 years before screening", "Classification": "Not Violated", "Justification": "The patient has lung cancer, which is being treated, and there is no mention of other uncontrolled malignancies."},
+    {"Criterion": "platelet count <50,000/µl", "Classification": "Unclear", "Justification": "The patient's platelet count is not provided."},
+    {"Criterion": "Patients who are judged by the researcher to be difficult to conduct clinical research", "Classification": "Irrelevant", "Justification": "There is no indication that the patient is difficult to conduct research with."}
+  ],
+  "Recap": "The patient is 53 years old and has metastatic non-small cell lung cancer, not HCC. She meets the age and consent criteria but does not meet the HCC-specific criteria. Performance status and platelet count are unclear, but there are no indications of uncontrolled malignancies or other exclusion criteria.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,20 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age ≥ 18 years of age", "Classification": "Met", "Justification": "The patient is a male, and while the exact age is not provided, the context implies adulthood."},
+    {"Criterion": "The patient agrees and signs an informed consent form", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."},
+    {"Criterion": "One of the following 2 criteria: 1. Acute chest pain (last episode of pain beginning <6 hours after inclusion) or 2. Syncope, dyspnea or epigastric pain without an obvious cause at the initial assessment (last episode of one of these symptoms beginning <6 hours after inclusion) associated with at least one of the following factors: Age ≥ 65 years, history of arterial disease, history of diabetes mellitus.", "Classification": "Met", "Justification": "The patient has dyspnea, which is one of the symptoms listed, and has a history of diabetes mellitus, meeting the second criterion."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Cardiac arrest or hypoxemia or hemodynamic instability or cardioversion during the first hour of assessment", "Classification": "Not Violated", "Justification": "There is no mention of cardiac arrest, hypoxemia, hemodynamic instability, or cardioversion during the first hour of assessment."},
+    {"Criterion": "Thrombolytic therapy, primary angioplasty or other medical condition that requires hospitalization identified within one hour after the evaluation", "Classification": "Not Violated", "Justification": "There is no mention of thrombolytic therapy, primary angioplasty, or any medical condition requiring hospitalization within one hour after the evaluation."},
+    {"Criterion": "Dialysis patients", "Classification": "Not Violated", "Justification": "The patient has Stage 3 chronic kidney disease, which does not equate to being on dialysis."},
+    {"Criterion": "Patients with trauma", "Classification": "Not Violated", "Justification": "There is no mention of trauma in the patient's description."},
+    {"Criterion": "Myocardial revascularization or acute myocardial infarction in the last month", "Classification": "Not Violated", "Justification": "There is no mention of myocardial revascularization or acute myocardial infarction in the last month."},
+    {"Criterion": "Pregnant and breastfeeding women", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."},
+    {"Criterion": "Patient unable to be followed for 30 days", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ability to be followed for 30 days."}
+  ],
+  "Recap": "The patient meets all inclusion criteria, including age, consent, and symptom criteria. None of the exclusion criteria are violated based on the provided information, except for the ability to be followed for 30 days, which is unclear.",
+  "Final Decision": "Eligible"
+}
+```

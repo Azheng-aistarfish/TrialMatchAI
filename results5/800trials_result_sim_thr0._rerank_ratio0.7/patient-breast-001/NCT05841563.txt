@@ -1,0 +1,33 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Voluntarily signed and dated written informed consent, obtained prior to any specific study procedure.", "Classification": "Met", "Justification": "The patient's profile explicitly states that written informed consent has been obtained."},
+    {"Criterion": "Age ≥18 years.", "Classification": "Met", "Justification": "The patient is 47 years old, which satisfies the age requirement."},
+    {"Criterion": "Eastern Cooperative Oncology Group (ECOG) performance status (PS) ≤1.", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided in the data."},
+    {"Criterion": "Pathologically confirmed diagnosis of advanced solid tumors for whom no standard therapy exists: breast: ductal or lobular.", "Classification": "Met", "Justification": "The patient has metastatic hormone receptor-positive, HER2-negative breast cancer, which is an advanced solid tumor."},
+    {"Criterion": "No more than three prior lines of chemotherapy.", "Classification": "Met", "Justification": "The patient has been treated with endocrine therapy, not chemotherapy, and no prior chemotherapy is mentioned."},
+    {"Criterion": "Progressive disease after last therapy at study entry.", "Classification": "Met", "Justification": "The patient's CA 15-3 level was elevated, indicating progressive disease."},
+    {"Criterion": "Recovery to grade ≤1 from drug-related AEs of previous treatments, excluding grade 2 alopecia, according to the NCI-CTCAE v.5.", "Classification": "Unclear", "Justification": "There is no information on drug-related adverse events or their grades in the patient's profile."},
+    {"Criterion": "Laboratory values within seven days prior to first infusion: Absolute Neutrophil Count (ANC) ≥1.5 x 10^9/L, platelet count ≥100 x 10^9/L and hemoglobin ≥9 g/dL.", "Classification": "Unclear", "Justification": "The patient's laboratory values are not provided in the data."},
+    {"Criterion": "At least three weeks since the last chemotherapy.", "Classification": "Met", "Justification": "The patient has not received chemotherapy, so this criterion is met by default."},
+    {"Criterion": "At least four weeks since the last monoclonal antibody (MAb)-containing therapy.", "Classification": "Met", "Justification": "The patient is not on monoclonal antibody therapy, so this criterion is met by default."},
+    {"Criterion": "At least two weeks since the last biological/investigational single-agent therapy (excluding MAbs) and/or palliative radiotherapy (RT).", "Classification": "Met", "Justification": "The patient is not on biological/investigational single-agent therapy or palliative radiotherapy, so this criterion is met by default."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Increased cardiac risk: Uncontrolled arterial hypertension despite optimal management (≥160/100 mmHg).", "Classification": "Not Violated", "Justification": "There is no mention of uncontrolled hypertension in the patient's profile."},
+    {"Criterion": "Active infection requiring systemic treatment.", "Classification": "Not Violated", "Justification": "There is no mention of an active infection in the patient's profile."},
+    {"Criterion": "Known human immunodeficiency virus (HIV) or known hepatitis C virus (HCV) infection or active hepatitis B.", "Classification": "Not Violated", "Justification": "There is no mention of HIV, HCV, or active hepatitis B in the patient's profile."},
+    {"Criterion": "Any other major illness that, in the Investigator's judgment, will substantially increase the risk associated with the patient's participation in this study (e.g., COVID-19).", "Classification": "Not Violated", "Justification": "There is no mention of any other major illness in the patient's profile."},
+    {"Criterion": "Symptomatic, steroid-requiring, and progressing central nervous system (CNS) disease.", "Classification": "Not Violated", "Justification": "There is no mention of CNS disease in the patient's profile."},
+    {"Criterion": "Patients with carcinomatous meningitis.", "Classification": "Not Violated", "Justification": "There is no mention of carcinomatous meningitis in the patient's profile."},
+    {"Criterion": "Prior bone marrow or stem cell transplantation.", "Classification": "Not Violated", "Justification": "There is no mention of bone marrow or stem cell transplantation in the patient's profile."},
+    {"Criterion": "Prior treatment with trabectedin, lurbinectedin, or PM14.", "Classification": "Not Violated", "Justification": "There is no mention of prior treatment with these drugs in the patient's profile."},
+    {"Criterion": "Use of (strong or moderate) inhibitors or strong inducers of CYP3A4 activity within two weeks prior to the first infusion of PM54.", "Classification": "Unclear", "Justification": "There is no information on the use of CYP3A4 inhibitors or inducers in the patient's profile."},
+    {"Criterion": "Known hypersensitivity to any of the components of the drug product.", "Classification": "Not Violated", "Justification": "There is no mention of hypersensitivity in the patient's profile."},
+    {"Criterion": "Limitation of the patient's ability to comply with the treatment or to follow the protocol procedures.", "Classification": "Not Violated", "Justification": "There is no mention of any limitation in the patient's ability to comply with treatment or protocol procedures."},
+    {"Criterion": "Women who are pregnant or breast feeding and fertile patients (men and women) who are not using an effective method of contraception.", "Classification": "Not Violated", "Justification": "There is no mention of pregnancy or breastfeeding in the patient's profile, and it is assumed that effective contraception is being used as per protocol requirements."}
+  ],
+  "Recap": "The patient meets most of the inclusion criteria, including age, informed consent, and diagnosis of metastatic breast cancer. However, there is insufficient information on ECOG performance status, drug-related adverse events, and laboratory values. The patient does not violate any exclusion criteria based on the provided data.",
+  "Final Decision": "Likely Eligible (leaning toward inclusion)"
+}
+```

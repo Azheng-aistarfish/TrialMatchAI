@@ -1,0 +1,16 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "age: between 20-80 years old", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "first time stroke", "Classification": "Unclear", "Justification": "There is no information about the patient's history of stroke in the data."},
+    {"Criterion": "could sit without back support at least 20 seconds", "Classification": "Unclear", "Justification": "The patient's ability to sit without back support is not mentioned in the data."},
+    {"Criterion": "could understand and follow experimental instructions", "Classification": "Unclear", "Justification": "The patient's cognitive ability to understand and follow instructions is not detailed in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "medically unstable", "Classification": "Unclear", "Justification": "The patient's medical stability is not explicitly stated in the data."},
+    {"Criterion": "other neuromuscular/musculoskeletal problems that would affect balance", "Classification": "Violated", "Justification": "The presence of cerebellar vermis hypoplasia, which affects motor control and coordination, suggests potential balance issues."}
+  ],
+  "Recap": "The patient's age, stroke history, ability to sit without back support, and cognitive ability to follow instructions are unclear due to missing data. The patient has cerebellar vermis hypoplasia, which likely affects balance, violating an exclusion criterion.",
+  "Final Decision": "Ineligible"
+}
+```

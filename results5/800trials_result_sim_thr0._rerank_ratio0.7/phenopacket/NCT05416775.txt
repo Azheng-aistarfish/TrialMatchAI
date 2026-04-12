@@ -1,0 +1,35 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age 18~75 years old, both male and female", "Classification": "Met", "Justification": "The patient is 58 years old, which falls within the specified age range of 18 to 75 years."},
+    {"Criterion": "Stage 1: pathologically diagnosed, incurable NSCLC subjects who have failed standard treatment", "Classification": "Irrelevant", "Justification": "The patient's condition is related to cardiac issues, not NSCLC, making this criterion irrelevant."},
+    {"Criterion": "Stage 2: have a histologically or cytologically confirmed diagnosis of relapsed or metastatic NSCLC; have not received prior systemic treatment for their recurrent or metastatic NSCLC; PD-L1 TPS <50% as confirmed by central laboratory", "Classification": "Irrelevant", "Justification": "The patient's condition is related to cardiac issues, not NSCLC, making this criterion irrelevant."},
+    {"Criterion": "At least one measurable lesion based on RECIST v1.1 criteria", "Classification": "Irrelevant", "Justification": "The patient's condition is related to cardiac issues, not NSCLC, making this criterion irrelevant."},
+    {"Criterion": "ECOG PS score: 0-1 points", "Classification": "Unclear", "Justification": "The patient's ECOG PS score is not provided in the data."},
+    {"Criterion": "Expected survival period ≥ 3 months", "Classification": "Unclear", "Justification": "The patient's expected survival period is not provided in the data."},
+    {"Criterion": "Good levels of organ function", "Classification": "Unclear", "Justification": "The patient's organ function levels are not explicitly detailed in the data."},
+    {"Criterion": "Patients voluntarily joined the study and signed informed consent", "Classification": "Met", "Justification": "The patient has provided written informed consent, meeting this criterion."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients with EGFR activating mutation, positive ALK fusion gene or known ROS1 fusion gene", "Classification": "Irrelevant", "Justification": "The patient's condition is related to cardiac issues, not NSCLC, making this criterion irrelevant."},
+    {"Criterion": "Untreated brain metastases; or associated with meningeal metastases, spinal cord compression, etc.", "Classification": "Irrelevant", "Justification": "The patient's condition is related to cardiac issues, not NSCLC, making this criterion irrelevant."},
+    {"Criterion": "Uncontrolled pleural, pericardial, or ascites with clinical symptoms", "Classification": "Unclear", "Justification": "The patient's condition does not mention pleural, pericardial, or ascites issues, but the cardiac history is complex, so it's unclear if this applies."},
+    {"Criterion": "Severe bone damage caused by tumor bone metastasis", "Classification": "Irrelevant", "Justification": "The patient's condition is related to cardiac issues, not NSCLC, making this criterion irrelevant."},
+    {"Criterion": "Suffering from other malignant tumors in the past 3 years or at the same time", "Classification": "Irrelevant", "Justification": "The patient's condition is related to cardiac issues, not NSCLC, making this criterion irrelevant."},
+    {"Criterion": "Presence of any active or known autoimmune disease", "Classification": "Not Violated", "Justification": "There is no mention of autoimmune diseases in the patient's data."},
+    {"Criterion": "Systemic treatment with corticosteroids or other immunosuppressants within 2 weeks before the first dose", "Classification": "Not Violated", "Justification": "The patient's medication list does not include corticosteroids or immunosuppressants."},
+    {"Criterion": "Have clinical symptoms or diseases of the heart that are not well controlled", "Classification": "Violated", "Justification": "The patient has a complex cardiac history with multiple myocardial infarctions, stenting, bypass surgery, and impaired left ventricular function, indicating uncontrolled heart disease."},
+    {"Criterion": "Serious infection occurred within 1 month before the first dose", "Classification": "Not Violated", "Justification": "There is no mention of a recent serious infection in the patient's data."},
+    {"Criterion": "Past or current active interstitial lung disease requiring treatment, non-infectious pneumonia requiring glucocorticoid system treatment; current active pneumonia or pulmonary function test confirmed severe impairment of pulmonary function", "Classification": "Not Violated", "Justification": "The patient's data does not mention any lung disease or related treatments."},
+    {"Criterion": "With active pulmonary tuberculosis", "Classification": "Not Violated", "Justification": "There is no mention of pulmonary tuberculosis in the patient's data."},
+    {"Criterion": "Known positive history of human immunodeficiency virus test or acquired immunodeficiency syndrome, known active viral hepatitis", "Classification": "Not Violated", "Justification": "The patient's data does not mention HIV, AIDS, or active viral hepatitis."},
+    {"Criterion": "Known history of inflammatory bowel disease", "Classification": "Not Violated", "Justification": "There is no mention of inflammatory bowel disease in the patient's data."},
+    {"Criterion": "Inoculated with live attenuated vaccine within 28 days before the first dose", "Classification": "Unclear", "Justification": "The patient's vaccination history is not provided in the data."},
+    {"Criterion": "Known allergic reaction to other monoclonal antibodies", "Classification": "Not Violated", "Justification": "There is no mention of allergic reactions to monoclonal antibodies in the patient's data."},
+    {"Criterion": "Received >30 Gy of pulmonary radiotherapy within 6 months before the first dose; received major surgical treatment, systemic chemotherapy, immunotherapy or other clinical trial drugs within 4 weeks before the first dose; within 2 weeks before the first dose Received palliative radiotherapy; oral molecularly targeted drugs, discontinued to less than 5 half-lives before first dose; failure to recover from toxicity and/or complications of previous interventions to NCI-CTC AE ≤1 degree", "Classification": "Not Violated", "Justification": "The patient's data does not mention any recent radiotherapy, chemotherapy, immunotherapy, or other clinical trial drugs."},
+    {"Criterion": "According to the judgment of the researcher, there are other factors that may affect the results of the study or cause the study to be terminated halfway", "Classification": "Unclear", "Justification": "This is a subjective criterion and cannot be assessed without additional context or judgment from a researcher."}
+  ],
+  "Recap": "The patient meets the age and informed consent inclusion criteria. However, the patient's complex cardiac history, including multiple myocardial infarctions, stenting, bypass surgery, and impaired left ventricular function, violates the exclusion criterion related to uncontrolled heart disease. Other criteria are either irrelevant or unclear due to insufficient data.",
+  "Final Decision": "Ineligible"
+}
+```

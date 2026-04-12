@@ -1,0 +1,35 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Informed consent (by individual or guardian)",
+      "Classification": "Met",
+      "Justification": "The patient profile explicitly states that written informed consent has been obtained from the patient or their legal representative."
+    },
+    {
+      "Criterion": "Undergoing thrombectomy procedure under anaesthesia for acute CVA",
+      "Classification": "Unclear",
+      "Justification": "The patient's profile does not mention undergoing a thrombectomy procedure or having an acute cerebrovascular accident (CVA)."
+    },
+    {
+      "Criterion": "For control: Healthy individual, with no neurological disease undergoing sedation for procedure",
+      "Classification": "Unclear",
+      "Justification": "The patient's profile does not provide information about being a control subject or undergoing sedation for a procedure."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Age < 18 years",
+      "Classification": "Unclear",
+      "Justification": "The patient's age is not provided in the profile, making it impossible to determine if this criterion is violated."
+    },
+    {
+      "Criterion": "No informed consent",
+      "Classification": "Not Violated",
+      "Justification": "The patient profile clearly states that informed consent has been obtained, so this criterion is not violated."
+    }
+  ],
+  "Recap": "The patient meets the informed consent criterion but lacks information on undergoing a thrombectomy procedure for acute CVA, being a control subject, and their age. The exclusion criterion of age is unclear due to missing data, but informed consent is not violated.",
+  "Final Decision": "Likely Ineligible (leaning toward exclusion)"
+}
+```

@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient older than 18 years", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Patient who gave its written informed consent to participate to the study", "Classification": "Met", "Justification": "The patient has provided written informed consent, as stated in the description."},
+    {"Criterion": "Patient with histologically confirmed diagnosis of any type of malignancy (solid tumors)", "Classification": "Unclear", "Justification": "There is no mention of a malignancy diagnosis in the patient's description."},
+    {"Criterion": "Patient with a minimum of 6 months life expectation at inclusion", "Classification": "Unclear", "Justification": "The patient's life expectancy is not provided in the data."},
+    {"Criterion": "Patient covered by a medical insurance", "Classification": "Unclear", "Justification": "There is no information about the patient's medical insurance status."},
+    {"Criterion": "Patient with metastatic disease or unresectable locally advanced malignancy (solid tumors) who is naive of immune checkpoint inhibitors (ICI)-based immunotherapy and is due to initiate an ICI immunotherapy alone or in combination with any other systemic anticancer treatment.", "Classification": "Irrelevant", "Justification": "The patient does not have a malignancy diagnosis, making this criterion irrelevant."},
+    {"Criterion": "Patient with a diagnosed malignancy amenable to surgery with curative intent who is naive of any anticancer treatment", "Classification": "Irrelevant", "Justification": "The patient does not have a malignancy diagnosis, making this criterion irrelevant."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient with secondary malignancy unless this malignancy is cured with no evidence of recurrence for at least 5 years.", "Classification": "Irrelevant", "Justification": "The patient does not have a malignancy diagnosis, making this criterion irrelevant."},
+    {"Criterion": "Pregnant or breastfeeding woman or expecting to conceive", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."},
+    {"Criterion": "Patient who is deprived of liberty due to judicial or administrative decision", "Classification": "Irrelevant", "Justification": "There is no information about the patient's liberty status, but it is not applicable to the patient's context."},
+    {"Criterion": "Patient with known psychiatric disorders that would interfere with cooperation with the requirements of the trial", "Classification": "Irrelevant", "Justification": "There is no mention of psychiatric disorders in the patient's description."},
+    {"Criterion": "Patient admitted in a social or sanitary institution for an objective other than the one of this trial", "Classification": "Irrelevant", "Justification": "There is no information about the patient's admission status, but it is not applicable to the patient's context."},
+    {"Criterion": "Adult patient under legal protection", "Classification": "Irrelevant", "Justification": "There is no information about the patient's legal protection status, but it is not applicable to the patient's context."}
+  ],
+  "Recap": "The patient has provided written informed consent, which is a key inclusion criterion. However, there is no information about the patient's age, malignancy status, life expectancy, or insurance coverage, making it unclear if these criteria are met. The exclusion criteria are mostly irrelevant due to the patient's gender and lack of information on other factors.",
+  "Final Decision": "Ineligible"
+}
+```

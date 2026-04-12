@@ -1,0 +1,25 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Having signed the written Informed Consent Form", "Classification": "Met", "Justification": "The patient's profile explicitly states that written informed consent has been obtained."},
+    {"Criterion": "Male or female aged ≥18 years", "Classification": "Met", "Justification": "The patient is a 47-year-old female, which satisfies the age and gender requirement."},
+    {"Criterion": "Life expectancy ≥12 weeks", "Classification": "Unclear", "Justification": "There is no information provided about the patient's life expectancy in the data."},
+    {"Criterion": "Eastern Cooperative Oncology Group (ECOG) Performance Score 0 or 1", "Classification": "Unclear", "Justification": "The patient's ECOG Performance Score is not mentioned in the provided data."},
+    {"Criterion": "Dose escalation phase: Histologically or cytologically confirmed locally advanced or metastatic mesothelioma (MM), epithelioid hemangioendothelioma (EHE), or other advanced solid tumors who have experienced progressive disease or treatment intolerability after receiving the standard-of-care, or refuse to receive or have no access to the standard-of-care", "Classification": "Not Met", "Justification": "The patient has metastatic breast cancer, not mesothelioma, epithelioid hemangioendothelioma, or other specified tumors."},
+    {"Criterion": "Dose expansion phase: Histologically or cytologically confirmed locally advanced or metastatic MM, EHE, etc. regardless of Hippo signaling pathway abnormalities, or other advanced solid tumors with Hippo signaling pathway abnormalities, who have experienced progressive disease or treatment intolerability after receiving the standard-of-care, or refuse to receive or have no access to the standard-of-care", "Classification": "Not Met", "Justification": "The patient's condition does not match the specified tumor types for the dose expansion phase."},
+    {"Criterion": "At least one measurable lesion", "Classification": "Met", "Justification": "The patient has liver lesions consistent with metastatic disease, which are measurable lesions."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Previous or current use of transcriptional enhanced associate domain (TEAD) inhibitors", "Classification": "Not Violated", "Justification": "There is no mention of TEAD inhibitors in the patient's treatment history."},
+    {"Criterion": "Inadequate wash-out of prior therapies described per protocol", "Classification": "Unclear", "Justification": "The patient's data does not provide information on the wash-out period for prior therapies."},
+    {"Criterion": "Patients with severe or unstable systemic disease, unstable or symptomatic Central Nervous System (CNS) metastasis", "Classification": "Not Violated", "Justification": "There is no indication of severe or unstable systemic disease or CNS metastasis in the patient's profile."},
+    {"Criterion": "Clinically significant cardiovascular disease as defined in the protocol", "Classification": "Not Violated", "Justification": "The patient's data does not mention any cardiovascular disease."},
+    {"Criterion": "Women who are pregnant or breastfeeding", "Classification": "Not Violated", "Justification": "There is no information suggesting that the patient is pregnant or breastfeeding."},
+    {"Criterion": "Hypersensitivity to the active pharmaceutical ingredient or any excipient of BGC515", "Classification": "Not Violated", "Justification": "There is no mention of hypersensitivity to BGC515 in the patient's data."},
+    {"Criterion": "Study staff member or relative of a study staff member directly related to this clinical trial, or a subordinate of the Investigator in this trial or an employee of the Sponsor, though not directly related to this trial", "Classification": "Not Violated", "Justification": "The patient's data does not indicate any relationship to study staff or the sponsor."},
+    {"Criterion": "Serious systemic diseases or laboratory abnormalities or other conditions that, at the Investigator's discretion, will make it unsuitable for the patient to participate in this clinical trial", "Classification": "Unclear", "Justification": "There is no information provided about serious systemic diseases or laboratory abnormalities that would disqualify the patient."}
+  ],
+  "Recap": "The patient meets the inclusion criteria for age, gender, informed consent, and having measurable lesions. However, the patient's tumor type does not match the specified types for the dose escalation or expansion phases. Exclusion criteria related to TEAD inhibitors, cardiovascular disease, pregnancy, and hypersensitivity are not violated, but there is insufficient information on life expectancy, ECOG score, wash-out period, and serious systemic diseases.",
+  "Final Decision": "Ineligible"
+}
+```

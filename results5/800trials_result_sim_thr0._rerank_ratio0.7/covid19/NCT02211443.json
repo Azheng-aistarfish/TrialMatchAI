@@ -1,0 +1,123 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "aged from 18 to 70 years",
+            "Classification": "Unclear",
+            "Justification": "The patient's age is not provided in the data."
+        },
+        {
+            "Criterion": "having histologically confirmed metastatic colorectal cancer",
+            "Classification": "Unclear",
+            "Justification": "There is no information about the patient's cancer diagnosis in the data."
+        },
+        {
+            "Criterion": "having experienced previous treatment failures including fluoropyrimidine, irinotecan and oxaliplatine chemotherapy regiment",
+            "Classification": "Unclear",
+            "Justification": "The patient's treatment history is not mentioned in the data."
+        },
+        {
+            "Criterion": "having determined wild-type KRAS tumor",
+            "Classification": "Unclear",
+            "Justification": "The patient's KRAS status is not provided in the data."
+        },
+        {
+            "Criterion": "having to have measurable or nonmeasurable disease per Response Evaluation Criteria In Solid Tumors (RECIST) version 1.1",
+            "Classification": "Unclear",
+            "Justification": "There is no information about the patient's disease status in the data."
+        },
+        {
+            "Criterion": "Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 1",
+            "Classification": "Unclear",
+            "Justification": "The patient's ECOG performance status is not mentioned in the data."
+        },
+        {
+            "Criterion": "expected survival of at least ≥3 months",
+            "Classification": "Unclear",
+            "Justification": "The patient's expected survival is not provided in the data."
+        },
+        {
+            "Criterion": "adequate hematological, renal and liver functions",
+            "Classification": "Unclear",
+            "Justification": "The patient's hematological, renal, and liver function test results are not provided in the data."
+        },
+        {
+            "Criterion": "no other malignancies only if they had following malignancies, which were not required to treat or who had curative resection",
+            "Classification": "Irrelevant",
+            "Justification": "The patient's cancer history is not mentioned, making this criterion irrelevant."
+        },
+        {
+            "Criterion": "no serious nonmalignant diseases including hypertension, diabetes mellitus, coronary artery disease, and mental disorder",
+            "Classification": "Violated",
+            "Justification": "The patient has diabetes mellitus, which is a serious nonmalignant disease."
+        },
+        {
+            "Criterion": "not pregnant; or not lactating; or accepted birth control methods during the study",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is male, making this criterion irrelevant."
+        },
+        {
+            "Criterion": "signed an informed consent form which was approved by the institutional review board of the respective medical center",
+            "Classification": "Met",
+            "Justification": "The patient has signed an informed consent form."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "had received EGFR target treatment including EGFR tyrosine kinase inhibitors(TKI), or anti- EGFR monoclonal antibody",
+            "Classification": "Not Violated",
+            "Justification": "There is no information about the patient receiving EGFR target treatment."
+        },
+        {
+            "Criterion": "having to be at least 4 weeks beyond prior anticancer therapy (including corticosteroid, or nitrosourea or mitomycin within 6 weeks of study entry) or participating in other clinical trial, or have not recovered from significant toxicities of prior therapy",
+            "Classification": "Not Violated",
+            "Justification": "The patient's prior anticancer therapy history is not mentioned."
+        },
+        {
+            "Criterion": "chronic use of medication that could interfere with the assessment of drug-related toxicities or immunologic activity (high dose prednisone or high dose non-steroid anti-inflammatory medication)",
+            "Classification": "Not Violated",
+            "Justification": "There is no information about the patient's chronic medication use."
+        },
+        {
+            "Criterion": "had recent major surgery (within 28 days)",
+            "Classification": "Not Violated",
+            "Justification": "The patient had a Left Ventricular Assist Device placed on January 1, 2016, which is not within 28 days."
+        },
+        {
+            "Criterion": "with symptomatically brain metastases (with the exception of clinically brain metastases stable and of no requirement further treatment)",
+            "Classification": "Not Violated",
+            "Justification": "There is no information about the patient having brain metastases."
+        },
+        {
+            "Criterion": "with active infection requirement systemic antibiotics treatment; or serious cardiovascular disease; or with evidence of active hepatitis B or C infection; or with human immunodeficiency virus infection",
+            "Classification": "Violated",
+            "Justification": "The patient has COVID-19, which is an active infection."
+        },
+        {
+            "Criterion": "had acute pulmonary disorder; or interstitial pneumonia; or symptomatically chronic obstructive pulmonary disease (COPD) or with risk factors to COPD",
+            "Classification": "Violated",
+            "Justification": "The patient is experiencing acute respiratory failure, which is an acute pulmonary disorder."
+        },
+        {
+            "Criterion": "with eye inflammation or infection, or any risk factors who could lead to eye disease",
+            "Classification": "Not Violated",
+            "Justification": "There is no information about the patient having eye inflammation or infection."
+        },
+        {
+            "Criterion": "with a history of allergic reaction or protein product allergy including antibodies product",
+            "Classification": "Not Violated",
+            "Justification": "There is no information about the patient having a history of allergic reactions."
+        },
+        {
+            "Criterion": "pregnant, or lactating, or not accepted birth control methods including male patients",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is male, making this criterion irrelevant."
+        },
+        {
+            "Criterion": "had a history of alcohol or drugs addiction, or with any risk which may affect the patient's health evaluation or mantle state",
+            "Classification": "Not Violated",
+            "Justification": "There is no information about the patient having a history of alcohol or drug addiction."
+        }
+    ],
+    "Recap": "The patient is male and has signed an informed consent form, meeting one inclusion criterion. However, the patient has diabetes mellitus, an active COVID-19 infection, and acute respiratory failure, which violate exclusion criteria. The patient's age, cancer diagnosis, treatment history, and other health metrics are not provided, making it unclear if other inclusion criteria are met.",
+    "Final Decision": "Ineligible"
+}

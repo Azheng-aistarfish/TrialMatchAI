@@ -1,0 +1,40 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "have a diagnosis of breast cancer and indication for cancer treatment with a curative therapeutic proposal",
+      "Classification": "Not Met",
+      "Justification": "The patient is male and has no mention of breast cancer diagnosis or treatment in the provided data."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "having a previous cancer diagnosis",
+      "Classification": "Unclear",
+      "Justification": "There is no information provided about any previous cancer diagnosis in the patient's data."
+    },
+    {
+      "Criterion": "staging IV",
+      "Classification": "Not Violated",
+      "Justification": "The patient's current condition is related to COVID-19 and chronic kidney disease, with no mention of cancer staging."
+    },
+    {
+      "Criterion": "practitioner of physical exercise at least 90 minutes per week",
+      "Classification": "Unclear",
+      "Justification": "There is no information provided about the patient's physical exercise habits."
+    },
+    {
+      "Criterion": "not being able to answer the questionnaires",
+      "Classification": "Not Violated",
+      "Justification": "Written informed consent has been obtained, indicating the patient can answer questionnaires."
+    },
+    {
+      "Criterion": "be unable to practice unsupervised exercises for any reason, including: dysfunctionss orthopedic, neurological, decompensated cardiorespiratory and severe renal",
+      "Classification": "Violated",
+      "Justification": "The patient has Stage 3 chronic kidney disease, which is a severe renal condition, and is currently experiencing acute respiratory failure."
+    }
+  ],
+  "Recap": "The patient does not meet the inclusion criteria due to the absence of a breast cancer diagnosis. The exclusion criteria are partially violated due to the presence of severe renal dysfunction and acute respiratory failure.",
+  "Final Decision": "Ineligible"
+}
+```

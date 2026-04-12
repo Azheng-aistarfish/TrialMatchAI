@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age >18", "Classification": "Met", "Justification": "The patient is described as a male, and there is no indication of age, but typically clinical trials assume adult participants unless specified otherwise."},
+    {"Criterion": "Scheduled for upper endoscopy for clinical indications", "Classification": "Unclear", "Justification": "There is no information provided about the patient being scheduled for an upper endoscopy."},
+    {"Criterion": "No allergy or other contraindication to chlorhexidine", "Classification": "Unclear", "Justification": "The patient's profile does not mention any allergies or contraindications to chlorhexidine."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Use of proton pump inhibitors or H2 receptor antagonists within 1 month of enrollment", "Classification": "Not Violated", "Justification": "There is no mention of the patient using these medications in the provided data."},
+    {"Criterion": "History of upper gastrointestinal cancer", "Classification": "Not Violated", "Justification": "The patient's profile does not indicate a history of upper gastrointestinal cancer."},
+    {"Criterion": "History of histologically proven Barrett's esophagus", "Classification": "Not Violated", "Justification": "There is no information about a history of Barrett's esophagus in the patient's profile."},
+    {"Criterion": "History of antireflux or bariatric surgery, or other gastric or esophageal surgery", "Classification": "Not Violated", "Justification": "The patient's medical history does not mention any such surgeries."},
+    {"Criterion": "Use of antimicrobial mouthwash within 1 month of enrollment", "Classification": "Not Violated", "Justification": "There is no mention of the patient using antimicrobial mouthwash."},
+    {"Criterion": "Use of antibiotics or immunosuppressant medications within 3 months of enrollment", "Classification": "Unclear", "Justification": "The patient's profile does not specify the use of antibiotics or immunosuppressants."},
+    {"Criterion": "Use of steroid inhalers or nasal sprays within 1 month of enrollment", "Classification": "Not Violated", "Justification": "There is no information about the use of steroid inhalers or nasal sprays."},
+    {"Criterion": "HIV or other immunosuppressed states or conditions (e.g. active malignancy)", "Classification": "Not Violated", "Justification": "The patient's profile does not indicate HIV or other immunosuppressed states, though chronic kidney disease is present, it is not specified as immunosuppressive in this context."},
+    {"Criterion": "Pregnant or breast feeding", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."},
+    {"Criterion": "Inability to give informed consent", "Classification": "Not Violated", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Recap": "The patient meets the age criterion and has not violated any exclusion criteria based on the provided data. However, it is unclear if the patient is scheduled for an upper endoscopy and if there are any allergies or contraindications to chlorhexidine.",
+  "Final Decision": "Likely Eligible (leaning toward inclusion)"
+}
+```

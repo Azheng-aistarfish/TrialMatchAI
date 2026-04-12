@@ -1,0 +1,34 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Women (or men) aged ≥ 18 years with histologically proven breast cancer", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, not breast cancer."},
+    {"Criterion": "Metastatic relapse or locally advanced breast cancer", "Classification": "Not Met", "Justification": "The patient's cancer is lung cancer, not breast cancer."},
+    {"Criterion": "No-HER2 overexpression or amplification", "Classification": "Irrelevant", "Justification": "This criterion is specific to breast cancer, which the patient does not have."},
+    {"Criterion": "Triple-negative or hormone receptor positive breast cancer", "Classification": "Irrelevant", "Justification": "The patient's cancer is lung cancer, not breast cancer."},
+    {"Criterion": "Patients with metastases that can be biopsied except bone metastases", "Classification": "Irrelevant", "Justification": "This criterion is specific to breast cancer, which the patient does not have."},
+    {"Criterion": "ECOG Performance Status ≤ 2", "Classification": "Unclear", "Justification": "The patient's ECOG Performance Status is not provided in the data."},
+    {"Criterion": "Patients must have measurable or evaluable disease according to RECIST v1.1", "Classification": "Unclear", "Justification": "There is no information on whether the patient's disease is measurable or evaluable according to RECIST v1.1."},
+    {"Criterion": "Patient with deleterious germline BRCA 1 and/or 2 mutation, eligible for PARP inhibitor therapy", "Classification": "Irrelevant", "Justification": "This criterion is specific to breast cancer, which the patient does not have."},
+    {"Criterion": "Any number of prior lines therapy are allowed", "Classification": "Irrelevant", "Justification": "This criterion is specific to breast cancer, which the patient does not have."},
+    {"Criterion": "Current treatment with PARP inhibitor not yet started", "Classification": "Irrelevant", "Justification": "This criterion is specific to breast cancer, which the patient does not have."},
+    {"Criterion": "Women should be post-menopaused or willing to accept the use of an effective contraceptive regimen during the treatment period by PARP inhibitor", "Classification": "Irrelevant", "Justification": "This criterion is specific to breast cancer, which the patient does not have."},
+    {"Criterion": "Patient able to participate and willing to give informed consent prior performance of any study-related procedures and to comply with the study protocol", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient."},
+    {"Criterion": "Patient affiliated to a Social Health Insurance in France", "Classification": "Unclear", "Justification": "There is no information on the patient's insurance status in France."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Abnormal coagulation contraindicating biopsy", "Classification": "Irrelevant", "Justification": "This criterion is specific to breast cancer, which the patient does not have."},
+    {"Criterion": "Bone metastases when this is the only site of biopsiable disease", "Classification": "Irrelevant", "Justification": "This criterion is specific to breast cancer, which the patient does not have."},
+    {"Criterion": "Patients with all target in a previously irradiated region, except if clear progression has been observed prior to study in at least one of them", "Classification": "Irrelevant", "Justification": "This criterion is specific to breast cancer, which the patient does not have."},
+    {"Criterion": "Patients with known additional malignancy that is progressing or requires active treatment", "Classification": "Violated", "Justification": "The patient has metastatic non-small cell lung cancer, which is an additional malignancy."},
+    {"Criterion": "Patients with known untreated CNS metastases and/or carcinomatous meningitis", "Classification": "Not Violated", "Justification": "There is no information indicating the presence of CNS metastases or carcinomatous meningitis."},
+    {"Criterion": "Patients with a known history of Human Immunodeficiency Virus (HIV)", "Classification": "Not Violated", "Justification": "There is no information indicating a history of HIV."},
+    {"Criterion": "Patients with known active Hepatitis B or C", "Classification": "Not Violated", "Justification": "There is no information indicating active Hepatitis B or C."},
+    {"Criterion": "Patients should not be on any other anti-cancer therapy", "Classification": "Violated", "Justification": "The patient is currently undergoing treatment with osimertinib for lung cancer."},
+    {"Criterion": "Patient pregnant, or breast-feeding", "Classification": "Not Violated", "Justification": "There is no information indicating that the patient is pregnant or breastfeeding."},
+    {"Criterion": "Any psychological, familial, geographic or social situation, according to the judgment of investigator, potentially preventing the provision of informed consent or compliance to study procedure", "Classification": "Irrelevant", "Justification": "There is no information indicating such a situation."},
+    {"Criterion": "Patient who has forfeited his/her freedom by administrative or legal award or who is under legal protection", "Classification": "Not Violated", "Justification": "There is no information indicating that the patient is under legal protection."}
+  ],
+  "Recap": "The patient does not meet the main study's inclusion criteria as she has lung cancer, not breast cancer. She violates exclusion criteria due to having an additional malignancy and being on anti-cancer therapy.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,18 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age > 18", "Classification": "Met", "Justification": "The patient is 58 years old, which is greater than 18."},
+    {"Criterion": "Diagnosed with acromegaly", "Classification": "Not Met", "Justification": "There is no mention of acromegaly in the patient's description."},
+    {"Criterion": "Safe anticonceptive for fertile women", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Well controlled on somatostatin analog (a serum IGF-I within normal range a nadir GH < 0.5 µg/l.)", "Classification": "Unclear", "Justification": "There is no information provided about the patient's use of somatostatin analogs or their serum IGF-I and GH levels."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Pregnancy", "Classification": "Irrelevant", "Justification": "The patient is male, so pregnancy is not applicable."},
+    {"Criterion": "Liver disease", "Classification": "Unclear", "Justification": "There is a mild elevation in hepatic transaminase levels, but it is suspected to be secondary to statin therapy or non-alcoholic fatty liver disease, not explicitly diagnosed as liver disease."},
+    {"Criterion": "Diabetes mellitus type I", "Classification": "Not Violated", "Justification": "The patient has Type 2 diabetes mellitus, not Type 1."},
+    {"Criterion": "Magnetic or electronic implants", "Classification": "Not Violated", "Justification": "There is no mention of magnetic or electronic implants in the patient's description."}
+  ],
+  "Recap": "The patient meets the age criterion and is not disqualified by pregnancy or Type 1 diabetes. However, the patient does not have a diagnosis of acromegaly, and there is insufficient information about somatostatin analog use and control. The liver disease criterion is unclear due to the lack of a definitive diagnosis.",
+  "Final Decision": "Ineligible"
+}
+```

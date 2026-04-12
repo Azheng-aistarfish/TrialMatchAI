@@ -1,0 +1,24 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologically or cytologically proven diagnosis of invasive breast cancer (stage I-III).", "Classification": "Not Met", "Justification": "The patient is male, and the criterion specifies a diagnosis of invasive breast cancer, which is not applicable to him."},
+    {"Criterion": "Documentation of the presence of a germ-line BRCA1 mutation.", "Classification": "Unclear", "Justification": "There is no information provided about the presence or absence of a BRCA1 mutation in the patient's data."},
+    {"Criterion": "Measurable disease of any size by mammography or ultrasound.", "Classification": "Irrelevant", "Justification": "The criterion is irrelevant as the patient does not have breast cancer, which is the focus of this trial."},
+    {"Criterion": "Female diagnosed with breast cancer between the ages of 20 to 70.", "Classification": "Not Met", "Justification": "The patient is male, and the criterion specifies a female diagnosis of breast cancer."},
+    {"Criterion": "Eastern Cooperative Oncology Group [ECOG] performance status of 0 and 1.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ECOG performance status."},
+    {"Criterion": "Evidence of adequate organ function (liver, bone marrow, kidney).", "Classification": "Not Met", "Justification": "The patient has Stage 3 chronic kidney disease, indicating inadequate kidney function."},
+    {"Criterion": "Signed and dated informed consent document indicating that the patient (or legally acceptable representative) has been informed of all pertinent aspects of the trial prior to enrolment.", "Classification": "Met", "Justification": "The patient has obtained written informed consent, meeting this criterion."},
+    {"Criterion": "Willingness and ability to comply with scheduled visits, treatment plans laboratory tests, and other study procedures.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's willingness or ability to comply with study procedures."},
+    {"Criterion": "Polish resident.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's residency status."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Previous chemotherapy for current cancer.", "Classification": "Not Violated", "Justification": "There is no information provided about previous chemotherapy for the patient's current condition."},
+    {"Criterion": "Previous or current diagnosis of any other malignancy except for adequately treated basal cell or squamous cell skin cancer, or carcinoma in situ of the cervix.", "Classification": "Not Violated", "Justification": "There is no information provided about any other malignancies in the patient's history."},
+    {"Criterion": "Receiving any medication that may markedly affect renal function.", "Classification": "Unclear", "Justification": "There is no information provided about medications that may affect renal function."},
+    {"Criterion": "Pregnant or breastfeeding women.", "Classification": "Irrelevant", "Justification": "The criterion is irrelevant as the patient is male."},
+    {"Criterion": "Uncontrolled inter-current illness including, but not limited to ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness that would limit compliance with study requirements.", "Classification": "Violated", "Justification": "The patient has COVID-19 with acute respiratory failure, which is an uncontrolled inter-current illness."}
+  ],
+  "Recap": "The patient is ineligible for the trial due to not meeting the inclusion criteria of having invasive breast cancer and adequate kidney function, and violating the exclusion criterion of having an uncontrolled inter-current illness (COVID-19 with acute respiratory failure).",
+  "Final Decision": "Ineligible"
+}
+```

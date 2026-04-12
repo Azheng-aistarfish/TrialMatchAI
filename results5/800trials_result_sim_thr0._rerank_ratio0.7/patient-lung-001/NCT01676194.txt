@@ -1,0 +1,22 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Adult patients >18 years", "Classification": "Met", "Justification": "The patient is 53 years old, which satisfies the age requirement."},
+    {"Criterion": "With well compensated cirrhosis and hepatocellular carcinoma meeting UCSF criteria", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, not hepatocellular carcinoma or cirrhosis."},
+    {"Criterion": "Without general contraindication to LT", "Classification": "Unclear", "Justification": "There is no information provided about liver transplantation contraindications."},
+    {"Criterion": "Written informed consent", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients that already had TACE", "Classification": "Not Violated", "Justification": "There is no mention of the patient having undergone TACE."},
+    {"Criterion": "Or other local treatment for HCC", "Classification": "Not Violated", "Justification": "The patient has not received any local treatment for hepatocellular carcinoma as she does not have HCC."},
+    {"Criterion": "Or neoadjuvant systemic chemotherapy", "Classification": "Not Violated", "Justification": "The patient is currently on osimertinib, which is not neoadjuvant chemotherapy."},
+    {"Criterion": "Or planned living donor", "Classification": "Irrelevant", "Justification": "The patient does not have liver cancer, making this criterion irrelevant."},
+    {"Criterion": "Or non arterialized lesion(s)", "Classification": "Irrelevant", "Justification": "The patient does not have hepatocellular carcinoma, so this criterion is irrelevant."},
+    {"Criterion": "Or Contraindication to DC-BeadsR", "Classification": "Irrelevant", "Justification": "The patient does not have hepatocellular carcinoma, making this criterion irrelevant."},
+    {"Criterion": "Or allergy to contrast agents", "Classification": "Unclear", "Justification": "There is no information provided about any allergies to contrast agents."},
+    {"Criterion": "Or contraindication to Doxorubicin", "Classification": "Unclear", "Justification": "There is no information provided about any contraindications to Doxorubicin."}
+  ],
+  "Recap": "The patient meets the age and consent criteria but does not have hepatocellular carcinoma or cirrhosis, which are essential for inclusion. The exclusion criteria related to liver cancer treatments and conditions are irrelevant, while some other exclusion criteria remain unclear due to lack of information.",
+  "Final Decision": "Ineligible"
+}
+```

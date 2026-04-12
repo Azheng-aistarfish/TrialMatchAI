@@ -1,0 +1,50 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Documented histologic diagnosis of bone or soft-tissue sarcoma that has metastasized, and who derive benefit following chemotherapy.",
+      "Classification": "Not Met",
+      "Justification": "The patient's data does not mention any diagnosis of bone or soft-tissue sarcoma, nor any history of chemotherapy or its benefits."
+    },
+    {
+      "Criterion": "Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.",
+      "Classification": "Unclear",
+      "Justification": "The patient's ECOG performance status is not provided in the data."
+    },
+    {
+      "Criterion": "Completed prior chemotherapy with last dose received at least 3 and up to 12 weeks prior to randomization.",
+      "Classification": "Not Met",
+      "Justification": "There is no mention of prior chemotherapy in the patient's data."
+    },
+    {
+      "Criterion": "Adequate organ and bone marrow function.",
+      "Classification": "Unclear",
+      "Justification": "The patient's data does not provide specific information on organ or bone marrow function."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Presence of brain or central nervous system (CNS) metastases, unless successfully treated.",
+      "Classification": "Not Violated",
+      "Justification": "There is no mention of brain or CNS metastases in the patient's data."
+    },
+    {
+      "Criterion": "Prior therapy with rapamycin or rapamycin analogs.",
+      "Classification": "Not Violated",
+      "Justification": "The patient's data does not mention any prior therapy with rapamycin or its analogs."
+    },
+    {
+      "Criterion": "Ongoing toxicity associated with prior anticancer therapy.",
+      "Classification": "Not Violated",
+      "Justification": "There is no mention of prior anticancer therapy or associated toxicity in the patient's data."
+    },
+    {
+      "Criterion": "History or current evidence of any clinically significant disease that might confound the results of the study, complicate the interpretation of the study results, interfere with the patient's participation, or pose an additional risk to the patient.",
+      "Classification": "Violated",
+      "Justification": "The patient has multiple conditions such as COVID-19, chronic kidney disease, obesity, diabetes mellitus, and cardiomyopathy, which could confound study results or pose additional risks."
+    }
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for a bone or soft-tissue sarcoma diagnosis or prior chemotherapy. The ECOG performance status and organ function are unclear. The patient violates the exclusion criteria due to multiple significant health conditions.",
+  "Final Decision": "Ineligible"
+}
+```

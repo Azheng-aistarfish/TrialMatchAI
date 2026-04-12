@@ -1,0 +1,28 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "HCC diagnosed as (i) the presence of risk factors including hepatitis B or C virus and liver cirrhosis, a serum a-fetoprotein (AFP) level greater than 200 IU/ml and a radiologically compatible feature with HCC in one or more CT/MRI/angiograms, or (ii) the presence of risk factors including hepatitis B or C virus and liver cirrhosis, a serum a-fetoprotein (AFP) level less than 200 IU/ml, and a radiologically compatible feature with HCC in two or more CT/MRI/angiograms or (iii) histological confirmation", "Classification": "Not Met", "Justification": "The patient has metastatic breast cancer, not HCC, and there is no mention of hepatitis B or C virus, liver cirrhosis, or AFP levels."},
+    {"Criterion": "HCC patients who had recurrent or residual tumor after other treatments", "Classification": "Irrelevant", "Justification": "The patient does not have HCC, so this criterion does not apply."},
+    {"Criterion": "without evidence of extrahepatic metastasis", "Classification": "Irrelevant", "Justification": "The patient has metastatic breast cancer, not HCC, so this criterion does not apply."},
+    {"Criterion": "the largest diameter of tumor should be less than 3cm, and the number of tumor ≤2", "Classification": "Irrelevant", "Justification": "The patient has metastatic breast cancer, not HCC, so this criterion does not apply."},
+    {"Criterion": "no previous treatment to target tumors by other forms of RT", "Classification": "Irrelevant", "Justification": "The patient has metastatic breast cancer, not HCC, so this criterion does not apply."},
+    {"Criterion": "liver function of Child-Pugh class A or B7 (Child-Pugh score of ≤7)", "Classification": "Irrelevant", "Justification": "The patient has metastatic breast cancer, not HCC, so this criterion does not apply."},
+    {"Criterion": "Age of ≥18 years", "Classification": "Met", "Justification": "The patient is 47 years old, which meets the age criterion."},
+    {"Criterion": "performance status of 0 to 2 on the Eastern Cooperative Oncology Group (ECOG) score", "Classification": "Unclear", "Justification": "The patient's ECOG score is not provided in the data."},
+    {"Criterion": "WBC count ≥ 2,000/mm3; hemoglobin level ≥ 7.5 g/dL; platelet count ≥ 50,000/mm3; and adequate hepatic function (total bilirubin ≤ 3.0 mg/dL; AST and ALT < 5.0× upper limit of normal; no ascites)", "Classification": "Unclear", "Justification": "The patient's WBC count, hemoglobin level, platelet count, and liver function tests are not provided in the data."},
+    {"Criterion": "no serious comorbidities other than liver cirrhosis", "Classification": "Met", "Justification": "The patient has metastatic breast cancer, which is not listed as a comorbidity other than liver cirrhosis."},
+    {"Criterion": "written informed consent", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "evidence of extrahepatic metastasis", "Classification": "Violated", "Justification": "The patient has metastatic breast cancer, which is an extrahepatic metastasis."},
+    {"Criterion": "age < 18 years", "Classification": "Not Violated", "Justification": "The patient is 47 years old, which does not violate this criterion."},
+    {"Criterion": "liver function of Child-Pugh class B8-9 and C (Child-Pugh score of >7) or uncontrolled cases of active chronic hepatitis B", "Classification": "Irrelevant", "Justification": "The patient has metastatic breast cancer, not HCC, so this criterion does not apply."},
+    {"Criterion": "previous history of other forms of RT adjacent to target tumors", "Classification": "Irrelevant", "Justification": "The patient has metastatic breast cancer, not HCC, so this criterion does not apply."},
+    {"Criterion": "poor performance status of 3 to 4 on the Eastern Cooperative Oncology Group (ECOG) score", "Classification": "Unclear", "Justification": "The patient's ECOG score is not provided in the data."},
+    {"Criterion": "pregnant or breast feeding status", "Classification": "Irrelevant", "Justification": "The patient's pregnancy or breastfeeding status is not mentioned, but it is not relevant to the exclusion criteria for HCC."},
+    {"Criterion": "previous history uncontrolled other malignancies within 2 years", "Classification": "Not Violated", "Justification": "The patient's breast cancer is being treated, and there is no mention of uncontrolled malignancies within 2 years."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for HCC, as she has metastatic breast cancer. The exclusion criteria for extrahepatic metastasis are violated due to her metastatic breast cancer. Other criteria are either irrelevant or unclear due to the lack of specific data.",
+  "Final Decision": "Ineligible"
+}
+```

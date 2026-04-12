@@ -1,0 +1,33 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Study participants are ≥ 18 years of age at screening.", "Classification": "Met", "Justification": "The patient is 53 years old, which satisfies the age requirement."},
+    {"Criterion": "Histologically or cytologically proven adenocarcinoma of the pancreas.", "Classification": "Not Met", "Justification": "The patient has adenocarcinoma of the lung, not the pancreas."},
+    {"Criterion": "Unresectable locally advanced pancreatic carcinoma.", "Classification": "Not Met", "Justification": "The patient's cancer is in the lung, not the pancreas, and there is no mention of pancreatic carcinoma."},
+    {"Criterion": "Pancreatic target tumour diameter ≥ 2.0 cm (shortest axis) to ≤ 6.0 cm (longest axis).", "Classification": "Irrelevant", "Justification": "The patient does not have a pancreatic tumor, so this criterion does not apply."},
+    {"Criterion": "An ECOG Performance Status of 0 to 1 and Karnofsky Performance Status of 80 - 100.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ECOG or Karnofsky Performance Status."},
+    {"Criterion": "Willing and able to complete study procedures within the study timelines.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's willingness or ability to complete study procedures."},
+    {"Criterion": "Adequate renal function: serum creatinine less than 1.5 x upper limit of normal (ULN).", "Classification": "Unclear", "Justification": "There is no information provided about the patient's renal function or serum creatinine levels."},
+    {"Criterion": "Adequate liver function: Serum SGOT/AST and serum SGPT/SLT < 3 times ULN and serum bilirubin <1.5 times the ULN unless the patient is known to have prior Gilbert's Syndrome.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's liver function or specific enzyme levels."},
+    {"Criterion": "Adequate bone marrow function: white blood cells (WBCs) ≥ 3,000/mm3, absolute neutrophil count (ANC) ≥ 1,500/mm3, haemoglobin ≥ 9 g/dL, and platelets ≥ 100,000/mm3.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's bone marrow function or specific blood cell counts."},
+    {"Criterion": "Life expectancy of at least 3 months at the time of screening as judged by the investigator.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's life expectancy as judged by an investigator."},
+    {"Criterion": "Not pregnant, and if of childbearing potential, agrees to use adequate birth control (hormonal or barrier method of birth control or abstinence) prior to study entry and during the study and agrees not to donate sperm or ova, for the duration of the study and 12 months post implantation of the investigational device.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's pregnancy status or birth control measures."},
+    {"Criterion": "Provide signed Informed Consent.", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient."},
+    {"Criterion": "Technically feasible - tumour must be within reach of the EUS probe for fine needle Injection.", "Classification": "Irrelevant", "Justification": "The patient does not have a pancreatic tumor, so this criterion does not apply."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "More than one primary lesion.", "Classification": "Not Violated", "Justification": "The patient has a single primary lesion of lung adenocarcinoma."},
+    {"Criterion": "Any prior radiotherapy or chemotherapy for pancreatic cancer.", "Classification": "Not Violated", "Justification": "The patient has not received treatment for pancreatic cancer, only for lung cancer."},
+    {"Criterion": "Use of other investigational agent at the time of screening, or within 30 days or five half-lives of Screening Visit 1, whichever is longer.", "Classification": "Not Violated", "Justification": "The patient is on osimertinib, which is not described as an investigational agent in this context."},
+    {"Criterion": "History of malignancy, treated or untreated, within the past five years whether or not there is evidence of local recurrence or metastases, with the exception of basal cell carcinoma of the skin and cervical carcinoma in situ.", "Classification": "Violated", "Justification": "The patient has a history of lung cancer, which is a malignancy within the past five years."},
+    {"Criterion": "Evidence of tumour invasion into stomach, duodenum or peritoneum.", "Classification": "Irrelevant", "Justification": "The patient's cancer is in the lung, not the pancreas, so this criterion does not apply."},
+    {"Criterion": "In the opinion of the investigator, EUS directed implantation posing undue study participant risk.", "Classification": "Irrelevant", "Justification": "The patient does not have a pancreatic tumor, so this criterion does not apply."},
+    {"Criterion": "A known allergy or history of hypersensitivity to silicon, Phosphorus or any of the OncoSil™ components.", "Classification": "Not Violated", "Justification": "There is no information provided about any allergies or hypersensitivities."},
+    {"Criterion": "Patients who do not consent to chemotherapy.", "Classification": "Not Violated", "Justification": "The patient is currently undergoing treatment with osimertinib, indicating consent to chemotherapy."},
+    {"Criterion": "Actively on medication that increase bleeding risk (i.e. aspirin, clopidogrel, warfarin, NOAC).", "Classification": "Not Violated", "Justification": "There is no information provided about the patient being on any medication that increases bleeding risk."},
+    {"Criterion": "Any other health condition that would preclude participation in the study in the judgment of the investigator.", "Classification": "Unclear", "Justification": "There is no information provided about other health conditions that might preclude participation."}
+  ],
+  "Recap": "The patient meets the age and informed consent criteria but does not meet the primary inclusion criterion of having pancreatic adenocarcinoma. The patient's lung cancer history violates the exclusion criterion regarding recent malignancy history.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,21 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age 45 through 75 years", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Predicted (Global Initiative for Chronic Obstructive Lung Disease [GOLD] stage II, III, and IV) at Screening", "Classification": "Unclear", "Justification": "The patient's GOLD stage is not mentioned in the data."},
+    {"Criterion": "History of previous acute exacerbations of chronic obstructive pulmonary disease (AECOPD) 12 months prior to Screening", "Classification": "Unclear", "Justification": "There is no information about AECOPD history in the data."},
+    {"Criterion": "Clinically stable and free from an AECOPD for 8 weeks prior to Day 1", "Classification": "Unclear", "Justification": "The patient's clinical stability and AECOPD status are not detailed in the data."},
+    {"Criterion": "Current smoker or ex-smoker with a tobacco history of more than or equal to (>=) 10 pack-years", "Classification": "Unclear", "Justification": "The patient's smoking history is not provided in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Past or present disease or disorder", "Classification": "Violated", "Justification": "The patient has multiple conditions including COVID-19, chronic kidney disease, obesity, diabetes mellitus, and cardiomyopathy."},
+    {"Criterion": "Significant or unstable ischemic heart disease etc", "Classification": "Unclear", "Justification": "There is no specific mention of ischemic heart disease in the data."},
+    {"Criterion": "Known history of allergy or reaction to any component of the investigational manufacturing product (IMP)", "Classification": "Irrelevant", "Justification": "There is no information about allergies or reactions to the investigational product in the data."},
+    {"Criterion": "Past or current malignancy within the past 5 years", "Classification": "Not Violated", "Justification": "There is no mention of malignancy in the patient's history."},
+    {"Criterion": "Subjects have had a chest x-ray or Computed Tomography (CT) scan suggestive of malignancy or tuberculosis (TB)", "Classification": "Irrelevant", "Justification": "There is no information about chest x-ray or CT scan results in the data."},
+    {"Criterion": "Use of immunosuppressive medication receipt of any biologic agent", "Classification": "Violated", "Justification": "The patient is receiving tocilizumab, which is a biologic agent."}
+  ],
+  "Recap": "The patient has multiple conditions that violate the exclusion criteria, including significant diseases and the use of a biologic agent. The inclusion criteria cannot be fully assessed due to missing information.",
+  "Final Decision": "Ineligible"
+}
+```

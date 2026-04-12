@@ -1,0 +1,22 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age ≥18 years", "Classification": "Met", "Justification": "The patient is a male, and while the exact age is not provided, the context implies adulthood."},
+    {"Criterion": "Diagnosis of acute heart failure which is defined by 2 of the 3 following features: ≥2+ leg edema, jugular venous pressure >10 cm from physical examination or central venous pressure >10 mmHg, and bilateral pulmonary edema or bilateral pleural effusion from chest radiography", "Classification": "Unclear", "Justification": "The patient has acute respiratory failure and cardiomyopathy, but specific criteria for acute heart failure are not detailed in the provided data."},
+    {"Criterion": "Patients consent to participate into the study", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients who receive furosemide ≥500 mg/day or hydrochlorothiazide ≥100 mg/day or spironolactone ≥100 mg/day or tolvaptan of any doses", "Classification": "Not Violated", "Justification": "There is no mention of the patient receiving these medications in the provided data."},
+    {"Criterion": "Patients who have systolic blood pressure <100 mmHg or who need vasoactive drugs inotropic agents (except dobutamine)", "Classification": "Unclear", "Justification": "The patient's blood pressure and use of vasoactive drugs are not specified in the provided data."},
+    {"Criterion": "Patients with intravascular volume depletion from clinical evaluation", "Classification": "Unclear", "Justification": "There is no information on intravascular volume status in the provided data."},
+    {"Criterion": "Patients with chronic kidney disease stage 5 (estimated glomerular filtration rate <15 ml/min/1.73 m2) or patients who receive maintenance dialysis", "Classification": "Not Violated", "Justification": "The patient has Stage 3 chronic kidney disease, not Stage 5, and there is no mention of maintenance dialysis."},
+    {"Criterion": "Patients who require renal replacement therapy at the time of admission", "Classification": "Not Violated", "Justification": "There is no mention of the patient requiring renal replacement therapy at the time of admission."},
+    {"Criterion": "Patients whom diagnosed hypertrophic obstructive cardiomyopathy, severe valvular stenosis or complex congenital heart disease", "Classification": "Unclear", "Justification": "The patient has cardiomyopathy, but the specific type is not detailed in the provided data."},
+    {"Criterion": "Patients with sepsis or systemic infection", "Classification": "Unclear", "Justification": "The patient has COVID-19, which could be considered a systemic infection, but sepsis is not explicitly mentioned."},
+    {"Criterion": "Pregnant women", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Patients who have history of furosemide, spironolactone or hydrochlorothiazide allergy", "Classification": "Irrelevant", "Justification": "There is no mention of allergies to these medications in the provided data."}
+  ],
+  "Recap": "The patient meets the age and consent criteria for inclusion. The diagnosis of acute heart failure is unclear due to insufficient data on specific criteria. The patient does not violate the exclusion criteria related to medication dosages, chronic kidney disease stage, or renal replacement therapy. However, the status regarding blood pressure, vasoactive drugs, intravascular volume, specific cardiomyopathy type, and sepsis is unclear.",
+  "Final Decision": "Likely Eligible (leaning toward inclusion)"
+}
+```

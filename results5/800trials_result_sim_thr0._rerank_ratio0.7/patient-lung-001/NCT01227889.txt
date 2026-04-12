@@ -1,0 +1,25 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Adults at least 18 years of age", "Classification": "Met", "Justification": "The patient is 53 years old, which satisfies the age requirement."},
+    {"Criterion": "Has advanced (unresectable Stage III) or metastatic (Stage IV) melanoma that is BRAF mutation positive (V600E)", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, not melanoma, and there is no mention of a BRAF mutation."},
+    {"Criterion": "Is treatment naive for advanced (unresectable) or metastatic melanoma, with the exception of Interleukin 2 (IL-2) which is allowed", "Classification": "Not Met", "Justification": "The patient is currently undergoing treatment for lung cancer, not melanoma, and is not treatment naive for melanoma."},
+    {"Criterion": "Has measurable disease according to RECIST 1.1 criteria", "Classification": "Unclear", "Justification": "There is no specific information provided about the measurability of the disease according to RECIST 1.1 criteria."},
+    {"Criterion": "Women of child-bearing potential must have a negative pregnancy test within 14 days prior to the first dose of study treatment", "Classification": "Irrelevant", "Justification": "The patient is 53 years old, which is generally beyond typical child-bearing age, making this criterion irrelevant."},
+    {"Criterion": "Women with reproductive potential must be willing to practice acceptable methods of birth control during the study and for up to 4 weeks after the last dose of study medication", "Classification": "Irrelevant", "Justification": "The patient is 53 years old, which is generally beyond typical child-bearing age, making this criterion irrelevant."},
+    {"Criterion": "Men with reproductive potential must be willing to practice acceptable methods of birth control during the study and for up to 16 weeks after the last dose of study medication", "Classification": "Irrelevant", "Justification": "The patient is female, so this criterion does not apply."},
+    {"Criterion": "Must have adequate organ function", "Classification": "Unclear", "Justification": "There is no specific information provided about the patient's organ function, only mild elevations in hepatic transaminase levels are mentioned."},
+    {"Criterion": "Must have Eastern Cooperative Oncology Group (ECOG) Performance Status of 0-1", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ECOG Performance Status."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Currently receiving cancer therapy (chemotherapy, radiation therapy, immunotherapy, biologic therapy or surgery)", "Classification": "Violated", "Justification": "The patient is currently undergoing treatment with osimertinib for lung cancer."},
+    {"Criterion": "Evidence of active central nervous system (CNS) disease", "Classification": "Not Violated", "Justification": "There is no mention of CNS disease in the patient's profile."},
+    {"Criterion": "Previous treatment for metastatic melanoma, including treatment with BRAF or MEK inhibitor", "Classification": "Not Violated", "Justification": "The patient has not been treated for metastatic melanoma, as she has lung cancer."},
+    {"Criterion": "A history of other malignancy. Subjects who have been disease-free for 5 years or subjects with a history of complete resected non-melanoma skin cancer or successfully treated in situ carcinoma are eligible", "Classification": "Not Violated", "Justification": "The patient has a history of lung cancer, but there is no mention of other malignancies or their treatment status."},
+    {"Criterion": "History of Human Immunodeficiency Virus (HIV) infection", "Classification": "Not Violated", "Justification": "There is no mention of HIV infection in the patient's profile."},
+    {"Criterion": "Certain cardiac abnormalities", "Classification": "Not Violated", "Justification": "There is no mention of cardiac abnormalities in the patient's profile."}
+  ],
+  "Recap": "The patient is ineligible for the clinical trial due to not meeting the inclusion criteria related to melanoma diagnosis and treatment status, and violating the exclusion criterion of currently receiving cancer therapy.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,33 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "aged from 18 to 70 years", "Classification": "Met", "Justification": "The patient is 53 years old, which falls within the specified age range of 18 to 70 years."},
+    {"Criterion": "having histologically confirmed metastatic colorectal cancer", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, not colorectal cancer."},
+    {"Criterion": "having experienced previous treatment failures including fluoropyrimidine, irinotecan and oxaliplatine chemotherapy regiment", "Classification": "Irrelevant", "Justification": "The patient's cancer type and treatment history do not pertain to colorectal cancer or the specified chemotherapy regimens."},
+    {"Criterion": "having determined wild-type KRAS tumor", "Classification": "Irrelevant", "Justification": "The patient's cancer is lung adenocarcinoma with an EGFR exon 19 deletion, not related to KRAS status in colorectal cancer."},
+    {"Criterion": "having to have measurable or nonmeasurable disease per Response Evaluation Criteria In Solid Tumors (RECIST) version 1.1", "Classification": "Unclear", "Justification": "There is no information provided about the patient's disease status according to RECIST criteria."},
+    {"Criterion": "Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 1", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not mentioned in the provided data."},
+    {"Criterion": "expected survival of at least ≥3 months", "Classification": "Unclear", "Justification": "There is no information provided about the patient's expected survival duration."},
+    {"Criterion": "adequate hematological, renal and liver functions", "Classification": "Unclear", "Justification": "The patient's specific hematological, renal, and liver function test results are not provided."},
+    {"Criterion": "no other malignancies only if they had following malignancies, which were not required to treat or who had curative resection", "Classification": "Met", "Justification": "The patient has a family history of breast cancer, but no personal history of other malignancies is mentioned."},
+    {"Criterion": "no serious nonmalignant diseases including hypertension, diabetes mellitus, coronary artery disease, and mental disorder", "Classification": "Met", "Justification": "There is no mention of the patient having any of these serious nonmalignant diseases."},
+    {"Criterion": "not pregnant; or not lactating; or accepted birth control methods during the study", "Classification": "Unclear", "Justification": "The patient's pregnancy or lactation status is not mentioned."},
+    {"Criterion": "signed an informed consent form which was approved by the institutional review board of the respective medical center", "Classification": "Met", "Justification": "The patient has signed an informed consent form as stated in the description."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "had received EGFR target treatment including EGFR tyrosine kinase inhibitors(TKI), or anti- EGFR monoclonal antibody", "Classification": "Violated", "Justification": "The patient is currently undergoing treatment with osimertinib, an EGFR tyrosine kinase inhibitor."},
+    {"Criterion": "having to be at least 4 weeks beyond prior anticancer therapy (including corticosteroid, or nitrosourea or mitomycin within 6 weeks of study entry) or participating in other clinical trial, or have not recovered from significant toxicities of prior therapy", "Classification": "Unclear", "Justification": "There is no information provided about the timing of the patient's prior anticancer therapy or recovery status."},
+    {"Criterion": "chronic use of medication that could interfere with the assessment of drug-related toxicities or immunologic activity (high dose prednisone or high dose non-steroid anti-inflammatory medication)", "Classification": "Unclear", "Justification": "The patient's medication history is not detailed enough to determine chronic use of interfering medications."},
+    {"Criterion": "had recent major surgery (within 28 days)", "Classification": "Unclear", "Justification": "There is no information provided about any recent major surgery the patient may have had."},
+    {"Criterion": "with symptomatically brain metastases (with the exception of clinically brain metastases stable and of no requirement further treatment)", "Classification": "Unclear", "Justification": "There is no information provided about the presence or status of brain metastases."},
+    {"Criterion": "with active infection requirement systemic antibiotics treatment; or serious cardiovascular disease; or with evidence of active hepatitis B or C infection; or with human immunodeficiency virus infection", "Classification": "Met", "Justification": "There is no mention of the patient having any of these conditions."},
+    {"Criterion": "had acute pulmonary disorder; or interstitial pneumonia; or symptomatically chronic obstructive pulmonary disease (COPD) or with risk factors to COPD", "Classification": "Unclear", "Justification": "The patient has a history of smoking, but there is no specific mention of acute pulmonary disorder, interstitial pneumonia, or COPD."},
+    {"Criterion": "with eye inflammation or infection, or any risk factors who could lead to eye disease", "Classification": "Met", "Justification": "There is no mention of the patient having eye inflammation, infection, or risk factors for eye disease."},
+    {"Criterion": "with a history of allergic reaction or protein product allergy including antibodies product", "Classification": "Met", "Justification": "There is no mention of the patient having a history of allergic reactions or protein product allergies."},
+    {"Criterion": "pregnant, or lactating, or not accepted birth control methods including male patients", "Classification": "Unclear", "Justification": "The patient's pregnancy or lactation status is not mentioned."},
+    {"Criterion": "had a history of alcohol or drugs addiction, or with any risk which may affect the patient's health evaluation or mantle state", "Classification": "Met", "Justification": "There is no mention of the patient having a history of alcohol or drug addiction or any risk affecting health evaluation."}
+  ],
+  "Recap": "The patient meets the age criterion and has no other malignancies or serious nonmalignant diseases. However, she violates the exclusion criterion of having received EGFR target treatment. Other criteria remain unclear due to insufficient data.",
+  "Final Decision": "Ineligible"
+}
+```

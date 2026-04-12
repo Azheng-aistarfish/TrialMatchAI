@@ -1,0 +1,21 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age ≥70 years", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "New diagnosis or progression/relapse of acute leukemia, chronic myeloid leukemia, chronic lymphocytic leukemia, myelodysplastic syndrome, lymphoma, multiple myeloma, chronic myelomonocytic leukemia or myelofibrosis", "Classification": "Not Met", "Justification": "The patient is diagnosed with COVID-19 and other conditions, but none of the specified cancers are mentioned."},
+    {"Criterion": "Scheduled systemic cancer treatment or initiated systemic cancer treatment within 6 weeks", "Classification": "Not Met", "Justification": "There is no mention of the patient being scheduled for or having initiated systemic cancer treatment within the past 6 weeks."},
+    {"Criterion": "Geriatric 8 frailty score of ≤14 at screening", "Classification": "Unclear", "Justification": "The patient's Geriatric 8 frailty score is not provided in the data."},
+    {"Criterion": "Life expectancy > 6 months", "Classification": "Unclear", "Justification": "The patient's life expectancy is not specified in the data."},
+    {"Criterion": "Not hospitalized at the time of inclusion", "Classification": "Unclear", "Justification": "The patient's current hospitalization status is not mentioned in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Current systemic treatment for other coexisting cancer. Patients receiving anti-hormone treatment for breast cancer or prostate cancer are not excluded, if no evidence of disease progression (radiological/biochemical) in past 3 months or if treatment is adjuvant", "Classification": "Not Violated", "Justification": "There is no mention of the patient receiving systemic treatment for cancer, including anti-hormone treatment for breast or prostate cancer."},
+    {"Criterion": "Having consulted a geriatric outpatient clinic past 6 months", "Classification": "Unclear", "Justification": "There is no information provided about the patient consulting a geriatric outpatient clinic in the past 6 months."},
+    {"Criterion": "Patients in need of specialized neuro-rehabilitation", "Classification": "Not Violated", "Justification": "There is no mention of the patient needing specialized neuro-rehabilitation."},
+    {"Criterion": "Unable to understand Danish", "Classification": "Not Violated", "Justification": "There is no information suggesting the patient is unable to understand Danish."},
+    {"Criterion": "Unable to give written informed consent", "Classification": "Not Violated", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria related to cancer diagnosis or treatment. Exclusion criteria related to cancer treatment and consent are not violated. However, due to missing information on age, frailty score, life expectancy, and hospitalization status, a definitive eligibility decision cannot be made.",
+  "Final Decision": "Likely Ineligible (leaning toward exclusion)"
+}
+```

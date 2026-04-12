@@ -1,0 +1,25 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "aged from 18 to 75 years", "Classification": "Met", "Justification": "The patient is 47 years old, which falls within the specified age range of 18 to 75 years."},
+    {"Criterion": "having histologically confirmed NHL expressing CD20 antigen", "Classification": "Not Met", "Justification": "The patient has metastatic hormone receptor-positive, HER2-negative breast cancer, not NHL expressing CD20 antigen."},
+    {"Criterion": "having relapsed non-Hodgkin's lymphoma(NHL) after at least one prior course of standard therapy", "Classification": "Not Met", "Justification": "The patient has breast cancer, not NHL, and there is no mention of relapsed NHL or prior therapy for NHL."},
+    {"Criterion": "Eastern Cooperative Oncology Group (ECOG) performance status ≤ 2 according to WHO scale, and expected survival of at least ≥ 3 months", "Classification": "Unclear", "Justification": "The patient's ECOG performance status and expected survival are not provided in the data."},
+    {"Criterion": "signed an informed consent form which was approved by the institutional review board of the respective medical center", "Classification": "Met", "Justification": "The patient has obtained written informed consent, meeting this criterion."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "single measurable lesion ≥7 cm in diameter", "Classification": "Unclear", "Justification": "The size of the patient's lesions is not specified in the data."},
+    {"Criterion": "with serious hematologic dysfunction (white blood cell count of <3.0×103/μL; absolute neutrophil count of <1.5×103/ μL; platelet count of < 75×103/μL; hemoglobin level of < 8.0 g/dL; serum immunoglobulin G(IgG) level of <600 mg/dL);, hepatic dysfunction (total bilirubin level of > 1.5×upper limit of normal（ULN）; aspartate amino transferase (AST) and alanine amino transferase (ALT) levels of >2.5 × ULN (≥5 × ULN for patients with liver metastases)); and renal dysfunction (serum creatinine level of > 1.5×ULN )", "Classification": "Unclear", "Justification": "The patient's hematologic, hepatic, and renal function test results are not provided in the data."},
+    {"Criterion": "having to be at least 4 weeks beyond prior anticancer therapy including corticosteroid, or participating in other clinical trial or have not recovered from significant toxicities of prior therapy", "Classification": "Unclear", "Justification": "There is no information on the timing of the patient's last anticancer therapy or participation in other clinical trials."},
+    {"Criterion": "had received rituximab or other anti-CD20(+) monoclonal antibody treatment within 1 year before enrollment", "Classification": "Not Violated", "Justification": "The patient has not received rituximab or other anti-CD20 monoclonal antibody treatment, as she has breast cancer, not NHL."},
+    {"Criterion": "had received hematopoietic cytokines, e.g CSF、EPO within 1 week prior to study entry", "Classification": "Not Violated", "Justification": "There is no mention of the patient receiving hematopoietic cytokines in the data."},
+    {"Criterion": "with other malignancies ; or central nervous system (CNS) lymphoma, AIDS- related lymphoma; or active opportunistic infection, a serious nonmalignant disease", "Classification": "Not Violated", "Justification": "The patient has breast cancer, not CNS lymphoma, AIDS-related lymphoma, or other malignancies mentioned in the exclusion criteria."},
+    {"Criterion": "having hepatitis B virus surface antigen and /or antibodies to hepatitis C virus or human immunodeficiency virus", "Classification": "Irrelevant", "Justification": "The patient's hepatitis B, hepatitis C, or HIV status is not mentioned, making this criterion irrelevant to the current context."},
+    {"Criterion": "with pleural effusions or ascites secondary to lymphoma; or high risk of tumor lysis syndrome; or recent major surgery (within 28 days )", "Classification": "Irrelevant", "Justification": "The patient's condition does not involve pleural effusions, ascites, or recent major surgery, making this criterion irrelevant."},
+    {"Criterion": "with a history of allergic reaction or protein product allergy including murine proteins", "Classification": "Irrelevant", "Justification": "There is no mention of allergies in the patient's data, making this criterion irrelevant."},
+    {"Criterion": "pregnant or lactating or not accepted birth control methods including male patients", "Classification": "Irrelevant", "Justification": "The patient is female and there is no mention of pregnancy, lactation, or birth control methods, making this criterion irrelevant."}
+  ],
+  "Recap": "The patient meets the age and informed consent inclusion criteria but does not meet the NHL-specific criteria. Exclusion criteria related to other malignancies and specific treatments are not violated, but some criteria remain unclear due to missing data.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,43 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age ≥ 18 and ≤ 75, regardless of gender", "Classification": "Met", "Justification": "The patient is 58 years old, which falls within the specified age range."},
+    {"Criterion": "ECOG physical condition score is 0 to 1", "Classification": "Unclear", "Justification": "The patient's ECOG score is not provided in the data."},
+    {"Criterion": "Anticipated survival > 3 months", "Classification": "Unclear", "Justification": "There is no information on the patient's anticipated survival duration."},
+    {"Criterion": "Advanced digestive tract tumor or urinary system tumor confirmed by histology or cytology", "Classification": "Not Met", "Justification": "The patient has a cardiac condition, not a digestive or urinary system tumor."},
+    {"Criterion": "Patients with unresectable locally advanced or metastatic malignant digestive or urinary system tumors who have failed at least the first-line standard treatment", "Classification": "Not Met", "Justification": "The patient does not have a digestive or urinary system tumor, as mentioned in the data."},
+    {"Criterion": "At least one tumor lesion can be measured by CT or MRI", "Classification": "Not Met", "Justification": "The patient does not have a tumor, so this criterion is not applicable."},
+    {"Criterion": "PD-1 positive T cells in peripheral blood accounts for ≥ 18% of total T lymphocytes", "Classification": "Unclear", "Justification": "There is no information on the patient's PD-1 positive T cell percentage."},
+    {"Criterion": "Voluntarily accept the use of peripheral blood cell apheresis to obtain cells for the preparation of ScTIL cells", "Classification": "Unclear", "Justification": "The patient's willingness to undergo apheresis is not mentioned."},
+    {"Criterion": "Sufficient bone marrow and organ functions", "Classification": "Unclear", "Justification": "The patient's bone marrow and organ function data are not provided."},
+    {"Criterion": "Qualified patients with fertility must agree to use reliable contraceptive methods", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Study subjects must obtain informed consent to this study and voluntarily sign a written informed consent before screening for enrollment", "Classification": "Met", "Justification": "The patient has obtained written informed consent."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Central nervous system metastasis or meningeal metastasis with clinical symptoms", "Classification": "Not Violated", "Justification": "There is no mention of central nervous system metastasis in the patient's data."},
+    {"Criterion": "Patients who had in recent 5 years or currently have other malignant tumors", "Classification": "Not Violated", "Justification": "The patient does not have any other malignant tumors, only a cardiac condition."},
+    {"Criterion": "Patients who received PD-L1 monoclonal antibody treatment within 12 weeks before apheresis", "Classification": "Not Violated", "Justification": "There is no mention of PD-L1 monoclonal antibody treatment in the patient's data."},
+    {"Criterion": "There was active infection within 1 week before apheresis", "Classification": "Not Violated", "Justification": "There is no mention of an active infection in the patient's data."},
+    {"Criterion": "Currently suffering from interstitial lung disease", "Classification": "Not Violated", "Justification": "The patient does not have interstitial lung disease, as per the data."},
+    {"Criterion": "Had received immunotherapy and had ≥ grade 3 IrAE", "Classification": "Not Violated", "Justification": "The patient has not received immunotherapy, according to the data."},
+    {"Criterion": "Patients with active or had autoimmune diseases that may recur", "Classification": "Not Violated", "Justification": "The patient does not have any autoimmune diseases, as mentioned in the data."},
+    {"Criterion": "The adverse reaction of previous anti-tumor treatment has not recovered to CTCAE 5.0 grade evaluation ≤ 1", "Classification": "Irrelevant", "Justification": "The patient has not undergone anti-tumor treatment, so this criterion does not apply."},
+    {"Criterion": "Received anti-tumor treatment within 2 weeks before apheresis", "Classification": "Not Violated", "Justification": "The patient has not received any anti-tumor treatment, as per the data."},
+    {"Criterion": "Received systemic glucocorticoid or other immunosuppressant treatment within 2 weeks before apheresis", "Classification": "Not Violated", "Justification": "There is no mention of glucocorticoid or immunosuppressant treatment in the patient's data."},
+    {"Criterion": "Within 4 weeks before apheresis: have received other unlisted clinical research drugs or treatments", "Classification": "Not Violated", "Justification": "The patient has not received any unlisted clinical research drugs or treatments, according to the data."},
+    {"Criterion": "Within 4 weeks before apheresis: having undergone major organ surgery or significant trauma", "Classification": "Not Violated", "Justification": "There is no mention of recent major organ surgery or significant trauma in the patient's data."},
+    {"Criterion": "Used live attenuated vaccine", "Classification": "Not Violated", "Justification": "There is no mention of live attenuated vaccine use in the patient's data."},
+    {"Criterion": "Hepatitis B: HBsAg (+) or HBeAg (+)", "Classification": "Not Violated", "Justification": "There is no mention of hepatitis B infection in the patient's data."},
+    {"Criterion": "Hepatitis C: anti HCV positive", "Classification": "Not Violated", "Justification": "There is no mention of hepatitis C infection in the patient's data."},
+    {"Criterion": "Have a history of immunodeficiency, including HIV antibody test positive", "Classification": "Not Violated", "Justification": "The patient does not have a history of immunodeficiency, as per the data."},
+    {"Criterion": "Have a history of serious cardiovascular and cerebrovascular diseases", "Classification": "Violated", "Justification": "The patient has a complex cardiac history, including multiple myocardial infarctions and impaired left ventricular function."},
+    {"Criterion": "Serous cavity effusion beyond clinical control", "Classification": "Not Violated", "Justification": "There is no mention of serous cavity effusion in the patient's data."},
+    {"Criterion": "Known alcohol or drug dependence", "Classification": "Not Violated", "Justification": "The patient does not have a history of alcohol or drug dependence, according to the data."},
+    {"Criterion": "Mental disorders or poor compliance", "Classification": "Not Violated", "Justification": "There is no mention of mental disorders or poor compliance in the patient's data."},
+    {"Criterion": "Pregnant or lactating women", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "The researcher believes that the subject has a history of other serious systemic diseases or is not suitable to participate in this clinical study due to other reasons", "Classification": "Unclear", "Justification": "The researcher's judgment is not provided in the data."}
+  ],
+  "Recap": "The patient meets the age and informed consent criteria but does not meet the tumor-related inclusion criteria. The patient's complex cardiac history violates the exclusion criteria related to serious cardiovascular diseases.",
+  "Final Decision": "Ineligible"
+}
+```

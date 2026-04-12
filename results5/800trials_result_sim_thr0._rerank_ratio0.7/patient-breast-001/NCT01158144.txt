@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologically proven non-small cell lung cancer (squamous cell carcinoma, adenocarcinoma, large cell carcinoma and etc)", "Classification": "Not Met", "Justification": "The patient has metastatic hormone receptor-positive, HER2-negative breast cancer, not non-small cell lung cancer."},
+    {"Criterion": "Presence of measurable disease by RECIST", "Classification": "Unclear", "Justification": "The patient's data does not specify if the disease is measurable by RECIST criteria."},
+    {"Criterion": "Stage IIIA or IIIB, non-resectable", "Classification": "Not Met", "Justification": "The patient's breast cancer is classified as Stage IV, not Stage IIIA or IIIB."},
+    {"Criterion": "ECOG performance status 0-1", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided in the data."},
+    {"Criterion": "No prior chemotherapy, radiation therapy to chest, immunotherapy, or biologic therapy", "Classification": "Not Met", "Justification": "The patient has been treated with endocrine therapy, which is a form of biologic therapy."},
+    {"Criterion": "Patients must sign an informed consent indicating that they are aware of the investigational nature of the study in keeping with the policy of the hospital", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Carcinoid tumor, small cell carcinoma of lung", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not a lung carcinoma."},
+    {"Criterion": "Patients with any distant metastasis", "Classification": "Violated", "Justification": "The patient has liver lesions consistent with metastatic disease."},
+    {"Criterion": "History of another malignancy except cured basal cell carcinoma of skin and cured carcinoma in-situ of uterine cervix", "Classification": "Violated", "Justification": "The patient has a history of breast cancer, which is a malignancy other than the exceptions listed."},
+    {"Criterion": "Any other morbidity or situation with contraindication for radiotherapy (e.g. active infection, myocardial infarction preceding 6 months, symptomatic heart disease including unstable angina, congestive heart failure or uncontrolled arrhythmias, immunosuppressive treatment)", "Classification": "Irrelevant", "Justification": "There is no information provided about any contraindications for radiotherapy."},
+    {"Criterion": "Pregnant or lactating women, women who has not taken test of pregnancy (within 7 days before the first administration) and pregnant women", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's pregnancy status."},
+    {"Criterion": "Women and men of childbearing potential who have no willing of employing adequate contraception", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's willingness to use contraception."},
+    {"Criterion": "Tumor EGFR wild", "Classification": "Irrelevant", "Justification": "The patient's tumor profiling identified a PIK3CA mutation, not EGFR status, and the trial is for lung cancer, not breast cancer."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for non-small cell lung cancer, stage IIIA or IIIB, or lack of prior biologic therapy. The patient violates exclusion criteria due to distant metastasis and a history of breast cancer.",
+  "Final Decision": "Ineligible"
+}
+```

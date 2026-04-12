@@ -1,0 +1,30 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Patients with a new or recurrent, presumed or documented, diagnosis of primary or secondary brain tumor in or adjacent to eloquent brain areas (motor, SMA and language) who are scheduled to undergo tumor resection.",
+      "Classification": "Not Met",
+      "Justification": "The patient's data does not mention any diagnosis of a brain tumor, nor is there any indication of a scheduled tumor resection."
+    },
+    {
+      "Criterion": "Patients must sign an informed consent.",
+      "Classification": "Met",
+      "Justification": "The patient's data explicitly states that written informed consent has been obtained."
+    }
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {
+      "Criterion": "Patients with a history of uncontrolled seizures.",
+      "Classification": "Not Violated",
+      "Justification": "There is no mention of seizures in the patient's data, so this criterion is not violated."
+    },
+    {
+      "Criterion": "Patients with metal implant or a cardiac pacemaker.",
+      "Classification": "Violated",
+      "Justification": "The patient has a Left Ventricular Assist Device, which is a metal implant, thus violating this exclusion criterion."
+    }
+  ],
+  "Recap": "The patient does not meet the inclusion criterion of having a brain tumor diagnosis or scheduled resection. However, they have met the informed consent requirement. The patient violates the exclusion criterion due to the presence of a metal implant (Left Ventricular Assist Device).",
+  "Final Decision": "Ineligible"
+}
+```

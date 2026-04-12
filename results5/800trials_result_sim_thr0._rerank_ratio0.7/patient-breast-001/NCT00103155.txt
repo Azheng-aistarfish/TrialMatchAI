@@ -1,0 +1,26 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Cytologically confirmed papillary thyroid cancer by fine needle aspiration", "Classification": "Not Met", "Justification": "The patient has been diagnosed with metastatic hormone receptor-positive, HER2-negative breast cancer, not papillary thyroid cancer."},
+    {"Criterion": "Low-risk disease", "Classification": "Not Met", "Justification": "The patient's breast cancer is classified as Stage IV, indicating a high-risk disease, not low-risk."},
+    {"Criterion": "No poorly differentiated cytology", "Classification": "Irrelevant", "Justification": "The patient's diagnosis is breast cancer, not thyroid cancer, making this criterion irrelevant."},
+    {"Criterion": "Intrathyroidal tumor", "Classification": "Not Met", "Justification": "The patient has breast cancer with liver metastases, not an intrathyroidal tumor."},
+    {"Criterion": "Located within the anterior two-thirds of the thyroid lobe", "Classification": "Not Met", "Justification": "The patient's cancer is not located in the thyroid, so this criterion is not applicable."},
+    {"Criterion": "Tumor not adjacent to the trachea by neck ultrasound", "Classification": "Not Met", "Justification": "The patient's cancer is not in the thyroid, so this criterion is not applicable."},
+    {"Criterion": "Tumor ≤ 1.5 cm by neck ultrasound", "Classification": "Not Met", "Justification": "The patient's cancer is not in the thyroid, so this criterion is not applicable."},
+    {"Criterion": "Requires thyroidectomy", "Classification": "Not Met", "Justification": "The patient has breast cancer, not thyroid cancer, so thyroidectomy is not relevant."},
+    {"Criterion": "No cervical lymphadenopathy", "Classification": "Unclear", "Justification": "There is no information provided about the presence or absence of cervical lymphadenopathy."},
+    {"Criterion": "No multicentric tumors by neck ultrasound", "Classification": "Not Met", "Justification": "The patient's cancer is not in the thyroid, so this criterion is not applicable."},
+    {"Criterion": "No evidence of lymph node metastasis", "Classification": "Not Met", "Justification": "The patient's breast cancer is classified as Stage IV with N1, indicating lymph node involvement."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Biologic therapy", "Classification": "Not Violated", "Justification": "The patient is receiving fulvestrant, which is an endocrine therapy, not a biologic therapy."},
+    {"Criterion": "Chemotherapy", "Classification": "Not Violated", "Justification": "The patient is not receiving chemotherapy; she is on fulvestrant and palbociclib."},
+    {"Criterion": "Endocrine therapy", "Classification": "Violated", "Justification": "The patient is currently receiving fulvestrant, which is an endocrine therapy."},
+    {"Criterion": "Radiotherapy", "Classification": "Not Violated", "Justification": "There is no information indicating that the patient has received radiotherapy."},
+    {"Criterion": "Surgery", "Classification": "Not Violated", "Justification": "There is no information indicating that the patient has undergone surgery for her current cancer treatment."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for the clinical trial as she has metastatic breast cancer, not papillary thyroid cancer. Additionally, she violates the exclusion criterion of not having received endocrine therapy, as she is currently on fulvestrant.",
+  "Final Decision": "Ineligible"
+}
+```

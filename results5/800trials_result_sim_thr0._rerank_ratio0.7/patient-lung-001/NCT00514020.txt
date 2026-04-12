@@ -1,0 +1,34 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients must have histologically or cytologically confirmed adenocarcinoma of the stomach or gastroesophageal junction", "Classification": "Not Met", "Justification": "The patient has adenocarcinoma of the lung, not the stomach or gastroesophageal junction."},
+    {"Criterion": "Metastatic disease", "Classification": "Unclear", "Justification": "The patient's description mentions metastatic non-small cell lung cancer, but it does not specify if it is metastatic to the stomach or gastroesophageal junction."},
+    {"Criterion": "Patients must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as ≥ 20 mm with conventional techniques or as ≥ 10 mm with spiral CT scan", "Classification": "Unclear", "Justification": "There is no information provided about the size of any lesions in the patient's description."},
+    {"Criterion": "No known active brain metastases", "Classification": "Irrelevant", "Justification": "The patient's cancer is in the lung, not the brain, making this criterion irrelevant."},
+    {"Criterion": "Patients with treated brain metastases are eligible if stable off steroids for at least 30 days", "Classification": "Irrelevant", "Justification": "The patient does not have brain metastases, so this criterion is irrelevant."},
+    {"Criterion": "ECOG performance status ≤ 2 (Karnofsky performance status ≥ 60%)", "Classification": "Unclear", "Justification": "The patient's ECOG or Karnofsky performance status is not provided in the description."},
+    {"Criterion": "Life expectancy ≥ 3 months", "Classification": "Unclear", "Justification": "There is no information provided about the patient's life expectancy."},
+    {"Criterion": "WBC ≥ 3,000/μL", "Classification": "Unclear", "Justification": "The patient's white blood cell count is not provided in the description."},
+    {"Criterion": "Absolute neutrophil count ≥ 1,500/μL", "Classification": "Unclear", "Justification": "The patient's absolute neutrophil count is not provided in the description."},
+    {"Criterion": "Platelets ≥ 100,000/μL", "Classification": "Unclear", "Justification": "The patient's platelet count is not provided in the description."},
+    {"Criterion": "Total bilirubin ≤ 1.5 x upper limit of normal (ULN)", "Classification": "Unclear", "Justification": "The patient's total bilirubin level is not provided in the description."},
+    {"Criterion": "AST or ALT ≤ 2.5 x ULN (< 5 x ULN if known liver metastases)", "Classification": "Unclear", "Justification": "The patient's AST or ALT levels are not provided in the description."},
+    {"Criterion": "Creatinine clearance ≤ 1.5 x ULN", "Classification": "Unclear", "Justification": "The patient's creatinine clearance is not provided in the description."},
+    {"Criterion": "Not pregnant or nursing", "Classification": "Irrelevant", "Justification": "The patient's pregnancy or nursing status is not mentioned, but it is not relevant to the cancer type in question."},
+    {"Criterion": "Negative pregnancy test", "Classification": "Irrelevant", "Justification": "The patient's pregnancy status is not mentioned, but it is not relevant to the cancer type in question."},
+    {"Criterion": "Fertile patients must use effective contraception during and for 21 days after completion of study treatment", "Classification": "Irrelevant", "Justification": "The patient's fertility status is not mentioned, but it is not relevant to the cancer type in question."},
+    {"Criterion": "No history of allergic reactions to fluorouracil or oxaliplatin", "Classification": "Irrelevant", "Justification": "The patient's history of allergic reactions to these drugs is not mentioned, but it is not relevant to the cancer type in question."},
+    {"Criterion": "No concurrent uncontrolled illness including, but not limited to, ongoing or active infection or psychiatric illness/social situations that would limit compliance with study requirements", "Classification": "Unclear", "Justification": "There is no information provided about any uncontrolled illnesses or conditions that might affect compliance."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "No prior therapy for metastatic disease", "Classification": "Violated", "Justification": "The patient is currently undergoing treatment with osimertinib, indicating prior therapy for metastatic disease."},
+    {"Criterion": "Prior neoadjuvant or adjuvant therapy is allowed if the disease-free interval has been longer than 6 months", "Classification": "Irrelevant", "Justification": "The patient's history of neoadjuvant or adjuvant therapy is not mentioned, but it is not relevant to the current metastatic treatment."},
+    {"Criterion": "No other concurrent chemotherapy", "Classification": "Violated", "Justification": "The patient is currently undergoing treatment with osimertinib, which is a form of chemotherapy."},
+    {"Criterion": "No concurrent combination anti-retroviral therapy for HIV-positive patients", "Classification": "Irrelevant", "Justification": "The patient's HIV status is not mentioned, making this criterion irrelevant."},
+    {"Criterion": "No concurrent routine prophylaxis with filgrastim (G-CSF)", "Classification": "Irrelevant", "Justification": "There is no information provided about the use of filgrastim, making this criterion irrelevant."},
+    {"Criterion": "No other concurrent antineoplastic agents, including chemotherapy, radiation therapy, or biologic agents", "Classification": "Violated", "Justification": "The patient is currently undergoing treatment with osimertinib, which is an antineoplastic agent."}
+  ],
+  "Recap": "The patient does not meet the primary inclusion criterion of having adenocarcinoma of the stomach or gastroesophageal junction. Additionally, the patient has violated exclusion criteria related to prior therapy for metastatic disease and concurrent chemotherapy.",
+  "Final Decision": "Ineligible"
+}
+```

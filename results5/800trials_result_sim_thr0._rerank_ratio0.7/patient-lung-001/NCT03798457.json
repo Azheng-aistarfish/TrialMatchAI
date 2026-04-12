@@ -1,0 +1,38 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Age > 18 years",
+            "Classification": "Met",
+            "Justification": "The patient is 53 years old, which is greater than 18 years."
+        },
+        {
+            "Criterion": "Diagnosis of pneumonia defined by the presence on chest X-ray or CT-scan of lung of new infiltration associated with at least two of the following clinical features: - fever > 37.8°C - typical symptoms (dyspnea, productive cough, pain) - typical clinical signs on chest examination (crepitation, bronchial breathing, pleural effusion) - leukocytosis",
+            "Classification": "Not Met",
+            "Justification": "The patient has a diagnosis of lung adenocarcinoma, not pneumonia. There is no mention of new lung infiltration or the specific clinical features associated with pneumonia in the provided data."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "patients with Hospital-Acquired Pneumonia (HAP) (i.e. those patients with pneumonia acquired in hospital more than 48 hours after admission)",
+            "Classification": "Irrelevant",
+            "Justification": "The patient does not have pneumonia, so this criterion does not apply."
+        },
+        {
+            "Criterion": "patients with tuberculosis in active phase",
+            "Classification": "Irrelevant",
+            "Justification": "There is no mention of tuberculosis in the patient's medical history or current condition."
+        },
+        {
+            "Criterion": "patients with cystic fibrosis",
+            "Classification": "Irrelevant",
+            "Justification": "The patient does not have cystic fibrosis, as there is no mention of it in the provided data."
+        },
+        {
+            "Criterion": "patients who refuse to participate in the study and/or to give the written informed consent",
+            "Classification": "Not Violated",
+            "Justification": "Written informed consent has been obtained from the patient or their legal representative."
+        }
+    ],
+    "Recap": "The patient meets the age criterion but does not meet the pneumonia diagnosis criterion. All exclusion criteria are irrelevant or not violated.",
+    "Final Decision": "Ineligible"
+}

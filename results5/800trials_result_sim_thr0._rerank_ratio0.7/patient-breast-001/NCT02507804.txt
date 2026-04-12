@@ -1,0 +1,22 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Adult patients aged 18 or over; no upper age limit.", "Classification": "Met", "Justification": "The patient is 47 years old, which satisfies the age requirement of being 18 or over."},
+    {"Criterion": "Cancer requiring commencement of chemotherapy (any line) with a regime containing at least 6 cycles (of any cycle duration).", "Classification": "Not Met", "Justification": "The patient is currently receiving fulvestrant and palbociclib, which are not chemotherapy agents, and there is no mention of a chemotherapy regimen with at least 6 cycles."},
+    {"Criterion": "Chemotherapy may include any systematic anti-cancer therapy (i.e. cytotoxic agents, immunotherapy or targeted therapy) provided this is delivered as induction therapy.", "Classification": "Not Met", "Justification": "The patient is on fulvestrant and palbociclib, which are not described as induction chemotherapy in the provided data."},
+    {"Criterion": "Expectation to complete cycles 1 through 6 of planned therapy.", "Classification": "Unclear", "Justification": "There is no information on the patient's planned therapy cycles or their expectation to complete them."},
+    {"Criterion": "The capacity to understand the Patient Information Sheet and provide written informed consent.", "Classification": "Met", "Justification": "Written informed consent has been obtained, indicating the patient's capacity to understand and consent."},
+    {"Criterion": "Non English speaking patients may enter the study if an English speaking friend or relative is willing to assist the patient.", "Classification": "Irrelevant", "Justification": "The patient's language proficiency is not mentioned, making this criterion irrelevant."},
+    {"Criterion": "Willingness and ability to comply with study procedures.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's willingness or ability to comply with study procedures."},
+    {"Criterion": "A patient enrolled on a concurrent IMP clinical trial is permitted at the Investigators discretion.", "Classification": "Irrelevant", "Justification": "There is no mention of the patient being enrolled in another clinical trial, making this criterion irrelevant."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients who have already commenced therapy for their current disease episode i.e. received at least their first cycle of chemotherapy.", "Classification": "Not Violated", "Justification": "The patient is not on chemotherapy, so this criterion is not violated."},
+    {"Criterion": "Patients receiving chemotherapy/radio-immunotherapy as the sole modality of treatment.", "Classification": "Not Violated", "Justification": "The patient is not receiving chemotherapy or radio-immunotherapy as the sole treatment modality."},
+    {"Criterion": "Patients who have completed induction therapy and due to commence maintenance therapy.", "Classification": "Not Violated", "Justification": "There is no indication that the patient has completed induction therapy or is about to start maintenance therapy."},
+    {"Criterion": "Uncontrolled medical condition that in the opinion of the Investigator may jeopardise completion of 6 cycles of treatment.", "Classification": "Unclear", "Justification": "There is no information on any uncontrolled medical conditions that might affect treatment completion."}
+  ],
+  "Recap": "The patient meets the age and consent criteria but does not meet the chemotherapy requirement. There is insufficient information on therapy cycles, compliance, and medical conditions.",
+  "Final Decision": "Ineligible"
+}
+```

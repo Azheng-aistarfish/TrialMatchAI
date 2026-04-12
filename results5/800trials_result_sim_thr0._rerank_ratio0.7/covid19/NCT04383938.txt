@@ -1,0 +1,33 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Signed informed consent form (ICF) and ability to comply with protocol requirements.", "Classification": "Met", "Justification": "The patient has obtained written informed consent, satisfying this criterion."},
+    {"Criterion": "Known tumor TP53 mutation status from recent or archival sample.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's TP53 mutation status."},
+    {"Criterion": "Histologically and/or cytologically confirmed solid tumor malignancy.", "Classification": "Unclear", "Justification": "The patient's profile does not mention any confirmed solid tumor malignancy."},
+    {"Criterion": "Advanced non-central nervous system (CNS) primary tumors that have progressed after first line treatment, who are intolerant to first line treatment, or who are unable to receive first line treatment, and for whom pembrolizumab, or pembrolizumab-based therapy is considered appropriate.", "Classification": "Unclear", "Justification": "There is no information about the patient's tumor type or treatment history."},
+    {"Criterion": "Creatinine clearance > 30 mL/min.", "Classification": "Unclear", "Justification": "The patient has Stage 3 chronic kidney disease, but specific creatinine clearance values are not provided."},
+    {"Criterion": "Total serum bilirubin < 1.5 × upper limit of normal (ULN) unless due to Gilbert's syndrome, tumor involvement, hemolysis or considered an effect of regular blood transfusions.", "Classification": "Unclear", "Justification": "There is no information on the patient's serum bilirubin levels."},
+    {"Criterion": "Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) < 3 × ULN, unless due to involvement by the underlying malignancy.", "Classification": "Unclear", "Justification": "The patient's ALT and AST levels are not provided."},
+    {"Criterion": "Projected life expectancy of ≥ 12 weeks.", "Classification": "Unclear", "Justification": "There is no information on the patient's projected life expectancy."},
+    {"Criterion": "Age ≥ 18 years at the time of signing the ICF.", "Classification": "Met", "Justification": "The patient is male, and there is no indication that he is under 18 years old."},
+    {"Criterion": "Eastern Cooperative Oncology Group (ECOG) performance status of 0, 1 or 2.", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided."},
+    {"Criterion": "Negative serum or urine pregnancy test prior to study treatment initiation in female subjects of childbearing potential.", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Women of childbearing potential and men with female partners of childbearing potential must be willing to use an effective form of contraception.", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Known history of untreated human immunodeficiency virus (HIV)/HIV with a detectable viral load or active hepatitis B or active hepatitis C infection.", "Classification": "Not Violated", "Justification": "There is no information indicating the patient has HIV, hepatitis B, or hepatitis C."},
+    {"Criterion": "Cardiac abnormalities.", "Classification": "Violated", "Justification": "The patient has cardiomyopathy, which is a cardiac abnormality."},
+    {"Criterion": "Concomitant malignancies or previous malignancies with less than a 1-year disease-free interval at the time of signing consent.", "Classification": "Not Violated", "Justification": "There is no information about any malignancies in the patient's history."},
+    {"Criterion": "Pregnancy or lactation.", "Classification": "Not Violated", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Active uncontrolled systemic infection.", "Classification": "Unclear", "Justification": "The patient has COVID-19, but it is unclear if it is considered an active uncontrolled systemic infection in this context."},
+    {"Criterion": "An autoimmune condition requiring ≥ 10 mg (or equivalent corticosteroid) prednisone daily, or any other systemic immunosuppressive treatment within 28 days of first dose of study therapy.", "Classification": "Not Violated", "Justification": "There is no information indicating the patient is on systemic immunosuppressive treatment."},
+    {"Criterion": "Known history of active tuberculosis.", "Classification": "Not Violated", "Justification": "There is no information indicating the patient has active tuberculosis."},
+    {"Criterion": "Current (non-infectious) pneumonitis, or a history of pneumonitis that required steroids.", "Classification": "Not Violated", "Justification": "There is no information indicating the patient has pneumonitis."},
+    {"Criterion": "A live vaccine administered within 30 days of the first dose of study treatment.", "Classification": "Not Violated", "Justification": "There is no information about recent live vaccine administration."},
+    {"Criterion": "Receipt of any investigational product within 14 days or 5 half-lives prior to study treatment initiation, whichever is shortest.", "Classification": "Not Violated", "Justification": "There is no information about the patient receiving any investigational products."},
+    {"Criterion": "Prior intolerance to pembrolizumab or other anti-PD-1/PD-L1 agents.", "Classification": "Not Violated", "Justification": "There is no information indicating the patient has prior intolerance to these agents."}
+  ],
+  "Recap": "The patient meets the informed consent criterion and is over 18 years old. However, the patient has cardiomyopathy, which violates the cardiac abnormalities exclusion criterion. Other inclusion criteria remain unclear due to insufficient data.",
+  "Final Decision": "Ineligible"
+}
+```

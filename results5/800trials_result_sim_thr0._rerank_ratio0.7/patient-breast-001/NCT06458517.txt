@@ -1,0 +1,25 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Adult patient (18 years old and older)", "Classification": "Met", "Justification": "The patient is 47 years old, which satisfies the criterion of being an adult."},
+    {"Criterion": "Patients with oral cavity or oropharynx cancer treated with radiotherapy or chemo-radiotherapy", "Classification": "Not Met", "Justification": "The patient has metastatic breast cancer, not oral cavity or oropharynx cancer."},
+    {"Criterion": "Karnofsky Performance Status > 60%", "Classification": "Unclear", "Justification": "There is no information provided about the patient's Karnofsky Performance Status."},
+    {"Criterion": "Able to understand French", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ability to understand French."},
+    {"Criterion": "With signed informed consent", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."},
+    {"Criterion": "Affiliated to French Health Security Insurance", "Classification": "Unclear", "Justification": "There is no information provided about the patient's affiliation with French Health Security Insurance."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Allergy to polyurethanes", "Classification": "Not Violated", "Justification": "There is no information provided about an allergy to polyurethanes."},
+    {"Criterion": "Head and Neck tumors that are localized to other sites than oral cavity or oropharynx", "Classification": "Not Violated", "Justification": "The patient has breast cancer, not head and neck tumors."},
+    {"Criterion": "Previous irradiation of Head and Neck (whatever the time lapse between the two irradiations)", "Classification": "Not Violated", "Justification": "There is no information provided about previous irradiation of the head and neck."},
+    {"Criterion": "Pregnant and breastfeeding woman", "Classification": "Not Violated", "Justification": "There is no information provided about the patient being pregnant or breastfeeding."},
+    {"Criterion": "Patients with pacemaker device", "Classification": "Not Violated", "Justification": "There is no information provided about the patient having a pacemaker device."},
+    {"Criterion": "Epileptic patients", "Classification": "Not Violated", "Justification": "There is no information provided about the patient having epilepsy."},
+    {"Criterion": "Concomitant treatment or treatment within the 7 days before inclusion with one of several drugs from the following list: fluoroquinolones, cycline, methotrexate, auranofin", "Classification": "Not Violated", "Justification": "The patient is currently receiving fulvestrant and palbociclib, which are not listed in the exclusion criteria."},
+    {"Criterion": "Patients with ophthalmic diseases (such as maculopathy, retinopathy, glaucoma and cataract, retinal damage)", "Classification": "Not Violated", "Justification": "There is no information provided about the patient having ophthalmic diseases."},
+    {"Criterion": "Patients under judicial protection", "Classification": "Not Violated", "Justification": "There is no information provided about the patient being under judicial protection."}
+  ],
+  "Recap": "The patient meets the age and informed consent criteria but does not meet the cancer type criterion. There is insufficient information to assess the Karnofsky Performance Status, ability to understand French, and affiliation with French Health Security Insurance. The patient does not violate any exclusion criteria based on the provided information.",
+  "Final Decision": "Ineligible"
+}
+```

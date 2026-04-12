@@ -1,0 +1,24 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "18 years old at time of consent", "Classification": "Met", "Justification": "The patient is 47 years old, which is well above the age requirement of 18 years."},
+    {"Criterion": "Diagnosed with a solid tumor that has progressed despite standard therapy or for which no standard effective or curative options exist or are suitable", "Classification": "Met", "Justification": "The patient has metastatic hormone receptor-positive, HER2-negative breast cancer, which is a solid tumor. The CA 15-3 level was elevated, indicating progression despite ongoing therapy with fulvestrant and palbociclib."},
+    {"Criterion": "EGFR-positive tumor expression", "Classification": "Not Met", "Justification": "The patient's tumor profiling identified a PIK3CA mutation, not EGFR positivity. There is no mention of EGFR-positive expression in the provided data."},
+    {"Criterion": "Adequate blood and organ function", "Classification": "Unclear", "Justification": "There is no specific information provided about the patient's blood or organ function in the data."},
+    {"Criterion": "Must agree to use contraception while on study and for 12 weeks after the last dose of IMGN289 as applicable", "Classification": "Unclear", "Justification": "There is no information provided about the patient's agreement to use contraception."},
+    {"Criterion": "Must be willing and able to sign informed consent and follow the study schedule and other protocol requirements", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient, indicating willingness and ability to comply with study requirements."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Other anti-cancer treatment during the study", "Classification": "Violated", "Justification": "The patient is currently receiving fulvestrant and palbociclib, which are anti-cancer treatments."},
+    {"Criterion": "Symptomatic brain metastases", "Classification": "Not Violated", "Justification": "There is no mention of brain metastases in the patient's data."},
+    {"Criterion": "Other clinically significant disease as defined by the protocol", "Classification": "Unclear", "Justification": "There is no information provided about other clinically significant diseases in the patient's data."},
+    {"Criterion": "Chronic skin condition that requires prescribed oral or intravenous treatment", "Classification": "Not Violated", "Justification": "There is no mention of a chronic skin condition in the patient's data."},
+    {"Criterion": "History of severe rash that required discontinuation of prior EGFR targeted therapy", "Classification": "Not Violated", "Justification": "There is no mention of a history of severe rash or prior EGFR targeted therapy in the patient's data."},
+    {"Criterion": "Receiving therapeutic doses of warfarin or heparin for anti-coagulation", "Classification": "Not Violated", "Justification": "There is no mention of the patient receiving warfarin or heparin in the data."},
+    {"Criterion": "Known diagnosis of HIV or active viral hepatitis", "Classification": "Not Violated", "Justification": "There is no mention of HIV or active viral hepatitis in the patient's data."},
+    {"Criterion": "Women who are pregnant or breast feeding", "Classification": "Unclear", "Justification": "There is no information provided about the patient's pregnancy or breastfeeding status."}
+  ],
+  "Recap": "The patient meets the age and consent criteria, and has a solid tumor that has progressed despite therapy. However, the patient does not meet the EGFR-positive criterion and is currently on other anti-cancer treatments, which violates the exclusion criteria. There is insufficient information to assess adequate blood and organ function, contraception agreement, and pregnancy status.",
+  "Final Decision": "Ineligible"
+}
+```

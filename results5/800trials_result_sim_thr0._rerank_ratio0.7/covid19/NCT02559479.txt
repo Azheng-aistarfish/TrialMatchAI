@@ -1,0 +1,25 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age: 18-70 years old.", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Body mass index between 27.5 - 40.", "Classification": "Unclear", "Justification": "The patient's BMI is not specified in the data."},
+    {"Criterion": "Steady weight (± 4 kg) in the last 2 months.", "Classification": "Unclear", "Justification": "There is no information on the patient's weight changes over the last 2 months."},
+    {"Criterion": "Glycated hemoglobin between 6 - 7%.", "Classification": "Unclear", "Justification": "The patient's glycated hemoglobin level is not provided in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Anti-diabetic drugs (oral or subcutaneous) in the last 2 months.", "Classification": "Unclear", "Justification": "There is no information on the patient's use of anti-diabetic drugs in the last 2 months."},
+    {"Criterion": "Lipid-lowering drugs in the last 2 months.", "Classification": "Unclear", "Justification": "The patient's use of lipid-lowering drugs in the last 2 months is not mentioned."},
+    {"Criterion": "Gouty arthritis in the last 2 years or uric acid > 735 mg/dl.", "Classification": "Not Violated", "Justification": "There is no mention of gouty arthritis or uric acid levels in the patient's data."},
+    {"Criterion": "Presence of uncontrolled endocrinological pathology (including hypothyroidism).", "Classification": "Unclear", "Justification": "The patient's endocrinological status is not detailed in the data."},
+    {"Criterion": "Hepatic chronic disease (glomerular filtration rate < 45 ml/min).", "Classification": "Not Violated", "Justification": "The patient has Stage 3 chronic kidney disease, but there is no mention of hepatic disease or glomerular filtration rate."},
+    {"Criterion": "Renal, inflammatory or tumoral diseases.", "Classification": "Violated", "Justification": "The patient has Stage 3 chronic kidney disease, which is a renal disease."},
+    {"Criterion": "Drugs which could interfere in glucose or lipid metabolism such as androgens, corticosteroids (except for those with topic administration) and estrogen replacement therapy.", "Classification": "Unclear", "Justification": "There is no information on the patient's use of drugs that could interfere with glucose or lipid metabolism."},
+    {"Criterion": "Intake of functional foods with plant sterols in the past 6 weeks.", "Classification": "Unclear", "Justification": "The patient's intake of functional foods with plant sterols is not mentioned."},
+    {"Criterion": "High alcohol intake (> 30 g per day).", "Classification": "Unclear", "Justification": "The patient's alcohol intake is not specified in the data."},
+    {"Criterion": "Any serious disease which involves less than 1 year life expectancy or, in investigators judgment, limit the follow-up of an homogeneous diet throughout the study.", "Classification": "Unclear", "Justification": "There is no information on the patient's life expectancy or ability to follow a homogeneous diet."},
+    {"Criterion": "Pregnancy or intention of pregnancy during the study.", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."}
+  ],
+  "Recap": "The patient has Stage 3 chronic kidney disease, which violates the exclusion criterion for renal diseases. Other inclusion and exclusion criteria remain unclear due to insufficient data.",
+  "Final Decision": "Ineligible"
+}
+```

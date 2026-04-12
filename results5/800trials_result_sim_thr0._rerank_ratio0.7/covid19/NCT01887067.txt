@@ -1,0 +1,26 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age ranges from 18 to 70 years inclusive", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Essential hypertension", "Classification": "Unclear", "Justification": "There is no information about the patient's blood pressure or hypertension status."},
+    {"Criterion": "Office Systolic BP (SBP) ≥ 150 mmHg or Diastolic BP (DBP) ≥ 90mmHg", "Classification": "Unclear", "Justification": "Blood pressure readings are not available in the patient data."},
+    {"Criterion": "3 or more anti-hypertensive medications of different classes, including a diuretic, or documented intolerance to multiple medications", "Classification": "Unclear", "Justification": "There is no information on the patient's medication regimen or intolerance to medications."},
+    {"Criterion": "Type 2 Diabetes Mellitus on oral hypoglycaemic agent (OHA)", "Classification": "Unclear", "Justification": "The type of diabetes and treatment details are not specified in the patient data."},
+    {"Criterion": "2 functional kidneys; eGFR ≥ 45 mL/min/1.73m² (MDRD formula)", "Classification": "Unclear", "Justification": "The patient's eGFR is not provided, although they have Stage 3 chronic kidney disease, which may suggest reduced kidney function."},
+    {"Criterion": "Suitable renal anatomy compatible with the endovascular denervation procedure", "Classification": "Unclear", "Justification": "There is no information about the patient's renal anatomy in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Individual has renal artery anatomy that is ineligible for treatment including: Patients with secondary hypertension", "Classification": "Unclear", "Justification": "There is no information on the patient's renal artery anatomy or whether they have secondary hypertension."},
+    {"Criterion": "Myocardial infarction, unstable angina pectoris, cerebrovascular accident within 6 months", "Classification": "Not Violated", "Justification": "There is no mention of recent myocardial infarction, unstable angina, or cerebrovascular accident in the patient data."},
+    {"Criterion": "Patient with type 1 diabetes mellitus", "Classification": "Not Violated", "Justification": "The patient has diabetes mellitus, but the type is not specified, so it cannot be determined if it is type 1."},
+    {"Criterion": "Patient on insulin due to oral drug failure", "Classification": "Not Violated", "Justification": "There is no information indicating that the patient is on insulin or has failed oral diabetes medications."},
+    {"Criterion": "Renovascular abnormalities (including severe renal artery stenosis, previous renal stenting or angioplasty, or known dual renal arteries)", "Classification": "Unclear", "Justification": "There is no information about the patient's renal artery status or history of renal procedures."},
+    {"Criterion": "Pregnancy", "Classification": "Irrelevant", "Justification": "The patient is male, so pregnancy is not applicable."},
+    {"Criterion": "Patient with any implantable device incompatible with radiofrequency energy delivery", "Classification": "Violated", "Justification": "The patient has a Left Ventricular Assist Device, which may be incompatible with radiofrequency energy delivery."},
+    {"Criterion": "Hemodynamically significant valvular heart disease for which reduction of BP would be considered hazardous", "Classification": "Unclear", "Justification": "There is no information about the patient's valvular heart disease status."},
+    {"Criterion": "Any serious medical condition, which in the opinion of the investigator, may limit the life expectancy of patients or adversely", "Classification": "Unclear", "Justification": "The patient has several serious conditions, but it is unclear if they would limit life expectancy or adversely affect the trial without further details."}
+  ],
+  "Recap": "The patient's eligibility is unclear due to missing information on age, blood pressure, medication regimen, type of diabetes, renal function, and renal anatomy. The presence of a Left Ventricular Assist Device violates an exclusion criterion.",
+  "Final Decision": "Ineligible"
+}
+```

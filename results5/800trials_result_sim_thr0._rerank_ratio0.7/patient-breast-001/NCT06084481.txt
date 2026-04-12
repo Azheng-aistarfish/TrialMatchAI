@@ -1,0 +1,21 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Laboratory values meeting the criteria laid out in the protocol.", "Classification": "Unclear", "Justification": "The patient's laboratory values are not provided in the data, so it is unclear if they meet the protocol criteria."},
+    {"Criterion": "Measurable disease per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1.", "Classification": "Unclear", "Justification": "There is no specific information on whether the patient's disease is measurable according to RECIST v1.1."},
+    {"Criterion": "Documented diagnosis of locally advanced or metastatic hormone receptor+/HER2-breast cancer (HR+/HER2-BC).", "Classification": "Met", "Justification": "The patient has a documented diagnosis of metastatic hormone receptor-positive, HER2-negative breast cancer, which matches the criterion."},
+    {"Criterion": "Participant meets the criteria for disease activity laid out in the protocol.", "Classification": "Unclear", "Justification": "The specific criteria for disease activity in the protocol are not provided, so it is unclear if the patient meets them."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Have received anticancer therapy including chemotherapy, radiation therapy, immunotherapy, biologic, or any investigational therapy within 28 days or 5 half-lives of the drug (whichever is shorter) prior to the first dose of ABBV-400.", "Classification": "Not Violated", "Justification": "The patient is currently receiving fulvestrant and palbociclib, but there is no indication that these were administered within the specified timeframe prior to the first dose of ABBV-400."},
+    {"Criterion": "Unresolved AEs > Grade 1 from prior anticancer therapy except for alopecia.", "Classification": "Not Violated", "Justification": "The patient experiences mild, ongoing cancer-related fatigue, which is not specified as an AE greater than Grade 1."},
+    {"Criterion": "History of interstitial lung disease (ILD) or pneumonitis that required treatment with systemic steroids, nor any evidence of active ILD or pneumonitis.", "Classification": "Not Violated", "Justification": "There is no mention of ILD or pneumonitis in the patient's history."},
+    {"Criterion": "History of clinically significant, intercurrent lung-specific illnesses.", "Classification": "Not Violated", "Justification": "There is no information provided about any lung-specific illnesses in the patient's history."},
+    {"Criterion": "Untreated brain or meningeal metastases.", "Classification": "Not Violated", "Justification": "There is no mention of brain or meningeal metastases in the patient's history."},
+    {"Criterion": "History of other active malignancy, with the exception of those laid out in the protocol.", "Classification": "Not Violated", "Justification": "The patient has no history of other active malignancies besides breast cancer, which is included in the protocol."},
+    {"Criterion": "Any autoimmune, connective tissue or inflammatory disorders with documented or suspicious pulmonary involvement at screening.", "Classification": "Not Violated", "Justification": "There is no mention of autoimmune, connective tissue, or inflammatory disorders with pulmonary involvement in the patient's history."}
+  ],
+  "Recap": "The patient meets the inclusion criterion for having a documented diagnosis of metastatic hormone receptor-positive, HER2-negative breast cancer. However, it is unclear if the patient's laboratory values meet the protocol criteria and if the disease is measurable per RECIST v1.1. The patient does not violate any exclusion criteria based on the provided information.",
+  "Final Decision": "Likely Eligible (leaning toward inclusion)"
+}
+```

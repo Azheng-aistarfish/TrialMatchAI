@@ -1,0 +1,20 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "clinical diagnosis of stage II or III after curative resection for colon cancer and planned to be received modified FOLFOX6 as an adjuvant chemotherapy", "Classification": "Not Met", "Justification": "The patient has metastatic breast cancer, not colon cancer, and is not receiving FOLFOX6 chemotherapy."},
+    {"Criterion": "more than 18 years old", "Classification": "Met", "Justification": "The patient is 47 years old, which is more than 18 years old."},
+    {"Criterion": "baseline Hb level <12g/dL or more Hb 2g/dL decrease after chemotherapy", "Classification": "Unclear", "Justification": "There is no information provided about the patient's hemoglobin levels."},
+    {"Criterion": "patients who received more than 1 cycle of FOLFOX6", "Classification": "Not Met", "Justification": "The patient is not receiving FOLFOX6 chemotherapy, so this criterion is not applicable."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "patients with neoadjuvant therapy", "Classification": "Not Violated", "Justification": "There is no mention of the patient having received neoadjuvant therapy."},
+    {"Criterion": "patients who have other diseases associated with anemia such as CKD, IBD, other bone marrow diseases", "Classification": "Not Violated", "Justification": "There is no information indicating the patient has any of these conditions."},
+    {"Criterion": "patients who received RBC transfusion during chemotherapy", "Classification": "Not Violated", "Justification": "There is no mention of the patient receiving a red blood cell transfusion."},
+    {"Criterion": "patients diagnosed with local recurrence or distant metastasis during chemotherapy", "Classification": "Violated", "Justification": "The patient has metastatic breast cancer, which is a form of distant metastasis."},
+    {"Criterion": "ferritin > 800 ng/mL and TSAT ≧ 50%", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ferritin or transferrin saturation levels."},
+    {"Criterion": "patients who are not willing to participate in the study", "Classification": "Not Violated", "Justification": "Written informed consent has been obtained, indicating willingness to participate."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria related to colon cancer and FOLFOX6 chemotherapy. The patient violates the exclusion criterion of having distant metastasis. Other criteria are either met, not violated, or unclear due to lack of information.",
+  "Final Decision": "Ineligible"
+}
+```

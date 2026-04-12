@@ -1,0 +1,19 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologically confirmed cervical cancer, including the following subtypes: - Squamous small-cell or large-cell carcinoma - Adenosquamous cell carcinoma - Adenocarcinoma - Keratinizing or non-keratinizing carcinoma", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, not cervical cancer."},
+    {"Criterion": "Stage IB-IIIB disease", "Classification": "Not Met", "Justification": "The patient's cancer is in the lung, not cervical, and there is no information on cervical cancer stage."},
+    {"Criterion": "No para-aortic lymph node metastases or clinical indication for para-aortic field irradiation", "Classification": "Irrelevant", "Justification": "This criterion is specific to cervical cancer, which the patient does not have."},
+    {"Criterion": "No predominant and clinically effective neuroendocrine tumor cell differentiation", "Classification": "Irrelevant", "Justification": "The patient's cancer is adenocarcinoma of the lung, not cervical cancer, making this criterion irrelevant."},
+    {"Criterion": "WH0 performance status 0-2", "Classification": "Unclear", "Justification": "The patient's performance status is not provided in the data."},
+    {"Criterion": "Serum creatinine clearance > 50 mL/min", "Classification": "Unclear", "Justification": "There is no information on the patient's serum creatinine clearance."},
+    {"Criterion": "No other prior or current malignancy within the past 5 years except adequately treated nonmelanoma skin cancer or carcinoma in-situ of the cervix", "Classification": "Violated", "Justification": "The patient has a current diagnosis of metastatic non-small cell lung cancer, which is a malignancy within the past 5 years."},
+    {"Criterion": "No acute life-threatening vaginal hemorrhage (requiring emergency irradiation or RBC transfusion)", "Classification": "Irrelevant", "Justification": "The patient does not have cervical cancer, so this criterion is irrelevant."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Not specified", "Classification": "Irrelevant", "Justification": "There are no specific exclusion criteria provided in the data."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for cervical cancer, as she has metastatic non-small cell lung cancer. Additionally, she has a current malignancy within the past 5 years, violating the inclusion criteria. Performance status and serum creatinine clearance are unclear due to missing data.",
+  "Final Decision": "Ineligible"
+}
+```

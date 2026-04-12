@@ -1,0 +1,16 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "age greater than 18", "Classification": "Met", "Justification": "The patient is 58 years old, which is greater than 18."},
+    {"Criterion": "diagnosis of recurrent, persistent, refractory ovarian, fallopian or primary peritoneal cancer", "Classification": "Not Met", "Justification": "The patient has no mention of ovarian, fallopian, or primary peritoneal cancer in the provided data."},
+    {"Criterion": "tumor tissue, ascites or pleural fluid available for biopsy", "Classification": "Not Met", "Justification": "The patient's biopsy was for ischemic cardiomyopathy, not related to ovarian, fallopian, or primary peritoneal cancer."},
+    {"Criterion": "life expectancy greater than 6 months", "Classification": "Unclear", "Justification": "There is no information provided about the patient's life expectancy."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "patients with borderline or low malignant histologies", "Classification": "Irrelevant", "Justification": "The patient does not have a diagnosis of ovarian, fallopian, or primary peritoneal cancer, making this criterion irrelevant."},
+    {"Criterion": "patients with a history of other malignancies within last 5 years", "Classification": "Irrelevant", "Justification": "The patient does not have a history of ovarian, fallopian, or primary peritoneal cancer, making this criterion irrelevant."}
+  ],
+  "Recap": "The patient meets the age criterion but does not have the required cancer diagnosis or biopsy material. The life expectancy criterion is unclear due to lack of information. Exclusion criteria are irrelevant as they pertain to cancer types not present in the patient.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient has histologically-confirmed carcinoma of breast (all subtypes are permitted)", "Classification": "Not Met", "Justification": "The patient has been diagnosed with lung cancer, not breast cancer."},
+    {"Criterion": "Patient has undergone mastectomy with tissue expander-based reconstruction and require post-mastectomy radiation therapy (PMRT)", "Classification": "Not Met", "Justification": "There is no information indicating the patient has undergone mastectomy or requires PMRT."},
+    {"Criterion": "Stage DCIS (0) -III breast cancer, excluding any patients with inflammatory breast cancer at presentation", "Classification": "Not Met", "Justification": "The patient has lung cancer, not breast cancer, and no stage of breast cancer is mentioned."},
+    {"Criterion": "Patient will receive irradiation of the chest wall", "Classification": "Unclear", "Justification": "There is no information provided about the patient receiving irradiation of the chest wall."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patient with skin changes or inflammatory carcinoma at presentation", "Classification": "Not Violated", "Justification": "The patient's presentation does not mention skin changes or inflammatory carcinoma."},
+    {"Criterion": "Patient has (cT4b-d) - unhealed wound in the radiation field", "Classification": "Not Violated", "Justification": "There is no mention of an unhealed wound in the radiation field in the patient's description."},
+    {"Criterion": "Patient has allergy to Caffeine", "Classification": "Not Violated", "Justification": "There is no information about the patient having a caffeine allergy."},
+    {"Criterion": "Patient has systemic lupus erythematosus or scleroderma that increases the risk of radiation dermatitis development", "Classification": "Not Violated", "Justification": "The patient does not have systemic lupus erythematosus or scleroderma."},
+    {"Criterion": "Patient will receive concurrent chemotherapy with radiation", "Classification": "Not Violated", "Justification": "The patient is undergoing treatment with osimertinib, not concurrent chemotherapy with radiation."},
+    {"Criterion": "Planned accelerated or hypofractionated fractionation", "Classification": "Not Violated", "Justification": "There is no mention of planned accelerated or hypofractionated fractionation in the patient's treatment plan."},
+    {"Criterion": "Previous radiation to the ipsilateral breast or chest wall or thoracic region", "Classification": "Not Violated", "Justification": "There is no information about previous radiation to the breast or chest wall."},
+    {"Criterion": "Anyone who will require bolus use during radiation", "Classification": "Not Violated", "Justification": "There is no mention of the need for bolus use during radiation for this patient."},
+    {"Criterion": "All pre-menopausal women will require a urine qualitative pregnancy test to exclude pregnancy", "Classification": "Not Violated", "Justification": "The patient is 53 years old, so this criterion does not apply."}
+  ],
+  "Recap": "The patient does not meet any of the inclusion criteria as she has lung cancer, not breast cancer. None of the exclusion criteria are violated based on the provided information.",
+  "Final Decision": "Ineligible"
+}
+```

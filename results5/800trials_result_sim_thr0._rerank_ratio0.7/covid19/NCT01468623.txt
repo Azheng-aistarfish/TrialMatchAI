@@ -1,0 +1,34 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients with histologically confirmed metastatic colorectal cancer", "Classification": "Unclear", "Justification": "The patient's profile does not mention any diagnosis of metastatic colorectal cancer."},
+    {"Criterion": "No prior chemotherapy for the treatment of metastatic colorectal cancer", "Classification": "Irrelevant", "Justification": "The patient's profile does not mention any history of chemotherapy, and there is no mention of metastatic colorectal cancer, making this criterion irrelevant."},
+    {"Criterion": "At least one measurable lesion by CT or MRI of ≥ 20 mm (if conventional CT scan) or ≥ 10 mm (if spiral CT scan)", "Classification": "Unclear", "Justification": "There is no information provided about the presence or size of any lesions in the patient's profile."},
+    {"Criterion": "ECOG Performance Status (ECOG-PS) status ≤ 2", "Classification": "Unclear", "Justification": "The patient's ECOG Performance Status is not mentioned in the profile."},
+    {"Criterion": "At least 18 years of age", "Classification": "Irrelevant", "Justification": "The patient's age is not specified, but this criterion is generally assumed to be met unless stated otherwise."},
+    {"Criterion": "Life expectancy > 6 months", "Classification": "Unclear", "Justification": "There is no information provided about the patient's life expectancy in the profile."},
+    {"Criterion": "Must be able and willing to give written informed consent", "Classification": "Met", "Justification": "The patient has obtained written informed consent, as stated in the profile."},
+    {"Criterion": "Women of child-bearing potential must use acceptable contraceptive methods and have a negative pregnancy test", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."},
+    {"Criterion": "ANC count greater than or equal to 1,500/ mm³", "Classification": "Unclear", "Justification": "The patient's ANC count is not provided in the profile."},
+    {"Criterion": "Platelets greater than or equal to 100,000/ mm³", "Classification": "Unclear", "Justification": "The patient's platelet count is not provided in the profile."},
+    {"Criterion": "Serum creatinine less than or equal to 2x upper limit of normal", "Classification": "Unclear", "Justification": "The patient's serum creatinine level is not provided in the profile."},
+    {"Criterion": "ALT and AST less than or equal to 3x the upper limit of normal", "Classification": "Unclear", "Justification": "The patient's ALT and AST levels are not provided in the profile."},
+    {"Criterion": "PT, aPTT, and INR ≤ 1.5 x ULN or in the therapeutic range if on anticoagulation", "Classification": "Unclear", "Justification": "The patient's PT, aPTT, and INR levels are not provided in the profile."},
+    {"Criterion": "Hemoglobin greater than or equal to 9 gm/dl", "Classification": "Unclear", "Justification": "The patient's hemoglobin level is not provided in the profile."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients with COVID-19", "Classification": "Violated", "Justification": "The patient is diagnosed with COVID-19, as stated in the profile."},
+    {"Criterion": "Patients with acute respiratory failure", "Classification": "Violated", "Justification": "The patient is experiencing acute respiratory failure, as mentioned in the profile."},
+    {"Criterion": "Patients with Stage 3 chronic kidney disease", "Classification": "Violated", "Justification": "The patient has Stage 3 chronic kidney disease, as noted in the profile."},
+    {"Criterion": "Patients with obesity", "Classification": "Violated", "Justification": "The patient is noted to have obesity, as stated in the profile."},
+    {"Criterion": "Patients with diabetes mellitus", "Classification": "Violated", "Justification": "The patient has diabetes mellitus, as mentioned in the profile."},
+    {"Criterion": "Patients with cardiomyopathy", "Classification": "Violated", "Justification": "The patient has cardiomyopathy, as noted in the profile."},
+    {"Criterion": "Patients with fever, flank pain, hematuria, myalgia, diarrhea, and dyspnea", "Classification": "Violated", "Justification": "The patient is experiencing these symptoms, as listed in the profile."},
+    {"Criterion": "Patients with a Left Ventricular Assist Device", "Classification": "Violated", "Justification": "The patient has a Left Ventricular Assist Device, as stated in the profile."},
+    {"Criterion": "Patients with tracheal intubation", "Classification": "Violated", "Justification": "The patient has undergone tracheal intubation, as mentioned in the profile."},
+    {"Criterion": "Patients receiving oxygen therapy", "Classification": "Violated", "Justification": "The patient is receiving oxygen therapy, as noted in the profile."}
+  ],
+  "Recap": "The patient is ineligible for the clinical trial due to multiple exclusion criteria violations, including COVID-19, acute respiratory failure, chronic kidney disease, obesity, diabetes mellitus, cardiomyopathy, and several other conditions and treatments. Additionally, several inclusion criteria remain unclear due to missing data.",
+  "Final Decision": "Ineligible"
+}
+```

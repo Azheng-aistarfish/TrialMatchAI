@@ -1,0 +1,17 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Locally advanced NSCLC, urothelial cancer or malignant mesothelioma.", "Classification": "Not Met", "Justification": "The patient has metastatic breast cancer, not NSCLC, urothelial cancer, or malignant mesothelioma."},
+    {"Criterion": "18 years or older.", "Classification": "Met", "Justification": "The patient is 47 years old, which satisfies the age requirement."},
+    {"Criterion": "At least one prior chemotherapy before entering in this trial.", "Classification": "Not Met", "Justification": "The patient has been treated with endocrine therapy, not chemotherapy."},
+    {"Criterion": "Not pregnant or breastfeeding.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's pregnancy or breastfeeding status."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Prior treatment with cabozantinib.", "Classification": "Not Violated", "Justification": "There is no mention of the patient having been treated with cabozantinib."},
+    {"Criterion": "Currently receiving cancer treatment (last dose 2 weeks prior to enrollment in study).", "Classification": "Violated", "Justification": "The patient is currently receiving fulvestrant and palbociclib, indicating ongoing cancer treatment."},
+    {"Criterion": "History of bleeding disorder/bleeding history within 12 weeks before first study treatment dose.", "Classification": "Not Violated", "Justification": "There is no information provided about a bleeding disorder or recent bleeding history."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for cancer type and prior chemotherapy. The patient is currently undergoing cancer treatment, violating an exclusion criterion.",
+  "Final Decision": "Ineligible"
+}
+```

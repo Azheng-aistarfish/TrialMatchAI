@@ -1,0 +1,21 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Those aged 18-65", "Classification": "Met", "Justification": "The patient is 58 years old, which falls within the specified age range of 18-65."},
+    {"Criterion": "Those with ASA scores I-II-III", "Classification": "Unclear", "Justification": "The patient's ASA score is not provided in the data, making it impossible to determine if it meets the criteria."},
+    {"Criterion": "Those with a body mass index (BMI) between 18-35", "Classification": "Unclear", "Justification": "The patient's BMI is not mentioned in the provided data, so it cannot be assessed."},
+    {"Criterion": "Patients who will undergo modified radical mastectomy", "Classification": "Not Met", "Justification": "The patient is undergoing cardiac procedures, not a modified radical mastectomy, as indicated in the description."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Those under the age of 18 and over the age of 65", "Classification": "Not Violated", "Justification": "The patient is 58 years old, which is within the acceptable age range."},
+    {"Criterion": "Those with ASA score IV and above", "Classification": "Unclear", "Justification": "The patient's ASA score is not provided, so it cannot be determined if this criterion is violated."},
+    {"Criterion": "Those with a history of allergy to the drugs to be blocked", "Classification": "Not Violated", "Justification": "There is no mention of any drug allergies in the patient's history."},
+    {"Criterion": "Those with a history of bleeding diathesis", "Classification": "Not Violated", "Justification": "The patient's history does not indicate any bleeding disorders."},
+    {"Criterion": "Patients with infection in the area to be blocked", "Classification": "Not Violated", "Justification": "There is no mention of any infection in the patient's description."},
+    {"Criterion": "Those with a BMI below 18 and above 35", "Classification": "Unclear", "Justification": "The patient's BMI is not provided, so it cannot be assessed against this criterion."},
+    {"Criterion": "Patients who underwent surgery under emergency conditions", "Classification": "Violated", "Justification": "The patient has a history of emergency stenting and bypass surgery, which are considered emergency conditions."}
+  ],
+  "Recap": "The patient meets the age criterion but does not meet the surgical procedure criterion. The ASA score and BMI are unclear due to missing data. The patient violates the exclusion criterion related to emergency surgery.",
+  "Final Decision": "Ineligible"
+}
+```

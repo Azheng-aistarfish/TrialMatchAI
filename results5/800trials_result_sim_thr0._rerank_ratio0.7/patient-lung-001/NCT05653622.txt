@@ -1,0 +1,18 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Unfit patient without indication to the STUPP protocol : Cohort 1 : Non-operable patients and ≥ 18 years old or ≤ 70 years old and Karnofsky Index (KI) ≥ 50% on inclusion AND Result of a biopsy available", "Classification": "Irrelevant", "Justification": "The patient is diagnosed with metastatic non-small cell lung cancer, not glioblastoma, making this criterion irrelevant to her condition."},
+    {"Criterion": "Cohort 2 : Patients > 70 years old and Balducci score I or II and KI ≥ 60% on inclusion AND Partial resection (defined on the remnographic criteria of postoperative MRI) OR biopsy result available", "Classification": "Irrelevant", "Justification": "The patient is 53 years old, which does not meet the age requirement for Cohort 2, making this criterion irrelevant."},
+    {"Criterion": "Histologically proven glioblastoma", "Classification": "Not Met", "Justification": "The patient has been diagnosed with lung adenocarcinoma, not glioblastoma, thus this criterion is not met."},
+    {"Criterion": "Increased metabolism of amino acids in PET FDOPA allowing contouring the Biological Target Volume (BTV)", "Classification": "Irrelevant", "Justification": "The patient's diagnosis is lung adenocarcinoma, not glioblastoma, making this criterion irrelevant to her condition."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients with an indication for irradiation according to the STUPP protocol (fit patient)", "Classification": "Irrelevant", "Justification": "The STUPP protocol is specific to glioblastoma, not lung cancer, making this criterion irrelevant."},
+    {"Criterion": "Patient with a contraindication to MRI or PET", "Classification": "Not Violated", "Justification": "There is no information suggesting a contraindication to MRI or PET for this patient."},
+    {"Criterion": "Limit of the provisional target volume or Planning target volume (PTV), second PTV < 2 cm from the chiasm and the optic nerves", "Classification": "Irrelevant", "Justification": "This criterion is specific to glioblastoma treatment, not applicable to lung cancer."},
+    {"Criterion": "Absence of uptake of FDopa", "Classification": "Irrelevant", "Justification": "This criterion is specific to glioblastoma, not relevant to lung cancer."}
+  ],
+  "Recap": "The patient is diagnosed with metastatic non-small cell lung cancer, specifically adenocarcinoma, and is currently undergoing treatment with osimertinib. The clinical trial criteria are specific to glioblastoma, making all inclusion and exclusion criteria irrelevant to her condition.",
+  "Final Decision": "Ineligible"
+}
+```

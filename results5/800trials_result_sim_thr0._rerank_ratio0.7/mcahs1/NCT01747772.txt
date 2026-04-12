@@ -1,0 +1,17 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Adult patients (age 18 or older)", "Classification": "Unclear", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Men or women", "Classification": "Irrelevant", "Justification": "The criterion applies to all genders, so it is irrelevant to assess."},
+    {"Criterion": "Suspected diffuse liver disease", "Classification": "Unclear", "Justification": "There is no mention of liver disease in the patient's description."},
+    {"Criterion": "Consent to participate in the study", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Pregnancy", "Classification": "Irrelevant", "Justification": "The patient is not female, so pregnancy is not applicable."},
+    {"Criterion": "Acute illness/cognitive impairment resulting in inability to cooperate with ultrasound", "Classification": "Unclear", "Justification": "There is no information on the patient's ability to cooperate with ultrasound."},
+    {"Criterion": "Patients that do not consent to ultrasound or sonoelastography", "Classification": "Not Violated", "Justification": "Consent has been obtained, implying agreement to participate in procedures like ultrasound."}
+  ],
+  "Recap": "The patient's age is unknown, making it unclear if they meet the age criterion. There is no information on liver disease, so it's unclear if they meet that criterion. Consent has been obtained, meeting the consent criterion. Pregnancy is irrelevant, and there is no information on the patient's ability to cooperate with ultrasound, making it unclear if they meet that exclusion criterion.",
+  "Final Decision": "Likely Ineligible (leaning toward exclusion)"
+}
+```

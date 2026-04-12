@@ -1,0 +1,16 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age >18 years", "Classification": "Met", "Justification": "The patient is 58 years old, which is greater than 18 years."},
+    {"Criterion": "First-time surgery", "Classification": "Not Met", "Justification": "The patient has a history of multiple surgeries, including emergency stenting and bypass surgery."},
+    {"Criterion": "Bicuspid aortic valve confirmed", "Classification": "Unclear", "Justification": "There is no information provided about the presence or absence of a bicuspid aortic valve."},
+    {"Criterion": "Thoracic aortic aneurysm involving aortic root or ascending aorta", "Classification": "Unclear", "Justification": "There is no information provided about the presence or absence of a thoracic aortic aneurysm involving the aortic root or ascending aorta."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "No available pre-operative cross-sectional imaging", "Classification": "Unclear", "Justification": "There is no information provided about the availability of pre-operative cross-sectional imaging."},
+    {"Criterion": "Re-do surgery", "Classification": "Violated", "Justification": "The patient has a history of multiple surgeries, including bypass surgery, indicating re-do surgery."}
+  ],
+  "Recap": "The patient meets the age criterion but does not meet the first-time surgery criterion due to previous surgeries. The presence of a bicuspid aortic valve and thoracic aortic aneurysm is unclear due to lack of information. The exclusion criterion of re-do surgery is violated due to the patient's surgical history.",
+  "Final Decision": "Ineligible"
+}
+```

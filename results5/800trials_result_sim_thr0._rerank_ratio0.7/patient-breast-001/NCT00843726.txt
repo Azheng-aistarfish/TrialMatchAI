@@ -1,0 +1,20 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologically confirmed non-small cell lung cancer", "Classification": "Not Met", "Justification": "The patient has metastatic hormone receptor-positive, HER2-negative breast cancer, not lung cancer."},
+    {"Criterion": "T1-T2, N0 disease measuring ≤ 5 cm (T3 tumor based on chest wall involvement is Excluded)", "Classification": "Not Met", "Justification": "The patient's breast cancer is classified as T3, N1, M1, which does not meet the T1-T2, N0 criteria."},
+    {"Criterion": "Surgically resectable primary disease, however patient evaluated by thoracic oncologist and deemed medically inoperable OR patient refuses surgical resection", "Classification": "Irrelevant", "Justification": "The patient's condition is metastatic breast cancer, not a primary lung cancer, making this criterion irrelevant."},
+    {"Criterion": "Age >= 18", "Classification": "Met", "Justification": "The patient is 47 years old, which meets the age criterion."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Prior thoracic radiation therapy", "Classification": "Irrelevant", "Justification": "There is no mention of thoracic radiation therapy in the patient's history."},
+    {"Criterion": "T2 or T3 tumor greater than 5 cm or T3 tumor based on chest wall involvement", "Classification": "Irrelevant", "Justification": "The patient's breast cancer does not involve the lung, making this criterion irrelevant."},
+    {"Criterion": "Node positive or metastatic disease", "Classification": "Violated", "Justification": "The patient has metastatic breast cancer, which violates this criterion."},
+    {"Criterion": "Tumor location within the zone of the proximal bronchial tree", "Classification": "Irrelevant", "Justification": "The patient's breast cancer does not involve the lung, making this criterion irrelevant."},
+    {"Criterion": "No other conditions deemed by the PI or associates to make the patient ineligible for protocol investigations, procedures, and high-dose external beam radiotherapy (e.g., unable to lie still and breathe reproducibly)", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ability to lie still or breathe reproducibly."},
+    {"Criterion": "Pregnant or unwilling to use adequate contraception", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's pregnancy status or contraception use."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for non-small cell lung cancer and has metastatic breast cancer, which violates the exclusion criteria for node positive or metastatic disease. The patient's age criterion is met, but other criteria are irrelevant due to the nature of her cancer.",
+  "Final Decision": "Ineligible"
+}
+```

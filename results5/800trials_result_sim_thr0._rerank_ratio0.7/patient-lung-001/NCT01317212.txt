@@ -1,0 +1,45 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age 18 years old or over", "Classification": "Met", "Justification": "The patient is 53 years old, which satisfies the age criterion."},
+    {"Criterion": "Male or female", "Classification": "Met", "Justification": "The patient is female, meeting the gender criterion."},
+    {"Criterion": "World Health Organisation performance status 0-2", "Classification": "Unclear", "Justification": "The patient's performance status is not provided in the data."},
+    {"Criterion": "Life expectancy greater than 3 months", "Classification": "Unclear", "Justification": "There is no information on the patient's life expectancy in the data."},
+    {"Criterion": "Capacity to give informed consent", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient."},
+    {"Criterion": "Histologically confirmed glioblastoma multiforme", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, not glioblastoma multiforme."},
+    {"Criterion": "Progressive and/or recurrent disease confirmed by MRI", "Classification": "Irrelevant", "Justification": "The patient's cancer type does not involve glioblastoma, making this criterion irrelevant."},
+    {"Criterion": "Progressive disease, defined as 25% or greater increase in contrast-enhanced tumour volume on T1-weighted MRI", "Classification": "Irrelevant", "Justification": "The patient's cancer type does not involve glioblastoma, making this criterion irrelevant."},
+    {"Criterion": "Supratentorial disease", "Classification": "Irrelevant", "Justification": "The patient's cancer type does not involve glioblastoma, making this criterion irrelevant."},
+    {"Criterion": "Disease confined to a single quadrant of brain", "Classification": "Irrelevant", "Justification": "The patient's cancer type does not involve glioblastoma, making this criterion irrelevant."},
+    {"Criterion": "It must be feasible to achieve sufficient carboplatin distribution in the peritumoural tissue", "Classification": "Irrelevant", "Justification": "The patient's cancer type does not involve glioblastoma, making this criterion irrelevant."},
+    {"Criterion": "Recurrent disease following conventional treatment, including surgery (biopsy or debulking), radiotherapy and chemotherapy (temozolomide)", "Classification": "Irrelevant", "Justification": "The patient's cancer type does not involve glioblastoma, making this criterion irrelevant."},
+    {"Criterion": "More than 30 days since prior chemotherapy (42 days for nitrosureas or mitomycin)", "Classification": "Irrelevant", "Justification": "The patient's cancer type does not involve glioblastoma, making this criterion irrelevant."},
+    {"Criterion": "More than 90 days since radiotherapy or radiosurgery", "Classification": "Irrelevant", "Justification": "The patient's cancer type does not involve glioblastoma, making this criterion irrelevant."},
+    {"Criterion": "More than 7 days since tumour debulking or other neurosurgery", "Classification": "Irrelevant", "Justification": "The patient's cancer type does not involve glioblastoma, making this criterion irrelevant."},
+    {"Criterion": "More than 30 days since prior investigational agents or participation in another clinical research trial", "Classification": "Unclear", "Justification": "There is no information on prior investigational agents or participation in other trials."},
+    {"Criterion": "Platelet count > or = 100,000/mm3", "Classification": "Unclear", "Justification": "The patient's platelet count is not provided in the data."},
+    {"Criterion": "Absolute neutrophil count > or = 1000mm3", "Classification": "Unclear", "Justification": "The patient's absolute neutrophil count is not provided in the data."},
+    {"Criterion": "Total bilirubin no greater than 1.5 x upper limit of normal (except patients with Gilbert's syndrome)", "Classification": "Unclear", "Justification": "The patient's total bilirubin level is not provided in the data."},
+    {"Criterion": "AST and ALT < or = to 2 times upper limit of normal", "Classification": "Unclear", "Justification": "The patient's AST and ALT levels are not provided in the data."},
+    {"Criterion": "PT and APTT no greater than control", "Classification": "Unclear", "Justification": "The patient's PT and APTT levels are not provided in the data."},
+    {"Criterion": "Creatinine clearance > 50ml/min using Cockcroft Formula", "Classification": "Unclear", "Justification": "The patient's creatinine clearance is not provided in the data."},
+    {"Criterion": "Fertile patients must agree to use effective contraception during and for 2 months after study treatment", "Classification": "Irrelevant", "Justification": "The patient's fertility status is not provided, and the trial is not relevant to her cancer type."},
+    {"Criterion": "Negative pregnancy test if appropriate", "Classification": "Irrelevant", "Justification": "The patient's pregnancy status is not provided, and the trial is not relevant to her cancer type."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Clinical evidence of raised intracranial pressure", "Classification": "Irrelevant", "Justification": "The patient's cancer type does not involve glioblastoma, making this criterion irrelevant."},
+    {"Criterion": "Concurrent medical condition that would preclude general anaesthesia", "Classification": "Unclear", "Justification": "There is no information on conditions that would preclude general anaesthesia."},
+    {"Criterion": "Severe acute infection", "Classification": "Unclear", "Justification": "There is no information on any severe acute infections."},
+    {"Criterion": "Pregnancy or breast feeding", "Classification": "Irrelevant", "Justification": "The patient's pregnancy status is not provided, and the trial is not relevant to her cancer type."},
+    {"Criterion": "Documented allergy to carboplatin or cisplatin", "Classification": "Unclear", "Justification": "There is no information on allergies to carboplatin or cisplatin."},
+    {"Criterion": "Prior participation in a trial of biological therapy (e.g. monoclonal antibodies, gene therapy, oncolytic viral therapy, immunotoxin therapy)", "Classification": "Unclear", "Justification": "There is no information on prior participation in biological therapy trials."},
+    {"Criterion": "Prior local chemotherapy, including administration of biodegradable polymer wafers containing carmustine", "Classification": "Unclear", "Justification": "There is no information on prior local chemotherapy treatments."},
+    {"Criterion": "Prior enrolment in this study", "Classification": "Not Violated", "Justification": "There is no information indicating prior enrolment in this study."},
+    {"Criterion": "Concurrent anticancer drugs", "Classification": "Violated", "Justification": "The patient is currently undergoing treatment with osimertinib, an anticancer drug."},
+    {"Criterion": "Concurrent investigational therapies", "Classification": "Not Violated", "Justification": "There is no information on concurrent investigational therapies."},
+    {"Criterion": "Infratentorial or intraventricular tumour visible on MRI", "Classification": "Irrelevant", "Justification": "The patient's cancer type does not involve glioblastoma, making this criterion irrelevant."}
+  ],
+  "Recap": "The patient does not meet the primary inclusion criterion of having histologically confirmed glioblastoma multiforme. Additionally, she is currently on osimertinib, violating the exclusion criterion of concurrent anticancer drugs. Other criteria are either unclear or irrelevant due to the mismatch between the patient's cancer type and the trial's focus.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,31 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Written informed consent", "Classification": "Met", "Justification": "The patient has provided written informed consent as explicitly stated in the patient description."},
+    {"Criterion": "Aged 18 or above", "Classification": "Met", "Justification": "The patient is 47 years old, which satisfies the age criterion."},
+    {"Criterion": "Part A and Part B: Unresectable stage III or stage IV squamous or non-squamous NSCLC not amenable to curative surgery or radiation", "Classification": "Irrelevant", "Justification": "The patient has metastatic breast cancer, not NSCLC, making this criterion irrelevant."},
+    {"Criterion": "Part C and Part D: Stage IV squamous or non-squamous NSCLC not amenable to curative surgery or radiation", "Classification": "Irrelevant", "Justification": "The patient has metastatic breast cancer, not NSCLC, making this criterion irrelevant."},
+    {"Criterion": "Documented PD-L1 expression by PD-L1 IHC per local report", "Classification": "Unclear", "Justification": "There is no information provided about PD-L1 expression in the patient's data."},
+    {"Criterion": "Part A and Part B: Confirmed progression during treatment with a CPI-including regimen", "Classification": "Irrelevant", "Justification": "The patient has not been treated with a CPI-including regimen, making this criterion irrelevant."},
+    {"Criterion": "Part C and Part D: No prior I/O treatment for metastatic NSCLC", "Classification": "Irrelevant", "Justification": "The patient has not received I/O treatment for NSCLC, as she has breast cancer, making this criterion irrelevant."},
+    {"Criterion": "ECOG performance status of 0 or 1 at enrolment", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided in the data."},
+    {"Criterion": "Life expectancy of ≥ 12 weeks at enrolment", "Classification": "Unclear", "Justification": "There is no information provided about the patient's life expectancy in the data."},
+    {"Criterion": "Have at least 1 measurable lesion per RECIST v1.1", "Classification": "Unclear", "Justification": "The data does not specify if the patient has measurable lesions per RECIST v1.1."},
+    {"Criterion": "Adequate bone marrow, liver and kidney function", "Classification": "Unclear", "Justification": "There is no information provided about the patient's bone marrow, liver, or kidney function in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Sensitizing epidermal growth factor receptor (EGFR) mutations or anaplastic lymphoma kinase (ALK) fusion", "Classification": "Not Violated", "Justification": "The patient has a PIK3CA mutation, not EGFR or ALK, so this criterion is not violated."},
+    {"Criterion": "Documented test result for any other known genomic alteration for which a targeted therapy is approved in first line per local standard of care (e.g. ROS1, NTRK fusions, BRAF, V600E mutation)", "Classification": "Not Violated", "Justification": "The patient has a PIK3CA mutation, which is not listed among the specified genomic alterations, so this criterion is not violated."},
+    {"Criterion": "Previous treatment with an anti-TIGIT therapy", "Classification": "Not Violated", "Justification": "There is no information indicating that the patient has been treated with anti-TIGIT therapy."},
+    {"Criterion": "Any concurrent chemotherapy, radiotherapy, investigational, biologic, or hormonal therapy for cancer treatment", "Classification": "Violated", "Justification": "The patient is currently receiving fulvestrant and palbociclib, which are hormonal and targeted therapies, respectively, thus violating this criterion."},
+    {"Criterion": "Part A and Part B: Primary or secondary resistance after treatment with 2 or more regiments including a CPI", "Classification": "Irrelevant", "Justification": "The patient has not been treated with a CPI-including regimen, making this criterion irrelevant."},
+    {"Criterion": "Part C and Part D: Any prior systemic treatment with an immune oncology agent (prior administration of immune-oncology agent for curative intent to treat other invasive malignancy is permitted). Treatment with one previous systemic chemotherapy will be allowed", "Classification": "Irrelevant", "Justification": "The patient has not received I/O treatment for NSCLC, as she has breast cancer, making this criterion irrelevant."},
+    {"Criterion": "Primary or secondary resistance after treatment with 2 or more regimens including a CPI", "Classification": "Irrelevant", "Justification": "The patient has not been treated with a CPI-including regimen, making this criterion irrelevant."},
+    {"Criterion": "Symptomatic central nervous system (CNS) metastasis", "Classification": "Not Violated", "Justification": "There is no information indicating that the patient has symptomatic CNS metastasis."},
+    {"Criterion": "Thromboembolic event within 3 months prior to enrolment", "Classification": "Not Violated", "Justification": "There is no information indicating that the patient has had a thromboembolic event within the specified timeframe."},
+    {"Criterion": "Other invasive malignancy within 2 years prior to screening", "Classification": "Not Violated", "Justification": "The patient's history of breast cancer does not indicate another invasive malignancy within the specified timeframe."}
+  ],
+  "Recap": "The patient meets the age and consent criteria but is ineligible due to concurrent hormonal and targeted therapy for breast cancer. The NSCLC-specific criteria are irrelevant due to her breast cancer diagnosis.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,17 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Informed consent will be obtained from the patient or the parents before any study related procedures.", "Classification": "Met", "Justification": "The patient's description explicitly states that written informed consent has been obtained from the patient or their legal representative."},
+    {"Criterion": "Patients of both genders older than 2 months.", "Classification": "Met", "Justification": "The patient is a 14-year-old male, which clearly satisfies the age criterion of being older than 2 months."},
+    {"Criterion": "The patient has a diagnosis of Gilbert disease or a high-grade suspicion for Gilbert disease.", "Classification": "Not Met", "Justification": "The patient is diagnosed with Pfeiffer Syndrome, not Gilbert disease, and there is no mention of any criteria for a high-grade suspicion of Gilbert disease."},
+    {"Criterion": "High-grade suspicion present, if one or more inclusion criteria are valid: 1. Positive family anamnesis for Gilbert disease 2. Hyperbilirubinemia 3. Abdominal pain 4. Irritable bowel syndrome 5. Familial nonhemolytic jaundice.", "Classification": "Irrelevant", "Justification": "Since the patient does not meet the primary criterion of having Gilbert disease or a high-grade suspicion, the sub-criteria for high-grade suspicion are irrelevant in this context."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "No Informed consent from the patient or the parents before any study related procedures.", "Classification": "Not Violated", "Justification": "Informed consent has been obtained, as explicitly stated in the patient's description."},
+    {"Criterion": "Patients of both gender younger than 2 months.", "Classification": "Not Violated", "Justification": "The patient is 14 years old, which is well beyond the age of 2 months."},
+    {"Criterion": "No diagnosis of Gilbert disease or no valid criteria for profound suspicion of Gilbert disease.", "Classification": "Violated", "Justification": "The patient has a diagnosis of Pfeiffer Syndrome, not Gilbert disease, and there is no mention of any criteria for a high-grade suspicion of Gilbert disease."}
+  ],
+  "Recap": "The patient meets the inclusion criteria for age and informed consent but does not meet the primary criterion of having Gilbert disease or a high-grade suspicion for it. The exclusion criterion related to the absence of a Gilbert disease diagnosis is violated.",
+  "Final Decision": "Ineligible"
+}
+```

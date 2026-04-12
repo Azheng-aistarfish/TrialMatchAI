@@ -1,0 +1,20 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Histologically confirmed diagnosis of DLBCL", "Classification": "Not Met", "Justification": "The patient has a diagnosis of metastatic hormone receptor-positive, HER2-negative breast cancer, not DLBCL."},
+    {"Criterion": "Relapsed or refractory disease", "Classification": "Not Met", "Justification": "The patient's condition is metastatic breast cancer, not relapsed or refractory DLBCL."},
+    {"Criterion": "Participant is not a candidate for or is unwilling to undergo high dose chemotherapy and subsequent stem cell transplant and/or is unable to receive chimeric antigen receptor (CAR) T-cell therapy", "Classification": "Irrelevant", "Justification": "The patient's cancer type is breast cancer, not DLBCL, making this criterion irrelevant."},
+    {"Criterion": "Previous treatment with at least one prior line of systemic therapy (for phase 2, at least 1 and no more than 2 prior lines of systemic therapy). Prior therapy must include an anti-CD20 antibody", "Classification": "Not Met", "Justification": "The patient has been treated with endocrine therapy, not an anti-CD20 antibody, which is required for this criterion."},
+    {"Criterion": "Adequate bone marrow, hepatic and renal function", "Classification": "Unclear", "Justification": "There is no specific information provided about the patient's bone marrow, hepatic, or renal function."},
+    {"Criterion": "Eastern Cooperative Oncology Group (ECOG) ≤2", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided in the data."},
+    {"Criterion": "Must provide a tumor tissue sample (fresh or archival, collected prior to start of treatment) for biomarker analysis", "Classification": "Unclear", "Justification": "There is no information on whether the patient can provide a tumor tissue sample for biomarker analysis."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Prior treatment with an anti-CD47 or anti-CD19 (other than CAR T) or immunomodulatory agents", "Classification": "Not Violated", "Justification": "The patient has been treated with endocrine therapy, not with anti-CD47, anti-CD19, or immunomodulatory agents."},
+    {"Criterion": "Prior allogeneic stem cell transplantation or autologous stem cell transplantation within 12 weeks prior to enrolment", "Classification": "Not Violated", "Justification": "There is no mention of the patient having undergone any stem cell transplantation."},
+    {"Criterion": "Participants with active, uncontrolled bacterial, fungal or viral infection", "Classification": "Not Violated", "Justification": "There is no information indicating the patient has an active, uncontrolled infection."}
+  ],
+  "Recap": "The patient does not meet the key inclusion criteria for the clinical trial, as she has breast cancer, not DLBCL, and has not received the required anti-CD20 antibody therapy. The exclusion criteria are not violated based on the provided information.",
+  "Final Decision": "Ineligible"
+}
+```

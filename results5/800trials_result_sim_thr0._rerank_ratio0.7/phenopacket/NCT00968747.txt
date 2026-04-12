@@ -1,0 +1,33 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age 18-50 years", "Classification": "Not Met", "Justification": "The patient is 58 years old, which is outside the specified age range of 18-50 years."},
+    {"Criterion": "Body Mass Index 21-26 kg/m^2", "Classification": "Unclear", "Justification": "The patient's BMI is not provided in the data, making it impossible to determine if this criterion is met."},
+    {"Criterion": "Ability to give informed consent", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."},
+    {"Criterion": "Ability to follow verbal and written instructions in English", "Classification": "Unclear", "Justification": "There is no information provided about the patient's ability to follow instructions in English."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Type 1 or Type 2 diabetes mellitus diagnosed according to the American Diabetes Association criteria", "Classification": "Violated", "Justification": "The patient has Type 2 diabetes mellitus and is taking metformin, which violates this exclusion criterion."},
+    {"Criterion": "Coronary heart disease (history of myocardial infarction, unstable angina pectoris, or congestive heart failure)", "Classification": "Violated", "Justification": "The patient has a history of multiple myocardial infarctions, which violates this exclusion criterion."},
+    {"Criterion": "Tobacco, marijuana, or intravenous drug use within 1 year of screening visit", "Classification": "Not Violated", "Justification": "The patient is a former smoker who quit at age 45, which is more than 1 year before the screening visit."},
+    {"Criterion": "Recent weight change (>3 kg within 6 months of screening visit)", "Classification": "Unclear", "Justification": "There is no information provided about recent weight changes."},
+    {"Criterion": "Malignancy treated with chemotherapy within past 3 years", "Classification": "Not Violated", "Justification": "There is no mention of malignancy or chemotherapy treatment in the patient's history."},
+    {"Criterion": "History of depression, psychosis, or other psychiatric illness requiring hospitalization", "Classification": "Not Violated", "Justification": "There is no mention of psychiatric illness requiring hospitalization in the patient's history."},
+    {"Criterion": "History of hyperthyroidism", "Classification": "Not Violated", "Justification": "There is no mention of hyperthyroidism in the patient's history."},
+    {"Criterion": "Renal insufficiency (creatinine clearance < 50 ml/min)", "Classification": "Unclear", "Justification": "There is no information provided about the patient's renal function or creatinine clearance."},
+    {"Criterion": "Transaminases > 2X above the normal range", "Classification": "Unclear", "Justification": "The patient has a mild elevation in hepatic transaminase levels, but it is not specified if this is more than 2X above the normal range."},
+    {"Criterion": "Known liver disease", "Classification": "Unclear", "Justification": "The patient has a mild elevation in hepatic transaminase levels, but there is no explicit mention of known liver disease."},
+    {"Criterion": "Pregnancy within 12 months of screening visit", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."},
+    {"Criterion": "Lactation within 12 months of screening visit", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."},
+    {"Criterion": "Failure to use medically approved contraceptive methods", "Classification": "Irrelevant", "Justification": "The patient is male, making this criterion irrelevant."},
+    {"Criterion": "History of an eating disorder (anorexia, bulimia, or laxative abuse)", "Classification": "Not Violated", "Justification": "There is no mention of an eating disorder in the patient's history."},
+    {"Criterion": "History of surgery for the treatment of obesity (gastric banding, gastric bypass, gastric stapling)", "Classification": "Not Violated", "Justification": "There is no mention of obesity surgery in the patient's history."},
+    {"Criterion": "New diagnosis of hypothyroidism within 1 year of screening visit or change in dose of thyroid hormone within 3 months of screening visit", "Classification": "Not Violated", "Justification": "There is no mention of hypothyroidism or changes in thyroid hormone treatment in the patient's history."},
+    {"Criterion": "History of alcohol abuse within the past 3 years", "Classification": "Not Violated", "Justification": "There is no mention of alcohol abuse in the patient's history."},
+    {"Criterion": "History of keloid formation", "Classification": "Unclear", "Justification": "There is no information provided about a history of keloid formation."},
+    {"Criterion": "History of allergy to lidocaine or marcaine", "Classification": "Unclear", "Justification": "There is no information provided about allergies to lidocaine or marcaine."}
+  ],
+  "Recap": "The patient is ineligible for the clinical trial due to violations of the exclusion criteria related to Type 2 diabetes mellitus and coronary heart disease. Additionally, the patient does not meet the age requirement for inclusion.",
+  "Final Decision": "Ineligible"
+}
+```

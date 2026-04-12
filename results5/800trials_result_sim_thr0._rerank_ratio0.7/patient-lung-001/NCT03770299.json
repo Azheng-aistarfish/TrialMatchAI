@@ -1,0 +1,68 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Suspected or histologically confirmed Stage IIA to IIIB NSCLC with disease that is considered resectable",
+            "Classification": "Not Met",
+            "Justification": "The patient has metastatic NSCLC, which is beyond Stage IIIB and not resectable."
+        },
+        {
+            "Criterion": "Must be deemed eligible for complete resection and must agree to undergo standard of care surgery for complete resection of NSCLC",
+            "Classification": "Not Met",
+            "Justification": "The patient's cancer is metastatic, making complete resection infeasible."
+        },
+        {
+            "Criterion": "Treatment naive (no previous systemic treatment)",
+            "Classification": "Not Met",
+            "Justification": "The patient is currently undergoing treatment with osimertinib, indicating prior systemic treatment."
+        },
+        {
+            "Criterion": "Must have undergone complete surgical resection of their Stage IIA to IIIB NSCLC",
+            "Classification": "Not Met",
+            "Justification": "The patient has metastatic disease, not Stage IIA to IIIB, and has not undergone surgical resection."
+        },
+        {
+            "Criterion": "Must have adequately recovered from surgery at the time of randomization",
+            "Classification": "Irrelevant",
+            "Justification": "The patient has not undergone surgery, making this criterion irrelevant."
+        },
+        {
+            "Criterion": "Minimal residual disease (MRD) positive results as detected by ctDNA",
+            "Classification": "Unclear",
+            "Justification": "There is no information provided about MRD status or ctDNA results."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Participants with known EGFR mutations which are sensitive to available targeted inhibitor therapy",
+            "Classification": "Violated",
+            "Justification": "The patient has an EGFR exon 19 deletion, which is sensitive to osimertinib, a targeted therapy."
+        },
+        {
+            "Criterion": "Active, known or suspected autoimmune disease",
+            "Classification": "Not Violated",
+            "Justification": "There is no mention of autoimmune disease in the patient's profile."
+        },
+        {
+            "Criterion": "Participants with a condition requiring systemic treatment with either corticosteroids (> 10 mg daily prednisone equivalent) or other immunosuppressive medications within 14 days of randomization",
+            "Classification": "Not Violated",
+            "Justification": "The patient is not reported to be on corticosteroids or immunosuppressive medications."
+        },
+        {
+            "Criterion": "Must continue to meet Exclusion Criteria prior to Surgery",
+            "Classification": "Violated",
+            "Justification": "The patient violates the EGFR mutation criterion, which is an exclusion criterion prior to surgery."
+        },
+        {
+            "Criterion": "Must have no evidence of metastatic disease after surgery",
+            "Classification": "Violated",
+            "Justification": "The patient has metastatic disease, which is a violation of this criterion."
+        },
+        {
+            "Criterion": "Received a live/attenuated vaccine within 30 days of first treatment",
+            "Classification": "Not Violated",
+            "Justification": "There is no information provided about recent vaccination, so this criterion is not violated based on available data."
+        }
+    ],
+    "Recap": "The patient is ineligible for the clinical trial due to having metastatic NSCLC, which is beyond the resectable stage required, and having an EGFR mutation sensitive to targeted therapy. Additionally, the patient has already undergone systemic treatment, violating the treatment-naive requirement.",
+    "Final Decision": "Ineligible"
+}

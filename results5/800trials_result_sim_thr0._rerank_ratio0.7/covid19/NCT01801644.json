@@ -1,0 +1,68 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "18 years of age",
+            "Classification": "Unclear",
+            "Justification": "The patient's age is not provided in the data."
+        },
+        {
+            "Criterion": "histologically confirmed stage T2, T3 or T4a urothelial bladder cancer with N0-N2",
+            "Classification": "Unclear",
+            "Justification": "The patient's cancer stage and histological confirmation are not mentioned in the data."
+        },
+        {
+            "Criterion": "Eastern Cooperative Oncology Group (ECOG) performance status of 0-1",
+            "Classification": "Unclear",
+            "Justification": "The patient's ECOG performance status is not provided in the data."
+        },
+        {
+            "Criterion": "bone marrow reserve (neutrophil count >1500 cells per μL, platelet count >100 000 per μL)",
+            "Classification": "Unclear",
+            "Justification": "The patient's neutrophil and platelet counts are not provided in the data."
+        },
+        {
+            "Criterion": "hepatic function (serum bilirubin <2,5 times the upper limit of normal, serum aminotransferase ≤2,5 times the upper limit of normal)",
+            "Classification": "Unclear",
+            "Justification": "The patient's liver function test results are not provided in the data."
+        },
+        {
+            "Criterion": "renal function with a creatinine clearance >60ml/min",
+            "Classification": "Violated",
+            "Justification": "The patient has Stage 3 chronic kidney disease, which typically indicates reduced renal function, likely below the required creatinine clearance of >60ml/min."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "metastatic disease",
+            "Classification": "Not Violated",
+            "Justification": "There is no mention of metastatic disease in the patient's data."
+        },
+        {
+            "Criterion": "serious or uncontrolled concurrent medical illness",
+            "Classification": "Violated",
+            "Justification": "The patient has multiple serious conditions, including COVID-19 with acute respiratory failure, Stage 3 chronic kidney disease, obesity, diabetes mellitus, and cardiomyopathy, which are likely uncontrolled."
+        },
+        {
+            "Criterion": "pregnancy",
+            "Classification": "Irrelevant",
+            "Justification": "The patient is male, so pregnancy is not applicable."
+        },
+        {
+            "Criterion": "history of other malignancies (with the exception of excised cervical or basal skin or squamous-cell carcinoma)",
+            "Classification": "Unclear",
+            "Justification": "There is no information provided about the patient's history of other malignancies."
+        },
+        {
+            "Criterion": "non-transitional cell bladder cancer",
+            "Classification": "Unclear",
+            "Justification": "The type of bladder cancer is not specified in the patient's data."
+        },
+        {
+            "Criterion": "creatinine clearance <60ml/min",
+            "Classification": "Violated",
+            "Justification": "The patient's Stage 3 chronic kidney disease suggests a creatinine clearance below 60ml/min."
+        }
+    ],
+    "Recap": "The patient's eligibility is primarily hindered by the lack of information on age, cancer stage, ECOG status, and bone marrow reserve, as well as the presence of serious uncontrolled medical conditions and likely reduced renal function.",
+    "Final Decision": "Ineligible"
+}

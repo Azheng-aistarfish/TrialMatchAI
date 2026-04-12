@@ -1,0 +1,1467 @@
+{
+    "index": "clinical_trials.800",
+    "patient_age_raw": 47,
+    "patient_sex": "FEMALE",
+    "overall_status_filter": "All",
+    "vector_score_threshold": 0.0,
+    "max_trials_first_level": 800,
+    "counts": {
+        "docs_in_index": 800,
+        "passed_eligibility_filters": 674,
+        "retrieved_first_level": 674,
+        "failed_eligibility_filters": 126,
+        "passed_filters_but_not_in_topk": 0
+    },
+    "filter_flags": {
+        "age_filter_enabled": true,
+        "patient_age_used_in_filter": 47,
+        "status_filter_enabled": false,
+        "preselected_enabled": false
+    },
+    "note": "passed_filters_but_not_in_topk: 已通过年龄/性别/状态等 filter，但未进入一级 hybrid/bm25 返回的前 max_trials_first_level 条（排序/截断）。",
+    "failed_eligibility_filters_truncated": false,
+    "failed_eligibility_filters_omitted": 0,
+    "failed_eligibility_filters": [
+        {
+            "nct_id": "NCT00000123",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=35 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00006044",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT00160446",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=40 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00200655",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00257309",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=75 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00484705",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=37 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00523666",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=55 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00533650",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00617760",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1.5 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00619957",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT00634517",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=11 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00645112",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=6 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00683917",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00728533",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT00732732",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=2 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00867828",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00880477",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.15 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00966381",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=40 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT00966498",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=35 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01014312",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01074437",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.75 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01080352",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT01086956",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01100424",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=35 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01174017",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT01216163",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=40 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01270841",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT01383902",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT01403896",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=30 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01437956",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=1 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01531439",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=21 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01570231",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=80 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01573286",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01618851",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT01646684",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT01684072",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=12 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01686958",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 47",
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT01714102",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT01787591",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=40 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01798251",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01865305",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT01968434",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=5 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT01976416",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=3.92 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT02006927",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02016248",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02094053",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=39 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT02119858",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02182622",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02202382",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 47",
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02216552",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT02270216",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT02315768",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT02339948",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02434575",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02444936",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT02484638",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02495454",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT02511665",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02523924",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02577172",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02613078",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=17 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT02616614",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=40 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT02629874",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=35 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT02646384",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=17 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT02731989",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=13 < 用于 filter 的患者年龄 47",
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02772588",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02852824",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02937740",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT02989701",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=35 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03034070",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT03137693",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03167593",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03183531",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.08 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03255720",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03370913",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT03439397",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=10 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03444870",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03528954",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=5 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03545945",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03612596",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=55 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03617614",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=65 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03666052",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03792633",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=29 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03824990",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.08 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03889483",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03895281",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03913312",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03941925",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=3 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT03988764",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=25 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT04007432",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=70 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT04104893",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT04109378",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT04133662",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT04159896",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT04175158",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 47",
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT04183777",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=12 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT04209946",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.56 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT04225286",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=0.63 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT04297657",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT04305028",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT04346225",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT04397016",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT04415983",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT04518709",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT04596085",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT04642287",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT04669145",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT04776889",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 47",
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT04940221",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=55 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT05025098",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT05084027",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT05382390",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=60 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT05475938",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=16 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT05502666",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=50 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT05515978",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT05562193",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=17 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT05584449",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=39 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT05633160",
+            "reasons": [
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT05683041",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=45 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT05700799",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=17 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT05810532",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=3 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT05844683",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT05968144",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=55 > 用于 filter 的患者年龄 47",
+                "性别: 试验 gender='Male' 不在当前患者允许集合（与 ES terms 一致）"
+            ]
+        },
+        {
+            "nct_id": "NCT06357377",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=18 < 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT06373471",
+            "reasons": [
+                "年龄下限: 试验 minimum_age=70 > 用于 filter 的患者年龄 47"
+            ]
+        },
+        {
+            "nct_id": "NCT06439979",
+            "reasons": [
+                "年龄上限: 试验 maximum_age=7 < 用于 filter 的患者年龄 47"
+            ]
+        }
+    ],
+    "passed_filters_but_not_in_topk_truncated": false,
+    "passed_filters_but_not_in_topk_omitted": 0,
+    "passed_filters_but_not_in_topk": [],
+    "retrieved_nct_ids_in_order": [
+        "NCT00001371",
+        "NCT00002735",
+        "NCT00004364",
+        "NCT00004562",
+        "NCT00005837",
+        "NCT00039377",
+        "NCT00042835",
+        "NCT00057694",
+        "NCT00075439",
+        "NCT00078195",
+        "NCT00088699",
+        "NCT00103155",
+        "NCT00107536",
+        "NCT00108420",
+        "NCT00109265",
+        "NCT00124033",
+        "NCT00132327",
+        "NCT00147290",
+        "NCT00154479",
+        "NCT00175006",
+        "NCT00182481",
+        "NCT00199355",
+        "NCT00216125",
+        "NCT00219284",
+        "NCT00282191",
+        "NCT00294463",
+        "NCT00320424",
+        "NCT00323609",
+        "NCT00336648",
+        "NCT00367588",
+        "NCT00368004",
+        "NCT00402727",
+        "NCT00408499",
+        "NCT00411112",
+        "NCT00426413",
+        "NCT00428922",
+        "NCT00444236",
+        "NCT00498537",
+        "NCT00502983",
+        "NCT00514020",
+        "NCT00524888",
+        "NCT00581126",
+        "NCT00589368",
+        "NCT00621218",
+        "NCT00651768",
+        "NCT00652379",
+        "NCT00669669",
+        "NCT00680901",
+        "NCT00689169",
+        "NCT00701259",
+        "NCT00706433",
+        "NCT00734955",
+        "NCT00737971",
+        "NCT00752765",
+        "NCT00787189",
+        "NCT00822094",
+        "NCT00830323",
+        "NCT00833794",
+        "NCT00839306",
+        "NCT00843726",
+        "NCT00850408",
+        "NCT00860067",
+        "NCT00860574",
+        "NCT00873782",
+        "NCT00886327",
+        "NCT00893789",
+        "NCT00966459",
+        "NCT00968747",
+        "NCT00979160",
+        "NCT01005979",
+        "NCT01010672",
+        "NCT01012739",
+        "NCT01022476",
+        "NCT01033019",
+        "NCT01034670",
+        "NCT01045889",
+        "NCT01046487",
+        "NCT01047111",
+        "NCT01048983",
+        "NCT01056406",
+        "NCT01074645",
+        "NCT01077193",
+        "NCT01081301",
+        "NCT01103024",
+        "NCT01110447",
+        "NCT01113333",
+        "NCT01142466",
+        "NCT01145456",
+        "NCT01151046",
+        "NCT01156818",
+        "NCT01158144",
+        "NCT01158248",
+        "NCT01167530",
+        "NCT01168050",
+        "NCT01169038",
+        "NCT01170052",
+        "NCT01186939",
+        "NCT01195766",
+        "NCT01202851",
+        "NCT01213277",
+        "NCT01214655",
+        "NCT01227889",
+        "NCT01228942",
+        "NCT01231594",
+        "NCT01249430",
+        "NCT01264432",
+        "NCT01268735",
+        "NCT01270321",
+        "NCT01274143",
+        "NCT01278888",
+        "NCT01307618",
+        "NCT01308294",
+        "NCT01315483",
+        "NCT01317212",
+        "NCT01331525",
+        "NCT01333423",
+        "NCT01334801",
+        "NCT01335009",
+        "NCT01335074",
+        "NCT01337401",
+        "NCT01349556",
+        "NCT01362296",
+        "NCT01375569",
+        "NCT01376414",
+        "NCT01401647",
+        "NCT01415011",
+        "NCT01439581",
+        "NCT01444534",
+        "NCT01444547",
+        "NCT01447589",
+        "NCT01448850",
+        "NCT01465841",
+        "NCT01468623",
+        "NCT01468675",
+        "NCT01476644",
+        "NCT01486550",
+        "NCT01491165",
+        "NCT01496534",
+        "NCT01499160",
+        "NCT01509183",
+        "NCT01510002",
+        "NCT01519076",
+        "NCT01520870",
+        "NCT01522976",
+        "NCT01526889",
+        "NCT01539291",
+        "NCT01547494",
+        "NCT01570868",
+        "NCT01573416",
+        "NCT01583205",
+        "NCT01585415",
+        "NCT01599832",
+        "NCT01600807",
+        "NCT01603576",
+        "NCT01606631",
+        "NCT01621217",
+        "NCT01624025",
+        "NCT01624051",
+        "NCT01625533",
+        "NCT01630226",
+        "NCT01644253",
+        "NCT01655992",
+        "NCT01663675",
+        "NCT01674140",
+        "NCT01676194",
+        "NCT01691196",
+        "NCT01700439",
+        "NCT01700673",
+        "NCT01710501",
+        "NCT01711970",
+        "NCT01712646",
+        "NCT01721343",
+        "NCT01724086",
+        "NCT01746836",
+        "NCT01747772",
+        "NCT01749527",
+        "NCT01752205",
+        "NCT01753479",
+        "NCT01769820",
+        "NCT01788189",
+        "NCT01792817",
+        "NCT01800799",
+        "NCT01801644",
+        "NCT01803113",
+        "NCT01812070",
+        "NCT01827618",
+        "NCT01842165",
+        "NCT01849744",
+        "NCT01874873",
+        "NCT01887067",
+        "NCT01909791",
+        "NCT01918631",
+        "NCT01921504",
+        "NCT01927757",
+        "NCT01948843",
+        "NCT01957020",
+        "NCT01959867",
+        "NCT01962610",
+        "NCT01963429",
+        "NCT01963715",
+        "NCT01986348",
+        "NCT02000180",
+        "NCT02004925",
+        "NCT02007798",
+        "NCT02009787",
+        "NCT02023359",
+        "NCT02027077",
+        "NCT02046538",
+        "NCT02056756",
+        "NCT02060487",
+        "NCT02060552",
+        "NCT02066285",
+        "NCT02066493",
+        "NCT02069041",
+        "NCT02071511",
+        "NCT02087475",
+        "NCT02093143",
+        "NCT02117557",
+        "NCT02125513",
+        "NCT02142959",
+        "NCT02153034",
+        "NCT02165995",
+        "NCT02169908",
+        "NCT02174887",
+        "NCT02176304",
+        "NCT02206308",
+        "NCT02211443",
+        "NCT02227251",
+        "NCT02232152",
+        "NCT02251665",
+        "NCT02253524",
+        "NCT02266433",
+        "NCT02269826",
+        "NCT02269891",
+        "NCT02278510",
+        "NCT02284139",
+        "NCT02303730",
+        "NCT02312102",
+        "NCT02316340",
+        "NCT02321696",
+        "NCT02340949",
+        "NCT02341170",
+        "NCT02361541",
+        "NCT02382107",
+        "NCT02392676",
+        "NCT02395601",
+        "NCT02406170",
+        "NCT02408523",
+        "NCT02437318",
+        "NCT02438865",
+        "NCT02444819",
+        "NCT02451124",
+        "NCT02461719",
+        "NCT02461836",
+        "NCT02465528",
+        "NCT02472964",
+        "NCT02473536",
+        "NCT02473848",
+        "NCT02474095",
+        "NCT02476409",
+        "NCT02487992",
+        "NCT02495233",
+        "NCT02507804",
+        "NCT02513784",
+        "NCT02514915",
+        "NCT02522611",
+        "NCT02530281",
+        "NCT02530294",
+        "NCT02535650",
+        "NCT02537158",
+        "NCT02553174",
+        "NCT02559479",
+        "NCT02561663",
+        "NCT02563561",
+        "NCT02565641",
+        "NCT02570165",
+        "NCT02576626",
+        "NCT02579720",
+        "NCT02582996",
+        "NCT02583763",
+        "NCT02592447",
+        "NCT02611908",
+        "NCT02623712",
+        "NCT02628808",
+        "NCT02629848",
+        "NCT02635074",
+        "NCT02638831",
+        "NCT02647021",
+        "NCT02650622",
+        "NCT02665390",
+        "NCT02679066",
+        "NCT02681302",
+        "NCT02682589",
+        "NCT02682862",
+        "NCT02683382",
+        "NCT02689505",
+        "NCT02691338",
+        "NCT02703571",
+        "NCT02705937",
+        "NCT02712138",
+        "NCT02716051",
+        "NCT02722772",
+        "NCT02749513",
+        "NCT02753140",
+        "NCT02756962",
+        "NCT02757326",
+        "NCT02760225",
+        "NCT02789657",
+        "NCT02790827",
+        "NCT02792491",
+        "NCT02795429",
+        "NCT02800473",
+        "NCT02807883",
+        "NCT02808416",
+        "NCT02811900",
+        "NCT02821182",
+        "NCT02827838",
+        "NCT02837367",
+        "NCT02841800",
+        "NCT02847767",
+        "NCT02853188",
+        "NCT02863055",
+        "NCT02873793",
+        "NCT02892058",
+        "NCT02892188",
+        "NCT02900352",
+        "NCT02905916",
+        "NCT02916199",
+        "NCT02930915",
+        "NCT02936817",
+        "NCT02985528",
+        "NCT02987296",
+        "NCT02989012",
+        "NCT02990221",
+        "NCT02997787",
+        "NCT03017716",
+        "NCT03022110",
+        "NCT03025932",
+        "NCT03027739",
+        "NCT03028701",
+        "NCT03034915",
+        "NCT03038477",
+        "NCT03043872",
+        "NCT03047239",
+        "NCT03060057",
+        "NCT03074942",
+        "NCT03081897",
+        "NCT03083613",
+        "NCT03086642",
+        "NCT03104543",
+        "NCT03135769",
+        "NCT03135925",
+        "NCT03139487",
+        "NCT03173638",
+        "NCT03179306",
+        "NCT03181815",
+        "NCT03184090",
+        "NCT03190551",
+        "NCT03207126",
+        "NCT03215030",
+        "NCT03216031",
+        "NCT03234855",
+        "NCT03243955",
+        "NCT03252899",
+        "NCT03264352",
+        "NCT03267433",
+        "NCT03272334",
+        "NCT03289819",
+        "NCT03291379",
+        "NCT03292289",
+        "NCT03315039",
+        "NCT03331341",
+        "NCT03333863",
+        "NCT03334617",
+        "NCT03351725",
+        "NCT03361709",
+        "NCT03368976",
+        "NCT03380793",
+        "NCT03388021",
+        "NCT03394014",
+        "NCT03403387",
+        "NCT03427346",
+        "NCT03427684",
+        "NCT03435302",
+        "NCT03468933",
+        "NCT03480958",
+        "NCT03493932",
+        "NCT03516500",
+        "NCT03534557",
+        "NCT03537001",
+        "NCT03557879",
+        "NCT03558191",
+        "NCT03564821",
+        "NCT03570138",
+        "NCT03570905",
+        "NCT03574207",
+        "NCT03586661",
+        "NCT03595813",
+        "NCT03596593",
+        "NCT03601533",
+        "NCT03606590",
+        "NCT03639181",
+        "NCT03639246",
+        "NCT03662841",
+        "NCT03668496",
+        "NCT03670719",
+        "NCT03703271",
+        "NCT03716596",
+        "NCT03718650",
+        "NCT03719131",
+        "NCT03726658",
+        "NCT03728036",
+        "NCT03745794",
+        "NCT03754361",
+        "NCT03766776",
+        "NCT03768310",
+        "NCT03768492",
+        "NCT03770299",
+        "NCT03788499",
+        "NCT03794388",
+        "NCT03796052",
+        "NCT03798457",
+        "NCT03822234",
+        "NCT03841565",
+        "NCT03853902",
+        "NCT03856229",
+        "NCT03864562",
+        "NCT03867045",
+        "NCT03867331",
+        "NCT03872206",
+        "NCT03875300",
+        "NCT03877601",
+        "NCT03893981",
+        "NCT03900299",
+        "NCT03903614",
+        "NCT03925909",
+        "NCT03939962",
+        "NCT03940378",
+        "NCT03945552",
+        "NCT03969459",
+        "NCT03977077",
+        "NCT03996408",
+        "NCT04000477",
+        "NCT04002089",
+        "NCT04004507",
+        "NCT04005365",
+        "NCT04012658",
+        "NCT04013841",
+        "NCT04017728",
+        "NCT04025307",
+        "NCT04027946",
+        "NCT04034641",
+        "NCT04040166",
+        "NCT04040699",
+        "NCT04061733",
+        "NCT04077073",
+        "NCT04087018",
+        "NCT04088786",
+        "NCT04098783",
+        "NCT04109937",
+        "NCT04113863",
+        "NCT04115761",
+        "NCT04115826",
+        "NCT04141995",
+        "NCT04147884",
+        "NCT04150640",
+        "NCT04157491",
+        "NCT04159870",
+        "NCT04165993",
+        "NCT04173338",
+        "NCT04174950",
+        "NCT04175912",
+        "NCT04182893",
+        "NCT04189614",
+        "NCT04201002",
+        "NCT04202640",
+        "NCT04222335",
+        "NCT04226989",
+        "NCT04241848",
+        "NCT04260360",
+        "NCT04267900",
+        "NCT04267913",
+        "NCT04268017",
+        "NCT04274816",
+        "NCT04286451",
+        "NCT04295642",
+        "NCT04306900",
+        "NCT04318561",
+        "NCT04323605",
+        "NCT04336982",
+        "NCT04338763",
+        "NCT04339829",
+        "NCT04358445",
+        "NCT04360252",
+        "NCT04368195",
+        "NCT04373031",
+        "NCT04383938",
+        "NCT04396912",
+        "NCT04408638",
+        "NCT04415853",
+        "NCT04417608",
+        "NCT04422184",
+        "NCT04423055",
+        "NCT04428463",
+        "NCT04429191",
+        "NCT04434443",
+        "NCT04440865",
+        "NCT04448145",
+        "NCT04453501",
+        "NCT04464811",
+        "NCT04469556",
+        "NCT04481256",
+        "NCT04483830",
+        "NCT04484636",
+        "NCT04490993",
+        "NCT04522323",
+        "NCT04543253",
+        "NCT04553510",
+        "NCT04569422",
+        "NCT04573231",
+        "NCT04582487",
+        "NCT04588064",
+        "NCT04591028",
+        "NCT04602117",
+        "NCT04623580",
+        "NCT04624633",
+        "NCT04629209",
+        "NCT04635488",
+        "NCT04644835",
+        "NCT04659616",
+        "NCT04664478",
+        "NCT04672928",
+        "NCT04674293",
+        "NCT04682158",
+        "NCT04691089",
+        "NCT04696770",
+        "NCT04707001",
+        "NCT04708067",
+        "NCT04725188",
+        "NCT04729725",
+        "NCT04730765",
+        "NCT04743505",
+        "NCT04756362",
+        "NCT04756778",
+        "NCT04758000",
+        "NCT04770272",
+        "NCT04771910",
+        "NCT04778384",
+        "NCT04795128",
+        "NCT04801797",
+        "NCT04803994",
+        "NCT04804592",
+        "NCT04810936",
+        "NCT04812756",
+        "NCT04847544",
+        "NCT04852081",
+        "NCT04853589",
+        "NCT04861220",
+        "NCT04872478",
+        "NCT04887025",
+        "NCT04891653",
+        "NCT04892966",
+        "NCT04896112",
+        "NCT04898543",
+        "NCT04951947",
+        "NCT04964284",
+        "NCT04973293",
+        "NCT04985734",
+        "NCT04995523",
+        "NCT05001282",
+        "NCT05002140",
+        "NCT05035407",
+        "NCT05035914",
+        "NCT05038813",
+        "NCT05043090",
+        "NCT05048498",
+        "NCT05114915",
+        "NCT05131776",
+        "NCT05170828",
+        "NCT05243797",
+        "NCT05283577",
+        "NCT05296109",
+        "NCT05299411",
+        "NCT05305131",
+        "NCT05322330",
+        "NCT05336721",
+        "NCT05348187",
+        "NCT05361720",
+        "NCT05362539",
+        "NCT05378204",
+        "NCT05384691",
+        "NCT05397457",
+        "NCT05416775",
+        "NCT05422521",
+        "NCT05433701",
+        "NCT05435248",
+        "NCT05440760",
+        "NCT05441254",
+        "NCT05441761",
+        "NCT05443165",
+        "NCT05481658",
+        "NCT05493683",
+        "NCT05499715",
+        "NCT05513703",
+        "NCT05544084",
+        "NCT05546372",
+        "NCT05549973",
+        "NCT05555199",
+        "NCT05557708",
+        "NCT05582499",
+        "NCT05597683",
+        "NCT05605509",
+        "NCT05622357",
+        "NCT05624918",
+        "NCT05626322",
+        "NCT05629845",
+        "NCT05653596",
+        "NCT05653622",
+        "NCT05655078",
+        "NCT05666700",
+        "NCT05675813",
+        "NCT05683704",
+        "NCT05692999",
+        "NCT05717140",
+        "NCT05720338",
+        "NCT05741294",
+        "NCT05746195",
+        "NCT05747157",
+        "NCT05749042",
+        "NCT05749211",
+        "NCT05761951",
+        "NCT05768347",
+        "NCT05774678",
+        "NCT05792735",
+        "NCT05793710",
+        "NCT05830084",
+        "NCT05841563",
+        "NCT05859373",
+        "NCT05917431",
+        "NCT05923177",
+        "NCT05969184",
+        "NCT05972460",
+        "NCT05996432",
+        "NCT06022770",
+        "NCT06050980",
+        "NCT06084481",
+        "NCT06088888",
+        "NCT06101758",
+        "NCT06105801",
+        "NCT06114940",
+        "NCT06131775",
+        "NCT06133426",
+        "NCT06142344",
+        "NCT06152367",
+        "NCT06166888",
+        "NCT06173219",
+        "NCT06223568",
+        "NCT06236360",
+        "NCT06237413",
+        "NCT06244992",
+        "NCT06249048",
+        "NCT06297525",
+        "NCT06320301",
+        "NCT06328699",
+        "NCT06363773",
+        "NCT06376344",
+        "NCT06391918",
+        "NCT06406556",
+        "NCT06407037",
+        "NCT06430372",
+        "NCT06452160",
+        "NCT06454578",
+        "NCT06458517",
+        "NL64722.031.18"
+    ]
+}

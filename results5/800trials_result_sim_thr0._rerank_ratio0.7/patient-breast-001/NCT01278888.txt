@@ -1,0 +1,23 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Eligible for surgery for lung cancer.", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not lung cancer, making this criterion irrelevant."},
+    {"Criterion": "Elective surgery (surgery planned > 2 days).", "Classification": "Unclear", "Justification": "There is no information provided about any planned surgery, elective or otherwise."},
+    {"Criterion": "Accepts randomization.", "Classification": "Met", "Justification": "The patient has provided written informed consent, which implies acceptance of randomization."},
+    {"Criterion": "Age 18 or above.", "Classification": "Met", "Justification": "The patient is 47 years old, which satisfies the age criterion."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Previous thoracic surgery.", "Classification": "Not Violated", "Justification": "There is no mention of any previous thoracic surgery in the patient's history."},
+    {"Criterion": "Planned segment resection or pneumonectomy.", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not lung cancer, making this criterion irrelevant."},
+    {"Criterion": "Any type of chronic pain, requiring daily use of analgetics.", "Classification": "Not Violated", "Justification": "The patient experiences mild cancer-related fatigue, but there is no mention of chronic pain requiring daily analgetics."},
+    {"Criterion": "Pregnant.", "Classification": "Not Violated", "Justification": "There is no information suggesting the patient is pregnant."},
+    {"Criterion": "Breastfeeding.", "Classification": "Not Violated", "Justification": "There is no information suggesting the patient is breastfeeding."},
+    {"Criterion": "T3, T4 tumors or cerebral tumors.", "Classification": "Violated", "Justification": "The patient's breast carcinoma is classified as T3, which violates this exclusion criterion."},
+    {"Criterion": "Contraindications to NSAID.", "Classification": "Irrelevant", "Justification": "There is no mention of NSAID contraindications in the patient's profile."},
+    {"Criterion": "Chemo- and/or radiotherapy in connection to present admission.", "Classification": "Not Violated", "Justification": "The patient is currently receiving endocrine therapy, not chemotherapy or radiotherapy."},
+    {"Criterion": "Major surgery planned in connection to this admission.", "Classification": "Unclear", "Justification": "There is no information provided about any planned major surgery in connection to this admission."}
+  ],
+  "Recap": "The patient meets the age and consent criteria but violates the exclusion criterion related to T3 tumors. The relevance of elective surgery and major surgery criteria is unclear due to lack of information.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,24 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients who can accept curative operations 18-70 years old", "Classification": "Irrelevant", "Justification": "The patient has metastatic breast cancer, not colorectal cancer, making this criterion irrelevant."},
+    {"Criterion": "Histologically confirmed with colorectal cancer at stage Ⅳ", "Classification": "Not Met", "Justification": "The patient has metastatic breast cancer, not colorectal cancer, so this criterion is not met."},
+    {"Criterion": "Patients who can accept oral drugs", "Classification": "Met", "Justification": "The patient is currently receiving palbociclib orally, indicating she can accept oral drugs."},
+    {"Criterion": "Eastern Cooperative Oncology Group (ECOG) performance status was 0 - 1", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided in the data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Hemoglobin<8.0 g/dL, White blood cell <3 X 10^9/L; Platelet count <75 X 10^9/L; alanine aminotransferase, glutamic-oxalacetic transaminase, blood urine nitrogen and creatinine more than normal limits on 3.0 times", "Classification": "Unclear", "Justification": "The patient's lab values are not provided, making it unclear if this criterion is violated."},
+    {"Criterion": "Known or suspected allergy to the investigational agent or any agent given in association with this trial", "Classification": "Not Violated", "Justification": "There is no information indicating any known or suspected allergies to the investigational agent or associated agents."},
+    {"Criterion": "Pregnant or lactating patients", "Classification": "Not Violated", "Justification": "There is no information suggesting the patient is pregnant or lactating."},
+    {"Criterion": "Known history of Human Immunodeficiency Virus (HIV), Hepatitis C Virus (HIV), or Treponema Pallidum (TP) infection", "Classification": "Not Violated", "Justification": "There is no information indicating a history of HIV, HCV, or TP infection."},
+    {"Criterion": "Patients who are suffering from serious autoimmune disease", "Classification": "Not Violated", "Justification": "There is no information indicating the patient has a serious autoimmune disease."},
+    {"Criterion": "Patients who had used long time or are using immunosuppressant", "Classification": "Not Violated", "Justification": "There is no information indicating the patient is using or has used immunosuppressants."},
+    {"Criterion": "Patients who had active infection", "Classification": "Not Violated", "Justification": "There is no information indicating the patient has an active infection."},
+    {"Criterion": "Patients who are suffering from serious organ dysfunction", "Classification": "Unclear", "Justification": "There is no information provided about the patient's organ function, making it unclear if this criterion is violated."},
+    {"Criterion": "Patients who are suffering from other cancer", "Classification": "Violated", "Justification": "The patient has metastatic breast cancer, which is a different type of cancer than colorectal cancer."},
+    {"Criterion": "Other situations that the researchers considered unsuitable for this study", "Classification": "Irrelevant", "Justification": "There is no information provided about other unsuitable situations, making this criterion irrelevant."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for colorectal cancer and is ineligible due to having a different type of cancer. The patient's ability to take oral drugs is confirmed, but her ECOG status and lab values are unclear. The patient is not disqualified by any exclusion criteria except for having a different type of cancer.",
+  "Final Decision": "Ineligible"
+}
+```

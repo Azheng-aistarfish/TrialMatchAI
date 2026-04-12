@@ -1,0 +1,48 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "age ≥ 21",
+            "Classification": "Unclear",
+            "Justification": "The patient's age is not provided in the data."
+        },
+        {
+            "Criterion": "history of hypertension",
+            "Classification": "Unclear",
+            "Justification": "There is no mention of hypertension in the patient's medical history."
+        },
+        {
+            "Criterion": "scheduled for Anesthesia preoperative clinic visit",
+            "Classification": "Unclear",
+            "Justification": "The patient's schedule for an Anesthesia preoperative clinic visit is not mentioned."
+        },
+        {
+            "Criterion": "scheduled to undergo prolonged intra-abdominal or intra-thoracic surgeries",
+            "Classification": "Unclear",
+            "Justification": "There is no information about the patient being scheduled for any surgeries."
+        },
+        {
+            "Criterion": "will be anticipated to be admitted to the ICU for a minimum of 2-3 days post-operatively",
+            "Classification": "Unclear",
+            "Justification": "The patient's post-operative ICU admission is not specified in the data."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "history of chronic kidney as defined by estimated glomerular filtration rate (GFR) <90",
+            "Classification": "Violated",
+            "Justification": "The patient has Stage 3 chronic kidney disease, which implies a GFR <90."
+        },
+        {
+            "Criterion": "patient taking NSAIDs on a daily basis",
+            "Classification": "Not Violated",
+            "Justification": "There is no information indicating the patient is taking NSAIDs daily."
+        },
+        {
+            "Criterion": "patients with a reported allergy or intolerance to NSAIDs",
+            "Classification": "Not Violated",
+            "Justification": "There is no mention of any allergy or intolerance to NSAIDs in the patient's history."
+        }
+    ],
+    "Recap": "The patient's eligibility is unclear for most inclusion criteria due to missing information. However, the patient is disqualified from the trial due to having Stage 3 chronic kidney disease, which violates the exclusion criterion related to GFR.",
+    "Final Decision": "Ineligible"
+}

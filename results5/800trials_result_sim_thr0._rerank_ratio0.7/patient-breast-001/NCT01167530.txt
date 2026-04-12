@@ -1,0 +1,34 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Unresectable non-small cell lung cancer, stage IIIA/B, or stage IV for which the primary tumor is symptomatic (cough, dyspnea, pain) without extra-thoracic lesions rapidly evolving for which patients should receive radiotherapy at curative dose", "Classification": "Irrelevant", "Justification": "The patient has metastatic breast cancer, not lung cancer, making this criterion irrelevant."},
+    {"Criterion": "Measurable lesion, documented histologically, potentially accessible during fiberoptic bronchoscopy", "Classification": "Irrelevant", "Justification": "The patient's condition involves breast cancer, not lung cancer, so this criterion is irrelevant."},
+    {"Criterion": "Age > 18 years, WHO 0-1", "Classification": "Met", "Justification": "The patient is 47 years old, which satisfies the age criterion. WHO performance status is not provided, but age alone is met."},
+    {"Criterion": "Neutrophil count > 1500 /mm3, Hemoglobin > 9 g/dL, Platelet count > 100,000/mm3", "Classification": "Unclear", "Justification": "The patient's blood counts are not provided in the data, making it unclear if this criterion is met."},
+    {"Criterion": "Bilirubin < 1.5 mg/dL, Transaminases < 3 N, albumin >30 g / L, PT > 70%", "Classification": "Unclear", "Justification": "The patient's liver function tests are not provided, so it is unclear if this criterion is met."},
+    {"Criterion": "Creatinine < 120 μM/L", "Classification": "Unclear", "Justification": "The patient's creatinine level is not provided, making it unclear if this criterion is met."},
+    {"Criterion": "Patient information and informed consent form signed", "Classification": "Met", "Justification": "The patient has provided written informed consent, meeting this criterion."},
+    {"Criterion": "No previous treatment for lung cancer (surgery, radiotherapy, chemotherapy)", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not lung cancer, making this criterion irrelevant."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients previously treated with RAD001 (everolimus) or any other mTOR inhibitor", "Classification": "Not Violated", "Justification": "There is no mention of the patient being treated with RAD001 or any mTOR inhibitor."},
+    {"Criterion": "Stage IV for which the primary tumor is not symptomatic with extra-thoracic lesions rapidly evolving requiring systemic treatment", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not lung cancer, making this criterion irrelevant."},
+    {"Criterion": "Previous radiotherapy", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not lung cancer, making this criterion irrelevant."},
+    {"Criterion": "Venous or arterial thrombosis, pulmonary embolism during the previous six months", "Classification": "Not Violated", "Justification": "There is no mention of thrombosis or pulmonary embolism in the patient's history."},
+    {"Criterion": "Concomitant treatment with phenytoin, phenobarbital or any other antiepileptic agent, history of epilepsy", "Classification": "Not Violated", "Justification": "The patient is not on any antiepileptic agents, and there is no history of epilepsy."},
+    {"Criterion": "Concomitant treatment with medicinal products that inhibit, induce or are substrates for CYP3A4", "Classification": "Not Violated", "Justification": "The patient's current medications, fulvestrant and palbociclib, do not fall under the specified CYP3A4 inhibitors, inducers, or substrates."},
+    {"Criterion": "Concomitant therapy with agents otherwise used in the treatment of cancer", "Classification": "Not Violated", "Justification": "The patient's current medications are for breast cancer treatment, not for other cancers."},
+    {"Criterion": "Chronic treatment with corticosteroids or another immunosuppressant", "Classification": "Not Violated", "Justification": "There is no mention of the patient being on corticosteroids or immunosuppressants."},
+    {"Criterion": "Patients with an active bleeding diathesis or taking an oral vitamin K antagonist (except low-dose Coumadin (warfarin sodium))", "Classification": "Not Violated", "Justification": "There is no mention of the patient having a bleeding diathesis or taking vitamin K antagonists."},
+    {"Criterion": "Other concurrent severe and/or uncontrolled disease which could compromise participation in the study", "Classification": "Not Violated", "Justification": "There is no mention of severe or uncontrolled diseases in the patient's history."},
+    {"Criterion": "Impairment of gastrointestinal function or gastrointestinal disease that may significantly alter the absorption of RAD001 (EVEROLIMUS)", "Classification": "Not Violated", "Justification": "There is no mention of gastrointestinal issues in the patient's history."},
+    {"Criterion": "HIV seropositivity", "Classification": "Not Violated", "Justification": "There is no mention of HIV seropositivity in the patient's history."},
+    {"Criterion": "Patient with a virological test positive to hepatitis B (HBs positive)", "Classification": "Not Violated", "Justification": "There is no mention of hepatitis B positivity in the patient's history."},
+    {"Criterion": "Previous cancer (except basal cell skin cancer or cervical carcinoma in situ) during the 3 years prior to entering the trial", "Classification": "Violated", "Justification": "The patient was diagnosed with breast cancer 3 years ago, which violates this criterion."},
+    {"Criterion": "Important pulmonary fibrosis on X-ray", "Classification": "Irrelevant", "Justification": "The patient has breast cancer, not lung cancer, making this criterion irrelevant."},
+    {"Criterion": "Women who are or could become pregnant or who are currently breastfeeding", "Classification": "Unclear", "Justification": "There is no information provided about the patient's pregnancy or breastfeeding status."}
+  ],
+  "Recap": "The patient is ineligible for the clinical trial due to a previous cancer diagnosis within the last 3 years, which violates the exclusion criteria. Additionally, several inclusion criteria are irrelevant due to the patient's breast cancer diagnosis.",
+  "Final Decision": "Ineligible"
+}
+```

@@ -1,0 +1,34 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age 18 years or older", "Classification": "Met", "Justification": "The patient is 53 years old, which satisfies the age requirement."},
+    {"Criterion": "Mantle Cell Lymphoma according to REAL/WHO classification", "Classification": "Not Met", "Justification": "The patient has metastatic non-small cell lung cancer, not Mantle Cell Lymphoma."},
+    {"Criterion": "First or second relapse or alternatively progression during therapy. Previous use of Bendamustine is permitted, if the patient has reached at least partial remission and progression occurred more than 6 months after therapy. Previous high dose chemotherapy with auto-SCT is permitted, if the patient has reached at least partial remission and progression occurred more than 12 months after therapy.", "Classification": "Irrelevant", "Justification": "The patient's condition is lung cancer, not applicable to this criterion."},
+    {"Criterion": "Patients must not be eligible for high dose chemotherapy with auto-SCT or allo-SCT.", "Classification": "Irrelevant", "Justification": "The patient's condition is lung cancer, not applicable to this criterion."},
+    {"Criterion": "Adequate bone marrow function (hemoglobin > 9g/dl, platelet count >100/nL, absolute neutrophil count >1,5 /nL)", "Classification": "Unclear", "Justification": "The patient's bone marrow function data is not provided."},
+    {"Criterion": "WHO/ECOG Performance Status 0-2", "Classification": "Unclear", "Justification": "The patient's WHO/ECOG Performance Status is not provided."},
+    {"Criterion": "Measurable disease (two perpendicular diameters by either physical or radiological examination)", "Classification": "Unclear", "Justification": "The patient's measurable disease status is not provided."},
+    {"Criterion": "Life expectancy ≥ 3 weeks", "Classification": "Unclear", "Justification": "The patient's life expectancy is not provided."},
+    {"Criterion": "Written informed consent", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Prior treatment with any m-TOR Inhibitor", "Classification": "Not Violated", "Justification": "The patient is currently treated with osimertinib, not an m-TOR inhibitor."},
+    {"Criterion": "Unstable or severe uncontrolled medical condition (e.g. severe congestive heart failure, myocardial infarction within the past 6 months, severe, uncontrolled arterial hypertension, renal insufficiency requiring hemodialysis, severe pulmonary disease, severe diabetes)", "Classification": "Unclear", "Justification": "The patient's medical condition details are not fully provided to assess this criterion."},
+    {"Criterion": "Abnormal liver function: transaminases or total bilirubin > 2 x upper limit of normal (ULN)", "Classification": "Unclear", "Justification": "The patient has mild elevations in hepatic transaminase levels, but specific values are not provided to determine if they exceed 2 x ULN."},
+    {"Criterion": "Abnormal renal function: serum creatinine > 2 x upper limit of normal", "Classification": "Not Violated", "Justification": "There is no information provided about the patient's renal function, so it is assumed not violated."},
+    {"Criterion": "Previous malignancy other than non-melanoma skin cancer or carcinoma in situ of the cervix.", "Classification": "Violated", "Justification": "The patient has a history of lung cancer, which is a previous malignancy not covered by the exceptions."},
+    {"Criterion": "Concurrent treatment with strong inhibitors of CYP3A4 and/or inducers of CYP3A4", "Classification": "Not Violated", "Justification": "The patient is treated with osimertinib, which is not a strong inhibitor or inducer of CYP3A4."},
+    {"Criterion": "Pregnant or breastfeeding women (negative pregnancy test not older than 7 days is required for women of fertile age). Men and women of child-bearing potential must agree to use adequate contraception (i.e. failure rate < 1% p.a. )", "Classification": "Unclear", "Justification": "The patient's pregnancy status or contraceptive use is not provided."},
+    {"Criterion": "Major surgery within 4 weeks before study entry; minor procedures (e.g. Implantation i.v. port catheter, Lymphnode biopsy) within 1 week before study entry", "Classification": "Not Violated", "Justification": "There is no information provided about recent surgeries, so it is assumed not violated."},
+    {"Criterion": "Previous therapy with any investigational agents within 28 days before study entry", "Classification": "Not Violated", "Justification": "The patient is currently on osimertinib, which is not an investigational agent."},
+    {"Criterion": "Concomitant immunotherapy (e.g. Rituximab) or Chemotherapy other than Bendamustine. Use of systemic steroids should be documented and the Principal Investigator be informed.", "Classification": "Not Violated", "Justification": "The patient is on osimertinib, not immunotherapy or chemotherapy other than Bendamustine."},
+    {"Criterion": "Central nervous system (CNS) lymphomatous involvement", "Classification": "Irrelevant", "Justification": "The patient's condition is lung cancer, not applicable to this criterion."},
+    {"Criterion": "HIV positivity", "Classification": "Not Violated", "Justification": "There is no information provided about HIV status, so it is assumed not violated."},
+    {"Criterion": "Current or chronic hepatitis B or hepatitis C infection", "Classification": "Not Violated", "Justification": "There is no information provided about hepatitis B or C infection, so it is assumed not violated."},
+    {"Criterion": "Severe psychiatric illness or Individuals that are placed in an institution due to a magisterial or judiciary command.", "Classification": "Not Violated", "Justification": "There is no information provided about psychiatric illness, so it is assumed not violated."},
+    {"Criterion": "Inability to comply with study requirements", "Classification": "Unclear", "Justification": "The patient's ability to comply with study requirements is not provided."}
+  ],
+  "Recap": "The patient is ineligible for the clinical trial due to having a previous malignancy (lung cancer) that does not meet the exceptions specified in the exclusion criteria. Additionally, the patient's condition (lung cancer) does not match the required Mantle Cell Lymphoma diagnosis for inclusion.",
+  "Final Decision": "Ineligible"
+}
+```

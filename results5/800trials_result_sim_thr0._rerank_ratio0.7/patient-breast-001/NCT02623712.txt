@@ -1,0 +1,15 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "aged ≥35 years", "Classification": "Met", "Justification": "The patient is 47 years old, which satisfies the age requirement of being 35 years or older."},
+    {"Criterion": "at least one nodule measuring ≤15 mm in average diameter on chest CT", "Classification": "Unclear", "Justification": "There is no information provided about the presence or size of lung nodules in the patient's data."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Pregnant Women", "Classification": "Not Violated", "Justification": "There is no information indicating that the patient is pregnant."},
+    {"Criterion": "Age <35 years", "Classification": "Not Violated", "Justification": "The patient is 47 years old, which does not violate the age criterion."},
+    {"Criterion": "Known diagnosis of cancer (except non-melanoma skin cancer) within 5 years", "Classification": "Violated", "Justification": "The patient was diagnosed with metastatic breast cancer at age 45, which is within the 5-year window from the current age of 47."}
+  ],
+  "Recap": "The patient meets the age criterion for inclusion but lacks information on lung nodules. However, the patient is disqualified due to a recent cancer diagnosis within the past 5 years.",
+  "Final Decision": "Ineligible"
+}
+```

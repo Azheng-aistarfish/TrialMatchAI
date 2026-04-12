@@ -1,0 +1,18 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "female adult (18 years old)", "Classification": "Met", "Justification": "The patient is a 47-year-old female, which satisfies the criterion of being an adult female."},
+    {"Criterion": "diagnosed with stage I-III breast cancer", "Classification": "Not Met", "Justification": "The patient is diagnosed with Stage IV breast cancer, which does not meet the criterion of having Stage I-III breast cancer."},
+    {"Criterion": "major treatment completed at least 3 months ago (i.e. surgery, chemotherapy, and/or radiotherapy)", "Classification": "Unclear", "Justification": "There is no specific information provided about the completion of major treatments such as surgery, chemotherapy, or radiotherapy, nor the timeline of these treatments."},
+    {"Criterion": "no communication difficulties (visual and auditory)", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's communication abilities, making this criterion irrelevant to the assessment."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "having recurrent or metastatic breast cancer", "Classification": "Violated", "Justification": "The patient has metastatic breast cancer, which violates this exclusion criterion."},
+    {"Criterion": "being involved in other studies at the same time", "Classification": "Not Violated", "Justification": "There is no information indicating that the patient is involved in other studies, so this criterion is not violated."},
+    {"Criterion": "patients who are unable to cooperate with the trial and follow-up", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's ability to cooperate with the trial, making this criterion irrelevant."},
+    {"Criterion": "having a history of mental illness in past 3 months (major depression disorder)", "Classification": "Not Violated", "Justification": "There is no information provided about a history of mental illness, so this criterion is not violated."}
+  ],
+  "Recap": "The patient is a 47-year-old female with metastatic breast cancer, which disqualifies her based on the exclusion criteria. She meets the age and gender inclusion criteria but does not meet the stage of cancer requirement. There is insufficient information about the completion of major treatments and her communication abilities.",
+  "Final Decision": "Ineligible"
+}
+```

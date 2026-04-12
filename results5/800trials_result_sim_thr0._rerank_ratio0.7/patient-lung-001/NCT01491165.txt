@@ -1,0 +1,20 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Clinical diagnosis of liver cirrhosis", "Classification": "Unclear", "Justification": "The patient's description does not mention a diagnosis of liver cirrhosis."},
+    {"Criterion": "Without hepatic encephalopathy", "Classification": "Irrelevant", "Justification": "There is no mention of hepatic encephalopathy in the patient's data, making this criterion irrelevant."},
+    {"Criterion": "No ascites or have easily dissipated ascites", "Classification": "Irrelevant", "Justification": "The patient's data does not mention ascites, so this criterion is irrelevant."},
+    {"Criterion": "Value of bilirubin is less than 100", "Classification": "Unclear", "Justification": "The patient's data does not provide bilirubin levels, making it unclear if this criterion is met."},
+    {"Criterion": "Value of albumin is greater than 16 g / L", "Classification": "Unclear", "Justification": "The patient's data does not provide albumin levels, making it unclear if this criterion is met."},
+    {"Criterion": "Prothrombin time is less than 21 seconds", "Classification": "Unclear", "Justification": "The patient's data does not provide prothrombin time, making it unclear if this criterion is met."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Severe cardiovascular disease, and immunocompromised patients", "Classification": "Not Violated", "Justification": "The patient's data does not mention severe cardiovascular disease or immunocompromised status."},
+    {"Criterion": "Patients with localized lesions affecting graft infection", "Classification": "Irrelevant", "Justification": "The patient's data does not mention any localized lesions or graft infection, making this criterion irrelevant."},
+    {"Criterion": "Coagulation disorders", "Classification": "Unclear", "Justification": "The patient's data does not provide information on coagulation disorders, making it unclear if this criterion is violated."},
+    {"Criterion": "Liver nodules more than 2cm or Liver cancer", "Classification": "Not Violated", "Justification": "The patient has lung cancer, not liver cancer, and there is no mention of liver nodules in the data."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for liver cirrhosis, and there is insufficient data to assess other inclusion criteria. The exclusion criteria for severe cardiovascular disease, immunocompromised status, and liver cancer are not violated. However, the presence of coagulation disorders is unclear.",
+  "Final Decision": "Ineligible"
+}
+```

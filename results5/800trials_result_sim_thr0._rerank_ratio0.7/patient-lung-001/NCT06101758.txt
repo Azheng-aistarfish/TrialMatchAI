@@ -1,0 +1,20 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Ability to express informed consent", "Classification": "Met", "Justification": "The patient has provided written informed consent, indicating her ability to express informed consent."},
+    {"Criterion": "Diagnosis of liver cirrhosis or non-alcoholic fatty liver disease or hepatocellular carcinoma based on clinical characteristics, biochemical serum tests and liver imaging examination or liver histologic examination if available", "Classification": "Not Met", "Justification": "The patient is diagnosed with metastatic non-small cell lung cancer, not liver cirrhosis, non-alcoholic fatty liver disease, or hepatocellular carcinoma."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "inability to express informed consent", "Classification": "Not Violated", "Justification": "The patient has provided written informed consent, indicating she can express informed consent."},
+    {"Criterion": "pregnancy", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's pregnancy status, making this criterion irrelevant."},
+    {"Criterion": "presence of a concomitant oncologic disease different from hepatocellular carcinoma", "Classification": "Violated", "Justification": "The patient has metastatic non-small cell lung cancer, which is a concomitant oncologic disease different from hepatocellular carcinoma."},
+    {"Criterion": "presence of a concomitant gastrointestinal disease able to influence the absorption and digestion of nutrients (e.g. inflammatory bowel disease, celiac disease, short-bowel syndrome, congenital defects of metabolism)", "Classification": "Not Violated", "Justification": "There is no information provided about the patient having any gastrointestinal diseases that influence nutrient absorption and digestion."},
+    {"Criterion": "presence of a concomitant gastrointestinal or neurologic disease able to influence the ability of feeding (e.g. dysphagia, parkinson disease, neuromuscular diseases, diseases of the autonomic nervous system, cognitive impairment or dementia)", "Classification": "Unclear", "Justification": "The patient has exertional dyspnea and a chronic cough, but there is no specific information about gastrointestinal or neurologic diseases affecting feeding."},
+    {"Criterion": "chronic kidney disease from stage 3 B (IIIB) according to Kidney Disease: Improving Global Outcomes (KDIGO) classification (eGFR <45ml/min/1.73m2)", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's kidney function or eGFR, making this criterion irrelevant."},
+    {"Criterion": "chronic heart failure from stage Ney York Heart Association (NYHA) II", "Classification": "Irrelevant", "Justification": "There is no information provided about the patient's heart condition or NYHA classification, making this criterion irrelevant."},
+    {"Criterion": "concomitant infection from Mycobacterium Tuberculosis or human immunodeficiency virus or chronic parasitic infections", "Classification": "Not Violated", "Justification": "There is no information provided about the patient having any of these infections."}
+  ],
+  "Recap": "The patient meets the inclusion criterion of being able to express informed consent but does not meet the criterion of having a liver-related diagnosis. She violates the exclusion criterion of having a concomitant oncologic disease different from hepatocellular carcinoma. Other exclusion criteria are either not violated or irrelevant due to lack of information.",
+  "Final Decision": "Ineligible"
+}
+```

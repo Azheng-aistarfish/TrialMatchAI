@@ -1,0 +1,26 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Age ranges from 18 to 70 years inclusive", "Classification": "Met", "Justification": "The patient is 58 years old, which falls within the specified age range of 18 to 70 years."},
+    {"Criterion": "Essential hypertension", "Classification": "Unclear", "Justification": "The patient's medical history does not explicitly mention essential hypertension, so it cannot be confirmed or denied based on the provided data."},
+    {"Criterion": "Office Systolic BP (SBP) ≥ 150 mmHg or Diastolic BP (DBP) ≥ 90mmHg", "Classification": "Unclear", "Justification": "There is no specific information about the patient's current blood pressure readings in the provided data."},
+    {"Criterion": "3 or more anti-hypertensive medications of different classes, including a diuretic, or documented intolerance to multiple medications", "Classification": "Unclear", "Justification": "The patient's medication list does not include any anti-hypertensive medications, so it is unclear if this criterion is met."},
+    {"Criterion": "Type 2 Diabetes Mellitus on oral hypoglycaemic agent (OHA)", "Classification": "Met", "Justification": "The patient has Type 2 diabetes mellitus and is taking metformin, an oral hypoglycaemic agent."},
+    {"Criterion": "2 functional kidneys; eGFR ≥ 45 mL/min/1.73m² (MDRD formula)", "Classification": "Unclear", "Justification": "There is no information provided about the patient's kidney function or eGFR, so this criterion cannot be assessed."},
+    {"Criterion": "Suitable renal anatomy compatible with the endovascular denervation procedure", "Classification": "Unclear", "Justification": "The patient's renal anatomy is not described in the provided data, making it impossible to determine suitability for the procedure."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Individual has renal artery anatomy that is ineligible for treatment including: Patients with secondary hypertension", "Classification": "Unclear", "Justification": "There is no information about the patient's renal artery anatomy or whether they have secondary hypertension."},
+    {"Criterion": "Myocardial infarction, unstable angina pectoris, cerebrovascular accident within 6 months", "Classification": "Violated", "Justification": "The patient has a history of multiple myocardial infarctions, which are recent enough to violate this exclusion criterion."},
+    {"Criterion": "Patient with type 1 diabetes mellitus", "Classification": "Not Violated", "Justification": "The patient has Type 2 diabetes mellitus, not Type 1, so this criterion is not violated."},
+    {"Criterion": "Patient on insulin due to oral drug failure", "Classification": "Not Violated", "Justification": "The patient is on metformin, an oral hypoglycaemic agent, and not on insulin, so this criterion is not violated."},
+    {"Criterion": "Renovascular abnormalities (including severe renal artery stenosis, previous renal stenting or angioplasty, or known dual renal arteries)", "Classification": "Unclear", "Justification": "There is no information provided about the patient's renal arteries or any history of renal stenting or angioplasty."},
+    {"Criterion": "Pregnancy", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Patient with any implantable device incompatible with radiofrequency energy delivery", "Classification": "Unclear", "Justification": "There is no information about any implantable devices the patient may have."},
+    {"Criterion": "Hemodynamically significant valvular heart disease for which reduction of BP would be considered hazardous", "Classification": "Unclear", "Justification": "The patient's cardiac history does not provide specific information about valvular heart disease."},
+    {"Criterion": "Any serious medical condition, which in the opinion of the investigator, may limit the life expectancy of patients or adversely affect the study", "Classification": "Unclear", "Justification": "The patient's complex cardiac history and genetic predisposition to cardiac issues may be considered serious, but this is subjective and not explicitly stated in the data."}
+  ],
+  "Recap": "The patient meets the age and Type 2 diabetes criteria but has unclear information regarding hypertension, blood pressure, kidney function, and renal anatomy. The patient violates the exclusion criterion related to recent myocardial infarctions.",
+  "Final Decision": "Ineligible"
+}
+```

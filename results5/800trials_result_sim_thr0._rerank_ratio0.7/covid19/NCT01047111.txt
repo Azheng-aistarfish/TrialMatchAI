@@ -1,0 +1,30 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients with histologically proven squamous cell esophageal cancer", "Classification": "Unclear", "Justification": "The patient's data does not mention any diagnosis of squamous cell esophageal cancer."},
+    {"Criterion": "Patients with cT1-T3/N0-N1 mid or distal third operable esophageal lesion", "Classification": "Unclear", "Justification": "There is no information provided about the patient's esophageal cancer staging or operability."},
+    {"Criterion": "Staging investigations showing no evidence of invading adjacent structure", "Classification": "Unclear", "Justification": "The patient's data lacks any staging investigation results or details about the esophageal lesion."},
+    {"Criterion": "Karnofsky performance status greater than or equal to 80%", "Classification": "Unclear", "Justification": "The patient's Karnofsky performance status is not provided in the data."},
+    {"Criterion": "Pulmonary and cardiac function must be acceptable for surgery", "Classification": "Unclear", "Justification": "There is no information on the patient's pulmonary and cardiac function in relation to surgery."},
+    {"Criterion": "Acceptable hepatic, renal and bone marrow function", "Classification": "Not Met", "Justification": "The patient has Stage 3 chronic kidney disease, indicating renal function issues."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients with low performance status(Karnofsky score <80%)", "Classification": "Unclear", "Justification": "The patient's Karnofsky performance status is not provided."},
+    {"Criterion": "Past history of malignancy", "Classification": "Irrelevant", "Justification": "There is no mention of a past history of malignancy in the patient's data."},
+    {"Criterion": "Stage investigations indicating unresectable advanced disease(T4 or M1a,M1b)", "Classification": "Irrelevant", "Justification": "There is no information on the patient's cancer staging or resectability."},
+    {"Criterion": "Patients with any other serious underlying medical condition", "Classification": "Violated", "Justification": "The patient has multiple serious conditions including COVID-19, chronic kidney disease, cardiomyopathy, and obesity."},
+    {"Criterion": "Patients medically unfit for surgical resection", "Classification": "Unclear", "Justification": "There is no specific information on the patient's fitness for surgical resection."},
+    {"Criterion": "Patients with pulmonary reserve inadequate to undergo thoracotomy", "Classification": "Unclear", "Justification": "The patient's pulmonary reserve status is not detailed in the data."},
+    {"Criterion": "Patients with a significant history of unstable cardiovascular disease", "Classification": "Unclear", "Justification": "The patient has cardiomyopathy, but there is no information on the stability of the cardiovascular disease."},
+    {"Criterion": "Uncontrolled diabetes mellitus or uncontrolled infection", "Classification": "Unclear", "Justification": "The patient has diabetes mellitus, but there is no information on whether it is controlled or uncontrolled."},
+    {"Criterion": "Significant psychiatric illness", "Classification": "Irrelevant", "Justification": "There is no mention of psychiatric illness in the patient's data."},
+    {"Criterion": "Patients with severe hepatic cirrhosis or serious renal disease", "Classification": "Violated", "Justification": "The patient has Stage 3 chronic kidney disease, indicating serious renal issues."},
+    {"Criterion": "Patients considered of salvage surgery after definitive chemoradiotherapy", "Classification": "Irrelevant", "Justification": "There is no mention of the patient undergoing chemoradiotherapy."},
+    {"Criterion": "Patients after neoadjuvant chemoradiotherapy", "Classification": "Irrelevant", "Justification": "There is no mention of the patient undergoing neoadjuvant chemoradiotherapy."},
+    {"Criterion": "Patients above the age of 75 years", "Classification": "Irrelevant", "Justification": "The patient's age is not provided in the data."},
+    {"Criterion": "Patients unreliable for follow up", "Classification": "Irrelevant", "Justification": "There is no information on the patient's reliability for follow-up."}
+  ],
+  "Recap": "The patient has multiple serious underlying medical conditions, including COVID-19, chronic kidney disease, and cardiomyopathy, which violate the exclusion criteria. Additionally, the patient's renal function is not acceptable for surgery, violating another exclusion criterion. The inclusion criteria are largely unclear due to missing information on cancer diagnosis, staging, and performance status.",
+  "Final Decision": "Ineligible"
+}
+```

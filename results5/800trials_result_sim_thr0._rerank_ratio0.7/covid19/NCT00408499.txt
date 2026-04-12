@@ -1,0 +1,35 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "For the phase I portion of the study, patients must have cytologically or histologically proven advanced solid tumors for which there is no standard effective therapy available.", "Classification": "Unclear", "Justification": "The patient's profile does not provide information about the presence of advanced solid tumors or their histological or cytological status."},
+    {"Criterion": "Any number of prior chemotherapy regimens are allowed for both the Phase I and Phase II portions.", "Classification": "Irrelevant", "Justification": "There is no information about prior chemotherapy regimens in the patient's profile."},
+    {"Criterion": "For the phase II portion, patients must have cytologically or histologically proven selected stage IIIB (pleural effusion) or IV NSCLC.", "Classification": "Unclear", "Justification": "The patient's profile does not mention any specific stage of NSCLC or other solid tumors."},
+    {"Criterion": "Patients must have measurable disease by RECIST criteria for the Phase II portion.", "Classification": "Unclear", "Justification": "There is no information provided about the patient's disease being measurable by RECIST criteria."},
+    {"Criterion": "Must be 18 years of age or older.", "Classification": "Irrelevant", "Justification": "The patient's age is not specified in the profile."},
+    {"Criterion": "Patients must have a performance status of 0 -2.", "Classification": "Unclear", "Justification": "The patient's performance status is not mentioned in the profile."},
+    {"Criterion": "Patients must have an estimated survival of at least 3 months.", "Classification": "Unclear", "Justification": "There is no information about the patient's estimated survival in the profile."},
+    {"Criterion": "Any prior chemotherapy must have been completed at least 4 weeks prior to start of treatment.", "Classification": "Irrelevant", "Justification": "There is no information about prior chemotherapy in the patient's profile."},
+    {"Criterion": "Patients must have adequate renal function as documented by a serum creatinine < 1.5 mg/dl or a calculated creatinine clearance of > 45 ml/min.", "Classification": "Violated", "Justification": "The patient has Stage 3 chronic kidney disease, which likely indicates inadequate renal function."},
+    {"Criterion": "Patients must have adequate liver function as documented by serum bilirubin < 1.5 x ULN. AST must be < 2.5 x institutional upper limit of normal.", "Classification": "Unclear", "Justification": "There is no information about the patient's liver function in the profile."},
+    {"Criterion": "Patients must have a pretreatment granulocyte count of >1500/mm3 and platelet count of >100 000/mm3.", "Classification": "Unclear", "Justification": "The patient's granulocyte and platelet counts are not provided in the profile."},
+    {"Criterion": "Patients with asymptomatic treated brain metastasis may be included if they are neurologically stable and have been off steroids and anticonvulsants for at least 2 weeks.", "Classification": "Irrelevant", "Justification": "There is no mention of brain metastasis in the patient's profile."},
+    {"Criterion": "All patients must give voluntary written informed consent.", "Classification": "Met", "Justification": "The patient has obtained written informed consent."},
+    {"Criterion": "Patients must be able to take and retain oral medication.", "Classification": "Unclear", "Justification": "There is no information about the patient's ability to take and retain oral medication."},
+    {"Criterion": "Documentation of a negative serum pregnancy test.", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."},
+    {"Criterion": "Patients on coumadin should have their INR monitored at least once per week or more frequently.", "Classification": "Irrelevant", "Justification": "There is no mention of the patient being on coumadin in the profile."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "Patients who have received erlotinib, cetuximab, or any other EGFR-directed therapy (excluding herceptin).", "Classification": "Not Violated", "Justification": "There is no information about the patient receiving any EGFR-directed therapies."},
+    {"Criterion": "Patients with symptomatic brain metastasis or still requiring steroids and anti-convulsants may not be included.", "Classification": "Not Violated", "Justification": "There is no mention of brain metastasis or the use of steroids and anti-convulsants in the patient's profile."},
+    {"Criterion": "For the phase II portion of the study, no other prior malignancy is allowed except for the following: adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer, adequately treated stage I or II cancer from which the patient is currently in complete remission, and any other cancer from which the patient has been disease-free for over five years.", "Classification": "Unclear", "Justification": "There is no information about any prior malignancies in the patient's profile."},
+    {"Criterion": "Patients with acute hepatitis or known HIV.", "Classification": "Not Violated", "Justification": "There is no mention of acute hepatitis or HIV in the patient's profile."},
+    {"Criterion": "Patients with active or uncontrolled infection.", "Classification": "Violated", "Justification": "The patient is experiencing acute respiratory failure, which suggests an active infection."},
+    {"Criterion": "Patients with significant history of uncontrolled cardiac disease; i.e., uncontrolled hypertension, unstable angina, recent myocardial infarction (within prior 6 months), uncontrolled congestive heart failure, and cardiomyopathy with decreased ejection fraction.", "Classification": "Unclear", "Justification": "The patient has cardiomyopathy, but there is no information about its control status or ejection fraction."},
+    {"Criterion": "Patients with prior severe infusion reaction to a monoclonal antibody.", "Classification": "Not Violated", "Justification": "There is no mention of a prior severe infusion reaction to a monoclonal antibody in the patient's profile."},
+    {"Criterion": "Any concurrent chemotherapy not indicated in the study protocol or any other investigational agent(s).", "Classification": "Not Violated", "Justification": "There is no information about concurrent chemotherapy or investigational agents in the patient's profile."},
+    {"Criterion": "Pregnant or breastfeeding females as the effects of these drugs on the unborn fetus are unknown.", "Classification": "Irrelevant", "Justification": "The patient is male, so this criterion does not apply."}
+  ],
+  "Recap": "The patient has Stage 3 chronic kidney disease, which likely violates the renal function criterion. The patient is experiencing acute respiratory failure, indicating an active infection, which violates the exclusion criterion for active or uncontrolled infection. Other criteria remain unclear due to insufficient information.",
+  "Final Decision": "Ineligible"
+}
+```

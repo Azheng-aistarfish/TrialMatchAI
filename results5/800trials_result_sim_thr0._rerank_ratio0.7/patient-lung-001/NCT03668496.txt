@@ -1,0 +1,37 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "Subjects with histopathological diagnosis of squamous non-small cell lung cancer (SqNSCLC) and clinical stage IV", "Classification": "Not Met", "Justification": "The patient has adenocarcinoma, not squamous cell carcinoma, which does not meet the specific histopathological requirement."},
+    {"Criterion": "Has not received prior systemic treatment for metastatic NSCLC", "Classification": "Not Met", "Justification": "The patient is currently undergoing treatment with osimertinib, indicating prior systemic treatment for metastatic NSCLC."},
+    {"Criterion": "Has a performance status of 0 or 1 on the Eastern Cooperative Oncology Group (ECOG) Performance Status", "Classification": "Unclear", "Justification": "The patient's ECOG performance status is not provided in the data."},
+    {"Criterion": "Has archived Tumor tissue samples", "Classification": "Unclear", "Justification": "There is no information provided about the availability of archived tumor tissue samples."},
+    {"Criterion": "Subject must have a measurable target lesion based on RECIST v1.1", "Classification": "Unclear", "Justification": "The patient's data does not specify whether there is a measurable target lesion according to RECIST v1.1 criteria."},
+    {"Criterion": "Has adequate organ function", "Classification": "Unclear", "Justification": "While there are mild elevations in hepatic transaminase levels, there is no comprehensive assessment of overall organ function provided."},
+    {"Criterion": "Women of childbearing age must undergo a serological pregnancy test within 7 days before the first dose with negative results", "Classification": "Unclear", "Justification": "There is no information on whether a pregnancy test was conducted or its results."},
+    {"Criterion": "Subjects should be voluntarily participate in clinical studies and informed consent should be signed", "Classification": "Met", "Justification": "Written informed consent has been obtained from the patient or their legal representative."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "active brain metastases and meningeal metastasis", "Classification": "Not Violated", "Justification": "There is no mention of brain or meningeal metastases in the patient's data."},
+    {"Criterion": "uncontrollable tumor-related pain", "Classification": "Not Violated", "Justification": "The patient's symptoms are described as severe chronic cough and exertional dyspnea, not uncontrollable pain."},
+    {"Criterion": "massive pleural effusion, peritoneal effusion or pericardial effusion which cannot be controlled by repeated drainage", "Classification": "Not Violated", "Justification": "There is no mention of massive effusions in the patient's data."},
+    {"Criterion": "radiotherapy to lung that is >30 Gy within 24 weeks before the first dose", "Classification": "Not Violated", "Justification": "There is no information provided about recent radiotherapy to the lung."},
+    {"Criterion": "imaging (CT or MRI) showed that the tumor invading the large vessels", "Classification": "Not Violated", "Justification": "There is no mention of tumor invasion into large vessels in the patient's data."},
+    {"Criterion": "Known EGFR/ALK mutation", "Classification": "Violated", "Justification": "The patient has an actionable EGFR exon 19 deletion, which is a known EGFR mutation."},
+    {"Criterion": "subjects with any known or suspected autoimmune diseases", "Classification": "Not Violated", "Justification": "There is no mention of autoimmune diseases in the patient's data."},
+    {"Criterion": "subjects with known or suspected interstitial pneumonia", "Classification": "Not Violated", "Justification": "There is no mention of interstitial pneumonia in the patient's data."},
+    {"Criterion": "Subjects with severe cardiovascular and cerebrovascular diseases", "Classification": "Not Violated", "Justification": "There is no mention of severe cardiovascular or cerebrovascular diseases in the patient's data."},
+    {"Criterion": "arteriovenous thrombosis events, such as deep vein thrombosis and pulmonary embolism, occurred within 3 months", "Classification": "Not Violated", "Justification": "There is no mention of recent thrombosis events in the patient's data."},
+    {"Criterion": "female subjects who are pregnant or lactation or who plan to be pregnant during the study period", "Classification": "Not Violated", "Justification": "There is no mention of pregnancy or lactation in the patient's data."},
+    {"Criterion": "positive HIV test", "Classification": "Not Violated", "Justification": "There is no mention of an HIV test or positive result in the patient's data."},
+    {"Criterion": "active hepatitis B", "Classification": "Not Violated", "Justification": "There is no mention of hepatitis B in the patient's data."},
+    {"Criterion": "evidence of active TB infection within 1 year before first dose", "Classification": "Not Violated", "Justification": "There is no mention of active TB infection in the patient's data."},
+    {"Criterion": "severe infection occurred within 4 weeks before the first dose", "Classification": "Not Violated", "Justification": "There is no mention of a severe infection in the patient's data."},
+    {"Criterion": "patients with clinically significant bleeding symptoms or with obvious bleeding tendency in the first month", "Classification": "Not Violated", "Justification": "There is no mention of bleeding symptoms or tendencies in the patient's data."},
+    {"Criterion": "subjects who is on systemic immunogenic agents", "Classification": "Not Violated", "Justification": "The patient is on osimertinib, which is not classified as a systemic immunogenic agent."},
+    {"Criterion": "a history of severe allergic reactions to other monoclonal antibodies/fusion proteins", "Classification": "Not Violated", "Justification": "There is no mention of a history of severe allergic reactions to monoclonal antibodies or fusion proteins in the patient's data."},
+    {"Criterion": "History of severe allergic reactions to carboplatin or paclitaxel or their preventive drugs", "Classification": "Not Violated", "Justification": "There is no mention of a history of severe allergic reactions to carboplatin or paclitaxel in the patient's data."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria due to having adenocarcinoma instead of squamous cell carcinoma and having received prior systemic treatment. The patient violates the exclusion criterion due to a known EGFR mutation. Other criteria are either unclear or not violated.",
+  "Final Decision": "Ineligible"
+}
+```

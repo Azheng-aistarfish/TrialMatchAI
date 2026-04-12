@@ -1,0 +1,19 @@
+```json
+{
+  "Inclusion_Criteria_Evaluation": [
+    {"Criterion": "able to speak/read English", "Classification": "Unclear", "Justification": "The patient's ability to speak or read English is not mentioned in the provided data."},
+    {"Criterion": "diagnosed with chronic phase CML", "Classification": "Not Met", "Justification": "The patient is diagnosed with COVID-19, not chronic phase CML."},
+    {"Criterion": "not have been treated for other cancer (except non-melanoma skin cancer) in the past 5 years", "Classification": "Irrelevant", "Justification": "The patient's cancer history is not mentioned, making this criterion irrelevant to the current assessment."},
+    {"Criterion": "be under the care of a Moffitt Cancer Center (MCC) physician", "Classification": "Unclear", "Justification": "There is no information provided about the patient's current physician or care center."},
+    {"Criterion": "be on a stable dose of the same oral TKI for >= 3 months", "Classification": "Not Met", "Justification": "The patient is not on any TKI treatment as per the provided data."},
+    {"Criterion": "new onset or worsening of fatigue since starting TKI", "Classification": "Not Met", "Justification": "The patient is not on TKI treatment, so this criterion cannot be met."},
+    {"Criterion": "report moderate-severe fatigue in past week (FSI average rating >= 4 of 0-10)", "Classification": "Unclear", "Justification": "There is no information on the patient's fatigue levels or FSI rating."},
+    {"Criterion": "have no clinical history of disease (e.g., multiple sclerosis, fibromyalgia) that could account for their fatigue presentation", "Classification": "Not Met", "Justification": "The patient has multiple conditions like cardiomyopathy and diabetes, which could account for fatigue."}
+  ],
+  "Exclusion_Criteria_Evaluation": [
+    {"Criterion": "scheduled to discontinue their TKI under medical supervision within the next 3 months", "Classification": "Irrelevant", "Justification": "The patient is not on TKI treatment, making this criterion irrelevant."}
+  ],
+  "Recap": "The patient does not meet the inclusion criteria for chronic phase CML, is not on TKI treatment, and has conditions that could account for fatigue. The exclusion criteria are irrelevant due to the lack of TKI treatment.",
+  "Final Decision": "Ineligible"
+}
+```

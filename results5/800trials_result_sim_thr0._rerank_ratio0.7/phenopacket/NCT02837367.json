@@ -1,0 +1,58 @@
+{
+    "Inclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Adults: between 18 and 70 years old",
+            "Classification": "Met",
+            "Justification": "The patient is 58 years old, which falls within the specified age range of 18 to 70 years."
+        },
+        {
+            "Criterion": "obesity present as defined by body mass index (BMI) ≥30 kg/m2 and by abdominal circumference ≥84 cm (women), and ≥90 cm (men)",
+            "Classification": "Unclear",
+            "Justification": "The patient's BMI and abdominal circumference are not provided in the data, making it impossible to determine if this criterion is met."
+        },
+        {
+            "Criterion": "dyslipidemia present as defined by: serum Cholesterol ≥200 mg/dl, HDLc ≤50 mg/dl (women) or ≤40 mg/dl (men), serum Triglycerides ≥150 mg/dl, or present treatment for dyslipidemia (e.g. statins, fibrates, omega-3 fatty acids, cholestyramine, ezetimibe)",
+            "Classification": "Met",
+            "Justification": "The patient's LDL cholesterol level is over 190 mg/dL, and he is currently on atorvastatin, a statin, indicating treatment for dyslipidemia."
+        }
+    ],
+    "Exclusion_Criteria_Evaluation": [
+        {
+            "Criterion": "Adults: diagnosed for any type of cancer, or medical history of cancer",
+            "Classification": "Not Violated",
+            "Justification": "There is no mention of cancer in the patient's medical history."
+        },
+        {
+            "Criterion": "any auto-immune disease",
+            "Classification": "Not Violated",
+            "Justification": "The patient's medical history does not include any autoimmune diseases."
+        },
+        {
+            "Criterion": "any psychiatric disorder",
+            "Classification": "Not Violated",
+            "Justification": "There is no indication of any psychiatric disorders in the patient's profile."
+        },
+        {
+            "Criterion": "blood coagulation disorders",
+            "Classification": "Not Violated",
+            "Justification": "The patient's medical history does not mention any blood coagulation disorders."
+        },
+        {
+            "Criterion": "history of drug abuse",
+            "Classification": "Not Violated",
+            "Justification": "The patient's history does not include any drug abuse."
+        },
+        {
+            "Criterion": "alcohol abuse evaluated using AUDIT-C",
+            "Classification": "Unclear",
+            "Justification": "There is no information provided about the patient's alcohol use or AUDIT-C evaluation."
+        },
+        {
+            "Criterion": "familial hypercholesterolemia",
+            "Classification": "Violated",
+            "Justification": "Genetic testing confirmed a heterozygous LDLR mutation consistent with familial hypercholesterolemia."
+        }
+    ],
+    "Recap": "The patient meets the age and dyslipidemia criteria for inclusion but lacks information on obesity. He does not violate most exclusion criteria except for familial hypercholesterolemia, which is a disqualifying factor.",
+    "Final Decision": "Ineligible"
+}
